@@ -1,0 +1,5093 @@
+{
+  "generated_at": "2026-02-14T03:33:34.109Z",
+  "lookback_days": 60,
+  "configuration": {
+    "vc_count": 100,
+    "per_vc_limit": 5,
+    "concurrency": 6
+  },
+  "meta": {
+    "requests_succeeded": 0,
+    "requests_failed": 100,
+    "scraped_deals": 0,
+    "total_deals": 200,
+    "demo_mode": true,
+    "deals_with_coordinates": 200,
+    "runtime_ms": 65,
+    "note": "Live scrape unavailable, using synthetic demo data. Disable demo mode for production signals.",
+    "error_sample": [
+      {
+        "vc": "accel",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "andreessen-horowitz",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "sequoia-capital",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "lightspeed",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "bessemer",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "general-catalyst",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "khosla",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "founders-fund",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "greylock",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "nea",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "insight",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "ivp",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  "deals": [
+    {
+      "id": "demo_0_accel",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Vector Labs",
+      "title": "Vector Labs raises $2M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-14T03:33:34.108Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 2,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_60_future",
+      "vc_id": "future",
+      "vc_name": "Future Ventures",
+      "company": "Vector Energy",
+      "title": "Vector Energy raises $14M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-14T03:29:46.648Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 14,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_120_first-round",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Vector Security",
+      "title": "Vector Security raises $12M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-14T03:25:59.188Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 12,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_180_intel-capital",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Vector Health",
+      "title": "Vector Health raises $10M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-14T03:22:11.728Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_1_andreessen-horowitz",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Axiom Health",
+      "title": "Axiom Health raises $97M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-13T03:33:30.317Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 97,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_61_social-capital",
+      "vc_id": "social-capital",
+      "vc_name": "Social Capital",
+      "company": "Axiom Labs",
+      "title": "Axiom Labs raises $233M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-13T03:29:42.857Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 233,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_121_craft",
+      "vc_id": "craft",
+      "vc_name": "Craft Ventures",
+      "company": "Axiom Energy",
+      "title": "Axiom Energy raises $148M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-13T03:25:55.397Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 148,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_181_qualcomm",
+      "vc_id": "qualcomm",
+      "vc_name": "Qualcomm Ventures",
+      "company": "Axiom Security",
+      "title": "Axiom Security raises $284M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-13T03:22:07.937Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 284,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_2_sequoia-capital",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Pulse Security",
+      "title": "Pulse Security raises $44M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-12T03:33:26.526Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 44,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_62_sutter-hill",
+      "vc_id": "sutter-hill",
+      "vc_name": "Sutter Hill Ventures",
+      "company": "Pulse Health",
+      "title": "Pulse Health raises $20M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-12T03:29:39.066Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_122_coatue",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Pulse Labs",
+      "title": "Pulse Labs raises $32M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-12T03:25:51.606Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 32,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_182_cisco",
+      "vc_id": "cisco",
+      "vc_name": "Cisco Investments",
+      "company": "Pulse Energy",
+      "title": "Pulse Energy raises $44M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-12T03:22:04.146Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 44,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_3_lightspeed",
+      "vc_id": "lightspeed",
+      "vc_name": "Lightspeed Venture Partners",
+      "company": "Quanta Energy",
+      "title": "Quanta Energy raises $251M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-11T03:33:22.735Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 251,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_63_wing",
+      "vc_id": "wing",
+      "vc_name": "Wing Venture Capital",
+      "company": "Quanta Security",
+      "title": "Quanta Security raises $570M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-11T03:29:35.275Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 570,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_123_tcv",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Quanta Health",
+      "title": "Quanta Health raises $889M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-11T03:25:47.815Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 889,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_183_salesforce",
+      "vc_id": "salesforce",
+      "vc_name": "Salesforce Ventures",
+      "company": "Quanta Labs",
+      "title": "Quanta Labs raises $507M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-11T03:22:00.355Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 507,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_4_bessemer",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Nova Systems",
+      "title": "Nova Systems raises $98M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-10T03:33:18.944Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 98,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_64_eclipse",
+      "vc_id": "eclipse",
+      "vc_name": "Eclipse Ventures",
+      "company": "Nova Automation",
+      "title": "Nova Automation raises $117M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-10T03:29:31.484Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 117,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_124_openview",
+      "vc_id": "openview",
+      "vc_name": "OpenView",
+      "company": "Nova Bio",
+      "title": "Nova Bio raises $45M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-10T03:25:44.024Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 45,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_184_gv",
+      "vc_id": "gv",
+      "vc_name": "GV",
+      "company": "Nova Robotics",
+      "title": "Nova Robotics raises $64M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-10T03:21:56.564Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 64,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_5_general-catalyst",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "Northstar Robotics",
+      "title": "Northstar Robotics raises $3M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-09T03:33:15.153Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 3,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_65_root",
+      "vc_id": "root",
+      "vc_name": "Root Ventures",
+      "company": "Northstar Systems",
+      "title": "Northstar Systems raises $15M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-09T03:29:27.693Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 15,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_125_scale-vp",
+      "vc_id": "scale-vp",
+      "vc_name": "Scale Venture Partners",
+      "company": "Northstar Automation",
+      "title": "Northstar Automation raises $13M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-09T03:25:40.233Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 13,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_185_capitalg",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Northstar Bio",
+      "title": "Northstar Bio raises $11M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-09T03:21:52.773Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 11,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_6_khosla",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Linear Bio",
+      "title": "Linear Bio raises $182M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-08T03:33:11.362Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 182,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_66_zetta",
+      "vc_id": "zetta",
+      "vc_name": "Zetta Venture Partners",
+      "company": "Linear Robotics",
+      "title": "Linear Robotics raises $97M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-08T03:29:23.902Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 97,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_126_norwest",
+      "vc_id": "norwest",
+      "vc_name": "Norwest Venture Partners",
+      "company": "Linear Systems",
+      "title": "Linear Systems raises $233M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-08T03:25:36.442Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 233,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_186_gradient",
+      "vc_id": "gradient",
+      "vc_name": "Gradient Ventures",
+      "company": "Linear Automation",
+      "title": "Linear Automation raises $148M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-08T03:21:48.982Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 148,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_7_founders-fund",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Nimbus Automation",
+      "title": "Nimbus Automation raises $21M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-07T03:33:07.571Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 21,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_67_prelude",
+      "vc_id": "prelude",
+      "vc_name": "Prelude Ventures",
+      "company": "Nimbus Bio",
+      "title": "Nimbus Bio raises $33M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-07T03:29:20.111Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 33,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_127_venrock",
+      "vc_id": "venrock",
+      "vc_name": "Venrock",
+      "company": "Nimbus Robotics",
+      "title": "Nimbus Robotics raises $45M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-07T03:25:32.651Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 45,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_187_m12",
+      "vc_id": "m12",
+      "vc_name": "M12",
+      "company": "Nimbus Systems",
+      "title": "Nimbus Systems raises $21M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-07T03:21:45.191Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 21,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_8_greylock",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Flux Compute",
+      "title": "Flux Compute raises $336M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-06T03:33:03.780Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 336,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_68_k9",
+      "vc_id": "k9",
+      "vc_name": "K9 Ventures",
+      "company": "Flux Platforms",
+      "title": "Flux Platforms raises $655M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-06T03:29:16.320Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 655,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_128_rre",
+      "vc_id": "rre",
+      "vc_name": "RRE Ventures",
+      "company": "Flux Works",
+      "title": "Flux Works raises $273M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-06T03:25:28.860Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 273,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_188_samsung-next",
+      "vc_id": "samsung-next",
+      "vc_name": "Samsung Next",
+      "company": "Flux Networks",
+      "title": "Flux Networks raises $592M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-06T03:21:41.400Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 592,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_9_nea",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Helix Networks",
+      "title": "Helix Networks raises $92M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-05T03:32:59.989Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 92,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_69_boldstart",
+      "vc_id": "boldstart",
+      "vc_name": "boldstart ventures",
+      "company": "Helix Compute",
+      "title": "Helix Compute raises $111M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-05T03:29:12.529Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 111,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_129_canaan",
+      "vc_id": "canaan",
+      "vc_name": "Canaan Partners",
+      "company": "Helix Platforms",
+      "title": "Helix Platforms raises $39M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-05T03:25:25.069Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 39,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_189_dtc",
+      "vc_id": "dtc",
+      "vc_name": "Dell Technologies Capital",
+      "company": "Helix Works",
+      "title": "Helix Works raises $58M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-05T03:21:37.609Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 58,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_10_insight",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Summit Works",
+      "title": "Summit Works raises $4M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-04T03:32:56.198Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 4,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_70_amplify",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "Summit Networks",
+      "title": "Summit Networks raises $2M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-04T03:29:08.738Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 2,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_130_lux",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "Summit Compute",
+      "title": "Summit Compute raises $14M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-04T03:25:21.278Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 14,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_190_citi-ventures",
+      "vc_id": "citi-ventures",
+      "vc_name": "Citi Ventures",
+      "company": "Summit Platforms",
+      "title": "Summit Platforms raises $12M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-04T03:21:33.818Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 12,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_11_ivp",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Titan Platforms",
+      "title": "Titan Platforms raises $267M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-03T03:32:52.407Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 267,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_71_costanoa",
+      "vc_id": "costanoa",
+      "vc_name": "Costanoa Ventures",
+      "company": "Titan Works",
+      "title": "Titan Works raises $182M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-03T03:29:04.947Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 182,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_131_dcvc",
+      "vc_id": "dcvc",
+      "vc_name": "DCVC",
+      "company": "Titan Networks",
+      "title": "Titan Networks raises $97M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-03T03:25:17.487Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 97,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_191_amex-ventures",
+      "vc_id": "amex-ventures",
+      "vc_name": "Amex Ventures",
+      "company": "Titan Compute",
+      "title": "Titan Compute raises $233M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-03T03:21:30.027Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 233,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_12_battery",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Cipher Dynamics",
+      "title": "Cipher Dynamics raises $34M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-02T03:32:48.616Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 34,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_72_qed",
+      "vc_id": "qed",
+      "vc_name": "QED Investors",
+      "company": "Cipher OS",
+      "title": "Cipher OS raises $10M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-02T03:29:01.156Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_132_madrona",
+      "vc_id": "madrona",
+      "vc_name": "Madrona",
+      "company": "Cipher Fabric",
+      "title": "Cipher Fabric raises $22M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-02T03:25:13.696Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 22,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_192_jpmorgan",
+      "vc_id": "jpmorgan",
+      "vc_name": "JPMorgan Strategic Investments",
+      "company": "Cipher Cloud",
+      "title": "Cipher Cloud raises $34M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-02T03:21:26.236Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 34,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_13_menlo-ventures",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Foundry Cloud",
+      "title": "Foundry Cloud raises $421M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-01T03:32:44.825Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 421,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_73_nyca",
+      "vc_id": "nyca",
+      "vc_name": "Nyca Partners",
+      "company": "Foundry Dynamics",
+      "title": "Foundry Dynamics raises $740M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-01T03:28:57.365Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 740,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_133_voyager",
+      "vc_id": "voyager",
+      "vc_name": "Voyager Capital",
+      "company": "Foundry OS",
+      "title": "Foundry OS raises $358M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-01T03:25:09.905Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 358,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_193_kp-ventures",
+      "vc_id": "kp-ventures",
+      "vc_name": "Kaiser Permanente Ventures",
+      "company": "Foundry Fabric",
+      "title": "Foundry Fabric raises $677M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-02-01T03:21:22.445Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 677,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_14_mayfield",
+      "vc_id": "mayfield",
+      "vc_name": "Mayfield",
+      "company": "Atlas Fabric",
+      "title": "Atlas Fabric raises $86M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-31T03:32:41.034Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 86,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_74_ribbit",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Atlas Cloud",
+      "title": "Atlas Cloud raises $105M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-31T03:28:53.574Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 105,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_134_upfront",
+      "vc_id": "upfront",
+      "vc_name": "Upfront Ventures",
+      "company": "Atlas Dynamics",
+      "title": "Atlas Dynamics raises $33M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-31T03:25:06.114Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 33,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_194_mm-ventures",
+      "vc_id": "mm-ventures",
+      "vc_name": "MassMutual Ventures",
+      "company": "Atlas OS",
+      "title": "Atlas OS raises $52M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-31T03:21:18.654Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 52,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_15_redpoint",
+      "vc_id": "redpoint",
+      "vc_name": "Redpoint Ventures",
+      "company": "Forge OS",
+      "title": "Forge OS raises $5M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-30T03:32:37.243Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 5,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_75_fin-capital",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Forge Fabric",
+      "title": "Forge Fabric raises $3M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-30T03:28:49.783Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 3,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_135_crosslink",
+      "vc_id": "crosslink",
+      "vc_name": "Crosslink Capital",
+      "company": "Forge Cloud",
+      "title": "Forge Cloud raises $15M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-30T03:25:02.323Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 15,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_195_workday-ventures",
+      "vc_id": "workday-ventures",
+      "vc_name": "Workday Ventures",
+      "company": "Forge Dynamics",
+      "title": "Forge Dynamics raises $13M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-30T03:21:14.863Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 13,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_16_benchmark",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Cinder Stack",
+      "title": "Cinder Stack raises $131M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-29T03:32:33.452Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 131,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_76_f-prime",
+      "vc_id": "f-prime",
+      "vc_name": "F-Prime Capital",
+      "company": "Cinder Markets",
+      "title": "Cinder Markets raises $267M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-29T03:28:45.992Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 267,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_136_felicis",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "Cinder Intelligence",
+      "title": "Cinder Intelligence raises $182M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-29T03:24:58.532Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 182,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_196_paypal-ventures",
+      "vc_id": "paypal-ventures",
+      "vc_name": "PayPal Ventures",
+      "company": "Cinder Data",
+      "title": "Cinder Data raises $97M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-29T03:21:11.072Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 97,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_17_usv",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Catalyst Data",
+      "title": "Catalyst Data raises $11M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-28T03:32:29.661Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 11,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_77_bond",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Catalyst Stack",
+      "title": "Catalyst Stack raises $23M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-28T03:28:42.201Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 23,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_137_floodgate",
+      "vc_id": "floodgate",
+      "vc_name": "Floodgate",
+      "company": "Catalyst Markets",
+      "title": "Catalyst Markets raises $35M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-28T03:24:54.741Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 35,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_197_cota",
+      "vc_id": "cota",
+      "vc_name": "Cota Capital",
+      "company": "Catalyst Intelligence",
+      "title": "Catalyst Intelligence raises $11M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-28T03:21:07.281Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 11,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_18_kleiner-perkins",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Signal Intelligence",
+      "title": "Signal Intelligence raises $506M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-27T03:32:25.870Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 506,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_78_altimeter",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Signal Data",
+      "title": "Signal Data raises $825M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-27T03:28:38.410Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 825,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_138_true-ventures",
+      "vc_id": "true-ventures",
+      "vc_name": "True Ventures",
+      "company": "Signal Stack",
+      "title": "Signal Stack raises $443M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-27T03:24:50.950Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 443,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_198_pelion",
+      "vc_id": "pelion",
+      "vc_name": "Pelion Venture Partners",
+      "company": "Signal Markets",
+      "title": "Signal Markets raises $762M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-27T03:21:03.490Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 762,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_19_spark",
+      "vc_id": "spark",
+      "vc_name": "Spark Capital",
+      "company": "Vertex Markets",
+      "title": "Vertex Markets raises $80M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-26T03:32:22.079Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 80,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_79_avenir",
+      "vc_id": "avenir",
+      "vc_name": "Avenir Growth Capital",
+      "company": "Vertex Intelligence",
+      "title": "Vertex Intelligence raises $99M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-26T03:28:34.619Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 99,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_139_initialized",
+      "vc_id": "initialized",
+      "vc_name": "Initialized Capital",
+      "company": "Vertex Data",
+      "title": "Vertex Data raises $118M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-26T03:24:47.159Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 118,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_199_greycroft",
+      "vc_id": "greycroft",
+      "vc_name": "Greycroft",
+      "company": "Vertex Stack",
+      "title": "Vertex Stack raises $46M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-26T03:20:59.699Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 46,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_20_first-round",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Vector Health",
+      "title": "Vector Health raises $6M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-25T03:32:18.288Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 6,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_80_intel-capital",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Vector Labs",
+      "title": "Vector Labs raises $4M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-25T03:28:30.828Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 4,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_140_8vc",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Vector Energy",
+      "title": "Vector Energy raises $2M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-25T03:24:43.368Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 2,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_21_craft",
+      "vc_id": "craft",
+      "vc_name": "Craft Ventures",
+      "company": "Axiom Security",
+      "title": "Axiom Security raises $216M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-24T03:32:14.497Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 216,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_81_qualcomm",
+      "vc_id": "qualcomm",
+      "vc_name": "Qualcomm Ventures",
+      "company": "Axiom Health",
+      "title": "Axiom Health raises $131M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-24T03:28:27.037Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 131,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_141_susa",
+      "vc_id": "susa",
+      "vc_name": "Susa Ventures",
+      "company": "Axiom Labs",
+      "title": "Axiom Labs raises $267M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-24T03:24:39.577Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 267,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_22_coatue",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Pulse Energy",
+      "title": "Pulse Energy raises $24M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-23T03:32:10.706Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 24,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_82_cisco",
+      "vc_id": "cisco",
+      "vc_name": "Cisco Investments",
+      "company": "Pulse Security",
+      "title": "Pulse Security raises $36M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-23T03:28:23.246Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 36,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_142_uncork",
+      "vc_id": "uncork",
+      "vc_name": "Uncork Capital",
+      "company": "Pulse Health",
+      "title": "Pulse Health raises $12M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-23T03:24:35.786Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 12,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_23_tcv",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Quanta Labs",
+      "title": "Quanta Labs raises $591M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-22T03:32:06.915Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 591,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_83_salesforce",
+      "vc_id": "salesforce",
+      "vc_name": "Salesforce Ventures",
+      "company": "Quanta Energy",
+      "title": "Quanta Energy raises $209M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-22T03:28:19.455Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 209,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_143_slow",
+      "vc_id": "slow",
+      "vc_name": "Slow Ventures",
+      "company": "Quanta Security",
+      "title": "Quanta Security raises $528M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-22T03:24:31.995Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 528,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_24_openview",
+      "vc_id": "openview",
+      "vc_name": "OpenView",
+      "company": "Nova Robotics",
+      "title": "Nova Robotics raises $74M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-21T03:32:03.124Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 74,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_84_gv",
+      "vc_id": "gv",
+      "vc_name": "GV",
+      "company": "Nova Systems",
+      "title": "Nova Systems raises $93M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-21T03:28:15.664Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 93,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_144_homebrew",
+      "vc_id": "homebrew",
+      "vc_name": "Homebrew",
+      "company": "Nova Automation",
+      "title": "Nova Automation raises $112M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-21T03:24:28.204Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 112,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_25_scale-vp",
+      "vc_id": "scale-vp",
+      "vc_name": "Scale Venture Partners",
+      "company": "Northstar Bio",
+      "title": "Northstar Bio raises $7M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-20T03:31:59.333Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 7,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_85_capitalg",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Northstar Robotics",
+      "title": "Northstar Robotics raises $5M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-20T03:28:11.873Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 5,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_145_nextview",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
+      "company": "Northstar Systems",
+      "title": "Northstar Systems raises $3M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-20T03:24:24.413Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 3,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_26_norwest",
+      "vc_id": "norwest",
+      "vc_name": "Norwest Venture Partners",
+      "company": "Linear Automation",
+      "title": "Linear Automation raises $80M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-19T03:31:55.542Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_86_gradient",
+      "vc_id": "gradient",
+      "vc_name": "Gradient Ventures",
+      "company": "Linear Bio",
+      "title": "Linear Bio raises $216M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-19T03:28:08.082Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 216,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_146_bcv",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Linear Robotics",
+      "title": "Linear Robotics raises $131M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-19T03:24:20.622Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 131,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_27_venrock",
+      "vc_id": "venrock",
+      "vc_name": "Venrock",
+      "company": "Nimbus Systems",
+      "title": "Nimbus Systems raises $37M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-18T03:31:51.751Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 37,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_87_m12",
+      "vc_id": "m12",
+      "vc_name": "M12",
+      "company": "Nimbus Automation",
+      "title": "Nimbus Automation raises $13M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-18T03:28:04.291Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 13,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_147_b-capital",
+      "vc_id": "b-capital",
+      "vc_name": "B Capital Group",
+      "company": "Nimbus Bio",
+      "title": "Nimbus Bio raises $25M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-18T03:24:16.831Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 25,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_28_rre",
+      "vc_id": "rre",
+      "vc_name": "RRE Ventures",
+      "company": "Flux Networks",
+      "title": "Flux Networks raises $676M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-17T03:31:47.960Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 676,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_88_samsung-next",
+      "vc_id": "samsung-next",
+      "vc_name": "Samsung Next",
+      "company": "Flux Compute",
+      "title": "Flux Compute raises $294M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-17T03:28:00.500Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 294,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_148_sapphire",
+      "vc_id": "sapphire",
+      "vc_name": "Sapphire Ventures",
+      "company": "Flux Platforms",
+      "title": "Flux Platforms raises $613M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-17T03:24:13.040Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 613,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_29_canaan",
+      "vc_id": "canaan",
+      "vc_name": "Canaan Partners",
+      "company": "Helix Works",
+      "title": "Helix Works raises $68M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-16T03:31:44.169Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 68,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_89_dtc",
+      "vc_id": "dtc",
+      "vc_name": "Dell Technologies Capital",
+      "company": "Helix Networks",
+      "title": "Helix Networks raises $87M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-16T03:27:56.709Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 87,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_149_emergence",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Helix Compute",
+      "title": "Helix Compute raises $106M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-16T03:24:09.249Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 106,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_30_lux",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "Summit Platforms",
+      "title": "Summit Platforms raises $8M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-15T03:31:40.378Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 8,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_90_citi-ventures",
+      "vc_id": "citi-ventures",
+      "vc_name": "Citi Ventures",
+      "company": "Summit Works",
+      "title": "Summit Works raises $6M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-15T03:27:52.918Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 6,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_150_threshold",
+      "vc_id": "threshold",
+      "vc_name": "Threshold Ventures",
+      "company": "Summit Networks",
+      "title": "Summit Networks raises $4M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-15T03:24:05.458Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 4,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_31_dcvc",
+      "vc_id": "dcvc",
+      "vc_name": "DCVC",
+      "company": "Titan Compute",
+      "title": "Titan Compute raises $165M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-14T03:31:36.587Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 165,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_91_amex-ventures",
+      "vc_id": "amex-ventures",
+      "vc_name": "Amex Ventures",
+      "company": "Titan Platforms",
+      "title": "Titan Platforms raises $80M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-14T03:27:49.127Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 80,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_151_crv",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Titan Works",
+      "title": "Titan Works raises $216M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-14T03:24:01.667Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 216,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_32_madrona",
+      "vc_id": "madrona",
+      "vc_name": "Madrona",
+      "company": "Cipher Cloud",
+      "title": "Cipher Cloud raises $14M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-13T03:31:32.796Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 14,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_92_jpmorgan",
+      "vc_id": "jpmorgan",
+      "vc_name": "JPMorgan Strategic Investments",
+      "company": "Cipher Dynamics",
+      "title": "Cipher Dynamics raises $26M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-13T03:27:45.336Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 26,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_152_matrix",
+      "vc_id": "matrix",
+      "vc_name": "Matrix Partners",
+      "company": "Cipher OS",
+      "title": "Cipher OS raises $38M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-13T03:23:57.876Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 38,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_33_voyager",
+      "vc_id": "voyager",
+      "vc_name": "Voyager Capital",
+      "company": "Foundry Fabric",
+      "title": "Foundry Fabric raises $761M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-12T03:31:29.005Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 761,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_93_kp-ventures",
+      "vc_id": "kp-ventures",
+      "vc_name": "Kaiser Permanente Ventures",
+      "company": "Foundry Cloud",
+      "title": "Foundry Cloud raises $379M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-12T03:27:41.545Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 379,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_153_foundry",
+      "vc_id": "foundry",
+      "vc_name": "Foundry Group",
+      "company": "Foundry Dynamics",
+      "title": "Foundry Dynamics raises $698M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-12T03:23:54.085Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 698,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_34_upfront",
+      "vc_id": "upfront",
+      "vc_name": "Upfront Ventures",
+      "company": "Atlas OS",
+      "title": "Atlas OS raises $62M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-11T03:31:25.214Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 62,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_94_mm-ventures",
+      "vc_id": "mm-ventures",
+      "vc_name": "MassMutual Ventures",
+      "company": "Atlas Fabric",
+      "title": "Atlas Fabric raises $81M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-11T03:27:37.754Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 81,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_154_lerer-hippeau",
+      "vc_id": "lerer-hippeau",
+      "vc_name": "Lerer Hippeau",
+      "company": "Atlas Cloud",
+      "title": "Atlas Cloud raises $100M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-11T03:23:50.294Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_35_crosslink",
+      "vc_id": "crosslink",
+      "vc_name": "Crosslink Capital",
+      "company": "Forge Dynamics",
+      "title": "Forge Dynamics raises $9M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-10T03:31:21.423Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 9,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_95_workday-ventures",
+      "vc_id": "workday-ventures",
+      "vc_name": "Workday Ventures",
+      "company": "Forge OS",
+      "title": "Forge OS raises $7M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-10T03:27:33.963Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 7,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_155_primary",
+      "vc_id": "primary",
+      "vc_name": "Primary Venture Partners",
+      "company": "Forge Fabric",
+      "title": "Forge Fabric raises $5M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-10T03:23:46.503Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 5,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_36_felicis",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "Cinder Data",
+      "title": "Cinder Data raises $250M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-09T03:31:17.632Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 250,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_96_paypal-ventures",
+      "vc_id": "paypal-ventures",
+      "vc_name": "PayPal Ventures",
+      "company": "Cinder Stack",
+      "title": "Cinder Stack raises $165M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-09T03:27:30.172Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 165,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_156_revolution",
+      "vc_id": "revolution",
+      "vc_name": "Revolution Ventures",
+      "company": "Cinder Markets",
+      "title": "Cinder Markets raises $80M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-09T03:23:42.712Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_37_floodgate",
+      "vc_id": "floodgate",
+      "vc_name": "Floodgate",
+      "company": "Catalyst Intelligence",
+      "title": "Catalyst Intelligence raises $27M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-08T03:31:13.841Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 27,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_97_cota",
+      "vc_id": "cota",
+      "vc_name": "Cota Capital",
+      "company": "Catalyst Data",
+      "title": "Catalyst Data raises $39M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-08T03:27:26.381Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 39,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_157_signalfire",
+      "vc_id": "signalfire",
+      "vc_name": "SignalFire",
+      "company": "Catalyst Stack",
+      "title": "Catalyst Stack raises $15M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-08T03:23:38.921Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 15,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_38_true-ventures",
+      "vc_id": "true-ventures",
+      "vc_name": "True Ventures",
+      "company": "Signal Markets",
+      "title": "Signal Markets raises $846M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-07T03:31:10.050Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 846,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_98_pelion",
+      "vc_id": "pelion",
+      "vc_name": "Pelion Venture Partners",
+      "company": "Signal Intelligence",
+      "title": "Signal Intelligence raises $464M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-07T03:27:22.590Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 464,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_158_human-capital",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Signal Data",
+      "title": "Signal Data raises $783M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-07T03:23:35.130Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 783,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_39_initialized",
+      "vc_id": "initialized",
+      "vc_name": "Initialized Capital",
+      "company": "Vertex Stack",
+      "title": "Vertex Stack raises $56M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-06T03:31:06.259Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 56,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_99_greycroft",
+      "vc_id": "greycroft",
+      "vc_name": "Greycroft",
+      "company": "Vertex Markets",
+      "title": "Vertex Markets raises $75M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-06T03:27:18.799Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 75,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_159_obvious",
+      "vc_id": "obvious",
+      "vc_name": "Obvious Ventures",
+      "company": "Vertex Intelligence",
+      "title": "Vertex Intelligence raises $94M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-06T03:23:31.339Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 94,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_40_8vc",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Vector Security",
+      "title": "Vector Security raises $10M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-05T03:31:02.468Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_100_accel",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Vector Health",
+      "title": "Vector Health raises $8M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-05T03:27:15.008Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 8,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_160_future",
+      "vc_id": "future",
+      "vc_name": "Future Ventures",
+      "company": "Vector Labs",
+      "title": "Vector Labs raises $6M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-05T03:23:27.548Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 6,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_41_susa",
+      "vc_id": "susa",
+      "vc_name": "Susa Ventures",
+      "company": "Axiom Energy",
+      "title": "Axiom Energy raises $114M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-04T03:30:58.677Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 114,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_101_andreessen-horowitz",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Axiom Security",
+      "title": "Axiom Security raises $250M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-04T03:27:11.217Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 250,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_161_social-capital",
+      "vc_id": "social-capital",
+      "vc_name": "Social Capital",
+      "company": "Axiom Health",
+      "title": "Axiom Health raises $165M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-04T03:23:23.757Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 165,
+      "confidence": 0.62,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_42_uncork",
+      "vc_id": "uncork",
+      "vc_name": "Uncork Capital",
+      "company": "Pulse Labs",
+      "title": "Pulse Labs raises $40M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-03T03:30:54.886Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_102_sequoia-capital",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Pulse Energy",
+      "title": "Pulse Energy raises $16M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-03T03:27:07.426Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 16,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_162_sutter-hill",
+      "vc_id": "sutter-hill",
+      "vc_name": "Sutter Hill Ventures",
+      "company": "Pulse Security",
+      "title": "Pulse Security raises $28M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-03T03:23:19.966Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 28,
+      "confidence": 0.62,
+      "location": {
+        "city": "Waltham",
+        "state": "MA",
+        "lat": 42.3765,
+        "lon": -71.2356,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_43_slow",
+      "vc_id": "slow",
+      "vc_name": "Slow Ventures",
+      "company": "Quanta Health",
+      "title": "Quanta Health raises $230M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-02T03:30:51.095Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 230,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_103_lightspeed",
+      "vc_id": "lightspeed",
+      "vc_name": "Lightspeed Venture Partners",
+      "company": "Quanta Labs",
+      "title": "Quanta Labs raises $549M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-02T03:27:03.635Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 549,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_163_wing",
+      "vc_id": "wing",
+      "vc_name": "Wing Venture Capital",
+      "company": "Quanta Energy",
+      "title": "Quanta Energy raises $868M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-02T03:23:16.175Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 868,
+      "confidence": 0.62,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_44_homebrew",
+      "vc_id": "homebrew",
+      "vc_name": "Homebrew",
+      "company": "Nova Bio",
+      "title": "Nova Bio raises $50M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-01T03:30:47.304Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_104_bessemer",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Nova Robotics",
+      "title": "Nova Robotics raises $69M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-01T03:26:59.844Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 69,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_164_eclipse",
+      "vc_id": "eclipse",
+      "vc_name": "Eclipse Ventures",
+      "company": "Nova Systems",
+      "title": "Nova Systems raises $88M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2026-01-01T03:23:12.384Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 88,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_45_nextview",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
+      "company": "Northstar Automation",
+      "title": "Northstar Automation raises $11M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-31T03:30:43.513Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 11,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_105_general-catalyst",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "Northstar Bio",
+      "title": "Northstar Bio raises $9M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-31T03:26:56.053Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 9,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_165_root",
+      "vc_id": "root",
+      "vc_name": "Root Ventures",
+      "company": "Northstar Robotics",
+      "title": "Northstar Robotics raises $7M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-31T03:23:08.593Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 7,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boulder",
+        "state": "CO",
+        "lat": 40.015,
+        "lon": -105.2705,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_46_bcv",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Linear Systems",
+      "title": "Linear Systems raises $199M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-30T03:30:39.722Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 199,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_106_khosla",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Linear Automation",
+      "title": "Linear Automation raises $114M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-30T03:26:52.262Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 114,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_166_zetta",
+      "vc_id": "zetta",
+      "vc_name": "Zetta Venture Partners",
+      "company": "Linear Bio",
+      "title": "Linear Bio raises $250M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-30T03:23:04.802Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 250,
+      "confidence": 0.62,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_47_b-capital",
+      "vc_id": "b-capital",
+      "vc_name": "B Capital Group",
+      "company": "Nimbus Robotics",
+      "title": "Nimbus Robotics raises $17M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-29T03:30:35.931Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 17,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_107_founders-fund",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Nimbus Systems",
+      "title": "Nimbus Systems raises $29M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-29T03:26:48.471Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 29,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_167_prelude",
+      "vc_id": "prelude",
+      "vc_name": "Prelude Ventures",
+      "company": "Nimbus Automation",
+      "title": "Nimbus Automation raises $41M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-29T03:23:01.011Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 41,
+      "confidence": 0.62,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_48_sapphire",
+      "vc_id": "sapphire",
+      "vc_name": "Sapphire Ventures",
+      "company": "Flux Works",
+      "title": "Flux Works raises $315M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-28T03:30:32.140Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 315,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_108_greylock",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Flux Networks",
+      "title": "Flux Networks raises $634M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-28T03:26:44.680Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 634,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_168_k9",
+      "vc_id": "k9",
+      "vc_name": "K9 Ventures",
+      "company": "Flux Compute",
+      "title": "Flux Compute raises $252M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-28T03:22:57.220Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 252,
+      "confidence": 0.62,
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_49_emergence",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Helix Platforms",
+      "title": "Helix Platforms raises $44M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-27T03:30:28.349Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 44,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_109_nea",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Helix Works",
+      "title": "Helix Works raises $63M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-27T03:26:40.889Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 63,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_169_boldstart",
+      "vc_id": "boldstart",
+      "vc_name": "boldstart ventures",
+      "company": "Helix Networks",
+      "title": "Helix Networks raises $82M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-27T03:22:53.429Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 82,
+      "confidence": 0.62,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_50_threshold",
+      "vc_id": "threshold",
+      "vc_name": "Threshold Ventures",
+      "company": "Summit Compute",
+      "title": "Summit Compute raises $12M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-26T03:30:24.558Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 12,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_110_insight",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Summit Platforms",
+      "title": "Summit Platforms raises $10M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-26T03:26:37.098Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_170_amplify",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "Summit Works",
+      "title": "Summit Works raises $8M Seed round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-26T03:22:49.638Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 8,
+      "confidence": 0.62,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_51_crv",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Titan Networks",
+      "title": "Titan Networks raises $284M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-25T03:30:20.767Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 284,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_111_ivp",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Titan Compute",
+      "title": "Titan Compute raises $199M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-25T03:26:33.307Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 199,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_171_costanoa",
+      "vc_id": "costanoa",
+      "vc_name": "Costanoa Ventures",
+      "company": "Titan Platforms",
+      "title": "Titan Platforms raises $114M Series C round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-25T03:22:45.847Z",
+      "stage": "Series C",
+      "sector": "Developer Tools",
+      "amount_usd_m": 114,
+      "confidence": 0.62,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_52_matrix",
+      "vc_id": "matrix",
+      "vc_name": "Matrix Partners",
+      "company": "Cipher Fabric",
+      "title": "Cipher Fabric raises $30M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-24T03:30:16.976Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_112_battery",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Cipher Cloud",
+      "title": "Cipher Cloud raises $42M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-24T03:26:29.516Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 42,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_172_qed",
+      "vc_id": "qed",
+      "vc_name": "QED Investors",
+      "company": "Cipher Dynamics",
+      "title": "Cipher Dynamics raises $18M Series A round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-24T03:22:42.056Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 18,
+      "confidence": 0.62,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_53_foundry",
+      "vc_id": "foundry",
+      "vc_name": "Foundry Group",
+      "company": "Foundry OS",
+      "title": "Foundry OS raises $400M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-23T03:30:13.185Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 400,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_113_menlo-ventures",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Foundry Fabric",
+      "title": "Foundry Fabric raises $719M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-23T03:26:25.725Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 719,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_173_nyca",
+      "vc_id": "nyca",
+      "vc_name": "Nyca Partners",
+      "company": "Foundry Cloud",
+      "title": "Foundry Cloud raises $337M Growth round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-23T03:22:38.265Z",
+      "stage": "Growth",
+      "sector": "Developer Tools",
+      "amount_usd_m": 337,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_54_lerer-hippeau",
+      "vc_id": "lerer-hippeau",
+      "vc_name": "Lerer Hippeau",
+      "company": "Atlas Dynamics",
+      "title": "Atlas Dynamics raises $38M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-22T03:30:09.394Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 38,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_114_mayfield",
+      "vc_id": "mayfield",
+      "vc_name": "Mayfield",
+      "company": "Atlas OS",
+      "title": "Atlas OS raises $57M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-22T03:26:21.934Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 57,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_174_ribbit",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Atlas Fabric",
+      "title": "Atlas Fabric raises $76M Series B round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-22T03:22:34.474Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 76,
+      "confidence": 0.62,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_55_primary",
+      "vc_id": "primary",
+      "vc_name": "Primary Venture Partners",
+      "company": "Forge Cloud",
+      "title": "Forge Cloud raises $13M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-21T03:30:05.603Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 13,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_115_redpoint",
+      "vc_id": "redpoint",
+      "vc_name": "Redpoint Ventures",
+      "company": "Forge Dynamics",
+      "title": "Forge Dynamics raises $11M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-21T03:26:18.143Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 11,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_175_fin-capital",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Forge OS",
+      "title": "Forge OS raises $9M Seed round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-21T03:22:30.683Z",
+      "stage": "Seed",
+      "sector": "Developer Tools",
+      "amount_usd_m": 9,
+      "confidence": 0.62,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_56_revolution",
+      "vc_id": "revolution",
+      "vc_name": "Revolution Ventures",
+      "company": "Cinder Intelligence",
+      "title": "Cinder Intelligence raises $148M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-20T03:30:01.812Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 148,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_116_benchmark",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Cinder Data",
+      "title": "Cinder Data raises $284M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-20T03:26:14.352Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 284,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_176_f-prime",
+      "vc_id": "f-prime",
+      "vc_name": "F-Prime Capital",
+      "company": "Cinder Stack",
+      "title": "Cinder Stack raises $199M Series C round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-20T03:22:26.892Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 199,
+      "confidence": 0.62,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_57_signalfire",
+      "vc_id": "signalfire",
+      "vc_name": "SignalFire",
+      "company": "Catalyst Markets",
+      "title": "Catalyst Markets raises $43M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-19T03:29:58.021Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 43,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_117_usv",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Catalyst Intelligence",
+      "title": "Catalyst Intelligence raises $19M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-19T03:26:10.561Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 19,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_177_bond",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Catalyst Data",
+      "title": "Catalyst Data raises $31M Series A round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-19T03:22:23.101Z",
+      "stage": "Series A",
+      "sector": "Developer Tools",
+      "amount_usd_m": 31,
+      "confidence": 0.62,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_58_human-capital",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Signal Stack",
+      "title": "Signal Stack raises $485M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-18T03:29:54.230Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 485,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_118_kleiner-perkins",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Signal Markets",
+      "title": "Signal Markets raises $804M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-18T03:26:06.770Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 804,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_178_altimeter",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Signal Intelligence",
+      "title": "Signal Intelligence raises $422M Growth round to scale ai and ml platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-18T03:22:19.310Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 422,
+      "confidence": 0.62,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_59_obvious",
+      "vc_id": "obvious",
+      "vc_name": "Obvious Ventures",
+      "company": "Vertex Data",
+      "title": "Vertex Data raises $32M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-17T03:29:50.439Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 32,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_119_spark",
+      "vc_id": "spark",
+      "vc_name": "Spark Capital",
+      "company": "Vertex Stack",
+      "title": "Vertex Stack raises $51M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-17T03:26:02.979Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 51,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    },
+    {
+      "id": "demo_179_avenir",
+      "vc_id": "avenir",
+      "vc_name": "Avenir Growth Capital",
+      "company": "Vertex Markets",
+      "title": "Vertex Markets raises $70M Series B round to scale developer tools platform",
+      "source_url": "#",
+      "source_name": "Demo dataset",
+      "published_at": "2025-12-17T03:22:15.519Z",
+      "stage": "Series B",
+      "sector": "Developer Tools",
+      "amount_usd_m": 70,
+      "confidence": 0.62,
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "method": "demo",
+        "confidence": 0.6
+      }
+    }
+  ],
+  "bubbles": [
+    {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 10,
+      "weighted_score": 64.06,
+      "latest_at": "2026-01-27T03:32:25.870Z",
+      "amount_usd_m_total": 6340,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Kleiner Perkins",
+          "count": 2
+        },
+        {
+          "name": "Altimeter Capital",
+          "count": 2
+        },
+        {
+          "name": "True Ventures",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 10,
+      "weighted_score": 63.38,
+      "latest_at": "2026-02-01T03:32:44.825Z",
+      "amount_usd_m_total": 5490,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Menlo Ventures",
+          "count": 2
+        },
+        {
+          "name": "Nyca Partners",
+          "count": 2
+        },
+        {
+          "name": "Voyager Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 10,
+      "weighted_score": 62.87,
+      "latest_at": "2026-02-11T03:33:22.735Z",
+      "amount_usd_m_total": 5192,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Lightspeed Venture Partners",
+          "count": 2
+        },
+        {
+          "name": "Wing Venture Capital",
+          "count": 2
+        },
+        {
+          "name": "TCV",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Washington,DC",
+      "city": "Washington",
+      "state": "DC",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "deal_count": 10,
+      "weighted_score": 62.55,
+      "latest_at": "2026-02-06T03:33:03.780Z",
+      "amount_usd_m_total": 4640,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Greylock",
+          "count": 2
+        },
+        {
+          "name": "K9 Ventures",
+          "count": 2
+        },
+        {
+          "name": "RRE Ventures",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Seattle,WA",
+      "city": "Seattle",
+      "state": "WA",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "deal_count": 10,
+      "weighted_score": 52.75,
+      "latest_at": "2026-02-13T03:33:30.317Z",
+      "amount_usd_m_total": 1905,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Andreessen Horowitz",
+          "count": 2
+        },
+        {
+          "name": "Social Capital",
+          "count": 2
+        },
+        {
+          "name": "Craft Ventures",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Alexandria,VA",
+      "city": "Alexandria",
+      "state": "VA",
+      "lat": 38.8048,
+      "lon": -77.0469,
+      "deal_count": 10,
+      "weighted_score": 52.53,
+      "latest_at": "2026-02-03T03:32:52.407Z",
+      "amount_usd_m_total": 1837,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "IVP",
+          "count": 2
+        },
+        {
+          "name": "Costanoa Ventures",
+          "count": 2
+        },
+        {
+          "name": "DCVC",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 10,
+      "weighted_score": 52.46,
+      "latest_at": "2026-01-29T03:32:33.452Z",
+      "amount_usd_m_total": 1803,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Benchmark",
+          "count": 2
+        },
+        {
+          "name": "F-Prime Capital",
+          "count": 2
+        },
+        {
+          "name": "Felicis",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 10,
+      "weighted_score": 52.12,
+      "latest_at": "2026-02-08T03:33:11.362Z",
+      "amount_usd_m_total": 1650,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Khosla Ventures",
+          "count": 2
+        },
+        {
+          "name": "Zetta Venture Partners",
+          "count": 2
+        },
+        {
+          "name": "Norwest Venture Partners",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Santa Monica,CA",
+      "city": "Santa Monica",
+      "state": "CA",
+      "lat": 34.0195,
+      "lon": -118.4912,
+      "deal_count": 10,
+      "weighted_score": 45.15,
+      "latest_at": "2026-02-10T03:33:18.944Z",
+      "amount_usd_m_total": 810,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
+          "count": 2
+        },
+        {
+          "name": "Eclipse Ventures",
+          "count": 2
+        },
+        {
+          "name": "OpenView",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 10,
+      "weighted_score": 44.78,
+      "latest_at": "2026-02-05T03:32:59.989Z",
+      "amount_usd_m_total": 750,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "New Enterprise Associates",
+          "count": 2
+        },
+        {
+          "name": "boldstart ventures",
+          "count": 2
+        },
+        {
+          "name": "Canaan Partners",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Los Angeles,CA",
+      "city": "Los Angeles",
+      "state": "CA",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "deal_count": 10,
+      "weighted_score": 44.56,
+      "latest_at": "2026-01-26T03:32:22.079Z",
+      "amount_usd_m_total": 721,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Spark Capital",
+          "count": 2
+        },
+        {
+          "name": "Avenir Growth Capital",
+          "count": 2
+        },
+        {
+          "name": "Initialized Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 10,
+      "weighted_score": 44.38,
+      "latest_at": "2026-01-31T03:32:41.034Z",
+      "amount_usd_m_total": 690,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Mayfield",
+          "count": 2
+        },
+        {
+          "name": "Ribbit Capital",
+          "count": 2
+        },
+        {
+          "name": "Upfront Ventures",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Waltham,MA",
+      "city": "Waltham",
+      "state": "MA",
+      "lat": 42.3765,
+      "lon": -71.2356,
+      "deal_count": 10,
+      "weighted_score": 36.73,
+      "latest_at": "2026-02-12T03:33:26.526Z",
+      "amount_usd_m_total": 296,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Sequoia Capital",
+          "count": 2
+        },
+        {
+          "name": "Sutter Hill Ventures",
+          "count": 2
+        },
+        {
+          "name": "Coatue",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Foster City,CA",
+      "city": "Foster City",
+      "state": "CA",
+      "lat": 37.5585,
+      "lon": -122.2711,
+      "deal_count": 10,
+      "weighted_score": 36.58,
+      "latest_at": "2026-02-07T03:33:07.571Z",
+      "amount_usd_m_total": 282,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Founders Fund",
+          "count": 2
+        },
+        {
+          "name": "Prelude Ventures",
+          "count": 2
+        },
+        {
+          "name": "Venrock",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 10,
+      "weighted_score": 36.29,
+      "latest_at": "2026-02-02T03:32:48.616Z",
+      "amount_usd_m_total": 268,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Battery Ventures",
+          "count": 2
+        },
+        {
+          "name": "QED Investors",
+          "count": 2
+        },
+        {
+          "name": "Madrona",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "San Diego,CA",
+      "city": "San Diego",
+      "state": "CA",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "deal_count": 10,
+      "weighted_score": 36,
+      "latest_at": "2026-01-28T03:32:29.661Z",
+      "amount_usd_m_total": 254,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Union Square Ventures",
+          "count": 2
+        },
+        {
+          "name": "BOND",
+          "count": 2
+        },
+        {
+          "name": "Floodgate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 10,
+      "weighted_score": 27.84,
+      "latest_at": "2026-01-30T03:32:37.243Z",
+      "amount_usd_m_total": 90,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Redpoint Ventures",
+          "count": 2
+        },
+        {
+          "name": "Fin Capital",
+          "count": 2
+        },
+        {
+          "name": "Crosslink Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Boulder,CO",
+      "city": "Boulder",
+      "state": "CO",
+      "lat": 40.015,
+      "lon": -105.2705,
+      "deal_count": 10,
+      "weighted_score": 27.5,
+      "latest_at": "2026-02-09T03:33:15.153Z",
+      "amount_usd_m_total": 84,
+      "top_sectors": [
+        {
+          "name": "Developer Tools",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 2
+        },
+        {
+          "name": "Root Ventures",
+          "count": 2
+        },
+        {
+          "name": "Scale Venture Partners",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Westport,CT",
+      "city": "Westport",
+      "state": "CT",
+      "lat": 41.1415,
+      "lon": -73.3579,
+      "deal_count": 10,
+      "weighted_score": 27.27,
+      "latest_at": "2026-02-04T03:32:56.198Z",
+      "amount_usd_m_total": 80,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Insight Partners",
+          "count": 2
+        },
+        {
+          "name": "Amplify Partners",
+          "count": 2
+        },
+        {
+          "name": "Lux Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 10,
+      "weighted_score": 26.87,
+      "latest_at": "2026-02-14T03:33:34.108Z",
+      "amount_usd_m_total": 74,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 10
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Accel",
+          "count": 2
+        },
+        {
+          "name": "Future Ventures",
+          "count": 2
+        },
+        {
+          "name": "First Round Capital",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

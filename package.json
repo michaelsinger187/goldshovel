@@ -1,0 +1,12 @@
+{
+  "name": "goldshovel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh:data": "node scripts/fetch-vc-flows.mjs",
+    "refresh:data:quick": "node scripts/fetch-vc-flows.mjs --lookback=90 --per-vc=4 --vc-limit=40",
+    "refresh:data:demo": "node scripts/fetch-vc-flows.mjs --lookback=60 --per-vc=5 --vc-limit=100 --demo-on-fail=true",
+    "serve": "python3 -m http.server 4173",
+    "start": "npm run refresh:data && npm run serve"
+  }
+}
