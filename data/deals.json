@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-26T19:09:04.230Z",
+  "generated_at": "2026-02-27T02:50:56.862Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 82,
-    "total_deals": 82,
+    "scraped_deals": 80,
+    "total_deals": 80,
     "demo_mode": false,
-    "deals_with_coordinates": 82,
-    "runtime_ms": 4662,
+    "deals_with_coordinates": 80,
+    "runtime_ms": 4406,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1409236950",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Exclusive: AI financial platform Rowspace",
+      "title": "Exclusive: AI financial platform Rowspace raises $50 million led by Sequoia to help investment firms take on messy data - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSHd0WGJnNkxwZlJsRVIxUnlobUhuLWZLSHFPRVdmN2UyN095ZTNhR1NSUDUtbjE4S1hCcXQ4NEJoTkd6R2V5eWg5aV9SU09UMTR1RWFDVURkRS1FUDlNQzh0V3ZPb0xrQUtLaXBHY1hSdk5Cci1yNTBJN1ZtOU1BZk1ZLVI4Tng3ZUNlLTFIeGJlZy05RkNyVTZGSFl1cTYtMmlYV0QwdXlZM29fN2NsYXB3?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-02-25T14:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1707816568",
       "vc_id": "qualcomm",
@@ -58,28 +80,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1366487471",
-      "vc_id": "redpoint",
-      "vc_name": "Redpoint Ventures",
-      "company": "Unknown",
-      "title": "Check out the exclusive pitch deck Valerie Health used to raise $30 million from Redpoint Ventures to automate healthcare faxes - AOL.com",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNUlCdk9IdE1jUURKcjZOUUJGcG1CRXJKNVp4bzRGYTFuejlfYW94RVNaSkJRNnU1MHN3SDVTQVZ5clJJLWdKaXJNYUFRcnpkZ29Iak16T0hzemQ1cjZlY3FvVm9WN3NId2FqbnhMMkppbFNWWnFOYjB3MENvdHJfTFB5Q2o?oc=5",
-      "source_name": "AOL.com",
-      "published_at": "2026-02-24T23:10:30.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 30,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -283,14 +283,14 @@
       }
     },
     {
-      "id": "deal_1752845166",
+      "id": "deal_577492422",
       "vc_id": "bond",
       "vc_name": "BOND",
       "company": "Treasury",
-      "title": "Treasury raises initial P107B in fresh jumbo bond offering - JIJI PRESS",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWEVFNGh3azByUUdYNXhjTnVLRXd6UmZYMVdKUHVzRlpIWEE0Wnl5T3lXSUxROTVOSmppdFk5cTU5TXhEVzFWeVl5VU9pQ0V5MThGZFBXQ3V1WklVQnhST2hxcUZDY1o5eHBTNlE3VzZQUHd6TXNZV0RPMmpaWHUyVExfNVBBc3VW?oc=5",
-      "source_name": "JIJI PRESS",
-      "published_at": "2026-02-19T11:32:54.000Z",
+      "title": "Treasury raises initial P107B in fresh jumbo bond offering - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcW5GR29ua3U2MFhLUHE0bFFRUkZfa3JzbUw4c2R1RTFoWWpoWW5WbmotOUxsM1BCSkppZXNaSlNCNkMxYTRwRmQ2YmpGcGFLR3J0cWFIZDBVcnU2VF85bzk2YkRvdHBqTVVyZUM0RzBZX1JPbkpnSGxGZGVlQmtmaFNvcFVoOVQ3cS1Nc0k4dkE2TUcxcnBzV2E4Q3A3UFZfWWZsWGFFQ2hSQU0?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-02-18T21:29:59.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": null,
@@ -410,6 +410,28 @@
         "state": "CA",
         "lat": 32.7157,
         "lon": -117.1611,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_36133469",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Unknown",
+      "title": "Battery Ventures raises $3.3b fund for AI, tech bets - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVEwNDNXaEp3TzVLSlNoZFlxT2JCak9FbzB4SURBUFhRTTdSaERUVkV1MGNEaGd1aTNJSkJySC1uZzNUei11Rno2UzJpMkgxS3FCQWxWbXpwb1N3YVRlT1NCUGxtTjd5OXJTZTRnSjBMWmVERGVlLTEydnE5YmhBZDhPdlNtVTJadkE?oc=5",
+      "source_name": "Tech in Asia",
+      "published_at": "2026-02-18T08:43:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 3300,
+      "confidence": 0.71,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -542,6 +564,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_819935264",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "AI giant Anthropic",
+      "title": "AI giant Anthropic closes a $30bn Series G round and is now valued at $380bn - BeBeez International",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUFZNamdPOC1DWkVyZmNYV21uOU9UYkxtbFRNWGdOS0p1STFlUGtaQ1gxV19fQmRSbWs2N0g0ZUxsbXFsVnBRZndaZmFpZTQxQ2t2dFFCc2xSU3I5Y0NLUi1pZXZpSjBjMVR1UlIzdHJkejBZWnJINng2Sk5Vd3N0VXNUYzZQMTNSYi1VMzVRWkR5Y05MSmZ6d052Y0dtWWNSS0pfNWlFOA?oc=5",
+      "source_name": "BeBeez International",
+      "published_at": "2026-02-16T08:00:00.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 30000,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -701,28 +745,6 @@
       }
     },
     {
-      "id": "deal_1588349012",
-      "vc_id": "general-catalyst",
-      "vc_name": "General Catalyst",
-      "company": "Anthropic",
-      "title": "Anthropic raises another $30B in Series G, with a new value of $380B - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVUREN3hRYlRjdlNFLU12enhwTWV3dDF2UU1zZ2RoYVR2Umg1TW5yckZLTE5TLXBmZDkwQkJqRXUzQktJRE45WkM0MHNhR0I5VktWeVhHM24yMGpNdC0zNkFkQTJZT2cwaFc2RTM0STZKcnZGaXBxek8tVXYySExlOURHMGl5WjByaUxPekwyNGhOaTZLV0RNc0pFeE90RUhNUlVOb2EwOVAzSFd6eE9GWWl5d2w?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-02-12T08:00:00.000Z",
-      "stage": "Series D+",
-      "sector": "AI & ML",
-      "amount_usd_m": 30000,
-      "confidence": 0.96,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_120790484",
       "vc_id": "founders-fund",
       "vc_name": "Founders Fund",
@@ -855,6 +877,28 @@
       }
     },
     {
+      "id": "deal_1910893132",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "Anthropic AI startup now valued at $380 billion following $30 billion Series G funding round - Shacknews",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNlhnZGtrdjNyNWZJQ2p5ZmtUZ1BOcTJERDVYR09sSTRMQjZ3Q3c3S2ZubXRsajlHaUctWVNPcTNrSk55RTN6d1ppWmpicFltM25BRDBndTNlSzg2U2Rjd3ZfRXVyRWlZb2lNamFWY2VyOF9pWkw3c0RRWkFSU0JLVFZIRFFTNG52eGfSAZcBQVVfeXFMUHBWemlnZkJGeHhKS2hmR0MzQ3RyZWNmcVRwM0lEUkUyVk1yV2YwV3Zpbm1hWE1wOWdaTkE3ZlJCNW9YbENpUWxycmVzS21jZnpucjlIUE52c3drVzRkVHh1QmtDRUFyQnU1cTR2YVBnb1Y0QklIemVLQWdTX1J0WmhoVm9xZDBFWWRiZ192R2xKR2N6OWVMOA?oc=5",
+      "source_name": "Shacknews",
+      "published_at": "2026-02-12T08:00:00.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 380000,
+      "confidence": 0.86,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_317919310",
       "vc_id": "bcv",
       "vc_name": "Bain Capital Ventures",
@@ -872,50 +916,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1920221675",
-      "vc_id": "threshold",
-      "vc_name": "Threshold Ventures",
-      "company": "Fusion power startup Inertia",
-      "title": "Fusion power startup Inertia raises $450M round backed by GV - SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZldLOEh1cFR4X21MWHlXN2ExOEk4UGtiajRzdTBMVHIxMTB0NU5rcDVjd0JLMUNGMGIwVXdtanZ4TjdPeWhpNXdZd2Ftb2dSVldJaC1UYmV3ZmViWWN2aTdFSWZHM0VielgydDNJWHJ1THMwVjc0Y3htVFlRSm1TSzBYNGFYM2ppUkhiU3V5dktteS1Kakg3bg?oc=5",
-      "source_name": "SiliconANGLE",
-      "published_at": "2026-02-11T23:34:25.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 450,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1725886319",
-      "vc_id": "gv",
-      "vc_name": "GV",
-      "company": "Fusion power startup Inertia",
-      "title": "Fusion power startup Inertia raises $450M round backed by GV - SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZldLOEh1cFR4X21MWHlXN2ExOEk4UGtiajRzdTBMVHIxMTB0NU5rcDVjd0JLMUNGMGIwVXdtanZ4TjdPeWhpNXdZd2Ftb2dSVldJaC1UYmV3ZmViWWN2aTdFSWZHM0VielgydDNJWHJ1THMwVjc0Y3htVFlRSm1TSzBYNGFYM2ppUkhiU3V5dktteS1Kakg3bg?oc=5",
-      "source_name": "SiliconANGLE",
-      "published_at": "2026-02-11T23:34:25.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 450,
-      "confidence": 0.81,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -987,13 +987,35 @@
       }
     },
     {
+      "id": "deal_463711942",
+      "vc_id": "threshold",
+      "vc_name": "Threshold Ventures",
+      "company": "Fusion power startup Inertia",
+      "title": "Fusion power startup Inertia raises $450M round backed by GV - SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZldLOEh1cFR4X21MWHlXN2ExOEk4UGtiajRzdTBMVHIxMTB0NU5rcDVjd0JLMUNGMGIwVXdtanZ4TjdPeWhpNXdZd2Ftb2dSVldJaC1UYmV3ZmViWWN2aTdFSWZHM0VielgydDNJWHJ1THMwVjc0Y3htVFlRSm1TSzBYNGFYM2ppUkhiU3V5dktteS1Kakg3bg?oc=5",
+      "source_name": "SiliconANGLE",
+      "published_at": "2026-02-11T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 450,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1501414307",
       "vc_id": "threshold",
       "vc_name": "Threshold Ventures",
       "company": "Fusion Startup",
-      "title": "Fusion Startup Raises $450 Million in Bid to Make Power Using World’s Biggest Lasers - Bloomberg",
+      "title": "Fusion Startup Raises $450 Million in Bid to Make Power Using World’s Biggest Lasers - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWjBvWElsYk1nNS1idU01VE1Hc053U2I5bnp0d2h4WkV4QXUxQmlmRGFUS1pEY2pfajdxWTEyX0RKQ1ZPeW9IS2tia2duZ0pDNmxfdEpQSmRJR01HZFF3XzlVZXhzWktsdzFiVFJhOVRfcUNLQ3UxMTgtTWcxQzctcFB6ZlFuWnNIUjRHNWJwd0hnNFBCTGlmTWVYVHV4UDN6UUhhc0Q2OHVHSl9NYlJHSzUzM2h1ZFJhaVE?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-02-11T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1013,9 +1035,9 @@
       "vc_id": "threshold",
       "vc_name": "Threshold Ventures",
       "company": "Fusion Startup Using Laser Technology",
-      "title": "Fusion Startup Using Laser Technology Raises $450 Million - Bloomberg",
+      "title": "Fusion Startup Using Laser Technology Raises $450 Million - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcG5HSmRBRkgzbGZfeDdvRkRtY256ZGgyVThIbTFZcFIyeHNSZDVoWHFydmo2X0s1Umh4TmlSbE1hcHRSMURCNUdjQ2hkTXp5VGtLVE5YV2J3NmxDOHladGpNenZfWW02WkFmRjllclNra3V2aHZFejNLVnd3WnluaTIzRTEyWWYtczRqOTc0YTdSYkwwcDlSU3NPUnNVbVVaQmVTRi1uX2kzTElQUG5YdFhhcjBsdmc1dWU5YQ?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-02-11T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1075,6 +1097,28 @@
       }
     },
     {
+      "id": "deal_269376586",
+      "vc_id": "gv",
+      "vc_name": "GV",
+      "company": "Fusion power startup Inertia",
+      "title": "Fusion power startup Inertia raises $450M round backed by GV - SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZldLOEh1cFR4X21MWHlXN2ExOEk4UGtiajRzdTBMVHIxMTB0NU5rcDVjd0JLMUNGMGIwVXdtanZ4TjdPeWhpNXdZd2Ftb2dSVldJaC1UYmV3ZmViWWN2aTdFSWZHM0VielgydDNJWHJ1THMwVjc0Y3htVFlRSm1TSzBYNGFYM2ppUkhiU3V5dktteS1Kakg3bg?oc=5",
+      "source_name": "SiliconANGLE",
+      "published_at": "2026-02-11T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 450,
+      "confidence": 0.81,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_313525427",
       "vc_id": "andreessen-horowitz",
       "vc_name": "Andreessen Horowitz",
@@ -1114,28 +1158,6 @@
         "state": "MA",
         "lat": 42.3736,
         "lon": -71.1097,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_344887405",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Bretton AI",
-      "title": "Bretton AI raises $75 million to use AI to combat financial crime - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZF9SYzBtTXJyWFpGVzhxTzZzOUhlMG45YXRUWW1EVmYxWS1WSEJrOWpSVUV6QlpEQ2xpRXFWUlRVMlFsVUR6bGw0Z0tHSnBPdXo4XzA4QVhoYXMyRTBWUEJKZTFFWDNORVV4Nzd6Wk9qZmdGcUxDSjZGVWMyS09DelpnVzA0ZmJIX2dudHFvZ3o1SWNkRjJwcFZZXzJtRG91a3YyRUduaHgzY01EU2dsdDBMQTZ6dw?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-02-10T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 75,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1211,9 +1233,9 @@
       "vc_id": "felicis",
       "vc_name": "Felicis",
       "company": "Former GitHub CEO",
-      "title": "Former GitHub CEO Raises Funds for Startup to Sync AI and Human Code - Bloomberg",
+      "title": "Former GitHub CEO Raises Funds for Startup to Sync AI and Human Code - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkh4c3pCVTFVaDVJRk9uWXRPVmNiS2dYRHV2REV3TFlfLWRET1UwRV9WaVA5SUdqdTBuTlRIbjZYVW9seDV6YjNKakgxUk5fVjZzUFVnMFBYUUhHdXhIRUR0RjE1MkotWmJqd2hxdkw2UXZOeEF5RXJwZXliSUtKZnZKamYwUnAzYUwzTlRyZnhYX3ZuZzlaVDU5UU5wWE5kSlF3NFJKVWptaVdkdmNKWHI0N3R2dVk?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-02-10T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1273,23 +1295,23 @@
       }
     },
     {
-      "id": "deal_1195644446",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Exclusive | Neara",
-      "title": "Exclusive | Neara Raises More Than $60 Million as Data Centers Pressure Power Grids - WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxQd3pLNTFHZ0tOQ3VkTEJvY1JMUElOZUctQm5QX1NlYk95Rkdfd2RwRWdzc0N0SmF0X0hBNEJjcmVjLWxFX0k1T0xNc2ItX3BvTzZjdDFOLU5aZW5za1pVUFFYUzJiamtWZjBrdG1xYmNSYk1fS0tDWjVfanRYTnNKOFcxUVVOdTlSLTJNdlNQUEl0Rzd0aUZZWi1Qa2otOHVhcnJRbzFaMG1Iem5Da1FQM3ZETldncmJnVTlyN19PZGxlTG1hQzdmcDZtMlZTUTA3VXZQX2dqVVQ3cFZ3dTFvd1Z3OU5OOWNuajNOVXRrOTRXZlk4dm95dlRTN05DTmxWUWJnblV6ZHpiVlU5RHJyUHk3VXJDLVlQQkExRlBlWDFTZ21jQkswTUY1bThTdFIza3duTV9ZNldQTjlaQ0lVRWJ3ZEdEZjZySHVwR19BZ3hLdDk1UDRpZEJmVml2Z0hVRFNqRkVDckNsUDN0ZXdMX1I5OVFJaVctRmJYWWlrRUhWRmM3S3pkMTMtQXBLd2MxOEg0U3IwejlTaGlTT1FfUUUyYld1ckI2czRzT3FUdGdMdw?oc=5",
-      "source_name": "WSJ",
+      "id": "deal_1792774454",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Unknown",
+      "title": "Food delivery startup Swish in talks to raise $30-35 million from Bain Capital Ventures, Accel: Sources - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWHc3b1ZmbmlVdTlVRUhhVzQxUHVYVGlTTzVXYlU5Ump1YUo4UDVMQ3pjaENVaVlrV3Bmc1oxNHdyMGc1STVJOXg0OENDUjg5eHBoZjM3RVJzVFZtdmIxM1lNcmxJSUREWE1MVlQxYnlxRFJxLXJOTXBhN0VCNVZfX243QXJ0RHhST011NU1hR0N2aklFX3pvb1Z3cnZEZVVNVVNtdndlSmNQMDg5eW9CSnk3UXgtWV91WWVsTWY5UGwtWUoyNngwaHlhUXEtdm16dU1NSklOdnFaNGx4b0FyNFJkZ1NFMVVYU2lpQ2s0S1RwWEo5T2FpU2E5TdIBgAJBVV95cUxNYjZ1MEI5clRSdWVabHBaQi1GQlNCV0l5TEFGeUd6X3BxSVNFeVZIcFV6WXpQclhsY1VyaDdYVTFSSFpGeVQxV0JweXB0ZTdsYW1QX29IM1hfbElCc0h6THJIYzZIeGVGRFVvd1VZTjZ4S19WYWY1c0VOWHRPSFE4YlRhTnRXbjY3dm9IemRqSVBNZnY0YWhkWUs3TWRaekI2b3p3YlVIY3dwOG1wXzFYak1NWTlDU3FRZnZjcDlnb2o2ZGtkLXlGaDVsc2dXa04tdi05alRHblBvbmJoT2dCYUxzd3R1ZnJOQ3dyejNqSXFZTk9xNGdSQ1B4eXJmX3pX?oc=5",
+      "source_name": "The Economic Times",
       "published_at": "2026-02-09T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.81,
+      "amount_usd_m": 30,
+      "confidence": 0.71,
       "location": {
-        "city": "Menlo Park",
+        "city": "Palo Alto",
         "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1321,9 +1343,9 @@
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
       "company": "Unknown",
-      "title": "General Catalyst-Backed Startup Raises $75 Million to Bring AI to Accounting - Bloomberg",
+      "title": "General Catalyst-Backed Startup Raises $75 Million to Bring AI to Accounting - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcXdMZUVJSzNOMHRnLVZVTXJrdTdZSU5oZFE0VHpwVWxyNTZRX1VHbTFBUWJPRjhjR2U2THNqVXh6eFQ3bXFnand4ZWM5NERyODFBeExnb0lJYUs2Rk9ZUDlnV2lGU1M0NnEwNkpPZ0hDT0VHclFUd0RRU0dqbmpfazcxUEFIWWNOODZ5YnUtU2J6VUQ2UGU5MHI0UllEOHFfTDNQaDdabUR2WnJMNmM2clEyaHhmZFZYV2l5T2l2MGYyTDM2?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-02-05T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1339,13 +1361,13 @@
       }
     },
     {
-      "id": "deal_287009926",
+      "id": "deal_571449823",
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
       "company": "Duna, Built by Stripe Veterans,",
-      "title": "Duna, Built by Stripe Veterans, Raises €30 Million CapitalG-led Series A to Solve Business Identity For The Internet - STT Info",
-      "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQUF1TXBEaEFYckxHZC1FaUlQUncwcTVqZV9rbUV4VFozbmxhOWJnYzlaZWJWWnRmNnRnZHJMX3lXbWlPNzhVRjBkN1diVk9MTTZGdklORjhic0g0UF9RQVlyX3RaZ0tXblZfbjJuSUVRaWhVZVpqWGRvSEM0cnY3OXUyYnpqNlgwZFBjODZVRDhnd0FWTDFtZUtoSWYweWQ5UnhCeDJ1M2ZvNjlIanNjOV8tUnZzSUY3QVJSOENCQXp5bTRlNjl3ZnVVQ2Q1V2JkVUJvektrUlZaRHFFbU1JOHhYSWpVLTBDT0dnRTZUWndyM0JPWjN1MXFtbzVKRXlObUd4NTFmdnpuaEsyRUJ2bEdoTDU?oc=5",
-      "source_name": "STT Info",
+      "title": "Duna, Built by Stripe Veterans, Raises €30 Million CapitalG-led Series A to Solve Business Identity For The Internet - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc29FTnN3bWdQblh0YllObjR5Slp1TlpKMDUxLUJXMm4tRDFxOWZSNHE0cHRDWnN1T0NqMFRneFFmX3k4ek5KM0lHaWNPZ0h5LUZZamRKX0xwWUV6NExZcnFFM1lhQnB0dk1ROFJDb29vQVM5UGU5VnI3UFdiQmdJT3FvNVF3Zw?oc=5",
+      "source_name": "Yahoo Finance",
       "published_at": "2026-02-05T08:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -1402,28 +1424,6 @@
         "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_820484833",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Bedrock, an A.I. Start-Up for Construction,",
-      "title": "Bedrock, an A.I. Start-Up for Construction, Raises $270 Million - The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOODJ6S19WYVVnaTJsMlplbEtxeDZuRzJQbS0zZXQwYVZ5UVRhS25MVGJLQ1dwYkVTVmJua25jYmFUNHZwd1pfWk02b3pXTDlvQVcyMkExRnQ3ZWdhZlpiWi1jQS0zbzdwM19hQ3k2UE1aMDY1Vnh2UElSOHlLVmJ5aTFrRE9WX1l4cGM5aDlKdlI?oc=5",
-      "source_name": "The New York Times",
-      "published_at": "2026-02-04T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 270,
-      "confidence": 0.93,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "city_keyword",
-        "confidence": 0.68
       }
     },
     {
@@ -1510,72 +1510,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1955579001",
-      "vc_id": "capitalg",
-      "vc_name": "CapitalG",
-      "company": "Bedrock, an A.I. Start-Up for Construction,",
-      "title": "Bedrock, an A.I. Start-Up for Construction, Raises $270 Million - The New York Times",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOODJ6S19WYVVnaTJsMlplbEtxeDZuRzJQbS0zZXQwYVZ5UVRhS25MVGJLQ1dwYkVTVmJua25jYmFUNHZwd1pfWk02b3pXTDlvQVcyMkExRnQ3ZWdhZlpiWi1jQS0zbzdwM19hQ3k2UE1aMDY1Vnh2UElSOHlLVmJ5aTFrRE9WX1l4cGM5aDlKdlI?oc=5",
-      "source_name": "The New York Times",
-      "published_at": "2026-02-04T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 270,
-      "confidence": 0.93,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "city_keyword",
-        "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_1204207524",
-      "vc_id": "citi-ventures",
-      "vc_name": "Citi Ventures",
-      "company": "Unknown",
-      "title": "Crypto crime-fighting startup TRM Labs notches $1 billion valuation with new $70 million funding round - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNckZtWFJnMl9MRTJxaW84NmJralA2dWlmZXVMcnFFSV94UmZPbXdrLW1WYXV0VDI5cERPTlk1S19ibTNxcWdkUXNKazRmdTAwM3FSWS1reWdMMGMzdTdSTUxUbXM3SU9FX3lRajhEOE9KTW9QbkItUEJId21oOVR0Yi1nMTIzYWVUN1FjSllvRmtTOFZqalU4UzhGWHJDUENZQnc?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-02-04T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": 1000,
-      "confidence": 0.71,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_488319405",
-      "vc_id": "nyca",
-      "vc_name": "Nyca Partners",
-      "company": "Unknown",
-      "title": "Startup news and updates: Daily roundup (February 3, 2026) - YourStory.com",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTFhja2F1WDhSVGJoMTQxSnozVW51b1Q0VGtpdDhBbVlHbjd3SU5sZFlUMXNZQkRtU29Eb295ZVZIRDdEUnI0cC1CcDFJV2c3NHl6bkxCWTVGbzAwdmNnaW8wLS1FR2NTVHVQam9ZZzF6M0o5aXJ1bXUxeHhhcnhtckJBR25nc0U?oc=5",
-      "source_name": "YourStory.com",
-      "published_at": "2026-02-03T11:35:36.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1779,6 +1713,28 @@
       }
     },
     {
+      "id": "deal_1135005614",
+      "vc_id": "crosslink",
+      "vc_name": "Crosslink Capital",
+      "company": "As vet bills jump 40% in recent years, startup Snout",
+      "title": "As vet bills jump 40% in recent years, startup Snout raises $110 million for its ‘membership’ model to defray costs - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbUJFS1loeWdGaFF4Mm1sb0hvN1lya2c3QVFXWVZOZ0RUWEw1ZlJyTkRpcl9FY3dzMnl0N3dKNjZFamg5QVdSUTgyTXIzOFViZGdFMG5Cbm82QWVrRjh4R3d1bzdSLTRRZ0NyZFFCdG9hZTY3blpiN0FnQlpvRXFvTFNHSFJLRmEzc0U0VTNqeWszSmtfU0pBb0RpNjFLMDMt?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-01-28T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1955741516",
       "vc_id": "crv",
       "vc_name": "CRV",
@@ -1830,14 +1786,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 17,
-      "weighted_score": 83.26,
-      "latest_at": "2026-02-24T23:10:30.000Z",
-      "amount_usd_m_total": 1200450,
+      "deal_count": 14,
+      "weighted_score": 72.77,
+      "latest_at": "2026-02-18T14:00:38.000Z",
+      "amount_usd_m_total": 1200285,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 16
+          "count": 13
         },
         {
           "name": "Other",
@@ -1865,14 +1821,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 15,
-      "weighted_score": 58.7,
+      "deal_count": 16,
+      "weighted_score": 62.56,
       "latest_at": "2026-02-22T08:00:00.000Z",
-      "amount_usd_m_total": 57396.75,
+      "amount_usd_m_total": 57506.75,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Other",
@@ -1900,31 +1856,27 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 9,
-      "weighted_score": 44.05,
-      "latest_at": "2026-02-12T12:18:11.000Z",
-      "amount_usd_m_total": 91554,
+      "deal_count": 7,
+      "weighted_score": 45.98,
+      "latest_at": "2026-02-16T08:00:00.000Z",
+      "amount_usd_m_total": 500014,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "Web3 & Crypto",
           "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Nyca Partners",
-          "count": 3
+          "name": "Coatue",
+          "count": 4
         },
         {
-          "name": "Coatue",
+          "name": "Nyca Partners",
           "count": 2
         },
         {
@@ -1939,14 +1891,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 10,
-      "weighted_score": 29.44,
+      "deal_count": 11,
+      "weighted_score": 32.64,
       "latest_at": "2026-02-25T04:29:23.000Z",
-      "amount_usd_m_total": 603.45,
+      "amount_usd_m_total": 633.45,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Other",
@@ -1956,7 +1908,7 @@
       "top_vcs": [
         {
           "name": "Accel",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Costanoa Ventures",
@@ -1974,14 +1926,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 7,
-      "weighted_score": 25.91,
+      "deal_count": 8,
+      "weighted_score": 31.14,
       "latest_at": "2026-02-23T21:52:07.000Z",
-      "amount_usd_m_total": 1600,
+      "amount_usd_m_total": 4900,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Other",
@@ -1991,7 +1943,7 @@
       "top_vcs": [
         {
           "name": "Battery Ventures",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Bain Capital Ventures",
@@ -2027,33 +1979,6 @@
       ]
     },
     {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 5,
-      "weighted_score": 20.7,
-      "latest_at": "2026-02-24T10:36:13.000Z",
-      "amount_usd_m_total": 30108.2,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "General Catalyst",
-          "count": 5
-        }
-      ]
-    },
-    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
@@ -2081,6 +2006,33 @@
       ]
     },
     {
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 4,
+      "weighted_score": 12.46,
+      "latest_at": "2026-02-24T10:36:13.000Z",
+      "amount_usd_m_total": 108.2,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 4
+        }
+      ]
+    },
+    {
       "key": "San Diego,CA",
       "city": "San Diego",
       "state": "CA",
@@ -2104,6 +2056,33 @@
         {
           "name": "Qualcomm Ventures",
           "count": 3
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 2,
+      "weighted_score": 7.19,
+      "latest_at": "2026-02-25T14:00:00.000Z",
+      "amount_usd_m_total": 100,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
+          "count": 2
         }
       ]
     },
@@ -2172,29 +2151,6 @@
       "top_vcs": [
         {
           "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 1,
-      "weighted_score": 3.67,
-      "latest_at": "2026-02-04T08:00:00.000Z",
-      "amount_usd_m_total": 50,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
           "count": 1
         }
       ]
