@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-14T18:56:29.266Z",
+  "generated_at": "2026-03-15T03:29:41.503Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 55,
-    "total_deals": 55,
+    "scraped_deals": 54,
+    "total_deals": 54,
     "demo_mode": false,
-    "deals_with_coordinates": 55,
-    "runtime_ms": 4427,
+    "deals_with_coordinates": 54,
+    "runtime_ms": 4537,
     "note": "",
     "error_sample": []
   },
@@ -41,23 +41,45 @@
       }
     },
     {
-      "id": "deal_135748384",
-      "vc_id": "insight",
-      "vc_name": "Insight Partners",
-      "company": "Amsterdam-based enterprise AI agent platform Wonderful",
-      "title": "Amsterdam-based enterprise AI agent platform Wonderful raises €129.8 million Series B at €1.7 billion valuation - EU-Startups",
-      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVXBNaXpJdndWMlotUjVMRF9mZVhpdFVvYVhmTmctYldMYkRCenREVm10V2Nub3ktUmFoZlAyYmFMclc4RGktNU5uR1lJT0NoeFJvU05wWlVoTGFoamJKX09BWTl2Q0VJQmRaYlpCT3NscTVGRmdvcFZ4aTR5UTJpcW8zRmRMeHZsVFh6R0FkRUdReHBKT1huejhQSHdYb2xfN0UwUGpVbXFKTC1zTmJRVDJINTlFMXRmSE1FOXpsdGNLbVByQUNkRGFKdkwwdUtsUmZfTHVwMklyM1RBZWpUaHpn?oc=5",
-      "source_name": "EU-Startups",
-      "published_at": "2026-03-12T12:06:36.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
+      "id": "deal_1519293175",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Unknown",
+      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
+      "source_name": "CryptoRank",
+      "published_at": "2026-03-14T07:14:20.000Z",
+      "stage": "Series D+",
+      "sector": "Web3 & Crypto",
+      "amount_usd_m": 5550,
+      "confidence": 0.86,
       "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1582285982",
+      "vc_id": "redpoint",
+      "vc_name": "Redpoint Ventures",
+      "company": "Unknown",
+      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
+      "source_name": "CryptoRank",
+      "published_at": "2026-03-14T07:14:20.000Z",
+      "stage": "Series D+",
+      "sector": "Web3 & Crypto",
+      "amount_usd_m": 5550,
+      "confidence": 0.86,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -107,28 +129,6 @@
       }
     },
     {
-      "id": "deal_1967200243",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Legal AI startup Legora",
-      "title": "Legal AI startup Legora raises $550 million to speed up US expansion - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeERTYTlBN051aDRabHlSQ2JvcjVDWktpMU45bzBvM2FxeWhBU1VLUFBWS0FrYWpqdDNkVWhZUUw1ZzNMb1NhNTJZU2VuTHBvaXpNaGVqenhYZDhWQjF1RU5XN2Mzb3VmRUNSZHRxeGNUSGdOekJFQmRpQk44T3d0Nk5vRFhNN0lBTVRBRF90TEFsUkxEVWxXN2trd05kTmdnbHlST2tET0xBRnVSRzNnVkx5Nl9sbnBW?oc=5",
-      "source_name": "Reuters",
-      "published_at": "2026-03-11T22:10:35.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 550,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_675604007",
       "vc_id": "greylock",
       "vc_name": "Greylock",
@@ -168,6 +168,28 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1540730276",
+      "vc_id": "greycroft",
+      "vc_name": "Greycroft",
+      "company": "AMI Labs as AI startup hits",
+      "title": "Shorooq invests in AMI Labs as AI startup hits $3.5 billion valuation - Wamda",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUXAyemJzVWczQUFWV0VlOGt4akEzakRZWnBzQmdDdmhoZ3M3dXRlYV9oQ1VrdnFRdlQxVkF1RUI1eEF3TkJaZEJ6MGY1VnRHMkw0Q1VIb3Q1NzBmejJpZWk2cHJKcVBVdlBUM3NoTDhOY1dCd0NXWS1RYWxtclRVei0xbFFOR1lXcGhjSHpvakZzeEZURU1N?oc=5",
+      "source_name": "Wamda",
+      "published_at": "2026-03-11T10:34:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 3500,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -305,50 +327,6 @@
       }
     },
     {
-      "id": "deal_884967264",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "Legal AI Startup Legora",
-      "title": "Legal AI Startup Legora Raises $550 Million for US Expansion - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMkNnWGVyNkV1bU9kWm83LXRvWTZRSmtxY1dzd1VmTWppVEZuNVA1VkpuYUdfanhjbEtYbkxMZC1LZHF1Tjc5YzA1ay1qUURmNUg4MUFiQTlxalQ2YTRlUW9hSHFuTjlxRWdObVAxTGEyenBITGRIcXN2RGItRVRYaVBZZ0k4NHhBbkNtYy1fV21YTXJiM082LUZlY3dNUHRHekFrSXF0aVFIVlY0aWo0?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-03-10T12:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 550,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_498167959",
-      "vc_id": "redpoint",
-      "vc_name": "Redpoint Ventures",
-      "company": "Legal AI Startup Legora",
-      "title": "Legal AI Startup Legora Raises $550 Million for US Expansion - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMkNnWGVyNkV1bU9kWm83LXRvWTZRSmtxY1dzd1VmTWppVEZuNVA1VkpuYUdfanhjbEtYbkxMZC1LZHF1Tjc5YzA1ay1qUURmNUg4MUFiQTlxalQ2YTRlUW9hSHFuTjlxRWdObVAxTGEyenBITGRIcXN2RGItRVRYaVBZZ0k4NHhBbkNtYy1fV21YTXJiM082LUZlY3dNUHRHekFrSXF0aVFIVlY0aWo0?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-03-10T12:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 550,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1710616738",
       "vc_id": "qed",
       "vc_name": "QED Investors",
@@ -361,28 +339,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 600,
       "confidence": 0.71,
-      "location": {
-        "city": "Alexandria",
-        "state": "VA",
-        "lat": 38.8048,
-        "lon": -77.0469,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_370398667",
-      "vc_id": "qed",
-      "vc_name": "QED Investors",
-      "company": "Stablecoin Payments Firm KAST",
-      "title": "Stablecoin Payments Firm KAST Raises $80 Million in Funding - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeTlPWVRFWDJ6Q25IdVFVekoxal9pSmF1UWpXTk1JcVp2WHVOS05sZGdGakJkZU5Uekl5TVlSdHlfT3p4Wl9XZGFsR2FyYldaWjJfYVFFNEtoT18wWkhyRURJQ3lacThRMEZuRXU1MUJKQ2pVRmhCMWRaMm50RHlQY2VRc1l0LWxIb2tMVUxpdXhfUTlBOTY5aU9uQzVNb2lsVm1DV0NSRV9kazRPZnc?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-03-09T13:08:04.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 80,
-      "confidence": 0.81,
       "location": {
         "city": "Alexandria",
         "state": "VA",
@@ -525,6 +481,28 @@
       }
     },
     {
+      "id": "deal_1955084865",
+      "vc_id": "qualcomm",
+      "vc_name": "Qualcomm Ventures",
+      "company": "EV startup Bounce",
+      "title": "EV startup Bounce raises $5 million from Accel, B Capital, Qualcomm - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWm5xQ0ZWeVJnRlZYb0xjc29EX2V6WUExNElQUDRxbXp0VmJTX09ZbXZjcDJWZXRKVXgwVFJGQ2JXb2NJNVlraE9fV3FFZUppeGpENS1vMjhfRGg1OUxTT1I4WTZzTWxETFJ4dDNBTHRSX1NPeHg2aUtsalFENWU2UHpuT2pBcHRGR2tHTWJGUk1xRXhiZEtxUHhHcE94MDNqc1lYeUJZU2J2QTBOenN1VFNja1EzRXF5RWg2by1oMXk2SDRYdVd6ZWw3c9IB0AFBVV95cUxQT2x2LVdrSWFPODJfN3BkX0JKZ0FiU1hDSnNTTmhLWlJweTJvb2JOdFBKVnktdGhVdGdFVDBsb0FzWVZkdWw4S3FlSDJDX2lPaFMzelgzV3NFM3p5MElfWnNKWG93LXNYQXcwRm5QYzRLY3lESWczS0xBLS1rVlhjeUwzb2RIbHNZTl9nUWJjbEJVQWdsdW1PTVlpVHZLbWg1dW10VXkwWWJVMEpkZHltUXU2V0tBNnhjWkFBOUVtNS1TX2Q3bVd4YjlsWDNLXzFY?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-03-02T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 5,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1350240420",
       "vc_id": "f-prime",
       "vc_name": "F-Prime Capital",
@@ -564,28 +542,6 @@
         "state": "MA",
         "lat": 42.3736,
         "lon": -71.1097,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1605567644",
-      "vc_id": "primary",
-      "vc_name": "Primary Venture Partners",
-      "company": "Unknown",
-      "title": "The 11 Largest NYC Tech Startup Funding Rounds of February 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa3RHMkRDNjhERXN3UVU1XzdaaGsyLWN3QmNaTmlKTVotWWhkOWxsRkNhRjQ0UXh6UFFEMUhscERsb1ZmblpHS3JUVVZaMkQ3TUsyclVPM2RIZ2pQRFd0OGctRnltaVl0RnA0VHNqRTBxaUx2TmI1Q1NFTHBxQlRyM0REMXY0UTJjTGl4T05NZ2k5U3pZdThkRWRlMA?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-02-28T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -745,6 +701,28 @@
       }
     },
     {
+      "id": "deal_1560458894",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Construction tech startup MeltPlan",
+      "title": "Construction tech startup MeltPlan raises $10 million in round led by Bessemer Venture Partners - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTFcwUFNKbWVvMmpIYUYzVjB2UEdxWmNPb0N5SEIyelFqTDU1TndCbnRfbjIwYVE2WXhWZlR0Y3dUbXA3Qk5KdENLbXptN3hCT196djlaR1l0RkNDM0JsZlZKUjJ4QXZ5U3laQnE5UkhFRFYzdmxLZlotWVFJamZLNkY2MHFLZFB4MjZxMGNhVmhfZUtHdnZtWDFzWmJFMTNCSEdIZTZnNWxISGFkc2tiTTNXaE5YWVNPLTZXb2lmUW5GWVk4clZLTER4SVJOMXMxdUVhOU5wQzFCak83cmMxekp5WHVtYXlsQ0JwUjd0dGEyVXfSAfgBQVVfeXFMUGtpcmhXX2laUDFCQnlEMXVhWWNzNkdPdXVKdWtFN2U2U3JzUVdndDBzQXp0SVpHQWVOM2M2V01YNnlRTXVUa0dpRDZjak43SXFMbGZFWnZ1OGRjdmVfakx4bV9pNFZBRm1RTHc5SEJ3UWNjbjFVQ2FtVXdvMGhvbk5RVXM0QTJsUWhfazdKYmJ6dng4SHNSTkVhTFA1bzJ3RW43SUtKWjl1NExDb1R1cnd3UFNBZVlOOWFxNzNlc0dleEphdFh5UjAyNF83MTg2a1FwdUYyTG1TN0xJeHBSSTRVTnA0LUtqbURUSGZOdFBqdkJUci1CVDE?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-02-26T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.81,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1432171943",
       "vc_id": "accel",
       "vc_name": "Accel",
@@ -833,6 +811,28 @@
       }
     },
     {
+      "id": "deal_1250364053",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Letter AI",
+      "title": "Letter AI Raises $40M Series B to Bring Deal-Level Intelligence to Revenue Enablement - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONG5jRnk4STRtNmZ5MGZzQ1EyR2tKUVVXZ2xkbnZyWGdkaG5lVlFCVU5XbV84dDQyVjhRVlUzRlVOeU10UnNhSy13Vk1KTmVHYWM2NTVfX2Q3OVlTaV9VZU16Q1BVLU53M3dQS0dudFVuTHB2dWgweF9ZYVowclg4ejZzcXRLSTVHODh1dHdPeUE1Rm5KMTR0R2tvWEtUWE9OUUc2Nmlqa0FaSThjb3B1SnRzTUlvQmhrUW9XVXJ3SHBjcU5UZGxTMWgzWnQ2bXkwVW9ZdFhpYw?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-02-24T08:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.96,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_817586593",
       "vc_id": "future",
       "vc_name": "Future Ventures",
@@ -872,28 +872,6 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_340879588",
-      "vc_id": "gv",
-      "vc_name": "GV",
-      "company": "AI accounting startup Basis",
-      "title": "AI accounting startup Basis raises $100 million at $1.15 billion valuation from Accel and GV to automate accounting tasks - mnutrailblazer.com",
-      "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQnpqc3hOalBnYVJzSDhSV3VrR0F1T2JlTHRLeDdjS09HMUpMVHh6a1EyQTVHb0UxSEg3WEExd01QdU5yMFlZVTE1Q3RfU3BCWGhIZThuQmx5bjFjQWxJbkxEV1lkcHYwZ2hoQXRoNWFXYUJ4RnRYZGNFcHVlV1ZScWZVbElJZkdxdFVZdTdfaGFQaVktV3poeEZzdW1WSmEzelB0aHVnWlItQk5RNDFNejNCOHFUT3ZTeGxWWWdUYkNSSUstcVIxdWNLdG9aNjFpa2w4NkxVUFFHS25yZGxjM3pobzJUODlGMTlaWER0QlZZS2h0RnlzVVRCQQ?oc=5",
-      "source_name": "mnutrailblazer.com",
-      "published_at": "2026-02-24T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.81,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1231,19 +1209,54 @@
   ],
   "bubbles": [
     {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 11,
+      "weighted_score": 44.47,
+      "latest_at": "2026-03-14T07:14:20.000Z",
+      "amount_usd_m_total": 11674,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 9
+        },
+        {
+          "name": "Web3 & Crypto",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Redpoint Ventures",
+          "count": 2
+        },
+        {
+          "name": "Mayfield",
+          "count": 2
+        },
+        {
+          "name": "Menlo Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "San Francisco,CA",
       "city": "San Francisco",
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 9,
-      "weighted_score": 36.14,
+      "deal_count": 8,
+      "weighted_score": 31.58,
       "latest_at": "2026-03-12T06:02:00.000Z",
-      "amount_usd_m_total": 15222.25,
+      "amount_usd_m_total": 14672.25,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Other",
@@ -1260,38 +1273,7 @@
           "count": 1
         },
         {
-          "name": "Benchmark",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 10,
-      "weighted_score": 34.21,
-      "latest_at": "2026-03-12T12:06:36.000Z",
-      "amount_usd_m_total": 1124,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 10
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Mayfield",
-          "count": 2
-        },
-        {
-          "name": "Redpoint Ventures",
-          "count": 2
-        },
-        {
-          "name": "IVP",
+          "name": "Salesforce Ventures",
           "count": 1
         }
       ]
@@ -1302,24 +1284,24 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 5,
-      "weighted_score": 26.1,
+      "deal_count": 4,
+      "weighted_score": 21.54,
       "latest_at": "2026-03-10T17:02:13.000Z",
-      "amount_usd_m_total": 12078.85,
+      "amount_usd_m_total": 11528.85,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 3
+          "name": "Other",
+          "count": 2
         },
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 2
         }
       ],
       "top_vcs": [
         {
           "name": "Accel",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Sapphire Ventures",
@@ -1337,14 +1319,45 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 6,
-      "weighted_score": 20.3,
-      "latest_at": "2026-03-12T12:06:36.000Z",
-      "amount_usd_m_total": 2082,
+      "deal_count": 5,
+      "weighted_score": 20.28,
+      "latest_at": "2026-03-11T10:34:29.000Z",
+      "amount_usd_m_total": 5582,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 5
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Greycroft",
+          "count": 3
+        },
+        {
+          "name": "Amex Ventures",
+          "count": 1
+        },
+        {
+          "name": "Lux Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Diego,CA",
+      "city": "San Diego",
+      "state": "CA",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "deal_count": 5,
+      "weighted_score": 14.69,
+      "latest_at": "2026-03-02T08:00:00.000Z",
+      "amount_usd_m_total": 305,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
         },
         {
           "name": "Other",
@@ -1353,15 +1366,38 @@
       ],
       "top_vcs": [
         {
-          "name": "Greycroft",
+          "name": "Qualcomm Ventures",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 3,
+      "weighted_score": 12.69,
+      "latest_at": "2026-02-27T08:00:00.000Z",
+      "amount_usd_m_total": 1377,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
           "count": 2
         },
         {
-          "name": "Insight Partners",
+          "name": "Other",
           "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Battery Ventures",
+          "count": 2
         },
         {
-          "name": "Amex Ventures",
+          "name": "Bain Capital Ventures",
           "count": 1
         }
       ]
@@ -1394,129 +1430,29 @@
       ]
     },
     {
-      "key": "San Diego,CA",
-      "city": "San Diego",
-      "state": "CA",
-      "lat": 32.7157,
-      "lon": -117.1611,
-      "deal_count": 4,
-      "weighted_score": 12.1,
-      "latest_at": "2026-02-18T12:45:38.000Z",
-      "amount_usd_m_total": 300,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Qualcomm Ventures",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "key": "Alexandria,VA",
-      "city": "Alexandria",
-      "state": "VA",
-      "lat": 38.8048,
-      "lon": -77.0469,
-      "deal_count": 2,
-      "weighted_score": 8.21,
-      "latest_at": "2026-03-09T19:30:18.000Z",
-      "amount_usd_m_total": 680,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "QED Investors",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 2,
-      "weighted_score": 8.11,
-      "latest_at": "2026-02-27T08:00:00.000Z",
-      "amount_usd_m_total": 1337,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bain Capital Ventures",
-          "count": 1
-        },
-        {
-          "name": "Battery Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 7.82,
-      "latest_at": "2026-03-11T11:43:00.000Z",
-      "amount_usd_m_total": 127,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Redwood City,CA",
       "city": "Redwood City",
       "state": "CA",
       "lat": 37.4852,
       "lon": -122.2364,
-      "deal_count": 1,
-      "weighted_score": 7.4,
+      "deal_count": 2,
+      "weighted_score": 10.26,
       "latest_at": "2026-03-14T07:14:20.000Z",
-      "amount_usd_m_total": 5550,
+      "amount_usd_m_total": 5560,
       "top_sectors": [
         {
           "name": "Web3 & Crypto",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
           "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "Bessemer Venture Partners",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -1571,6 +1507,29 @@
       ]
     },
     {
+      "key": "Alexandria,VA",
+      "city": "Alexandria",
+      "state": "VA",
+      "lat": 38.8048,
+      "lon": -77.0469,
+      "deal_count": 1,
+      "weighted_score": 4.49,
+      "latest_at": "2026-03-09T19:30:18.000Z",
+      "amount_usd_m_total": 600,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "QED Investors",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Seattle,WA",
       "city": "Seattle",
       "state": "WA",
@@ -1612,6 +1571,29 @@
       "top_vcs": [
         {
           "name": "Intel Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 4.01,
+      "latest_at": "2026-03-11T11:43:00.000Z",
+      "amount_usd_m_total": 27,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
           "count": 1
         }
       ]
