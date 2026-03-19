@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T19:17:10.567Z",
+  "generated_at": "2026-03-19T03:19:21.926Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 59,
-    "total_deals": 59,
+    "scraped_deals": 62,
+    "total_deals": 62,
     "demo_mode": false,
-    "deals_with_coordinates": 59,
-    "runtime_ms": 4925,
+    "deals_with_coordinates": 62,
+    "runtime_ms": 4769,
     "note": "",
     "error_sample": []
   },
@@ -41,28 +41,6 @@
       }
     },
     {
-      "id": "deal_1843456769",
-      "vc_id": "m12",
-      "vc_name": "M12",
-      "company": "Knox Systems",
-      "title": "Knox Systems Raises $25M Series A to Scale Largest AI-Managed Cloud to Deliver 90-Day FedRAMP at 90% Lower Cost - CXO Digitalpulse",
-      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeDVjY0RSY3JobHJySU9oSEZ2TUdRTWNqS2hXemlxSXo2Sk1aWHVReG5uMlUyWkRHUVlnbE5vWXZBNEg1NC1pdVNfNVM2d2JEMXBKZlNUM2tWNUNBU3pqMnVzNkZwc2l5YmV2cjROT1BJTlEwYm9wWnFrdmF6b0NzbXRfUnZFOVdpcjBFMWdnck54U0hoX2pxRTEtU1RfTk9ZcjZoSkRpTFo5R1VqMzUwM3Y3SXRSNUdmakRfak1meGFYR0tkeGUwWFFqc0FLeno2ck5XZ25iWnh5Zw?oc=5",
-      "source_name": "CXO Digitalpulse",
-      "published_at": "2026-03-18T08:59:07.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redmond",
-        "state": "WA",
-        "lat": 47.6739,
-        "lon": -122.1215,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1191070391",
       "vc_id": "crv",
       "vc_name": "CRV",
@@ -74,6 +52,28 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 49,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_977372288",
+      "vc_id": "true-ventures",
+      "vc_name": "True Ventures",
+      "company": "Ex-Shark Tank Founder and Thiel Fellow",
+      "title": "Ex-Shark Tank Founder and Thiel Fellow Raises $7M led by True Ventures to Build Ops Agents for US Manufacturers - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOM3p0RDB1UWVMSjlpOEJfY2MwMThkOFM0VU1LNk9Nay1GZ3IxWWl6dm1nWGZLbTVUdWhRWlhxa0xNUUxtdVE1aFBJWUk2UTFrM3RWdGNERVdwTVpxY0tLb0VIZGRvbjBEUEluRk54T0dGNXlnNkZmQmp0SU03c080Y3ZCMDZwNTBDZ255YWg5b3d6ZDZZcFQ2Y2JvNEZMLVhlbW1iaDladUdaV3dDNjJUVnJ6UEw2Ri0zczlpWkdvcXRGc0R5ZFpHYXZZcjFiZ0pLMEJwWUJCZmlnV3pscldBaEVUdURwUi1hZDRzelIzcXF5d2VIZXlmem9n?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-03-17T16:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 7,
       "confidence": 0.81,
       "location": {
         "city": "Palo Alto",
@@ -107,9 +107,31 @@
       }
     },
     {
-      "id": "deal_1339034906",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
+      "id": "deal_1077711613",
+      "vc_id": "boldstart",
+      "vc_name": "boldstart ventures",
+      "company": "Surf AI",
+      "title": "Surf AI raises $57 million for AI platform built for security teams - The Jerusalem Post",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeVZWOWVUSHJDSklweE1WQ2J6WDRGNm1DMlFGOHFUMTV4cEFhY0ZqZEYyd0E4ZlIyQVpiTlQzdFQ1QWRrOV9QSXZPNWc2cUw5VTV6NVE1Z3VPN2JPMlhpcG4zR0UySmRJc0lnVG5fNUdYOXI1eVJ6cnF2SkxNNXVUN3Y4RU9fQQ?oc=5",
+      "source_name": "The Jerusalem Post",
+      "published_at": "2026-03-17T11:10:45.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 57,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1475421152",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
       "company": "Unknown",
       "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
@@ -120,10 +142,10 @@
       "amount_usd_m": 5550,
       "confidence": 0.86,
       "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -173,6 +195,28 @@
       }
     },
     {
+      "id": "deal_395837553",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
+      "company": "Fuse AI Loan Platform",
+      "title": "Fuse AI Loan Platform Raises $25M Series A, Targets Credit Unions - News and Statistics - IndexBox",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUklCU1RqVkFCdHd4RGJPa0JYZ3c5ZmRvbFdxWWd6ZjhSaS1GUmNTWWlScUo2ekN6UURxV3liYzJ4TldtYnI2V2FfWGs1djV1VDJMb1RYTENKcVhjaVVwdmRZN3lTWklONlNLcGRIeTdWT0EwZEhWcXI5WGQwRUF0ZDVoYTI4LVQ1X24yYjNQVWgteWgtLWhXdw?oc=5",
+      "source_name": "IndexBox",
+      "published_at": "2026-03-16T19:55:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 25,
+      "confidence": 0.96,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_222035126",
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
@@ -212,6 +256,28 @@
         "state": "WA",
         "lat": 47.6062,
         "lon": -122.3321,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_993220192",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Entrepreneurs First",
+      "title": "Entrepreneurs First Raises $200M to Back Next Generation of Global Founders and Expands its India Portfolio - Tribune India",
+      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLXVxNlR6WWxDN1JkNW53a2pZZUdZdkJwTldYQTNTNGhLbENQNHBFWV9hVjFwVy1sQTJhVDJ0dE5YMTNuZVI5UTVSM2k1Ml80R01ZZ1dKdnkyV3dSc1ZnN3R3TmNJbTVwUlhYNHZmS2xWdUNQZFZuemVBYXFxeWJHMzJWeWpPem4zM000UUVYNVF1N2pxRHlyRjFrT0dJbWtCVmhqcHlZVFZOZGszZHZjSmpHeVRZdzVRSVRBU2tVOWJ2REwtR0QxTVZiUjdLS24xc0hZd29ESFdrOGZYR1lzTUVHVnTSAegBQVVfeXFMT2lCUktjYzBrRTM0enJMeWl6anctMm1zcHpSNVpKeDBIckt2WFdZSlowZ3NEbGl2TmhQeXFraUxNQ1BqakIwMlY5TkNNUllYbkliRTU1cUhxdl9HemtOUzZxd2ZEVUxNYlpLSkE3SVpKaktLY0pNaHpBa2x3eUFnYldsWE9Ra2pxdnlhZy11WnNhcUVqcTZWSEc0eENycnJubERUZTJGa1l0T1RzVGxjeDRwVTFOYTN1UEZBMXF4NHFoWFd1cUI3bnNUZUxvZVNEblU3SlNxMDhNWU9zQWwyeUp5RW9vUW5JSA?oc=5",
+      "source_name": "Tribune India",
+      "published_at": "2026-03-13T05:15:38.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 200,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -278,6 +344,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1967200243",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Legal AI startup Legora",
+      "title": "Legal AI startup Legora raises $550 million to speed up US expansion - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeERTYTlBN051aDRabHlSQ2JvcjVDWktpMU45bzBvM2FxeWhBU1VLUFBWS0FrYWpqdDNkVWhZUUw1ZzNMb1NhNTJZU2VuTHBvaXpNaGVqenhYZDhWQjF1RU5XN2Mzb3VmRUNSZHRxeGNUSGdOekJFQmRpQk44T3d0Nk5vRFhNN0lBTVRBRF90TEFsUkxEVWxXN2trd05kTmdnbHlST2tET0xBRnVSRzNnVkx5Nl9sbnBW?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-03-11T22:10:35.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 550,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -481,28 +569,6 @@
       }
     },
     {
-      "id": "deal_237249595",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "Swedish legaltech Legora hits $5 billion valuation as investors pile money into European AI startups - CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3VOLTBIcEdrLVIzOVB6ZTF2VVk4Z0U2QmxTZ0w1U2xEYldPaFJ2MlkxNml1VE5Zc3ZMbDhSZjk3eElNODNDYkV5bGFQREFPR0VSdzd2NEV3UEtRMWFTdkFnZkFGazJPRnlKTE1PUUNxcUZSWi1rUTh5dnA5YVh1dXp4N0lELWkteUhydHJMcGduUzDSAZgBQVVfeXFMT0VKdk1GYkk2eDc5TkNJbG8yYlBwSWN4NmtfRlFSTjQyZTdtcnN6RUtWaE93ano5VjlWYjZmUHFMMVA0N3lrVDdCQkNqazNQUUUycFF3emNUUGIyRWxmRll3MWZhdXdPNXdxRVJJakd4bUYxTXdwd3ZKWGpIWG5pdGtnRTZZbW9LWlFGLVJYTVhHSXdjQjhuRE8?oc=5",
-      "source_name": "CNBC",
-      "published_at": "2026-03-10T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 5000,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_77070952",
       "vc_id": "greycroft",
       "vc_name": "Greycroft",
@@ -525,18 +591,18 @@
       }
     },
     {
-      "id": "deal_943308323",
+      "id": "deal_1890014623",
       "vc_id": "greycroft",
       "vc_name": "Greycroft",
-      "company": "Unknown",
-      "title": "ZAWYA-PRESSR: Shorooq Invests in AMI Labs as Yann LeCun’s AI startup raises $1.03bln - TradingView",
-      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQmpRaU1Wbk8wMXBGVXB6V241RzRwVi1TVnoyOGJKc1RtbGxrZ1czZVEyRlhGdkFPZTdld3JrV3N5ZUEyMEhqWDFWei01YV9uN3BFN2lCQV9pOHFFY1k1WGctRlZILTBVbGJOWXcxRWpfczBmNXA2eFIwSFo4cEtnVjJZYlloNXR4cEs1ZXZrMHMzU0JLVTdVQ2VxbFBOMFo4YnhqU3BSQlFiZTBhOVRlcHA5cko0OEhJVlhiNGllRHNjbkR4cHR3eFpMUUloNXdTdU9aSno3R0RwV1dtRUZwX1N3Y29oVDg0R2tKd1BPZw?oc=5",
-      "source_name": "TradingView",
+      "company": "Shorooq Invests in AMI Labs as Yann LeCun’s AI startup",
+      "title": "Shorooq Invests in AMI Labs as Yann LeCun’s AI startup raises $1.03bln - ZAWYA",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmdMRjV2ZklnQ1pMNFBwTTR1RERFUFlESlQ0ZXBITDJHVmZOU3lPZVp3VkxrYjZMZkRqc0tKaVBZLWdaSEtFcmJHMWFaNkdSc2NmQVdPTjdRTVg5aVMzdWx0OUVmNFAtVU9ROE5uV2hNeEFobEt1LUtqYkFvb3hYR0hGY2lWYWROM3NvX2FlRlZnQ1lsS0pEdXhWRHlzdEpMRm9PNmRhYUFvTTlfWU12UkFSeVNDcVZoSkdSZVFfSFozcFZlblMyYm13?oc=5",
+      "source_name": "ZAWYA",
       "published_at": "2026-03-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 1030,
-      "confidence": 0.71,
+      "confidence": 0.81,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -745,50 +811,6 @@
       }
     },
     {
-      "id": "deal_1994516777",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Flux, the AI hardware engineer,",
-      "title": "Flux, the AI hardware engineer, announces $37M in new investment - GlobeNewswire",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdHdPZHNLYmtTTXpCRlZGd1BheVVTaGdCY3l3aWx2THJWcUpRVFhuSEtuZ0Zvc09YdFlZcWU1dUs1WjhSZEp4bWdzcE40NHFIVjZLM2FJd2ltbzIyU2E0cElPZGplUFBOdXRSNWpVLVpMVEJqSVRWTFhuTmRNcjhuMjhVREtvQUE4Mm1aVktmaXRBWTFYdmVSckR4UGJOSTFxcEhvSmNJWmlxSDBXRkVSdlo1dXhfUmFmaG9TYmtOLXktUlNUVjFWYjZKOFJZdw?oc=5",
-      "source_name": "GlobeNewswire",
-      "published_at": "2026-02-27T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 37,
-      "confidence": 0.81,
-      "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2025283737",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Flux, the AI hardware engineer,",
-      "title": "Flux, the AI hardware engineer, announces $37M in new investment - GlobeNewswire",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdHdPZHNLYmtTTXpCRlZGd1BheVVTaGdCY3l3aWx2THJWcUpRVFhuSEtuZ0Zvc09YdFlZcWU1dUs1WjhSZEp4bWdzcE40NHFIVjZLM2FJd2ltbzIyU2E0cElPZGplUFBOdXRSNWpVLVpMVEJqSVRWTFhuTmRNcjhuMjhVREtvQUE4Mm1aVktmaXRBWTFYdmVSckR4UGJOSTFxcEhvSmNJWmlxSDBXRkVSdlo1dXhfUmFmaG9TYmtOLXktUlNUVjFWYjZKOFJZdw?oc=5",
-      "source_name": "GlobeNewswire",
-      "published_at": "2026-02-27T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 37,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1560458894",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
@@ -833,12 +855,12 @@
       }
     },
     {
-      "id": "deal_599503067",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "Exclusive: AI financial platform Rowspace",
-      "title": "Exclusive: AI financial platform Rowspace raises $50 million led by Sequoia to help investment firms take on messy data - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSHd0WGJnNkxwZlJsRVIxUnlobUhuLWZLSHFPRVdmN2UyN095ZTNhR1NSUDUtbjE4S1hCcXQ4NEJoTkd6R2V5eWg5aV9SU09UMTR1RWFDVURkRS1FUDlNQzh0V3ZPb0xrQUtLaXBHY1hSdk5Cci1yNTBJN1ZtOU1BZk1ZLVI4Tng3ZUNlLTFIeGJlZy05RkNyVTZGSFl1cTYtMmlYV0QwdXlZM29fN2NsYXB3?oc=5",
+      "id": "deal_1064700289",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Exclusive: SolveAI, at eight months old,",
+      "title": "Exclusive: SolveAI, at eight months old, raises $50 million to take on the AI coding tool race - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM2FoX0sxNUdoS3N6dExaV0ZVWGJjdWNiNTNoaDF5SG1SbzhXckp4WUh5bXZUMUJMWll6eDVJamFubEN6TE0wSHd5MUxOaWpPZGFQZExBbC16SVJod0N4YnQtUnhFUl9nT25iSkp4UXN3OERyRlBrTTFsWEl4YWhDYTU3c0pRbW1NUzR4MHhMUjlxaHY1YmJhSUMwaEFvRGduQnc?oc=5",
       "source_name": "Fortune",
       "published_at": "2026-02-25T08:00:00.000Z",
       "stage": "Unspecified",
@@ -846,32 +868,10 @@
       "amount_usd_m": 50,
       "confidence": 0.81,
       "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2026109967",
-      "vc_id": "matrix",
-      "vc_name": "Matrix Partners",
-      "company": "Wootz.work",
-      "title": "Wootz.work raises $6.6 Mn in Series A round led by Z47 - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVXFtaGNMajVmSXNqZ1VpSWFBY2h3VEQzQUlwZDRUSVVsd1ZvbGJaV0JWeGFGVDVrUzJtdnVXTmVLS25UbU5iLU9ST3k4YTBIako0VUFHYy1POWttdXVWYWhnWmt2N1hrbC1vVWIybFdJV1ItYnlJR3IxMkJjbWk2SUxUYmlLOE51U1FzLXlQV3hXSTJq0gGUAUFVX3lxTFBVcW1oY0xqNWZJc2pnVWlJYUFjaHdURDNBSXBkNFRJVWx3Vm9sYlpXQlZ4YUZUNWtTMm12dVdOZUtLblRtTmItT1JPeThhMEhqSjRVQUdjLU85a211dVZhaGdaa3Y3WGtsLW9VYjJsV0lXUi1ieUlHcjEyQmNtaTZJTFRiaUs4TnVTUXMteVBXeFdJMmo?oc=5",
-      "source_name": "Entrackr",
-      "published_at": "2026-02-25T08:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 6.6,
-      "confidence": 0.96,
-      "location": {
-        "city": "Waltham",
+        "city": "Boston",
         "state": "MA",
-        "lat": 42.3765,
-        "lon": -71.2356,
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -938,6 +938,28 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_770810462",
+      "vc_id": "paypal-ventures",
+      "vc_name": "PayPal Ventures",
+      "company": "Cross-border fintech startup Xflow",
+      "title": "Cross-border fintech startup Xflow raises $16.6 Mn led by General Catalyst - Entrackr",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1h6THAwdlVZeGdfYnh4RnI1akpUZFR2aWlVS1MyWmk2OXNxY2poNTN5OXhoOFMtdE9yREFWOW93akFTelQ2Uk1sY1BuVzdiRGVkeG45d3ZfTFdQTHFnWF9ZNUhWQjV0ZmV1bjZGak43VVhSRVk0bklic2lMNEtpRnRjbHdQXzFfaVp6cEcwanIwZWFaZXJ1MjUtNjFMbWplVGlvbDQtaEpQOU3SAasBQVVfeXFMTktYekxwMHZVWXhnX2J4eEZyNWpKVGRUdmlpVUtTMlppNjlzcWNqaDUzeTl4aDhTLXRPckRBVjlvd2pBU3pUNlJNbGNQblc3YkRlZHhuOXd2X0xXUExxZ1hfWTVIVkI1dGZldW42RmpON1VYUkVZNG5JYnNpTDRLaUZ0Y2x3UF8xX2laenBHMGpyMGVhWmVydTI1LTYxTG1qZVRpb2w0LWhKUDlN?oc=5",
+      "source_name": "Entrackr",
+      "published_at": "2026-02-24T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 16.6,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Jose",
+        "state": "CA",
+        "lat": 37.3382,
+        "lon": -121.8863,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1070,6 +1092,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_83413147",
+      "vc_id": "venrock",
+      "vc_name": "Venrock",
+      "company": "Unknown",
+      "title": "Korsana Biosciences Emerges from Stealth with $175 Millon in Funding to Advance Potential Best-in-Class Therapeutics for Neurodegenerative Diseases - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOdk9ybEFmVlhQTEpWaHgwMEdBdE92M1puWVlxUFJOMVdPOWRoZHVWS3NQSzQ2RTBJSVF3a0RhMTl2Q0kzSFQ4YTB1YnZKMUpINnJRUGw2WEc0TkVfQVVkZGxSejQyQ19yVFFHb09sNUtkRXFpV3dwQ19DYlA1LVlvYVBqS3ZKUE00a0FSZlJLVnRJaWlTLU1vejNyYkg2MU9keV93Ri1NbFhFTTNQNzBIXzY2VXNQMUhfTGNOM0NnZEJXb1JVbDRoTFdCc1hRM0lLLV9uZ0wxMkQyWUppUS1xM0FRNVd0ZmRNUWVRVlo1WFZtZXFsbzFnNldjbGNyeUlDazN2WDQ5eWtaVjN4SUhoSXRTa0pHajhYUVdMdnl2ajdoWmJXRXdpeV9HWGNDNjQ?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-02-18T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 175,
+      "confidence": 0.71,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1229,6 +1273,28 @@
       }
     },
     {
+      "id": "deal_1466917008",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Unknown",
+      "title": "Andreessen Horowitz Backs Unicorn Kavak in $300 Million Round - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcWt5eTRtcWN3UC1hYWRSQ1dXTDlXbklDQXo1THlpRk9yd0pmRlBZdWJ5dklJeTcxR25yb2NnN25VSGtLTlRrTjNoYzI4RUR0eHRTNnFobU5VenNBeHpZQnYtVnZ1MjJaSVhJRkJ3S2FkRFg2NU9wYjREZXlLMmZaazRxT1BFTDI2TVN6SndBMmdpLVdRZzE1WC0tU0RwZkdic0s1ZUFVMUVHOGRvekFkVzlNQkZkYmhEX3V0MkV1RkQxeEk?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-02-17T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 300,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_806722976",
       "vc_id": "andreessen-horowitz",
       "vc_name": "Andreessen Horowitz",
@@ -1248,50 +1314,6 @@
         "lon": -122.3321,
         "method": "city_keyword",
         "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_1826541799",
-      "vc_id": "sequoia-capital",
-      "vc_name": "Sequoia Capital",
-      "company": "Temporal",
-      "title": "Temporal raises $300M, hits $5B valuation as Seattle-area infrastructure startup rides AI wave - GeekWire",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWHNyTmdGdVNfeUxVRXplLUlpSUpiMzc2NVFOUGxTMGc3MmZWSkRnYXd1RDMzclN3aGRPa1RJOGZsMFctOUdMZ0pWTHFRbkFEa1pTUGhnVVYtRVUzTlZqWXBFaS1XWXJrb21kLXVVR0Z5TXppUkliX21XMnk1dmVTd2UtOGJfMFlxY0Zpd0JCMWRIOC1sS0U3WVZfQnoyMThnRjZPVUlhV3JWSzdzdFB4eXhaaGRWMXpa?oc=5",
-      "source_name": "GeekWire",
-      "published_at": "2026-02-17T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 300,
-      "confidence": 0.93,
-      "location": {
-        "city": "Seattle",
-        "state": "WA",
-        "lat": 47.6062,
-        "lon": -122.3321,
-        "method": "city_keyword",
-        "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_1929110172",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "BREAKER",
-      "title": "BREAKER RAISES $6M IN SEED ROUND TO SOLVE DEFENSE'S AUTONOMOUS ORCHESTRATION PROBLEM - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DNXdFUEpIN0NVOUM1Z0xxRXpDZ2RMMjUxRGZBSkI1TzVTSmc3WGp4bHN0Z3V4cl9IeDVUa2tqVng4dHBDTnRFS1ltQjkxTDd3NG96UkVlb3FTNlVHSEdqdURuTUlvOFF1MmE2QXllcDhLVDBkNVQ1UU5oakNoNkE?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-02-17T08:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 6,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
       }
     },
     {
@@ -1315,6 +1337,50 @@
         "method": "city_keyword",
         "confidence": 0.68
       }
+    },
+    {
+      "id": "deal_967555938",
+      "vc_id": "sapphire",
+      "vc_name": "Sapphire Ventures",
+      "company": "AI agent reliability startup Temporal",
+      "title": "AI agent reliability startup Temporal raises $300M in funding - SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMF9vdnNjbUVYc3ppeC1SQlZxNnMyZzJac2NiOXk1TUpnOEUzSDJSYmxjbjh1UGItYXEwcXUxYlh1OHdSREZKQTFjbE4tZGRWX2xYR0FpQjNZMGZlUUhRcTBkeHpRZEVTazZnTVJ5aXF4OHRGbmlEQWl0SVV6VERaODJtMXpxZHpmdnRDc19KbkJudExxTzNwZVVB?oc=5",
+      "source_name": "SiliconANGLE",
+      "published_at": "2026-02-17T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 300,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_137776968",
+      "vc_id": "pelion",
+      "vc_name": "Pelion Venture Partners",
+      "company": "Brandlight",
+      "title": "Brandlight Raises $30M to Continue Leading Enterprise CMOs into The Era of AI-Native Ads - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcE1Dc1BjMFljZG9UeE1aeTRZVzFOTER1eUFmR2FCZDAtMHZPbzBTVmV4MDhRdlc3MXNzOENyR0xfUkgxaGFPM3VSU3FJYmNWQXVIT3pDV29SVGVQc2R2UmhGZkkwYUV2TlAtSTMxUXZ5Ui15MUNJVmIyN0U5XzVXMHhGZ0JYWmE5WHhpTEhKTjVxdjhDUEk4dHlEMXdDTUwyVTBqYUFzbTNhV25xT3pRTmlkSFg4SzE2VWRrMlZ5WlBGZG8?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-02-17T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
+      "confidence": 0.81,
+      "location": {
+        "city": "Salt Lake City",
+        "state": "UT",
+        "lat": 40.7608,
+        "lon": -111.891,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
     }
   ],
   "bubbles": [
@@ -1324,14 +1390,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 12,
-      "weighted_score": 50.76,
+      "deal_count": 14,
+      "weighted_score": 59.07,
       "latest_at": "2026-03-18T11:03:00.000Z",
-      "amount_usd_m_total": 12222.5,
+      "amount_usd_m_total": 12722.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 12
         },
         {
           "name": "Web3 & Crypto",
@@ -1348,7 +1414,7 @@
           "count": 2
         },
         {
-          "name": "Mayfield",
+          "name": "Greylock",
           "count": 2
         }
       ]
@@ -1359,14 +1425,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 9,
-      "weighted_score": 40.69,
+      "deal_count": 11,
+      "weighted_score": 47.69,
       "latest_at": "2026-03-17T23:35:39.000Z",
-      "amount_usd_m_total": 12693.85,
+      "amount_usd_m_total": 13000.85,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 9
         },
         {
           "name": "Other",
@@ -1383,7 +1449,7 @@
           "count": 2
         },
         {
-          "name": "Floodgate",
+          "name": "Sapphire Ventures",
           "count": 2
         }
       ]
@@ -1395,9 +1461,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 9,
-      "weighted_score": 34.81,
+      "weighted_score": 33.95,
       "latest_at": "2026-03-12T19:06:00.000Z",
-      "amount_usd_m_total": 10702.25,
+      "amount_usd_m_total": 6252.25,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1424,73 +1490,19 @@
       ]
     },
     {
-      "key": "Seattle,WA",
-      "city": "Seattle",
-      "state": "WA",
-      "lat": 47.6062,
-      "lon": -122.3321,
-      "deal_count": 4,
-      "weighted_score": 16.86,
-      "latest_at": "2026-03-13T16:53:21.000Z",
-      "amount_usd_m_total": 911,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Madrona",
-          "count": 2
-        },
-        {
-          "name": "Andreessen Horowitz",
-          "count": 1
-        },
-        {
-          "name": "Sequoia Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Cambridge,MA",
       "city": "Cambridge",
       "state": "MA",
       "lat": 42.3736,
       "lon": -71.1097,
-      "deal_count": 4,
-      "weighted_score": 13.49,
-      "latest_at": "2026-03-15T14:01:00.000Z",
-      "amount_usd_m_total": 106.6,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "General Catalyst",
-          "count": 4
-        }
-      ]
-    },
-    {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 3,
-      "weighted_score": 13.26,
+      "deal_count": 5,
+      "weighted_score": 20.89,
       "latest_at": "2026-03-17T04:57:04.000Z",
-      "amount_usd_m_total": 5566,
+      "amount_usd_m_total": 5656.6,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 4
         },
         {
           "name": "Web3 & Crypto",
@@ -1499,8 +1511,39 @@
       ],
       "top_vcs": [
         {
-          "name": "Bessemer Venture Partners",
-          "count": 3
+          "name": "General Catalyst",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 4,
+      "weighted_score": 17.18,
+      "latest_at": "2026-03-17T11:10:45.000Z",
+      "amount_usd_m_total": 2292,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Greycroft",
+          "count": 2
+        },
+        {
+          "name": "boldstart ventures",
+          "count": 1
+        },
+        {
+          "name": "Venrock",
+          "count": 1
         }
       ]
     },
@@ -1528,52 +1571,29 @@
       ]
     },
     {
-      "key": "Waltham,MA",
-      "city": "Waltham",
-      "state": "MA",
-      "lat": 42.3765,
-      "lon": -71.2356,
+      "key": "Seattle,WA",
+      "city": "Seattle",
+      "state": "WA",
+      "lat": 47.6062,
+      "lon": -122.3321,
       "deal_count": 3,
-      "weighted_score": 9.69,
-      "latest_at": "2026-02-25T08:00:00.000Z",
-      "amount_usd_m_total": 56.6,
+      "weighted_score": 12.46,
+      "latest_at": "2026-03-13T16:53:21.000Z",
+      "amount_usd_m_total": 611,
       "top_sectors": [
         {
           "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Madrona",
           "count": 2
         },
         {
-          "name": "Other",
+          "name": "Andreessen Horowitz",
           "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Matrix Partners",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 2,
-      "weighted_score": 9.55,
-      "latest_at": "2026-03-10T07:00:00.000Z",
-      "amount_usd_m_total": 2060,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Greycroft",
-          "count": 2
         }
       ]
     },
@@ -1583,14 +1603,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 2,
-      "weighted_score": 8.11,
-      "latest_at": "2026-02-27T08:00:00.000Z",
-      "amount_usd_m_total": 1337,
+      "deal_count": 3,
+      "weighted_score": 12.22,
+      "latest_at": "2026-03-16T19:55:00.000Z",
+      "amount_usd_m_total": 1375,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 1
+          "count": 2
         },
         {
           "name": "Other",
@@ -1599,34 +1619,38 @@
       ],
       "top_vcs": [
         {
-          "name": "Bain Capital Ventures",
-          "count": 1
+          "name": "Battery Ventures",
+          "count": 2
         },
         {
-          "name": "Battery Ventures",
+          "name": "NextView Ventures",
           "count": 1
         }
       ]
     },
     {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
+      "key": "Waltham,MA",
+      "city": "Waltham",
+      "state": "MA",
+      "lat": 42.3765,
+      "lon": -71.2356,
       "deal_count": 2,
-      "weighted_score": 6.68,
-      "latest_at": "2026-02-27T08:00:00.000Z",
-      "amount_usd_m_total": 74,
+      "weighted_score": 6.25,
+      "latest_at": "2026-02-18T08:00:00.000Z",
+      "amount_usd_m_total": 50,
       "top_sectors": [
         {
+          "name": "Other",
+          "count": 1
+        },
+        {
           "name": "AI & ML",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "8VC",
+          "name": "Matrix Partners",
           "count": 2
         }
       ]
@@ -1678,15 +1702,15 @@
       ]
     },
     {
-      "key": "Redmond,WA",
-      "city": "Redmond",
-      "state": "WA",
-      "lat": 47.6739,
-      "lon": -122.1215,
+      "key": "Salt Lake City,UT",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "lat": 40.7608,
+      "lon": -111.891,
       "deal_count": 1,
-      "weighted_score": 3.97,
-      "latest_at": "2026-03-18T08:59:07.000Z",
-      "amount_usd_m_total": 25,
+      "weighted_score": 3.3,
+      "latest_at": "2026-02-17T08:00:00.000Z",
+      "amount_usd_m_total": 30,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1695,21 +1719,21 @@
       ],
       "top_vcs": [
         {
-          "name": "M12",
+          "name": "Pelion Venture Partners",
           "count": 1
         }
       ]
     },
     {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
       "deal_count": 1,
-      "weighted_score": 3.52,
-      "latest_at": "2026-02-25T08:00:00.000Z",
-      "amount_usd_m_total": 50,
+      "weighted_score": 3.29,
+      "latest_at": "2026-02-27T08:00:00.000Z",
+      "amount_usd_m_total": 37,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1718,7 +1742,53 @@
       ],
       "top_vcs": [
         {
-          "name": "Emergence Capital",
+          "name": "8VC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Jose,CA",
+      "city": "San Jose",
+      "state": "CA",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "deal_count": 1,
+      "weighted_score": 3.06,
+      "latest_at": "2026-02-24T08:00:00.000Z",
+      "amount_usd_m_total": 16.6,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "PayPal Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 1,
+      "weighted_score": 2.85,
+      "latest_at": "2026-02-26T08:00:00.000Z",
+      "amount_usd_m_total": 10,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
           "count": 1
         }
       ]
