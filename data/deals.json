@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T13:49:17.527Z",
+  "generated_at": "2026-03-24T19:20:05.442Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 65,
-    "total_deals": 65,
+    "scraped_deals": 60,
+    "total_deals": 60,
     "demo_mode": false,
-    "deals_with_coordinates": 65,
-    "runtime_ms": 4806,
+    "deals_with_coordinates": 60,
+    "runtime_ms": 4672,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1111931379",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "Novaworks.ai Launches Agentic Operating System for Total Workforce Management, Raises $8M Seed Round - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTkNJLW5hZXlNWUJIYlgya1FWTGNiLUJYbFRmd0JjbkVOWVhVMC1hOU56b2t6N1dnbVhqeC12YkhtcG1RVnltY0YwRTlKanpWMV95SlNDMnRXRnVrX0Y3aTNBQlgwdmZtM3NOa0Z1RFJRLTRBNkJveXNxbUx4dFRKZmpFUkl6bl9WSGM2UXNvX0JQNWdSUDZvdlN2T194TWFyWDF1bGVtU2RGUXZwWG1qcnRlUU1MbjU1Ty1yNlVMcEtUdzNoZ2Jkb3Y4aTNWQTk3RkE?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-03-24T16:00:53.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 8,
+      "confidence": 0.86,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_425078506",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "AI Cow Collar Startup Halter",
+      "title": "AI Cow Collar Startup Halter Raises $220 Million in Latest Deal - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSFR4ZlloTEN5Y3JfSzJVYlVLdTB3MXczb25odmx5azMyNnM0LVRaYWdYbVp6UnhvV3dPVnlUa2hYcHppZkk3V3pyR2VaakZGVTMzcXNoOHpHODNYbUJ3VUZBT2thV2V1MFhkejk5ZXpVeTFxYndyTnZ5bDQ0OTVFbXgzWGZPVTNzWk9POTlUREdxeFdCWjhJd2FPLUhUMXI5eGRCOFVnRzczdC02cnVibGNaTQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-03-24T15:00:07.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 220,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1188237601",
       "vc_id": "eclipse",
@@ -80,50 +124,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1351674381",
-      "vc_id": "slow",
-      "vc_name": "Slow Ventures",
-      "company": "Rarify",
-      "title": "Rarify Gets $10M in Series A Led by Pantera Capital To Further Hiring Efforts - Blockworks",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc1ZEbXp4Vm5IMGsxNEtORDhsb1BKQnBsSk1GWDhGSlc4YmdtVHdyUVRNM2YxTlN3azRSZ0ZaRFdQNWhNeHRDSXdGLUZETi1lQUsxT2dXQjdUeldBbnE4MWZ4T1pZZTFseXl5dHVNbmMxcDRrSHJxejZfOC1HT1ZnR0JiUmhXbHlZMkRJNTRPbTJVRVgxbm1ZandpcVBKajhYVlp4akZB?oc=5",
-      "source_name": "Blockworks",
-      "published_at": "2026-03-24T05:51:59.000Z",
-      "stage": "Series A",
-      "sector": "Other",
-      "amount_usd_m": 10,
-      "confidence": 0.86,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1106434783",
-      "vc_id": "greycroft",
-      "vc_name": "Greycroft",
-      "company": "Rarify",
-      "title": "Rarify Gets $10M in Series A Led by Pantera Capital To Further Hiring Efforts - Blockworks",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc1ZEbXp4Vm5IMGsxNEtORDhsb1BKQnBsSk1GWDhGSlc4YmdtVHdyUVRNM2YxTlN3azRSZ0ZaRFdQNWhNeHRDSXdGLUZETi1lQUsxT2dXQjdUeldBbnE4MWZ4T1pZZTFseXl5dHVNbmMxcDRrSHJxejZfOC1HT1ZnR0JiUmhXbHlZMkRJNTRPbTJVRVgxbm1ZandpcVBKajhYVlp4akZB?oc=5",
-      "source_name": "Blockworks",
-      "published_at": "2026-03-24T05:51:59.000Z",
-      "stage": "Series A",
-      "sector": "Other",
-      "amount_usd_m": 10,
-      "confidence": 0.86,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -239,6 +239,28 @@
       }
     },
     {
+      "id": "deal_1429157340",
+      "vc_id": "true-ventures",
+      "vc_name": "True Ventures",
+      "company": "Bluesky",
+      "title": "Bluesky raises $100M Series B as new CEO takes charge - The Next Web",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ3RHMkw5YTdqNHlMVTlIck5yTGNRVkxXd3lxS2tickQyemFZeEtNalZYTmxKNzZlODNOX1lHdUdYWTNiWDZrZDhOT1FfZXY0Uk0tNVRmMFF0T1AyWUg5TTMtOGhpWGpNQmd4YzViWnJzTS00SmVPWDQ3S0E1MFptb01MZjRzVnM?oc=5",
+      "source_name": "The Next Web",
+      "published_at": "2026-03-19T20:12:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1352929605",
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
@@ -344,28 +366,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1509101736",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Consumer-focused privacy Cloaked",
-      "title": "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHF5Q3E0S3VQNnk0UFNzTldrcFFkYTNnQ1otOW5RUDlRRTVLWk9oQUN5T2I3QmZEdzFxU0tVRUpRNXNIOERfd1ZsRUpDTWFkRWRBV29CSER1WmJjZWZ1YkpWMXZvQXlmTG1mWXM5YUg1NjEyLU1UVDJYWVhYSFhIOEtoM1BuZVlyMTN1S01hOUI5dHRPLV81RmNYeWJabVEzTldVT29rRVlodmJfMjBoVnhrbW5xdw?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-03-19T13:19:41.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 375,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -481,23 +481,23 @@
       }
     },
     {
-      "id": "deal_1312219519",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Entrepreneurs First",
-      "title": "Entrepreneurs First Raises $200M to Back Next Generation of Global Founders and Expands its India Portfolio - Tribune India",
-      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQLXVxNlR6WWxDN1JkNW53a2pZZUdZdkJwTldYQTNTNGhLbENQNHBFWV9hVjFwVy1sQTJhVDJ0dE5YMTNuZVI5UTVSM2k1Ml80R01ZZ1dKdnkyV3dSc1ZnN3R3TmNJbTVwUlhYNHZmS2xWdUNQZFZuemVBYXFxeWJHMzJWeWpPem4zM000UUVYNVF1N2pxRHlyRjFrT0dJbWtCVmhqcHlZVFZOZGszZHZjSmpHeVRZdzVRSVRBU2tVOWJ2REwtR0QxTVZiUjdLS24xc0hZd29ESFdrOGZYR1lzTUVHVnTSAegBQVVfeXFMT2lCUktjYzBrRTM0enJMeWl6anctMm1zcHpSNVpKeDBIckt2WFdZSlowZ3NEbGl2TmhQeXFraUxNQ1BqakIwMlY5TkNNUllYbkliRTU1cUhxdl9HemtOUzZxd2ZEVUxNYlpLSkE3SVpKaktLY0pNaHpBa2x3eUFnYldsWE9Ra2pxdnlhZy11WnNhcUVqcTZWSEc0eENycnJubERUZTJGa1l0T1RzVGxjeDRwVTFOYTN1UEZBMXF4NHFoWFd1cUI3bnNUZUxvZVNEblU3SlNxMDhNWU9zQWwyeUp5RW9vUW5JSA?oc=5",
-      "source_name": "Tribune India",
-      "published_at": "2026-03-13T07:00:00.000Z",
-      "stage": "Unspecified",
+      "id": "deal_1860980370",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
+      "company": "Fuse AI Loan Platform",
+      "title": "Fuse AI Loan Platform Raises $25M Series A, Targets Credit Unions - News and Statistics - IndexBox",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUklCU1RqVkFCdHd4RGJPa0JYZ3c5ZmRvbFdxWWd6ZjhSaS1GUmNTWWlScUo2ekN6UURxV3liYzJ4TldtYnI2V2FfWGs1djV1VDJMb1RYTENKcVhjaVVwdmRZN3lTWklONlNLcGRIeTdWT0EwZEhWcXI5WGQwRUF0ZDVoYTI4LVQ1X24yYjNQVWgteWgtLWhXdw?oc=5",
+      "source_name": "IndexBox",
+      "published_at": "2026-03-16T07:00:00.000Z",
+      "stage": "Series A",
       "sector": "AI & ML",
-      "amount_usd_m": 200,
-      "confidence": 0.81,
+      "amount_usd_m": 25,
+      "confidence": 0.96,
       "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -520,28 +520,6 @@
         "state": "WA",
         "lat": 47.6062,
         "lon": -122.3321,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_135748384",
-      "vc_id": "insight",
-      "vc_name": "Insight Partners",
-      "company": "Amsterdam-based enterprise AI agent platform Wonderful",
-      "title": "Amsterdam-based enterprise AI agent platform Wonderful raises €129.8 million Series B at €1.7 billion valuation - EU-Startups",
-      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVXBNaXpJdndWMlotUjVMRF9mZVhpdFVvYVhmTmctYldMYkRCenREVm10V2Nub3ktUmFoZlAyYmFMclc4RGktNU5uR1lJT0NoeFJvU05wWlVoTGFoamJKX09BWTl2Q0VJQmRaYlpCT3NscTVGRmdvcFZ4aTR5UTJpcW8zRmRMeHZsVFh6R0FkRUdReHBKT1huejhQSHdYb2xfN0UwUGpVbXFKTC1zTmJRVDJINTlFMXRmSE1FOXpsdGNLbVByQUNkRGFKdkwwdUtsUmZfTHVwMklyM1RBZWpUaHpn?oc=5",
-      "source_name": "EU-Startups",
-      "published_at": "2026-03-12T12:06:36.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -586,28 +564,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1961310882",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "Standard Kernel",
-      "title": "Standard Kernel Raises $20M Seed Round - The SaaS News",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SVzRfczhmMXlial81MFhUaFNSWDhvMFBBejNBdjlic2hrNmxKTzBqWlhoSlFTZHlDdXJDSlNGNWR1MVA1Y2htWHZaYzdrTURiQWlZa1k2WEZQNlR2Tm15RW1EREktU1lybVp1LWoyc0ItaVVNN1NBc0Jn?oc=5",
-      "source_name": "The SaaS News",
-      "published_at": "2026-03-12T04:57:30.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 20,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -701,94 +657,6 @@
       }
     },
     {
-      "id": "deal_1919664267",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Unknown",
-      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
-      "source_name": "CryptoRank",
-      "published_at": "2026-03-10T17:39:26.000Z",
-      "stage": "Series D+",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": 5550,
-      "confidence": 0.86,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_15448540",
-      "vc_id": "redpoint",
-      "vc_name": "Redpoint Ventures",
-      "company": "Unknown",
-      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
-      "source_name": "CryptoRank",
-      "published_at": "2026-03-10T17:39:26.000Z",
-      "stage": "Series D+",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": 5550,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1220780927",
-      "vc_id": "sapphire",
-      "vc_name": "Sapphire Ventures",
-      "company": "Unknown",
-      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
-      "source_name": "CryptoRank",
-      "published_at": "2026-03-10T17:39:26.000Z",
-      "stage": "Series D+",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": 5550,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_990253980",
-      "vc_id": "salesforce",
-      "vc_name": "Salesforce Ventures",
-      "company": "Unknown",
-      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
-      "source_name": "CryptoRank",
-      "published_at": "2026-03-10T17:39:26.000Z",
-      "stage": "Series D+",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": 5550,
-      "confidence": 0.86,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1587217866",
       "vc_id": "accel",
       "vc_name": "Accel",
@@ -801,6 +669,28 @@
       "sector": "Other",
       "amount_usd_m": 5550,
       "confidence": 0.76,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1823783866",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Legal AI Startup Legora",
+      "title": "Legal AI Startup Legora Raises $550 Million for US Expansion - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMkNnWGVyNkV1bU9kWm83LXRvWTZRSmtxY1dzd1VmTWppVEZuNVA1VkpuYUdfanhjbEtYbkxMZC1LZHF1Tjc5YzA1ay1qUURmNUg4MUFiQTlxalQ2YTRlUW9hSHFuTjlxRWdObVAxTGEyenBITGRIcXN2RGItRVRYaVBZZ0k4NHhBbkNtYy1fV21YTXJiM082LUZlY3dNUHRHekFrSXF0aVFIVlY0aWo0?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-03-10T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 550,
+      "confidence": 0.81,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -855,23 +745,23 @@
       }
     },
     {
-      "id": "deal_174999773",
-      "vc_id": "salesforce",
-      "vc_name": "Salesforce Ventures",
+      "id": "deal_662678608",
+      "vc_id": "sapphire",
+      "vc_name": "Sapphire Ventures",
       "company": "Unknown",
-      "title": "Swedish legaltech Legora hits $5 billion valuation as investors pile money into European AI startups - CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY3VOLTBIcEdrLVIzOVB6ZTF2VVk4Z0U2QmxTZ0w1U2xEYldPaFJ2MlkxNml1VE5Zc3ZMbDhSZjk3eElNODNDYkV5bGFQREFPR0VSdzd2NEV3UEtRMWFTdkFnZkFGazJPRnlKTE1PUUNxcUZSWi1rUTh5dnA5YVh1dXp4N0lELWkteUhydHJMcGduUzDSAZgBQVVfeXFMT0VKdk1GYkk2eDc5TkNJbG8yYlBwSWN4NmtfRlFSTjQyZTdtcnN6RUtWaE93ano5VjlWYjZmUHFMMVA0N3lrVDdCQkNqazNQUUUycFF3emNUUGIyRWxmRll3MWZhdXdPNXdxRVJJakd4bUYxTXdwd3ZKWGpIWG5pdGtnRTZZbW9LWlFGLVJYTVhHSXdjQjhuRE8?oc=5",
-      "source_name": "CNBC",
+      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - Crunchbase News",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3ppcVVWZVQ0RDBFRHM4OHQxN2VjSWYzazdtc0ZPMG9vVlJwOG9OcFRXdXVKcDM3YVhDcVhMeGpZZFZORTluUXVRUlFBblJkaTZ0aEJGTlh0dGtBamJBSkEzUEhHRjFhUmY5ZmljVWlwV2oxRk9oTEZNeEhtOEluNTNPNjBPTjA2MnZMWFNXeTIwV3ZsUkE?oc=5",
+      "source_name": "Crunchbase News",
       "published_at": "2026-03-10T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 5000,
-      "confidence": 0.71,
+      "stage": "Series D+",
+      "sector": "Other",
+      "amount_usd_m": 5550,
+      "confidence": 0.76,
       "location": {
-        "city": "San Francisco",
+        "city": "Palo Alto",
         "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -889,28 +779,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 1030,
       "confidence": 0.71,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_77070952",
-      "vc_id": "greycroft",
-      "vc_name": "Greycroft",
-      "company": "Ex-Meta AI chief Yann LeCun's AMI",
-      "title": "Ex-Meta AI chief Yann LeCun's AMI raises $1.03 billion for alternative AI approach - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTUFjdVdaX0o2RkZ5VXdYbERvZmlVQy1Oc3lMeW9yb3JRUUJYNjk5d21oVVllVkZpNTducDVGMko2YnNlclNEMmY4ZGxLVlBkdmVWaUdSOXB0UllhbU9mTVkwWXVBWnF6eWxMRDJWRmdOYkVoUFoxc0ZNOWRoSzlldlZDSEhHb3RvQkZ2SnVOajFVU3VPQzFKNUxGaGcwU2lweWVyREt1Um9LSFVXSGhrY1k4S3RndW0yeFlrYQ?oc=5",
-      "source_name": "Reuters",
-      "published_at": "2026-03-10T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 1030,
-      "confidence": 0.81,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -1339,6 +1207,28 @@
       }
     },
     {
+      "id": "deal_1755608677",
+      "vc_id": "threshold",
+      "vc_name": "Threshold Ventures",
+      "company": "Freeform",
+      "title": "Freeform Closes $67M Series B to Scale AI-Driven Metal 3D Manufacturing Platform - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc29wRUV1WC1COVl3bXJJWG11VzdYTWdGVXRRbG9LZlJYQVNZdjdzX1QwSzgxMGhuR1FQa3J1RWM2d05WMFFwcl9oRmc4VEVyM2o4Wmg1RHRJbkhKZmJkUlAzY2NCdUFqWGduTW9mOWJWeXVuODEzZHl6Y3NQOFBpdmkzYkRyWEQ5NlRTelM1WnFfLUZUcmdyeXRyR2JMaGdsZFgwOFhubE90dmV4MDBNQWJCdWJ0VUJR?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-02-24T08:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 67,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_817586593",
       "vc_id": "future",
       "vc_name": "Future Ventures",
@@ -1405,23 +1295,23 @@
       }
     },
     {
-      "id": "deal_770810462",
-      "vc_id": "paypal-ventures",
-      "vc_name": "PayPal Ventures",
-      "company": "Cross-border fintech startup Xflow",
-      "title": "Cross-border fintech startup Xflow raises $16.6 Mn led by General Catalyst - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1h6THAwdlVZeGdfYnh4RnI1akpUZFR2aWlVS1MyWmk2OXNxY2poNTN5OXhoOFMtdE9yREFWOW93akFTelQ2Uk1sY1BuVzdiRGVkeG45d3ZfTFdQTHFnWF9ZNUhWQjV0ZmV1bjZGak43VVhSRVk0bklic2lMNEtpRnRjbHdQXzFfaVp6cEcwanIwZWFaZXJ1MjUtNjFMbWplVGlvbDQtaEpQOU3SAasBQVVfeXFMTktYekxwMHZVWXhnX2J4eEZyNWpKVGRUdmlpVUtTMlppNjlzcWNqaDUzeTl4aDhTLXRPckRBVjlvd2pBU3pUNlJNbGNQblc3YkRlZHhuOXd2X0xXUExxZ1hfWTVIVkI1dGZldW42RmpON1VYUkVZNG5JYnNpTDRLaUZ0Y2x3UF8xX2laenBHMGpyMGVhWmVydTI1LTYxTG1qZVRpb2w0LWhKUDlN?oc=5",
-      "source_name": "Entrackr",
+      "id": "deal_305765287",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Intel-backed AI chip startup SambaNova",
+      "title": "Intel-backed AI chip startup SambaNova raises $350m - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV2g0NS1OSkJWUmZLTXNUSFlDUnZwNnNYLWsyX2h6TTI4R0ItVG9rRDNrV0NybFJuaF9Idkw3WHZ6RjQ2Vk5raGVzdlAtdV9zZDNUNHBiZ1Rmblpyd2tkckVNVVBHeDFrVHNCTDVUSnBzRldzcUhKY09MRE5MdnF0QXlyY3RwMTZF?oc=5",
+      "source_name": "Tech in Asia",
       "published_at": "2026-02-24T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 16.6,
+      "amount_usd_m": 350,
       "confidence": 0.81,
       "location": {
-        "city": "San Jose",
+        "city": "Santa Clara",
         "state": "CA",
-        "lat": 37.3382,
-        "lon": -121.8863,
+        "lat": 37.3541,
+        "lon": -121.9552,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1457,24 +1347,24 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 13,
-      "weighted_score": 54.04,
-      "latest_at": "2026-03-24T07:23:42.000Z",
-      "amount_usd_m_total": 13756.5,
+      "weighted_score": 49.69,
+      "latest_at": "2026-03-24T16:00:53.000Z",
+      "amount_usd_m_total": 3491.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 12
         },
         {
           "name": "Climate & Energy",
           "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
         }
       ],
       "top_vcs": [
+        {
+          "name": "Human Capital",
+          "count": 2
+        },
         {
           "name": "Founders Fund",
           "count": 2
@@ -1482,80 +1372,6 @@
         {
           "name": "Benchmark",
           "count": 2
-        },
-        {
-          "name": "Salesforce Ventures",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 11,
-      "weighted_score": 47.27,
-      "latest_at": "2026-03-24T12:00:04.000Z",
-      "amount_usd_m_total": 14874,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 10
-        },
-        {
-          "name": "Web3 & Crypto",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Felicis",
-          "count": 2
-        },
-        {
-          "name": "Greylock",
-          "count": 2
-        },
-        {
-          "name": "Redpoint Ventures",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 8,
-      "weighted_score": 32.93,
-      "latest_at": "2026-03-24T05:51:59.000Z",
-      "amount_usd_m_total": 4030,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 6
-        },
-        {
-          "name": "Other",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Greycroft",
-          "count": 4
-        },
-        {
-          "name": "Lux Capital",
-          "count": 1
-        },
-        {
-          "name": "Insight Partners",
-          "count": 1
         }
       ]
     },
@@ -1565,35 +1381,62 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 7,
-      "weighted_score": 30.47,
+      "deal_count": 9,
+      "weighted_score": 39.89,
       "latest_at": "2026-03-24T13:28:16.000Z",
-      "amount_usd_m_total": 12660.85,
+      "amount_usd_m_total": 13310.85,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 6
         },
         {
           "name": "Other",
-          "count": 2
-        },
-        {
-          "name": "Web3 & Crypto",
-          "count": 1
+          "count": 3
         }
       ],
       "top_vcs": [
+        {
+          "name": "Accel",
+          "count": 3
+        },
         {
           "name": "Eclipse Ventures",
           "count": 2
         },
         {
-          "name": "Accel",
+          "name": "True Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 8,
+      "weighted_score": 32.27,
+      "latest_at": "2026-03-24T12:00:04.000Z",
+      "amount_usd_m_total": 9104,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 8
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Mayfield",
           "count": 2
         },
         {
-          "name": "Costanoa Ventures",
+          "name": "Kleiner Perkins",
+          "count": 1
+        },
+        {
+          "name": "Felicis",
           "count": 1
         }
       ]
@@ -1605,9 +1448,9 @@
       "lat": 42.3601,
       "lon": -71.0589,
       "deal_count": 6,
-      "weighted_score": 25.11,
+      "weighted_score": 24.7,
       "latest_at": "2026-03-24T05:02:01.000Z",
-      "amount_usd_m_total": 2303,
+      "amount_usd_m_total": 1953,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1625,37 +1468,68 @@
         },
         {
           "name": "Bain Capital Ventures",
-          "count": 2
+          "count": 1
         },
         {
-          "name": "Spark Capital",
+          "name": "NextView Ventures",
           "count": 1
         }
       ]
     },
     {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 3,
-      "weighted_score": 14.23,
-      "latest_at": "2026-03-10T17:39:26.000Z",
-      "amount_usd_m_total": 5585,
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 5,
+      "weighted_score": 21.25,
+      "latest_at": "2026-03-19T13:19:41.000Z",
+      "amount_usd_m_total": 2990,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 4
         },
         {
-          "name": "Web3 & Crypto",
+          "name": "Other",
           "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Bessemer Venture Partners",
+          "name": "Greycroft",
+          "count": 2
+        },
+        {
+          "name": "Lux Capital",
+          "count": 1
+        },
+        {
+          "name": "Coatue",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 3,
+      "weighted_score": 10.82,
+      "latest_at": "2026-02-24T08:00:00.000Z",
+      "amount_usd_m_total": 700,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
           "count": 3
         }
       ]
@@ -1707,15 +1581,15 @@
       ]
     },
     {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
       "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
+      "lat": 37.4852,
+      "lon": -122.2364,
       "deal_count": 2,
-      "weighted_score": 6.47,
-      "latest_at": "2026-02-24T08:00:00.000Z",
-      "amount_usd_m_total": 350,
+      "weighted_score": 6.83,
+      "latest_at": "2026-02-26T08:00:00.000Z",
+      "amount_usd_m_total": 35,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1724,7 +1598,7 @@
       ],
       "top_vcs": [
         {
-          "name": "Intel Capital",
+          "name": "Bessemer Venture Partners",
           "count": 2
         }
       ]
@@ -1863,29 +1737,6 @@
       "top_vcs": [
         {
           "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Jose,CA",
-      "city": "San Jose",
-      "state": "CA",
-      "lat": 37.3382,
-      "lon": -121.8863,
-      "deal_count": 1,
-      "weighted_score": 3.06,
-      "latest_at": "2026-02-24T08:00:00.000Z",
-      "amount_usd_m_total": 16.6,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "PayPal Ventures",
           "count": 1
         }
       ]
