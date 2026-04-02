@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:24:32.294Z",
+  "generated_at": "2026-04-02T07:40:08.673Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 58,
-    "total_deals": 58,
+    "scraped_deals": 60,
+    "total_deals": 60,
     "demo_mode": false,
-    "deals_with_coordinates": 58,
-    "runtime_ms": 4501,
+    "deals_with_coordinates": 60,
+    "runtime_ms": 3922,
     "note": "",
     "error_sample": []
   },
@@ -349,6 +349,28 @@
       }
     },
     {
+      "id": "deal_946230900",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": ":Harvey:",
+      "title": ":Harvey: Raises at $11 Billion Valuation to Scale Agents Across Law Firms and Enterprises - Harvey",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU01mbjBVRUczY3BYT18yYUlVaWljNTBWbVJwWkZCUkFTNVFEXzNzQ3hJZGpZdkFjeE9aeVhFX2JZM2x5OEcyMURSNFVrZUtzQWlTSUl3WW1UOEJWOWU2eUlQU3pWb3lud1lRem9uckhodjlJN3ZPWWlkcS0wUkdhMndKenNTbTVBQi1fTl9TTEFGS0N1WWdDZkk1Z0dJWXpxcldSMXdIMmxXQWY4Uk1FQXFZaWxZNlNFNE9N?oc=5",
+      "source_name": "Harvey",
+      "published_at": "2026-03-25T12:31:12.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 11000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2096024976",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -547,28 +569,6 @@
       }
     },
     {
-      "id": "deal_1816996343",
-      "vc_id": "founders-fund",
-      "vc_name": "Founders Fund",
-      "company": "VC firm Vitamin",
-      "title": "New female-led VC firm VitaminºC hits first close of its €18 million debut climate fund amid sector funding decline - EU-Startups",
-      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQamZGU2xESHRRaWVyUFd1bWFGek9Md3pVcXNEdlJaQ0h1eEtQQjdLMVNiWlZnV25HaFJWYnFWTHc3eXFrTDVLRkctTG5ITU9xUHBxdmxfcU9LNXlhczVaeURFQzBMdHJodHhxbWJiaU8wVnpBTEJkbjRVaXQxSERhTlFVcy1LYnRYMFk4dDdRVnVyc1BnSDJZdVotUmJZcll6ZDJrNS1wQ0ZzT1FESkJBckR1Z0IxcGJScmF0NUM3MEtqc2lfRE5tem9IV01YbjVDN0tpeHFOT0Rud2JBVEcyT2V0Y2I0VWM?oc=5",
-      "source_name": "EU-Startups",
-      "published_at": "2026-03-24T07:23:42.000Z",
-      "stage": "Unspecified",
-      "sector": "Climate & Energy",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_211252232",
       "vc_id": "slow",
       "vc_name": "Slow Ventures",
@@ -617,9 +617,9 @@
       "vc_id": "founders-fund",
       "vc_name": "Founders Fund",
       "company": "Unknown",
-      "title": "Peter Thiel’s Founders Fund Backs AI Cow Collar Startup at $2 Billion Valuation - Bloomberg",
+      "title": "Peter Thiel’s Founders Fund Backs AI Cow Collar Startup at $2 Billion Valuation - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNENzUGMyT1Z0cjc3a0pFemRrS1hUVE84ZHo2SHg2RlhNVnZha3EtNEdRSl9vU3J0a2Q1bWNMM2wzWjNSMWgwNkNWTmxJY1lfNnZlcXJDVVFmeng0Q0hmT2xJSTA3SWRPWlF4eXFncFdYbmI3akFQQVlfLXFTRUgwN25HTTZkMlpzOUR6VFhfbk9adHFEUEQwcmdGRVFRU19ncTF5RGp3ZmhDaVg4Vkt1R3ZoR01FbVB3UUpGUngxVTRUUnZfck41Mg?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-03-20T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -639,9 +639,9 @@
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
       "company": "Unknown",
-      "title": "General Catalyst Backs Atlanta and SF-Rooted Construction Startup With $13.8M Seed - hypepotamus.com",
+      "title": "General Catalyst Backs Atlanta and SF-Rooted Construction Startup With $13.8M Seed - Hypepotamus",
       "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPXzNGajl3bnkzb0NmcGR5NDdHUF9fYUZ3a0FFYjZreTY5Y3hqUDRFMmIwRlYxOWVQODNuVHM1VHNoWHJvWG1Qd3lXeHdrTFBiMkctZ2lDMXNfRE1Na0czZnA4WVRjVmFnVXByTFVLSkdia29nM3hRZGF6czQ5NUtIRURlZHA?oc=5",
-      "source_name": "hypepotamus.com",
+      "source_name": "Hypepotamus",
       "published_at": "2026-03-19T17:48:18.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -683,9 +683,9 @@
       "vc_id": "craft",
       "vc_name": "Craft Ventures",
       "company": "Startup Oasis Security",
-      "title": "Startup Oasis Security Raises $120 Million From Craft, Sequoia - Bloomberg",
+      "title": "Startup Oasis Security Raises $120 Million From Craft, Sequoia - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWg4Nm9WUEhjaExJWXJseF9rMVVKTG1lVzBlZ1h4VmFNRWRUUXlER0xtV0dQTDZDako1OTJSOVQxTHZ0dnlTUXFfLTNCUDAtRmMtNS0yWmFibExWZlZGbDVoeTc0em9CakdVS056bXZUdnlTTGpXN2xaa0NXR3g1RjVXbDFLR0UzZklvU0ZMMG92cHZHQVRXVF9JZGM0ZkxCYVhMcGJGeHBsekwyeW1wQg?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-03-19T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -727,9 +727,9 @@
       "vc_id": "8vc",
       "vc_name": "8VC",
       "company": "Edra",
-      "title": "Edra Raises $30M Series A from Sequoia, 8VC, A* for AI-Powered Business Automation - News and Statistics - indexbox.io",
+      "title": "Edra Raises $30M Series A from Sequoia, 8VC, A* for AI-Powered Business Automation - News and Statistics - IndexBox",
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzhZdHVvd2tCU2t0YnNDVXpYZnN3VG9RRzdydnF2U1dhMkVndlpzNkNLMld2ZU15em4zOW8wMjY5bHFRcUViWEMwSmNQSEVEek9mQXMzOXVITEdUTXowRjVYUS15aDJ2bmhsWHRmRGFDaW9ydTYyeWk1c0dudUZZQWkzUXJmMWo5aGo0M2tCal90TkhaTTZqTjRjWnl2R2JleHktMHgzcEo?oc=5",
-      "source_name": "indexbox.io",
+      "source_name": "IndexBox",
       "published_at": "2026-03-19T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -855,6 +855,28 @@
       }
     },
     {
+      "id": "deal_1489196926",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Ex-Datadog Leader’s AI Startup",
+      "title": "Ex-Datadog Leader’s AI Startup Nabs First $49 Million Funding - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGVqUTI1dnN1VnhVbFhQLTJ4YXlaOTdub1dpRGJJZWJoWU5YSzlZeTZ3ZlBsTGV6bWhyTHZTUkhzSG5YN2dBbjcxWXFkSUFYOFpzWGJ4TVh4c1dlSHh0aXVSaUNJbGI5ZDZ5REV6Z293VTN3cmV2LURPVXFLRVlJOV9nT0Vfb0NmNm82aE11NFVqVW5HaGN5RkZ2OXZBR3BjTFRWME9jSUxWUzFlZ0FsVg?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-03-17T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 49,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1351036040",
       "vc_id": "boldstart",
       "vc_name": "boldstart ventures",
@@ -903,14 +925,36 @@
       "vc_id": "ivp",
       "vc_name": "IVP",
       "company": "Amsterdam-based enterprise AI agent platform Wonderful",
-      "title": "Amsterdam-based enterprise AI agent platform Wonderful raises €129.8 million Series B at €1.7 billion valuation - EU-Startups",
+      "title": "Amsterdam-based enterprise AI agent platform Wonderful raises €129.8 million Series B at €1.7 billion valuation - eu-startups.com",
       "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVXBNaXpJdndWMlotUjVMRF9mZVhpdFVvYVhmTmctYldMYkRCenREVm10V2Nub3ktUmFoZlAyYmFMclc4RGktNU5uR1lJT0NoeFJvU05wWlVoTGFoamJKX09BWTl2Q0VJQmRaYlpCT3NscTVGRmdvcFZ4aTR5UTJpcW8zRmRMeHZsVFh6R0FkRUdReHBKT1huejhQSHdYb2xfN0UwUGpVbXFKTC1zTmJRVDJINTlFMXRmSE1FOXpsdGNLbVByQUNkRGFKdkwwdUtsUmZfTHVwMklyM1RBZWpUaHpn?oc=5",
-      "source_name": "EU-Startups",
+      "source_name": "eu-startups.com",
       "published_at": "2026-03-12T12:06:36.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
       "amount_usd_m": null,
       "confidence": 0.76,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_317661972",
+      "vc_id": "norwest",
+      "vc_name": "Norwest Venture Partners",
+      "company": "Unknown",
+      "title": "Exclusive: Oro Labs, which uses AI to streamline corporate procurement, raises $100 million - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaHZ0OFNQazRiWnZ4a3ZvUjNsM1NMUHZYc1JtV0psYzNqcGJVeFpTR0JMeDVmaWJyYVMxMlIxQlhMcjg0d2ZMRVI5RTZWckM2Tkp4cTdkMzZXbG9sYWlmMmM2UWFkWEZXUGc1SmVINTFYWWowZFJud0NYYTNhVGh0NzZn?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-03-12T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.71,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -991,9 +1035,9 @@
       "vc_id": "accel",
       "vc_name": "Accel",
       "company": "Unknown",
-      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - news.crunchbase.com",
+      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - Crunchbase News",
       "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3ppcVVWZVQ0RDBFRHM4OHQxN2VjSWYzazdtc0ZPMG9vVlJwOG9OcFRXdXVKcDM3YVhDcVhMeGpZZFZORTluUXVRUlFBblJkaTZ0aEJGTlh0dGtBamJBSkEzUEhHRjFhUmY5ZmljVWlwV2oxRk9oTEZNeEhtOEluNTNPNjBPTjA2MnZMWFNXeTIwV3ZsUkE?oc=5",
-      "source_name": "news.crunchbase.com",
+      "source_name": "Crunchbase News",
       "published_at": "2026-03-10T07:00:00.000Z",
       "stage": "Series D+",
       "sector": "Other",
@@ -1031,12 +1075,12 @@
       }
     },
     {
-      "id": "deal_662671875",
+      "id": "deal_1879196504",
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
       "company": "Unknown",
       "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORTBTanQ3dTVpY2U0ek1aOUlJeGw4MlFLY3RKVVBybFVmcUw1UnlLZENwemphNDV1dzZPT05UTHhZSnlSOVdubGJfcHZYRWxxdm81ZU1kT19ZQ29pRjlvaHRvMDZNMmxKT25OOEowUE1tMEdTcTlsRThSOWpwRGZoa0lpbmZTd1NFOEVXalplN0FVRGp2OGYzV2JxUQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
       "source_name": "CryptoRank",
       "published_at": "2026-03-10T07:00:00.000Z",
       "stage": "Series D+",
@@ -1057,9 +1101,9 @@
       "vc_id": "insight",
       "vc_name": "Insight Partners",
       "company": "Unknown",
-      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - news.crunchbase.com",
+      "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - Crunchbase News",
       "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ3ppcVVWZVQ0RDBFRHM4OHQxN2VjSWYzazdtc0ZPMG9vVlJwOG9OcFRXdXVKcDM3YVhDcVhMeGpZZFZORTluUXVRUlFBblJkaTZ0aEJGTlh0dGtBamJBSkEzUEhHRjFhUmY5ZmljVWlwV2oxRk9oTEZNeEhtOEluNTNPNjBPTjA2MnZMWFNXeTIwV3ZsUkE?oc=5",
-      "source_name": "news.crunchbase.com",
+      "source_name": "Crunchbase News",
       "published_at": "2026-03-10T07:00:00.000Z",
       "stage": "Series D+",
       "sector": "Other",
@@ -1075,12 +1119,12 @@
       }
     },
     {
-      "id": "deal_1140409934",
+      "id": "deal_954916979",
       "vc_id": "menlo-ventures",
       "vc_name": "Menlo Ventures",
       "company": "Unknown",
       "title": "Swedish Legal Tech Startup Legora Triples Valuation To $5.55B With $550M Series D Led By Accel - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcTA3N0hSY2FqcTNFcU1qVTNXck01SnNvRVZqNUlNeFJtRk5yam5pSHVJZ3pLMFVBTjVVUzJURVhJS2lpZHA3anIwSS1RR2YtWllwdmhDbHNnckphMHNXY0FFd1R0SnNqMkhic2dpX2lqenR2Q09YLXNfV3hhYmtMam1JWFYzRm11Q0VVUk9EdXkyaGNtNWpn?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORTBTanQ3dTVpY2U0ek1aOUlJeGw4MlFLY3RKVVBybFVmcUw1UnlLZENwemphNDV1dzZPT05UTHhZSnlSOVdubGJfcHZYRWxxdm81ZU1kT19ZQ29pRjlvaHRvMDZNMmxKT25OOEowUE1tMEdTcTlsRThSOWpwRGZoa0lpbmZTd1NFOEVXalplN0FVRGp2OGYzV2JxUQ?oc=5",
       "source_name": "CryptoRank",
       "published_at": "2026-03-10T07:00:00.000Z",
       "stage": "Series D+",
@@ -1302,8 +1346,8 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 19,
-      "weighted_score": 75.03,
+      "deal_count": 18,
+      "weighted_score": 72.82,
       "latest_at": "2026-04-01T04:28:00.000Z",
       "amount_usd_m_total": 9307,
       "top_sectors": [
@@ -1316,7 +1360,7 @@
           "count": 3
         },
         {
-          "name": "Climate & Energy",
+          "name": "Web3 & Crypto",
           "count": 1
         }
       ],
@@ -1341,14 +1385,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 13,
-      "weighted_score": 58.64,
+      "deal_count": 15,
+      "weighted_score": 68.2,
       "latest_at": "2026-03-31T23:47:19.000Z",
-      "amount_usd_m_total": 24703,
+      "amount_usd_m_total": 35803,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 13
         },
         {
           "name": "Web3 & Crypto",
@@ -1367,6 +1411,45 @@
         {
           "name": "Khosla Ventures",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 9,
+      "weighted_score": 40.36,
+      "latest_at": "2026-03-31T11:17:51.000Z",
+      "amount_usd_m_total": 11578,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 3
+        },
+        {
+          "name": "Web3 & Crypto",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Accel",
+          "count": 2
+        },
+        {
+          "name": "True Ventures",
+          "count": 2
+        },
+        {
+          "name": "DCVC",
+          "count": 1
         }
       ]
     },
@@ -1402,45 +1485,6 @@
         {
           "name": "Greycroft",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 8,
-      "weighted_score": 36.85,
-      "latest_at": "2026-03-31T11:17:51.000Z",
-      "amount_usd_m_total": 11529,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        },
-        {
-          "name": "Other",
-          "count": 3
-        },
-        {
-          "name": "Web3 & Crypto",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Accel",
-          "count": 2
-        },
-        {
-          "name": "True Ventures",
-          "count": 2
-        },
-        {
-          "name": "DCVC",
-          "count": 1
         }
       ]
     },
