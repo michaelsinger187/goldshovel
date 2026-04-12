@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T13:33:20.945Z",
+  "generated_at": "2026-04-12T19:06:27.831Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 42,
-    "total_deals": 42,
+    "scraped_deals": 38,
+    "total_deals": 38,
     "demo_mode": false,
-    "deals_with_coordinates": 42,
-    "runtime_ms": 4186,
+    "deals_with_coordinates": 38,
+    "runtime_ms": 4360,
     "note": "",
     "error_sample": []
   },
@@ -36,50 +36,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1341771276",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "Agentic AI startup Sycamore",
-      "title": "Agentic AI startup Sycamore raises $65 million led by Coatue, Lightspeed - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaXBaX3BDdFp3bVJFX2JmV0dibEo4MHVWNV9DNEtEejNJdlBGLXdiaG0yWDdyX1JDQ3pFVWR0NTJQcUwwN2xLWUh4aTg4SHp3T1RjajBvT0h1SlR6Y2dtZld3OUp5R2V0djgwU1JQWWRwejltQ24xZFF4bHktTkJ3SGpIYW91eTlfV0dOUWJuanBqdktRTTMtYjJ1Tmx4QUNxMUhXd3RzWFZmRENaWGt4YmpXSjNDNERwc1pz?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-04-10T09:34:39.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 65,
-      "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_232649027",
-      "vc_id": "qualcomm",
-      "vc_name": "Qualcomm Ventures",
-      "company": "Unknown",
-      "title": "Ola alumni’s Manav Robotics in talks to raise $15-20 million from Blume, Qualcomm Ventures - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcmZ5b1ItT2ZISTRmUS1VZlB4TUlFZEI5YXNielFGVHhfRlVoZGJqdXc2cjlVWjJpUDAweVM0NUVtd2pIQWVwM19VVEZPdEo4bkpjOTFYTDRqY0RwWmVwZWlxdVFtRks5RU1EODhEVUw2WVNuZnZKcEFfMTdGeV9yNl81TXB5OF80YjI3QlNTSFlCZkRQRXN3Tm1keklzYXRhSThmVzdlSDA0VG9Vd2VtaFlSamFueFJ3dDNwTTFhX1ZMdExIYk9HaHhTSHVVcEY5QVlyOG1jQ0FXRjFHRE1QY3JnczctZTV6YnfSAe8BQVVfeXFMT3gtMXlEb3prVVZsU1o3eGcxckU1bUpiOTgwOHRWRnBNaTNWaWN1cm5ESm9qTHBIMXlLQzJPdFRKekhldFBOWHlNVTdvT1M4bkRfRl9mREMxWlV1MV8wZEVaNk9GbnlYUXh5QXUxaXVJQ1k0eHBnbUNTdDh5OGFtOXRQakY4QmhlZmYzbXVHQlplbTNxWkQ0cWpmbHlKRS1vMzhGMU15ekJMel9YUWxndl9zczV3TzRWbDhLNmxxNWppVmRCYTFDdlE2Z2VKSUZlZGE4RDU2cnBoR29hOHJCcll4VXVoRWdiQzRvZTR2TFE?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-04-10T00:30:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.7157,
-        "lon": -117.1611,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -481,28 +437,6 @@
       }
     },
     {
-      "id": "deal_90334717",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
-      "company": "Satellite navigation startup Xona Space",
-      "title": "Satellite navigation startup Xona Space nabs $170M investment - SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTR2NFUwVXNJaUYxb0F2bUJrYzYzVlhpLXBQOXJrRl91a3Rtakt1eWtxbkVLRGlTUE5Ock8yaDFLU3V1ZmhCcWFGb29KWnBuRUE3ZW01ODRWWVdESlhvNDNOZkRUeEhELXVTeGV0QjNESjlLbmh4aUZXOE1uMTlleE9MQl9YYkl6Nl9qczBNOE5sTGtKT3R5QkxISWN3dw?oc=5",
-      "source_name": "SiliconANGLE",
-      "published_at": "2026-03-27T01:42:45.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 170,
-      "confidence": 0.71,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1543534854",
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
@@ -657,28 +591,6 @@
       }
     },
     {
-      "id": "deal_749737236",
-      "vc_id": "dcvc",
-      "vc_name": "DCVC",
-      "company": "Halter",
-      "title": "Halter Raises $220M in Series E to Accelerate Global Expansion of Virtual Fencing - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYkM5aGFuYmd5TE8td1ZwSmY3MXlhV3pvd0twd2pPOGQ4Z1RsSGFhV0c2TGNnVWRrR2Z5eDZ5NzRvTWlIa1o2Qnl6dEZzQXNIQzFiMk45R3Mxb20zQjcwTDFxQVc1SDFNWWdvdWo0dlFjLTRoTkJ3WmFuNkpSYVBjR2dGeUJuWUxnTFpKS1ZKVzY1VlRVamR5TUw1Uk56eVR1SGdLWE5XUk0tQThINUdIaFVTVWVCa190cUlfVkJwSG9CaEFEa2M0OGdxSUpZcmhVb1ZmRmE2OA?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-03-24T07:00:00.000Z",
-      "stage": "Series D+",
-      "sector": "AI & ML",
-      "amount_usd_m": 220,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1780649068",
       "vc_id": "insight",
       "vc_name": "Insight Partners",
@@ -696,6 +608,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1331268550",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Unknown",
+      "title": "Peter Thiel’s Founders Fund Backs AI Cow Collar Startup at $2 Billion Valuation - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNENzUGMyT1Z0cjc3a0pFemRrS1hUVE84ZHo2SHg2RlhNVnZha3EtNEdRSl9vU3J0a2Q1bWNMM2wzWjNSMWgwNkNWTmxJY1lfNnZlcXJDVVFmeng0Q0hmT2xJSTA3SWRPWlF4eXFncFdYbmI3akFQQVlfLXFTRUgwN25HTTZkMlpzOUR6VFhfbk9adHFEUEQwcmdGRVFRU19ncTF5RGp3ZmhDaVg4Vkt1R3ZoR01FbVB3UUpGUngxVTRUUnZfck41Mg?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-03-20T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 2000,
+      "confidence": 0.71,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -789,45 +723,23 @@
       }
     },
     {
-      "id": "deal_1948594774",
+      "id": "deal_1545039688",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
-      "company": "Unknown",
-      "title": "Exclusive: AI cybersecurity startup RunSybil, founded by OpenAI’s first security hire, raises $40 million led by Khosla Ventures - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOHY5WU1lVEFpU25qQ19QRm04bkROUldsUUJRZXNuY0tybDhxR3hRVG1NSU5KNnczSUl2am5hbWc1LXZWY2RRcHJib0YyblpWY3VvMEhlUTV2elFheXdQWUJKRWl6N3dTVVVRakdZUkJiNUFIamtuWkctV1I3ZnBTd0JpN0xzdlNlT0c3OFB0Z3k0WTg?oc=5",
-      "source_name": "Yahoo Finance",
+      "company": "Exclusive: AI cybersecurity startup RunSybil",
+      "title": "Exclusive: AI cybersecurity startup RunSybil raises $40 million in round led by Khosla Ventures - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUGFtQnBkX2V1SWs4OGdGcGRQZ0JITmtTNVNjeUtqM2I4V0dpUFNjYlZWeS15WVVSeHFka0lpNVdaVmxVNFpNYW1VUUlBTUNrUVZDdWtUa0VJbkc4YXM1dGJuNHdpY3JoMmV2eWVocFkxLUZ1dlZPZ0NoMzlkLUEwVFhYajNnelY5dTZlVENRTHpzbU1HSWZUTHRVNENId1cwRUlGT3JnSTBBWkdWVlBFUmJYNHNmUDRoV19ud2FvWmFOUW1sSnp5NGF6ZkpyWFdkMGpIT0p1YUJ1WmxMTW52UTh6YVpfQjl2M21n?oc=5",
+      "source_name": "Fortune",
       "published_at": "2026-03-18T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 40,
-      "confidence": 0.71,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1489196926",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "Ex-Datadog Leader’s AI Startup",
-      "title": "Ex-Datadog Leader’s AI Startup Nabs First $49 Million Funding - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGVqUTI1dnN1VnhVbFhQLTJ4YXlaOTdub1dpRGJJZWJoWU5YSzlZeTZ3ZlBsTGV6bWhyTHZTUkhzSG5YN2dBbjcxWXFkSUFYOFpzWGJ4TVh4c1dlSHh0aXVSaUNJbGI5ZDZ5REV6Z293VTN3cmV2LURPVXFLRVlJOV9nT0Vfb0NmNm82aE11NFVqVW5HaGN5RkZ2OXZBR3BjTFRWME9jSUxWUzFlZ0FsVg?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-03-17T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 49,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -950,14 +862,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 11,
-      "weighted_score": 42.49,
+      "deal_count": 12,
+      "weighted_score": 47.5,
       "latest_at": "2026-04-07T23:31:42.000Z",
-      "amount_usd_m_total": 1067.5,
+      "amount_usd_m_total": 3067.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Other",
@@ -984,48 +896,13 @@
       ]
     },
     {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 9,
-      "weighted_score": 31.59,
-      "latest_at": "2026-04-10T09:34:39.000Z",
-      "amount_usd_m_total": 907,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 8
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Coatue",
-          "count": 5
-        },
-        {
-          "name": "Insight Partners",
-          "count": 2
-        },
-        {
-          "name": "boldstart ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Menlo Park,CA",
       "city": "Menlo Park",
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 7,
-      "weighted_score": 28.42,
+      "weighted_score": 28.52,
       "latest_at": "2026-04-10T09:34:39.000Z",
       "amount_usd_m_total": 14807,
       "top_sectors": [
@@ -1050,19 +927,19 @@
       ]
     },
     {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 5,
-      "weighted_score": 21.42,
-      "latest_at": "2026-04-09T20:34:00.000Z",
-      "amount_usd_m_total": 583,
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 8,
+      "weighted_score": 27.96,
+      "latest_at": "2026-04-06T23:32:13.000Z",
+      "amount_usd_m_total": 842,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 7
         },
         {
           "name": "Other",
@@ -1071,15 +948,50 @@
       ],
       "top_vcs": [
         {
-          "name": "DCVC",
+          "name": "Coatue",
+          "count": 4
+        },
+        {
+          "name": "Insight Partners",
           "count": 2
         },
+        {
+          "name": "boldstart ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 3,
+      "weighted_score": 11.8,
+      "latest_at": "2026-04-09T20:34:00.000Z",
+      "amount_usd_m_total": 314,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
         {
           "name": "Sutter Hill Ventures",
           "count": 1
         },
         {
           "name": "Accel",
+          "count": 1
+        },
+        {
+          "name": "DCVC",
           "count": 1
         }
       ]
@@ -1104,37 +1016,6 @@
         {
           "name": "NextView Ventures",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 6.05,
-      "latest_at": "2026-04-08T00:42:29.000Z",
-      "amount_usd_m_total": 170,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
-          "count": 1
-        },
-        {
-          "name": "Samsung Next",
-          "count": 1
         }
       ]
     },
@@ -1185,29 +1066,6 @@
       ]
     },
     {
-      "key": "San Diego,CA",
-      "city": "San Diego",
-      "state": "CA",
-      "lat": 32.7157,
-      "lon": -117.1611,
-      "deal_count": 1,
-      "weighted_score": 2.91,
-      "latest_at": "2026-04-10T00:30:00.000Z",
-      "amount_usd_m_total": 15,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Qualcomm Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Atlanta,GA",
       "city": "Atlanta",
       "state": "GA",
@@ -1249,6 +1107,29 @@
       "top_vcs": [
         {
           "name": "Bessemer Venture Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.11,
+      "latest_at": "2026-04-08T00:42:29.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
           "count": 1
         }
       ]
