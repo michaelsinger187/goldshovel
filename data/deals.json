@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T19:06:27.831Z",
+  "generated_at": "2026-04-13T03:50:56.222Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 38,
-    "total_deals": 38,
+    "scraped_deals": 40,
+    "total_deals": 40,
     "demo_mode": false,
-    "deals_with_coordinates": 38,
-    "runtime_ms": 4360,
+    "deals_with_coordinates": 40,
+    "runtime_ms": 4469,
     "note": "",
     "error_sample": []
   },
@@ -41,6 +41,28 @@
       }
     },
     {
+      "id": "deal_1341771276",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Agentic AI startup Sycamore",
+      "title": "Agentic AI startup Sycamore raises $65 million led by Coatue, Lightspeed - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaXBaX3BDdFp3bVJFX2JmV0dibEo4MHVWNV9DNEtEejNJdlBGLXdiaG0yWDdyX1JDQ3pFVWR0NTJQcUwwN2xLWUh4aTg4SHp3T1RjajBvT0h1SlR6Y2dtZld3OUp5R2V0djgwU1JQWWRwejltQ24xZFF4bHktTkJ3SGpIYW91eTlfV0dOUWJuanBqdktRTTMtYjJ1Tmx4QUNxMUhXd3RzWFZmRENaWGt4YmpXSjNDNERwc1pz?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-04-10T09:34:39.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1912011424",
       "vc_id": "sutter-hill",
       "vc_name": "Sutter Hill Ventures",
@@ -63,9 +85,53 @@
       }
     },
     {
+      "id": "deal_1871091633",
+      "vc_id": "madrona",
+      "vc_name": "Madrona",
+      "company": "Golden Analytics",
+      "title": "Golden Analytics Secures $7M Seed Funding to Scale AI-Native BI Platform - Bayelsa Watch",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aVU5hT0R1NWh6bGp1eFp6ZUZERXZDVU5FdVFaOUlJZFotcm0yMlV3Ql9pR01Nd25wTVdBR01Ed3FWYmM4TnZ2WTdvc3FuZFl2cHU1cVozeTZ4OE1tYXh4ZTVDVQ?oc=5",
+      "source_name": "Bayelsa Watch",
+      "published_at": "2026-04-08T17:09:04.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 7,
+      "confidence": 0.96,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1880001862",
       "vc_id": "gv",
       "vc_name": "GV",
+      "company": "Unknown",
+      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
+      "source_name": "디지털투데이",
+      "published_at": "2026-04-08T00:42:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_696023978",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
       "company": "Unknown",
       "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
@@ -437,6 +503,28 @@
       }
     },
     {
+      "id": "deal_90334717",
+      "vc_id": "samsung-next",
+      "vc_name": "Samsung Next",
+      "company": "Satellite navigation startup Xona Space",
+      "title": "Satellite navigation startup Xona Space nabs $170M investment - SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTR2NFUwVXNJaUYxb0F2bUJrYzYzVlhpLXBQOXJrRl91a3Rtakt1eWtxbkVLRGlTUE5Ock8yaDFLU3V1ZmhCcWFGb29KWnBuRUE3ZW01ODRWWVdESlhvNDNOZkRUeEhELXVTeGV0QjNESjlLbmh4aUZXOE1uMTlleE9MQl9YYkl6Nl9qczBNOE5sTGtKT3R5QkxISWN3dw?oc=5",
+      "source_name": "SiliconANGLE",
+      "published_at": "2026-03-27T01:42:45.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 170,
+      "confidence": 0.71,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1543534854",
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
@@ -591,23 +679,23 @@
       }
     },
     {
-      "id": "deal_1780649068",
-      "vc_id": "insight",
-      "vc_name": "Insight Partners",
-      "company": "Unknown",
-      "title": "Insight Partners scrubs investment post about Delve amid ‘fake compliance’ allegations - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVm5MRGd4QmI1UmpaMnFaYU90djY0RzJ5QVh3VXRtczI2OVl0cmxIdnFIQ0QtYnZRNDZkc1NsNEhiNjZQaVVtUXREdWFCaXIyRldvX2tnRXpDZnI2cHdUZnF1Y3JvT0p1cXE1SW1FbWdCUzhzZTd6ZGkxSjA4ODVjNFpxcTRkRzFxcGN2VmUwZU95LTV0ZHZlQlBKVm0tR0hZc2dSNmt1b2JJd1E?oc=5",
-      "source_name": "TechCrunch",
+      "id": "deal_1965939417",
+      "vc_id": "m12",
+      "vc_name": "M12",
+      "company": "Microsoft-Backed Lace",
+      "title": "Microsoft-Backed Lace Raises $40M for Next-Gen Chipmaking Equipment - Global Banking & Finance Review®",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdWRveldsNThPdWlhcHlQS1BOY2xoVFVuOVEtbFpCeEpxWHl5azgxRGV2SktDa0k2ak45aTdGQ3otWlpnUGs3MUE1SWdGajRMc3Z5WFY4WldxUV9WZXFJS0ZZSUVYSnJRcEZ6d1pXU3pfV3JLZ0tvZHlOQ1Awb3VNVGhXNW5rMXJ4c3JmTzJmUGdCVENYZnBZ?oc=5",
+      "source_name": "Global Banking & Finance Review®",
       "published_at": "2026-03-23T07:00:00.000Z",
       "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.81,
       "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
+        "city": "Redmond",
+        "state": "WA",
+        "lat": 47.6739,
+        "lon": -122.1215,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -701,28 +789,6 @@
       }
     },
     {
-      "id": "deal_1087015493",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Consumer-focused privacy Cloaked",
-      "title": "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHF5Q3E0S3VQNnk0UFNzTldrcFFkYTNnQ1otOW5RUDlRRTVLWk9oQUN5T2I3QmZEdzFxU0tVRUpRNXNIOERfd1ZsRUpDTWFkRWRBV29CSER1WmJjZWZ1YkpWMXZvQXlmTG1mWXM5YUg1NjEyLU1UVDJYWVhYSFhIOEtoM1BuZVlyMTN1S01hOUI5dHRPLV81RmNYeWJabVEzTldVT29rRVlodmJfMjBoVnhrbW5xdw?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-03-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 375,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1545039688",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -767,28 +833,6 @@
       }
     },
     {
-      "id": "deal_213251422",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Fuse",
-      "title": "Fuse raises $25M to disrupt aging loan origination systems used by US credit unions - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMlJoZ18yc2VVMXRfZ0ZHZmdfdkRpOEpsWHhBRWU4RjBrY2xkTTdpREc1c1hzZ29xb0xaVWJfVnRGNFFJc3o4SWhTVnZnMm1UMVAwTVZGVTJVZS1tWnVPaXFRUGtXRVV5NWM3UkIxZktDR3RNaTZGWXhka21PYUQ5TE95aVJ2bnVmSjhNTktlc0xYbDBQZXZjVE5oSjJQVTJ2aXZGMlg2c3ZWaVFNQnJjdDNCdGxWVERHekE?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-03-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1860980370",
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
@@ -811,9 +855,9 @@
       }
     },
     {
-      "id": "deal_1596039048",
-      "vc_id": "primary",
-      "vc_name": "Primary Venture Partners",
+      "id": "deal_213251422",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
       "company": "Fuse",
       "title": "Fuse raises $25M to disrupt aging loan origination systems used by US credit unions - TechCrunch",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMlJoZ18yc2VVMXRfZ0ZHZmdfdkRpOEpsWHhBRWU4RjBrY2xkTTdpREc1c1hzZ29xb0xaVWJfVnRGNFFJc3o4SWhTVnZnMm1UMVAwTVZGVTJVZS1tWnVPaXFRUGtXRVV5NWM3UkIxZktDR3RNaTZGWXhka21PYUQ5TE95aVJ2bnVmSjhNTktlc0xYbDBQZXZjVE5oSjJQVTJ2aXZGMlg2c3ZWaVFNQnJjdDNCdGxWVERHekE?oc=5",
@@ -824,10 +868,10 @@
       "amount_usd_m": 25,
       "confidence": 0.81,
       "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -862,14 +906,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 47.5,
+      "deal_count": 11,
+      "weighted_score": 43.11,
       "latest_at": "2026-04-07T23:31:42.000Z",
-      "amount_usd_m_total": 3067.5,
+      "amount_usd_m_total": 2692.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 8
         },
         {
           "name": "Other",
@@ -932,28 +976,24 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 8,
-      "weighted_score": 27.96,
-      "latest_at": "2026-04-06T23:32:13.000Z",
-      "amount_usd_m_total": 842,
+      "deal_count": 7,
+      "weighted_score": 26.35,
+      "latest_at": "2026-04-10T09:34:39.000Z",
+      "amount_usd_m_total": 882,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 7
-        },
-        {
-          "name": "Other",
-          "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "Coatue",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Insight Partners",
-          "count": 2
+          "count": 1
         },
         {
           "name": "boldstart ventures",
@@ -992,6 +1032,41 @@
         },
         {
           "name": "DCVC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 3,
+      "weighted_score": 8.16,
+      "latest_at": "2026-04-08T00:42:29.000Z",
+      "amount_usd_m_total": 170,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
+          "count": 1
+        },
+        {
+          "name": "CapitalG",
+          "count": 1
+        },
+        {
+          "name": "Samsung Next",
           "count": 1
         }
       ]
@@ -1066,6 +1141,52 @@
       ]
     },
     {
+      "key": "Redmond,WA",
+      "city": "Redmond",
+      "state": "WA",
+      "lat": 47.6739,
+      "lon": -122.1215,
+      "deal_count": 1,
+      "weighted_score": 3.42,
+      "latest_at": "2026-03-23T07:00:00.000Z",
+      "amount_usd_m_total": 40,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Seattle,WA",
+      "city": "Seattle",
+      "state": "WA",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "deal_count": 1,
+      "weighted_score": 3.06,
+      "latest_at": "2026-04-08T17:09:04.000Z",
+      "amount_usd_m_total": 7,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Madrona",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Atlanta,GA",
       "city": "Atlanta",
       "state": "GA",
@@ -1107,29 +1228,6 @@
       "top_vcs": [
         {
           "name": "Bessemer Venture Partners",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-04-08T00:42:29.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
           "count": 1
         }
       ]
