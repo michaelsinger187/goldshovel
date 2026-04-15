@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T19:40:07.454Z",
+  "generated_at": "2026-04-15T03:37:35.560Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 41,
-    "total_deals": 41,
+    "scraped_deals": 43,
+    "total_deals": 43,
     "demo_mode": false,
-    "deals_with_coordinates": 41,
-    "runtime_ms": 4843,
+    "deals_with_coordinates": 43,
+    "runtime_ms": 4483,
     "note": "",
     "error_sample": []
   },
@@ -173,6 +173,28 @@
       }
     },
     {
+      "id": "deal_126100878",
+      "vc_id": "lightspeed",
+      "vc_name": "Lightspeed Venture Partners",
+      "company": "Agentic AI startup Sycamore",
+      "title": "Agentic AI startup Sycamore raises $65 million led by Coatue, Lightspeed - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaXBaX3BDdFp3bVJFX2JmV0dibEo4MHVWNV9DNEtEejNJdlBGLXdiaG0yWDdyX1JDQ3pFVWR0NTJQcUwwN2xLWUh4aTg4SHp3T1RjajBvT0h1SlR6Y2dtZld3OUp5R2V0djgwU1JQWWRwejltQ24xZFF4bHktTkJ3SGpIYW91eTlfV0dOUWJuanBqdktRTTMtYjJ1Tmx4QUNxMUhXd3RzWFZmRENaWGt4YmpXSjNDNERwc1pz?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-04-10T09:34:39.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1341771276",
       "vc_id": "coatue",
       "vc_name": "Coatue",
@@ -212,6 +234,50 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_276898097",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "HTP, Venture Investors Club to jointly work on developing Belarus’ startup ecosystem - Беларусь сегодня",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdUhuUkRDSEFwYkdSVFBvUGs2b1hCWHdFaE4tYWdxUG5aUkFDS3l1YnVlNUJQMnBFMHAtUV8yNDU0bFNmdDlBUmhiMEp6akdET2k4d25iWlRINDhkZGxfX0I1TlhPc3RfMTVJUFB3OWl6Q01GQmJZcl9EcHhlM1JNandNVkd2OUFyNzRFSUhnQmtxOGNOYXJXOFJjN29fRWwwRFMtNjdwNEVrNVQz?oc=5",
+      "source_name": "Беларусь сегодня",
+      "published_at": "2026-04-08T08:29:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1880001862",
+      "vc_id": "gv",
+      "vc_name": "GV",
+      "company": "Unknown",
+      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
+      "source_name": "디지털투데이",
+      "published_at": "2026-04-08T00:42:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -459,28 +525,6 @@
       }
     },
     {
-      "id": "deal_575189309",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "Unknown",
-      "title": "Coatue, Lightspeed lead $65m seed round for AI startup Sycamore - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeWEtWUJpTFVjVTRoUFNBV1owN0pXM3ZNa1VWTWVkQ3JJa2JIeXlrZzVaNzQydTBSZG9YYTVDNGpNWmw5MTdfMHNvX0Y2YmVHeWxiQmRKMVJROE9NRlE5OGZyb3NDNXpXTHIyOVphOTZhNkQ5X0ktWjdmWG44WVl1M0dHclBiQXg1?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-03-31T01:17:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 65,
-      "confidence": 0.86,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1383254538",
       "vc_id": "dcvc",
       "vc_name": "DCVC",
@@ -510,6 +554,28 @@
       "title": "CORRECTING and REPLACING Starcloud Raises $170M Series A at $1.1bn Valuation Led by Benchmark and EQT Ventures - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNWGYwOFhOYmw4TFpiMEJIRGFaYmh6eG1Ib1BMOWtBX0NqaVVzbnhYd0VEUDM2M0c4M0twRk5iRDRaVkhTbS1EWTNIN2VMbXFidlpKb3JLU2R4Q0trQnJqdno2bXpBSDMyWC10emdwMVB4SDhUX2RJdFk1Y1pjTUNfcm9wc2hqVURoX1VVUjZib1FxcWlzbzc4cGljZzhEdng2Ym9qLWJwdGN4Q1NxXzkzX1E0QWMxcHc4LWxxd2FoUDF2anhBMXpmQUFtZjB3eTYxZDJQNVYzTVlaM2lEQWtnaFFaUU9FYlFFZGVCbU5oV3RVa3p3bGpRd1NhaVpSZkU2?oc=5",
       "source_name": "Business Wire",
+      "published_at": "2026-03-30T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 170,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1498567478",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Starcloud",
+      "title": "Starcloud raises $170 million Series A to build data centers in space - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZjBxYWNmRDJCYUhqN1FQV1k5YXppaFgzbElWT1B6V2hjVlZyN1FObVlMdktWbVVhTzVqWndxX1VIdDhFb3A3UFEtRlFiTWUydGpuQllHWmVEYmR6WVBBSFdPLWFNVE05S0VKZHBCOFVLandYaDRRSWxiemdSTFFIZ09tNFlZQ1UyZXMxMG9qaml4eXpNUkZaZkVqaFY3Tnc5YmZ2Tg?oc=5",
+      "source_name": "TechCrunch",
       "published_at": "2026-03-30T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -745,6 +811,28 @@
       }
     },
     {
+      "id": "deal_909217673",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Unknown",
+      "title": "Arc expands into electric commercial and defense boats with $50M raise - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQczBReVlzNXVWeG9Ud0lKRzI5ekFZQ0E3LWk1cUtyNUpvWkREc3ctOEY3MjB5MlA1dWd1bVoxQ2JKVnFDaERFMFVvaGFOU0dZYVJFU2NfeUZRR2dYNUlaQXV0MjZSR2NnQ21vRk55ak9BNE50UHdLc0c0RTBVZEhHdlhJdXhJSGJKU2pFX3JmN0VmTnFhYVEwM1oxbkItaG1ha2tEUndsaw?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-03-19T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_161276304",
       "vc_id": "craft",
       "vc_name": "Craft Ventures",
@@ -833,28 +921,6 @@
       }
     },
     {
-      "id": "deal_213251422",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Fuse",
-      "title": "Fuse raises $25M to disrupt aging loan origination systems used by US credit unions - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMlJoZ18yc2VVMXRfZ0ZHZmdfdkRpOEpsWHhBRWU4RjBrY2xkTTdpREc1c1hzZ29xb0xaVWJfVnRGNFFJc3o4SWhTVnZnMm1UMVAwTVZGVTJVZS1tWnVPaXFRUGtXRVV5NWM3UkIxZktDR3RNaTZGWXhka21PYUQ5TE95aVJ2bnVmSjhNTktlc0xYbDBQZXZjVE5oSjJQVTJ2aXZGMlg2c3ZWaVFNQnJjdDNCdGxWVERHekE?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-03-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1860980370",
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
@@ -872,28 +938,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1596039048",
-      "vc_id": "primary",
-      "vc_name": "Primary Venture Partners",
-      "company": "Fuse",
-      "title": "Fuse raises $25M to disrupt aging loan origination systems used by US credit unions - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMlJoZ18yc2VVMXRfZ0ZHZmdfdkRpOEpsWHhBRWU4RjBrY2xkTTdpREc1c1hzZ29xb0xaVWJfVnRGNFFJc3o4SWhTVnZnMm1UMVAwTVZGVTJVZS1tWnVPaXFRUGtXRVV5NWM3UkIxZktDR3RNaTZGWXhka21PYUQ5TE95aVJ2bnVmSjhNTktlc0xYbDBQZXZjVE5oSjJQVTJ2aXZGMlg2c3ZWaVFNQnJjdDNCdGxWVERHekE?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-03-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -928,18 +972,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 14,
-      "weighted_score": 46.67,
+      "deal_count": 16,
+      "weighted_score": 53.48,
       "latest_at": "2026-04-14T13:38:16.000Z",
-      "amount_usd_m_total": 907.5,
+      "amount_usd_m_total": 1077.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Climate & Energy",
@@ -956,7 +1000,7 @@
           "count": 3
         },
         {
-          "name": "SignalFire",
+          "name": "Human Capital",
           "count": 2
         }
       ]
@@ -967,14 +1011,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 6,
-      "weighted_score": 26.64,
+      "deal_count": 8,
+      "weighted_score": 33.69,
       "latest_at": "2026-04-13T11:15:43.000Z",
-      "amount_usd_m_total": 12992,
+      "amount_usd_m_total": 13107,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 7
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -987,11 +1031,11 @@
           "count": 2
         },
         {
-          "name": "Amplify Partners",
-          "count": 1
+          "name": "Lightspeed Venture Partners",
+          "count": 2
         },
         {
-          "name": "Lightspeed Venture Partners",
+          "name": "Amplify Partners",
           "count": 1
         }
       ]
@@ -1002,20 +1046,20 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 25.06,
+      "deal_count": 5,
+      "weighted_score": 17.96,
       "latest_at": "2026-04-10T09:34:39.000Z",
-      "amount_usd_m_total": 402,
+      "amount_usd_m_total": 312,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 5
         }
       ],
       "top_vcs": [
         {
           "name": "Coatue",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Insight Partners",
@@ -1063,52 +1107,60 @@
       ]
     },
     {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 3,
-      "weighted_score": 9.31,
-      "latest_at": "2026-03-31T23:00:34.000Z",
-      "amount_usd_m_total": 50,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "NextView Ventures",
-          "count": 2
-        },
-        {
-          "name": "Bain Capital Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
       "lat": 37.3861,
       "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 5.95,
+      "deal_count": 3,
+      "weighted_score": 8.06,
       "latest_at": "2026-04-13T15:29:05.000Z",
       "amount_usd_m_total": 170,
       "top_sectors": [
         {
           "name": "Other",
           "count": 2
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "Samsung Next",
           "count": 2
+        },
+        {
+          "name": "GV",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 2,
+      "weighted_score": 6.08,
+      "latest_at": "2026-03-31T23:00:34.000Z",
+      "amount_usd_m_total": 25,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bain Capital Ventures",
+          "count": 1
+        },
+        {
+          "name": "NextView Ventures",
+          "count": 1
         }
       ]
     },
