@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T03:37:35.560Z",
+  "generated_at": "2026-04-15T08:02:49.234Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 43,
-    "total_deals": 43,
+    "scraped_deals": 42,
+    "total_deals": 42,
     "demo_mode": false,
-    "deals_with_coordinates": 43,
-    "runtime_ms": 4483,
+    "deals_with_coordinates": 42,
+    "runtime_ms": 4481,
     "note": "",
     "error_sample": []
   },
@@ -256,28 +256,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1880001862",
-      "vc_id": "gv",
-      "vc_name": "GV",
-      "company": "Unknown",
-      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
-      "source_name": "디지털투데이",
-      "published_at": "2026-04-08T00:42:29.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -767,6 +745,28 @@
       }
     },
     {
+      "id": "deal_608630700",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Bengaluru food delivery startup Swish",
+      "title": "Bengaluru food delivery startup Swish raises $38M, its third round in 18 months - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZF9VeGNhd3VfcElueG5rY1JCUFNGUUhSWFlvUDh6OXpBc3lXZEJyQ3ZNZHNxVzBWNUFYY0RNRUkxczRhY28xOHlfNGNiNEVLZ1ljU3FKenIzR0VxUTFiUjFmTjBLbjhUb3JzRG9zMW1fSzJsY3ZsNmQ0bVBlM29CeVFNcjB1eEV6X0JFWEp0TmpMdkFpeS1obHNuZUxvdVVGOUJyNkhBb09IUQ?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-03-23T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 38,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1965939417",
       "vc_id": "m12",
       "vc_name": "M12",
@@ -784,6 +784,28 @@
         "state": "WA",
         "lat": 47.6739,
         "lon": -122.1215,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1200746222",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Unknown",
+      "title": "AI Cow Collar startup Halter reaches $2 billion valuation in new funding round led by Founders Fund - MLQ.ai",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcE40d08xNXdwUmxHdlBVWUNad1hFZFVNVElqRzV1M1Fja2dxc3lGdk5XcFozSnFhYmdQNHJWUzhDd2xGcEZ0TWppdnJOa3Q3alR0bUg5dFcwcWcwSl9BM3NRM2RvNDJqbDFRU2NSbDN5aUNRV3ljclVwblVCMGF2TkxyRWMxeTV0ZXRDRVhWVWNFSG1jNkZPLWRYbzJjbUNaVW91aFQ2dDZEOWZUNmVxTUN4LVNQbXBxY3c?oc=5",
+      "source_name": "MLQ.ai",
+      "published_at": "2026-03-22T17:05:54.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 2000,
+      "confidence": 0.71,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -919,50 +941,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1860980370",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Fuse AI Loan Platform",
-      "title": "Fuse AI Loan Platform Raises $25M Series A, Targets Credit Unions - News and Statistics - IndexBox",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUklCU1RqVkFCdHd4RGJPa0JYZ3c5ZmRvbFdxWWd6ZjhSaS1GUmNTWWlScUo2ekN6UURxV3liYzJ4TldtYnI2V2FfWGs1djV1VDJMb1RYTENKcVhjaVVwdmRZN3lTWklONlNLcGRIeTdWT0EwZEhWcXI5WGQwRUF0ZDVoYTI4LVQ1X24yYjNQVWgteWgtLWhXdw?oc=5",
-      "source_name": "IndexBox",
-      "published_at": "2026-03-16T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.96,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2044840054",
-      "vc_id": "obvious",
-      "vc_name": "Obvious Ventures",
-      "company": "Energy data startup Halcyon",
-      "title": "Energy data startup Halcyon raises $21M Series A - Axios",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVkxoZzZ5VVNCZXVuNTVhNDQ0dHNTZ2h6YkQybHZyVE1lU0hVRnphYzdjeDVHdzgwZWxxNTRvaFBzd3BtOG1kdkU4VWM1ZkE1RDhqUWtublNCRjRycEswYklWZWVfSUdhV3hfUVpLdk84bzFmUm5zSy1GMmRHbXMyVU1LSQ?oc=5",
-      "source_name": "Axios",
-      "published_at": "2026-03-16T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 21,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -973,9 +951,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 16,
-      "weighted_score": 53.48,
+      "weighted_score": 54.59,
       "latest_at": "2026-04-14T13:38:16.000Z",
-      "amount_usd_m_total": 1077.5,
+      "amount_usd_m_total": 3056.5,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1112,28 +1090,20 @@
       "state": "CA",
       "lat": 37.3861,
       "lon": -122.0839,
-      "deal_count": 3,
-      "weighted_score": 8.06,
+      "deal_count": 2,
+      "weighted_score": 5.95,
       "latest_at": "2026-04-13T15:29:05.000Z",
       "amount_usd_m_total": 170,
       "top_sectors": [
         {
           "name": "Other",
           "count": 2
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "Samsung Next",
           "count": 2
-        },
-        {
-          "name": "GV",
-          "count": 1
         }
       ]
     },
@@ -1144,9 +1114,9 @@
       "lat": 42.3601,
       "lon": -71.0589,
       "deal_count": 2,
-      "weighted_score": 6.08,
+      "weighted_score": 5.51,
       "latest_at": "2026-03-31T23:00:34.000Z",
-      "amount_usd_m_total": 25,
+      "amount_usd_m_total": 38,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1156,11 +1126,7 @@
       "top_vcs": [
         {
           "name": "Bain Capital Ventures",
-          "count": 1
-        },
-        {
-          "name": "NextView Ventures",
-          "count": 1
+          "count": 2
         }
       ]
     },
