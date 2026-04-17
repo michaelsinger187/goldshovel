@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T08:02:59.748Z",
+  "generated_at": "2026-04-17T13:56:53.434Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 45,
-    "total_deals": 45,
+    "scraped_deals": 48,
+    "total_deals": 48,
     "demo_mode": false,
-    "deals_with_coordinates": 45,
-    "runtime_ms": 4118,
+    "deals_with_coordinates": 48,
+    "runtime_ms": 4542,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_450925559",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Joyful Health",
+      "title": "Joyful Health Raises $17M Series A - The SaaS News",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WRldQX016YXN1WGNfZ3lxUHpCTEY5c0tjQkJtT2Y2YUJxMWhDM0xBTVdUMzAwSzluNXhxQUhkR3pERG9NcXNoWko2XzhsR0p6NW92NmNSclVVYmxTOEt5V2d4Y0pOa0hqc2ltVTV0RUJnOTM3?oc=5",
+      "source_name": "The SaaS News",
+      "published_at": "2026-04-17T11:22:04.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 17,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1309009691",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Unknown",
+      "title": "AI startup valuations are overheated: First Round Capital cofounder Howard Morgan - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYzNXUXVNSjB1am92YVRnRjM5SWV6Tkl2Y1ZSQWFWVUJ4NWQtd3MyZ3lKbGtwcGhtc3BaZVNrSlNLbDFFQ0JXWGtnelM2dUJHZWNJaXdPVnRGQS1JTlNlcmQ1dHl5UGVhWHVZZVB4allVb0laLUtyWmtPYjVqdnZnNXVvU0o5aHFkQjdsRUcxS2hUSVdRVHZDRzRMdXZEN0lmVVlmVEEwdjZFU182MEZrWUZfMklBekpNMV9MZHdHbms3WHVNRlFTMU5rejE1QU9IeEVGTlR5Rm80dm13?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-04-17T04:52:46.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1931738171",
       "vc_id": "benchmark",
@@ -36,28 +80,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_892300389",
-      "vc_id": "ribbit",
-      "vc_name": "Ribbit Capital",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T15:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -85,28 +107,6 @@
       }
     },
     {
-      "id": "deal_942074726",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "National Bank Investments",
-      "title": "National Bank Investments announces NBI ETFs and ETF Series of NBI Funds cash distributions for April 2026 - Yahoo Finance Singapore",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRnhhOWxGWktyb0thelBnOXE3cWFsd1c5MzhCLU5iaXZtYXVVQk40X3RzM2ptaU9hTnFSYjJoV3U4RUs5MlZJdlFONW5YS2xBT2pFRUozWjF0cE9NSzdfVU1jbWdYek96bURaWENuSXExZGFaaFVvSjdOYUFmcnZSV3VBX0h2Yzlpdk5BeU42S1dlQQ?oc=5",
-      "source_name": "Yahoo Finance Singapore",
-      "published_at": "2026-04-16T12:30:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1568178677",
       "vc_id": "threshold",
       "vc_name": "Threshold Ventures",
@@ -119,6 +119,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 43,
       "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_314628331",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Cyber startup Artemis",
+      "title": "Cyber startup Artemis raises $70 million just six months after launch - CTech",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jbkNrT1hwYXRVcmVFOE9IMFE3bklUNUdiYWE0YzNjRG1ueWlZMHk3cFlxOU9zMFI4VlplWGR3MS12Tzk3UkY2X2JqczNXTnE3VkR1bUdDeG5OMkRNQnNSSGhKTFlwMVBqTWc?oc=5",
+      "source_name": "CTech",
+      "published_at": "2026-04-15T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 70,
+      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -239,40 +261,18 @@
       }
     },
     {
-      "id": "deal_1346339283",
-      "vc_id": "craft",
-      "vc_name": "Craft Ventures",
+      "id": "deal_63682975",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
       "company": "Unknown",
-      "title": "The 21 Largest NYC Tech Startup Funding Rounds of Q1 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZzVneU5sVmY3MURoUElGQWhLaXE5WWV5T3E0dW56OWdvdy1ySVktYlNRSUo0ZFRfRGxhVEFKR0w1eTBlcEdvYkRrX0JaTGZFVS1uYnNxRXo5anRjRmlCVXZHamE2T1dVd2NVOHMxdzJjWXBwYmc1Y29rb3ltU1k?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-04-13T15:29:05.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_608663627",
-      "vc_id": "sapphire",
-      "vc_name": "Sapphire Ventures",
-      "company": "Unknown",
-      "title": "The 21 Largest NYC Tech Startup Funding Rounds of Q1 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZzVneU5sVmY3MURoUElGQWhLaXE5WWV5T3E0dW56OWdvdy1ySVktYlNRSUo0ZFRfRGxhVEFKR0w1eTBlcEdvYkRrX0JaTGZFVS1uYnNxRXo5anRjRmlCVXZHamE2T1dVd2NVOHMxdzJjWXBwYmc1Y29rb3ltU1k?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-04-13T15:29:05.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
+      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-15T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.86,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -283,23 +283,23 @@
       }
     },
     {
-      "id": "deal_72236455",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
-      "company": "Unknown",
-      "title": "The 21 Largest NYC Tech Startup Funding Rounds of Q1 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZzVneU5sVmY3MURoUElGQWhLaXE5WWV5T3E0dW56OWdvdy1ySVktYlNRSUo0ZFRfRGxhVEFKR0w1eTBlcEdvYkRrX0JaTGZFVS1uYnNxRXo5anRjRmlCVXZHamE2T1dVd2NVOHMxdzJjWXBwYmc1Y29rb3ltU1k?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-04-13T15:29:05.000Z",
+      "id": "deal_1450839735",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "Slate Auto",
+      "title": "Slate Auto raises $650M to fund its affordable EV truck plans - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV1ZCczA3TEdFdkczeGhEVGRELUNxbTlFc1JqcXAtc0YzZlYxRlhISVFDa295VW5XRVBDOWE4cVJEc2k0NUZwTjhVM0IwYXp2NmxlaHNEa0d3dkZ5bnB4TWY5WlR3UmJwODZnY1B5MjMza2szWU5lYVhZUDBFRzcxXzNyQ3dDX1ZvN2FxQzVZVmItYWVwVXZvbllrRQ?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-04-13T13:26:33.000Z",
       "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
+      "sector": "AI & ML",
+      "amount_usd_m": 650,
+      "confidence": 0.81,
       "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -388,6 +388,50 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1880001862",
+      "vc_id": "gv",
+      "vc_name": "GV",
+      "company": "Unknown",
+      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
+      "source_name": "디지털투데이",
+      "published_at": "2026-04-08T00:42:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_696023978",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Unknown",
+      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
+      "source_name": "디지털투데이",
+      "published_at": "2026-04-08T00:42:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -537,6 +581,28 @@
       "sector": "Other",
       "amount_usd_m": 44,
       "confidence": 0.61,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_208037330",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "daydream",
+      "title": "daydream Raises $15M Series A to Build the World's Best AI-Native Agency for SEO - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX0hkUzh6d3ZCVjNaOXhGNjNKMDNGTkZUd29rNklIUm5IY0RQYVNWYWRZMVEwRmRNNjQ3eDZRbmVfeDBSekQzeEV2cTFtdjJFNGxQWS1GaVFHQ2xyaUJZMlhZQ0syS1ozdFAySVJ4ZEdSYjdxdW9HdEU1cEZvV1VEVUZpdy05YllhTk44UXhEUXhyUnVUOFg1MnBTZ1pNLVQ5X21HV2VkaWwyeWlsek9XYWphUHN1QWszTjBOUGM2bVA3eVdKLVkzUDluLWdUQlE?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-04-02T16:30:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 15,
+      "confidence": 0.96,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -767,28 +833,6 @@
       }
     },
     {
-      "id": "deal_192107277",
-      "vc_id": "kleiner-perkins",
-      "vc_name": "Kleiner Perkins",
-      "company": ":Harvey:",
-      "title": ":Harvey: Raises at $11 Billion Valuation to Scale Agents Across Law Firms and Enterprises - Harvey",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU01mbjBVRUczY3BYT18yYUlVaWljNTBWbVJwWkZCUkFTNVFEXzNzQ3hJZGpZdkFjeE9aeVhFX2JZM2x5OEcyMURSNFVrZUtzQWlTSUl3WW1UOEJWOWU2eUlQU3pWb3lud1lRem9uckhodjlJN3ZPWWlkcS0wUkdhMndKenNTbTVBQi1fTl9TTEFGS0N1WWdDZkk1Z0dJWXpxcldSMXdIMmxXQWY4Uk1FQXFZaWxZNlNFNE9N?oc=5",
-      "source_name": "Harvey",
-      "published_at": "2026-03-25T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 11000,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1281482168",
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
@@ -828,6 +872,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1965939417",
+      "vc_id": "m12",
+      "vc_name": "M12",
+      "company": "Microsoft-Backed Lace",
+      "title": "Microsoft-Backed Lace Raises $40M for Next-Gen Chipmaking Equipment - Global Banking & Finance Review®",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdWRveldsNThPdWlhcHlQS1BOY2xoVFVuOVEtbFpCeEpxWHl5azgxRGV2SktDa0k2ak45aTdGQ3otWlpnUGs3MUE1SWdGajRMc3Z5WFY4WldxUV9WZXFJS0ZZSUVYSnJRcEZ6d1pXU3pfV3JLZ0tvZHlOQ1Awb3VNVGhXNW5rMXJ4c3JmTzJmUGdCVENYZnBZ?oc=5",
+      "source_name": "Global Banking & Finance Review®",
+      "published_at": "2026-03-23T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.81,
+      "location": {
+        "city": "Redmond",
+        "state": "WA",
+        "lat": 47.6739,
+        "lon": -122.1215,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -965,6 +1031,28 @@
       }
     },
     {
+      "id": "deal_2111038411",
+      "vc_id": "sapphire",
+      "vc_name": "Sapphire Ventures",
+      "company": "Consumer-focused privacy Cloaked",
+      "title": "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHF5Q3E0S3VQNnk0UFNzTldrcFFkYTNnQ1otOW5RUDlRRTVLWk9oQUN5T2I3QmZEdzFxU0tVRUpRNXNIOERfd1ZsRUpDTWFkRWRBV29CSER1WmJjZWZ1YkpWMXZvQXlmTG1mWXM5YUg1NjEyLU1UVDJYWVhYSFhIOEtoM1BuZVlyMTN1S01hOUI5dHRPLV81RmNYeWJabVEzTldVT29rRVlodmJfMjBoVnhrbW5xdw?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-03-19T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 375,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1087015493",
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
@@ -985,28 +1073,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1843456769",
-      "vc_id": "m12",
-      "vc_name": "M12",
-      "company": "Knox Systems",
-      "title": "Knox Systems Raises $25M Series A to Scale Largest AI-Managed Cloud to Deliver 90-Day FedRAMP at 90% Lower Cost - CXO Digitalpulse",
-      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeDVjY0RSY3JobHJySU9oSEZ2TUdRTWNqS2hXemlxSXo2Sk1aWHVReG5uMlUyWkRHUVlnbE5vWXZBNEg1NC1pdVNfNVM2d2JEMXBKZlNUM2tWNUNBU3pqMnVzNkZwc2l5YmV2cjROT1BJTlEwYm9wWnFrdmF6b0NzbXRfUnZFOVdpcjBFMWdnck54U0hoX2pxRTEtU1RfTk9ZcjZoSkRpTFo5R1VqMzUwM3Y3SXRSNUdmakRfak1meGFYR0tkeGUwWFFqc0FLeno2ck5XZ25iWnh5Zw?oc=5",
-      "source_name": "CXO Digitalpulse",
-      "published_at": "2026-03-18T08:59:07.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redmond",
-        "state": "WA",
-        "lat": 47.6739,
-        "lon": -122.1215,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1016,18 +1082,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 16,
-      "weighted_score": 53.36,
-      "latest_at": "2026-04-16T16:00:00.000Z",
-      "amount_usd_m_total": 2919.5,
+      "deal_count": 17,
+      "weighted_score": 58.77,
+      "latest_at": "2026-04-17T04:52:46.000Z",
+      "amount_usd_m_total": 3004.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 12
         },
         {
           "name": "Other",
-          "count": 6
+          "count": 4
         },
         {
           "name": "Climate & Energy",
@@ -1036,15 +1102,15 @@
       ],
       "top_vcs": [
         {
-          "name": "Craft Ventures",
-          "count": 3
+          "name": "First Round Capital",
+          "count": 4
         },
         {
           "name": "Benchmark",
           "count": 2
         },
         {
-          "name": "BOND",
+          "name": "Craft Ventures",
           "count": 2
         }
       ]
@@ -1055,14 +1121,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 8,
-      "weighted_score": 34.17,
+      "deal_count": 7,
+      "weighted_score": 28.32,
       "latest_at": "2026-04-15T13:00:00.000Z",
-      "amount_usd_m_total": 13157,
+      "amount_usd_m_total": 2157,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -1080,7 +1146,7 @@
         },
         {
           "name": "Kleiner Perkins",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1090,27 +1156,27 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 5,
-      "weighted_score": 19.08,
-      "latest_at": "2026-04-16T15:00:00.000Z",
-      "amount_usd_m_total": 414,
+      "deal_count": 6,
+      "weighted_score": 25.27,
+      "latest_at": "2026-04-17T11:22:04.000Z",
+      "amount_usd_m_total": 806,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 5
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Ribbit Capital",
+          "name": "CRV",
           "count": 1
         },
         {
-          "name": "Sapphire Ventures",
+          "name": "Ribbit Capital",
           "count": 1
         },
         {
@@ -1151,6 +1217,29 @@
       ]
     },
     {
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 2,
+      "weighted_score": 9.01,
+      "latest_at": "2026-04-13T13:26:33.000Z",
+      "amount_usd_m_total": 1025,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Santa Clara,CA",
       "city": "Santa Clara",
       "state": "CA",
@@ -1178,24 +1267,28 @@
       ]
     },
     {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 1,
-      "weighted_score": 4.39,
-      "latest_at": "2026-03-19T07:00:00.000Z",
-      "amount_usd_m_total": 375,
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-04-08T00:42:29.000Z",
+      "amount_usd_m_total": 0,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
         {
-          "name": "General Catalyst",
+          "name": "GV",
+          "count": 1
+        },
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
@@ -1230,9 +1323,9 @@
       "lat": 47.6739,
       "lon": -122.1215,
       "deal_count": 1,
-      "weighted_score": 3.97,
-      "latest_at": "2026-03-18T08:59:07.000Z",
-      "amount_usd_m_total": 25,
+      "weighted_score": 3.42,
+      "latest_at": "2026-03-23T07:00:00.000Z",
+      "amount_usd_m_total": 40,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1334,29 +1427,6 @@
       "top_vcs": [
         {
           "name": "Bain Capital Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 1,
-      "weighted_score": 2.01,
-      "latest_at": "2026-04-13T15:29:05.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Samsung Next",
           "count": 1
         }
       ]
