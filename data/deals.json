@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T13:56:53.434Z",
+  "generated_at": "2026-04-17T19:19:24.266Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 48,
-    "total_deals": 48,
+    "scraped_deals": 43,
+    "total_deals": 43,
     "demo_mode": false,
-    "deals_with_coordinates": 48,
-    "runtime_ms": 4542,
+    "deals_with_coordinates": 43,
+    "runtime_ms": 4896,
     "note": "",
     "error_sample": []
   },
@@ -41,28 +41,6 @@
       }
     },
     {
-      "id": "deal_1309009691",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Unknown",
-      "title": "AI startup valuations are overheated: First Round Capital cofounder Howard Morgan - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYzNXUXVNSjB1am92YVRnRjM5SWV6Tkl2Y1ZSQWFWVUJ4NWQtd3MyZ3lKbGtwcGhtc3BaZVNrSlNLbDFFQ0JXWGtnelM2dUJHZWNJaXdPVnRGQS1JTlNlcmQ1dHl5UGVhWHVZZVB4allVb0laLUtyWmtPYjVqdnZnNXVvU0o5aHFkQjdsRUcxS2hUSVdRVHZDRzRMdXZEN0lmVVlmVEEwdjZFU182MEZrWUZfMklBekpNMV9MZHdHbms3WHVNRlFTMU5rejE1QU9IeEVGTlR5Rm80dm13?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-04-17T04:52:46.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1931738171",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -80,6 +58,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_892300389",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Unknown",
+      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-16T15:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.86,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -151,28 +151,6 @@
       }
     },
     {
-      "id": "deal_708945958",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "Exclusive: Artemis",
-      "title": "Exclusive: Artemis raises $70M to help fight AI-powered attacks with AI - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T13:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 70,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_350699595",
       "vc_id": "felicis",
       "vc_name": "Felicis",
@@ -195,6 +173,50 @@
       }
     },
     {
+      "id": "deal_708945958",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "Exclusive: Artemis",
+      "title": "Exclusive: Artemis raises $70M to help fight AI-powered attacks with AI - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-04-15T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 70,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_343808786",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "CIBC Global Asset Management",
+      "title": "CIBC Global Asset Management announces the capping of certain Series of the CIBC 2026 Investment Grade Bond Fund and the CIBC 2026 U.S. Investment Grade Bond Fund - Yahoo! Finance Canada",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZTREWTlhTUJoX18ycXk1SmtnYzFmT2xkWTVVX1l1TVRrbWd0R3RRN2ZyOGRMSldNTmhrcUR4TUZiZDh6blVBUnNTaFNzSWNpcWRibHVXVDV4NXQ0SWFYRVI4Qi1veGlIWXNFQ095ZW9iSmdKckN1cklSeW8zTkNGT1ZvcllSeE5iUXRhd0pUY3o?oc=5",
+      "source_name": "Yahoo! Finance Canada",
+      "published_at": "2026-04-15T11:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.61,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2058993856",
       "vc_id": "craft",
       "vc_name": "Craft Ventures",
@@ -212,6 +234,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1697248322",
+      "vc_id": "workday-ventures",
+      "vc_name": "Workday Ventures",
+      "company": "Exclusive: Hyfix",
+      "title": "Exclusive: Hyfix raises $15 million to build a U.S. alternative to DJI’s drone dominance - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVZWMURhYnNrN1REWHROSE80NUpMU3hyZjdzaUVWMU9vWGxmR2RtTGtydVpjSnp3b1lYM21NU3JMNHFaMF9RbXhlTUtfS0JxcXJuTkhwYXZjLUtzR0FmNFl4S016c2VvM0NZT0lXQjZRcFFnVWs4WUlzcEo1ajVzSTFTWVhyUHM?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-04-15T10:18:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 15,
+      "confidence": 0.81,
+      "location": {
+        "city": "Pleasanton",
+        "state": "CA",
+        "lat": 37.6624,
+        "lon": -121.8747,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -256,50 +300,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_63682975",
-      "vc_id": "ribbit",
-      "vc_name": "Ribbit Capital",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1450839735",
-      "vc_id": "general-catalyst",
-      "vc_name": "General Catalyst",
-      "company": "Slate Auto",
-      "title": "Slate Auto raises $650M to fund its affordable EV truck plans - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV1ZCczA3TEdFdkczeGhEVGRELUNxbTlFc1JqcXAtc0YzZlYxRlhISVFDa295VW5XRVBDOWE4cVJEc2k0NUZwTjhVM0IwYXp2NmxlaHNEa0d3dkZ5bnB4TWY5WlR3UmJwODZnY1B5MjMza2szWU5lYVhZUDBFRzcxXzNyQ3dDX1ZvN2FxQzVZVmItYWVwVXZvbllrRQ?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-04-13T13:26:33.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 650,
-      "confidence": 0.81,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -371,53 +371,9 @@
       }
     },
     {
-      "id": "deal_276898097",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Unknown",
-      "title": "HTP, Venture Investors Club to jointly work on developing Belarus’ startup ecosystem - Беларусь сегодня",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdUhuUkRDSEFwYkdSVFBvUGs2b1hCWHdFaE4tYWdxUG5aUkFDS3l1YnVlNUJQMnBFMHAtUV8yNDU0bFNmdDlBUmhiMEp6akdET2k4d25iWlRINDhkZGxfX0I1TlhPc3RfMTVJUFB3OWl6Q01GQmJZcl9EcHhlM1JNandNVkd2OUFyNzRFSUhnQmtxOGNOYXJXOFJjN29fRWwwRFMtNjdwNEVrNVQz?oc=5",
-      "source_name": "Беларусь сегодня",
-      "published_at": "2026-04-08T08:29:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1880001862",
       "vc_id": "gv",
       "vc_name": "GV",
-      "company": "Unknown",
-      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
-      "source_name": "디지털투데이",
-      "published_at": "2026-04-08T00:42:29.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_696023978",
-      "vc_id": "capitalg",
-      "vc_name": "CapitalG",
       "company": "Unknown",
       "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
@@ -454,28 +410,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_275836572",
-      "vc_id": "canaan",
-      "vc_name": "Canaan Partners",
-      "company": "Unknown",
-      "title": "Supersonic Fighter Jet Startup Becomes Unicorn With New Funding - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNakdOcDBpcnUzR1ZabzVfVzItUXpLemMxSENucF9ka3l4Z2t2dmV2cEtiaUM2Njc5V0tCRDBCcF94NjVRTHI1RWlReHNidW51bDlyamZyYWJLUVppUkVVRTdUYjdESVJmS0RtYi1DRDV3dGh1TG9fUnpNanR6N2thV2JVbXFOTEN6cDFMZ1lGUnJLSDlwdFQ2OTVPS0VYTDZacHVPVFBDeGpkeUZOYTRydUl1ZVg?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-04-07T12:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Westport",
-        "state": "CT",
-        "lat": 41.1415,
-        "lon": -73.3579,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -745,28 +679,6 @@
       }
     },
     {
-      "id": "deal_879265448",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "Unknown",
-      "title": "Former Coatue partner raises huge $65M seed for enterprise AI agent startup - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS2VWYkJzU2NiTUItSkhKMTItMGZwSnI4czZaTnJxZ0g5Y2duUWpzdVVGVy1qZXBCaU94c2pZcmtyei14TnJfVGo1c2M4R1BsYndzSEEwM293RHVyZmZUcU9Ja3ZDX0NCVkNOT0VjNjVhRk1VYTEzemRMLW1ZWGp6dnFCa1h4dTlMbko0b2hwRzZxOUYzRUpmS3RVNUd1Y2JkSG1qWGdtNXF0bUxkWURJODhzX1c5X2FId3VsdG5QNk0?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-03-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 65,
-      "confidence": 0.71,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_655377776",
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
@@ -921,6 +833,28 @@
       }
     },
     {
+      "id": "deal_1331268550",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Unknown",
+      "title": "Peter Thiel’s Founders Fund Backs AI Cow Collar Startup at $2 Billion Valuation - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNENzUGMyT1Z0cjc3a0pFemRrS1hUVE84ZHo2SHg2RlhNVnZha3EtNEdRSl9vU3J0a2Q1bWNMM2wzWjNSMWgwNkNWTmxJY1lfNnZlcXJDVVFmeng0Q0hmT2xJSTA3SWRPWlF4eXFncFdYbmI3akFQQVlfLXFTRUgwN25HTTZkMlpzOUR6VFhfbk9adHFEUEQwcmdGRVFRU19ncTF5RGp3ZmhDaVg4Vkt1R3ZoR01FbVB3UUpGUngxVTRUUnZfck41Mg?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-03-20T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 2000,
+      "confidence": 0.71,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1404383737",
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
@@ -940,28 +874,6 @@
         "lon": -84.388,
         "method": "city_keyword",
         "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_549456945",
-      "vc_id": "general-catalyst",
-      "vc_name": "General Catalyst",
-      "company": "Consumer-focused privacy Cloaked",
-      "title": "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHF5Q3E0S3VQNnk0UFNzTldrcFFkYTNnQ1otOW5RUDlRRTVLWk9oQUN5T2I3QmZEdzFxU0tVRUpRNXNIOERfd1ZsRUpDTWFkRWRBV29CSER1WmJjZWZ1YkpWMXZvQXlmTG1mWXM5YUg1NjEyLU1UVDJYWVhYSFhIOEtoM1BuZVlyMTN1S01hOUI5dHRPLV81RmNYeWJabVEzTldVT29rRVlodmJfMjBoVnhrbW5xdw?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-03-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 375,
-      "confidence": 0.81,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
       }
     },
     {
@@ -1031,28 +943,6 @@
       }
     },
     {
-      "id": "deal_2111038411",
-      "vc_id": "sapphire",
-      "vc_name": "Sapphire Ventures",
-      "company": "Consumer-focused privacy Cloaked",
-      "title": "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTHF5Q3E0S3VQNnk0UFNzTldrcFFkYTNnQ1otOW5RUDlRRTVLWk9oQUN5T2I3QmZEdzFxU0tVRUpRNXNIOERfd1ZsRUpDTWFkRWRBV29CSER1WmJjZWZ1YkpWMXZvQXlmTG1mWXM5YUg1NjEyLU1UVDJYWVhYSFhIOEtoM1BuZVlyMTN1S01hOUI5dHRPLV81RmNYeWJabVEzTldVT29rRVlodmJfMjBoVnhrbW5xdw?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-03-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 375,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1087015493",
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
@@ -1083,17 +973,17 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 17,
-      "weighted_score": 58.77,
-      "latest_at": "2026-04-17T04:52:46.000Z",
-      "amount_usd_m_total": 3004.5,
+      "weighted_score": 61.87,
+      "latest_at": "2026-04-16T16:00:00.000Z",
+      "amount_usd_m_total": 5004.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Climate & Energy",
@@ -1103,14 +993,14 @@
       "top_vcs": [
         {
           "name": "First Round Capital",
-          "count": 4
+          "count": 3
+        },
+        {
+          "name": "Founders Fund",
+          "count": 3
         },
         {
           "name": "Benchmark",
-          "count": 2
-        },
-        {
-          "name": "Craft Ventures",
           "count": 2
         }
       ]
@@ -1156,14 +1046,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 6,
-      "weighted_score": 25.27,
+      "deal_count": 5,
+      "weighted_score": 20.88,
       "latest_at": "2026-04-17T11:22:04.000Z",
-      "amount_usd_m_total": 806,
+      "amount_usd_m_total": 431,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 4
         },
         {
           "name": "Other",
@@ -1191,20 +1081,20 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 5,
-      "weighted_score": 18.77,
+      "deal_count": 4,
+      "weighted_score": 15.24,
       "latest_at": "2026-04-15T08:07:07.000Z",
-      "amount_usd_m_total": 630,
+      "amount_usd_m_total": 565,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 4
         }
       ],
       "top_vcs": [
         {
           "name": "Coatue",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Insight Partners",
@@ -1213,29 +1103,6 @@
         {
           "name": "Lux Capital",
           "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 2,
-      "weighted_score": 9.01,
-      "latest_at": "2026-04-13T13:26:33.000Z",
-      "amount_usd_m_total": 1025,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "General Catalyst",
-          "count": 2
         }
       ]
     },
@@ -1263,33 +1130,6 @@
         {
           "name": "Intel Capital",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 4.22,
-      "latest_at": "2026-04-08T00:42:29.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
-          "count": 1
-        },
-        {
-          "name": "CapitalG",
-          "count": 1
         }
       ]
     },
@@ -1335,6 +1175,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Pleasanton,CA",
+      "city": "Pleasanton",
+      "state": "CA",
+      "lat": 37.6624,
+      "lon": -121.8747,
+      "deal_count": 1,
+      "weighted_score": 3.01,
+      "latest_at": "2026-04-15T10:18:00.000Z",
+      "amount_usd_m_total": 15,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Workday Ventures",
           "count": 1
         }
       ]
@@ -1409,6 +1272,29 @@
       ]
     },
     {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.11,
+      "latest_at": "2026-04-08T00:42:29.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Boston,MA",
       "city": "Boston",
       "state": "MA",
@@ -1427,29 +1313,6 @@
       "top_vcs": [
         {
           "name": "Bain Capital Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Westport,CT",
-      "city": "Westport",
-      "state": "CT",
-      "lat": 41.1415,
-      "lon": -73.3579,
-      "deal_count": 1,
-      "weighted_score": 2.01,
-      "latest_at": "2026-04-07T12:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Canaan Partners",
           "count": 1
         }
       ]
