@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T19:19:24.266Z",
+  "generated_at": "2026-04-18T03:28:40.449Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 43,
-    "total_deals": 43,
+    "scraped_deals": 44,
+    "total_deals": 44,
     "demo_mode": false,
-    "deals_with_coordinates": 43,
-    "runtime_ms": 4896,
+    "deals_with_coordinates": 44,
+    "runtime_ms": 4035,
     "note": "",
     "error_sample": []
   },
@@ -63,28 +63,6 @@
       }
     },
     {
-      "id": "deal_892300389",
-      "vc_id": "ribbit",
-      "vc_name": "Ribbit Capital",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T15:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1399331371",
       "vc_id": "bond",
       "vc_name": "BOND",
@@ -119,6 +97,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 43,
       "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2129517930",
+      "vc_id": "craft",
+      "vc_name": "Craft Ventures",
+      "company": "AI Startup Cartwheel",
+      "title": "AI Startup Cartwheel Raises $10 Million; Releases Its First Character Animation Tools (EXCLUSIVE) - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNZngweVRoeXU0X2ZIb1JzRFZQU0l2V21MSDJmX0VhQllEd0dnaGdTVmhtLUR0ZXFybG0tUDIyVGZoWEh1TzhDOXVfLUFuY3FRblpqQjVURndmMnJNNG5KNjdOOVNIOXZkWlExWGtjbTNQQmhsNlE4R1J6bXdLNDFwMWF6bXpURjB6WHRod0xKTzM2MkZZdThTNmk5Z2dRVHJtZzk2azVwdFdIZ2ZtQVhiMGJsLW9YZ2tzbU83WVpCelpJckgwRnIyeDJjblVWZ3lMNllfeXAyd1Zfa0Uyajc3b25rdTI0YmdLZ1dOR0ZIYUVvUDRQZG12RmxTS240UXlORUFuRjAxNUM4ZGNfdktSSWlZMVMzY05MbUdIUVdOUUNlcGF1UGlmaTdnMlMtS2tWM1lTNFZ6YXl0TUpyWFJybk5CcTdKaG00bGNtUWFHaVp0TzJQMnBtY3dOOFJUdW1KQ2YxVXg1VTlCOTRoSWl3RTdfVEk1bWkyMnlkU0labTdrWlVlWTJ3NTQ3bDF0RUU?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-04-15T13:00:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -305,6 +305,50 @@
       }
     },
     {
+      "id": "deal_63682975",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Unknown",
+      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-15T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.86,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1450839735",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "Slate Auto",
+      "title": "Slate Auto raises $650M to fund its affordable EV truck plans - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV1ZCczA3TEdFdkczeGhEVGRELUNxbTlFc1JqcXAtc0YzZlYxRlhISVFDa295VW5XRVBDOWE4cVJEc2k0NUZwTjhVM0IwYXp2NmxlaHNEa0d3dkZ5bnB4TWY5WlR3UmJwODZnY1B5MjMza2szWU5lYVhZUDBFRzcxXzNyQ3dDX1ZvN2FxQzVZVmItYWVwVXZvbllrRQ?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-04-13T13:26:33.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 650,
+      "confidence": 0.81,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_975868471",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -374,6 +418,28 @@
       "id": "deal_1880001862",
       "vc_id": "gv",
       "vc_name": "GV",
+      "company": "Unknown",
+      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
+      "source_name": "디지털투데이",
+      "published_at": "2026-04-08T00:42:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_696023978",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
       "company": "Unknown",
       "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
@@ -811,50 +877,6 @@
       }
     },
     {
-      "id": "deal_1200746222",
-      "vc_id": "founders-fund",
-      "vc_name": "Founders Fund",
-      "company": "Unknown",
-      "title": "AI Cow Collar startup Halter reaches $2 billion valuation in new funding round led by Founders Fund - MLQ.ai",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcE40d08xNXdwUmxHdlBVWUNad1hFZFVNVElqRzV1M1Fja2dxc3lGdk5XcFozSnFhYmdQNHJWUzhDd2xGcEZ0TWppdnJOa3Q3alR0bUg5dFcwcWcwSl9BM3NRM2RvNDJqbDFRU2NSbDN5aUNRV3ljclVwblVCMGF2TkxyRWMxeTV0ZXRDRVhWVWNFSG1jNkZPLWRYbzJjbUNaVW91aFQ2dDZEOWZUNmVxTUN4LVNQbXBxY3c?oc=5",
-      "source_name": "MLQ.ai",
-      "published_at": "2026-03-22T17:05:54.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 2000,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1331268550",
-      "vc_id": "founders-fund",
-      "vc_name": "Founders Fund",
-      "company": "Unknown",
-      "title": "Peter Thiel’s Founders Fund Backs AI Cow Collar Startup at $2 Billion Valuation - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNENzUGMyT1Z0cjc3a0pFemRrS1hUVE84ZHo2SHg2RlhNVnZha3EtNEdRSl9vU3J0a2Q1bWNMM2wzWjNSMWgwNkNWTmxJY1lfNnZlcXJDVVFmeng0Q0hmT2xJSTA3SWRPWlF4eXFncFdYbmI3akFQQVlfLXFTRUgwN25HTTZkMlpzOUR6VFhfbk9adHFEUEQwcmdGRVFRU19ncTF5RGp3ZmhDaVg4Vkt1R3ZoR01FbVB3UUpGUngxVTRUUnZfck41Mg?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-03-20T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 2000,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1404383737",
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
@@ -881,9 +903,9 @@
       "vc_id": "craft",
       "vc_name": "Craft Ventures",
       "company": "Startup Oasis Security",
-      "title": "Startup Oasis Security Raises $120 Million From Craft, Sequoia - Bloomberg.com",
+      "title": "Startup Oasis Security Raises $120 Million From Craft, Sequoia - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWg4Nm9WUEhjaExJWXJseF9rMVVKTG1lVzBlZ1h4VmFNRWRUUXlER0xtV0dQTDZDako1OTJSOVQxTHZ0dnlTUXFfLTNCUDAtRmMtNS0yWmFibExWZlZGbDVoeTc0em9CakdVS056bXZUdnlTTGpXN2xaa0NXR3g1RjVXbDFLR0UzZklvU0ZMMG92cHZHQVRXVF9JZGM0ZkxCYVhMcGJGeHBsekwyeW1wQg?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-03-19T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -972,14 +994,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 17,
-      "weighted_score": 61.87,
+      "deal_count": 16,
+      "weighted_score": 54.7,
       "latest_at": "2026-04-16T16:00:00.000Z",
-      "amount_usd_m_total": 5004.5,
+      "amount_usd_m_total": 1014.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 12
         },
         {
           "name": "Other",
@@ -992,11 +1014,11 @@
       ],
       "top_vcs": [
         {
-          "name": "First Round Capital",
+          "name": "Craft Ventures",
           "count": 3
         },
         {
-          "name": "Founders Fund",
+          "name": "First Round Capital",
           "count": 3
         },
         {
@@ -1134,6 +1156,56 @@
       ]
     },
     {
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 1,
+      "weighted_score": 4.62,
+      "latest_at": "2026-04-13T13:26:33.000Z",
+      "amount_usd_m_total": 650,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-04-08T00:42:29.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
+          "count": 1
+        },
+        {
+          "name": "CapitalG",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Austin,TX",
       "city": "Austin",
       "state": "TX",
@@ -1267,29 +1339,6 @@
       "top_vcs": [
         {
           "name": "Bessemer Venture Partners",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-04-08T00:42:29.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
           "count": 1
         }
       ]
