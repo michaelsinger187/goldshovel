@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T14:06:38.905Z",
+  "generated_at": "2026-04-22T19:37:44.510Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 46,
-    "total_deals": 46,
+    "scraped_deals": 44,
+    "total_deals": 44,
     "demo_mode": false,
-    "deals_with_coordinates": 46,
-    "runtime_ms": 4368,
+    "deals_with_coordinates": 44,
+    "runtime_ms": 4029,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1500307410",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "Former Coatue partner raises huge $65M seed for enterprise AI agent startup - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPcjVBLU05UTljQjRfSlBZZVVubnhldmt3dUo3ZVo1U2pLT0FZTFI0ME53TW11UVBOTURKM3k5d1FseW5rb0c1N2ROSTFVbGJ0QWVqR1lMRE1WOHotQVd2VmVnaXdETUpHd25tYV9XSy0yU1BlbHk1b0F5ZnhyVjFoNHBBRlQwZ1FGZVFTN2NmZW4yOUFuVDdMNU9nVEVEN3Jfb05URkhGYUM0aUJqZ1ZPald2ZEVSaTB2ZXVVWFdBdF9xR3ZySVFtaXlfel9ZUG84Y2E3aFhETjRmUUsyUmVMTDVDZFN1NU9yZHpHbC10QUd0VXlQcDhYbkttSEhocGFVZVZ3WFZvOWs2V09DeGl6QjRjb3RMcHFpTkhYSXB5TThLX2RBN1RVLVRvU181WU1RTWJTWmpYMXJ4S0FYd2lDTVRHSHBSQjExeUZyRmp4Nncwb1ZpVXdmMTZJeU9vVUhoVGN6TzFoRQ?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-04-21T01:24:51.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65,
+      "confidence": 0.71,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1328398629",
       "vc_id": "khosla",
@@ -371,28 +393,6 @@
       }
     },
     {
-      "id": "deal_1346339283",
-      "vc_id": "craft",
-      "vc_name": "Craft Ventures",
-      "company": "Unknown",
-      "title": "The 21 Largest NYC Tech Startup Funding Rounds of Q1 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZzVneU5sVmY3MURoUElGQWhLaXE5WWV5T3E0dW56OWdvdy1ySVktYlNRSUo0ZFRfRGxhVEFKR0w1eTBlcEdvYkRrX0JaTGZFVS1uYnNxRXo5anRjRmlCVXZHamE2T1dVd2NVOHMxdzJjWXBwYmc1Y29rb3ltU1k?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-04-13T15:29:05.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_608663627",
       "vc_id": "sapphire",
       "vc_name": "Sapphire Ventures",
@@ -454,28 +454,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1260470521",
-      "vc_id": "qualcomm",
-      "vc_name": "Qualcomm Ventures",
-      "company": "Unknown",
-      "title": "Ola alumni’s Manav Robotics in talks to raise $15-20 million from Blume, Qualcomm Ventures - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcmZ5b1ItT2ZISTRmUS1VZlB4TUlFZEI5YXNielFGVHhfRlVoZGJqdXc2cjlVWjJpUDAweVM0NUVtd2pIQWVwM19VVEZPdEo4bkpjOTFYTDRqY0RwWmVwZWlxdVFtRks5RU1EODhEVUw2WVNuZnZKcEFfMTdGeV9yNl81TXB5OF80YjI3QlNTSFlCZkRQRXN3Tm1keklzYXRhSThmVzdlSDA0VG9Vd2VtaFlSamFueFJ3dDNwTTFhX1ZMdExIYk9HaHhTSHVVcEY5QVlyOG1jQ0FXRjFHRE1QY3JnczctZTV6YnfSAe8BQVVfeXFMT3gtMXlEb3prVVZsU1o3eGcxckU1bUpiOTgwOHRWRnBNaTNWaWN1cm5ESm9qTHBIMXlLQzJPdFRKekhldFBOWHlNVTdvT1M4bkRfRl9mREMxWlV1MV8wZEVaNk9GbnlYUXh5QXUxaXVJQ1k0eHBnbUNTdDh5OGFtOXRQakY4QmhlZmYzbXVHQlplbTNxWkQ0cWpmbHlKRS1vMzhGMU15ekJMel9YUWxndl9zczV3TzRWbDhLNmxxNWppVmRCYTFDdlE2Z2VKSUZlZGE4RDU2cnBoR29hOHJCcll4VXVoRWdiQzRvZTR2TFE?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-04-10T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.7157,
-        "lon": -117.1611,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -586,28 +564,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_942126570",
-      "vc_id": "intel-capital",
-      "vc_name": "Intel Capital",
-      "company": "Unknown",
-      "title": "Intel Capital-backed Israeli quantum startup raises $24m seed round - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTW5qR1lSci1qaC11NWF5T25LVGEza0VOa2xJTEhPaDFvRnhnbG94ODlHOTF2MXJIX19QT3ozREhkMXVMbDZDZ0NGSU9qX0JnSmdVQW81dHBTN1gyYlVBWGtMYmNjS1BOZXIzVmdmSWJqRS1teDhSVF9wVWFlTUhLVFVzZzE5RC1WTVBmMzVtazJCb0JmS1E?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 24,
-      "confidence": 0.86,
-      "location": {
-        "city": "Santa Clara",
-        "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1077,8 +1033,8 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 40.95,
+      "deal_count": 11,
+      "weighted_score": 38.94,
       "latest_at": "2026-04-17T04:52:46.000Z",
       "amount_usd_m_total": 394.5,
       "top_sectors": [
@@ -1088,7 +1044,7 @@
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -1101,8 +1057,8 @@
           "count": 2
         },
         {
-          "name": "Craft Ventures",
-          "count": 2
+          "name": "Threshold Ventures",
+          "count": 1
         }
       ]
     },
@@ -1147,14 +1103,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 6,
-      "weighted_score": 19.46,
-      "latest_at": "2026-04-13T15:29:05.000Z",
-      "amount_usd_m_total": 640,
+      "deal_count": 7,
+      "weighted_score": 22.99,
+      "latest_at": "2026-04-21T01:24:51.000Z",
+      "amount_usd_m_total": 705,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Other",
@@ -1164,7 +1120,7 @@
       "top_vcs": [
         {
           "name": "Coatue",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Primary Venture Partners",
@@ -1173,33 +1129,6 @@
         {
           "name": "RRE Ventures",
           "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 2,
-      "weighted_score": 6.82,
-      "latest_at": "2026-04-07T07:00:00.000Z",
-      "amount_usd_m_total": 48,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Intel Capital",
-          "count": 2
         }
       ]
     },
@@ -1277,6 +1206,29 @@
       ]
     },
     {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 1,
+      "weighted_score": 3.36,
+      "latest_at": "2026-04-06T07:00:00.000Z",
+      "amount_usd_m_total": 24,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Pleasanton,CA",
       "city": "Pleasanton",
       "state": "CA",
@@ -1295,29 +1247,6 @@
       "top_vcs": [
         {
           "name": "Workday Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Diego,CA",
-      "city": "San Diego",
-      "state": "CA",
-      "lat": 32.7157,
-      "lon": -117.1611,
-      "deal_count": 1,
-      "weighted_score": 2.91,
-      "latest_at": "2026-04-10T07:00:00.000Z",
-      "amount_usd_m_total": 15,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Qualcomm Ventures",
           "count": 1
         }
       ]
