@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T03:58:08.454Z",
+  "generated_at": "2026-04-27T08:40:07.659Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 38,
-    "total_deals": 38,
+    "scraped_deals": 36,
+    "total_deals": 36,
     "demo_mode": false,
-    "deals_with_coordinates": 38,
-    "runtime_ms": 4028,
+    "deals_with_coordinates": 36,
+    "runtime_ms": 3987,
     "note": "",
     "error_sample": []
   },
@@ -41,6 +41,28 @@
       }
     },
     {
+      "id": "deal_2142253392",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Unknown",
+      "title": "AI startup valuations are overheated: First Round Capital cofounder Howard Morgan - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNd05lVHVka2RHbG1hVm1EdVpmLXEzWEtJeU4zTU5zTjA4MHROZkVLUHFxQy1IckdhcWlFcWFtU09QeE1sUl9CZUREc0x2UEVkd1RtQUNDdzFibFZWWkhORU5tdEFxVzdfRnVKa3prNDJBMHdRaEVxdDhicUJlRkhTM3ZTOWpJRGdjQWFYMWN1cE9fS2hjYlR5TnRqeUttd3pwUFdCYXJtLVpNX2RfZ2JwTlBCLXd2ZHNyWnFfUlBMSVVpc2JTeXlrTmFaSUJVSlhJcXp3UWlybUExaWQzU3ltYnNScU5VSXZJMGdlZzhjal93bEtmSjlFcW9jVS1acjNtZUJVMi1QN2pkR1FyUEpsSmxFNUd1c2t0UC1LbXNlNjRicU1IR0JaemN2NkwzNzFRalNPZDMzeG9xa1luMUFBY1NjeHExVzVPU2ZLZkVGdXpIOFFoaUNNU2d6aXoybGxtcTZXczI4VVBhNXRnV1k0TFlmWmJTRDJGQnNKVkNYOXdPcVozSmhfRnFNSEpRMmRZ?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-04-25T18:49:53.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_243728546",
       "vc_id": "craft",
       "vc_name": "Craft Ventures",
@@ -58,6 +80,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_588723640",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - bastillepost.com",
+      "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRFp6ek45TGYyVmFrclEtaFRsaVZyN1ZvclRGZWxBd05id2RWLTJGNEptbE5jamNDbVRDWWhRaUZyblZGR1hsZm1DZXhfS0VuUjA5UG5oMGFfRS1uay0zR2RPc3dQaHEtMThPTFRQVnM5czZLc1luRGJSVW5vY1pWT3Z0UjNRdEdVRDduTGpRamtQUWtRaklIeGNLU19NdWpFRDFVTk94UTN1WmZ4aF9XWFNrdzEwM1pnbWpBa29pM2g4R21ZUXVwWVMwaGh1ak9CUzNMS0JXNFd2RkFxYVVtR2JORXpxMWlRdXF3by1DZVp5RHhxaG1qeW4zekxEYkg1OTY2TTR2bTlPTkNpWHBpVkwzQ3F0RWZFWURZcTR3?oc=5",
+      "source_name": "bastillepost.com",
+      "published_at": "2026-04-23T08:00:51.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 72,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -239,72 +283,6 @@
       }
     },
     {
-      "id": "deal_167610610",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1706657222",
-      "vc_id": "nea",
-      "vc_name": "New Enterprise Associates",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_800551376",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1940743399",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -459,9 +437,9 @@
       }
     },
     {
-      "id": "deal_72236455",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
+      "id": "deal_608663627",
+      "vc_id": "sapphire",
+      "vc_name": "Sapphire Ventures",
       "company": "Unknown",
       "title": "The 21 Largest NYC Tech Startup Funding Rounds of Q1 2026 - AlleyWatch",
       "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZzVneU5sVmY3MURoUElGQWhLaXE5WWV5T3E0dW56OWdvdy1ySVktYlNRSUo0ZFRfRGxhVEFKR0w1eTBlcEdvYkRrX0JaTGZFVS1uYnNxRXo5anRjRmlCVXZHamE2T1dVd2NVOHMxdzJjWXBwYmc1Y29rb3ltU1k?oc=5",
@@ -472,10 +450,10 @@
       "amount_usd_m": null,
       "confidence": 0.41,
       "location": {
-        "city": "Mountain View",
+        "city": "Palo Alto",
         "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -520,28 +498,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_778129456",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Boat cofounder Aman Gupta's Offbeat Studios",
-      "title": "Boat cofounder Aman Gupta's Offbeat Studios raises Rs 100 crore led by Bessemer Venture Partners - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdzVlblRiVGtWMngzTmZLZERFQ054aWlwNkdrdkpiQ2dQcVZLNGhkd3A3ZFdkdGVUaXpBZXNpZW53VWtOdHpKT29qeEc1dnM1QmttUld5SW5CLUlYRlIzVFVCbEd1bDVlaVJqaDEta1c1LUJNMzhwT2h1c3ZCT2NSZkx0NnRUTGg5bVktWG5Ybnc4UnNucFByY1h4QUdlb0pMSUUzRXVrLW5wb2hXUWlrbWRqRVFkQVVsVHJaWEJhTnN2U1NzSmhRQnotZHlLVGpETUpWZ2NTV2lySFVfVi1GVGRlbVhKLVp1MWlDMkdRVTQxT2FmZXRxZ3hJWjJ4U1NxaTNz0gGIAkFVX3lxTE03QV9zcFpTUGxSeHpZcUp3MWpFamlveUltMElLeDBsVE0wUjBEMTNIcE9tZ2RocUd5OGx6UGh5eUdwUnNCSnB6Z3didVpFTnhycEtpb05EdnJad0lLeFM3T0tiNlpnOWdzZFZBcmRHSTRFYmJJWTZGVGhxN2JBNmdNRVFKVWlSam1nX0Y4NjAxcmFIZnduME50T1dBNk9sY09aZlowZmFsSExUQkJvOF84bWJaeUFTVVFqZ1NHMEU1U1RLLUw4dWJJM0ZnaGhlanJZNXlDeFY4SGd5dHAzOWJ2eGp3OWt0VkIxdFgyb0tFME1kcEI0eWh4TDd0U3BlZ0U0TXRqa1lHcg?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -857,54 +813,19 @@
   ],
   "bubbles": [
     {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 10,
-      "weighted_score": 43.6,
-      "latest_at": "2026-04-23T08:00:00.000Z",
-      "amount_usd_m_total": 2296,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 9
-        },
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Lightspeed Venture Partners",
-          "count": 2
-        },
-        {
-          "name": "Khosla Ventures",
-          "count": 2
-        },
-        {
-          "name": "TCV",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "San Francisco,CA",
       "city": "San Francisco",
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 11,
-      "weighted_score": 38.98,
-      "latest_at": "2026-04-23T18:08:01.000Z",
+      "deal_count": 12,
+      "weighted_score": 41.09,
+      "latest_at": "2026-04-25T18:49:53.000Z",
       "amount_usd_m_total": 557,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Other",
@@ -913,16 +834,51 @@
       ],
       "top_vcs": [
         {
+          "name": "First Round Capital",
+          "count": 3
+        },
+        {
           "name": "Benchmark",
           "count": 3
         },
         {
           "name": "Craft Ventures",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 8,
+      "weighted_score": 33.03,
+      "latest_at": "2026-04-23T08:00:51.000Z",
+      "amount_usd_m_total": 2068,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 7
         },
         {
-          "name": "First Round Capital",
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "TCV",
           "count": 2
+        },
+        {
+          "name": "Lightspeed Venture Partners",
+          "count": 2
+        },
+        {
+          "name": "Khosla Ventures",
+          "count": 1
         }
       ]
     },
@@ -932,8 +888,8 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 6,
-      "weighted_score": 23.38,
+      "deal_count": 7,
+      "weighted_score": 25.39,
       "latest_at": "2026-04-17T11:22:04.000Z",
       "amount_usd_m_total": 434.85,
       "top_sectors": [
@@ -943,7 +899,7 @@
         },
         {
           "name": "Other",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -1028,37 +984,6 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 4.12,
-      "latest_at": "2026-04-19T11:04:05.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
-          "count": 1
-        },
-        {
-          "name": "Samsung Next",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Santa Clara,CA",
       "city": "Santa Clara",
       "state": "CA",
@@ -1105,14 +1030,14 @@
       ]
     },
     {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
       "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
+      "lat": 37.3861,
+      "lon": -122.0839,
       "deal_count": 1,
-      "weighted_score": 2.21,
-      "latest_at": "2026-04-07T07:00:00.000Z",
+      "weighted_score": 2.11,
+      "latest_at": "2026-04-19T11:04:05.000Z",
       "amount_usd_m_total": 0,
       "top_sectors": [
         {
@@ -1122,7 +1047,7 @@
       ],
       "top_vcs": [
         {
-          "name": "Bessemer Venture Partners",
+          "name": "GV",
           "count": 1
         }
       ]
