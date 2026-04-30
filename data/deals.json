@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T08:35:08.569Z",
+  "generated_at": "2026-04-30T14:22:27.844Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 36,
-    "total_deals": 36,
+    "scraped_deals": 35,
+    "total_deals": 35,
     "demo_mode": false,
-    "deals_with_coordinates": 36,
-    "runtime_ms": 3803,
+    "deals_with_coordinates": 35,
+    "runtime_ms": 4639,
     "note": "",
     "error_sample": []
   },
@@ -85,28 +85,6 @@
       }
     },
     {
-      "id": "deal_1311829187",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "CIBC Global Asset Management",
-      "title": "CIBC Global Asset Management announces expansion of CIBC Investment Grade Bond Funds lineup including two new laddered funds - Yahoo Finance Singapore",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONkRka1NxWkVwZFFzbHNMcjcyTjF3a2M3dlZtUGhKM1k1SU5aRHRkR0k3MmRKalNVV3BJeVNQR1FaQ1N0Q18xUGI4eWg3V0o3aVhZX0hMMWk2MlVmRlRQenFPeC1VdktkZFJXOUN6VDNnNkU3TlhwUER6cHF6NGxnTjJuTnlZWWRBejQtUFZvSWY?oc=5",
-      "source_name": "Yahoo Finance Singapore",
-      "published_at": "2026-04-29T11:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_939997977",
       "vc_id": "bcv",
       "vc_name": "Bain Capital Ventures",
@@ -124,6 +102,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1588030809",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith Announces $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNTNnSDlscS0wV3JOOTZaS2U0UEpkMUEySWZYR0hIQ1ptLXlFZk9FRi1FVUVUeVBBUHhUVGkwT3ExWC1QYVhvYlFRRGV2SHpsbXhRVlRuMkVMS1NqbWRhdEJWRmRNdWplMUUwQUVRVnNISGtJajlUSDhUelU3QXo2NmE1c1VRNEJaaUgwVlphVGVrMEFEOUhHX0FueW5zRGVGVGh4MlNHcjY3QVdNcDV4SVdlcWM1SndRQTlJcXhVeXFDZzdpUnI4Q1pMZ09Ic0JIV0dxbWQ1RlZfNWg5WWtSakdQS2tLN2tOYjJ2MnVRR3RQZENXejNSUGVTM0FMa1JBZUFjWGthdy0tdE9xODA4?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-04-28T17:34:24.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 72,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -195,14 +195,14 @@
       }
     },
     {
-      "id": "deal_2142253392",
+      "id": "deal_2113624241",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
       "company": "Unknown",
       "title": "AI startup valuations are overheated: First Round Capital cofounder Howard Morgan - MSN",
       "source_url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNd05lVHVka2RHbG1hVm1EdVpmLXEzWEtJeU4zTU5zTjA4MHROZkVLUHFxQy1IckdhcWlFcWFtU09QeE1sUl9CZUREc0x2UEVkd1RtQUNDdzFibFZWWkhORU5tdEFxVzdfRnVKa3prNDJBMHdRaEVxdDhicUJlRkhTM3ZTOWpJRGdjQWFYMWN1cE9fS2hjYlR5TnRqeUttd3pwUFdCYXJtLVpNX2RfZ2JwTlBCLXd2ZHNyWnFfUlBMSVVpc2JTeXlrTmFaSUJVSlhJcXp3UWlybUExaWQzU3ltYnNScU5VSXZJMGdlZzhjal93bEtmSjlFcW9jVS1acjNtZUJVMi1QN2pkR1FyUEpsSmxFNUd1c2t0UC1LbXNlNjRicU1IR0JaemN2NkwzNzFRalNPZDMzeG9xa1luMUFBY1NjeHExVzVPU2ZLZkVGdXpIOFFoaUNNU2d6aXoybGxtcTZXczI4VVBhNXRnV1k0TFlmWmJTRDJGQnNKVkNYOXdPcVozSmhfRnFNSEpRMmRZ?oc=5",
       "source_name": "MSN",
-      "published_at": "2026-04-25T18:49:53.000Z",
+      "published_at": "2026-04-25T18:49:54.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": null,
@@ -221,32 +221,10 @@
       "vc_id": "tcv",
       "vc_name": "TCV",
       "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - bastillepost.com",
+      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - 巴士的報",
       "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRFp6ek45TGYyVmFrclEtaFRsaVZyN1ZvclRGZWxBd05id2RWLTJGNEptbE5jamNDbVRDWWhRaUZyblZGR1hsZm1DZXhfS0VuUjA5UG5oMGFfRS1uay0zR2RPc3dQaHEtMThPTFRQVnM5czZLc1luRGJSVW5vY1pWT3Z0UjNRdEdVRDduTGpRamtQUWtRaklIeGNLU19NdWpFRDFVTk94UTN1WmZ4aF9XWFNrdzEwM1pnbWpBa29pM2g4R21ZUXVwWVMwaGh1ak9CUzNMS0JXNFd2RkFxYVVtR2JORXpxMWlRdXF3by1DZVp5RHhxaG1qeW4zekxEYkg1OTY2TTR2bTlPTkNpWHBpVkwzQ3F0RWZFWURZcTR3?oc=5",
-      "source_name": "bastillepost.com",
+      "source_name": "巴士的報",
       "published_at": "2026-04-23T08:00:51.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 72,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_305004522",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - Morningstar",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNN2kwOFJSLWd1RDZPR1J6OTNxUGFDbjYxMjhKTGVscS1sbVhkeVNMXzY4QjJyRFZZVEhPaTl5ajJyanZCaGVkeEQtdUw2Nmg2ajBMX3NoYUNFN296clVvZ1pEeW1GWmRhRERZc0VQdmpxQ0ZMaFFzbGtiSDJySkxlaWNISmhBRmM4Z1kyV1BsT2V5Y0p1b2luN19heUVOMkdvUUJfYkRyYzZkd0QxT1NTbDZINWREaWktb05EendsTHJGbXVSRkc1YkdDTExHLWRyQm85UFBoWkFYQnpTRVRMYlZZMklGNEZ3TEFWSEVZZTFlQ09feWNYeExjaUUtRV9ONjNuTzJOZUthQUljS3VHNFV1UEhTTFFQdGlJanhmSDBPSVRfTmwtblJPdw?oc=5",
-      "source_name": "Morningstar",
-      "published_at": "2026-04-23T08:00:00.000Z",
       "stage": "Series C",
       "sector": "AI & ML",
       "amount_usd_m": 72,
@@ -322,6 +300,28 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1117276916",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Joyful Health",
+      "title": "Joyful Health Raises $17M Series A - The SaaS News",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WRldQX016YXN1WGNfZ3lxUHpCTEY5c0tjQkJtT2Y2YUJxMWhDM0xBTVdUMzAwSzluNXhxQUhkR3pERG9NcXNoWko2XzhsR0p6NW92NmNSclVVYmxTOEt5V2d4Y0pOa0hqc2ltVTV0RUJnOTM3?oc=5",
+      "source_name": "The SaaS News",
+      "published_at": "2026-04-17T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 17,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -427,6 +427,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 100,
       "confidence": 0.86,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1987027304",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Slash, a Ramp competitor founded by teenagers,",
+      "title": "Slash, a Ramp competitor founded by teenagers, raises $100M at $1.4B valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUmtYV283ckF0N1hCaURTU1NoZWNhVFo4d0Vla3BmYTBJQ3lOMjZhVnRIbzRTSVB5bENoM2tOSTZTVnFiZ0prTkgxV21Ba003V2UyNXdlc1d3QW1CSExvZk1KcFFLOUNLcUhsU2RWTlZEal9nWEpYM3BTRTlQeVhwQ2lxeFc5RGFxUU1jbXg0MmJtZWdLNkh6c1RfbnVoczRvYjdiUVFhV0U3V3F3Q0E?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-04-16T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.81,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -635,28 +657,6 @@
       }
     },
     {
-      "id": "deal_778129456",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Boat cofounder Aman Gupta's Offbeat Studios",
-      "title": "Boat cofounder Aman Gupta's Offbeat Studios raises Rs 100 crore led by Bessemer Venture Partners - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdzVlblRiVGtWMngzTmZLZERFQ054aWlwNkdrdkpiQ2dQcVZLNGhkd3A3ZFdkdGVUaXpBZXNpZW53VWtOdHpKT29qeEc1dnM1QmttUld5SW5CLUlYRlIzVFVCbEd1bDVlaVJqaDEta1c1LUJNMzhwT2h1c3ZCT2NSZkx0NnRUTGg5bVktWG5Ybnc4UnNucFByY1h4QUdlb0pMSUUzRXVrLW5wb2hXUWlrbWRqRVFkQVVsVHJaWEJhTnN2U1NzSmhRQnotZHlLVGpETUpWZ2NTV2lySFVfVi1GVGRlbVhKLVp1MWlDMkdRVTQxT2FmZXRxZ3hJWjJ4U1NxaTNz0gGIAkFVX3lxTE03QV9zcFpTUGxSeHpZcUp3MWpFamlveUltMElLeDBsVE0wUjBEMTNIcE9tZ2RocUd5OGx6UGh5eUdwUnNCSnB6Z3didVpFTnhycEtpb05EdnJad0lLeFM3T0tiNlpnOWdzZFZBcmRHSTRFYmJJWTZGVGhxN2JBNmdNRVFKVWlSam1nX0Y4NjAxcmFIZnduME50T1dBNk9sY09aZlowZmFsSExUQkJvOF84bWJaeUFTVVFqZ1NHMEU1U1RLLUw4dWJJM0ZnaGhlanJZNXlDeFY4SGd5dHAzOWJ2eGp3OWt0VkIxdFgyb0tFME1kcEI0eWh4TDd0U3BlZ0U0TXRqa1lHcg?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1817046617",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
@@ -674,28 +674,6 @@
         "state": "CA",
         "lat": 37.4852,
         "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_657540942",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "Moonbounce",
-      "title": "Moonbounce Raises $12M Investment to Scale Operations - Bayelsa Watch",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JYUFrZHBaTFZmMUw1RDFabXVPR1lIajNQS243bzVSZ0pVc3Bmdm94dXVWOFpyWjM2YlNNNjVRVzRXOUtQd0RMMDhDLXFJdDVMRkdkbEdLTDVCWUE?oc=5",
-      "source_name": "Bayelsa Watch",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 12,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -818,14 +796,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 12,
-      "weighted_score": 53.85,
+      "deal_count": 11,
+      "weighted_score": 50.92,
       "latest_at": "2026-04-29T19:40:49.000Z",
-      "amount_usd_m_total": 3323,
+      "amount_usd_m_total": 3311,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 10
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -838,11 +816,11 @@
           "count": 3
         },
         {
-          "name": "Kleiner Perkins",
+          "name": "TCV",
           "count": 2
         },
         {
-          "name": "TCV",
+          "name": "Kleiner Perkins",
           "count": 2
         }
       ]
@@ -853,28 +831,28 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 34.78,
+      "deal_count": 11,
+      "weighted_score": 32.67,
       "latest_at": "2026-04-30T05:17:13.000Z",
       "amount_usd_m_total": 207,
       "top_sectors": [
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 6
         },
         {
-          "name": "AI & ML",
-          "count": 6
+          "name": "Other",
+          "count": 5
         }
       ],
       "top_vcs": [
         {
-          "name": "BOND",
+          "name": "First Round Capital",
           "count": 3
         },
         {
-          "name": "First Round Capital",
-          "count": 3
+          "name": "BOND",
+          "count": 2
         },
         {
           "name": "Benchmark",
@@ -888,19 +866,23 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 7.37,
-      "latest_at": "2026-04-16T07:00:00.000Z",
-      "amount_usd_m_total": 100,
+      "deal_count": 4,
+      "weighted_score": 15,
+      "latest_at": "2026-04-17T07:00:00.000Z",
+      "amount_usd_m_total": 217,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 4
         }
       ],
       "top_vcs": [
         {
           "name": "Ribbit Capital",
+          "count": 2
+        },
+        {
+          "name": "CRV",
           "count": 1
         },
         {
@@ -937,29 +919,6 @@
         {
           "name": "NextView Ventures",
           "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 2,
-      "weighted_score": 4.77,
-      "latest_at": "2026-04-07T07:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 2
         }
       ]
     },
@@ -1059,6 +1018,29 @@
       "top_vcs": [
         {
           "name": "Qualcomm Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 1,
+      "weighted_score": 2.56,
+      "latest_at": "2026-04-07T07:00:00.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
           "count": 1
         }
       ]
