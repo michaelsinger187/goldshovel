@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T19:47:37.489Z",
+  "generated_at": "2026-05-01T04:13:55.686Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,81 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 34,
-    "total_deals": 34,
+    "scraped_deals": 37,
+    "total_deals": 37,
     "demo_mode": false,
-    "deals_with_coordinates": 34,
-    "runtime_ms": 4568,
+    "deals_with_coordinates": 37,
+    "runtime_ms": 4563,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1315330472",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Meta",
+      "title": "Meta raises $25 billion in bond sale after lifting AI spending plan - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd1d4RXZkcTN3MnFhdHZtMkY1ckNZb3lWSWIxbEVQeXdfcFRUa0R0WVp5NVU2dWszZ1FiWUJwM1pENm1iRTV2SUo3OVQ1VE9najltS1JzckJ1YnNLUEhfaExxcllPR0JvTG55Yi16Sy1aQXFnZG5nV3FfZHpyMVdLTG5tVE5nMnFiNXF0TlBaUHFUVXFOU0Ftd3FEbk5qQ3JWZGZkemVnTzY1cFlIZzFSZHloUUY4dzR3UkU5VC1Jc0tUMmdMb096MDl6d1I2Z9IB0wFBVV95cUxQVXN2cGZoeTBGc2NheHdCSXhfVTd1OUFfM3RVTFRTZ2hfRE13X0dkeTEyLXYtaGFENUY1Z1lmUDlUUHRMUHJTakJ5LVJZdGVkTFhyUlJBRnFJcVY3UDFQWHdQTEFldUU3OUN2QXZua1FSZHpxMXFUV3k1N3RROWJwM2FWTkdENzJwamVqRHdaS0RDYkdBQnZlWDhvNGZPak9vdHJIaWJhRFd0Y0xzZXU5Y0ptZ1pTU1VIWkYxb3c2Q0NBenBSWmxRZDZtX0tlTDcxZnpN?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-05-01T02:40:37.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 25000,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1306405372",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Netomi",
+      "title": "Netomi Raises $110M to Expand Agentic Customer Service - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkNMRTA2bTd0VEJMUkEtVlNVaWNxNk9KekROb1VqTGNLVG51UXZkeFluX2FWTjRGckpiVDY5SUxkbnVEZmRKTlZEei1UZGlpeWdzajNaQmg5bWpJV2E0d1Rna1htaEtkbk1YTWY1cmFyWW9qSkEwblN4T1k5NXpnWXM4TndMWk1BbXR0bVNjTURJQWtBOGVOdTZzZw?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-04-30T22:58:53.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_703005022",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Netomi",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
+      "source_name": "VentureBeat",
+      "published_at": "2026-04-30T11:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1971542906",
       "vc_id": "menlo-ventures",
@@ -107,62 +173,18 @@
       }
     },
     {
-      "id": "deal_165006113",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "Dale Vaz’s stock trading app Sahi",
-      "title": "Dale Vaz’s stock trading app Sahi raises $33 Mn in Series B round - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSlVVV3B1OVpsd0szYjh6eVlWcGFadHJJR3ZpQ2tXbXByZ25WMWxMUEFVQzhaVGMxZkN4LVVKaGxFc2hLUXIwSExwWXNMV3oyUjY4VXZ6RjFvNkIyUWJLckxhWTgxRnI4NFBQZEJ5Vm9HZEZhUlZURmwySW5YOFBLa1d6S0lfVTh3dk01em00b0ZFM0JsMF9HZHBLbjhNLVnSAZ8BQVVfeXFMUEpVVVdwdTlabHdLM2I4enlZVnBhWnRySUd2aUNrV21wcmduVjFsTFBBVUM4WlRjMWZDeC1VSmhsRXNoS1FyMEhMcFlzTFd6MlI2OFV2ekYxbzZCMlFiS3JMYVk4MUZyODRQUGRCeVZvR2RGYVJWVEZsMkluWDhQS2tXektJX1U4d3ZNNXptNG9GRTNCbDBfR2RwS244TS1Z?oc=5",
-      "source_name": "Entrackr",
-      "published_at": "2026-04-29T03:10:33.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 33,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1588030809",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Cloudsmith",
-      "title": "Cloudsmith Announces $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNTNnSDlscS0wV3JOOTZaS2U0UEpkMUEySWZYR0hIQ1ptLXlFZk9FRi1FVUVUeVBBUHhUVGkwT3ExWC1QYVhvYlFRRGV2SHpsbXhRVlRuMkVMS1NqbWRhdEJWRmRNdWplMUUwQUVRVnNISGtJajlUSDhUelU3QXo2NmE1c1VRNEJaaUgwVlphVGVrMEFEOUhHX0FueW5zRGVGVGh4MlNHcjY3QVdNcDV4SVdlcWM1SndRQTlJcXhVeXFDZzdpUnI4Q1pMZ09Ic0JIV0dxbWQ1RlZfNWg5WWtSakdQS2tLN2tOYjJ2MnVRR3RQZENXejNSUGVTM0FMa1JBZUFjWGthdy0tdE9xODA4?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-04-28T17:34:24.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 72,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_94336401",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Unknown",
-      "title": "230% return on SGB premature redemption date: This gold bond has turned Rs 1 lakh investment into Rs 3.30 - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOU05pbVZuWDJ3MVEyQnJBaThwNUxEU2xYTnpjVVUzMjQxVVFxaWhUcUozdldwTFlyWEE2cFNpODRpOV9QMU14OXJjcEh4TEpfV3FHS05GQ25hRVZBQ29NX0pDU1NUUVJYZGhmMVJzRVozTzZlTmIycnFTRUlJX21Idl91M3BmNnVGMkZrMXJjcmJoUTJpbUdkeEY1OTNUMl9XRXB3YV9iT3NfXzd3T3dLWnA4YjlVZEZMWUFNMDVrczIwaFI3X0o0Ri1mdjNHcHU2TUpXSzhKVk91cEtOa1YybGJZYy0zc1Y3WmxpbEN2cE90Rm9tcHlpdG9iUUlKMllxY0ZXb3lSUdIBjAJBVV95cUxNT3hUNWNWdVJfT25MS0NhOFNFcTI3YVg1RVdoNGVyRDJaaWIxSnI0N3dfSXVvVGd1RG1LY1ZSVjdqd3BHQW1VOFBubl8tNmJQcHN2bk4tX21ESXYySVUxaU94bWhVdUtiSXFjRVVsMUtBdFJfMFpkaDR0c01IYmlGa2F6S0t4MnJFUUlXMEJCTXJqOEdrUTVGTFgzbm10OEh4OXpralJDeXA5SWgwMTFKaTVFaEpTTVRJOUZuTUg0TEMzYWdET1JaYWlJbC11UmhWRGh3TUh2LV8tbTF0N2ptRmxWQS1QR2l5LTVqR0VhNzAyWndNdk1mTmJRVzF6YW5iek9vYTUteFI3ZHIw?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-04-28T04:46:35.000Z",
+      "id": "deal_103199247",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "AI Legal Firm Manifest OS",
+      "title": "AI Legal Firm Manifest OS Raises Funds at $750 Million Value - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUUtaFNSSnNEYXN6TGE3OGZtUDhtQkNjdm1hekZqajhOSTNURXpMWllqQW9iZi1nRmVkODl5dnF5SHFvUHBmazVMcFYtc1Q3Mkt2ekRJbHFuQnBDWlZRbnNCanlST2F1U1l1TlBlSEhLeEJ5bmttbFFBQ2JFVS1fbGRzSVdhNnZvN1k4NldTeVpkTjg0czMzU29VRl9hSG13blRma1FyaGdvaHlRM0xYMVVXbmc?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-04-28T21:21:44.000Z",
       "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
+      "sector": "AI & ML",
+      "amount_usd_m": 750,
+      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -212,28 +234,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1952690020",
-      "vc_id": "lux",
-      "vc_name": "Lux Capital",
-      "company": "Space startup",
-      "title": "Space startup raises millions to make ‘impossible’ drugs that Earth’s gravity won’t allow - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMijANBVV95cUxQRjN0RS03LW9mMDU0d1ZySU44SXZ1OXJyazNQSnNMUVBiWmdralJNYklPRzUxWktFQkJTMXNFckRGeTV1dWRvMGJIRFc4UkZSV0VaWmFFUjcyN1l5Vkx2MVUxZzFzRkIyR0g3SUsxT3lpSDdXYUFydjNYeU9xcE5OZUNKZGtDUC1oX2JOOW43TUhlYlZMVWVVdFNzZUtkdTJkb3o3cllVUHgxVS1kN3lNZGF6a3hoLUlTeVZTeGQydlJxb0xsT1htVHhXSzk5OGZOWkhGdUN2SjFnVDAtZjVNOU1vT1o3bjlqNzlBQ0g0M053bXhKQ2oyOGRQOE5JRWh3WjZuT2owRGduN1RJdkV0SDBmaWFPcXlNWXJ4UVpqcE1EY3Z5TmlLQTIzZDBUV3FCMUF4bDAtYUx5WTBPdGxUQzM3TktIMS1qek1VMWlWbFQ0b0hvUTlHbGxpOWstamtiQ0RJTnB6eXAxZVlHZ3FCMzRZMERvXy1Lb0w5WFlpT0F4N25XLWtOeUFEQV8?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-04-25T09:04:22.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -481,6 +481,28 @@
       }
     },
     {
+      "id": "deal_2129517930",
+      "vc_id": "craft",
+      "vc_name": "Craft Ventures",
+      "company": "AI Startup Cartwheel",
+      "title": "AI Startup Cartwheel Raises $10 Million; Releases Its First Character Animation Tools (EXCLUSIVE) - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNZngweVRoeXU0X2ZIb1JzRFZQU0l2V21MSDJmX0VhQllEd0dnaGdTVmhtLUR0ZXFybG0tUDIyVGZoWEh1TzhDOXVfLUFuY3FRblpqQjVURndmMnJNNG5KNjdOOVNIOXZkWlExWGtjbTNQQmhsNlE4R1J6bXdLNDFwMWF6bXpURjB6WHRod0xKTzM2MkZZdThTNmk5Z2dRVHJtZzk2azVwdFdIZ2ZtQVhiMGJsLW9YZ2tzbU83WVpCelpJckgwRnIyeDJjblVWZ3lMNllfeXAyd1Zfa0Uyajc3b25rdTI0YmdLZ1dOR0ZIYUVvUDRQZG12RmxTS240UXlORUFuRjAxNUM4ZGNfdktSSWlZMVMzY05MbUdIUVdOUUNlcGF1UGlmaTdnMlMtS2tWM1lTNFZ6YXl0TUpyWFJybk5CcTdKaG00bGNtUWFHaVp0TzJQMnBtY3dOOFJUdW1KQ2YxVXg1VTlCOTRoSWl3RTdfVEk1bWkyMnlkU0labTdrWlVlWTJ3NTQ3bDF0RUU?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-04-15T13:00:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_732255921",
       "vc_id": "craft",
       "vc_name": "Craft Ventures",
@@ -635,6 +657,50 @@
       }
     },
     {
+      "id": "deal_371936629",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "HTP, Venture Investors Club to jointly work on developing Belarus’ startup ecosystem - Беларусь сегодня",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdUhuUkRDSEFwYkdSVFBvUGs2b1hCWHdFaE4tYWdxUG5aUkFDS3l1YnVlNUJQMnBFMHAtUV8yNDU0bFNmdDlBUmhiMEp6akdET2k4d25iWlRINDhkZGxfX0I1TlhPc3RfMTVJUFB3OWl6Q01GQmJZcl9EcHhlM1JNandNVkd2OUFyNzRFSUhnQmtxOGNOYXJXOFJjN29fRWwwRFMtNjdwNEVrNVQz?oc=5",
+      "source_name": "Беларусь сегодня",
+      "published_at": "2026-04-08T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_778129456",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Boat cofounder Aman Gupta's Offbeat Studios",
+      "title": "Boat cofounder Aman Gupta's Offbeat Studios raises Rs 100 crore led by Bessemer Venture Partners - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdzVlblRiVGtWMngzTmZLZERFQ054aWlwNkdrdkpiQ2dQcVZLNGhkd3A3ZFdkdGVUaXpBZXNpZW53VWtOdHpKT29qeEc1dnM1QmttUld5SW5CLUlYRlIzVFVCbEd1bDVlaVJqaDEta1c1LUJNMzhwT2h1c3ZCT2NSZkx0NnRUTGg5bVktWG5Ybnc4UnNucFByY1h4QUdlb0pMSUUzRXVrLW5wb2hXUWlrbWRqRVFkQVVsVHJaWEJhTnN2U1NzSmhRQnotZHlLVGpETUpWZ2NTV2lySFVfVi1GVGRlbVhKLVp1MWlDMkdRVTQxT2FmZXRxZ3hJWjJ4U1NxaTNz0gGIAkFVX3lxTE03QV9zcFpTUGxSeHpZcUp3MWpFamlveUltMElLeDBsVE0wUjBEMTNIcE9tZ2RocUd5OGx6UGh5eUdwUnNCSnB6Z3didVpFTnhycEtpb05EdnJad0lLeFM3T0tiNlpnOWdzZFZBcmRHSTRFYmJJWTZGVGhxN2JBNmdNRVFKVWlSam1nX0Y4NjAxcmFIZnduME50T1dBNk9sY09aZlowZmFsSExUQkJvOF84bWJaeUFTVVFqZ1NHMEU1U1RLLUw4dWJJM0ZnaGhlanJZNXlDeFY4SGd5dHAzOWJ2eGp3OWt0VkIxdFgyb0tFME1kcEI0eWh4TDd0U3BlZ0U0TXRqa1lHcg?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-04-07T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.61,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1817046617",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
@@ -657,6 +723,28 @@
       }
     },
     {
+      "id": "deal_1398260827",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Hermeus",
+      "title": "Hermeus raises $350M to build unmanned hypersonic fighters - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVk42bnlpTkVCM0ZvYkJZUlJFRjc3bThYeUV3VHlBX1ZJeXJ1emExMUpjSHJUaUZIdjQ4YzUtOWN0MTBmNVdZMXNBY2RFemh5a0RiWFVOLWhuck9DbXdiSFJHM0NEVmF6MjZKNHpsQTYzZ2k3d19ZdExEVjAtdll5a2hnNHpBcGh0dGd0STFFaGM5Z2Z0dlZV?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-04-07T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 350,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_942126570",
       "vc_id": "intel-capital",
       "vc_name": "Intel Capital",
@@ -674,28 +762,6 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1849413346",
-      "vc_id": "future",
-      "vc_name": "Future Ventures",
-      "company": "Unknown",
-      "title": "SpaceX: The Investment Opportunity You Can't Afford to Miss! - OpenTools",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOVgzdFRHbmZrWDVyWHFfd1l5Z0RrcjBNUGpoT3U0dVhheER2aWNvY0hxS2VuM0o5WExiX3o5YzZvNUFZWTVKUFdBUXMxeTBlMDZhZnlFRl8yczktUjRjdnNwNHh1NEMteEhEVmFUbU83eTl5TTd6SXhYdDBiYkFhMXlnbGpmZ19BUG1n?oc=5",
-      "source_name": "OpenTools",
-      "published_at": "2026-04-05T21:55:41.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -769,15 +835,50 @@
   ],
   "bubbles": [
     {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 14,
+      "weighted_score": 50.21,
+      "latest_at": "2026-05-01T02:40:37.000Z",
+      "amount_usd_m_total": 26187,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 11
+        },
+        {
+          "name": "Other",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "First Round Capital",
+          "count": 4
+        },
+        {
+          "name": "BOND",
+          "count": 2
+        },
+        {
+          "name": "Fin Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Menlo Park,CA",
       "city": "Menlo Park",
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 9,
-      "weighted_score": 42.44,
+      "weighted_score": 41.58,
       "latest_at": "2026-04-29T19:40:49.000Z",
-      "amount_usd_m_total": 3212,
+      "amount_usd_m_total": 3490,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -798,43 +899,8 @@
           "count": 2
         },
         {
-          "name": "TCV",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 30.76,
-      "latest_at": "2026-04-29T11:00:00.000Z",
-      "amount_usd_m_total": 207,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 6
-        },
-        {
-          "name": "Other",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "First Round Capital",
-          "count": 3
-        },
-        {
-          "name": "BOND",
+          "name": "Khosla Ventures",
           "count": 2
-        },
-        {
-          "name": "Benchmark",
-          "count": 1
         }
       ]
     },
@@ -844,14 +910,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 6,
-      "weighted_score": 22.38,
-      "latest_at": "2026-04-29T03:10:33.000Z",
-      "amount_usd_m_total": 261,
+      "deal_count": 5,
+      "weighted_score": 17.89,
+      "latest_at": "2026-04-23T16:00:00.000Z",
+      "amount_usd_m_total": 228,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         }
       ],
       "top_vcs": [
@@ -864,7 +930,7 @@
           "count": 2
         },
         {
-          "name": "Accel",
+          "name": "CRV",
           "count": 1
         }
       ]
@@ -901,33 +967,25 @@
       ]
     },
     {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
       "deal_count": 2,
-      "weighted_score": 4.22,
-      "latest_at": "2026-04-25T09:04:22.000Z",
+      "weighted_score": 4.77,
+      "latest_at": "2026-04-07T07:00:00.000Z",
       "amount_usd_m_total": 0,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
         {
-          "name": "Lux Capital",
-          "count": 1
-        },
-        {
-          "name": "Avenir Growth Capital",
-          "count": 1
+          "name": "Bessemer Venture Partners",
+          "count": 2
         }
       ]
     },
@@ -1001,29 +1059,6 @@
       ]
     },
     {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 1,
-      "weighted_score": 2.56,
-      "latest_at": "2026-04-07T07:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
@@ -1042,6 +1077,29 @@
       "top_vcs": [
         {
           "name": "GV",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-04-20T01:42:34.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Avenir Growth Capital",
           "count": 1
         }
       ]
