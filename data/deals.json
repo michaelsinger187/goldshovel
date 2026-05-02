@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T03:48:06.258Z",
+  "generated_at": "2026-05-02T07:58:03.479Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 40,
-    "total_deals": 40,
+    "scraped_deals": 37,
+    "total_deals": 37,
     "demo_mode": false,
-    "deals_with_coordinates": 40,
-    "runtime_ms": 4139,
+    "deals_with_coordinates": 37,
+    "runtime_ms": 4306,
     "note": "",
     "error_sample": []
   },
@@ -85,6 +85,28 @@
       }
     },
     {
+      "id": "deal_703005022",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Netomi",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
+      "source_name": "VentureBeat",
+      "published_at": "2026-04-30T11:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1971542906",
       "vc_id": "menlo-ventures",
       "vc_name": "Menlo Ventures",
@@ -107,23 +129,23 @@
       }
     },
     {
-      "id": "deal_1267203763",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "General Analysis",
-      "title": "General Analysis Raises $10M in Seed Funding to Secure Agentic AI - FinancialContent",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZERSUS1xNjlwdkhyTWVlMEpwUXpnQnpKNnhvQjdpYXdwX212V2FVWXZqN3hrUTZGdGVGWHIxb184ZDNBZ1hsR3k0ZWtRcTctQVlqYnJCSFM0YkVxVlhjZzNUQkVyVmxScHZDay1vZm5uem5mSklKcHRYTEdWZEtILWhaMDlmQ2lrYkVmdy1uc3M4di1LMlJBT3JyRWlfU0c5YlljeF9SZFJPekZ6M1k0WjN3MEowdjlWa25sWUVVbzY?oc=5",
-      "source_name": "FinancialContent",
-      "published_at": "2026-04-29T14:30:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 10,
-      "confidence": 0.96,
+      "id": "deal_1311829187",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "CIBC Global Asset Management",
+      "title": "CIBC Global Asset Management announces expansion of CIBC Investment Grade Bond Funds lineup including two new laddered funds - Yahoo Finance Singapore",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONkRka1NxWkVwZFFzbHNMcjcyTjF3a2M3dlZtUGhKM1k1SU5aRHRkR0k3MmRKalNVV3BJeVNQR1FaQ1N0Q18xUGI4eWg3V0o3aVhZX0hMMWk2MlVmRlRQenFPeC1VdktkZFJXOUN6VDNnNkU3TlhwUER6cHF6NGxnTjJuTnlZWWRBejQtUFZvSWY?oc=5",
+      "source_name": "Yahoo Finance Singapore",
+      "published_at": "2026-04-29T11:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.51,
       "location": {
-        "city": "Menlo Park",
+        "city": "San Francisco",
         "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -265,9 +287,9 @@
       "vc_id": "tcv",
       "vc_name": "TCV",
       "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - bastillepost.com",
+      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - 巴士的報",
       "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRFp6ek45TGYyVmFrclEtaFRsaVZyN1ZvclRGZWxBd05id2RWLTJGNEptbE5jamNDbVRDWWhRaUZyblZGR1hsZm1DZXhfS0VuUjA5UG5oMGFfRS1uay0zR2RPc3dQaHEtMThPTFRQVnM5czZLc1luRGJSVW5vY1pWT3Z0UjNRdEdVRDduTGpRamtQUWtRaklIeGNLU19NdWpFRDFVTk94UTN1WmZ4aF9XWFNrdzEwM1pnbWpBa29pM2g4R21ZUXVwWVMwaGh1ak9CUzNMS0JXNFd2RkFxYVVtR2JORXpxMWlRdXF3by1DZVp5RHhxaG1qeW4zekxEYkg1OTY2TTR2bTlPTkNpWHBpVkwzQ3F0RWZFWURZcTR3?oc=5",
-      "source_name": "bastillepost.com",
+      "source_name": "巴士的報",
       "published_at": "2026-04-23T08:00:51.000Z",
       "stage": "Series C",
       "sector": "AI & ML",
@@ -415,28 +437,6 @@
       }
     },
     {
-      "id": "deal_800551376",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1940743399",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -471,28 +471,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 100,
       "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1987027304",
-      "vc_id": "ribbit",
-      "vc_name": "Ribbit Capital",
-      "company": "Slash, a Ramp competitor founded by teenagers,",
-      "title": "Slash, a Ramp competitor founded by teenagers, raises $100M at $1.4B valuation - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUmtYV283ckF0N1hCaURTU1NoZWNhVFo4d0Vla3BmYTBJQ3lOMjZhVnRIbzRTSVB5bENoM2tOSTZTVnFiZ0prTkgxV21Ba003V2UyNXdlc1d3QW1CSExvZk1KcFFLOUNLcUhsU2RWTlZEal9nWEpYM3BTRTlQeVhwQ2lxeFc5RGFxUU1jbXg0MmJtZWdLNkh6c1RfbnVoczRvYjdiUVFhV0U3V3F3Q0E?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.81,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -853,50 +831,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1220063571",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "daydream",
-      "title": "daydream Raises $15M Series A to Build the World's Best AI-Native Agency for SEO - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX0hkUzh6d3ZCVjNaOXhGNjNKMDNGTkZUd29rNklIUm5IY0RQYVNWYWRZMVEwRmRNNjQ3eDZRbmVfeDBSekQzeEV2cTFtdjJFNGxQWS1GaVFHQ2xyaUJZMlhZQ0syS1ozdFAySVJ4ZEdSYjdxdW9HdEU1cEZvV1VEVUZpdy05YllhTk44UXhEUXhyUnVUOFg1MnBTZ1pNLVQ5X21HV2VkaWwyeWlsek9XYWphUHN1QWszTjBOUGM2bVA3eVdKLVkzUDluLWdUQlE?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-04-02T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_824283703",
-      "vc_id": "uncork",
-      "vc_name": "Uncork Capital",
-      "company": "Coder",
-      "title": "Coder Secures $90 Million Series C to Scale Secure Enterprise AI Development - Bayelsa Watch",
-      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnZ2tZLVE5QUNOS1g5UmZ3aFk3WDJIRGtWVFV4UnVvZ2owNWVRQVh1RlRGMmpwOUhkYXlxbGlYdy1RcGY4MFZ0bFdSSjNlWFc5cG12RjNzNmtKNlZRUkxr?oc=5",
-      "source_name": "Bayelsa Watch",
-      "published_at": "2026-04-02T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 90,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -907,30 +841,30 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 16,
-      "weighted_score": 56.56,
+      "weighted_score": 53.45,
       "latest_at": "2026-05-01T12:31:00.000Z",
-      "amount_usd_m_total": 26225,
+      "amount_usd_m_total": 26230,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 12
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 4
         }
       ],
       "top_vcs": [
         {
           "name": "First Round Capital",
-          "count": 5
+          "count": 4
         },
         {
           "name": "Fin Capital",
-          "count": 2
+          "count": 3
         },
         {
-          "name": "Craft Ventures",
+          "name": "BOND",
           "count": 2
         }
       ]
@@ -941,14 +875,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 11,
-      "weighted_score": 51.26,
+      "deal_count": 9,
+      "weighted_score": 42.8,
       "latest_at": "2026-04-29T19:40:49.000Z",
-      "amount_usd_m_total": 3344,
+      "amount_usd_m_total": 3234,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 8
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -958,7 +892,7 @@
       "top_vcs": [
         {
           "name": "Menlo Ventures",
-          "count": 4
+          "count": 2
         },
         {
           "name": "Kleiner Perkins",
@@ -976,27 +910,27 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 5,
-      "weighted_score": 18.02,
+      "deal_count": 4,
+      "weighted_score": 14.2,
       "latest_at": "2026-04-17T07:00:00.000Z",
-      "amount_usd_m_total": 232,
+      "amount_usd_m_total": 132,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 4
         }
       ],
       "top_vcs": [
-        {
-          "name": "Ribbit Capital",
-          "count": 2
-        },
         {
           "name": "Sutter Hill Ventures",
           "count": 2
         },
         {
           "name": "CRV",
+          "count": 1
+        },
+        {
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
