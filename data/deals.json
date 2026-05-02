@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T07:58:03.479Z",
+  "generated_at": "2026-05-02T13:45:42.220Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 37,
-    "total_deals": 37,
+    "scraped_deals": 34,
+    "total_deals": 34,
     "demo_mode": false,
-    "deals_with_coordinates": 37,
-    "runtime_ms": 4306,
+    "deals_with_coordinates": 34,
+    "runtime_ms": 4343,
     "note": "",
     "error_sample": []
   },
@@ -85,28 +85,6 @@
       }
     },
     {
-      "id": "deal_703005022",
-      "vc_id": "fin-capital",
-      "vc_name": "Fin Capital",
-      "company": "Netomi",
-      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
-      "source_name": "VentureBeat",
-      "published_at": "2026-04-30T11:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 110,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1971542906",
       "vc_id": "menlo-ventures",
       "vc_name": "Menlo Ventures",
@@ -119,6 +97,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 10,
       "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1267203763",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "General Analysis",
+      "title": "General Analysis Raises $10M in Seed Funding to Secure Agentic AI - FinancialContent",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZERSUS1xNjlwdkhyTWVlMEpwUXpnQnpKNnhvQjdpYXdwX212V2FVWXZqN3hrUTZGdGVGWHIxb184ZDNBZ1hsR3k0ZWtRcTctQVlqYnJCSFM0YkVxVlhjZzNUQkVyVmxScHZDay1vZm5uem5mSklKcHRYTEdWZEtILWhaMDlmQ2lrYkVmdy1uc3M4di1LMlJBT3JyRWlfU0c5YlljeF9SZFJPekZ6M1k0WjN3MEowdjlWa25sWUVVbzY?oc=5",
+      "source_name": "FinancialContent",
+      "published_at": "2026-04-29T14:30:00.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -261,35 +261,13 @@
       }
     },
     {
-      "id": "deal_2113624241",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Unknown",
-      "title": "AI startup valuations are overheated: First Round Capital cofounder Howard Morgan - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNd05lVHVka2RHbG1hVm1EdVpmLXEzWEtJeU4zTU5zTjA4MHROZkVLUHFxQy1IckdhcWlFcWFtU09QeE1sUl9CZUREc0x2UEVkd1RtQUNDdzFibFZWWkhORU5tdEFxVzdfRnVKa3prNDJBMHdRaEVxdDhicUJlRkhTM3ZTOWpJRGdjQWFYMWN1cE9fS2hjYlR5TnRqeUttd3pwUFdCYXJtLVpNX2RfZ2JwTlBCLXd2ZHNyWnFfUlBMSVVpc2JTeXlrTmFaSUJVSlhJcXp3UWlybUExaWQzU3ltYnNScU5VSXZJMGdlZzhjal93bEtmSjlFcW9jVS1acjNtZUJVMi1QN2pkR1FyUEpsSmxFNUd1c2t0UC1LbXNlNjRicU1IR0JaemN2NkwzNzFRalNPZDMzeG9xa1luMUFBY1NjeHExVzVPU2ZLZkVGdXpIOFFoaUNNU2d6aXoybGxtcTZXczI4VVBhNXRnV1k0TFlmWmJTRDJGQnNKVkNYOXdPcVozSmhfRnFNSEpRMmRZ?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-04-25T18:49:54.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_588723640",
       "vc_id": "tcv",
       "vc_name": "TCV",
       "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - 巴士的報",
+      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - bastillepost.com",
       "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRFp6ek45TGYyVmFrclEtaFRsaVZyN1ZvclRGZWxBd05id2RWLTJGNEptbE5jamNDbVRDWWhRaUZyblZGR1hsZm1DZXhfS0VuUjA5UG5oMGFfRS1uay0zR2RPc3dQaHEtMThPTFRQVnM5czZLc1luRGJSVW5vY1pWT3Z0UjNRdEdVRDduTGpRamtQUWtRaklIeGNLU19NdWpFRDFVTk94UTN1WmZ4aF9XWFNrdzEwM1pnbWpBa29pM2g4R21ZUXVwWVMwaGh1ak9CUzNMS0JXNFd2RkFxYVVtR2JORXpxMWlRdXF3by1DZVp5RHhxaG1qeW4zekxEYkg1OTY2TTR2bTlPTkNpWHBpVkwzQ3F0RWZFWURZcTR3?oc=5",
-      "source_name": "巴士的報",
+      "source_name": "bastillepost.com",
       "published_at": "2026-04-23T08:00:51.000Z",
       "stage": "Series C",
       "sector": "AI & ML",
@@ -312,6 +290,28 @@
       "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - Morningstar",
       "source_url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNN2kwOFJSLWd1RDZPR1J6OTNxUGFDbjYxMjhKTGVscS1sbVhkeVNMXzY4QjJyRFZZVEhPaTl5ajJyanZCaGVkeEQtdUw2Nmg2ajBMX3NoYUNFN296clVvZ1pEeW1GWmRhRERZc0VQdmpxQ0ZMaFFzbGtiSDJySkxlaWNISmhBRmM4Z1kyV1BsT2V5Y0p1b2luN19heUVOMkdvUUJfYkRyYzZkd0QxT1NTbDZINWREaWktb05EendsTHJGbXVSRkc1YkdDTExHLWRyQm85UFBoWkFYQnpTRVRMYlZZMklGNEZ3TEFWSEVZZTFlQ09feWNYeExjaUUtRV9ONjNuTzJOZUthQUljS3VHNFV1UEhTTFFQdGlJanhmSDBPSVRfTmwtblJPdw?oc=5",
       "source_name": "Morningstar",
+      "published_at": "2026-04-23T08:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 72,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_786208317",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain | FinancialContent - FinancialContent",
+      "source_url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPamF3Z1B4eFVwaEZKOGNkS0IwRExpam94ZTQtLUtaaHlHVEFCRWRTUFlSbzJ6T1d3b3pzNlJ0SjgxRERXLWRkSnpLOEhCcnJ2Nm15NGY0R0NLdDlHYURlWDRHT041Wm5XVUFHWEc0LVVGMFRoVWx6THBMNExreEwzR2dQZjB5czJoMWRjUmF4ODYwWlA1QmRwS1lpMC1XMkFNNWF4ZDd3ZnlLXzNzQ1ZwdzY3eTFZa1RuWFJIYVozT3FGLWY1RWRaRWF4em1fdi1jWVIxSG1MdF9iX0ZfaFZ5Vi13SXNKS1B5YWpkY0RrS1puNzgyTHRHNVNUTmlnWkpYWWdYeDBscGx2LVVab0pJVkx0ZDlMQURteEo4SE9sakw0anJ6Tzl3?oc=5",
+      "source_name": "FinancialContent",
       "published_at": "2026-04-23T08:00:00.000Z",
       "stage": "Series C",
       "sector": "AI & ML",
@@ -393,9 +393,9 @@
       }
     },
     {
-      "id": "deal_167610610",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
+      "id": "deal_1706657222",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
       "company": "Unknown",
       "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
@@ -415,9 +415,9 @@
       }
     },
     {
-      "id": "deal_1706657222",
-      "vc_id": "nea",
-      "vc_name": "New Enterprise Associates",
+      "id": "deal_800551376",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
       "company": "Unknown",
       "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
@@ -471,6 +471,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 100,
       "confidence": 0.86,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1987027304",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Slash, a Ramp competitor founded by teenagers,",
+      "title": "Slash, a Ramp competitor founded by teenagers, raises $100M at $1.4B valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUmtYV283ckF0N1hCaURTU1NoZWNhVFo4d0Vla3BmYTBJQ3lOMjZhVnRIbzRTSVB5bENoM2tOSTZTVnFiZ0prTkgxV21Ba003V2UyNXdlc1d3QW1CSExvZk1KcFFLOUNLcUhsU2RWTlZEal9nWEpYM3BTRTlQeVhwQ2lxeFc5RGFxUU1jbXg0MmJtZWdLNkh6c1RfbnVoczRvYjdiUVFhV0U3V3F3Q0E?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-04-16T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.81,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -569,28 +591,6 @@
       }
     },
     {
-      "id": "deal_1952559054",
-      "vc_id": "sutter-hill",
-      "vc_name": "Sutter Hill Ventures",
-      "company": "Exclusive: Hyfix",
-      "title": "Exclusive: Hyfix raises $15 million to build a U.S. alternative to DJI’s drone dominance - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVZWMURhYnNrN1REWHROSE80NUpMU3hyZjdzaUVWMU9vWGxmR2RtTGtydVpjSnp3b1lYM21NU3JMNHFaMF9RbXhlTUtfS0JxcXJuTkhwYXZjLUtzR0FmNFl4S016c2VvM0NZT0lXQjZRcFFnVWs4WUlzcEo1ajVzSTFTWVhyUHM?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1270981039",
       "vc_id": "workday-ventures",
       "vc_name": "Workday Ventures",
@@ -635,28 +635,6 @@
       }
     },
     {
-      "id": "deal_1394947197",
-      "vc_id": "kleiner-perkins",
-      "vc_name": "Kleiner Perkins",
-      "company": "Saronic",
-      "title": "Saronic Closes $1.75B Series D: America's Autonomous Warship Maker Just Became a $9.25B Giant - Bayelsa Watch",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MTjFKd1d1S1ZCTlU5dWhwSV82Q21zYWxjZ1A1em5xSDRXUFZzcnhiSkVOdFUyZnZkNTRuZi00VUx4ejl0dlVvakEzeUp4Xy1VTGtlQ3pnNFFyZmlMV1BSb1VwUQ?oc=5",
-      "source_name": "Bayelsa Watch",
-      "published_at": "2026-04-13T07:00:00.000Z",
-      "stage": "Series D+",
-      "sector": "Semis, Robotics & Hardware",
-      "amount_usd_m": 1750,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1260470521",
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
@@ -696,28 +674,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1259275473",
-      "vc_id": "fin-capital",
-      "vc_name": "Fin Capital",
-      "company": "Pipe",
-      "title": "Pipe Raises $16 Million in New Funding Round Led by Fin Capital and MaC Venture Capital - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE9WQzFWZTNqbE1fLXlHWmhTakJKRkRWOG5mUVlPTkZHZm5vWWNkVE80X2IycXFQaVpuenhjZjdCdDh6QnRudU1lWk15MlVBOS1fSW1mX2QyNUZsQ2hoVGlGNURkRGFJMHdJSTF1TkprYmVvQWsxTmlVSTQ5MG5hSnJicUVPVk1FQXhXSTVLNVVUTHltblJzQ2RuVQ?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-04-09T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 16,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -789,28 +745,6 @@
       }
     },
     {
-      "id": "deal_1849413346",
-      "vc_id": "future",
-      "vc_name": "Future Ventures",
-      "company": "Unknown",
-      "title": "SpaceX: The Investment Opportunity You Can't Afford to Miss! - OpenTools",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOVgzdFRHbmZrWDVyWHFfd1l5Z0RrcjBNUGpoT3U0dVhheER2aWNvY0hxS2VuM0o5WExiX3o5YzZvNUFZWTVKUFdBUXMxeTBlMDZhZnlFRl8yczktUjRjdnNwNHh1NEMteEhEVmFUbU83eTl5TTd6SXhYdDBiYkFhMXlnbGpmZ19BUG1n?oc=5",
-      "source_name": "OpenTools",
-      "published_at": "2026-04-05T21:55:41.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1860206828",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
@@ -835,71 +769,67 @@
   ],
   "bubbles": [
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 16,
-      "weighted_score": 53.45,
-      "latest_at": "2026-05-01T12:31:00.000Z",
-      "amount_usd_m_total": 26230,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 12
-        },
-        {
-          "name": "Other",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "First Round Capital",
-          "count": 4
-        },
-        {
-          "name": "Fin Capital",
-          "count": 3
-        },
-        {
-          "name": "BOND",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Menlo Park,CA",
       "city": "Menlo Park",
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 9,
-      "weighted_score": 42.8,
+      "deal_count": 10,
+      "weighted_score": 44.22,
       "latest_at": "2026-04-29T19:40:49.000Z",
-      "amount_usd_m_total": 3234,
+      "amount_usd_m_total": 1566,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
-        },
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
+          "count": 10
         }
       ],
       "top_vcs": [
         {
           "name": "Menlo Ventures",
-          "count": 2
-        },
-        {
-          "name": "Kleiner Perkins",
-          "count": 2
+          "count": 4
         },
         {
           "name": "TCV",
+          "count": 3
+        },
+        {
+          "name": "Kleiner Perkins",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 12,
+      "weighted_score": 42.43,
+      "latest_at": "2026-05-01T12:31:00.000Z",
+      "amount_usd_m_total": 26104,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 9
+        },
+        {
+          "name": "Other",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "First Round Capital",
+          "count": 3
+        },
+        {
+          "name": "BOND",
+          "count": 2
+        },
+        {
+          "name": "Craft Ventures",
           "count": 2
         }
       ]
@@ -911,9 +841,9 @@
       "lat": 37.4419,
       "lon": -122.143,
       "deal_count": 4,
-      "weighted_score": 14.2,
+      "weighted_score": 15,
       "latest_at": "2026-04-17T07:00:00.000Z",
-      "amount_usd_m_total": 132,
+      "amount_usd_m_total": 217,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -922,7 +852,7 @@
       ],
       "top_vcs": [
         {
-          "name": "Sutter Hill Ventures",
+          "name": "Ribbit Capital",
           "count": 2
         },
         {
@@ -930,7 +860,7 @@
           "count": 1
         },
         {
-          "name": "Ribbit Capital",
+          "name": "Sutter Hill Ventures",
           "count": 1
         }
       ]
