@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T19:15:47.910Z",
+  "generated_at": "2026-05-03T04:08:47.630Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 33,
-    "total_deals": 33,
+    "scraped_deals": 35,
+    "total_deals": 35,
     "demo_mode": false,
-    "deals_with_coordinates": 33,
-    "runtime_ms": 4268,
+    "deals_with_coordinates": 35,
+    "runtime_ms": 4195,
     "note": "",
     "error_sample": []
   },
@@ -89,9 +89,9 @@
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Netomi",
-      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - Venturebeat",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
-      "source_name": "Venturebeat",
+      "source_name": "VentureBeat",
       "published_at": "2026-04-30T11:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -168,28 +168,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_165006113",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "Dale Vaz’s stock trading app Sahi",
-      "title": "Dale Vaz’s stock trading app Sahi raises $33 Mn in Series B round - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSlVVV3B1OVpsd0szYjh6eVlWcGFadHJJR3ZpQ2tXbXByZ25WMWxMUEFVQzhaVGMxZkN4LVVKaGxFc2hLUXIwSExwWXNMV3oyUjY4VXZ6RjFvNkIyUWJLckxhWTgxRnI4NFBQZEJ5Vm9HZEZhUlZURmwySW5YOFBLa1d6S0lfVTh3dk01em00b0ZFM0JsMF9HZHBLbjhNLVnSAZ8BQVVfeXFMUEpVVVdwdTlabHdLM2I4enlZVnBhWnRySUd2aUNrV21wcmduVjFsTFBBVUM4WlRjMWZDeC1VSmhsRXNoS1FyMEhMcFlzTFd6MlI2OFV2ekYxbzZCMlFiS3JMYVk4MUZyODRQUGRCeVZvR2RGYVJWVEZsMkluWDhQS2tXektJX1U4d3ZNNXptNG9GRTNCbDBfR2RwS244TS1Z?oc=5",
-      "source_name": "Entrackr",
-      "published_at": "2026-04-29T03:10:33.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 33,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -591,6 +569,28 @@
       }
     },
     {
+      "id": "deal_1952559054",
+      "vc_id": "sutter-hill",
+      "vc_name": "Sutter Hill Ventures",
+      "company": "Exclusive: Hyfix",
+      "title": "Exclusive: Hyfix raises $15 million to build a U.S. alternative to DJI’s drone dominance - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVZWMURhYnNrN1REWHROSE80NUpMU3hyZjdzaUVWMU9vWGxmR2RtTGtydVpjSnp3b1lYM21NU3JMNHFaMF9RbXhlTUtfS0JxcXJuTkhwYXZjLUtzR0FmNFl4S016c2VvM0NZT0lXQjZRcFFnVWs4WUlzcEo1ajVzSTFTWVhyUHM?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-04-15T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 15,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1270981039",
       "vc_id": "workday-ventures",
       "vc_name": "Workday Ventures",
@@ -630,6 +630,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1394947197",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Saronic",
+      "title": "Saronic Closes $1.75B Series D: America's Autonomous Warship Maker Just Became a $9.25B Giant - Bayelsa Watch",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MTjFKd1d1S1ZCTlU5dWhwSV82Q21zYWxjZ1A1em5xSDRXUFZzcnhiSkVOdFUyZnZkNTRuZi00VUx4ejl0dlVvakEzeUp4Xy1VTGtlQ3pnNFFyZmlMV1BSb1VwUQ?oc=5",
+      "source_name": "Bayelsa Watch",
+      "published_at": "2026-04-13T07:00:00.000Z",
+      "stage": "Series D+",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 1750,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -723,6 +745,28 @@
       }
     },
     {
+      "id": "deal_1849413346",
+      "vc_id": "future",
+      "vc_name": "Future Ventures",
+      "company": "Unknown",
+      "title": "SpaceX: The Investment Opportunity You Can't Afford to Miss! - OpenTools",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOVgzdFRHbmZrWDVyWHFfd1l5Z0RrcjBNUGpoT3U0dVhheER2aWNvY0hxS2VuM0o5WExiX3o5YzZvNUFZWTVKUFdBUXMxeTBlMDZhZnlFRl8yczktUjRjdnNwNHh1NEMteEhEVmFUbU83eTl5TTd6SXhYdDBiYkFhMXlnbGpmZ19BUG1n?oc=5",
+      "source_name": "OpenTools",
+      "published_at": "2026-04-05T21:55:41.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1860206828",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
@@ -747,13 +791,48 @@
   ],
   "bubbles": [
     {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 10,
+      "weighted_score": 46,
+      "latest_at": "2026-04-29T19:40:49.000Z",
+      "amount_usd_m_total": 3244,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 9
+        },
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Menlo Ventures",
+          "count": 4
+        },
+        {
+          "name": "Kleiner Perkins",
+          "count": 2
+        },
+        {
+          "name": "TCV",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "San Francisco,CA",
       "city": "San Francisco",
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 11,
-      "weighted_score": 41.42,
+      "deal_count": 12,
+      "weighted_score": 43.43,
       "latest_at": "2026-05-01T12:31:00.000Z",
       "amount_usd_m_total": 26204,
       "top_sectors": [
@@ -763,7 +842,7 @@
         },
         {
           "name": "Other",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -782,46 +861,15 @@
       ]
     },
     {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 9,
-      "weighted_score": 39,
-      "latest_at": "2026-04-29T19:40:49.000Z",
-      "amount_usd_m_total": 1494,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 9
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Menlo Ventures",
-          "count": 4
-        },
-        {
-          "name": "TCV",
-          "count": 2
-        },
-        {
-          "name": "Kleiner Perkins",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
       "deal_count": 5,
-      "weighted_score": 19.5,
-      "latest_at": "2026-04-29T03:10:33.000Z",
-      "amount_usd_m_total": 250,
+      "weighted_score": 18.02,
+      "latest_at": "2026-04-17T07:00:00.000Z",
+      "amount_usd_m_total": 232,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -834,8 +882,8 @@
           "count": 2
         },
         {
-          "name": "Accel",
-          "count": 1
+          "name": "Sutter Hill Ventures",
+          "count": 2
         },
         {
           "name": "CRV",
