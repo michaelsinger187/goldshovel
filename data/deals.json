@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T04:02:01.817Z",
+  "generated_at": "2026-05-07T08:46:58.714Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 51,
-    "total_deals": 51,
+    "scraped_deals": 49,
+    "total_deals": 49,
     "demo_mode": false,
-    "deals_with_coordinates": 51,
-    "runtime_ms": 3787,
+    "deals_with_coordinates": 49,
+    "runtime_ms": 4123,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1495714654",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "TCV leads $160m round for insurance startup Corgi - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTzlKWDBTLUIyanhIdzRkdVhKaVJRbW96SFFOY3BVUHdJYTF1d2l1WWJBUFFZVHpYUlk3SWxxQ214VENTWHFPV1lhTlZSUGlmM1hyNklkR2ZrendaYWVqOUk2cUwtY2J2MW5PdkFXaC1ndkExZnlfYTM1M1NOQlkzV0J3bHJmbEE?oc=5",
+      "source_name": "Tech in Asia",
+      "published_at": "2026-05-07T04:04:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 160,
+      "confidence": 0.61,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1574448250",
       "vc_id": "tcv",
@@ -283,25 +305,25 @@
       }
     },
     {
-      "id": "deal_1596887588",
-      "vc_id": "signalfire",
-      "vc_name": "SignalFire",
-      "company": "Crypto on-ramp startup Fun",
-      "title": "Crypto on-ramp startup Fun raises $72 million in Series A - 디지털투데이",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPenpyaF9kWWlOellnNWRiS0lreWZfeXBIczEtMHRUTWh5bFF2THJpTWNhVHpvZ0MtTmd2SHpuemZmZDZ5ekZEaFRndUM0a0k3M1ZoQjNJVnpxSjlXQkhzMVlRZ01FblE1Y1RaSDVTU1FSNUUwN2xuaEVsOTN6NUhQOVRnT0V4Z3BXSDd4WUFoVHhGRjRsanA3SENWdVducFdZMVE?oc=5",
-      "source_name": "디지털투데이",
-      "published_at": "2026-05-03T02:08:44.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 72,
-      "confidence": 0.96,
+      "id": "deal_1798885783",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Arlington mobile carrier startup Cape",
+      "title": "Arlington mobile carrier startup Cape lands $100M in fresh funding - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYk1EOGIwM2FjbXR3Tk14WExjNTRhYk96am9hSXQyMHFVYkc4bWhHOWJ2TEN0S0JEMVRBT2w4bG1FWk1FeldiVUxjNnBEcmxfVXRWdVJ3UVNaVFgyVjAzUDhPMk4ybDhjNW5UYzVKNml1a3ZYZlM3Umt6dmhUcl8xWDNPRUZGOGplTm9TTzNLd0FCRWx2RFdjYXUtQzVwTl9vU0RJbVRKbGtYMFItNEY5YjNSb2NNWkRDYnZ0TjFFQ2NpSWxYdC0tNC1sT2tTdXBlRlBz?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-05-01T19:22:54.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 100,
+      "confidence": 0.83,
       "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
+        "city": "Arlington",
+        "state": "VA",
+        "lat": 38.8816,
+        "lon": -77.091,
+        "method": "city_keyword",
+        "confidence": 0.68
       }
     },
     {
@@ -353,9 +375,9 @@
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Netomi",
-      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - Venturebeat",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
-      "source_name": "VentureBeat",
+      "source_name": "Venturebeat",
       "published_at": "2026-04-30T11:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -515,6 +537,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1000,
       "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_588723640",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - bastillepost.com",
+      "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRFp6ek45TGYyVmFrclEtaFRsaVZyN1ZvclRGZWxBd05id2RWLTJGNEptbE5jamNDbVRDWWhRaUZyblZGR1hsZm1DZXhfS0VuUjA5UG5oMGFfRS1uay0zR2RPc3dQaHEtMThPTFRQVnM5czZLc1luRGJSVW5vY1pWT3Z0UjNRdEdVRDduTGpRamtQUWtRaklIeGNLU19NdWpFRDFVTk94UTN1WmZ4aF9XWFNrdzEwM1pnbWpBa29pM2g4R21ZUXVwWVMwaGh1ak9CUzNMS0JXNFd2RkFxYVVtR2JORXpxMWlRdXF3by1DZVp5RHhxaG1qeW4zekxEYkg1OTY2TTR2bTlPTkNpWHBpVkwzQ3F0RWZFWURZcTR3?oc=5",
+      "source_name": "bastillepost.com",
+      "published_at": "2026-04-23T08:00:51.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 72,
+      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -691,28 +735,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 100,
       "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1987027304",
-      "vc_id": "ribbit",
-      "vc_name": "Ribbit Capital",
-      "company": "Slash, a Ramp competitor founded by teenagers,",
-      "title": "Slash, a Ramp competitor founded by teenagers, raises $100M at $1.4B valuation - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUmtYV283ckF0N1hCaURTU1NoZWNhVFo4d0Vla3BmYTBJQ3lOMjZhVnRIbzRTSVB5bENoM2tOSTZTVnFiZ0prTkgxV21Ba003V2UyNXdlc1d3QW1CSExvZk1KcFFLOUNLcUhsU2RWTlZEal9nWEpYM3BTRTlQeVhwQ2lxeFc5RGFxUU1jbXg0MmJtZWdLNkh6c1RfbnVoczRvYjdiUVFhV0U3V3F3Q0E?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.81,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -1053,89 +1075,23 @@
       }
     },
     {
-      "id": "deal_778129456",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Boat cofounder Aman Gupta's Offbeat Studios",
-      "title": "Boat cofounder Aman Gupta's Offbeat Studios raises Rs 100 crore led by Bessemer Venture Partners - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdzVlblRiVGtWMngzTmZLZERFQ054aWlwNkdrdkpiQ2dQcVZLNGhkd3A3ZFdkdGVUaXpBZXNpZW53VWtOdHpKT29qeEc1dnM1QmttUld5SW5CLUlYRlIzVFVCbEd1bDVlaVJqaDEta1c1LUJNMzhwT2h1c3ZCT2NSZkx0NnRUTGg5bVktWG5Ybnc4UnNucFByY1h4QUdlb0pMSUUzRXVrLW5wb2hXUWlrbWRqRVFkQVVsVHJaWEJhTnN2U1NzSmhRQnotZHlLVGpETUpWZ2NTV2lySFVfVi1GVGRlbVhKLVp1MWlDMkdRVTQxT2FmZXRxZ3hJWjJ4U1NxaTNz0gGIAkFVX3lxTE03QV9zcFpTUGxSeHpZcUp3MWpFamlveUltMElLeDBsVE0wUjBEMTNIcE9tZ2RocUd5OGx6UGh5eUdwUnNCSnB6Z3didVpFTnhycEtpb05EdnJad0lLeFM3T0tiNlpnOWdzZFZBcmRHSTRFYmJJWTZGVGhxN2JBNmdNRVFKVWlSam1nX0Y4NjAxcmFIZnduME50T1dBNk9sY09aZlowZmFsSExUQkJvOF84bWJaeUFTVVFqZ1NHMEU1U1RLLUw4dWJJM0ZnaGhlanJZNXlDeFY4SGd5dHAzOWJ2eGp3OWt0VkIxdFgyb0tFME1kcEI0eWh4TDd0U3BlZ0U0TXRqa1lHcg?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1817046617",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Aman Gupta’s OffBeat Studios",
-      "title": "Aman Gupta’s OffBeat Studios secures ₹100 crore seed round led by Bessemer - Meyka",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGlSRWNxZGVqanEwM2JTM1lRLURxaG9waU8ycEN1Smh4NUZsaUhrT2U5X1NCOHgwTTdoeGxfUEZMSmU0T29xT1ZLbXctS0Z4czViX3hCQnROdmZ2OWVjQkpxMldyUThwa092a2QzalRZYk9iREVvYko5dVJBZFZXWThDdVhNU0dXLVJibC1RTUp5eUlLMGhQTjJ4WVVWc2NYTVI3dEV4d2c?oc=5",
-      "source_name": "Meyka",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_657540942",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "Moonbounce",
-      "title": "Moonbounce Raises $12M Investment to Scale Operations - Bayelsa Watch",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JYUFrZHBaTFZmMUw1RDFabXVPR1lIajNQS243bzVSZ0pVc3Bmdm94dXVWOFpyWjM2YlNNNjVRVzRXOUtQd0RMMDhDLXFJdDVMRkdkbEdLTDVCWUE?oc=5",
-      "source_name": "Bayelsa Watch",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 12,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_942126570",
-      "vc_id": "intel-capital",
-      "vc_name": "Intel Capital",
+      "id": "deal_1719119016",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
       "company": "Unknown",
-      "title": "Intel Capital-backed Israeli quantum startup raises $24m seed round - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTW5qR1lSci1qaC11NWF5T25LVGEza0VOa2xJTEhPaDFvRnhnbG94ODlHOTF2MXJIX19QT3ozREhkMXVMbDZDZ0NGSU9qX0JnSmdVQW81dHBTN1gyYlVBWGtMYmNjS1BOZXIzVmdmSWJqRS1teDhSVF9wVWFlTUhLVFVzZzE5RC1WTVBmMzVtazJCb0JmS1E?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-04-07T07:00:00.000Z",
-      "stage": "Seed",
+      "title": "Google CEO says AI shift expands startup investment opportunities - 디지털투데이",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeU84a2pzajlqbWtWUFM1dW9OYWw5Mk43TTdWZ2tOeGhQa05saVN0ZDhxamprUTFrOTJWXzZwMGJYQjJrcktjYjhQeW9jbmw1RS1UeUlpRFI0TG1WamdHbU53OVdiMnRuZ196cW93MlVjQ2dCVGFxQWxHdlNTcUlXRnljRHFKN0JUbGZoWlN2dl9QZVhZR09nS01IX2xGU1hjbjRYY3prLTF4SzgxdlFV?oc=5",
+      "source_name": "디지털투데이",
+      "published_at": "2026-04-08T07:00:00.000Z",
+      "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 24,
-      "confidence": 0.86,
+      "amount_usd_m": null,
+      "confidence": 0.51,
       "location": {
-        "city": "Santa Clara",
+        "city": "Mountain View",
         "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1148,14 +1104,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 14,
-      "weighted_score": 64.05,
-      "latest_at": "2026-05-06T21:46:00.000Z",
-      "amount_usd_m_total": 4804,
+      "deal_count": 15,
+      "weighted_score": 70.17,
+      "latest_at": "2026-05-07T04:04:00.000Z",
+      "amount_usd_m_total": 5024,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 13
+        },
+        {
+          "name": "Other",
+          "count": 1
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -1164,12 +1124,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Menlo Ventures",
-          "count": 4
+          "name": "TCV",
+          "count": 5
         },
         {
-          "name": "TCV",
-          "count": 3
+          "name": "Menlo Ventures",
+          "count": 4
         },
         {
           "name": "Kleiner Perkins",
@@ -1183,14 +1143,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 13,
-      "weighted_score": 46.05,
+      "deal_count": 12,
+      "weighted_score": 41.62,
       "latest_at": "2026-05-05T17:52:03.000Z",
-      "amount_usd_m_total": 2242,
+      "amount_usd_m_total": 2170,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 12
+          "count": 11
         },
         {
           "name": "Other",
@@ -1207,7 +1167,7 @@
           "count": 2
         },
         {
-          "name": "SignalFire",
+          "name": "Fin Capital",
           "count": 2
         }
       ]
@@ -1218,14 +1178,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 7,
-      "weighted_score": 26.81,
+      "deal_count": 6,
+      "weighted_score": 23,
       "latest_at": "2026-05-05T11:40:00.000Z",
-      "amount_usd_m_total": 389,
+      "amount_usd_m_total": 289,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Other",
@@ -1234,15 +1194,15 @@
       ],
       "top_vcs": [
         {
-          "name": "Ribbit Capital",
-          "count": 2
-        },
-        {
           "name": "Sutter Hill Ventures",
           "count": 2
         },
         {
           "name": "Accel",
+          "count": 1
+        },
+        {
+          "name": "DCVC",
           "count": 1
         }
       ]
@@ -1283,15 +1243,15 @@
       ]
     },
     {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
       "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
+      "lat": 37.3861,
+      "lon": -122.0839,
       "deal_count": 3,
-      "weighted_score": 9.12,
-      "latest_at": "2026-05-05T11:40:00.000Z",
-      "amount_usd_m_total": 60,
+      "weighted_score": 9.03,
+      "latest_at": "2026-05-04T14:50:01.000Z",
+      "amount_usd_m_total": 1000,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1300,8 +1260,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Bessemer Venture Partners",
-          "count": 3
+          "name": "GV",
+          "count": 2
+        },
+        {
+          "name": "CapitalG",
+          "count": 1
         }
       ]
     },
@@ -1333,56 +1297,6 @@
       ]
     },
     {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 3,
-      "weighted_score": 7.68,
-      "latest_at": "2026-05-05T20:07:50.000Z",
-      "amount_usd_m_total": 24,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        },
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Intel Capital",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 6.92,
-      "latest_at": "2026-05-04T14:50:01.000Z",
-      "amount_usd_m_total": 1000,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Boston,MA",
       "city": "Boston",
       "state": "MA",
@@ -1409,6 +1323,79 @@
         },
         {
           "name": "NextView Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 1,
+      "weighted_score": 4.35,
+      "latest_at": "2026-05-05T11:40:00.000Z",
+      "amount_usd_m_total": 60,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-05-05T20:07:50.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Arlington,VA",
+      "city": "Arlington",
+      "state": "VA",
+      "lat": 38.8816,
+      "lon": -77.091,
+      "deal_count": 1,
+      "weighted_score": 3.83,
+      "latest_at": "2026-05-01T19:22:54.000Z",
+      "amount_usd_m_total": 100,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "IVP",
           "count": 1
         }
       ]
