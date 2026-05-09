@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T03:53:14.724Z",
+  "generated_at": "2026-05-09T08:08:39.930Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 61,
-    "total_deals": 61,
+    "scraped_deals": 56,
+    "total_deals": 56,
     "demo_mode": false,
-    "deals_with_coordinates": 61,
-    "runtime_ms": 4044,
+    "deals_with_coordinates": 56,
+    "runtime_ms": 3980,
     "note": "",
     "error_sample": []
   },
@@ -58,6 +58,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1101635565",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "The 9 Largest NYC Tech Startup Funding Rounds of April 2026 - AlleyWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnA2aHlfOVU2cVptSGdfYW5JN2NDMFJrc0ozUkpVc011Vjk5TzJNOFBFYlNoLVpjM3dJeTUtV2w0OThjYUlvZzNlY2RkR0g1QW1jMDlSZ2VFc2JwUDRMRmhHcjVmQTdkZmNuRlpQUU1IWlBhcWVjTVg5TjZpNUsycHJpMA?oc=5",
+      "source_name": "AlleyWatch",
+      "published_at": "2026-05-07T15:28:08.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -309,9 +331,9 @@
       "vc_id": "intel-capital",
       "vc_name": "Intel Capital",
       "company": "Unknown",
-      "title": "Intel’s VC Arm Backs QuantWare, a Dutch Startup Making Quantum Computing Chips - Bloomberg",
+      "title": "Intel’s VC Arm Backs QuantWare, a Dutch Startup Making Quantum Computing Chips - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPemxLWFl1V1VYYkJPZ0lMekJvMmxfLVFjM09PdDZvUkpDZlhSSXRienJNcXVSYk9XczZLci1yMW1TV2dmSnRkV3VPd1Z5TmRzRjE5S3ZyVjRYN2UxalVJTTBFRDdYZmZqOXk0bWY4SE1pTUQyNVB5di02dklvbEVtMUVnQXpPazlOZVhJQjEtUmg5eV9EdVA5bmd1b1hlSUNBNUh2YWltdTZxZGRNTEFnY3JB?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-05-05T20:07:50.000Z",
       "stage": "Unspecified",
       "sector": "Semis, Robotics & Hardware",
@@ -361,28 +383,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 200,
       "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_678571797",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Unknown",
-      "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
-      "source_name": "Tracxn",
-      "published_at": "2026-05-05T14:50:14.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
       "location": {
         "city": "Boston",
         "state": "MA",
@@ -569,6 +569,50 @@
       }
     },
     {
+      "id": "deal_127971550",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Unknown",
+      "title": "US Regulators Approve Intel Investment in AI Chip Startup SambaNova - HarianBasis.co",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAySkNBbUZxNDFILXJycXg3TkJLd3VCUGJBeEpOMDlNLTU0cTFuVTB3bWo4ZmZ4dkJQdlpBNGpsR1c0c2FXSm5LY0RINGhKNFpPZmQtNkNiYmlkMXdwQVZESmwxWF9FNEJSS1d2RXp4Q3c2UmNBSlE?oc=5",
+      "source_name": "HarianBasis.co",
+      "published_at": "2026-05-04T09:05:18.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1854164616",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith raises $72M Series C led by TCV with participation from Insight Partners to control and secure the AI-powered software supply chain - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxPOFkxX2NTV2FEalF3VWd5RXVfX282d2RGVmtLa0pDMUIwSEI3NmpHRjdwTzU3NFlvYlF6N1dvOTlPMHJVNE0xV3RKemZDY0otcWZ6dzFEemRsOU02c0tmTUZnNzRwY1RqSTJJb1daZE1SdmpXS2lxempPRFJyLWlMbXhqNndXZ3VGM2h5Zk51c1RkOUtMZDRkM3c4bXpFb3kxNjVkVXFtYTJGSWg5VjZUdWRzeGxYTGo1Yjl4T2NNNjlqSE1wY1l2ZU92TTVra001bmxkUnJ3ZjhQNmtGcEY5MGk0VUpsXzdFWnYwSW10WVQtOV8tc3h1SzdvQ2o3aFZSVjBEbTJqSDgtSE5BbjJFeG9CWk9oQlh4M0NpZERaR1dWXzVUZ2FaUDZLUmp6RTVwb0t0MjNhZFpYT1lMdy1hU1FFOGRJS0k1RDlBaHNCYTRTRXpDeDdLVzc4MEQ3YlA3cVBnVVh1c0libENkWjMxWVVVekFqeTFBSVVWMnhNWEpuUTBodFNkc0dGbW5rdlE2UjJWenFXNmJGNG9PT1hEWHR1aHBPbXFpVE9UQjJDeUdnalEzSkNR?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-05-03T17:07:37.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 72,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1596887588",
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
@@ -657,35 +701,13 @@
       }
     },
     {
-      "id": "deal_1781446823",
-      "vc_id": "obvious",
-      "vc_name": "Obvious Ventures",
-      "company": "Iterative Health",
-      "title": "Iterative Health Closes $77 Million Series C to Accelerate the Future of Clinical Research - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPODRBMWEwWFR0eTJoVlU4TTgxZldxRHA1U1pHdEJJeDNOWWZBX1RPZk5nMXRNdU03WmdFWXhwRENpUnVNdmk1azItRVk1YUhxbi1iaktVLWJ2MFFoYVVCMzQ2eEVIb2hmcmRGWGd5dzVmYTFsemxJUkVrcVNha2tLNGJBTGxCVVBiRGhVaFUzUGpzdlNjczZrYTRTVThCLVU2dFJoSS0tVUZpQnVxZFB4ZURPenRhRWd2YU52S2F3TUpkWmpmUWJTbW15dC1VMHlLVzN1YXVOb2lWRjlNOXk5MmNLVQ?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-30T12:05:00.000Z",
-      "stage": "Series C",
-      "sector": "Biotech & Health",
-      "amount_usd_m": 77,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_703005022",
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Netomi",
-      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - Venturebeat",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
-      "source_name": "VentureBeat",
+      "source_name": "Venturebeat",
       "published_at": "2026-04-30T11:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -793,9 +815,9 @@
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
       "company": "AI Legal Firm Manifest OS",
-      "title": "AI Legal Firm Manifest OS Raises Funds at $750 Million Value - Bloomberg",
+      "title": "AI Legal Firm Manifest OS Raises Funds at $750 Million Value - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUUtaFNSSnNEYXN6TGE3OGZtUDhtQkNjdm1hekZqajhOSTNURXpMWllqQW9iZi1nRmVkODl5dnF5SHFvUHBmazVMcFYtc1Q3Mkt2ekRJbHFuQnBDWlZRbnNCanlST2F1U1l1TlBlSEhLeEJ5bmttbFFBQ2JFVS1fbGRzSVdhNnZvN1k4NldTeVpkTjg0czMzU29VRl9hSG13blRma1FyaGdvaHlRM0xYMVVXbmc?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-04-28T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -833,50 +855,6 @@
       }
     },
     {
-      "id": "deal_861546739",
-      "vc_id": "true-ventures",
-      "vc_name": "True Ventures",
-      "company": "Unknown",
-      "title": "Investors back Skye’s AI home screen app for iPhone ahead of launch - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjluLVlJNzkwMFVjTWlhMk5tNzI4dHBVTFFzMy1HVWZLZkhXV3VyRWxROXhfZFd5YjZyR0g0NzNOLW5nMkd0U2V6N2sxYUZsMU5MNnhYejk3WW16bnpGOUxVcHJGdVZVdlFUQ0MzaFJ2aHd3aEx3THBWRnR5OFZZVDRkcldlMF9LWHFKM2pmYmpieUFUWFp1MG5NNVVpa3JZV3Z6dF8ybEtuSzE0Mi1obTU3Yw?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-04-27T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1624911502",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - PA Media",
-      "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNUnYzbG43ejZJZGR4ZFlIQmp4ZEwwTmhQa21iZ2N1QlpneGdzRDBFTTBnSXBzc1ZNRFdqNE5fZFMyTnNXSlZWaldfdl9TZHNrb3BCRnVBXy1DVTFvWWNMYVlHVlk4bTRSYXl1cXlMdVFOcW9yOUpWeno3Y25VY1FUNklIeWdfMVRYVUlfVWYxWU5JcktZcTNucmVYWHFPZEIyempaMDhxZTdmRXR3LV93TVpBOEJHZ3BEOFBtTkQ1VmJMa2FpZ2hQeGNVaFoxb0M5MmU0R0F0NzNfX0pSc21DbEZsY3BwSG9Cd2JEeHg1Z3BsMk9FSmJxQ3cxTHFfQjk3MGktUS1rbzZRaGNZQm9sb0Z6YUJ4UW1JQ3RCcXB3?oc=5",
-      "source_name": "PA Media",
-      "published_at": "2026-04-23T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 72,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_492870685",
       "vc_id": "sutter-hill",
       "vc_name": "Sutter Hill Ventures",
@@ -894,28 +872,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1812590942",
-      "vc_id": "citi-ventures",
-      "vc_name": "Citi Ventures",
-      "company": "Unknown",
-      "title": "Wells Fargo, Citi and Goldman lead in AI venture investment - American Banker",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVc3dUQtM1lwZlZIYUlnMzZ4dklUem4zdUpfRUFaZWtoR1g1NEhDempyNS05Nms0M1dKVzdhYkJUMHl5RFN5MXRLSS0yTDVFcHJEanhadXgxd1IxSEtLOVdIazg5STAtc3Q3dzhUaUVTWDdocUdBZG1uVFVCMnFOQU1zcEUtWjVSWS1Wb05nWE8zTW5IWFJXSzln?oc=5",
-      "source_name": "American Banker",
-      "published_at": "2026-04-20T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -960,28 +916,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_167610610",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1141,28 +1075,6 @@
       }
     },
     {
-      "id": "deal_1518679841",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "Exclusive: Artemis",
-      "title": "Exclusive: Artemis raises $70M to help fight AI-powered attacks with AI - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 70,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1952559054",
       "vc_id": "sutter-hill",
       "vc_name": "Sutter Hill Ventures",
@@ -1317,45 +1229,23 @@
       }
     },
     {
-      "id": "deal_1663147050",
-      "vc_id": "sutter-hill",
-      "vc_name": "Sutter Hill Ventures",
+      "id": "deal_1260470521",
+      "vc_id": "qualcomm",
+      "vc_name": "Qualcomm Ventures",
       "company": "Unknown",
-      "title": "Nvidia Stock: Nvidia Invests In CPU Chip Startup SiFive - Investor's Business Daily",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaXpHeFcyVk1oUTRkRURJc1EwTlM2ck5QR3BVTGV1R1RvVTZ4SlFHR3Z5TDV2NVVJVG5tdE9mc0tpSHhhbzRvcld1OVE4aWNEbzUybHVvWkQ5ZW5IXzkxaHQxbExDdjVhbXZEd28tbEk3cWpkNm1OQXZPMVhLblRFNXp1dFo0MkFvemxra0tDQQ?oc=5",
-      "source_name": "Investor's Business Daily",
-      "published_at": "2026-04-09T07:00:00.000Z",
+      "title": "Ola alumni’s Manav Robotics in talks to raise $15-20 million from Blume, Qualcomm Ventures - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcmZ5b1ItT2ZISTRmUS1VZlB4TUlFZEI5YXNielFGVHhfRlVoZGJqdXc2cjlVWjJpUDAweVM0NUVtd2pIQWVwM19VVEZPdEo4bkpjOTFYTDRqY0RwWmVwZWlxdVFtRks5RU1EODhEVUw2WVNuZnZKcEFfMTdGeV9yNl81TXB5OF80YjI3QlNTSFlCZkRQRXN3Tm1keklzYXRhSThmVzdlSDA0VG9Vd2VtaFlSamFueFJ3dDNwTTFhX1ZMdExIYk9HaHhTSHVVcEY5QVlyOG1jQ0FXRjFHRE1QY3JnczctZTV6YnfSAe8BQVVfeXFMT3gtMXlEb3prVVZsU1o3eGcxckU1bUpiOTgwOHRWRnBNaTNWaWN1cm5ESm9qTHBIMXlLQzJPdFRKekhldFBOWHlNVTdvT1M4bkRfRl9mREMxWlV1MV8wZEVaNk9GbnlYUXh5QXUxaXVJQ1k0eHBnbUNTdDh5OGFtOXRQakY4QmhlZmYzbXVHQlplbTNxWkQ0cWpmbHlKRS1vMzhGMU15ekJMel9YUWxndl9zczV3TzRWbDhLNmxxNWppVmRCYTFDdlE2Z2VKSUZlZGE4RDU2cnBoR29hOHJCcll4VXVoRWdiQzRvZTR2TFE?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-04-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
+      "amount_usd_m": 15,
+      "confidence": 0.71,
       "location": {
-        "city": "Palo Alto",
+        "city": "San Diego",
         "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1259275473",
-      "vc_id": "fin-capital",
-      "vc_name": "Fin Capital",
-      "company": "Pipe",
-      "title": "Pipe Raises $16 Million in New Funding Round Led by Fin Capital and MaC Venture Capital - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcE9WQzFWZTNqbE1fLXlHWmhTakJKRkRWOG5mUVlPTkZHZm5vWWNkVE80X2IycXFQaVpuenhjZjdCdDh6QnRudU1lWk15MlVBOS1fSW1mX2QyNUZsQ2hoVGlGNURkRGFJMHdJSTF1TkprYmVvQWsxTmlVSTQ5MG5hSnJicUVPVk1FQXhXSTVLNVVUTHltblJzQ2RuVQ?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-04-09T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 16,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
+        "lat": 32.7157,
+        "lon": -117.1611,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1368,18 +1258,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 16,
-      "weighted_score": 68.12,
+      "deal_count": 15,
+      "weighted_score": 61.21,
       "latest_at": "2026-05-07T15:28:08.000Z",
-      "amount_usd_m_total": 4942,
+      "amount_usd_m_total": 4772,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 9
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -1389,7 +1279,7 @@
       "top_vcs": [
         {
           "name": "TCV",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Menlo Ventures",
@@ -1407,22 +1297,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 16,
-      "weighted_score": 55.61,
+      "deal_count": 14,
+      "weighted_score": 47.32,
       "latest_at": "2026-05-07T15:28:08.000Z",
-      "amount_usd_m_total": 2325,
+      "amount_usd_m_total": 2232,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 12
         },
         {
           "name": "Other",
           "count": 2
-        },
-        {
-          "name": "Biotech & Health",
-          "count": 1
         }
       ],
       "top_vcs": [
@@ -1435,8 +1321,8 @@
           "count": 3
         },
         {
-          "name": "Fin Capital",
-          "count": 3
+          "name": "SignalFire",
+          "count": 2
         }
       ]
     },
@@ -1446,14 +1332,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 9,
-      "weighted_score": 31.53,
+      "deal_count": 7,
+      "weighted_score": 27.31,
       "latest_at": "2026-05-05T13:00:00.000Z",
       "amount_usd_m_total": 440,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 6
         },
         {
           "name": "Other",
@@ -1463,7 +1349,7 @@
       "top_vcs": [
         {
           "name": "Sutter Hill Ventures",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Ribbit Capital",
@@ -1481,8 +1367,8 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 6,
-      "weighted_score": 19.92,
+      "deal_count": 5,
+      "weighted_score": 17.91,
       "latest_at": "2026-05-07T07:31:27.000Z",
       "amount_usd_m_total": 355,
       "top_sectors": [
@@ -1492,7 +1378,7 @@
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -1501,11 +1387,11 @@
           "count": 2
         },
         {
-          "name": "NextView Ventures",
-          "count": 2
+          "name": "Battery Ventures",
+          "count": 1
         },
         {
-          "name": "Battery Ventures",
+          "name": "Spark Capital",
           "count": 1
         }
       ]
@@ -1516,17 +1402,17 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 5,
-      "weighted_score": 14.44,
+      "deal_count": 4,
+      "weighted_score": 12.33,
       "latest_at": "2026-05-07T15:28:08.000Z",
       "amount_usd_m_total": 440,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 3
+          "name": "Other",
+          "count": 2
         },
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 2
         }
       ],
@@ -1538,10 +1424,6 @@
         {
           "name": "Venrock",
           "count": 2
-        },
-        {
-          "name": "Citi Ventures",
-          "count": 1
         }
       ]
     },
@@ -1642,6 +1524,33 @@
       ]
     },
     {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-05-05T20:07:50.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Arlington,VA",
       "city": "Arlington",
       "state": "VA",
@@ -1688,24 +1597,24 @@
       ]
     },
     {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
+      "key": "San Diego,CA",
+      "city": "San Diego",
       "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
+      "lat": 32.7157,
+      "lon": -117.1611,
       "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-05-05T20:07:50.000Z",
-      "amount_usd_m_total": 0,
+      "weighted_score": 2.91,
+      "latest_at": "2026-04-10T07:00:00.000Z",
+      "amount_usd_m_total": 15,
       "top_sectors": [
         {
-          "name": "Semis, Robotics & Hardware",
+          "name": "AI & ML",
           "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Intel Capital",
+          "name": "Qualcomm Ventures",
           "count": 1
         }
       ]
