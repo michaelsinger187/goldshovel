@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T13:50:18.398Z",
+  "generated_at": "2026-05-09T19:20:28.677Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 60,
-    "total_deals": 60,
+    "scraped_deals": 64,
+    "total_deals": 64,
     "demo_mode": false,
-    "deals_with_coordinates": 60,
-    "runtime_ms": 4137,
+    "deals_with_coordinates": 64,
+    "runtime_ms": 4656,
     "note": "",
     "error_sample": []
   },
@@ -80,6 +80,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1101635565",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "The 9 Largest NYC Tech Startup Funding Rounds of April 2026 - AlleyWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnA2aHlfOVU2cVptSGdfYW5JN2NDMFJrc0ozUkpVc011Vjk5TzJNOFBFYlNoLVpjM3dJeTUtV2w0OThjYUlvZzNlY2RkR0g1QW1jMDlSZ2VFc2JwUDRMRmhHcjVmQTdkZmNuRlpQUU1IWlBhcWVjTVg5TjZpNUsycHJpMA?oc=5",
+      "source_name": "AlleyWatch",
+      "published_at": "2026-05-07T15:28:08.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -331,9 +353,9 @@
       "vc_id": "intel-capital",
       "vc_name": "Intel Capital",
       "company": "Unknown",
-      "title": "Intel’s VC Arm Backs QuantWare, a Dutch Startup Making Quantum Computing Chips - Bloomberg.com",
+      "title": "Intel’s VC Arm Backs QuantWare, a Dutch Startup Making Quantum Computing Chips - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPemxLWFl1V1VYYkJPZ0lMekJvMmxfLVFjM09PdDZvUkpDZlhSSXRienJNcXVSYk9XczZLci1yMW1TV2dmSnRkV3VPd1Z5TmRzRjE5S3ZyVjRYN2UxalVJTTBFRDdYZmZqOXk0bWY4SE1pTUQyNVB5di02dklvbEVtMUVnQXpPazlOZVhJQjEtUmg5eV9EdVA5bmd1b1hlSUNBNUh2YWltdTZxZGRNTEFnY3JB?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-05-05T20:07:50.000Z",
       "stage": "Unspecified",
       "sector": "Semis, Robotics & Hardware",
@@ -701,13 +723,57 @@
       }
     },
     {
+      "id": "deal_1781446823",
+      "vc_id": "obvious",
+      "vc_name": "Obvious Ventures",
+      "company": "Iterative Health",
+      "title": "Iterative Health Closes $77 Million Series C to Accelerate the Future of Clinical Research - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPODRBMWEwWFR0eTJoVlU4TTgxZldxRHA1U1pHdEJJeDNOWWZBX1RPZk5nMXRNdU03WmdFWXhwRENpUnVNdmk1azItRVk1YUhxbi1iaktVLWJ2MFFoYVVCMzQ2eEVIb2hmcmRGWGd5dzVmYTFsemxJUkVrcVNha2tLNGJBTGxCVVBiRGhVaFUzUGpzdlNjczZrYTRTVThCLVU2dFJoSS0tVUZpQnVxZFB4ZURPenRhRWd2YU52S2F3TUpkWmpmUWJTbW15dC1VMHlLVzN1YXVOb2lWRjlNOXk5MmNLVQ?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-30T12:05:00.000Z",
+      "stage": "Series C",
+      "sector": "Biotech & Health",
+      "amount_usd_m": 77,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_560101203",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Netomi",
+      "title": "Netomi Raises $110M from Accenture Ventures, Adobe Ventures, and WndrCo to Deploy Agentic Customer Experiences in the World's Most Complex Environments and Create the AI-Embedded Digital Experience - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQcTlmdFpoQjd2SUQ5bDBRdFBzcndJSUkyRldCd1R2bldaVjdpNUtZbjh6cW1YMWo1d1JPY2k4czNKcTBlTmViN3oxVnJBTUpnRklvS2FTY3BuNDBUT2lEaUY4c29CUXRkZTNuczAtbE9tTExKLWJCY0gtUWF5eDdRbjEtQnNHUW1uYzM0aVQtZkNxT3VyeEFNQU10ZFY4a0IxcUFhczNwdTQ0VFlDYjFWSXAxQ3FRRjNPWWFXZUFvSklGWFV5b1BRNl81cjFtV2JYWG1fcF9kMUsyVV9jS0d5VHpERmpFSHpOX3ZWemU1Z29NbW1uUTBoamxPakl5LVVoWGxTelFNWG12RzNJZDRGMmdGVk1kUEMzMjlKTldSXzVqUWJkSTZpVzExQUlHS0VnSnFmRVAxTVhBQW1PVmIxM3IyS0NseTExVEVFSUN5V2dqTHVvdUVrWFhHdHBZQkNFU3BoVjV3OElpYWhVUmc?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-30T11:22:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_703005022",
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Netomi",
-      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - Venturebeat",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
-      "source_name": "VentureBeat",
+      "source_name": "Venturebeat",
       "published_at": "2026-04-30T11:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -837,9 +903,9 @@
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
       "company": "AI Legal Firm Manifest OS",
-      "title": "AI Legal Firm Manifest OS Raises Funds at $750 Million Value - Bloomberg.com",
+      "title": "AI Legal Firm Manifest OS Raises Funds at $750 Million Value - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUUUtaFNSSnNEYXN6TGE3OGZtUDhtQkNjdm1hekZqajhOSTNURXpMWllqQW9iZi1nRmVkODl5dnF5SHFvUHBmazVMcFYtc1Q3Mkt2ekRJbHFuQnBDWlZRbnNCanlST2F1U1l1TlBlSEhLeEJ5bmttbFFBQ2JFVS1fbGRzSVdhNnZvN1k4NldTeVpkTjg0czMzU29VRl9hSG13blRma1FyaGdvaHlRM0xYMVVXbmc?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-04-28T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -894,6 +960,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1411233120",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Rilian",
+      "title": "Rilian Secures $17.5 Million in Seed Funding to Advance Agentic AI for Cyber and Defense Operations - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQXdia0prQjFQaFJrVmNpc2tFMlJuTENtRUkxN2doUjdnSjVlTnlLWUktTUpmbDZPS2JjOXRISzhpTHp0U1NUbG1qX3A0Q1MybThSZ24wWFh2ZW5rWnZZSkZiSEdyZUhOY0I1UTZ2aFpDam4wUzF6N3RPNVdpcUVvNzI0TWxDYkExRnN4cHJLTXl6ZmQ5UFJxSE8tNVJzOVBSeHRJUEtlRGZ0RTU5cUE5R0xKdzNTRUdaRTlOMkFhT1R5SDBORy1yRFlXU2RyUmtvbmo0ZU9fZHRWZ3VCWHJyMFdpVXo4VXZTNW41dXpCcw?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-23T07:00:00.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 17.5,
+      "confidence": 0.96,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -982,28 +1070,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_167610610",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Unknown",
-      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1337,6 +1403,28 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
+    },
+    {
+      "id": "deal_1260470521",
+      "vc_id": "qualcomm",
+      "vc_name": "Qualcomm Ventures",
+      "company": "Unknown",
+      "title": "Ola alumni’s Manav Robotics in talks to raise $15-20 million from Blume, Qualcomm Ventures - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcmZ5b1ItT2ZISTRmUS1VZlB4TUlFZEI5YXNielFGVHhfRlVoZGJqdXc2cjlVWjJpUDAweVM0NUVtd2pIQWVwM19VVEZPdEo4bkpjOTFYTDRqY0RwWmVwZWlxdVFtRks5RU1EODhEVUw2WVNuZnZKcEFfMTdGeV9yNl81TXB5OF80YjI3QlNTSFlCZkRQRXN3Tm1keklzYXRhSThmVzdlSDA0VG9Vd2VtaFlSamFueFJ3dDNwTTFhX1ZMdExIYk9HaHhTSHVVcEY5QVlyOG1jQ0FXRjFHRE1QY3JnczctZTV6YnfSAe8BQVVfeXFMT3gtMXlEb3prVVZsU1o3eGcxckU1bUpiOTgwOHRWRnBNaTNWaWN1cm5ESm9qTHBIMXlLQzJPdFRKekhldFBOWHlNVTdvT1M4bkRfRl9mREMxWlV1MV8wZEVaNk9GbnlYUXh5QXUxaXVJQ1k0eHBnbUNTdDh5OGFtOXRQakY4QmhlZmYzbXVHQlplbTNxWkQ0cWpmbHlKRS1vMzhGMU15ekJMel9YUWxndl9zczV3TzRWbDhLNmxxNWppVmRCYTFDdlE2Z2VKSUZlZGE4RDU2cnBoR29hOHJCcll4VXVoRWdiQzRvZTR2TFE?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-04-10T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 15,
+      "confidence": 0.71,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
     }
   ],
   "bubbles": [
@@ -1347,17 +1435,17 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 17,
-      "weighted_score": 71.72,
+      "weighted_score": 68.46,
       "latest_at": "2026-05-07T15:28:08.000Z",
-      "amount_usd_m_total": 5002,
+      "amount_usd_m_total": 4902,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 12
+          "count": 11
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -1367,7 +1455,7 @@
       "top_vcs": [
         {
           "name": "TCV",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Menlo Ventures",
@@ -1385,18 +1473,22 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 14,
-      "weighted_score": 47.32,
+      "deal_count": 16,
+      "weighted_score": 56.42,
       "latest_at": "2026-05-07T15:28:08.000Z",
-      "amount_usd_m_total": 2232,
+      "amount_usd_m_total": 2419,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Other",
           "count": 2
+        },
+        {
+          "name": "Biotech & Health",
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -1409,8 +1501,8 @@
           "count": 3
         },
         {
-          "name": "SignalFire",
-          "count": 2
+          "name": "Fin Capital",
+          "count": 3
         }
       ]
     },
@@ -1551,6 +1643,33 @@
       ]
     },
     {
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 2,
+      "weighted_score": 7.88,
+      "latest_at": "2026-05-04T11:00:00.000Z",
+      "amount_usd_m_total": 114.5,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "8VC",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
@@ -1570,29 +1689,6 @@
         {
           "name": "GV",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 4.45,
-      "latest_at": "2026-05-04T11:00:00.000Z",
-      "amount_usd_m_total": 97,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
-          "count": 1
         }
       ]
     },
@@ -1688,6 +1784,29 @@
       "top_vcs": [
         {
           "name": "Workday Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Diego,CA",
+      "city": "San Diego",
+      "state": "CA",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "deal_count": 1,
+      "weighted_score": 2.91,
+      "latest_at": "2026-04-10T07:00:00.000Z",
+      "amount_usd_m_total": 15,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Qualcomm Ventures",
           "count": 1
         }
       ]
