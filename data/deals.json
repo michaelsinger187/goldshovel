@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T04:03:02.374Z",
+  "generated_at": "2026-05-12T08:52:29.158Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 56,
-    "total_deals": 56,
+    "scraped_deals": 60,
+    "total_deals": 60,
     "demo_mode": false,
-    "deals_with_coordinates": 56,
-    "runtime_ms": 4108,
+    "deals_with_coordinates": 60,
+    "runtime_ms": 3773,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1871385541",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Cowboy Space",
+      "title": "Cowboy Space Raises $275M For Orbital AI Data Centers - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdYUDhQSFlmNWZTR2NJODF3YzlUQ2NXRGhuem11RFU2QURsaTJQSVlSTGZEc3dDSlNCTU1YRUh6TnoxYUZiaXlhQUprNHhSRkhmcExCU2FKOFIyR3JERXZpTFM3Yzg0enU4VmVEcUtGZDVpYVZCc3oycE1NZHRaT3ZVNkZHbkJsbzZLNXF5QWNQaHozOWpUM21R?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-05-11T20:46:42.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 275,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_562765261",
       "vc_id": "human-capital",
@@ -146,6 +168,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1319761474",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Insight Partners - 2026 Investor Profile, Portfolio, Team & Exits - Tracxn",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY0NkaDVwdS1CVzM4XzYxRlNIaVR1VXZQeEVlR3V3NEhaUUctcm81bGNFUE1WbXRkdmZ3TjVQZG5feVY2Um5jVmUzZldaY3BjeVpLdUo1V1ZscnRDdVJkLWhwYjV0Wl9FdTZidHhfZVRFakhfaC00ZmRfODVCOWpsM0ZPUmYxZnc1NkpHQ2ZkWGhucGg5UnA1bEcxVGZDdw?oc=5",
+      "source_name": "Tracxn",
+      "published_at": "2026-05-06T11:13:45.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -547,18 +591,18 @@
       }
     },
     {
-      "id": "deal_1127366148",
-      "vc_id": "obvious",
-      "vc_name": "Obvious Ventures",
-      "company": "Iterative Health",
-      "title": "Iterative Health Closes $77 Million Series C to Accelerate the Future of Clinical Research - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPODRBMWEwWFR0eTJoVlU4TTgxZldxRHA1U1pHdEJJeDNOWWZBX1RPZk5nMXRNdU03WmdFWXhwRENpUnVNdmk1azItRVk1YUhxbi1iaktVLWJ2MFFoYVVCMzQ2eEVIb2hmcmRGWGd5dzVmYTFsemxJUkVrcVNha2tLNGJBTGxCVVBiRGhVaFUzUGpzdlNjczZrYTRTVThCLVU2dFJoSS0tVUZpQnVxZFB4ZURPenRhRWd2YU52S2F3TUpkWmpmUWJTbW15dC1VMHlLVzN1YXVOb2lWRjlNOXk5MmNLVQ?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-30T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "Biotech & Health",
-      "amount_usd_m": 77,
-      "confidence": 0.96,
+      "id": "deal_1306405372",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Netomi",
+      "title": "Netomi Raises $110M to Expand Agentic Customer Service - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkNMRTA2bTd0VEJMUkEtVlNVaWNxNk9KekROb1VqTGNLVG51UXZkeFluX2FWTjRGckpiVDY5SUxkbnVEZmRKTlZEei1UZGlpeWdzajNaQmg5bWpJV2E0d1Rna1htaEtkbk1YTWY1cmFyWW9qSkEwblN4T1k5NXpnWXM4TndMWk1BbXR0bVNjTURJQWtBOGVOdTZzZw?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-04-30T22:58:53.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -576,28 +620,6 @@
       "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
       "source_name": "VentureBeat",
-      "published_at": "2026-04-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 110,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2040290280",
-      "vc_id": "fin-capital",
-      "vc_name": "Fin Capital",
-      "company": "Netomi",
-      "title": "Netomi Raises $110M to Expand Agentic Customer Service - Let's Data Science",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkNMRTA2bTd0VEJMUkEtVlNVaWNxNk9KekROb1VqTGNLVG51UXZkeFluX2FWTjRGckpiVDY5SUxkbnVEZmRKTlZEei1UZGlpeWdzajNaQmg5bWpJV2E0d1Rna1htaEtkbk1YTWY1cmFyWW9qSkEwblN4T1k5NXpnWXM4TndMWk1BbXR0bVNjTURJQWtBOGVOdTZzZw?oc=5",
-      "source_name": "Let's Data Science",
       "published_at": "2026-04-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -701,6 +723,28 @@
       }
     },
     {
+      "id": "deal_1071680321",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Manifest OS",
+      "title": "Manifest OS Raises $60M to Scale the World’s First AI-Native Law Firm Model - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdm1XUkVVaXpwVEl3eTN5Vlh4REU0aVpLUDdvMk1leHZjZEs5NXdFU3NIZVM1ZjAyOF9VWDZfdnM3RnRlUW5DR0E5SW85bWxNXzZIbVRweWZpdnVPTU1mOVpyMklQNFd3em1IT3NpWHo3RTk1V1RsVk1meVJfajljdXB2LThWREF1THlDUWpmN3h4TmtCb29lMkp6VE1Ja3FiSENVNV9KaU1BaTgxUzlYUVpoNjZOc21vcWVCQWlWQ1F2SkthTi01dS0wRFZ2QQ?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 60,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_944608183",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
@@ -745,6 +789,28 @@
       }
     },
     {
+      "id": "deal_778666375",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith Announces $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNTNnSDlscS0wV3JOOTZaS2U0UEpkMUEySWZYR0hIQ1ptLXlFZk9FRi1FVUVUeVBBUHhUVGkwT3ExWC1QYVhvYlFRRGV2SHpsbXhRVlRuMkVMS1NqbWRhdEJWRmRNdWplMUUwQUVRVnNISGtJajlUSDhUelU3QXo2NmE1c1VRNEJaaUgwVlphVGVrMEFEOUhHX0FueW5zRGVGVGh4MlNHcjY3QVdNcDV4SVdlcWM1SndRQTlJcXhVeXFDZzdpUnI4Q1pMZ09Ic0JIV0dxbWQ1RlZfNWg5WWtSakdQS2tLN2tOYjJ2MnVRR3RQZENXejNSUGVTM0FMa1JBZUFjWGthdy0tdE9xODA4?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-04-28T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 72,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1249383291",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -784,28 +850,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1624911502",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - PA Media",
-      "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNUnYzbG43ejZJZGR4ZFlIQmp4ZEwwTmhQa21iZ2N1QlpneGdzRDBFTTBnSXBzc1ZNRFdqNE5fZFMyTnNXSlZWaldfdl9TZHNrb3BCRnVBXy1DVTFvWWNMYVlHVlk4bTRSYXl1cXlMdVFOcW9yOUpWeno3Y25VY1FUNklIeWdfMVRYVUlfVWYxWU5JcktZcTNucmVYWHFPZEIyempaMDhxZTdmRXR3LV93TVpBOEJHZ3BEOFBtTkQ1VmJMa2FpZ2hQeGNVaFoxb0M5MmU0R0F0NzNfX0pSc21DbEZsY3BwSG9Cd2JEeHg1Z3BsMk9FSmJxQ3cxTHFfQjk3MGktUS1rbzZRaGNZQm9sb0Z6YUJ4UW1JQ3RCcXB3?oc=5",
-      "source_name": "PA Media",
-      "published_at": "2026-04-23T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 72,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -899,6 +943,28 @@
       }
     },
     {
+      "id": "deal_167610610",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Unknown",
+      "title": "Slash Achieves Unicorn Status Following $100m Series C Fundraise - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeUtBT005aFdndDJvQUFfSzBBUkpoRWpBWVRwb0liSDZwTUdZY1M0U3lBUS0zUmFQWWJfbTV5UjlJeGg3UFpQTDFKZjcxZE84MkpVcXROQ0Q1Zm5WaUQzTU5UYWduTlk1NFgwUmFCVkZhdUpXY2puUm1hUTNpYjNXbEtZeldvSExqNV9mcENKUnA4bXFGMkVacm5WQURHSnI1bXllOFAyRUt4ZHlQbW9lQVNsQkl0ZWpoZERyZUtXUzM?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-16T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.86,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1706657222",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -982,6 +1048,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1722118132",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Joyful Health",
+      "title": "Joyful Health Raises $22M to Help Healthcare Providers Recover Billions in Unpaid Insurance Claims - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOenRYRkJPcURrdWxwXzJINUYtaXdfcVJNUG92SG9HZ25rdlVaZVRFbXJ5SDdqc1FDY3pwR0xKLURvNnFMQnVLNTJ2TWxlemNoUXFUaU1DWVphV2JsZi1hQWhsTzZwbWoxWDJ1R2UxREg1ZEdqYUNJeVEtcnR4azNhbEp5OTQwQ3B1bTkxZEVNY1JsWnNiZUsyTkxyQzBiQ0k3MUw0YTFFanVJRm1WQWp1MG82RFJqZHpaVTFwOTNndWszOENfTldOaU9EZUprY0l1WnhwTUVnQmxvNGU1UUNYbTJsMGxxSmk3?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-04-16T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 22,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1253,15 +1341,54 @@
   ],
   "bubbles": [
     {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 16,
+      "weighted_score": 67.15,
+      "latest_at": "2026-05-11T20:46:42.000Z",
+      "amount_usd_m_total": 3820.7,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 14
+        },
+        {
+          "name": "Other",
+          "count": 1
+        },
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "TCV",
+          "count": 3
+        },
+        {
+          "name": "Menlo Ventures",
+          "count": 3
+        },
+        {
+          "name": "Kleiner Perkins",
+          "count": 3
+        }
+      ]
+    },
+    {
       "key": "San Francisco,CA",
       "city": "San Francisco",
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 17,
-      "weighted_score": 65.41,
+      "deal_count": 16,
+      "weighted_score": 60.16,
       "latest_at": "2026-05-10T11:50:22.000Z",
-      "amount_usd_m_total": 14586,
+      "amount_usd_m_total": 14509,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1269,10 +1396,6 @@
         },
         {
           "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "Biotech & Health",
           "count": 1
         }
       ],
@@ -1292,54 +1415,19 @@
       ]
     },
     {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 12,
-      "weighted_score": 52.03,
-      "latest_at": "2026-05-06T16:00:00.000Z",
-      "amount_usd_m_total": 3385.7,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 11
-        },
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Menlo Ventures",
-          "count": 3
-        },
-        {
-          "name": "TCV",
-          "count": 2
-        },
-        {
-          "name": "Felicis",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 9,
-      "weighted_score": 33.77,
+      "deal_count": 10,
+      "weighted_score": 36.94,
       "latest_at": "2026-05-05T13:00:00.000Z",
-      "amount_usd_m_total": 500,
+      "amount_usd_m_total": 522,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Other",
@@ -1356,7 +1444,7 @@
           "count": 2
         },
         {
-          "name": "Ribbit Capital",
+          "name": "CRV",
           "count": 2
         }
       ]
