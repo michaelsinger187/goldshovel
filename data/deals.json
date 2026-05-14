@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T14:37:57.943Z",
+  "generated_at": "2026-05-14T20:00:46.325Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 71,
-    "total_deals": 71,
+    "scraped_deals": 73,
+    "total_deals": 73,
     "demo_mode": false,
-    "deals_with_coordinates": 71,
-    "runtime_ms": 4433,
+    "deals_with_coordinates": 73,
+    "runtime_ms": 4420,
     "note": "",
     "error_sample": []
   },
@@ -80,6 +80,50 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1327059326",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "AI Startup Fractile",
+      "title": "AI Startup Fractile Raises $220 Million for Chip Production - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZWN0N1JDUHY4MkVwcUh4UTVVdFphQ2t1dERmWkEzRlBmZlBfS0trQldiNy1pX1F6MlJqU0dzR2VVZ054M0hVVVJkN0h2MnBLYnhXNnIxZkxHZ0FwOVJvRGtUXzNOV3ZfbWNMbW5RMTJ6YUh3ekUzYm1DeWNqeFA1c3NzTW5hQlZ4aE16SDhUOXF3cXVRUjJINFZSQ2UtdF9qX2hGd2p1WV8taV9RSnc?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-05-13T15:42:43.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 220,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_993456572",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "DeepInfra",
+      "title": "DeepInfra Raises $107M to Scale Inference Infrastructure - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNelp6U2JKM3hENDVDU0Z3X3ZqOTNBd3lvTXhIUUxYTFZsbmxCVHdwWU1VdWJDa1ZVZ2xBdXJNWHZGVFc1RUViRV9IOGlTMHlaSTZJNTBLTWlVZmlTTlV1aWxjVFlCUy1NOXpLV2ZqLWhEM0QxTkExUGtuYmk4RG1JaU1KbWhHWmdlVEVsN1dwS1YtQnVqVFN3RDczOHU5UQ?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-05-12T22:24:32.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 107,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -217,18 +261,18 @@
       }
     },
     {
-      "id": "deal_1871385541",
-      "vc_id": "ivp",
-      "vc_name": "IVP",
-      "company": "Cowboy Space",
-      "title": "Cowboy Space Raises $275M For Orbital AI Data Centers - Let's Data Science",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdYUDhQSFlmNWZTR2NJODF3YzlUQ2NXRGhuem11RFU2QURsaTJQSVlSTGZEc3dDSlNCTU1YRUh6TnoxYUZiaXlhQUprNHhSRkhmcExCU2FKOFIyR3JERXZpTFM3Yzg0enU4VmVEcUtGZDVpYVZCc3oycE1NZHRaT3ZVNkZHbkJsbzZLNXF5QWNQaHozOWpUM21R?oc=5",
-      "source_name": "Let's Data Science",
-      "published_at": "2026-05-11T20:46:42.000Z",
-      "stage": "Unspecified",
+      "id": "deal_1346781376",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith raises $72M Series C led by TCV with participation from Insight Partners to control and secure the AI-powered software supply chain - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxPOFkxX2NTV2FEalF3VWd5RXVfX282d2RGVmtLa0pDMUIwSEI3NmpHRjdwTzU3NFlvYlF6N1dvOTlPMHJVNE0xV3RKemZDY0otcWZ6dzFEemRsOU02c0tmTUZnNzRwY1RqSTJJb1daZE1SdmpXS2lxempPRFJyLWlMbXhqNndXZ3VGM2h5Zk51c1RkOUtMZDRkM3c4bXpFb3kxNjVkVXFtYTJGSWg5VjZUdWRzeGxYTGo1Yjl4T2NNNjlqSE1wY1l2ZU92TTVra001bmxkUnJ3ZjhQNmtGcEY5MGk0VUpsXzdFWnYwSW10WVQtOV8tc3h1SzdvQ2o3aFZSVjBEbTJqSDgtSE5BbjJFeG9CWk9oQlh4M0NpZERaR1dWXzVUZ2FaUDZLUmp6RTVwb0t0MjNhZFpYT1lMdy1hU1FFOGRJS0k1RDlBaHNCYTRTRXpDeDdLVzc4MEQ3YlA3cVBnVVh1c0libENkWjMxWVVVekFqeTFBSVVWMnhNWEpuUTBodFNkc0dGbW5rdlE2UjJWenFXNmJGNG9PT1hEWHR1aHBPbXFpVE9UQjJDeUdnalEzSkNR?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-05-11T17:26:06.000Z",
+      "stage": "Series C",
       "sector": "AI & ML",
-      "amount_usd_m": 275,
-      "confidence": 0.81,
+      "amount_usd_m": 72,
+      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -322,28 +366,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1140593471",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Unknown",
-      "title": "Andreessen Horowitz in Funding Round for Swedish AI Startup Pit - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWElrOE9OaGpNR2pLV3lFQ0VyTVE4Y2x0d1pnaVRyVm5GUzI3aTdjSG9nSlhRUkdnZlV3VThuT3VrVVpsUzVXeTJXNXpZVEtrLVM4RVJaTW1GV1B0WS1qdDFDanBBUjlUdGg4OGIyNXpncEs0YlloSXhtVHNodDdub0JTMmdVc3RRcmRWcEcwYndFYUh2ZDZ2VlJMSUN2X2x6bldYdzlUeFU1SDJrRkQwYnJwQl8?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-05-07T05:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -459,6 +481,28 @@
       }
     },
     {
+      "id": "deal_108792900",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Unknown",
+      "title": "Andreessen Horowitz in Funding Round for Swedish AI Startup Pit - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWElrOE9OaGpNR2pLV3lFQ0VyTVE4Y2x0d1pnaVRyVm5GUzI3aTdjSG9nSlhRUkdnZlV3VThuT3VrVVpsUzVXeTJXNXpZVEtrLVM4RVJaTW1GV1B0WS1qdDFDanBBUjlUdGg4OGIyNXpncEs0YlloSXhtVHNodDdub0JTMmdVc3RRcmRWcEcwYndFYUh2ZDZ2VlJMSUN2X2x6bldYdzlUeFU1SDJrRkQwYnJwQl8?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-05-06T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_790215401",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
@@ -476,28 +520,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_604543948",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "ZyG",
-      "title": "ZyG Raises $60M Series A for AI Ecommerce OS - Let's Data Science",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUhNeVBfQUVmaGF6NkRjOS13RzV5Y0xITXU2NlBrb3pQazBBaUdIMEVVMGRTUUlzaWFmVmFtak8tc19rZE5GV3VwcVBuMk1ENWE1cm5GaklueGMzU0JzWmhHYTVDdXg2SGNHM3ZhaktJTF9CejlwUzZFTF9LSlM4cHc2MGp0bF9ET0xmNWRn?oc=5",
-      "source_name": "Let's Data Science",
-      "published_at": "2026-05-05T11:40:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -547,28 +569,6 @@
       }
     },
     {
-      "id": "deal_1160986270",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "Unknown",
-      "title": "RadixArk Launches with $100 Million in Seed Funding Led by Accel to Grow SGLang and Democratize Frontier AI Infrastructure - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZmFad3ROWTRhZG5nQktXZm9Fckt4d0Nza0VFZnliRWpielBSZmZxUVU2OU81anBJT3E3RzdPNTh6YTRoajhwM2xZTmVSMjk5SGZNOEczUTJlWmlmRTdubW1nYkxDSk9PQnQyZTliTmlXS0lTQzdFczBVOUVxcVJKRE9maGQ5cVJJelVLLUNickdrcnpENGE5a0pTN2w3TG52WEYzemszYWZRNnVmeEtTSmo1MWNCOEtkdklkenZMamVfYWtmVU1KbkNSUFBGV180Ym16WVBjTzFEWTBjY2NUa19kZ1NhaDhXR0F5QnNDZnVPV1Y2X1dIQWlpR2U1SmlsbEphSFE2Y2Y4VGh3Tnc?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-05-05T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1000398881",
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
@@ -608,6 +608,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2091182170",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Unknown",
+      "title": "Intel’s VC Arm Backs QuantWare, a Dutch Startup Making Quantum Computing Chips - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPemxLWFl1V1VYYkJPZ0lMekJvMmxfLVFjM09PdDZvUkpDZlhSSXRienJNcXVSYk9XczZLci1yMW1TV2dmSnRkV3VPd1Z5TmRzRjE5S3ZyVjRYN2UxalVJTTBFRDdYZmZqOXk0bWY4SE1pTUQyNVB5di02dklvbEVtMUVnQXpPazlOZVhJQjEtUmg5eV9EdVA5bmd1b1hlSUNBNUh2YWltdTZxZGRNTEFnY3JB?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-05-05T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -987,18 +1009,18 @@
       }
     },
     {
-      "id": "deal_778666375",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Cloudsmith",
-      "title": "Cloudsmith Announces $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNTNnSDlscS0wV3JOOTZaS2U0UEpkMUEySWZYR0hIQ1ptLXlFZk9FRi1FVUVUeVBBUHhUVGkwT3ExWC1QYVhvYlFRRGV2SHpsbXhRVlRuMkVMS1NqbWRhdEJWRmRNdWplMUUwQUVRVnNISGtJajlUSDhUelU3QXo2NmE1c1VRNEJaaUgwVlphVGVrMEFEOUhHX0FueW5zRGVGVGh4MlNHcjY3QVdNcDV4SVdlcWM1SndRQTlJcXhVeXFDZzdpUnI4Q1pMZ09Ic0JIV0dxbWQ1RlZfNWg5WWtSakdQS2tLN2tOYjJ2MnVRR3RQZENXejNSUGVTM0FMa1JBZUFjWGthdy0tdE9xODA4?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-04-28T07:00:00.000Z",
-      "stage": "Series C",
+      "id": "deal_1249383291",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Unknown",
+      "title": "How a chance encounter in Texas sparked a $1 billion Kleiner Perkins-backed AI startup - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWRVVk9ERzcyWklXRFE5czlNZUF5OFNyOWRuaFZkcTZnSFJMS2w0NVZ3Z3lYWldwQ2JaQmVuTzNvNE95UHJqWm9Scmt5ejJrVHN1eS1EV1RocEZBdm1SV2hzaEptTVBVYWlBc05pR0VCMm9IYW1zQnRRWGRlQlJaTjY1ZkJrTU5kVjlGRjZaMU82MmtGaEZuZVEyVjRTQ0xqWDBTTVh5bHA5WkZDWUN3b1NuSVQyNXpJbVNHbjd5cWNkUQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-04-27T07:00:00.000Z",
+      "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 72,
-      "confidence": 0.96,
+      "amount_usd_m": 1000,
+      "confidence": 0.71,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1009,9 +1031,9 @@
       }
     },
     {
-      "id": "deal_1249383291",
-      "vc_id": "kleiner-perkins",
-      "vc_name": "Kleiner Perkins",
+      "id": "deal_1296925166",
+      "vc_id": "norwest",
+      "vc_name": "Norwest Venture Partners",
       "company": "Unknown",
       "title": "How a chance encounter in Texas sparked a $1 billion Kleiner Perkins-backed AI startup - Fortune",
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWRVVk9ERzcyWklXRFE5czlNZUF5OFNyOWRuaFZkcTZnSFJMS2w0NVZ3Z3lYWldwQ2JaQmVuTzNvNE95UHJqWm9Scmt5ejJrVHN1eS1EV1RocEZBdm1SV2hzaEptTVBVYWlBc05pR0VCMm9IYW1zQnRRWGRlQlJaTjY1ZkJrTU5kVjlGRjZaMU82MmtGaEZuZVEyVjRTQ0xqWDBTTVh5bHA5WkZDWUN3b1NuSVQyNXpJbVNHbjd5cWNkUQ?oc=5",
@@ -1070,28 +1092,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1411233120",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Rilian",
-      "title": "Rilian Secures $17.5 Million in Seed Funding to Advance Agentic AI for Cyber and Defense Operations - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQXdia0prQjFQaFJrVmNpc2tFMlJuTENtRUkxN2doUjdnSjVlTnlLWUktTUpmbDZPS2JjOXRISzhpTHp0U1NUbG1qX3A0Q1MybThSZ24wWFh2ZW5rWnZZSkZiSEdyZUhOY0I1UTZ2aFpDam4wUzF6N3RPNVdpcUVvNzI0TWxDYkExRnN4cHJLTXl6ZmQ5UFJxSE8tNVJzOVBSeHRJUEtlRGZ0RTU5cUE5R0xKdzNTRUdaRTlOMkFhT1R5SDBORy1yRFlXU2RyUmtvbmo0ZU9fZHRWZ3VCWHJyMFdpVXo4VXZTNW41dXpCcw?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-23T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 17.5,
-      "confidence": 0.96,
-      "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1202,6 +1202,50 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1194975031",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Unknown",
+      "title": "Funding Reality Check For AI Systems Math Startup Axiom - AI CERTs",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNEJyaVRGRFlLM2d4cmhUeFhKcEZadzdxMnJiOTduLTRnYUNaQjc4cVJ2YTVreG9GZE5BRmpRNDlxRlc1ZTNqOUd1cXZlc0ktS1p1V25CSExtMWFGX3ctSHR4ekVaZlJDeG1LaUlLMjdtcGpMcXQ4YV9CUUNrV1d6TUNhNHhPMkxwWWRnQQ?oc=5",
+      "source_name": "AI CERTs",
+      "published_at": "2026-04-18T13:07:01.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1660257484",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Unknown",
+      "title": "Factory AI Agents: Startup Reaches $1.5B Valuation with Khosla Ventures Funding - News and Statistics - IndexBox",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR1JFd1c4dWI0LXJrSlo1XzNxZkU1UlNtUmFQaTA3aXhUN0U2ekVvSjJ5RW9haS1UOENiYU1UNE50OUpvbk1XNjlDLUZfeUt3MkhJdlY5TUJKbjV5Y2c0YVNRMXlLNjFvOC0wZEZnd25qWjZma09zYzdkVXZCYTZfNlk0R0pCR1ljZnFULUpXaHgxQU1oeHJNNlNIcHhpQlJ5?oc=5",
+      "source_name": "IndexBox",
+      "published_at": "2026-04-17T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1500,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1361,28 +1405,6 @@
       }
     },
     {
-      "id": "deal_1722118132",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "Joyful Health",
-      "title": "Joyful Health Raises $22M to Help Healthcare Providers Recover Billions in Unpaid Insurance Claims - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOenRYRkJPcURrdWxwXzJINUYtaXdfcVJNUG92SG9HZ25rdlVaZVRFbXJ5SDdqc1FDY3pwR0xKLURvNnFMQnVLNTJ2TWxlemNoUXFUaU1DWVphV2JsZi1hQWhsTzZwbWoxWDJ1R2UxREg1ZEdqYUNJeVEtcnR4azNhbEp5OTQwQ3B1bTkxZEVNY1JsWnNiZUsyTkxyQzBiQ0k3MUw0YTFFanVJRm1WQWp1MG82RFJqZHpaVTFwOTNndWszOENfTldOaU9EZUprY0l1WnhwTUVnQmxvNGU1UUNYbTJsMGxxSmk3?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 22,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1443868834",
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
@@ -1515,6 +1537,28 @@
       }
     },
     {
+      "id": "deal_1256505381",
+      "vc_id": "initialized",
+      "vc_name": "Initialized Capital",
+      "company": "AI and quantum startup Sygaldry",
+      "title": "AI and quantum startup Sygaldry raises $139m across two funding rounds - Data Center Dynamics",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYnhkQlQ2aWxmbWlkVjZ4U28zY3hUckRhNVBCSS1OQTJtbkdvNkhfa3U3czIxcVdxeVIxbjAyVXpycU51aXVuRC1VNWI3V21KUmVvU2tLeV9lMUZJQ2lmZU5CQUpfRE5oMGlzRTg1NlZHcXBjUEV4dnNtR0YtMFVyM3o3MzhGUXdlbjA1VWw5ZkFXTDcyZExPRExRNmtCQWhPSGV5cWdkWDZyWTJVdjlsUVBBWQ?oc=5",
+      "source_name": "Data Center Dynamics",
+      "published_at": "2026-04-15T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 139,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1952559054",
       "vc_id": "sutter-hill",
       "vc_name": "Sutter Hill Ventures",
@@ -1583,19 +1627,54 @@
   ],
   "bubbles": [
     {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 23,
+      "weighted_score": 93.34,
+      "latest_at": "2026-05-14T05:00:00.000Z",
+      "amount_usd_m_total": 6771,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 21
+        },
+        {
+          "name": "Other",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Kleiner Perkins",
+          "count": 4
+        },
+        {
+          "name": "TCV",
+          "count": 4
+        },
+        {
+          "name": "Felicis",
+          "count": 3
+        }
+      ]
+    },
+    {
       "key": "San Francisco,CA",
       "city": "San Francisco",
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 21,
-      "weighted_score": 81.13,
+      "deal_count": 22,
+      "weighted_score": 85.09,
       "latest_at": "2026-05-13T19:22:46.000Z",
-      "amount_usd_m_total": 3096,
+      "amount_usd_m_total": 3235,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 18
+          "count": 19
         },
         {
           "name": "Other",
@@ -1622,54 +1701,19 @@
       ]
     },
     {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 19,
-      "weighted_score": 77.88,
-      "latest_at": "2026-05-14T05:00:00.000Z",
-      "amount_usd_m_total": 4219,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 17
-        },
-        {
-          "name": "Other",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Kleiner Perkins",
-          "count": 4
-        },
-        {
-          "name": "TCV",
-          "count": 4
-        },
-        {
-          "name": "Andreessen Horowitz",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 11,
-      "weighted_score": 41.18,
-      "latest_at": "2026-05-05T11:40:00.000Z",
-      "amount_usd_m_total": 569,
+      "deal_count": 8,
+      "weighted_score": 29.6,
+      "latest_at": "2026-05-04T07:00:00.000Z",
+      "amount_usd_m_total": 387,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 7
         },
         {
           "name": "Other",
@@ -1682,12 +1726,12 @@
           "count": 3
         },
         {
-          "name": "Accel",
+          "name": "Ribbit Capital",
           "count": 2
         },
         {
-          "name": "CRV",
-          "count": 2
+          "name": "DCVC",
+          "count": 1
         }
       ]
     },
@@ -1789,33 +1833,6 @@
       ]
     },
     {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 2,
-      "weighted_score": 7.88,
-      "latest_at": "2026-05-04T07:00:00.000Z",
-      "amount_usd_m_total": 114.5,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Redmond,WA",
       "city": "Redmond",
       "state": "WA",
@@ -1834,6 +1851,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 1,
+      "weighted_score": 4.45,
+      "latest_at": "2026-05-04T07:00:00.000Z",
+      "amount_usd_m_total": 97,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "8VC",
           "count": 1
         }
       ]
@@ -1885,6 +1925,33 @@
       ]
     },
     {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-05-05T07:00:00.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Pleasanton,CA",
       "city": "Pleasanton",
       "state": "CA",
@@ -1903,29 +1970,6 @@
       "top_vcs": [
         {
           "name": "Workday Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-05-04T09:05:18.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Intel Capital",
           "count": 1
         }
       ]
