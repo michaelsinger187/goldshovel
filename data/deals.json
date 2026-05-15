@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T04:15:27.011Z",
+  "generated_at": "2026-05-15T09:22:42.809Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 72,
-    "total_deals": 72,
+    "scraped_deals": 67,
+    "total_deals": 67,
     "demo_mode": false,
-    "deals_with_coordinates": 72,
-    "runtime_ms": 4307,
+    "deals_with_coordinates": 67,
+    "runtime_ms": 3900,
     "note": "",
     "error_sample": []
   },
@@ -31,6 +31,28 @@
       "sector": "Other",
       "amount_usd_m": null,
       "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_190781906",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Cowboy Space",
+      "title": "Cowboy Space Raises $275M For Orbital AI Data Centers - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdYUDhQSFlmNWZTR2NJODF3YzlUQ2NXRGhuem11RFU2QURsaTJQSVlSTGZEc3dDSlNCTU1YRUh6TnoxYUZiaXlhQUprNHhSRkhmcExCU2FKOFIyR3JERXZpTFM3Yzg0enU4VmVEcUtGZDVpYVZCc3oycE1NZHRaT3ZVNkZHbkJsbzZLNXF5QWNQaHozOWpUM21R?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-05-14T04:11:39.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 275,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -217,23 +239,23 @@
       }
     },
     {
-      "id": "deal_1678538063",
-      "vc_id": "m12",
-      "vc_name": "M12",
-      "company": "Vapi",
-      "title": "Vapi raises $50M Series B as it reaches 1 billion calls, powering the next generation of enterprise voice AI - markets.businessinsider.com",
-      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPOWJoVWcyLV8zMk5OX19TWTY0bWNfdk9faGN4MVAtUmNkbUUyNGVMcjJQS0t1X1dhdW9jOC1ya2RQblgyMlc1bXVFQUdLZFh1amRkWFFwTmNiUWZtT21IX1B2VXNrdGtXdzRTZFBTQzBrZURVR3oweXNZWW9nLWpmQTZfT1FXb1JGQlh3akJyWEU4c2lpeU9vOUJqY2VFZkVhZnFfWmtHc3MtSk1fM1h5a0ZCd1p2QWg1OTd2U29ULTVSakczUDlVR1o2RW1fdVZUblVLa3k2T29KUDdZRXAyY0U2OU9TclN1UGxqRm1TMkZpS19mb2ZNbA?oc=5",
-      "source_name": "markets.businessinsider.com",
-      "published_at": "2026-05-12T13:59:34.000Z",
-      "stage": "Series B",
+      "id": "deal_1744344332",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Exclusive: Roadrunner",
+      "title": "Exclusive: Roadrunner raises $27 million from Kleiner Perkins and Founders Fund - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JVVhoU0pCZEExb05jQmZCbmNhanlvT3F2VGZNQmJCZTR4Wk1sbjNaWVJaNEF6eHRPNFRMZHRReUNERVk4YzJzaDRCNC1adlJQMkFELXY4VGtSX3hpcnlPS0Z0QV9vcGNQbHlveVN2VC1IZTh1M0xWZA?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-05-12T10:03:00.000Z",
+      "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.96,
+      "amount_usd_m": 27,
+      "confidence": 0.81,
       "location": {
-        "city": "Redmond",
-        "state": "WA",
-        "lat": 47.6739,
-        "lon": -122.1215,
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -283,6 +305,28 @@
       }
     },
     {
+      "id": "deal_1974054928",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Cowboy",
+      "title": "Cowboy raises $275 million to build rockets with orbital data center upper stages - SpaceNews",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVEJVakxzY0hjbk5RVUVlQkNFeWtNUUlKOGZ2VkV6NkRTUnozQmF0RlF6MGdzLWZTOENVT2puVFhvRDZyWWVwR3V2THMwbm9hMW9SSEhYd2JsMktRdG8zaXl2Mmh4d1owT3oyXzZWcmJoa0o1T3BvdlVFUmhhS1ZHRGlaRlplWU9idjNtams4OFR5bWRNN0RfRG1yTU1tMWFPNVNucEhB?oc=5",
+      "source_name": "SpaceNews",
+      "published_at": "2026-05-11T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 275,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_562765261",
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
@@ -327,6 +371,28 @@
       }
     },
     {
+      "id": "deal_1737592774",
+      "vc_id": "dcvc",
+      "vc_name": "DCVC",
+      "company": "Unknown",
+      "title": "Bosch Ventures participates in USD 160 million Series C of Quantum Motion to advance scalable and energy-efficient quantum computing - Bosch Media Service",
+      "source_url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPT09qY3AyUUR0YW1zU2pWVjdOald1MzNfYlVWMko3ZVQ3M2ZWZHBRR18tc2x2S085emU0cnJyV3BJNzhNcmZzOWJpUDlsakZrWXowRUZxTURaZ2kwNFlhalQyQ1dNZWZZVF9ldjJsUHV4TmZESmpCTlJ6MVFiMVRIUHctZ2I1YjdnNXFVWk02T1I2VDY1SlZvVmJONlpHYnpXQ2RrY3R0TmZYdFM0am5hTHlZbS1CNzZ5WU9ubXB0N2I1WS0tLWRYYXZHN0tkcVJ1TzIwanNxUHN5QnVyRk5IaDNuZ0dMOGhoMG4wWVNTdTkxc2tKQkhPeUtZZUNqMFdUWXpid2o4VUhzeGwzVHg0anZqa3NBMnFTa2c?oc=5",
+      "source_name": "Bosch Media Service",
+      "published_at": "2026-05-07T10:43:56.000Z",
+      "stage": "Series C",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.56,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1495714654",
       "vc_id": "tcv",
       "vc_name": "TCV",
@@ -366,6 +432,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1574448250",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Insurance startup Corgi hits $1.3B valuation 4 months after its Series A - The Tech Buzz",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTkgycjFKbDJvN1lYa082M1plaTVHU0l1LUFiLUY3cE1jcjdpdm1ZdHBNbnVmUWx5Z0tRVUx1UzNHTWtQNDdtTl9GdzlmYy1kWDNGTWJBeG94Q0hhUnRWLUw4TWo3NllOejRSY3d1bnpSWW9XTHdIOVRYMG9RNlppcHZCVU9COE5KM0dldjlxODA4RkZTYUllMFA0OVR6Z0xwYnJ6UEZPMA?oc=5",
+      "source_name": "The Tech Buzz",
+      "published_at": "2026-05-06T21:46:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 1300,
+      "confidence": 0.86,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -859,9 +947,9 @@
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Netomi",
-      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - Venturebeat",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
-      "source_name": "VentureBeat",
+      "source_name": "Venturebeat",
       "published_at": "2026-04-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1009,6 +1097,28 @@
       }
     },
     {
+      "id": "deal_778666375",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Cloudsmith",
+      "title": "Cloudsmith Announces $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNNTNnSDlscS0wV3JOOTZaS2U0UEpkMUEySWZYR0hIQ1ptLXlFZk9FRi1FVUVUeVBBUHhUVGkwT3ExWC1QYVhvYlFRRGV2SHpsbXhRVlRuMkVMS1NqbWRhdEJWRmRNdWplMUUwQUVRVnNISGtJajlUSDhUelU3QXo2NmE1c1VRNEJaaUgwVlphVGVrMEFEOUhHX0FueW5zRGVGVGh4MlNHcjY3QVdNcDV4SVdlcWM1SndRQTlJcXhVeXFDZzdpUnI4Q1pMZ09Ic0JIV0dxbWQ1RlZfNWg5WWtSakdQS2tLN2tOYjJ2MnVRR3RQZENXejNSUGVTM0FMa1JBZUFjWGthdy0tdE9xODA4?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-04-28T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 72,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1249383291",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -1053,50 +1163,6 @@
       }
     },
     {
-      "id": "deal_342422124",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "UK VC term sheets highlight diverging trends between early and late-stage investment - Disruption Banking",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcVlXY2FkQ3EzM3MzTHdWU1ozRU5IMktkZWFCU2JlRlJvTzR1MTdHNFhRWHZ2OHlwQk1HM2ZNQXJ4RXg3ZVI5YThEY2VuaGhXRGhpWlcxMHpwS0FRUlZtNlpVdUNwTHVjS3FybWplZHhIa1B2dzhkZ1pOcDEyQVd6R1VWcUwzaUlDSXFhXzZPak90cHJ2QThSdFltVl8za05BRi1tdG9VZUU1NUtvWktPTk5abVBOUEFTR0dva293Z2Noa0FCY2c2YThB?oc=5",
-      "source_name": "Disruption Banking",
-      "published_at": "2026-04-23T07:00:00.000Z",
-      "stage": "Growth",
-      "sector": "Fintech",
-      "amount_usd_m": null,
-      "confidence": 0.66,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_679460538",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNdUEwUF9TWHhadlVZdHRZVlBCUlJ1VEFkMjNSRFBmaGlJMFhRT0phMTI0d0NuTHZrNkJjYU5WXzRTYlhUVE1Td3BJYy1fMllHcmtvVU03SEFibzZQaU5UMjFiWTRwSU5TczBLVG5PQUxDYkFlSF9NNFRtX20taW1yM3BXWWpQZnhaRmp2YnlZd1lHUWRYUFIyYkJkV3lVNUp4QWR0c2c3ZDdZNXptS1IybVJhMlhuclJkYUQ0X3pRSFpyUGtqV1llQUJ1dndmOU5UdVpTd1JLd3dFWEl4dnRDcTg0azZHdlJTRWxLallQNVFNb3BYbmlPSk9CaWtFZTQ3WElIc3ZDTTBEUkJaY0J2S3gyQk9rSElrdS1zUjJNZ3RMUXQ4b2dhQw?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-04-23T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 72,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1411233120",
       "vc_id": "8vc",
       "vc_name": "8VC",
@@ -1136,6 +1202,28 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1218762369",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "Cathie Wood’s ARK makes its first lead investment in startup Lucra — and it isn’t AI - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd0s0VmNDVVM3MG1EanF3SC1PTkdZZmR3cjNUcElqWEVXT0Y1c1RETmlBYmlhb2xnaXU0elRkNDJ1N0dDbVkzbUlIY2ViZjdJRUp1aDB0VE96Sk5Nc1pGTk45d3I3cUZIenlCY0swS3E5OV84WnRYS05ya3NORE1PQmlUT1RUbnNseEdpU1ozQU1zUlhYU2ttRXZHNVVqeE5iRWRETkJURXljU3JVa2g1WlBCMFliZw?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-04-22T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1207,23 +1295,23 @@
       }
     },
     {
-      "id": "deal_917274366",
-      "vc_id": "battery",
-      "vc_name": "Battery Ventures",
+      "id": "deal_1660257484",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
       "company": "Unknown",
-      "title": "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc21McThUZFhTcUpDTmlFeVoyZ2ZqZ2xrVkdKanZGZkE1Y0NSbW1abzB2dVJkYkJpM25SMmRyR0c5UlFMZ1FVTndVa0ZDZjU4SWNHYzd3eUk2R0M3RE1ZNF9wd2hmRndZU2RpVEdwaWQwNGxFT0xEbnJqR3ZtdWlkVUtVN3VVWDFIaVhLcnpVbVFtb3VtdGVYSjhuWUZiakp2M0ZmRlJLcWVraVpESTBKOS1VUGFYZw?oc=5",
-      "source_name": "TechCrunch",
+      "title": "Factory AI Agents: Startup Reaches $1.5B Valuation with Khosla Ventures Funding - News and Statistics - IndexBox",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR1JFd1c4dWI0LXJrSlo1XzNxZkU1UlNtUmFQaTA3aXhUN0U2ekVvSjJ5RW9haS1UOENiYU1UNE50OUpvbk1XNjlDLUZfeUt3MkhJdlY5TUJKbjV5Y2c0YVNRMXlLNjFvOC0wZEZnd25qWjZma09zYzdkVXZCYTZfNlk0R0pCR1ljZnFULUpXaHgxQU1oeHJNNlNIcHhpQlJ5?oc=5",
+      "source_name": "IndexBox",
       "published_at": "2026-04-17T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 2000,
+      "amount_usd_m": 1500,
       "confidence": 0.71,
       "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1263,28 +1351,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 100,
       "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_982145632",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Nas.com",
-      "title": "Nas.com Raises $27M Series A Led by Khosla Ventures as AI Unleashes the Biggest Wave of New Business Creation in History - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZHJnd3o2dnJMU29KWjI5MkRUUmItZlpQcWlaY1dWcFBEZXBDUG9KUzFKbmd1RDBSZTQ0X1dETnFTVmRIQVNlR3Y1TWpZU21oWDF3LWpCLUJ3M1ZwY0pESGxSNEwwc0ZsZjhlWjRHTWNOMmFyeE16SkdrVHhLUE0ta2l5X1JRaVZjWVBfZXZqWl9DWGFxMGFLOHRn?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 27,
-      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1383,28 +1449,6 @@
       }
     },
     {
-      "id": "deal_1722118132",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "Joyful Health",
-      "title": "Joyful Health Raises $22M to Help Healthcare Providers Recover Billions in Unpaid Insurance Claims - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOenRYRkJPcURrdWxwXzJINUYtaXdfcVJNUG92SG9HZ25rdlVaZVRFbXJ5SDdqc1FDY3pwR0xKLURvNnFMQnVLNTJ2TWxlemNoUXFUaU1DWVphV2JsZi1hQWhsTzZwbWoxWDJ1R2UxREg1ZEdqYUNJeVEtcnR4azNhbEp5OTQwQ3B1bTkxZEVNY1JsWnNiZUsyTkxyQzBiQ0k3MUw0YTFFanVJRm1WQWp1MG82RFJqZHpaVTFwOTNndWszOENfTldOaU9EZUprY0l1WnhwTUVnQmxvNGU1UUNYbTJsMGxxSmk3?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-04-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 22,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1443868834",
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
@@ -1447,160 +1491,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_378905217",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Exclusive: Artemis",
-      "title": "Exclusive: Artemis raises $70M to help fight AI-powered attacks with AI - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 70,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_732255921",
-      "vc_id": "craft",
-      "vc_name": "Craft Ventures",
-      "company": "Exclusive: Hyfix",
-      "title": "Exclusive: Hyfix raises $15 million to build a U.S. alternative to DJI’s drone dominance - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVZWMURhYnNrN1REWHROSE80NUpMU3hyZjdzaUVWMU9vWGxmR2RtTGtydVpjSnp3b1lYM21NU3JMNHFaMF9RbXhlTUtfS0JxcXJuTkhwYXZjLUtzR0FmNFl4S016c2VvM0NZT0lXQjZRcFFnVWs4WUlzcEo1ajVzSTFTWVhyUHM?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1518679841",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "Exclusive: Artemis",
-      "title": "Exclusive: Artemis raises $70M to help fight AI-powered attacks with AI - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRV9IX3B1RkdmN09WbTl6Mm1TbzBkcFFrTjU0NmRHdk14QzVpclR1QjI1cWFEbkk0NzFjY2Z6R21paGNzMHJRdkZxN3U4anhUVW1TOGg4cnhrWUVZbjR3N0h4ZXZCeWZ4QzhLNDNWeFZXQTBVdVBxTFhyd3B0ZklYTUJ3TXkxbmtjTzAtdHdTXzJmanRZZ2ZvTkVINUd5S1UwNUxv?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 70,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1256505381",
-      "vc_id": "initialized",
-      "vc_name": "Initialized Capital",
-      "company": "AI and quantum startup Sygaldry",
-      "title": "AI and quantum startup Sygaldry raises $139m across two funding rounds - Data Center Dynamics",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYnhkQlQ2aWxmbWlkVjZ4U28zY3hUckRhNVBCSS1OQTJtbkdvNkhfa3U3czIxcVdxeVIxbjAyVXpycU51aXVuRC1VNWI3V21KUmVvU2tLeV9lMUZJQ2lmZU5CQUpfRE5oMGlzRTg1NlZHcXBjUEV4dnNtR0YtMFVyM3o3MzhGUXdlbjA1VWw5ZkFXTDcyZExPRExRNmtCQWhPSGV5cWdkWDZyWTJVdjlsUVBBWQ?oc=5",
-      "source_name": "Data Center Dynamics",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 139,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1952559054",
-      "vc_id": "sutter-hill",
-      "vc_name": "Sutter Hill Ventures",
-      "company": "Exclusive: Hyfix",
-      "title": "Exclusive: Hyfix raises $15 million to build a U.S. alternative to DJI’s drone dominance - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVZWMURhYnNrN1REWHROSE80NUpMU3hyZjdzaUVWMU9vWGxmR2RtTGtydVpjSnp3b1lYM21NU3JMNHFaMF9RbXhlTUtfS0JxcXJuTkhwYXZjLUtzR0FmNFl4S016c2VvM0NZT0lXQjZRcFFnVWs4WUlzcEo1ajVzSTFTWVhyUHM?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_973886361",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
-      "company": "Parasail",
-      "title": "Parasail Raises $32M Series A to Build the Supercloud that Puts Developers in Control of their AI - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNF9ObzdpNl9UcFhTSk1laXdzSjhqb2dEdWFkVjRWQ1d3QVUzZzdid182OWdoU3EtNk4xQks4MGZyMnlQamlpbzBjc2EzbHphMzFleGtXcnBaYkFfd1RodlBmVHVpVjdhMFhVUTZWZzNIM0w1RktoQXpoTnl6YzNpbEJzem1idVliLXhHdWMzOHVvbERRellfUWNoRTRzVDRSRnc5WUd3dTl4SUVXb2wtV1N1U01xYVRWdENOVExRXzhfSUFxaHdUNXJwTjdNUlVaTjlYSmJIM1RXVGpCVkF0ZElWcmFlMWs?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 32,
-      "confidence": 0.96,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1270981039",
-      "vc_id": "workday-ventures",
-      "vc_name": "Workday Ventures",
-      "company": "Exclusive: Hyfix",
-      "title": "Exclusive: Hyfix raises $15 million to build a U.S. alternative to DJI’s drone dominance - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVZWMURhYnNrN1REWHROSE80NUpMU3hyZjdzaUVWMU9vWGxmR2RtTGtydVpjSnp3b1lYM21NU3JMNHFaMF9RbXhlTUtfS0JxcXJuTkhwYXZjLUtzR0FmNFl4S016c2VvM0NZT0lXQjZRcFFnVWs4WUlzcEo1ajVzSTFTWVhyUHM?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-04-15T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.81,
-      "location": {
-        "city": "Pleasanton",
-        "state": "CA",
-        "lat": 37.6624,
-        "lon": -121.8747,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1610,14 +1500,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 22,
-      "weighted_score": 86.75,
+      "deal_count": 24,
+      "weighted_score": 98.04,
       "latest_at": "2026-05-14T05:00:00.000Z",
-      "amount_usd_m_total": 3523,
+      "amount_usd_m_total": 6776,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 18
+          "count": 20
         },
         {
           "name": "Other",
@@ -1634,11 +1524,11 @@
           "count": 5
         },
         {
-          "name": "Felicis",
-          "count": 3
+          "name": "TCV",
+          "count": 4
         },
         {
-          "name": "TCV",
+          "name": "Khosla Ventures",
           "count": 3
         }
       ]
@@ -1649,14 +1539,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 19,
-      "weighted_score": 72.5,
+      "deal_count": 17,
+      "weighted_score": 62.97,
       "latest_at": "2026-05-13T19:22:46.000Z",
-      "amount_usd_m_total": 3108,
+      "amount_usd_m_total": 2911,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 16
+          "count": 15
         },
         {
           "name": "Other",
@@ -1669,7 +1559,7 @@
       ],
       "top_vcs": [
         {
-          "name": "First Round Capital",
+          "name": "Founders Fund",
           "count": 3
         },
         {
@@ -1688,31 +1578,31 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 10,
-      "weighted_score": 39.07,
-      "latest_at": "2026-05-05T11:40:00.000Z",
-      "amount_usd_m_total": 569,
+      "deal_count": 9,
+      "weighted_score": 36.45,
+      "latest_at": "2026-05-07T10:43:56.000Z",
+      "amount_usd_m_total": 532,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 7
         },
         {
           "name": "Other",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
         {
-          "name": "Sutter Hill Ventures",
-          "count": 3
+          "name": "DCVC",
+          "count": 2
         },
         {
           "name": "Accel",
           "count": 2
         },
         {
-          "name": "CRV",
+          "name": "Sutter Hill Ventures",
           "count": 2
         }
       ]
@@ -1723,14 +1613,14 @@
       "state": "CA",
       "lat": 37.3861,
       "lon": -122.0839,
-      "deal_count": 5,
-      "weighted_score": 20.09,
+      "deal_count": 4,
+      "weighted_score": 16.02,
       "latest_at": "2026-05-12T22:24:32.000Z",
-      "amount_usd_m_total": 1216,
+      "amount_usd_m_total": 1184,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Biotech & Health",
@@ -1744,7 +1634,7 @@
         },
         {
           "name": "Samsung Next",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1754,14 +1644,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 5,
-      "weighted_score": 19.71,
+      "deal_count": 4,
+      "weighted_score": 14.7,
       "latest_at": "2026-05-13T15:00:00.000Z",
-      "amount_usd_m_total": 2700,
+      "amount_usd_m_total": 700,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -1775,7 +1665,7 @@
         },
         {
           "name": "Battery Ventures",
-          "count": 2
+          "count": 1
         },
         {
           "name": "Spark Capital",
@@ -1846,29 +1736,6 @@
       ]
     },
     {
-      "key": "Redmond,WA",
-      "city": "Redmond",
-      "state": "WA",
-      "lat": 47.6739,
-      "lon": -122.1215,
-      "deal_count": 1,
-      "weighted_score": 4.67,
-      "latest_at": "2026-05-12T13:59:34.000Z",
-      "amount_usd_m_total": 50,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Redwood City,CA",
       "city": "Redwood City",
       "state": "CA",
@@ -1915,29 +1782,6 @@
         {
           "name": "Intel Capital",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Pleasanton,CA",
-      "city": "Pleasanton",
-      "state": "CA",
-      "lat": 37.6624,
-      "lon": -121.8747,
-      "deal_count": 1,
-      "weighted_score": 3.01,
-      "latest_at": "2026-04-15T07:00:00.000Z",
-      "amount_usd_m_total": 15,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Workday Ventures",
-          "count": 1
         }
       ]
     },
