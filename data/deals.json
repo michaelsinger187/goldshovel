@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T14:32:28.888Z",
+  "generated_at": "2026-05-15T19:52:25.707Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 66,
-    "total_deals": 66,
+    "scraped_deals": 71,
+    "total_deals": 71,
     "demo_mode": false,
-    "deals_with_coordinates": 66,
-    "runtime_ms": 4678,
+    "deals_with_coordinates": 71,
+    "runtime_ms": 4699,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1782041235",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "Weekly Funding Roundup: $2.1B Drug Discovery Bet, Alphabet's Yen Bond Push & More - Analytics Insight",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOelFtalBRMVJ1MmpOQS1VblZkTWozcXhkWWhhWnl1aXJ2WTdOY2U4VE5PNVpGLUpEMC0wekpXQkFFcG5RVGhIdC04dDQ1WDdIQU0wQ2pIaFoxWmViYkFxZ2FhYlk2UHpKNUdlRHB4aldsNnFpLS13SFB4ZEZfb3VuM3ZJR2ViMnZRVFgxTFlTcUM3YjdIdmQxVV9USUxVd1Y3OWltdmhLVEJuNGtzWlpKaDlrMHNqN2fSAcQBQVVfeXFMUDRhcnlMQ2daTzdZdHJWdDZGMzhxdnZmbHh5dGg2YXp4SVU0MTBOOWd2bC1RejFBOUJ2ZGh5UW5xY0dJSEVmWTZtT05JWkJ4aDJydmpQU2kwREtFZEVRUzZRUW5DZlllSURBSVloTlhGUW1tWjNzVlIxd0ZzbENJMlV1VFowQ0JsLUpVUjVKbFJXVWh2eFU0ajdhNmp2YkVhT0o1ZEwyckxDazZGM1dMU1VwUEZkTkpkXzRGUTgzam9TZWNqXw?oc=5",
+      "source_name": "Analytics Insight",
+      "published_at": "2026-05-15T15:24:32.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 2100,
+      "confidence": 0.61,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_277486362",
       "vc_id": "insight",
@@ -53,6 +75,28 @@
       "sector": "Other",
       "amount_usd_m": null,
       "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_190781906",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Cowboy Space",
+      "title": "Cowboy Space Raises $275M For Orbital AI Data Centers - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdYUDhQSFlmNWZTR2NJODF3YzlUQ2NXRGhuem11RFU2QURsaTJQSVlSTGZEc3dDSlNCTU1YRUh6TnoxYUZiaXlhQUprNHhSRkhmcExCU2FKOFIyR3JERXZpTFM3Yzg0enU4VmVEcUtGZDVpYVZCc3oycE1NZHRaT3ZVNkZHbkJsbzZLNXF5QWNQaHozOWpUM21R?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-05-14T04:11:39.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 275,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -195,6 +239,28 @@
       }
     },
     {
+      "id": "deal_1419124661",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Mind Robotics",
+      "title": "Mind Robotics Announces $400M in New Funding to Expand Industrial Robotics Deployment - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMVlZS0Z0UkdLVXFldTBCaGFSQ3VXMU9EWWtoYnY1U1VReHZib3NiZW9WcTJnUGlTX0JjX3lYQXF1YnlWSzdSZ2lSZzNkTEFzRU1hSHVsTUxZSzZjNnlWMEdyaEpvOGxQbHMzd3pPRjEzd2xOV3pkTEtVSkNUeUZoS05zV0hqaTh6dEVkc1gzZjlXNnhRUGp4NFZUMnptZ3hpYkNXbWxZdVRXcDVudW5TR19WNEh6eGVRTTZvSm5HVVN4RWJfdzBYcU9iWFdVUHBUeGtxSnREMkFjYklO?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-05-13T15:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 400,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_993456572",
       "vc_id": "felicis",
       "vc_name": "Felicis",
@@ -234,6 +300,50 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1840201079",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Monaco",
+      "title": "Monaco Secures $50 Million in Series B Funding to Grow AI-Powered Sales Platform Amid Strong Customer Demand - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVdEQ043MjhVdU1fajFnOGVuc0k1REo1VDQtSWVLQjhnRVFjcGVqOTkxdHJhR3hkOC12LVhiTk1OREtvMkNZeUlUZHlXQTM3RDBWSkktY3NBQ3d2c190eDVhcjREX0pDcFNnelRTd1ZZTDY4bElJZVFmcTN5RVc3UkEzd2cwdjFlTVB3RnRYQUQ2ZFBoVXJvbjI3OTJ6RXdVOWdz?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-05-12T15:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_465428268",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Monaco",
+      "title": "Monaco Secures $50 Million in Series B Funding to Grow AI-Powered Sales Platform Amid Strong Customer Demand - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVdEQ043MjhVdU1fajFnOGVuc0k1REo1VDQtSWVLQjhnRVFjcGVqOTkxdHJhR3hkOC12LVhiTk1OREtvMkNZeUlUZHlXQTM3RDBWSkktY3NBQ3d2c190eDVhcjREX0pDcFNnelRTd1ZZTDY4bElJZVFmcTN5RVc3UkEzd2cwdjFlTVB3RnRYQUQ2ZFBoVXJvbjI3OTJ6RXdVOWdz?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-05-12T15:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -305,6 +415,28 @@
       }
     },
     {
+      "id": "deal_1974054928",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Cowboy",
+      "title": "Cowboy raises $275 million to build rockets with orbital data center upper stages - SpaceNews",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVEJVakxzY0hjbk5RVUVlQkNFeWtNUUlKOGZ2VkV6NkRTUnozQmF0RlF6MGdzLWZTOENVT2puVFhvRDZyWWVwR3V2THMwbm9hMW9SSEhYd2JsMktRdG8zaXl2Mmh4d1owT3oyXzZWcmJoa0o1T3BvdlVFUmhhS1ZHRGlaRlplWU9idjNtams4OFR5bWRNN0RfRG1yTU1tMWFPNVNucEhB?oc=5",
+      "source_name": "SpaceNews",
+      "published_at": "2026-05-11T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 275,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_562765261",
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
@@ -317,72 +449,6 @@
       "sector": "Other",
       "amount_usd_m": null,
       "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_378282032",
-      "vc_id": "nea",
-      "vc_name": "New Enterprise Associates",
-      "company": "Unknown",
-      "title": "The 9 Largest NYC Tech Startup Funding Rounds of April 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnA2aHlfOVU2cVptSGdfYW5JN2NDMFJrc0ozUkpVc011Vjk5TzJNOFBFYlNoLVpjM3dJeTUtV2w0OThjYUlvZzNlY2RkR0g1QW1jMDlSZ2VFc2JwUDRMRmhHcjVmQTdkZmNuRlpQUU1IWlBhcWVjTVg5TjZpNUsycHJpMA?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-05-07T15:28:08.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_794882999",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Unknown",
-      "title": "The 9 Largest NYC Tech Startup Funding Rounds of April 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnA2aHlfOVU2cVptSGdfYW5JN2NDMFJrc0ozUkpVc011Vjk5TzJNOFBFYlNoLVpjM3dJeTUtV2w0OThjYUlvZzNlY2RkR0g1QW1jMDlSZ2VFc2JwUDRMRmhHcjVmQTdkZmNuRlpQUU1IWlBhcWVjTVg5TjZpNUsycHJpMA?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-05-07T15:28:08.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1887958774",
-      "vc_id": "susa",
-      "vc_name": "Susa Ventures",
-      "company": "Unknown",
-      "title": "The 9 Largest NYC Tech Startup Funding Rounds of April 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRnA2aHlfOVU2cVptSGdfYW5JN2NDMFJrc0ozUkpVc011Vjk5TzJNOFBFYlNoLVpjM3dJeTUtV2w0OThjYUlvZzNlY2RkR0g1QW1jMDlSZ2VFc2JwUDRMRmhHcjVmQTdkZmNuRlpQUU1IWlBhcWVjTVg5TjZpNUsycHJpMA?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-05-07T15:28:08.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -493,6 +559,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 160,
       "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_108792900",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Unknown",
+      "title": "Andreessen Horowitz in Funding Round for Swedish AI Startup Pit - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWElrOE9OaGpNR2pLV3lFQ0VyTVE4Y2x0d1pnaVRyVm5GUzI3aTdjSG9nSlhRUkdnZlV3VThuT3VrVVpsUzVXeTJXNXpZVEtrLVM4RVJaTW1GV1B0WS1qdDFDanBBUjlUdGg4OGIyNXpncEs0YlloSXhtVHNodDdub0JTMmdVc3RRcmRWcEcwYndFYUh2ZDZ2VlJMSUN2X2x6bldYdzlUeFU1SDJrRkQwYnJwQl8?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-05-06T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -689,6 +777,28 @@
       "published_at": "2026-05-05T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_127971550",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Unknown",
+      "title": "US Regulators Approve Intel Investment in AI Chip Startup SambaNova - HarianBasis.co",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAySkNBbUZxNDFILXJycXg3TkJLd3VCUGJBeEpOMDlNLTU0cTFuVTB3bWo4ZmZ4dkJQdlpBNGpsR1c0c2FXSm5LY0RINGhKNFpPZmQtNkNiYmlkMXdwQVZESmwxWF9FNEJSS1d2RXp4Q3c2UmNBSlE?oc=5",
+      "source_name": "HarianBasis.co",
+      "published_at": "2026-05-04T09:05:18.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
       "amount_usd_m": null,
       "confidence": 0.51,
       "location": {
@@ -903,9 +1013,9 @@
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Netomi",
-      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - Venturebeat",
+      "title": "Netomi raises $110 million as Accenture and Adobe bet on AI for customer service - VentureBeat",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZGF6ai1IeUhDT0kwRlFEVVltN0VLRlNJRk1kbWpzTmppaHFydHowR2lpQlFMaHFLV1FkRnJpdFVQeFJKUGpYaFY0cGhWNC1PNzhwbFJQZnBmZmJmLXZvRnJmMGJGdVJCc0lKRjhicnRreG8xTVdTNVJIWFY1eV9DaVA1WFVrM0hiY1ExMjRnRHhaYzI1ZWEtbGd6WGM3R3I2cXZOaVRuQnladzJNaV90UnRlTTY?oc=5",
-      "source_name": "Venturebeat",
+      "source_name": "VentureBeat",
       "published_at": "2026-04-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1119,28 +1229,6 @@
       }
     },
     {
-      "id": "deal_475408360",
-      "vc_id": "sutter-hill",
-      "vc_name": "Sutter Hill Ventures",
-      "company": "Fathom Therapeutics, Formerly Atommap,",
-      "title": "Fathom Therapeutics, Formerly Atommap, Raises $47 Million in Oversubscribed Series A Financing to Translate Physics and AI-Enabled Small Molecule Design into Next-Generation Medicines - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxONnp4azM2VC1rSzFEc2hzZVJSSVhnVW5ubEdIcDJROEdBUVRBWVJBcFdCVjdWR1RQOE9hMVBmam0yNGRzSDNRM3dtSDkwbDc3VlZDUjg3RGIxWk5xU3VaaGdXSmRvaHZvVWJIdzRsZERHYlhobzk2REpJaGozTWtBd0ZYdjI4T2laU3dWWlN6aDBZMHlMaWd1ay1TaGZmU0xYWlF3bzlyWE5wZDJvUUtkcnBOaldrb3hUblp2ODNkQk5ReVVWdThQeUVPNVJDcVRkZFNTRnVyUE9abUJYLU05dVRLM1hEa0gwZG84UDNpR1hNX3FMLWg5X25FTDJfVTcwaGtiZHd2Y0tKaDhHTEFzNXk0bldhT0JpWmV1TmdVdjZwWXZNOXUyWjhQRzFsSE9fYXhmamY1M1ktTEVULTM0WktZUm5FSEVRaG84bENRcUNjWFE4c29r?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-04-27T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 47,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_492870685",
       "vc_id": "sutter-hill",
       "vc_name": "Sutter Hill Ventures",
@@ -1224,6 +1312,28 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1194975031",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Unknown",
+      "title": "Funding Reality Check For AI Systems Math Startup Axiom - AI CERTs",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNEJyaVRGRFlLM2d4cmhUeFhKcEZadzdxMnJiOTduLTRnYUNaQjc4cVJ2YTVreG9GZE5BRmpRNDlxRlc1ZTNqOUd1cXZlc0ktS1p1V25CSExtMWFGX3ctSHR4ekVaZlJDeG1LaUlLMjdtcGpMcXQ4YV9CUUNrV1d6TUNhNHhPMkxwWWRnQQ?oc=5",
+      "source_name": "AI CERTs",
+      "published_at": "2026-04-18T13:07:01.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1478,18 +1588,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 23,
-      "weighted_score": 94.95,
+      "deal_count": 26,
+      "weighted_score": 105.66,
       "latest_at": "2026-05-14T05:00:00.000Z",
-      "amount_usd_m_total": 6636,
+      "amount_usd_m_total": 7186,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 18
+          "count": 22
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -1506,8 +1616,8 @@
           "count": 4
         },
         {
-          "name": "Khosla Ventures",
-          "count": 3
+          "name": "Menlo Ventures",
+          "count": 4
         }
       ]
     },
@@ -1517,18 +1627,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 18,
-      "weighted_score": 63.74,
-      "latest_at": "2026-05-13T19:22:46.000Z",
-      "amount_usd_m_total": 2884,
+      "deal_count": 19,
+      "weighted_score": 73.98,
+      "latest_at": "2026-05-15T15:24:32.000Z",
+      "amount_usd_m_total": 5084,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 14
+          "count": 16
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Biotech & Health",
@@ -1537,16 +1647,16 @@
       ],
       "top_vcs": [
         {
-          "name": "First Round Capital",
-          "count": 3
-        },
-        {
           "name": "Benchmark",
-          "count": 3
+          "count": 4
         },
         {
           "name": "SignalFire",
           "count": 3
+        },
+        {
+          "name": "BOND",
+          "count": 2
         }
       ]
     },
@@ -1556,14 +1666,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 9,
-      "weighted_score": 36.06,
+      "deal_count": 8,
+      "weighted_score": 31.82,
       "latest_at": "2026-05-05T11:40:00.000Z",
-      "amount_usd_m_total": 554,
+      "amount_usd_m_total": 507,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 7
         },
         {
           "name": "Other",
@@ -1576,12 +1686,47 @@
           "count": 2
         },
         {
-          "name": "Sutter Hill Ventures",
+          "name": "CRV",
           "count": 2
         },
         {
-          "name": "CRV",
+          "name": "Ribbit Capital",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 5,
+      "weighted_score": 19.71,
+      "latest_at": "2026-05-13T15:00:00.000Z",
+      "amount_usd_m_total": 2700,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        },
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bain Capital Ventures",
+          "count": 2
+        },
+        {
+          "name": "Battery Ventures",
+          "count": 2
+        },
+        {
+          "name": "Spark Capital",
+          "count": 1
         }
       ]
     },
@@ -1612,37 +1757,6 @@
         },
         {
           "name": "Samsung Next",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 4,
-      "weighted_score": 15.3,
-      "latest_at": "2026-05-05T07:00:00.000Z",
-      "amount_usd_m_total": 2300,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Battery Ventures",
-          "count": 2
-        },
-        {
-          "name": "Spark Capital",
-          "count": 1
-        },
-        {
-          "name": "Bain Capital Ventures",
           "count": 1
         }
       ]
@@ -1752,6 +1866,33 @@
       ]
     },
     {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-05-05T07:00:00.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "San Mateo,CA",
       "city": "San Mateo",
       "state": "CA",
@@ -1770,29 +1911,6 @@
       "top_vcs": [
         {
           "name": "Emergence Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-05-05T07:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Intel Capital",
           "count": 1
         }
       ]
