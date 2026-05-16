@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T19:52:25.707Z",
+  "generated_at": "2026-05-16T03:59:03.797Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 71,
-    "total_deals": 71,
+    "scraped_deals": 69,
+    "total_deals": 69,
     "demo_mode": false,
-    "deals_with_coordinates": 71,
-    "runtime_ms": 4699,
+    "deals_with_coordinates": 69,
+    "runtime_ms": 4144,
     "note": "",
     "error_sample": []
   },
@@ -63,6 +63,28 @@
       }
     },
     {
+      "id": "deal_1502155749",
+      "vc_id": "true-ventures",
+      "vc_name": "True Ventures",
+      "company": "Unknown",
+      "title": "This couple (literally) married AI and filmmaking. Read the pitch deck they used to raise $6 million for their startup. - Business Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWDZUQUt5SkFkYjJjT0s3Sk9keFJGemhRRF9RajNoRjk0bmZwa0FpN2o4UWNpczNhTzQwZmtNOFZSLTlCZ3pXMnpBTnhlc210MUwzRVhGOVlVQWNzdlNtQlU1Mm5kRTdSQ1F1N2dWY1daNlVpREliN3BUWlVkVkhuQWpFbW8za3hUZk9VNmd4Ylc1TjdhNlJkLUk5Yk53UkRh?oc=5",
+      "source_name": "Business Insider",
+      "published_at": "2026-05-14T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 6,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2137366821",
       "vc_id": "andreessen-horowitz",
       "vc_name": "Andreessen Horowitz",
@@ -75,28 +97,6 @@
       "sector": "Other",
       "amount_usd_m": null,
       "confidence": 0.41,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_190781906",
-      "vc_id": "ivp",
-      "vc_name": "IVP",
-      "company": "Cowboy Space",
-      "title": "Cowboy Space Raises $275M For Orbital AI Data Centers - Let's Data Science",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTdYUDhQSFlmNWZTR2NJODF3YzlUQ2NXRGhuem11RFU2QURsaTJQSVlSTGZEc3dDSlNCTU1YRUh6TnoxYUZiaXlhQUprNHhSRkhmcExCU2FKOFIyR3JERXZpTFM3Yzg0enU4VmVEcUtGZDVpYVZCc3oycE1NZHRaT3ZVNkZHbkJsbzZLNXF5QWNQaHozOWpUM21R?oc=5",
-      "source_name": "Let's Data Science",
-      "published_at": "2026-05-14T04:11:39.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 275,
-      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -168,28 +168,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1327059326",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "AI Startup Fractile",
-      "title": "AI Startup Fractile Raises $220 Million for Chip Production - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZWN0N1JDUHY4MkVwcUh4UTVVdFphQ2t1dERmWkEzRlBmZlBfS0trQldiNy1pX1F6MlJqU0dzR2VVZ054M0hVVVJkN0h2MnBLYnhXNnIxZkxHZ0FwOVJvRGtUXzNOV3ZfbWNMbW5RMTJ6YUh3ekUzYm1DeWNqeFA1c3NzTW5hQlZ4aE16SDhUOXF3cXVRUjJINFZSQ2UtdF9qX2hGd2p1WV8taV9RSnc?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-05-13T15:42:43.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 220,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -635,28 +613,6 @@
       }
     },
     {
-      "id": "deal_604543948",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "ZyG",
-      "title": "ZyG Raises $60M Series A for AI Ecommerce OS - Let's Data Science",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUhNeVBfQUVmaGF6NkRjOS13RzV5Y0xITXU2NlBrb3pQazBBaUdIMEVVMGRTUUlzaWFmVmFtak8tc19rZE5GV3VwcVBuMk1ENWE1cm5GaklueGMzU0JzWmhHYTVDdXg2SGNHM3ZhaktJTF9CejlwUzZFTF9LSlM4cHc2MGp0bF9ET0xmNWRn?oc=5",
-      "source_name": "Let's Data Science",
-      "published_at": "2026-05-05T11:40:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1862171947",
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
@@ -806,28 +762,6 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1264210444",
-      "vc_id": "founders-fund",
-      "vc_name": "Founders Fund",
-      "company": "Panthalassa",
-      "title": "Panthalassa Raises $140 Million to Power AI at Sea - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTF96ZXp6d1dVUXVmcF93SUI1clQ3bkRrM0h0NFQ5STZHM2k3NkExb0NTVWQtR1hzVmZPdDUyc1FCckJJczl5WEdjQnJMT2RITkd0UU04MHNNYTN0TkdCcHBSM1VTV1RSY3JkRXVMWm05c090WjJGOFpxOC1taE1IRFg4UjBfcWx6RnQzanFzTjlnMklVbFhUQUE4SnkwTjZlTGhrTUNVZkpWcUZrUVE?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-05-04T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 140,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1053,6 +987,28 @@
       }
     },
     {
+      "id": "deal_1340969164",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Netomi",
+      "title": "Netomi Raises $110M from Accenture Ventures, Adobe Ventures, and WndrCo to Deploy Agentic Customer Experiences in the World's Most Complex Environments and Create the AI-Embedded Digital Experience - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQcTlmdFpoQjd2SUQ5bDBRdFBzcndJSUkyRldCd1R2bldaVjdpNUtZbjh6cW1YMWo1d1JPY2k4czNKcTBlTmViN3oxVnJBTUpnRklvS2FTY3BuNDBUT2lEaUY4c29CUXRkZTNuczAtbE9tTExKLWJCY0gtUWF5eDdRbjEtQnNHUW1uYzM0aVQtZkNxT3VyeEFNQU10ZFY4a0IxcUFhczNwdTQ0VFlDYjFWSXAxQ3FRRjNPWWFXZUFvSklGWFV5b1BRNl81cjFtV2JYWG1fcF9kMUsyVV9jS0d5VHpERmpFSHpOX3ZWemU1Z29NbW1uUTBoamxPakl5LVVoWGxTelFNWG12RzNJZDRGMmdGVk1kUEMzMjlKTldSXzVqUWJkSTZpVzExQUlHS0VnSnFmRVAxTVhBQW1PVmIxM3IyS0NseTExVEVFSUN5V2dqTHVvdUVrWFhHdHBZQkNFU3BoVjV3OElpYWhVUmc?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-04-30T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1490808612",
       "vc_id": "gv",
       "vc_name": "GV",
@@ -1229,6 +1185,28 @@
       }
     },
     {
+      "id": "deal_475408360",
+      "vc_id": "sutter-hill",
+      "vc_name": "Sutter Hill Ventures",
+      "company": "Fathom Therapeutics, Formerly Atommap,",
+      "title": "Fathom Therapeutics, Formerly Atommap, Raises $47 Million in Oversubscribed Series A Financing to Translate Physics and AI-Enabled Small Molecule Design into Next-Generation Medicines - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxONnp4azM2VC1rSzFEc2hzZVJSSVhnVW5ubEdIcDJROEdBUVRBWVJBcFdCVjdWR1RQOE9hMVBmam0yNGRzSDNRM3dtSDkwbDc3VlZDUjg3RGIxWk5xU3VaaGdXSmRvaHZvVWJIdzRsZERHYlhobzk2REpJaGozTWtBd0ZYdjI4T2laU3dWWlN6aDBZMHlMaWd1ay1TaGZmU0xYWlF3bzlyWE5wZDJvUUtkcnBOaldrb3hUblp2ODNkQk5ReVVWdThQeUVPNVJDcVRkZFNTRnVyUE9abUJYLU05dVRLM1hEa0gwZG84UDNpR1hNX3FMLWg5X25FTDJfVTcwaGtiZHd2Y0tKaDhHTEFzNXk0bldhT0JpWmV1TmdVdjZwWXZNOXUyWjhQRzFsSE9fYXhmamY1M1ktTEVULTM0WktZUm5FSEVRaG84bENRcUNjWFE4c29r?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-04-27T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 47,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_492870685",
       "vc_id": "sutter-hill",
       "vc_name": "Sutter Hill Ventures",
@@ -1312,28 +1290,6 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1194975031",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "Unknown",
-      "title": "Funding Reality Check For AI Systems Math Startup Axiom - AI CERTs",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNEJyaVRGRFlLM2d4cmhUeFhKcEZadzdxMnJiOTduLTRnYUNaQjc4cVJ2YTVreG9GZE5BRmpRNDlxRlc1ZTNqOUd1cXZlc0ktS1p1V25CSExtMWFGX3ctSHR4ekVaZlJDeG1LaUlLMjdtcGpMcXQ4YV9CUUNrV1d6TUNhNHhPMkxwWWRnQQ?oc=5",
-      "source_name": "AI CERTs",
-      "published_at": "2026-04-18T13:07:01.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1588,14 +1544,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 26,
-      "weighted_score": 105.66,
+      "deal_count": 23,
+      "weighted_score": 95.14,
       "latest_at": "2026-05-14T05:00:00.000Z",
-      "amount_usd_m_total": 7186,
+      "amount_usd_m_total": 6691,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 22
+          "count": 19
         },
         {
           "name": "Other",
@@ -1616,8 +1572,8 @@
           "count": 4
         },
         {
-          "name": "Menlo Ventures",
-          "count": 4
+          "name": "Khosla Ventures",
+          "count": 3
         }
       ]
     },
@@ -1628,9 +1584,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 19,
-      "weighted_score": 73.98,
+      "weighted_score": 73.88,
       "latest_at": "2026-05-15T15:24:32.000Z",
-      "amount_usd_m_total": 5084,
+      "amount_usd_m_total": 5054,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1655,8 +1611,8 @@
           "count": 3
         },
         {
-          "name": "BOND",
-          "count": 2
+          "name": "Fin Capital",
+          "count": 3
         }
       ]
     },
@@ -1666,14 +1622,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 8,
-      "weighted_score": 31.82,
-      "latest_at": "2026-05-05T11:40:00.000Z",
-      "amount_usd_m_total": 507,
+      "deal_count": 9,
+      "weighted_score": 34.27,
+      "latest_at": "2026-05-14T13:00:00.000Z",
+      "amount_usd_m_total": 500,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Other",
@@ -1682,7 +1638,7 @@
       ],
       "top_vcs": [
         {
-          "name": "Accel",
+          "name": "Sutter Hill Ventures",
           "count": 2
         },
         {
