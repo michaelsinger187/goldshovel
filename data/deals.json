@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T04:39:37.552Z",
+  "generated_at": "2026-05-18T10:39:30.034Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -13,7 +13,7 @@
     "total_deals": 57,
     "demo_mode": false,
     "deals_with_coordinates": 57,
-    "runtime_ms": 3755,
+    "runtime_ms": 4232,
     "note": "",
     "error_sample": []
   },
@@ -206,28 +206,6 @@
       "stage": "Unspecified",
       "sector": "Semis, Robotics & Hardware",
       "amount_usd_m": 400,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_993456572",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "DeepInfra",
-      "title": "DeepInfra Raises $107M to Scale Inference Infrastructure - Let's Data Science",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNelp6U2JKM3hENDVDU0Z3X3ZqOTNBd3lvTXhIUUxYTFZsbmxCVHdwWU1VdWJDa1ZVZ2xBdXJNWHZGVFc1RUViRV9IOGlTMHlaSTZJNTBLTWlVZmlTTlV1aWxjVFlCUy1NOXpLV2ZqLWhEM0QxTkExUGtuYmk4RG1JaU1KbWhHWmdlVEVsN1dwS1YtQnVqVFN3RDczOHU5UQ?oc=5",
-      "source_name": "Let's Data Science",
-      "published_at": "2026-05-12T22:24:32.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 107,
       "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
@@ -1053,6 +1031,28 @@
       }
     },
     {
+      "id": "deal_1904259370",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Unknown",
+      "title": "Goldman Sachs and Bain Lead Investment in AI Marketing Startup - WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOHRCdkRGN2VQRVZIbW1Rc25RX1djOThmZ0NNZmJScUdXWFBqVkJBeDhmUEsyOXRwQklDcEtSbEFBSUd3MGVUNjhxbm5tNHU1RFkwZzVtMUpfZVR4SWdKMVY5N0RndmdoNWJMLXZHR2swYzZfREtnMkZ4cGJNWElnRXp4eEx6UEJ4MHh1RUFXME8xelJFV0dfRzVEcjd6VWZESTlr?oc=5",
+      "source_name": "WSJ",
+      "published_at": "2026-04-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_541918068",
       "vc_id": "menlo-ventures",
       "vc_name": "Menlo Ventures",
@@ -1141,13 +1141,13 @@
       }
     },
     {
-      "id": "deal_679460538",
+      "id": "deal_1624911502",
       "vc_id": "tcv",
       "vc_name": "TCV",
       "company": "Cloudsmith",
-      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNdUEwUF9TWHhadlVZdHRZVlBCUlJ1VEFkMjNSRFBmaGlJMFhRT0phMTI0d0NuTHZrNkJjYU5WXzRTYlhUVE1Td3BJYy1fMllHcmtvVU03SEFibzZQaU5UMjFiWTRwSU5TczBLVG5PQUxDYkFlSF9NNFRtX20taW1yM3BXWWpQZnhaRmp2YnlZd1lHUWRYUFIyYkJkV3lVNUp4QWR0c2c3ZDdZNXptS1IybVJhMlhuclJkYUQ0X3pRSFpyUGtqV1llQUJ1dndmOU5UdVpTd1JLd3dFWEl4dnRDcTg0azZHdlJTRWxLallQNVFNb3BYbmlPSk9CaWtFZTQ3WElIc3ZDTTBEUkJaY0J2S3gyQk9rSElrdS1zUjJNZ3RMUXQ4b2dhQw?oc=5",
-      "source_name": "Business Wire",
+      "title": "Cloudsmith Raises $72M Series C Led by TCV with Participation from Insight Partners to Control and Secure the AI-Powered Software Supply Chain - PA Media",
+      "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNUnYzbG43ejZJZGR4ZFlIQmp4ZEwwTmhQa21iZ2N1QlpneGdzRDBFTTBnSXBzc1ZNRFdqNE5fZFMyTnNXSlZWaldfdl9TZHNrb3BCRnVBXy1DVTFvWWNMYVlHVlk4bTRSYXl1cXlMdVFOcW9yOUpWeno3Y25VY1FUNklIeWdfMVRYVUlfVWYxWU5JcktZcTNucmVYWHFPZEIyempaMDhxZTdmRXR3LV93TVpBOEJHZ3BEOFBtTkQ1VmJMa2FpZ2hQeGNVaFoxb0M5MmU0R0F0NzNfX0pSc21DbEZsY3BwSG9Cd2JEeHg1Z3BsMk9FSmJxQ3cxTHFfQjk3MGktUS1rbzZRaGNZQm9sb0Z6YUJ4UW1JQ3RCcXB3?oc=5",
+      "source_name": "PA Media",
       "published_at": "2026-04-23T07:00:00.000Z",
       "stage": "Series C",
       "sector": "AI & ML",
@@ -1280,14 +1280,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 20,
-      "weighted_score": 77.37,
+      "deal_count": 19,
+      "weighted_score": 73.53,
       "latest_at": "2026-05-14T05:00:00.000Z",
-      "amount_usd_m_total": 6816,
+      "amount_usd_m_total": 6709,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 16
+          "count": 15
         },
         {
           "name": "Other",
@@ -1424,14 +1424,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 3,
-      "weighted_score": 10.86,
+      "deal_count": 4,
+      "weighted_score": 12.97,
       "latest_at": "2026-05-05T07:00:00.000Z",
       "amount_usd_m_total": 306.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 4
         }
       ],
       "top_vcs": [
@@ -1444,7 +1444,7 @@
           "count": 1
         },
         {
-          "name": "NextView Ventures",
+          "name": "Bain Capital Ventures",
           "count": 1
         }
       ]
