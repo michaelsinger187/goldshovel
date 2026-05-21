@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T04:41:40.587Z",
+  "generated_at": "2026-05-21T10:01:19.654Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,37 +9,15 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 61,
-    "total_deals": 61,
+    "scraped_deals": 60,
+    "total_deals": 60,
     "demo_mode": false,
-    "deals_with_coordinates": 61,
-    "runtime_ms": 3787,
+    "deals_with_coordinates": 60,
+    "runtime_ms": 5208,
     "note": "",
     "error_sample": []
   },
   "deals": [
-    {
-      "id": "deal_1282054895",
-      "vc_id": "sapphire",
-      "vc_name": "Sapphire Ventures",
-      "company": "Digital Banking Startup Mercury",
-      "title": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick - Crunchbase News",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTItcWp6dUNEUXZ2SUJvVTlKdUZSdFZROWd4bHFkblF6cDFnZkpXZEpXdlpSdWdDRTZ3ZUw5M3o0UEJULWxnNlN2UktzeHZpY3RRbWR0OWJSNzJFc3czTk41LW1EQ1Z2YTFqTjdtRldKRU9BSkVVTjh3MWFhTTc5V0p0SUF1c0hLYVlIV3JoVWJCTFcxcTJyRzhESQ?oc=5",
-      "source_name": "Crunchbase News",
-      "published_at": "2026-05-20T19:15:47.000Z",
-      "stage": "Unspecified",
-      "sector": "Fintech",
-      "amount_usd_m": 200,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
     {
       "id": "deal_30798733",
       "vc_id": "tcv",
@@ -102,28 +80,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1327367055",
-      "vc_id": "m12",
-      "vc_name": "M12",
-      "company": "Unknown",
-      "title": "nEye.ai $80M Series C: $152M Bet on AI Optical Switching [2026] - tech-insider.org",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1dNVkloUUJmTlFzYjdMWVEzTWxLUi1DZGlSQlRTTmhUcmVoNGNFQTlXRWs1UjNweFdZOWx5Y0hYVHZjY0EycWxFZGxVbEJXMGxSSklGWlViekp2T3RIZTBPTUZGSGw1d08ybXBTZlV4c3AzTXFTdGwybjcwU0tLblViRV9pYXNqOGFmRQ?oc=5",
-      "source_name": "tech-insider.org",
-      "published_at": "2026-05-20T04:12:14.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 80,
-      "confidence": 0.86,
-      "location": {
-        "city": "Redmond",
-        "state": "WA",
-        "lat": 47.6739,
-        "lon": -122.1215,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -273,6 +229,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 25,
       "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1176362948",
+      "vc_id": "greycroft",
+      "vc_name": "Greycroft",
+      "company": "Unknown",
+      "title": "The Vogue Business Funding Tracker - Vogue",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE02b2Y4OEVBeU4yMzJ6UFdZNlFOZzBMWWdfVGVJaWVIVnREZVM2OEZBdkRfQ21lWlR3T1QxSHZ6dHZDVHR6VU82U1YzY2xObU1UejJ4QzVRRXpvM3R5SXBGdDMyNXRaTnBNTmlSRnQ3OHhsZw?oc=5",
+      "source_name": "Vogue",
+      "published_at": "2026-05-14T13:29:02.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -437,17 +415,17 @@
       }
     },
     {
-      "id": "deal_1327059326",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "AI Startup Fractile",
-      "title": "AI Startup Fractile Raises $220 Million for Chip Production - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZWN0N1JDUHY4MkVwcUh4UTVVdFphQ2t1dERmWkEzRlBmZlBfS0trQldiNy1pX1F6MlJqU0dzR2VVZ054M0hVVVJkN0h2MnBLYnhXNnIxZkxHZ0FwOVJvRGtUXzNOV3ZfbWNMbW5RMTJ6YUh3ekUzYm1DeWNqeFA1c3NzTW5hQlZ4aE16SDhUOXF3cXVRUjJINFZSQ2UtdF9qX2hGd2p1WV8taV9RSnc?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-05-13T15:42:43.000Z",
+      "id": "deal_670763670",
+      "vc_id": "redpoint",
+      "vc_name": "Redpoint Ventures",
+      "company": "Mind Robotics",
+      "title": "Mind Robotics Announces $400M in New Funding to Expand Industrial Robotics Deployment - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMVlZS0Z0UkdLVXFldTBCaGFSQ3VXMU9EWWtoYnY1U1VReHZib3NiZW9WcTJnUGlTX0JjX3lYQXF1YnlWSzdSZ2lSZzNkTEFzRU1hSHVsTUxZSzZjNnlWMEdyaEpvOGxQbHMzd3pPRjEzd2xOV3pkTEtVSkNUeUZoS05zV0hqaTh6dEVkc1gzZjlXNnhRUGp4NFZUMnptZ3hpYkNXbWxZdVRXcDVudW5TR19WNEh6eGVRTTZvSm5HVVN4RWJfdzBYcU9iWFdVUHBUeGtxSnREMkFjYklO?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-05-13T15:00:32.000Z",
       "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 220,
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 400,
       "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
@@ -1229,23 +1207,23 @@
       }
     },
     {
-      "id": "deal_834665822",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "General Analysis",
-      "title": "General Analysis Raises $10M in Seed Funding to Secure Agentic AI - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdlYwSUt3eXJNeGVUTEVsV3BPdXdHWi1YZ3AyOEZfQ2YyVWh3ejc4WEtUWXFqUmJxMFU5QTMzMHVlblBnbTZhYlN3cHBhSF8zVkVRLU9ZVUs5Zi1nam1mTEVVM2laaFN3c0ZUSmx4QnR5eGEwbTdsYmVHLW00X0lQbndSU0s0d1BJaTZMY1lCa2d1a1J4Rmw5T2E3RVBSd3Bwd1RNN0UwdHAyY1NOMXhoRkNpODllX3psOEZoTjZmQml1dw?oc=5",
-      "source_name": "Business Wire",
+      "id": "deal_557683260",
+      "vc_id": "slow",
+      "vc_name": "Slow Ventures",
+      "company": "Firestorm Labs",
+      "title": "Firestorm Labs raises $82M to take drone factories into the field - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVTNEWTExNnBvWWZtU0gxMkpIc3lYR1B3QTVKNFJLUVZGR3pNT3c3WTUzNGFobmlocFE0eEtZNnE1emM3TkhoV2JsbVFFVVB6QUUxYVQxdEtoQzlKTlBCSVphUFVCUXBTVWkyNUp5Zm53OWg0WnExWDhyenJuNVNCN0dMQndSNENZblFZdWl2Qzl6Y2NUZmpoRTRVTElnajVv?oc=5",
+      "source_name": "TechCrunch",
       "published_at": "2026-04-29T07:00:00.000Z",
-      "stage": "Seed",
+      "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 10,
-      "confidence": 0.96,
+      "amount_usd_m": 82,
+      "confidence": 0.81,
       "location": {
-        "city": "Menlo Park",
+        "city": "San Francisco",
         "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1368,22 +1346,22 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 20,
-      "weighted_score": 80.44,
+      "deal_count": 19,
+      "weighted_score": 77.49,
       "latest_at": "2026-05-20T15:00:46.000Z",
-      "amount_usd_m_total": 9718.5,
+      "amount_usd_m_total": 9888.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 16
+          "count": 14
         },
         {
           "name": "Other",
           "count": 2
         },
         {
-          "name": "Fintech",
-          "count": 1
+          "name": "Semis, Robotics & Hardware",
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -1407,14 +1385,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 16,
-      "weighted_score": 59.22,
+      "deal_count": 17,
+      "weighted_score": 62.95,
       "latest_at": "2026-05-19T13:00:57.000Z",
-      "amount_usd_m_total": 1818.5,
+      "amount_usd_m_total": 1900.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 14
+          "count": 15
         },
         {
           "name": "Other",
@@ -1446,10 +1424,10 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 8,
-      "weighted_score": 26.16,
-      "latest_at": "2026-05-20T19:15:47.000Z",
-      "amount_usd_m_total": 449,
+      "deal_count": 7,
+      "weighted_score": 22.05,
+      "latest_at": "2026-05-19T13:00:00.000Z",
+      "amount_usd_m_total": 249,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1460,7 +1438,7 @@
           "count": 2
         },
         {
-          "name": "Fintech",
+          "name": "Web3 & Crypto",
           "count": 1
         }
       ],
@@ -1474,7 +1452,7 @@
           "count": 2
         },
         {
-          "name": "Sapphire Ventures",
+          "name": "True Ventures",
           "count": 1
         }
       ]
@@ -1516,14 +1494,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 3,
-      "weighted_score": 10.64,
+      "deal_count": 4,
+      "weighted_score": 12.65,
       "latest_at": "2026-05-14T14:00:00.000Z",
       "amount_usd_m_total": 70,
       "top_sectors": [
         {
           "name": "Other",
-          "count": 2
+          "count": 3
         },
         {
           "name": "AI & ML",
@@ -1531,6 +1509,10 @@
         }
       ],
       "top_vcs": [
+        {
+          "name": "Greycroft",
+          "count": 2
+        },
         {
           "name": "Insight Partners",
           "count": 1
@@ -1538,33 +1520,6 @@
         {
           "name": "RRE Ventures",
           "count": 1
-        },
-        {
-          "name": "Greycroft",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Redmond,WA",
-      "city": "Redmond",
-      "state": "WA",
-      "lat": 47.6739,
-      "lon": -122.1215,
-      "deal_count": 2,
-      "weighted_score": 9.84,
-      "latest_at": "2026-05-20T04:12:14.000Z",
-      "amount_usd_m_total": 130,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "M12",
-          "count": 2
         }
       ]
     },
@@ -1641,6 +1596,29 @@
       "top_vcs": [
         {
           "name": "F-Prime Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redmond,WA",
+      "city": "Redmond",
+      "state": "WA",
+      "lat": 47.6739,
+      "lon": -122.1215,
+      "deal_count": 1,
+      "weighted_score": 4.67,
+      "latest_at": "2026-05-12T13:59:34.000Z",
+      "amount_usd_m_total": 50,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "M12",
           "count": 1
         }
       ]
