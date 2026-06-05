@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T15:26:52.118Z",
+  "generated_at": "2026-06-05T20:08:28.455Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 77,
-    "total_deals": 77,
+    "scraped_deals": 84,
+    "total_deals": 84,
     "demo_mode": false,
-    "deals_with_coordinates": 77,
-    "runtime_ms": 4356,
+    "deals_with_coordinates": 84,
+    "runtime_ms": 4325,
     "note": "",
     "error_sample": []
   },
@@ -31,28 +31,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 400,
       "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1092698020",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "AI-Powered Commercial Insurance Startup",
-      "title": "AI-Powered Commercial Insurance Startup Announces The Largest Publicly Disclosed Series A Amount Raised By A Black Founder - afrotech.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JcG4zUDIwNXk3Q01vY2RMVmI1ZzRHWGRBcS1LeGowR2hEZGhOeE43WkxmaXMzRFUtaU43dWItNmY2cWppQjg4ZC0wcDhab0Q1OW1Tc244REVhU3BxSnBQQmZVZl90R2s?oc=5",
-      "source_name": "afrotech.com",
-      "published_at": "2026-06-04T16:49:16.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -503,28 +481,6 @@
       }
     },
     {
-      "id": "deal_314838674",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "Unknown",
-      "title": "Anthropic IPO targeted for October 2026 at record $965B valuation after $65B funding round - eciks.org",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHAzTFJ5dG1GVE90R2tnbDI2UnZOcFNRVjNzeG9mTVR6eE5hNG1fY1FoanNJUzUwemhiYUJabEtlZTRDNGVsdTM0ZXJTYkJ5aVJnalREdXhZQnZQcTVkWm5XNThlcE9sSktNMzR5SUY1TDZvTVJsWHNHSTVKYzlxNFkwYmdBTGdIMWJuRmctODdtTkwxSjRlUXIxekMtMy1Td1RXcC10cEhraUhWQ3c?oc=5",
-      "source_name": "eciks.org",
-      "published_at": "2026-06-01T16:29:47.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 965000,
-      "confidence": 0.61,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1471993953",
       "vc_id": "tcv",
       "vc_name": "TCV",
@@ -635,6 +591,28 @@
       }
     },
     {
+      "id": "deal_1458374987",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Cognition",
+      "title": "Cognition Raises $1 Billion At $26 Billion Valuation, Led By Lux, General Catalyst, 8VC - Benzinga",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOem9RbHdjb3JLSldxU2ZCMjJRT3dKcEl6ZHhqdlBVWUc4Q2czbHFTcEFPVTVCQnF0QWhWRERua0d2YW1qSFlwbW1uMkw5ZDNHUzExaGUzTFlBRENBSU5VaXkxRkJpVk9rdTJzTXlXTEo4a05BMkhiQnN3S1dnWWtqSkZFZ0UwU1N4ekNYYzZqMUNHTUhMZXZjM0l2d05Gbk1SZHZma0dIdzd3NTVvVTlNTTl5X1RIX0dCdkliQ2ZBajRnTWFxNWdmb2lGSlVmc3VGaTY0X0laY3YtTnJCTjNR?oc=5",
+      "source_name": "Benzinga",
+      "published_at": "2026-05-28T18:36:53.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_450398695",
       "vc_id": "sequoia-capital",
       "vc_name": "Sequoia Capital",
@@ -647,6 +625,116 @@
       "sector": "AI & ML",
       "amount_usd_m": 1,
       "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1157312056",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Anthropic",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation - Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "source_name": "Anthropic",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_790819699",
+      "vc_id": "lightspeed",
+      "vc_name": "Lightspeed Venture Partners",
+      "company": "Anthropic",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation - Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "source_name": "Anthropic",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1029183924",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Anthropic",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation - Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "source_name": "Anthropic",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65000,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1061507339",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Anthropic",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation - Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "source_name": "Anthropic",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65000,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1987507013",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Anthropic",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation - Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "source_name": "Anthropic",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65000,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -767,14 +855,14 @@
       }
     },
     {
-      "id": "deal_1478528987",
+      "id": "deal_1362853198",
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
       "company": "OpenRouter",
       "title": "OpenRouter Raises $113 Million CapitalG-led Series B as Weekly Volume Explodes to 25T Tokens - NTB Kommunikasjon",
       "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUWhUakxiYlBoaXNDUTg0M3VsUGtMbHpPSU9TUEdCUTUwRUdDWlpidlUwR3UzOFBYM3hOUUhtVUtXMGdBQ3doNjROQWpKdlh2ZTZvTHdhM3Z3YjREdGVsZ1NxLUpLYWRJdEpYRGxORGxDZTdrN2lMOE41LW9KR1E3TkJxNTFsdkJ6Y0lFeVFrX0NOSkRnQlF2cF9VazgzV25wQk52UG1WTzFXTm1BUExNamlzamx0cDZBZ3F2VFN4WVhPRVJzUmZ2VmlDNldRcXRQanZVY05xX0d4YVlkOTRXSWZ2UGdEcVFvR2U3bWZ6ZkxsRWpsUmI5NEJ0eGRSQnBUWWxBZ2Z3?oc=5",
       "source_name": "NTB Kommunikasjon",
-      "published_at": "2026-05-26T13:15:00.000Z",
+      "published_at": "2026-05-26T07:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
       "amount_usd_m": 113,
@@ -811,6 +899,28 @@
       }
     },
     {
+      "id": "deal_13883323",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Fintech Firm Mercury Hits $5.2 Billion Valuation After $200 Million Funding Round - Margin Expansion Trends - newsline.com",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMTEwcS1iZDlaUkxMN2NoRnAxWU43RFdLUGtaMjZweVhQelpRMV9vOVZnaXlSSnN1bGpaR01qRVdSSS13aGFpU0Z6ak93RDVvVHBhejlyY3BhS0pwWEV6WFFDU0o1Y292RHlUZjFMa3Z6WGVoTE1zdDdYTTdsYmE0UDRHdEtGNjVueWxXcWRGNktWaEdPb0l5dFQ4M3RZSkd3ZS1QUDhMUXlZd1RTNXNPTEc5dHVqUjl4VVVvUkl3?oc=5",
+      "source_name": "newsline.com",
+      "published_at": "2026-05-24T04:57:38.000Z",
+      "stage": "Unspecified",
+      "sector": "Fintech",
+      "amount_usd_m": 5200,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1683958056",
       "vc_id": "salesforce",
       "vc_name": "Salesforce Ventures",
@@ -828,6 +938,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1761380338",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Mercury",
+      "title": "Mercury Raises $200 Million Series D at $5.2B Valuation - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPblctMGhwMDNQVnZpdXFqWTc0Wnc3RERwYVFYM0dzaEVtRFlLZzFXWi1XellHRlp2YjNKT3p0bTBsUDVrVjdFQWZWM1lTckN0VFFwRFF2ZWVNdExYZk9sWkQzb1JXN1R5cDB4Nm44OWgzV2J1UXkyUTZ2cWJ4d1ltWHpGVlA2TVlybmw5eGIwQVVYQy1tS0JGS1dKemVIWEl4VDlZZVVaLUU4TE56VGtQRGl0emxPTm8?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-05-20T07:00:00.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 200,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1048,6 +1180,28 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1177573504",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Unknown",
+      "title": "nEye.ai $80M Series C: $152M Bet on AI Optical Switching [2026] - tech-insider.org",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1dNVkloUUJmTlFzYjdMWVEzTWxLUi1DZGlSQlRTTmhUcmVoNGNFQTlXRWs1UjNweFdZOWx5Y0hYVHZjY0EycWxFZGxVbEJXMGxSSklGWlViekp2T3RIZTBPTUZGSGw1d08ybXBTZlV4c3AzTXFTdGwybjcwU0tLblViRV9pYXNqOGFmRQ?oc=5",
+      "source_name": "tech-insider.org",
+      "published_at": "2026-05-20T04:12:14.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.86,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1449,6 +1603,28 @@
       }
     },
     {
+      "id": "deal_226244831",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Exclusive: Roadrunner",
+      "title": "Exclusive: Roadrunner raises $27 million from Kleiner Perkins and Founders Fund - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JVVhoU0pCZEExb05jQmZCbmNhanlvT3F2VGZNQmJCZTR4Wk1sbjNaWVJaNEF6eHRPNFRMZHRReUNERVk4YzJzaDRCNC1adlJQMkFELXY4VGtSX3hpcnlPS0Z0QV9vcGNQbHlveVN2VC1IZTh1M0xWZA?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-05-12T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 27,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1703907900",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -1689,28 +1865,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1495714654",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Unknown",
-      "title": "TCV leads $160m round for insurance startup Corgi - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTzlKWDBTLUIyanhIdzRkdVhKaVJRbW96SFFOY3BVUHdJYTF1d2l1WWJBUFFZVHpYUlk3SWxxQ214VENTWHFPV1lhTlZSUGlmM1hyNklkR2ZrendaYWVqOUk2cUwtY2J2MW5PdkFXaC1ndkExZnlfYTM1M1NOQlkzV0J3bHJmbEE?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-05-07T04:04:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 160,
-      "confidence": 0.61,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1720,36 +1874,36 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 35,
-      "weighted_score": 140.56,
+      "deal_count": 38,
+      "weighted_score": 160.5,
       "latest_at": "2026-06-03T16:00:05.000Z",
-      "amount_usd_m_total": 2914133.5,
+      "amount_usd_m_total": 2149373.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 22
+          "count": 26
         },
         {
           "name": "Other",
-          "count": 10
+          "count": 8
         },
         {
           "name": "Fintech",
-          "count": 3
+          "count": 4
         }
       ],
       "top_vcs": [
-        {
-          "name": "Altimeter Capital",
-          "count": 6
-        },
         {
           "name": "TCV",
           "count": 6
         },
         {
+          "name": "Altimeter Capital",
+          "count": 6
+        },
+        {
           "name": "Sequoia Capital",
-          "count": 4
+          "count": 5
         }
       ]
     },
@@ -1759,14 +1913,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 14,
-      "weighted_score": 47.45,
+      "deal_count": 15,
+      "weighted_score": 50.7,
       "latest_at": "2026-06-04T05:29:49.000Z",
-      "amount_usd_m_total": 15572,
+      "amount_usd_m_total": 15599,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Other",
@@ -1794,14 +1948,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 10,
-      "weighted_score": 39.37,
+      "deal_count": 11,
+      "weighted_score": 49.65,
       "latest_at": "2026-06-05T09:10:49.000Z",
-      "amount_usd_m_total": 8055,
+      "amount_usd_m_total": 138055,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Other",
@@ -1814,12 +1968,35 @@
           "count": 3
         },
         {
-          "name": "Coatue",
+          "name": "Insight Partners",
           "count": 2
         },
         {
-          "name": "Greycroft",
+          "name": "Coatue",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 4,
+      "weighted_score": 18.79,
+      "latest_at": "2026-06-04T12:30:05.000Z",
+      "amount_usd_m_total": 4220,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "8VC",
+          "count": 4
         }
       ]
     },
@@ -1863,42 +2040,19 @@
       ]
     },
     {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 3,
-      "weighted_score": 13.98,
-      "latest_at": "2026-06-04T12:30:05.000Z",
-      "amount_usd_m_total": 3220,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
-          "count": 3
-        }
-      ]
-    },
-    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
       "lat": 37.3861,
       "lon": -122.0839,
-      "deal_count": 3,
-      "weighted_score": 12.19,
+      "deal_count": 4,
+      "weighted_score": 17.35,
       "latest_at": "2026-06-03T12:10:02.000Z",
-      "amount_usd_m_total": 478,
+      "amount_usd_m_total": 558,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Other",
@@ -1908,7 +2062,7 @@
       "top_vcs": [
         {
           "name": "CapitalG",
-          "count": 2
+          "count": 3
         },
         {
           "name": "GV",
