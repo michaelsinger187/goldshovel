@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T12:39:31.925Z",
+  "generated_at": "2026-06-15T21:18:46.506Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 76,
-    "total_deals": 76,
+    "scraped_deals": 79,
+    "total_deals": 79,
     "demo_mode": false,
-    "deals_with_coordinates": 76,
-    "runtime_ms": 4155,
+    "deals_with_coordinates": 79,
+    "runtime_ms": 4544,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1416868277",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Sarvam",
+      "title": "Sarvam raises $234 million Series B at $1.5 billion valuation to build India's sovereign AI stack - Big News Network.com",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWFNJeFZHVFoxck5fSEIwVUZ6WDV4U3ZKcjctNzVPMHBuRFk0eGRrQXhhRUpwYkxITWQ3LXhQcE1kM28tVHNjQXhVZzk0S0ZodjRMSEFkaUxhX2Jwa1V1dE5JZkhjRUlURW1LblpKNVUzaHhhMXNIbVRFNWthOHUwSFA3N0lMU2lPTkFsbHJwb1RLcnpzMlZ5TFRkVlJKUk9ZQjY1Q1N3STk0WmRkd0dQVDNMd2tMNXZ6X2ZOWU5ydXFXLWF1OXBkNmRoR1RBNUo5aGZVUQ?oc=5",
+      "source_name": "Big News Network.com",
+      "published_at": "2026-06-15T16:33:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 234,
+      "confidence": 0.96,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_460068197",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Sarvam",
+      "title": "Sarvam raises $234 million led by HCLTech at $1.5 billion valuation - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb2p5ZHZEcDl0ZE5jeF9pQ3MwZmZYS3VlTFltUG45QTJMNDM3dmQwcFlzRk5ULUR3VFZfRWwtcUdQWVVvbVBPMFpUTFhsdm45S2tlR08wajQwcElPMFA1bzFHVkVZQ3daNEVFSW43SDJSTTltbW1iQ2xqTDhreHFhejk1eHJsUHlWbVQ1MjdNSVFEdTJzdDViU3I3dGtZaU1DLVhZNnZFdlc3MVYwVUVzY0pxeVNvZE10VHhiYTJ3N09uWk81U0dzUkM0akxLMmJQb0HSAdIBQVVfeXFMUG9qeWR2RHA5dGROY3hfaUNzMGZmWEt1ZUxZbVBuOUEyTDQzN3ZkMHBZc0ZOVC1Ed1RWX0VsLXFHUFlVb21QTzBaVExYbHZuOUtrZUdPMGo0MHBJTzBQNW8xR1ZFWUN3WjRFRUluN0gyUk05bW1tYkNsakw4a3hxYXo5NXhybFB5Vm1UNTI3TUlRRHUyc3Q1YlNyN3RrWWlNQy1YWTZ2RXZXNzFWMFVFc2NKcXlTb2RNdFR4YmEydzdPblpPNVNHc1JDNGpMSzJiUG9B?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-06-15T12:52:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 234,
+      "confidence": 0.81,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_168597642",
       "vc_id": "bond",
@@ -212,50 +256,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1102327976",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Niteshift",
-      "title": "Niteshift raises $7M seed led by Greylock partner Jerry Chen - mezha.net",
-      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBldXdkSzZmaVdNVWZ5ZzFiNjZkWnhCclJKRmlmUS1TUVJFblE5M0U2Wm5yTmJvb25YVjI5bGM2amVWN3d5QjZJSUFzZ2dIajA4LWFwd2FNaUd6MDg4Rm92OU83eXpiSWVfT3c?oc=5",
-      "source_name": "mezha.net",
-      "published_at": "2026-06-10T15:28:34.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 7,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_600851691",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Niteshift",
-      "title": "Niteshift Raises $7M to Fight AI ‘Vendor Lock-in’ - Whalesbook",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWjNCWUZyRE9qbWpkVjh4S3FfX002Z3JhSVV4N1ZGMWlTdjdkVDd4dEdyRUMwbkpYT3VxN3M5dHNCN2ZQcGxGVUJGOUJTdTdYVzhia1FjUjJxWVNybXlsV3NNckhXeVhoaW1vYzhmNDZVZ3U2M0ZZMFFkLW1Tak42aU40TEpIM3YzVkZmblVKRWlQa2NleVpPSVVLZ0syVmNxWDlQSHlZVHJWMXBTOGpra19pV29YOGpqT1dNeFZVdmpsNUxWWnU0?oc=5",
-      "source_name": "Whalesbook",
-      "published_at": "2026-06-10T15:16:39.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 7,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -507,9 +507,9 @@
       "vc_id": "usv",
       "vc_name": "Union Square Ventures",
       "company": "Unknown",
-      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion - Bloomberg.com",
+      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkl0dWo1cmVmQTAwa3FPOUlhUGdKUU45U1N0STUxWEtodnpqT1FnaHlGQ1ZNTFo4M3d2S3IxSGFYVHE5X2hZQ05rMUFZUFYtQ1g5Wjc4MVhsSW40SVBWS3otU1hBMjRlOWRaZFZaM2hVMTd6elFPY0pSa2V0V3F5XzlrTVhRT1lzcEUtRXhNLVJtZV82QmJvUFY2OUFuZ3FVNDFSYUxFSFVnbHpzZ2k3YkJ5TGh5QQ?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-06-04T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -603,6 +603,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 2000,
       "confidence": 0.71,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_380745590",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "AI music startup Suno",
+      "title": "AI music startup Suno raises funding at $5.4 billion valuation - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa09sNEVOVGdGRXZCQjliZm1rZFVzWXFqa3M1NUdRbVFnYWZHQ1BJcTd3UGktclFTWW9LRDRGWDZKa3JhLVdBYUExR2NXT2lKa2lmYUVWdExXdlZTeUVxaHptVGYxY2p2elIyYkloR3JoT0hEWUI1Z0kxYU9HRXktdUdIYmRULU1iSmRDdnBGMTUzeUFhX05pUjJDY2k2U1lGSDVKYWxsT1pTczZQeVVpRTg3NA?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-06-03T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 5400,
+      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -757,6 +779,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1,
       "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1157312056",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Anthropic",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation - Anthropic",
+      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9FbzhQTWUzSGozVXNfbDYxWWUzTFBZZlpldmQyeDBnSExRdHVMSkJyVVV4OHdlNmx3LVBFcHVXTmJ0ck9TclZvVVlPRnpoZVhW?oc=5",
+      "source_name": "Anthropic",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65000,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -969,9 +1013,9 @@
       "vc_id": "8vc",
       "vc_name": "8VC",
       "company": "AI Coding Startup Cognition",
-      "title": "AI Coding Startup Cognition Raises $1 Billion at $26 Billion Value - Bloomberg.com",
+      "title": "AI Coding Startup Cognition Raises $1 Billion at $26 Billion Value - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcm9aMFdXbk1qSlBTWmt6SWRuV25iaVU2RG5BbnFFT1BpMktXUEk2N1hVYXo1TldHSS1lYmhncWx4WTBfaTNvQUZNRjBIeGNWVXUyamFuTW5TX3owT19fcUxxYkdoaC1TVUF4Y1ZWTTFLVjNScDlVcGZOcFFWZnFUTG9JeDVPMUV2TTF4T0pUVVhBeVd3ZzlQVC0tMDBibzVkT24yVEdrdERfTy1IYzktdVFXVWxPZw?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-05-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1013,9 +1057,9 @@
       "vc_id": "prelude",
       "vc_name": "Prelude Ventures",
       "company": "Fusion Startup Thea",
-      "title": "Fusion Startup Thea Raises $100 Million to Build Prototype - Bloomberg.com",
+      "title": "Fusion Startup Thea Raises $100 Million to Build Prototype - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWE16MUoxZHJwdVBDTnZsdzlIZ1ZjdGtIM0pnLWoxR0tEZERyT3kyRHhvZ1gzaDlBNGFYeDFtMVhQTEQ5SC1oX3RQdmRiUzRUdDNjNmNGVEh6alFpWUhEcTB5RW9kWnItOXR1UzFSVkJCWFN6d2lOVmxNTDZqc2lMU0E5SUJ3SndoVWFIVG1hbzhpS2dNbjFOYm9EbjRkLXQ0US1qMHdZNnJLU3Mt?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-05-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1189,9 +1233,9 @@
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
       "company": "Unknown",
-      "title": "AI Hardware Startup Hark Valued at $6 Billion in New Funding Round - Bloomberg.com",
+      "title": "AI Hardware Startup Hark Valued at $6 Billion in New Funding Round - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeHJsR2ZsQ1JsbTJ0UTlGemh0cVIwaWdCOFN4MndhOFdobkhoZndnMHJtaUlRRzJyLWU4S3pVOE5ycF8wV3p6NTFwZFpWdFlkYU9LQzUwOGR0Znhtc0M2QnFuTFI3UVFpNDEyV1JxTlc5WUZaNGpXSnNDb0tJa0tjQXhIYlcydDltdHNjUHBoX2FjYmx3cFZpQkN2VXBYR29PSGlTa3lFOF90cFlFSTBaYmxZWTdiUTA?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-05-21T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1224,6 +1268,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1676436313",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Mercury",
+      "title": "Mercury Raises $200 Million Series D at $5.2B Valuation - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPblctMGhwMDNQVnZpdXFqWTc0Wnc3RERwYVFYM0dzaEVtRFlLZzFXWi1XellHRlp2YjNKT3p0bTBsUDVrVjdFQWZWM1lTckN0VFFwRFF2ZWVNdExYZk9sWkQzb1JXN1R5cDB4Nm44OWgzV2J1UXkyUTZ2cWJ4d1ltWHpGVlA2TVlybmw5eGIwQVVYQy1tS0JGS1dKemVIWEl4VDlZZVVaLUU4TE56VGtQRGl0emxPTm8?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-05-20T07:00:00.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 200,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1699,9 +1765,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 27,
-      "weighted_score": 116.68,
-      "latest_at": "2026-06-10T15:28:34.000Z",
-      "amount_usd_m_total": 2107024.5,
+      "weighted_score": 123.94,
+      "latest_at": "2026-06-10T13:44:04.000Z",
+      "amount_usd_m_total": 2172210.5,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1726,7 +1792,7 @@
           "count": 6
         },
         {
-          "name": "Greylock",
+          "name": "Andreessen Horowitz",
           "count": 3
         }
       ]
@@ -1811,14 +1877,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 31.6,
+      "deal_count": 11,
+      "weighted_score": 37.14,
       "latest_at": "2026-06-14T13:59:39.000Z",
-      "amount_usd_m_total": 2872,
+      "amount_usd_m_total": 8272,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Other",
@@ -1828,7 +1894,7 @@
       "top_vcs": [
         {
           "name": "BOND",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Benchmark",
@@ -1914,6 +1980,29 @@
         {
           "name": "Emergence Capital",
           "count": 3
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 2,
+      "weighted_score": 9.51,
+      "latest_at": "2026-06-15T16:33:00.000Z",
+      "amount_usd_m_total": 468,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
+          "count": 2
         }
       ]
     },
