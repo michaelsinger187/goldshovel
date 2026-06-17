@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T05:13:16.460Z",
+  "generated_at": "2026-06-17T11:15:55.085Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,24 +9,46 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 82,
-    "total_deals": 82,
+    "scraped_deals": 87,
+    "total_deals": 87,
     "demo_mode": false,
-    "deals_with_coordinates": 82,
-    "runtime_ms": 4102,
+    "deals_with_coordinates": 87,
+    "runtime_ms": 4936,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
-      "id": "deal_522655132",
+      "id": "deal_129149360",
+      "vc_id": "dtc",
+      "vc_name": "Dell Technologies Capital",
+      "company": "Unknown",
+      "title": "Dell Tech Capital, Square Peg lead Limitless’ $20m series A - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWmxIUDVUaTZObnVKSUtyUUl6NWlldTRsRUVlZVMyT3FFTmRITFd6dVlnNGQ2V1hPLWF0SHBHSHVDOUpHc3YxTjdhR2RZTjBPZnBXNEMyYW5DcTVNelBSYU1Kd1k4ajNsVjd2ZmZ4aU9uNm1LazI4RVVzTUhkLVN1RjB4WFZyNW1DdTFBeERMZw?oc=5",
+      "source_name": "Tech in Asia",
+      "published_at": "2026-06-17T00:46:00.000Z",
+      "stage": "Series A",
+      "sector": "Other",
+      "amount_usd_m": 20,
+      "confidence": 0.76,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_671103604",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
       "company": "Exclusive: Voice AI startup Bland",
       "title": "Exclusive: Voice AI startup Bland raises $50 million after being rejected by 180 investors - Fortune",
       "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUJQQ0ZqT21vb2s0Rk1pdWVSdDNPaTBVUU9kdnh1SWVKWlg1Q25fTmNaR0lHYUxSakl0WUZVTktxSEV5aDN2ZWItc29UUzZWbDJyTG00UEREWnNwUmhKNjU1ci04YVAxMy1TSDZZN2p4RnRHd2lVTGtaMGpTejRQU0NBNENSR3hpelN3SmNEVjRGM1JxdGh6NnpaRQ?oc=5",
       "source_name": "Fortune",
-      "published_at": "2026-06-16T20:33:40.000Z",
+      "published_at": "2026-06-16T17:34:16.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 50,
@@ -41,14 +63,14 @@
       }
     },
     {
-      "id": "deal_1220971322",
+      "id": "deal_1880237238",
       "vc_id": "dtc",
       "vc_name": "Dell Technologies Capital",
       "company": "Exclusive: Voice AI startup Bland",
       "title": "Exclusive: Voice AI startup Bland raises $50 million after being rejected by 180 investors - Fortune",
       "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUJQQ0ZqT21vb2s0Rk1pdWVSdDNPaTBVUU9kdnh1SWVKWlg1Q25fTmNaR0lHYUxSakl0WUZVTktxSEV5aDN2ZWItc29UUzZWbDJyTG00UEREWnNwUmhKNjU1ci04YVAxMy1TSDZZN2p4RnRHd2lVTGtaMGpTejRQU0NBNENSR3hpelN3SmNEVjRGM1JxdGh6NnpaRQ?oc=5",
       "source_name": "Fortune",
-      "published_at": "2026-06-16T20:33:40.000Z",
+      "published_at": "2026-06-16T17:34:16.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 50,
@@ -1295,6 +1317,28 @@
       }
     },
     {
+      "id": "deal_514815748",
+      "vc_id": "slow",
+      "vc_name": "Slow Ventures",
+      "company": "US marketing tech startup Clouted",
+      "title": "US marketing tech startup Clouted raises $7m seed - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS1NSeVRLc3NSZ1NVOW4tVFVJTEg4WXlsT0JPbjB4VGRpUXJ0ZVhmVVh3S01UM1NDODRkZ1I5bDdfdXI0VTMtc3BkTkZpNVZReVFlanZqWU55aFI1Y0lXcjdwOS1WVkFVRGtwbzVNT2x1cC1Zd19WNTFFd2Fxb29HVVVzeFphM28?oc=5",
+      "source_name": "Tech in Asia",
+      "published_at": "2026-05-21T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 7,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_183920355",
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
@@ -1373,6 +1417,72 @@
       "sector": "AI & ML",
       "amount_usd_m": 200,
       "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1676436313",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Mercury",
+      "title": "Mercury Raises $200 Million Series D at $5.2B Valuation - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPblctMGhwMDNQVnZpdXFqWTc0Wnc3RERwYVFYM0dzaEVtRFlLZzFXWi1XellHRlp2YjNKT3p0bTBsUDVrVjdFQWZWM1lTckN0VFFwRFF2ZWVNdExYZk9sWkQzb1JXN1R5cDB4Nm44OWgzV2J1UXkyUTZ2cWJ4d1ltWHpGVlA2TVlybmw5eGIwQVVYQy1tS0JGS1dKemVIWEl4VDlZZVVaLUU4TE56VGtQRGl0emxPTm8?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-05-20T07:00:00.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 200,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_881228475",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Digital Banking Startup Mercury",
+      "title": "Digital Banking Startup Mercury Lands $200M At $5.2B Valuation Amid Fintech Funding Uptick - Crunchbase News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTItcWp6dUNEUXZ2SUJvVTlKdUZSdFZROWd4bHFkblF6cDFnZkpXZEpXdlpSdWdDRTZ3ZUw5M3o0UEJULWxnNlN2UktzeHZpY3RRbWR0OWJSNzJFc3czTk41LW1EQ1Z2YTFqTjdtRldKRU9BSkVVTjh3MWFhTTc5V0p0SUF1c0hLYVlIV3JoVWJCTFcxcTJyRzhESQ?oc=5",
+      "source_name": "Crunchbase News",
+      "published_at": "2026-05-20T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Fintech",
+      "amount_usd_m": 200,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1154947660",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Unknown",
+      "title": "Menlo Ventures leads $100M round in Nourish to give every GLP-1 patient a dietitian as weight loss drugs take off - Tech Funding News",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNS1dST1JqSE8wYkJWQ3lTWk9SV1NzTm1yNkgyVUtNNS1aZXVpM2RhYnZwZzZoUTV4Z1pvWllLak9rNk9mbmxVdU0yRmZCcllKbFFDbHhsZUxuZ09fcU12RGNSUERWbzR4bUFBa0puOXFtQldCZi1ZM0JyVDczQU1iUlUyS191WHJUbkRYNjRsVWM5WmNsdjNqVEVrVXVldmtLakt4cV8yMUlHT29GLVBfMUg1T2tiYzNSd1huTV9fWTNqeTRJZkJUVUhFeHh3MVV4czRjTHRQb3A?oc=5",
+      "source_name": "Tech Funding News",
+      "published_at": "2026-05-20T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 100,
+      "confidence": 0.61,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1647,6 +1757,28 @@
       }
     },
     {
+      "id": "deal_2019076799",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Unknown",
+      "title": "nEye.ai $80M Series C: $152M Bet on AI Optical Switching [2026] - tech-insider.org",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1dNVkloUUJmTlFzYjdMWVEzTWxLUi1DZGlSQlRTTmhUcmVoNGNFQTlXRWs1UjNweFdZOWx5Y0hYVHZjY0EycWxFZGxVbEJXMGxSSklGWlViekp2T3RIZTBPTUZGSGw1d08ybXBTZlV4c3AzTXFTdGwybjcwU0tLblViRV9pYXNqOGFmRQ?oc=5",
+      "source_name": "tech-insider.org",
+      "published_at": "2026-05-20T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.86,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_229050062",
       "vc_id": "m12",
       "vc_name": "M12",
@@ -1799,28 +1931,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_264335425",
-      "vc_id": "dcvc",
-      "vc_name": "DCVC",
-      "company": "Unknown",
-      "title": "Sector Snapshot: Quantum Computing Startup Investment Slows In 2026 While Public Markets Hold Strong - Crunchbase News",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWDYyeUVzZWFsR19qNnhSWmQ2aUhlc2V0Qk53TDkzTTNWX0JpemR6VzBfVTQ3VXU5R01wOW5pNTkta0pNdGVsanpramJtMDNQamtFT2wxbEpJN3Q3N1pKbERET013UU83c0NHeHVqWWt2Uk1GaExuOERiMm9ab0ZpaVJZY2Z3TlNpbktXTzhnYVNiT3M4d291Yg?oc=5",
-      "source_name": "Crunchbase News",
-      "published_at": "2026-05-18T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1830,22 +1940,22 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 26,
-      "weighted_score": 114.16,
+      "deal_count": 29,
+      "weighted_score": 127.95,
       "latest_at": "2026-06-16T00:54:00.000Z",
-      "amount_usd_m_total": 2042712.5,
+      "amount_usd_m_total": 2043212.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 20
+          "count": 21
         },
         {
           "name": "Fintech",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -1869,14 +1979,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 14,
-      "weighted_score": 51.63,
+      "deal_count": 15,
+      "weighted_score": 54.35,
       "latest_at": "2026-06-12T11:00:06.000Z",
-      "amount_usd_m_total": 10760.5,
+      "amount_usd_m_total": 10767.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Other",
@@ -1904,8 +2014,8 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 12,
-      "weighted_score": 45.97,
+      "deal_count": 11,
+      "weighted_score": 43.96,
       "latest_at": "2026-06-12T12:52:02.000Z",
       "amount_usd_m_total": 2079.4,
       "top_sectors": [
@@ -1914,12 +2024,12 @@
           "count": 8
         },
         {
-          "name": "Other",
+          "name": "Fintech",
           "count": 2
         },
         {
-          "name": "Fintech",
-          "count": 2
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -2007,7 +2117,7 @@
       "lon": -122.3255,
       "deal_count": 4,
       "weighted_score": 15.73,
-      "latest_at": "2026-06-16T20:33:40.000Z",
+      "latest_at": "2026-06-16T17:34:16.000Z",
       "amount_usd_m_total": 739,
       "top_sectors": [
         {
@@ -2019,6 +2129,33 @@
         {
           "name": "Emergence Capital",
           "count": 4
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 3,
+      "weighted_score": 14.63,
+      "latest_at": "2026-06-02T07:00:00.000Z",
+      "amount_usd_m_total": 628,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
+          "count": 2
+        },
+        {
+          "name": "GV",
+          "count": 1
         }
       ]
     },
@@ -2089,29 +2226,29 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
       "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
+      "lat": 37.3541,
+      "lon": -121.9552,
       "deal_count": 2,
-      "weighted_score": 9.47,
-      "latest_at": "2026-06-02T07:00:00.000Z",
-      "amount_usd_m_total": 548,
+      "weighted_score": 7.2,
+      "latest_at": "2026-06-17T00:46:00.000Z",
+      "amount_usd_m_total": 70,
       "top_sectors": [
         {
+          "name": "Other",
+          "count": 1
+        },
+        {
           "name": "AI & ML",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "GV",
-          "count": 1
-        },
-        {
-          "name": "CapitalG",
-          "count": 1
+          "name": "Dell Technologies Capital",
+          "count": 2
         }
       ]
     },
@@ -2157,29 +2294,6 @@
       "top_vcs": [
         {
           "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 1,
-      "weighted_score": 3.52,
-      "latest_at": "2026-06-16T20:33:40.000Z",
-      "amount_usd_m_total": 50,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Dell Technologies Capital",
           "count": 1
         }
       ]
