@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T09:36:09.835Z",
+  "generated_at": "2026-06-20T14:27:24.697Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -13,7 +13,7 @@
     "total_deals": 58,
     "demo_mode": false,
     "deals_with_coordinates": 58,
-    "runtime_ms": 3778,
+    "runtime_ms": 4353,
     "note": "",
     "error_sample": []
   },
@@ -38,6 +38,28 @@
         "lon": -74.006,
         "method": "city_keyword",
         "confidence": 0.68
+      }
+    },
+    {
+      "id": "deal_500214918",
+      "vc_id": "greycroft",
+      "vc_name": "Greycroft",
+      "company": "Unknown",
+      "title": "The Vogue Business Funding Tracker - Vogue",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE02b2Y4OEVBeU4yMzJ6UFdZNlFOZzBMWWdfVGVJaWVIVnREZVM2OEZBdkRfQ21lWlR3T1QxSHZ6dHZDVHR6VU82U1YzY2xObU1UejJ4QzVRRXpvM3R5SXBGdDMyNXRaTnBNTmlSRnQ3OHhsZw?oc=5",
+      "source_name": "Vogue",
+      "published_at": "2026-06-18T14:53:05.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
       }
     },
     {
@@ -146,6 +168,50 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_200125244",
+      "vc_id": "scale-vp",
+      "vc_name": "Scale Venture Partners",
+      "company": "Exclusive: Voice AI startup Bland",
+      "title": "Exclusive: Voice AI startup Bland raises $50 million after being rejected by 180 investors - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUJQQ0ZqT21vb2s0Rk1pdWVSdDNPaTBVUU9kdnh1SWVKWlg1Q25fTmNaR0lHYUxSakl0WUZVTktxSEV5aDN2ZWItc29UUzZWbDJyTG00UEREWnNwUmhKNjU1ci04YVAxMy1TSDZZN2p4RnRHd2lVTGtaMGpTejRQU0NBNENSR3hpelN3SmNEVjRGM1JxdGh6NnpaRQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-06-16T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1799904845",
+      "vc_id": "upfront",
+      "vc_name": "Upfront Ventures",
+      "company": "Exclusive: Voice AI startup Bland",
+      "title": "Exclusive: Voice AI startup Bland raises $50 million after being rejected by 180 investors - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUJQQ0ZqT21vb2s0Rk1pdWVSdDNPaTBVUU9kdnh1SWVKWlg1Q25fTmNaR0lHYUxSakl0WUZVTktxSEV5aDN2ZWItc29UUzZWbDJyTG00UEREWnNwUmhKNjU1ci04YVAxMy1TSDZZN2p4RnRHd2lVTGtaMGpTejRQU0NBNENSR3hpelN3SmNEVjRGM1JxdGh6NnpaRQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-06-16T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "Santa Monica",
+        "state": "CA",
+        "lat": 34.0195,
+        "lon": -118.4912,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -437,28 +503,6 @@
       }
     },
     {
-      "id": "deal_1302655984",
-      "vc_id": "battery",
-      "vc_name": "Battery Ventures",
-      "company": "Physical security startup Coram AI",
-      "title": "Physical security startup Coram AI raises $35 million co-led by Ansa Capital, Battery Ventures - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdnpjYWp4ajhENk4wWWhsSFFkMFd5YVNGS0VkV3Bmd2plTnJyTERQVlAxYWJ6SlpCX1JOcW5QY1VKbkJkSWZHNlZHTnA1MlowdDZOT0IxNWduakZGLUpob0dsMW5FVmZHSGFPVjI1bFZmcU9PSDhvbTZxVXhjUVg5MXdtay10RjJ1MmduLUJPN1hHN19ndkxLc2NkUkJDUy11YmdULTBpNDFOb2xIMGw0cklQcjB5eG5PNDV0TmNwTGpGalNCMmw5bHVBZXF0dlZvaXBVeVppTUlmeHMwYldteURrdHJRQmtiRmxMU0Z5MWzSAfYBQVVfeXFMTS00TFhKOXpqSkl1d2RZVnRGZG4tWjhPQTdMcEtIQnNQT1RITDFfaDBCMTQ5NjN1alVZUVZUcGFZWlJzV3pna090dGJlSUZFd0dyaUtMSDJvTGRJTi1QT1cxVVZwV1BhYjVwOFVmMW9aU0wtUkc4TmZwMVF6UVpaSTJxSzhIN0FjWGp5OGhNUXp3T0U3dE93cVpYWV9fTHdzQ05yc211VVZXSFZodGZVTjNtUkVZOW9MX0ZlSjA4ZVMtRmFRZm5OVW14azNhSVFfbkZpU19kdzRLSVZVVGtLZFZRQTExOXExcnV2VTYyb0V6QXJBb3pn?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-06-11T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 35,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1143218917",
       "vc_id": "coatue",
       "vc_name": "Coatue",
@@ -476,28 +520,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_33305300",
-      "vc_id": "kleiner-perkins",
-      "vc_name": "Kleiner Perkins",
-      "company": "Poetic",
-      "title": "Poetic Raises $50M Series A to Automate the World's Most Complex Enterprise Processes with Reliable AI - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNamt4WjJScVkxWndtTmZqR212d3U3cVJUeUZQOFdzeGdNMExKVUlMX01lTTNiSHFCN1JWeFA5a0JCWW4wNEFXaW8yYWtuUEt5QnE1Ql9kMTQwVkdHdG5nWVNNdzQtRzdsQlpwd3czdlVmcDRTUjY1R3FOWXFiS0VlMEJqRzNfU0hidF9UaWJhb085WnotU1p3SlJsd1JhRlp0Mm45Sw?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-06-10T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -833,28 +855,6 @@
       }
     },
     {
-      "id": "deal_1665504899",
-      "vc_id": "lerer-hippeau",
-      "vc_name": "Lerer Hippeau",
-      "company": "Board, the new game startup from Mirror founder Brynn Putnam,",
-      "title": "Board, the new game startup from Mirror founder Brynn Putnam, raises $20M, has already sold thousands - Benzatine Infotech",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWWVPeWt6UXhLTG5MSGh6YXpfRnlucTdZUElDRjAydk9uTDhFV2R5QzhOWGRxY1ZoM0RtdHJUMjBfbXZpa0NTODJJVzhaSFJnZzdNckxCQ3htM2ZGRGtVMjd4Nl91TlMtSWt6Z2hKYjNWMGtLcXhGckJ5Mm5LM1ZGY2pYTW9rVzQ1Zy1PUHQzOWloQlNzQkNCVnByNXRyMnprT1pZOXd1cmlfTlk?oc=5",
-      "source_name": "Benzatine Infotech",
-      "published_at": "2026-06-03T04:13:30.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 20,
-      "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_164085761",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
@@ -1119,28 +1119,6 @@
       }
     },
     {
-      "id": "deal_332928717",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "H1",
-      "title": "H1 secures $40M from CVS, proving SaaS startups can still attract investment - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcmpRUGtubFBCQ0VlMV9QOGlXRHMzQXpnazF5WXJBNk1JcThKRFZEOUJiTXJWUklTcHgtRXJZdWJRTF9sdzB0QVE3OF9pQlhoWTgxWGlBbEdFaHRERlhzYmQxU2tNVzZ4NEgtZmhzZ2ZFZ3FOaWd5NC02bkRkbVltTDhfQTlKU20tOFU1QTJaTkhQUzc5OUNSOHdOZzZKamtKTkJXTHBHdmxvdW1lckE?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-05-28T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Enterprise SaaS",
-      "amount_usd_m": 40,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1994516350",
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
@@ -1153,6 +1131,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 965000,
       "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_332928717",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "H1",
+      "title": "H1 secures $40M from CVS, proving SaaS startups can still attract investment - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcmpRUGtubFBCQ0VlMV9QOGlXRHMzQXpnazF5WXJBNk1JcThKRFZEOUJiTXJWUklTcHgtRXJZdWJRTF9sdzB0QVE3OF9pQlhoWTgxWGlBbEdFaHRERlhzYmQxU2tNVzZ4NEgtZmhzZ2ZFZ3FOaWd5NC02bkRkbVltTDhfQTlKU20tOFU1QTJaTkhQUzc5OUNSOHdOZzZKamtKTkJXTHBHdmxvdW1lckE?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Enterprise SaaS",
+      "amount_usd_m": 40,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1302,14 +1302,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 21,
-      "weighted_score": 95.97,
+      "deal_count": 20,
+      "weighted_score": 91.7,
       "latest_at": "2026-06-18T08:33:26.000Z",
-      "amount_usd_m_total": 2037019,
+      "amount_usd_m_total": 2036969,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 17
+          "count": 16
         },
         {
           "name": "Other",
@@ -1342,20 +1342,20 @@
       "lat": 40.7128,
       "lon": -74.006,
       "deal_count": 9,
-      "weighted_score": 36.3,
+      "weighted_score": 35.17,
       "latest_at": "2026-06-18T17:30:00.000Z",
-      "amount_usd_m_total": 3466.8,
+      "amount_usd_m_total": 3446.8,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
-        },
-        {
-          "name": "Biotech & Health",
-          "count": 1
+          "count": 6
         },
         {
           "name": "Other",
+          "count": 2
+        },
+        {
+          "name": "Biotech & Health",
           "count": 1
         }
       ],
@@ -1369,7 +1369,7 @@
           "count": 2
         },
         {
-          "name": "Venrock",
+          "name": "Greycroft",
           "count": 1
         }
       ]
@@ -1549,6 +1549,52 @@
       ]
     },
     {
+      "key": "Foster City,CA",
+      "city": "Foster City",
+      "state": "CA",
+      "lat": 37.5585,
+      "lon": -122.2711,
+      "deal_count": 1,
+      "weighted_score": 3.52,
+      "latest_at": "2026-06-16T13:00:00.000Z",
+      "amount_usd_m_total": 50,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Scale Venture Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Santa Monica,CA",
+      "city": "Santa Monica",
+      "state": "CA",
+      "lat": 34.0195,
+      "lon": -118.4912,
+      "deal_count": 1,
+      "weighted_score": 3.52,
+      "latest_at": "2026-06-16T13:00:00.000Z",
+      "amount_usd_m_total": 50,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Upfront Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Santa Clara,CA",
       "city": "Santa Clara",
       "state": "CA",
@@ -1567,29 +1613,6 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 1,
-      "weighted_score": 3.37,
-      "latest_at": "2026-06-11T07:00:00.000Z",
-      "amount_usd_m_total": 35,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Battery Ventures",
           "count": 1
         }
       ]
