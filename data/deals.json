@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T05:16:19.061Z",
+  "generated_at": "2026-06-21T10:03:40.453Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 59,
-    "total_deals": 59,
+    "scraped_deals": 52,
+    "total_deals": 52,
     "demo_mode": false,
-    "deals_with_coordinates": 59,
-    "runtime_ms": 4160,
+    "deals_with_coordinates": 52,
+    "runtime_ms": 4041,
     "note": "",
     "error_sample": []
   },
@@ -107,28 +107,6 @@
       }
     },
     {
-      "id": "deal_1558962239",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Sarvam",
-      "title": "Sarvam raises $234 mn at $1.5 billion valuation - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnk4ZTcwc2dPY2xNeVlQSmJ1SVZEbXUzb3NQcVZKTmNwYTh1N0t5bEx5a1ByblhoNElkTzJ1MnNrMGFzMkFCcHN2QjBadFRoMUlrUEJrWmdzbUVMRWdRZkpKYkZRMXc2R0ZDZ3VRWWNVR29fSElZS3ZHUmdEU3pldF9sNEUyU3ZpcTVTM2t4dWpscTFEZlRhQ3JsRjFnVlhLYU5fZDVWeVNWWDBkNVZ5UlVn?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-06-17T20:17:10.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.81,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1003215805",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -168,28 +146,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_200125244",
-      "vc_id": "scale-vp",
-      "vc_name": "Scale Venture Partners",
-      "company": "Exclusive: Voice AI startup Bland",
-      "title": "Exclusive: Voice AI startup Bland raises $50 million after being rejected by 180 investors - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUJQQ0ZqT21vb2s0Rk1pdWVSdDNPaTBVUU9kdnh1SWVKWlg1Q25fTmNaR0lHYUxSakl0WUZVTktxSEV5aDN2ZWItc29UUzZWbDJyTG00UEREWnNwUmhKNjU1ci04YVAxMy1TSDZZN2p4RnRHd2lVTGtaMGpTejRQU0NBNENSR3hpelN3SmNEVjRGM1JxdGh6NnpaRQ?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-06-16T13:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.81,
-      "location": {
-        "city": "Foster City",
-        "state": "CA",
-        "lat": 37.5585,
-        "lon": -122.2711,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -283,50 +239,6 @@
       }
     },
     {
-      "id": "deal_1735126644",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Sarvam",
-      "title": "Sarvam raises $234 million Series B at $1.5 billion valuation to build India's sovereign AI stack - ET CFO",
-      "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNakNGZGlEWHpOWmNjX252OGotYy1EbWtqc0pLeW5rdjBPdmFiRUp0blBpaWJETDYtTGtqNFNRNlhjUmpSbU01SWdGYUhaM1NPd3U4QWc1akxaNjBNMFNMb1hTVXpwZ0JkMUp6VlBkdkdtQ2YtcFhuTFRGTXRqUzRsaDE3WnNibWlXNEJEc0NoZHZTbGJEeDA5VkxhNnhqbzBtZ3UtNldGSlF3X0dKWDZjNER1THRxdnNycnNLZzYzSGZKdkF0N0dLemRfZE9VdVZ3dk1tcmhZNzduTEpxYVhBUXJxZmtFd1owaDRVMFF6QnA3Y1c4aG4wS013MGrSAYICQVVfeXFMT1RMNHEyc2JyZkQ4eUxSSlAwa2FXQ0I2RFF6WWtvMXdmRnhlbEJ2V1c2ZWx3SFRGdFJiYXFCeUQwQ2IwX3pBbXlqaXRQcXNjaVZNVzNMMHNtVEhGN0w4dmJaWGJHUFQwWnZJUjVtSkh0RFZNdnhjaW0ySElDNXJPTngxa2lvVDBJdFc0R3p3ZFg5UGZpa1gwcDdPbkdidk1MNEIzdkVoUUdfZGlYYmZ3S2VPU0Z2bHNhTmNFZkZaUEtGNkhEaWdmVTVLbXVISXlqbnhBWnJTaFEyZlJNYW9CTGlxOGkzVVZzcTdQNkNJSlAzMXRkdGgxRUVUNEEwYlJXbEhB?oc=5",
-      "source_name": "ET CFO",
-      "published_at": "2026-06-16T03:03:30.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1958819399",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Indian AI startup",
-      "title": "HCLTech leads Indian AI startup $234m funding round - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb01STUhmcmt2dTRvYnZPa1JOMUlJb09hMU4xNGhQSmhaVkpTNDhwX2pjNHZjVTFCLTlvUlh6cjFRdHJhMUhxblM5OGMzSGdWYldveUJHUGpDc0NLOTNqYTdqU1ZXeGJZM0p2bnlvbWk3amdvU3Jxb0lpeDZ2bEg0TWNB?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-06-16T00:54:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.81,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_473702853",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -335,28 +247,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb01STUhmcmt2dTRvYnZPa1JOMUlJb09hMU4xNGhQSmhaVkpTNDhwX2pjNHZjVTFCLTlvUlh6cjFRdHJhMUhxblM5OGMzSGdWYldveUJHUGpDc0NLOTNqYTdqU1ZXeGJZM0p2bnlvbWk3amdvU3Jxb0lpeDZ2bEg0TWNB?oc=5",
       "source_name": "Tech in Asia",
       "published_at": "2026-06-16T00:54:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1563435141",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Sarvam",
-      "title": "Sarvam raises $234 million led by HCLTech at $1.5 billion valuation - inkl",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMG4zNG12MkVyYkJNQ1YzQUhBMGhqNVo4LS1JOUVuYkFNMXpfRmlGbHBXc0ZST3dvQl9KWkd3SEpjQ1Qyb1BjbnZCdFg1Q1FmRzQ3b05DZ3hTX2cyUV84Qk5xX3RQSzR1VHFJbUw1UEZRTFBfaWxGOUE4cjJVSDNqM2NOTkVoWWZJVVZUeWZFMHBMelJfTHc?oc=5",
-      "source_name": "inkl",
-      "published_at": "2026-06-15T12:52:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 234,
@@ -657,28 +547,6 @@
       }
     },
     {
-      "id": "deal_324654425",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "Benchmark raises two new funds totaling $2 billion, shifts focus to mature startups - Crypto Briefing",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0RFNMbF9VWUNBX1RBanM0b3hsTzZiMTRTV19UTU13XzZ4alpiR2xVTjE2VzJqYUtkbmRfaF8xcDBEN0ItWWhtaWVQMUN2VHkwcXpJS2lla0ktMEZlZ01QQmE0WFNrTnBpblRkTGhxYmpMNm9ObkRB?oc=5",
-      "source_name": "Crypto Briefing",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 2000,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1271806897",
       "vc_id": "usv",
       "vc_name": "Union Square Ventures",
@@ -877,28 +745,6 @@
       }
     },
     {
-      "id": "deal_164085761",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "US-based Black founders have",
-      "title": "US-based Black founders have raised $643M this year, but will the trend continue? - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVGVFc2VPWGM4QndvMWZZelhQMGtmMlI5Wk9FcExoSDdSZ1FScDRwTXBxS0xnWFVmS0VaS0xkalB5YXZwSGoyNnVPS1g3cWpEVnJtY1RxZnhzRWZmemdLN3drQUh0ODBYOUZDbnFaT29CeXJBR011bXhxTlJSVFVBOFltTDA2dWo5bzBLQVp4NF9yNEQxQ1JiY0NYS3JRN3N2ZWI1NHh4aUtFN0RKMnJDYXlFZ04yTS1CWmJ1aV9QVTVXVjFrb1E?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-06-02T21:56:43.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 643,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_334325829",
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
@@ -1064,6 +910,28 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 965000,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_376892045",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Unknown",
+      "title": "Anthropic Tops OpenAI as Most Valuable AI Startup After $65 Billion Funding Round - Analytics Insight",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMkNVMmtnYXE5d2JuNUpNWUVSZ21JbnZoWks2WG10dnZzWVdZVlhRUGJCZ1hfaXlkejBJaWdRQzRvX0Z3YzFxU0pkdVZaTkRjV1pqSER1VE1LLUl5Tkg1SkdNVS1fdm8zRkV5NTRlejFwcEVpbWo0cFVVZDhtbGh4dHdvZFlXRlVpc000SVJIbFR2NzNsRDdoVFM5XzRnLS1lN01EZnBjckd5bURGc1RPbjBocmhZTG9jdXfSAccBQVVfeXFMT3JjNWNCNExsemEtaXlhWHhfc2tFMVBCUUFsMzhtWmJRRkVKNGtOd2JvcGpCa1MwSkpzdjVsdE9wMG5hVFA1TWhTNEMtdC1lYXkwMjZQN0dTQXozUzhSbktjS2JXYzE3c0dQNjhyWGtTWXBPVjd0WDg1OEpEVUtVcnMtN2tUMURJSzZWZ2hIczVMdFVxZnltMnU4di1Fbm1abkUyT0ZYMk5qR2drTUxwRTI5MmkyT2pDeWpYV0tTcXZfRjZGNzcyWQ?oc=5",
+      "source_name": "Analytics Insight",
+      "published_at": "2026-05-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 65000,
       "confidence": 0.71,
       "location": {
         "city": "Menlo Park",
@@ -1293,28 +1161,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1355353209",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "Unknown",
-      "title": "Anthropic to Close Over $30 Billion Round as Soon as Next Week - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV0NMU1hSV00zSGh5dWZFR0tRdm1kUHJsbnQ3UDJRc3RQaWFEeWt2XzRGN2x0Mk5PY3RCRWJPOFNqVFRLMU5xc1JUVnVLd3VOVG9NLThMamxTY2l0aUZqRFFGUjY3bmxHenY4OTBROGFuNWV3M0Y2enRabDFGZVE5RG5DUU5tS0ZoOTlMdldIMmlSMlFMeEtrdHhzUzl6d3pMNm00V29aV1VmallNVEhfQkd3?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-05-22T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 30000,
-      "confidence": 0.61,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1324,10 +1170,10 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 19,
-      "weighted_score": 88.1,
+      "deal_count": 18,
+      "weighted_score": 84.35,
       "latest_at": "2026-06-17T20:17:10.000Z",
-      "amount_usd_m_total": 2036942,
+      "amount_usd_m_total": 2071708,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1335,7 +1181,7 @@
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 1
         },
         {
           "name": "Enterprise SaaS",
@@ -1349,7 +1195,7 @@
         },
         {
           "name": "Khosla Ventures",
-          "count": 5
+          "count": 4
         },
         {
           "name": "TCV",
@@ -1397,41 +1243,6 @@
       ]
     },
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 7,
-      "weighted_score": 28.4,
-      "latest_at": "2026-06-12T11:00:06.000Z",
-      "amount_usd_m_total": 9935,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 6
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "BOND",
-          "count": 2
-        },
-        {
-          "name": "Benchmark",
-          "count": 2
-        },
-        {
-          "name": "Human Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
@@ -1467,6 +1278,41 @@
       ]
     },
     {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 6,
+      "weighted_score": 23.39,
+      "latest_at": "2026-06-12T11:00:06.000Z",
+      "amount_usd_m_total": 7935,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "BOND",
+          "count": 2
+        },
+        {
+          "name": "Human Capital",
+          "count": 1
+        },
+        {
+          "name": "Benchmark",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
@@ -1494,48 +1340,25 @@
       ]
     },
     {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 3,
-      "weighted_score": 13.69,
-      "latest_at": "2026-06-17T20:17:10.000Z",
-      "amount_usd_m_total": 702,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 3
-        }
-      ]
-    },
-    {
       "key": "San Mateo,CA",
       "city": "San Mateo",
       "state": "CA",
       "lat": 37.563,
       "lon": -122.3255,
-      "deal_count": 3,
-      "weighted_score": 11.1,
+      "deal_count": 2,
+      "weighted_score": 6.48,
       "latest_at": "2026-06-16T13:00:00.000Z",
-      "amount_usd_m_total": 693,
+      "amount_usd_m_total": 50,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
         {
           "name": "Emergence Capital",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -1566,29 +1389,6 @@
         },
         {
           "name": "General Catalyst",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Foster City,CA",
-      "city": "Foster City",
-      "state": "CA",
-      "lat": 37.5585,
-      "lon": -122.2711,
-      "deal_count": 1,
-      "weighted_score": 3.52,
-      "latest_at": "2026-06-16T13:00:00.000Z",
-      "amount_usd_m_total": 50,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Scale Venture Partners",
           "count": 1
         }
       ]
