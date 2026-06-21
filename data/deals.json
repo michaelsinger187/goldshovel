@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T19:53:43.776Z",
+  "generated_at": "2026-06-21T05:16:19.061Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -13,11 +13,33 @@
     "total_deals": 59,
     "demo_mode": false,
     "deals_with_coordinates": 59,
-    "runtime_ms": 4270,
+    "runtime_ms": 4160,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_344231991",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "Sen. Gillibrand’s 22-year-old son",
+      "title": "Sen. Gillibrand’s 22-year-old son raises $30M for trading startup as Dem champions crypto in DC - New York Post",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaW1yTmx5UXlnM0pPb2Y5WXNDSWR3X05PbzRUU0NFZzRoS1VpN3FEWVZmNU5SZEpxYk9xbGFzYV9aN180bEs2WHpjbGVWWUVIMVlCSGluMG5hdFdaU2FDd1hzN1JzTHUwa2xZeEtRQzJlU09lbzY1YWt6QkI0S1VSc051MFNBdTF3emp1ckNEZ1F6Qm5yZXpUYVNVbGExZlJsQVQ5UFpQTkdsRTZLV0w4dlBHaVdWMDFYMTZuLVhReldIU0MzNm1veHJnazR0ZEJGY0E?oc=5",
+      "source_name": "New York Post",
+      "published_at": "2026-06-19T15:33:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
+      "confidence": 0.93,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "city_keyword",
+        "confidence": 0.68
+      }
+    },
     {
       "id": "deal_1680061868",
       "vc_id": "lux",
@@ -80,28 +102,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_203604257",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "AI verification startup Pramaana Labs",
-      "title": "AI verification startup Pramaana Labs bags $27 mn seed funding led by Khosla Ventures - Business Today",
-      "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOX3B3N1B4Q01wLTAzel9iMHhGR2I3NWtKeVd4OElTU3djdXJzRk1DWkE5Q1RpWmJVV214bUhneWpLUEp4S05FLVVSREhreEhvd3A2Rm9SVGFCLW1ZVHJWaUFIM1lfREkzTnIteUxFX1dUNDdPcTRZUktlVno4X280NXRyNkZwYVMwUGw0RnlzdGpEX2F3ZXdJeGVOTllzZUVvbVdsbGxxdEdFVDhBNm5OVkdmZ3ZTWHZXRE14MVJYX3Npb01oYU04ZVBMa2dMamtHb0dRUEV0VGdhZEdHNGx0RUM3ajNHSkhOeWVGUlBIVHEzdmE3UHZJZktmUkFTdWZuWDRqdVJMWdIBhwJBVV95cUxOX3B3N1B4Q01wLTAzel9iMHhGR2I3NWtKeVd4OElTU3djdXJzRk1DWkE5Q1RpWmJVV214bUhneWpLUEp4S05FLVVSREhreEhvd3A2Rm9SVGFCLW1ZVHJWaUFIM1lfREkzTnIteUxFX1dUNDdPcTRZUktlVno4X280NXRyNkZwYVMwUGw0RnlzdGpEX2F3ZXdJeGVOTllzZUVvbVdsbGxxdEdFVDhBNm5OVkdmZ3ZTWHZXRE14MVJYX3Npb01oYU04ZVBMa2dMamtHb0dRUEV0VGdhZEdHNGx0RUM3ajNHSkhOeWVGUlBIVHEzdmE3UHZJZktmUkFTdWZuWDRqdVJMWQ?oc=5",
-      "source_name": "Business Today",
-      "published_at": "2026-06-18T08:33:26.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 27,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -683,9 +683,9 @@
       "vc_id": "usv",
       "vc_name": "Union Square Ventures",
       "company": "Unknown",
-      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion - Bloomberg",
+      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkl0dWo1cmVmQTAwa3FPOUlhUGdKUU45U1N0STUxWEtodnpqT1FnaHlGQ1ZNTFo4M3d2S3IxSGFYVHE5X2hZQ05rMUFZUFYtQ1g5Wjc4MVhsSW40SVBWS3otU1hBMjRlOWRaZFZaM2hVMTd6elFPY0pSa2V0V3F5XzlrTVhRT1lzcEUtRXhNLVJtZV82QmJvUFY2OUFuZ3FVNDFSYUxFSFVnbHpzZ2k3YkJ5TGh5QQ?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-06-04T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1189,9 +1189,9 @@
       "vc_id": "prelude",
       "vc_name": "Prelude Ventures",
       "company": "Fusion Startup Thea",
-      "title": "Fusion Startup Thea Raises $100 Million to Build Prototype - Bloomberg",
+      "title": "Fusion Startup Thea Raises $100 Million to Build Prototype - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWE16MUoxZHJwdVBDTnZsdzlIZ1ZjdGtIM0pnLWoxR0tEZERyT3kyRHhvZ1gzaDlBNGFYeDFtMVhQTEQ5SC1oX3RQdmRiUzRUdDNjNmNGVEh6alFpWUhEcTB5RW9kWnItOXR1UzFSVkJCWFN6d2lOVmxNTDZqc2lMU0E5SUJ3SndoVWFIVG1hbzhpS2dNbjFOYm9EbjRkLXQ0US1qMHdZNnJLU3Mt?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-05-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1299,9 +1299,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "Unknown",
-      "title": "Anthropic to Close Over $30 Billion Round as Soon as Next Week - Bloomberg",
+      "title": "Anthropic to Close Over $30 Billion Round as Soon as Next Week - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV0NMU1hSV00zSGh5dWZFR0tRdm1kUHJsbnQ3UDJRc3RQaWFEeWt2XzRGN2x0Mk5PY3RCRWJPOFNqVFRLMU5xc1JUVnVLd3VOVG9NLThMamxTY2l0aUZqRFFGUjY3bmxHenY4OTBROGFuNWV3M0Y2enRabDFGZVE5RG5DUU5tS0ZoOTlMdldIMmlSMlFMeEtrdHhzUzl6d3pMNm00V29aV1VmallNVEhfQkd3?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-05-22T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -1324,14 +1324,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 20,
-      "weighted_score": 91.7,
-      "latest_at": "2026-06-18T08:33:26.000Z",
-      "amount_usd_m_total": 2036969,
+      "deal_count": 19,
+      "weighted_score": 88.1,
+      "latest_at": "2026-06-17T20:17:10.000Z",
+      "amount_usd_m_total": 2036942,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 16
+          "count": 15
         },
         {
           "name": "Other",
@@ -1344,12 +1344,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Khosla Ventures",
+          "name": "Altimeter Capital",
           "count": 6
         },
         {
-          "name": "Altimeter Capital",
-          "count": 6
+          "name": "Khosla Ventures",
+          "count": 5
         },
         {
           "name": "TCV",
@@ -1363,14 +1363,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 9,
-      "weighted_score": 35.17,
-      "latest_at": "2026-06-18T17:30:00.000Z",
-      "amount_usd_m_total": 3446.8,
+      "deal_count": 10,
+      "weighted_score": 38.6,
+      "latest_at": "2026-06-19T15:33:00.000Z",
+      "amount_usd_m_total": 3476.8,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Other",
@@ -1384,7 +1384,7 @@
       "top_vcs": [
         {
           "name": "Lux Capital",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Coatue",
