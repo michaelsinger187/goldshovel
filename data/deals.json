@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T21:11:46.534Z",
+  "generated_at": "2026-06-23T04:18:48.030Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 52,
-    "total_deals": 52,
+    "scraped_deals": 53,
+    "total_deals": 53,
     "demo_mode": false,
-    "deals_with_coordinates": 52,
-    "runtime_ms": 4259,
+    "deals_with_coordinates": 53,
+    "runtime_ms": 4227,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_46041705",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "SpaceX turns to bond market to raise capital, reports $100.8 billion cash - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMnpZYWw2elZhcEd4NV81LWZtVmt1N0Q0aW05Y0FUWmcwSkU3YXBZc3cxLUpOSnVmNjItbzNWS1RaOUNHbkRSbExWMU13QThHa1U1ZnJWMlRjdFR3Z1dNVVppR2pOaHZ0SUdybnFfbElvcTRBOEQ5Z0lycVBqdXNVcE1VWTBhRnd3Vk1ObWxQMjJ2dzByMVVNOTFpSnZnUTJLQTVveDVwbXVNT0VScGJjTk9XT05pX3R0TzZLWE1sQ3NnbFk?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-06-22T22:28:17.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100800,
+      "confidence": 0.71,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1680061868",
       "vc_id": "lux",
@@ -173,28 +195,6 @@
       }
     },
     {
-      "id": "deal_129149360",
-      "vc_id": "dtc",
-      "vc_name": "Dell Technologies Capital",
-      "company": "Unknown",
-      "title": "Dell Tech Capital, Square Peg lead Limitless’ $20m series A - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWmxIUDVUaTZObnVKSUtyUUl6NWlldTRsRUVlZVMyT3FFTmRITFd6dVlnNGQ2V1hPLWF0SHBHSHVDOUpHc3YxTjdhR2RZTjBPZnBXNEMyYW5DcTVNelBSYU1Kd1k4ajNsVjd2ZmZ4aU9uNm1LazI4RVVzTUhkLVN1RjB4WFZyNW1DdTFBeERMZw?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-06-17T00:46:00.000Z",
-      "stage": "Series A",
-      "sector": "Other",
-      "amount_usd_m": 20,
-      "confidence": 0.76,
-      "location": {
-        "city": "Santa Clara",
-        "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_200125244",
       "vc_id": "scale-vp",
       "vc_name": "Scale Venture Partners",
@@ -261,23 +261,23 @@
       }
     },
     {
-      "id": "deal_68544370",
-      "vc_id": "dtc",
-      "vc_name": "Dell Technologies Capital",
-      "company": "Exclusive: Voice AI startup Bland",
-      "title": "Exclusive: Voice AI startup Bland raises $50 million after being rejected by 180 investors - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUJQQ0ZqT21vb2s0Rk1pdWVSdDNPaTBVUU9kdnh1SWVKWlg1Q25fTmNaR0lHYUxSakl0WUZVTktxSEV5aDN2ZWItc29UUzZWbDJyTG00UEREWnNwUmhKNjU1ci04YVAxMy1TSDZZN2p4RnRHd2lVTGtaMGpTejRQU0NBNENSR3hpelN3SmNEVjRGM1JxdGh6NnpaRQ?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-06-16T13:00:00.000Z",
-      "stage": "Unspecified",
+      "id": "deal_1141228745",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "AI startup Sarvam",
+      "title": "AI startup Sarvam raises $234 million in Series B round at a $1.5 billion valuation - EdexLive",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3JRU0loRFh0TERLR0h5b2JGbmltSmxJeHY5NnBTRERMa1dfLWJDeVhpMnByeVZncW9oSTV0ZnlHbTRfMVJxX3lWbWs3eTRNdWVadFpiR2tWQWplbk5BYmpDeWVic1ZCVDdLQ3dmZ2hPTnpORlBka1pWdjhyVERHMTJ3ZVE0YjlvQXF0NGt0YnhTdDl3eEI4VkRhRU12Y3E5T21uMTlvcThrcTJIYWhBUUV1TDF3ME5nODJvNGlRVUJHQ1XSAdABQVVfeXFMTVFrYVhvaVpRQkI4Skl1RkhoTDJrYWpJVURBd3Myak9TYW5MdVlMbEdWb3ZtSkNldzZnQXNKeHEzNHlnSzc5SjlNNjVvVEt4NjN4cFJJUmlWckNxOWdYTlJjNlVMNDlxcTFSVnN1aW9INXhsX3BJenZVUHh6RnFLZm5yNmxhNGc0Q19GcXFlamtIdWpPVjMxV3h3bGV1LVJ6bkROZW1xN1hhRHoxQ013c1BvREp4UGJBMVpBWWUxbEV6ancwb0kteVo3cHgyT1ZFZw?oc=5",
+      "source_name": "EdexLive",
+      "published_at": "2026-06-16T08:45:00.000Z",
+      "stage": "Series B",
       "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.81,
+      "amount_usd_m": 234,
+      "confidence": 0.96,
       "location": {
-        "city": "Santa Clara",
+        "city": "Redwood City",
         "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
+        "lat": 37.4852,
+        "lon": -122.2364,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -349,28 +349,6 @@
       }
     },
     {
-      "id": "deal_1154468819",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Indian AI startup Sarvam",
-      "title": "Indian AI startup Sarvam raises $234M in Series B at $1.5B valuation - Asianet Newsable",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ2N4eGRoREM3Zzd3NXJDNThzMDlaQWlTd3lUQ081OUhTdDJ0RlI4RTltbkR6bG1jZGJZamxUOHdFOFBqdGhVVGg4RVQ2QXgyV2EyUldUZVIyNUNoWjhpcktFTU1HUzZ6ZHVOd1JweVNLR01iMU1yZHhKQW5nUC1McE44NUlOSEEtX2g4dzU5czBzelJXRC02elpXMld0am5Ic3FkSVF2NGVSWjRRUXZuNkJOeERkVE4yTThsejg0Tk9tRWhjWGfSAcsBQVVfeXFMT0sxX25EYmhxN0VPcTNBb0cyRFhYRHd0TDZ1amxNcjYtemNKSk5tWE1fd1Q5dW5NNjBwT19vU2FLZ19VUmxTWVJ6cEJVc0JGSThWdDV3N2swTS1pcl9BMFZVREU0ckl2d3pWYjI1M1YycWwtUmIxbDhERG1nYklZRTIwOWFQRjBrNTM5R3VhdkpCS2R2X3V0VzJ0WGVqRVFfOEtJWWNlal9pUm01Mkl0ZjNKTDgwYk5FdVp6TEhlU1MxYnRjR1IyY0VXdzA?oc=5",
-      "source_name": "Asianet Newsable",
-      "published_at": "2026-06-15T15:30:28.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_716016117",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
@@ -393,23 +371,23 @@
       }
     },
     {
-      "id": "deal_814953073",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Danantara",
-      "title": "Danantara Raises $1.5 Billion in Debut Global Bond Offering - Jakarta Globe",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSzg3Q25STHBGZHpneGNLNkZJVlNlZUZVNVBsNDhLMVU1ZlREZTREOElmWjFhejRMbXMxcGNscEtqVXBYU1RwU3RvT2U2bVB5d2s2NURFTlJpTkcyRWpmUk5kVzJKU0RqTDUydGpsb01Pa3h1akRmSkI5UkgwNjVTY05fVl9NRU5qVzREMEsyZkYwdTlN?oc=5",
-      "source_name": "Jakarta Globe",
-      "published_at": "2026-06-15T12:38:00.000Z",
+      "id": "deal_1469837168",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Exclusive: The researchers who built AI-generated DNA just",
+      "title": "Exclusive: The researchers who built AI-generated DNA just raised $50 million to reinvent biology - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWNDSWdrYnNSaXRhNmJBRGtJVzlzQ0J6ckJ6QkNkbnBhb1BLcEZuSVZJclkyR01ONXJoWGh4SjJZTEp4cThkNmVfR2gxR0RocjVrYUpiX0RYR1ZKcVdySHhDckxPOEQtdlVMS1MwcTNWOFZnNUNxb3RWSVFxZzZ4cnBvSFEzLVRHWEVOdGhmeDRIbzVhNVBZTjZxeTBuZWZPYzZDSVRVUEJrN2FBSGh2Vg?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-06-15T12:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 1500,
+      "amount_usd_m": 50,
       "confidence": 0.81,
       "location": {
-        "city": "San Francisco",
+        "city": "San Mateo",
         "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
+        "lat": 37.563,
+        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -921,6 +899,50 @@
       }
     },
     {
+      "id": "deal_570115878",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "Waypoint Bio",
+      "title": "Waypoint Bio Raises $20M Series A to Advance CAR T - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSTNFdUgyZTZMVTRfWENXdUMyaTBZcXB3MGV1b1FQNW1keXBoNkRzWnJHaVFmRzNpV0RYUmJ5aUxKMEpxekVQM1RieDZCWnhFcFVfNGRNelJMYk0xWWdwYU1PNXRteE9tU1JhMWtYaXFQeVVoVG1ubFRXMDJQUGxSSVhvMWlQbEhwdXktLXloTHhWVzQ0Unc?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-06-01T20:56:51.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2063132709",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "Waypoint Bio",
+      "title": "Waypoint Bio Raises $20M Series A Led by Amplify Partners to Advance AI-Designed Cell Therapies Toward the Clinic - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUHUzRUljQzlrQl9YLXNwNUllZkY3WUlLLVJZNm9CbmN5c3p2Ty1qbzk5UzNXcnpZZC1RZlhPM2JCV2pibGMzNDNwNmFUZGhscGJKUlBEWUJPVDA4blRkSldOZVBJeG5OZEJZSEFwM3RtS1h6Z3FLTjliZ0IzQUo5V19UVDEtdDdMTmN4ZFlNZTlReUJ1akF1SnhiY0ZGejNLQTBETnJuZjZFSFY4YjVXd1hIQ0dDZFZTZ3NBT3BGbjFHNzVLdk9TZTV5a2U3Wlg3VUpYOGlJbGxaeHJjQUpMR19EYWZ2dS1mNG1kakNteGJKa05TVTlpeEM3dVMtNm5rTHc?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-06-01T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2113124571",
       "vc_id": "tcv",
       "vc_name": "TCV",
@@ -965,18 +987,18 @@
       }
     },
     {
-      "id": "deal_998326901",
+      "id": "deal_1963344298",
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "Unknown",
-      "title": "Anthropic Nears Trillion-Dollar Valuation After Its Latest Funding Round - afrotech.com",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdWtuclBNdVBvYkozTHF3MlRFOUc1eTBFTXRkNUQ3eVRTd3VZZ1NyWHhoMVpIcHlMNWNVVGlySkhkS0R6UHZYU18zaXZtUG1HMUptZjMyZlJnYlY2Q09IQzBoVkVMZHJrU0V5eG5BX1BXYnZwdVJCcWNZTVhKMUd6TmZUd1FMWnhXc1hkZHl1d2pWZE5Nak9BWg?oc=5",
-      "source_name": "afrotech.com",
+      "title": "Anthropic nears $1 trillion-dollar valuation, surpasses OpenAI in latest funding round - DD India",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSTh1OHpadEJJT2RCdXVuTzlqSkZ6V2lMUVJyT0R1NEpNejlMdGlxcFN4WVQ1NWY5U2w4anhjUWJPSGdxNm1WVDJKSHdJbzFtQkp4dEJ6RTJQSGphdm1vcWdscW1RQ3BwS3lvTF8tZlNkem56Q05wbDBYeFBiYVoxbmJpTmRlMlNPaE8xaFg3ZldybUR3WnJQMjctNUVpSjNiQVJhZDZBR1hxSFJ2ZW5NUk44NDViZw?oc=5",
+      "source_name": "DD India",
       "published_at": "2026-05-29T07:00:00.000Z",
       "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
+      "sector": "AI & ML",
+      "amount_usd_m": 1,
+      "confidence": 0.71,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1170,18 +1192,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 14,
-      "weighted_score": 61.22,
+      "deal_count": 16,
+      "weighted_score": 68.99,
       "latest_at": "2026-06-17T20:17:10.000Z",
-      "amount_usd_m_total": 1996268,
+      "amount_usd_m_total": 1996309,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 14
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 1
         },
         {
           "name": "Enterprise SaaS",
@@ -1198,8 +1220,8 @@
           "count": 4
         },
         {
-          "name": "Greylock",
-          "count": 1
+          "name": "Amplify Partners",
+          "count": 2
         }
       ]
     },
@@ -1249,9 +1271,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 7,
-      "weighted_score": 28.37,
-      "latest_at": "2026-06-15T12:38:00.000Z",
-      "amount_usd_m_total": 9435,
+      "weighted_score": 30.1,
+      "latest_at": "2026-06-22T22:28:17.000Z",
+      "amount_usd_m_total": 108735,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1363,52 +1385,25 @@
       ]
     },
     {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 2,
-      "weighted_score": 7.2,
-      "latest_at": "2026-06-17T00:46:00.000Z",
-      "amount_usd_m_total": 70,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Dell Technologies Capital",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "San Mateo,CA",
       "city": "San Mateo",
       "state": "CA",
       "lat": 37.563,
       "lon": -122.3255,
-      "deal_count": 2,
-      "weighted_score": 6.48,
+      "deal_count": 3,
+      "weighted_score": 10,
       "latest_at": "2026-06-16T13:00:00.000Z",
-      "amount_usd_m_total": 50,
+      "amount_usd_m_total": 100,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
         {
           "name": "Emergence Capital",
-          "count": 2
+          "count": 3
         }
       ]
     },
