@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:22:22.607Z",
+  "generated_at": "2026-06-23T20:20:14.835Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,24 +9,24 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 60,
-    "total_deals": 60,
+    "scraped_deals": 63,
+    "total_deals": 63,
     "demo_mode": false,
-    "deals_with_coordinates": 60,
-    "runtime_ms": 5001,
+    "deals_with_coordinates": 63,
+    "runtime_ms": 4353,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
-      "id": "deal_1273953894",
+      "id": "deal_927059030",
       "vc_id": "amplify",
       "vc_name": "Amplify Partners",
       "company": "Visa and BCG Build on Allium as Startup",
       "title": "Visa and BCG Build on Allium as Startup Closes $40M Series B - Bitcoin News",
       "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHBnM0VaXy1vYzlPU183dXpuZEJEYlpBVFJaLTMwV2lacXNIZmljWXNwazBwb1VRaFphVkxpSXlpYllZZVVLOVN1dnEyWi1wc2RJR3kycTRKdFR2SWRMekdxaE9jZU4ydTR2MGRETVV4ZmtHaTVIbktzVjdpZWpUaHNFZ1BFNFN3dHA4V1NR?oc=5",
       "source_name": "Bitcoin News",
-      "published_at": "2026-06-23T13:50:16.000Z",
+      "published_at": "2026-06-23T17:46:59.000Z",
       "stage": "Series B",
       "sector": "Other",
       "amount_usd_m": 40,
@@ -36,6 +36,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1086814541",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "Invest Qatar Launches VC Funding Module on Gateway Platform | 2026 - News and Statistics - IndexBox",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMHdfb0hRVkZZZHpkd2pFZzZGX0FLQ0NVaWxPZllHTXpwbUFmNjNsanB1V09IaEZkZ1ZBZkdpcTN4Si15VkVPWVF6WXF6a3ZqUDR2ZkVrQ1RhSmZwSHpkYk5Ya2pVWHdoRFZGU2w4VktlcjdPbEtmZ0ZaYW16X01ORlh3dkJidFl0d0YxOVRueTJlVnF1am52VFZsaG5sbXhvVmZj?oc=5",
+      "source_name": "IndexBox",
+      "published_at": "2026-06-23T14:33:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -151,6 +173,28 @@
       }
     },
     {
+      "id": "deal_46041705",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "SpaceX turns to bond market to raise capital, reports $100.8 billion cash - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMnpZYWw2elZhcEd4NV81LWZtVmt1N0Q0aW05Y0FUWmcwSkU3YXBZc3cxLUpOSnVmNjItbzNWS1RaOUNHbkRSbExWMU13QThHa1U1ZnJWMlRjdFR3Z1dNVVppR2pOaHZ0SUdybnFfbElvcTRBOEQ5Z0lycVBqdXNVcE1VWTBhRnd3Vk1ObWxQMjJ2dzByMVVNOTFpSnZnUTJLQTVveDVwbXVNT0VScGJjTk9XT05pX3R0TzZLWE1sQ3NnbFk?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-06-22T22:28:17.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100800,
+      "confidence": 0.71,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_136067540",
       "vc_id": "dcvc",
       "vc_name": "DCVC",
@@ -170,50 +214,6 @@
         "lon": -87.6298,
         "method": "city_keyword",
         "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_30256645",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Indian AI startup Sarvam",
-      "title": "Indian AI startup Sarvam raises $234M in Series B at $1.5B valuation - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUFhySU9GcDg2emtQelFQRG1wUW1CbmdZQXBKMjhhUjh5R3gySGhLVm9vcjdwaGZKWGdUVlU4TTBaTTgya2hSTW4zWHpLU2JNNFRWcVF4NkRNNDlzWlpmNmt1VzFhSnhleERtMGhKV1JQeGcxWGRvNUQxOHYzb1Q5OVNTQ3JLT0NYV3lpQWtLR29tN3BwTDNESnVPaUlZd2dHRlVuSnNfYXo5aUxUZi1Xa3dXOWE?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-06-19T07:43:26.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1522581370",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "Unknown",
-      "title": "Source: Elastic agrees to buy CRV-backed Deductive AI for up to $85M - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRHZOcDdCS0xORTdvbUlmRVJhdkZXU2YycW0yNzdDYWFIUXNZLUltd0pUOWhCZlpYVDNwMzY3QmRtUmJKREJXSUw1enBtUVk3M1F6N0VBbFc3NXZhWGNYZXlVLUEwZk5DYndLb3VUaDVaU1lITjhoUDRBMXZxNTQ4YW8wMDV1VFd0eFlQemc2bUhWU1BLQ0dIVg?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-06-19T00:51:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 85,
-      "confidence": 0.71,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
       }
     },
     {
@@ -415,28 +415,6 @@
       }
     },
     {
-      "id": "deal_1141228745",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "AI startup Sarvam",
-      "title": "AI startup Sarvam raises $234 million in Series B round at a $1.5 billion valuation - EdexLive",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3JRU0loRFh0TERLR0h5b2JGbmltSmxJeHY5NnBTRERMa1dfLWJDeVhpMnByeVZncW9oSTV0ZnlHbTRfMVJxX3lWbWs3eTRNdWVadFpiR2tWQWplbk5BYmpDeWVic1ZCVDdLQ3dmZ2hPTnpORlBka1pWdjhyVERHMTJ3ZVE0YjlvQXF0NGt0YnhTdDl3eEI4VkRhRU12Y3E5T21uMTlvcThrcTJIYWhBUUV1TDF3ME5nODJvNGlRVUJHQ1XSAdABQVVfeXFMTVFrYVhvaVpRQkI4Skl1RkhoTDJrYWpJVURBd3Myak9TYW5MdVlMbEdWb3ZtSkNldzZnQXNKeHEzNHlnSzc5SjlNNjVvVEt4NjN4cFJJUmlWckNxOWdYTlJjNlVMNDlxcTFSVnN1aW9INXhsX3BJenZVUHh6RnFLZm5yNmxhNGc0Q19GcXFlamtIdWpPVjMxV3h3bGV1LVJ6bkROZW1xN1hhRHoxQ013c1BvREp4UGJBMVpBWWUxbEV6ancwb0kteVo3cHgyT1ZFZw?oc=5",
-      "source_name": "EdexLive",
-      "published_at": "2026-06-16T08:45:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1958819399",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
@@ -537,6 +515,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 9.7,
       "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1964213489",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Spanish AI robotics startup Theker",
+      "title": "Spanish AI robotics startup Theker raises EUR 73 mln from CRV, Samsung, LVMH - Telecompaper",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOW0wTVJlY0xPTGNUMkdQM2hnODlIYUVydkQwbXhfWW9yLW9RMnJVcHpaRHpGMHVxN2xBRzJGcVZiaW1pRnBTN2F5UnVPb3VtUm9FbDRSSzBSQkg5Q3h5d2xuN3NlN0RpbXV2M1lOa1YyLU5xNEttSlpXcTRYM2dISS1tamdPTnk2RGhHbC0yWURoZDc2b1BFSHJwcHU2aXhfaHBZM1R3ZDA2SmxtY0hoSkpLNEJlWm9B?oc=5",
+      "source_name": "Telecompaper",
+      "published_at": "2026-06-12T09:24:53.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.61,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -652,6 +652,28 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1069930029",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Unknown",
+      "title": "AI-routing Startups See Major Venture Funding - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbWJMSkZjWVdUQkxEM256WUJrOU1zaHlRUV9aRFcxdi01MVh0ejlGd3U1eXVqVjJLc2lJT0FKNHQzQTVKMnYtQmhGd0k4cDNUS2pYMzY3c3h3cWpwRUdLSFdxdXVmcXdFMXZnTlEwZXhUb0pnVG9XeUpOejB1UFpJWm1LeThtY3lkY2tZZmYwVDQ?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-06-10T13:44:04.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -784,50 +806,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_329180162",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "AI-Powered Commercial Insurance Startup",
-      "title": "AI-Powered Commercial Insurance Startup Announces The Largest Publicly Disclosed Series A Amount Raised By A Black Founder - afrotech.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JcG4zUDIwNXk3Q01vY2RMVmI1ZzRHWGRBcS1LeGowR2hEZGhOeE43WkxmaXMzRFUtaU43dWItNmY2cWppQjg4ZC0wcDhab0Q1OW1Tc244REVhU3BxSnBQQmZVZl90R2s?oc=5",
-      "source_name": "afrotech.com",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1269573580",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "AI-Powered Commercial Insurance Startup",
-      "title": "AI-Powered Commercial Insurance Startup Announces The Largest Publicly Disclosed Series A Amount Raised By A Black Founder - afrotech.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JcG4zUDIwNXk3Q01vY2RMVmI1ZzRHWGRBcS1LeGowR2hEZGhOeE43WkxmaXMzRFUtaU43dWItNmY2cWppQjg4ZC0wcDhab0Q1OW1Tc244REVhU3BxSnBQQmZVZl90R2s?oc=5",
-      "source_name": "afrotech.com",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1097,6 +1075,28 @@
       }
     },
     {
+      "id": "deal_944007159",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Unknown",
+      "title": "Mach Industries Valued at $1.8 Billion in Latest Funding Deal - Bloomberg",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkRYYk5vcGR0RWp6QW9uQk9yZFhDZnowVTFhNW10MlY3SUtZWFZfYXJCQ3A1TmZNVnk4czFRNk40dy01aWZBUHZKZGV5QmFrRmFmYW5KZmR5bkUyZWh0ZGlFaFB1RnJ6aDBubDZHZFI2d2R4XzVZZFZCNTJ3UmJERkU2YUJIZ0dnbXp6T19nZUZkOFRHcXVwRVkzYTR6bllhUWhJak5uZXpIY0c5cEJuRA?oc=5",
+      "source_name": "Bloomberg",
+      "published_at": "2026-06-01T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 1800,
+      "confidence": 0.61,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2113124571",
       "vc_id": "tcv",
       "vc_name": "TCV",
@@ -1114,6 +1114,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1999395338",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "Africa's Startup Funding Shifts Amidst AI Boom - StartupHub.ai",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZFhTWDVnYVNZaGxPdVhSdWlBbmNJeUphek5yakVYcjVUVlpEM2VONk9FLVNuMFpoSTFYcGp6QVBaeEdNRDVTQVIwMm1GeGoybERub2Yta1lGT1Mzdjl0dzVmWTA5dFFMRUxGaVZ1QlJ1WW05WlJNVUpMNlZVaC1rN19GcmVxTmhtTk93N2tlMFpwajhGcjFWczVEWDRSa00?oc=5",
+      "source_name": "StartupHub.ai",
+      "published_at": "2026-05-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1273,23 +1295,67 @@
       }
     },
     {
-      "id": "deal_863974956",
-      "vc_id": "prelude",
-      "vc_name": "Prelude Ventures",
-      "company": "Fusion Startup Thea",
-      "title": "Fusion Startup Thea Raises $100 Million to Build Prototype - Bloomberg",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWE16MUoxZHJwdVBDTnZsdzlIZ1ZjdGtIM0pnLWoxR0tEZERyT3kyRHhvZ1gzaDlBNGFYeDFtMVhQTEQ5SC1oX3RQdmRiUzRUdDNjNmNGVEh6alFpWUhEcTB5RW9kWnItOXR1UzFSVkJCWFN6d2lOVmxNTDZqc2lMU0E5SUJ3SndoVWFIVG1hbzhpS2dNbjFOYm9EbjRkLXQ0US1qMHdZNnJLU3Mt?oc=5",
+      "id": "deal_1828922163",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "AI coding startup Cognition",
+      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzd0YXo5MWwzZmhuUkxZWktSZFBQdnVNRVBJaGlUQlJnUng3d0dPaF9FWUF6RGVDR0ZNWVdfRlA2YlhLbWVydlhsRmpqS21zb2hKYVgxbjNoOHZFUEhMQVFVZ3RnTDZ2SWpYYXRMQUotaF9OQmhKRHB0bk44NjFRZm8wV0tPSzZJMDg4clZTbUdjajBVbk5UdXNfN2Eza1BD?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-05-27T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1578926499",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "AI coding startup Cognition",
+      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzd0YXo5MWwzZmhuUkxZWktSZFBQdnVNRVBJaGlUQlJnUng3d0dPaF9FWUF6RGVDR0ZNWVdfRlA2YlhLbWVydlhsRmpqS21zb2hKYVgxbjNoOHZFUEhMQVFVZ3RnTDZ2SWpYYXRMQUotaF9OQmhKRHB0bk44NjFRZm8wV0tPSzZJMDg4clZTbUdjajBVbk5UdXNfN2Eza1BD?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-05-27T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1083362432",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "AI Coding Startup Cognition",
+      "title": "AI Coding Startup Cognition Raises $1 Billion at $26 Billion Value - Bloomberg",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcm9aMFdXbk1qSlBTWmt6SWRuV25iaVU2RG5BbnFFT1BpMktXUEk2N1hVYXo1TldHSS1lYmhncWx4WTBfaTNvQUZNRjBIeGNWVXUyamFuTW5TX3owT19fcUxxYkdoaC1TVUF4Y1ZWTTFLVjNScDlVcGZOcFFWZnFUTG9JeDVPMUV2TTF4T0pUVVhBeVd3ZzlQVC0tMDBibzVkT24yVEdrdERfTy1IYzktdVFXVWxPZw?oc=5",
       "source_name": "Bloomberg",
       "published_at": "2026-05-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 100,
+      "amount_usd_m": 1000,
       "confidence": 0.81,
       "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1346,14 +1412,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 20,
-      "weighted_score": 84.02,
-      "latest_at": "2026-06-23T13:50:16.000Z",
+      "deal_count": 21,
+      "weighted_score": 86.13,
+      "latest_at": "2026-06-23T17:46:59.000Z",
       "amount_usd_m_total": 1996275,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 17
+          "count": 18
         },
         {
           "name": "Other",
@@ -1386,9 +1452,9 @@
       "lat": 40.7128,
       "lon": -74.006,
       "deal_count": 8,
-      "weighted_score": 33.16,
+      "weighted_score": 35.01,
       "latest_at": "2026-06-18T17:30:00.000Z",
-      "amount_usd_m_total": 3446.8,
+      "amount_usd_m_total": 4446.8,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1406,14 +1472,14 @@
       "top_vcs": [
         {
           "name": "Lux Capital",
-          "count": 3
-        },
-        {
-          "name": "Coatue",
-          "count": 2
+          "count": 4
         },
         {
           "name": "Venrock",
+          "count": 1
+        },
+        {
+          "name": "Coatue",
           "count": 1
         }
       ]
@@ -1424,21 +1490,21 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 8,
-      "weighted_score": 29.16,
-      "latest_at": "2026-06-19T00:51:00.000Z",
-      "amount_usd_m_total": 1464.4,
+      "deal_count": 9,
+      "weighted_score": 32.59,
+      "latest_at": "2026-06-17T11:30:00.000Z",
+      "amount_usd_m_total": 3179.4,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 6
         },
         {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
+          "name": "Other",
+          "count": 2
         },
         {
-          "name": "Other",
+          "name": "Semis, Robotics & Hardware",
           "count": 1
         }
       ],
@@ -1448,35 +1514,12 @@
           "count": 3
         },
         {
-          "name": "CRV",
-          "count": 2
+          "name": "Ribbit Capital",
+          "count": 3
         },
         {
-          "name": "Ribbit Capital",
+          "name": "CRV",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 5,
-      "weighted_score": 24.36,
-      "latest_at": "2026-06-19T07:43:26.000Z",
-      "amount_usd_m_total": 1170,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 5
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 5
         }
       ]
     },
@@ -1486,27 +1529,31 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 5,
-      "weighted_score": 21.38,
-      "latest_at": "2026-06-12T07:00:00.000Z",
-      "amount_usd_m_total": 7935,
+      "deal_count": 7,
+      "weighted_score": 28.4,
+      "latest_at": "2026-06-23T14:33:00.000Z",
+      "amount_usd_m_total": 108635,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 6
+        },
+        {
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "BOND",
-          "count": 2
+          "count": 4
         },
         {
-          "name": "Benchmark",
+          "name": "Human Capital",
           "count": 1
         },
         {
-          "name": "Founders Fund",
+          "name": "Benchmark",
           "count": 1
         }
       ]
@@ -1539,15 +1586,15 @@
       ]
     },
     {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
       "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
+      "lat": 37.4852,
+      "lon": -122.2364,
       "deal_count": 3,
-      "weighted_score": 10,
-      "latest_at": "2026-06-16T13:00:00.000Z",
-      "amount_usd_m_total": 100,
+      "weighted_score": 13.69,
+      "latest_at": "2026-06-17T20:17:10.000Z",
+      "amount_usd_m_total": 702,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1556,8 +1603,54 @@
       ],
       "top_vcs": [
         {
-          "name": "Emergence Capital",
+          "name": "Bessemer Venture Partners",
           "count": 3
+        }
+      ]
+    },
+    {
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 3,
+      "weighted_score": 12.65,
+      "latest_at": "2026-06-09T07:00:00.000Z",
+      "amount_usd_m_total": 2020,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "8VC",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 2,
+      "weighted_score": 7.04,
+      "latest_at": "2026-06-16T13:00:00.000Z",
+      "amount_usd_m_total": 100,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
+          "count": 2
         }
       ]
     },
@@ -1649,29 +1742,6 @@
       "top_vcs": [
         {
           "name": "Battery Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 3.03,
-      "latest_at": "2026-06-09T07:00:00.000Z",
-      "amount_usd_m_total": 20,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
           "count": 1
         }
       ]
