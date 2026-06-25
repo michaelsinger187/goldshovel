@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T09:41:00.065Z",
+  "generated_at": "2026-06-25T15:09:41.766Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,27 +9,49 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 72,
-    "total_deals": 72,
+    "scraped_deals": 80,
+    "total_deals": 80,
     "demo_mode": false,
-    "deals_with_coordinates": 72,
-    "runtime_ms": 3954,
+    "deals_with_coordinates": 80,
+    "runtime_ms": 4389,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
-      "id": "deal_1705536075",
+      "id": "deal_753467723",
       "vc_id": "mayfield",
       "vc_name": "Mayfield",
-      "company": "Former Infosys CEO’s startup",
-      "title": "Former Infosys CEO’s startup raises $32m in seed funding - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMThlVWhVZjFQMmpuaFcwbkM2WDI4NTd4c1JsX1hhZnRGSVBqYWpDVDhsamFYdGREVDF2MGROSGlyWkZBYms0Wk16Qjd5cWxRUmVQel9pMzNtOFVCeWtLeVUxUTN6STBXODA4dldxUU5YeVppVFptS1c3NmdYWFhVTGR3?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-06-25T03:47:00.000Z",
+      "company": "Unknown",
+      "title": "Who Is Vishal Sikka? Former Infosys CEO Launches AI Startup Hang Ten Systems With $32M Seed Funding - NewsX",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOEV1NVNXRDFVSnUtQjdCbXVvMkhhN2lEeDF1LUJ2NTNRODhSTWxSb0RzbjhldE91SmVaRjFINDlaX3dlSUIwUm5YRTF0UXhlTUYwZmdYRXZtLWktd0cwdDRTWU9lWUhoSWRYQndWVjdjbzVWV3kwemdPb1FyV09XU3hKanB5TUl5UElRYkF6ZS0tOWVYRWFIX1lqSkVfNldERzVOcDBfMXJCQkJBb1M0eElUSk1NZDQxLWZLa0VSU0JTcmJkZG5lWnZTZmI5SHhBX1HSAdcBQVVfeXFMTkZXTC1TczEyNEZBZXhXaFUwTkt6QmoxS29iemNhOGhuOXRqLTNLUVFFV3ZrOUtNTGlqVFZ4RTVtRWxZZm92cGlUb3hfblFsU3UxbmZLaWZIYXkwUUNFdms2YWJRRzRXczhzbXgwSlVsaVFVWjQ5Ykd0M1RPUmptYmpIaXpkQW5Qd3p3UWFYSTdPMGJrNy11bTNsRVI3TTZ1VEExVGJNX3RoTjA1eHFHaXp3T0ZJODg2SHBTTGpvbGNURzlnT0k2cUY0UGlkcGF3bS1IeGNKNkU?oc=5",
+      "source_name": "NewsX",
+      "published_at": "2026-06-25T12:40:29.000Z",
       "stage": "Seed",
       "sector": "AI & ML",
       "amount_usd_m": 32,
+      "confidence": 0.86,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1304531686",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "Runlayer",
+      "title": "Runlayer Raises $30M Series A - The SaaS News",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1V2I5b3pIakpDX2dheHgyMVVzQ2ZZbjVHdlEtWndJY2plRVZSbENmT3RoRTFqS0NPYlQ3UmRoRzB1WURTZWNycjdQRUtUVGNHQkc5clhkV2pFQVlGOGdKUjNYbUE5bnBkSFIzekxaQQ?oc=5",
+      "source_name": "The SaaS News",
+      "published_at": "2026-06-25T05:03:08.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
       "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
@@ -177,36 +199,14 @@
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Unknown",
-      "title": "BlackRock Backs Secondary-Market Startup Caplight in New Round - Bloomberg",
+      "title": "BlackRock Backs Secondary-Market Startup Caplight in New Round - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUGZwR1lvTFBSN2dLMGI2UTlVQmVTb2xPVzZpT3I5VjlQWE9yOVZZT2ZzSUtSTHJnOEJMUEJGMWhSblNEYlJuN1ZqeWQxMEhqdzQ1Q0steV90MHJCblpmVF9LNHlxNy1aZjVTUVhSUml4NUxIa25rdXhZbl9BNVRTanJZSm5NbFZONW0zTG5QOWc4VTdOeV9ZczJ4SlE2bVdxXzNvcHl5UF92dkgtV1hoa2FUQQ?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-06-24T10:00:18.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
       "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1822139545",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Axis Bank",
-      "title": "Axis Bank raises $800 million through dual-tranche dollar bond sale - Lapaas Voice",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdDNKMmt0dnhZLUdiVGpCRWR4MTVQRTBfU0VZamZjVnJTOVhCcUdYNnFYSGRYSzhTVkJISFBTXzQ4QXpabjNaYkZHalhqcWxMZ1BqWEVZVTBYQUlSWVlCaDJNM25KUDdwcWZKRGFQa3BEajVHR1BnNDZIR2pzNWxlUU9MNmxmUUJPMDBoOHJIendFWkRYbXVN?oc=5",
-      "source_name": "Lapaas Voice",
-      "published_at": "2026-06-24T07:03:52.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 800,
-      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -229,6 +229,28 @@
       "sector": "AI & ML",
       "amount_usd_m": null,
       "confidence": 0.61,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_218203894",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "SpaceX Bond Offering Raises $25 Billion With Strong Demand - The Cryptonomist",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TT0lCU2ZyM3ZwUTY1cmZfRGoyLXR5c21mTk44ZWRrQ1VPS0xUSG56Q2N0ZEVGU3p1WVItclBmU1RNSXJlb0p6eGx3am5TbnpjSHJpLXFkX2VsMkEzWnVtWEl1dnFFYW1paVJj?oc=5",
+      "source_name": "The Cryptonomist",
+      "published_at": "2026-06-23T19:52:14.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 25000,
+      "confidence": 0.71,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -305,12 +327,12 @@
       }
     },
     {
-      "id": "deal_60842546",
+      "id": "deal_50602616",
       "vc_id": "amplify",
       "vc_name": "Amplify Partners",
       "company": "Unknown",
       "title": "US blockchain data startup nets $40m series B - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbHZGRDBOYVBZTUVoc0tyZkdlNVBhT2NLTUJZRWRGZEZtU2pVVDd2dWFoWmE4ZnBKVUhPR3AyTFZDaXJZMmFPNDNaOVVYT1dKNjJRZ1E0ZFlZSG9tbnd4MzZsRE12aE4tb2xZYXNhSUwtZlZSclRvTGZ2LW5rbk9aU293?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBiTGhNeWFhdVd2RldCX3R4RWQ2RlRwdnlNeVZFVmx1RFRYd2hkRmhQRHhLa042bHVkWlBvUkVqYmo1dmZwcm9OaF9fcjQzQ3gteWgzRDdVc1VxQkxHaXc2NHVkQnlJWUVONzVTM01KQVlKbUc0MXNWQ0tvMA?oc=5",
       "source_name": "Tech in Asia",
       "published_at": "2026-06-23T13:26:00.000Z",
       "stage": "Series B",
@@ -371,45 +393,45 @@
       }
     },
     {
-      "id": "deal_1614782308",
-      "vc_id": "dtc",
-      "vc_name": "Dell Technologies Capital",
+      "id": "deal_46041705",
+      "vc_id": "bond",
+      "vc_name": "BOND",
       "company": "Unknown",
-      "title": "Dell Technologies Capital Leads USD 50M Investment in Full-Stack Voice AI Startup - Slator",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMXl2M0dmVHlKMVlyWU15WXRoX1J0Nk1fc1pWRy0tTWtXUHozTkdyY0YwMEZQZlM2NlBwaGRVWms0RlNsZjA0SzhaRFY5ZHBuVk5PWmZJSjZBQlg5OWYxNkh0U2t0QTkyZzc4YkZma0k5M0NxTVJJOUNYam04YlNhN1RFMnlidw?oc=5",
-      "source_name": "Slator",
-      "published_at": "2026-06-23T08:54:39.000Z",
+      "title": "SpaceX turns to bond market to raise capital, reports $100.8 billion cash - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMnpZYWw2elZhcEd4NV81LWZtVmt1N0Q0aW05Y0FUWmcwSkU3YXBZc3cxLUpOSnVmNjItbzNWS1RaOUNHbkRSbExWMU13QThHa1U1ZnJWMlRjdFR3Z1dNVVppR2pOaHZ0SUdybnFfbElvcTRBOEQ5Z0lycVBqdXNVcE1VWTBhRnd3Vk1ObWxQMjJ2dzByMVVNOTFpSnZnUTJLQTVveDVwbXVNT0VScGJjTk9XT05pX3R0TzZLWE1sQ3NnbFk?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-06-22T22:28:17.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
+      "amount_usd_m": 100800,
+      "confidence": 0.71,
       "location": {
-        "city": "Santa Clara",
+        "city": "San Francisco",
         "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
     },
     {
-      "id": "deal_212319909",
-      "vc_id": "ivp",
-      "vc_name": "IVP",
-      "company": "Baseten",
-      "title": "Baseten Raises $1.5 Billion to Power the Next Era of AI Inference - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQmdXckdPbEFzUkhLZ2tHbUstSUZGM1ROS3ZoZEtnd3N2djdwQkk0akxJZWRuRWMtUk5TWi1PVHMtbFhpc0hwOGxPOUU5NEhIN1BQMFNxcHNuaE1VUzNYVkNxdVJzRzN5d2xDdkYtUVRYVWc0TzJOWW1CbFdCY3lkQTgtNW1QeGpGN3ctU0NVRnF5SVRfTGVkNjlzaVNmd0tlWEh0V3hJS2o3WkRzZF9rSkVGTlJlWmlrMjZsZnE1d1JaQQ?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-06-22T13:00:00.000Z",
+      "id": "deal_1204756479",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Social trading platform Fomo",
+      "title": "Social trading platform Fomo raises $75M, reaches $550M valu|Cointelegraph - خبرپو",
+      "source_url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxOSW84ZHZJYVVpVThPTDB3QndUeG4xMnBOMFY5R2JTcHM4cXVoVE1rU1ZMQUJRbVY3MEZuRk9uRDRkRUktcVFZV20wS2FEMlhoNXpEQ0VCUUVaRmhkOF9xSmdKUTNUMmpQU1oxSWlhdDNqT2FYUTdSVVNRSG9KZ2NVdWFKR0ZlN3lWaTY0bmtmdm9fSEY0N29udk50Y0JXWlJBaEhURTVrcVl5MEp3dHZGaWFDdG5hUXJhbTkzOC1RRm0yeG40cWVySXNwMFRUd1FvbDJYd2NETWhfQ3NZem5XR3hmbVdzNmxqbW5YaU5JQ0IyUkZuekg4ZEJiWUoyS0JySXZaczlhUF9zLXFBS0I3dnRuc3JYTzBlcy1OWFN6TFl0R3FZanFTZ0UtZ3F6LTlzdVcwYnRmY3dhbjFUOTh3N053d2xKZUxvQ0VFMzZETmNVekVfREZLQmRFc05pbWZVZWtrOGJ4MnpwTGx1d05ramR4NGNhNC1JUHpmM2hTbnd4T21DMG5ibjU0MTRxT01rc2hfa2RreGVBa0pOdy1N?oc=5",
+      "source_name": "خبرپو",
+      "published_at": "2026-06-22T20:46:07.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 1500,
+      "amount_usd_m": 75,
       "confidence": 0.81,
       "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -427,28 +449,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 1500,
       "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_709889600",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "AI startup Pramaana Labs",
-      "title": "AI startup Pramaana Labs raises $27 million in seed funding led by Khosla Ventures - MSN",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd25GUGRaeXloXy1yUmcxdUJhX0EtaXVFcjE1RjdDR0c1ZlpweDBYT08zZTZXUWpQZTh2NzBlaE5GQ1JZS0xQcnhQaVFvTS1KZmg5dGkyMnpwRmVGbld4b2lmMHFRZm1uZW9vZlBmVm90aGxXWHJXU1h5N3RUYnRNcnJVd1NvUDNKR1BDTkE4SHVwYnJ0SFV0Ujg2MERkeHk0eEZpdTdSTkNGLXl5TXBvRTJlLWtRWXF0WW5EVmFRbWk0SWVvMWw1dy1R?oc=5",
-      "source_name": "MSN",
-      "published_at": "2026-06-21T06:12:58.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 27,
-      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -478,6 +478,28 @@
         "lon": -74.006,
         "method": "city_keyword",
         "confidence": 0.68
+      }
+    },
+    {
+      "id": "deal_1754845886",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Unknown",
+      "title": "B2B Investment Tracker, June 19-26 - PYMNTS.com",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbk9tSXkybnBOelUwWVhQaml5enpTNkdZSm9PdGxSLVRJY3JIUFJaS3R2Mk94NmEwcXQxMDllN09qaWptX0dtbHNtZVZYX2Z4VWotaFZyRWk4cmlYV1dpcVhVcVFaS042cFlMbjI5WG43MkRqRWVnaVhqdXVzbVdfazFiQl9BZw?oc=5",
+      "source_name": "PYMNTS.com",
+      "published_at": "2026-06-19T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
       }
     },
     {
@@ -525,17 +547,39 @@
       }
     },
     {
-      "id": "deal_2014088095",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Exclusive: A 21-year-old Stanford grad just",
-      "title": "Exclusive: A 21-year-old Stanford grad just raised $11 million to put a hormone lab on your wrist - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZzVlQmNfQnFkUDBDdVNSR0hhSmhJTm5ERFFLY3RLcFpDN2pfcWUxUGJrMTdkLTJKZ1RpUDh2a0xBRk9JMF9tRWhOb0xaQjY3dm1XeUNYMHgyUVFqMXhUSHlLRXBycDdDRzlydmJzYldTVURGREUzMFdpOHNGb1ZIVTdBV2dFRVRTTDJRU0FyWU5jN1IwZ04ycWVrVzViazg?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-06-17T13:00:00.000Z",
+      "id": "deal_1558962239",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Sarvam",
+      "title": "Sarvam raises $234 mn at $1.5 billion valuation - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnk4ZTcwc2dPY2xNeVlQSmJ1SVZEbXUzb3NQcVZKTmNwYTh1N0t5bEx5a1ByblhoNElkTzJ1MnNrMGFzMkFCcHN2QjBadFRoMUlrUEJrWmdzbUVMRWdRZkpKYkZRMXc2R0ZDZ3VRWWNVR29fSElZS3ZHUmdEU3pldF9sNEUyU3ZpcTVTM2t4dWpscTFEZlRhQ3JsRjFnVlhLYU5fZDVWeVNWWDBkNVZ5UlVn?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-06-17T20:17:10.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 11,
+      "amount_usd_m": 234,
+      "confidence": 0.81,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1003215805",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Sarvam",
+      "title": "Sarvam raises $234 mn at $1.5 billion valuation - MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObnk4ZTcwc2dPY2xNeVlQSmJ1SVZEbXUzb3NQcVZKTmNwYTh1N0t5bEx5a1ByblhoNElkTzJ1MnNrMGFzMkFCcHN2QjBadFRoMUlrUEJrWmdzbUVMRWdRZkpKYkZRMXc2R0ZDZ3VRWWNVR29fSElZS3ZHUmdEU3pldF9sNEUyU3ZpcTVTM2t4dWpscTFEZlRhQ3JsRjFnVlhLYU5fZDVWeVNWWDBkNVZ5UlVn?oc=5",
+      "source_name": "MSN",
+      "published_at": "2026-06-17T20:17:10.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 234,
       "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
@@ -564,6 +608,28 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1664984267",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "AI startup Sarvam",
+      "title": "AI startup Sarvam raises $234 million in Series B round at a $1.5 billion valuation - EdexLive",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3JRU0loRFh0TERLR0h5b2JGbmltSmxJeHY5NnBTRERMa1dfLWJDeVhpMnByeVZncW9oSTV0ZnlHbTRfMVJxX3lWbWs3eTRNdWVadFpiR2tWQWplbk5BYmpDeWVic1ZCVDdLQ3dmZ2hPTnpORlBka1pWdjhyVERHMTJ3ZVE0YjlvQXF0NGt0YnhTdDl3eEI4VkRhRU12Y3E5T21uMTlvcThrcTJIYWhBUUV1TDF3ME5nODJvNGlRVUJHQ1XSAdABQVVfeXFMTVFrYVhvaVpRQkI4Skl1RkhoTDJrYWpJVURBd3Myak9TYW5MdVlMbEdWb3ZtSkNldzZnQXNKeHEzNHlnSzc5SjlNNjVvVEt4NjN4cFJJUmlWckNxOWdYTlJjNlVMNDlxcTFSVnN1aW9INXhsX3BJenZVUHh6RnFLZm5yNmxhNGc0Q19GcXFlamtIdWpPVjMxV3h3bGV1LVJ6bkROZW1xN1hhRHoxQ013c1BvREp4UGJBMVpBWWUxbEV6ancwb0kteVo3cHgyT1ZFZw?oc=5",
+      "source_name": "EdexLive",
+      "published_at": "2026-06-16T08:45:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 234,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -657,14 +723,58 @@
       }
     },
     {
-      "id": "deal_1416868277",
+      "id": "deal_1958819399",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Sarvam AI",
+      "title": "Sarvam AI raises $234m in new funding round - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb01STUhmcmt2dTRvYnZPa1JOMUlJb09hMU4xNGhQSmhaVkpTNDhwX2pjNHZjVTFCLTlvUlh6cjFRdHJhMUhxblM5OGMzSGdWYldveUJHUGpDc0NLOTNqYTdqU1ZXeGJZM0p2bnlvbWk3amdvU3Jxb0lpeDZ2bEg0TWNB?oc=5",
+      "source_name": "Tech in Asia",
+      "published_at": "2026-06-16T00:54:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 234,
+      "confidence": 0.81,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_473702853",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Sarvam AI",
+      "title": "Sarvam AI raises $234m in new funding round - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb01STUhmcmt2dTRvYnZPa1JOMUlJb09hMU4xNGhQSmhaVkpTNDhwX2pjNHZjVTFCLTlvUlh6cjFRdHJhMUhxblM5OGMzSGdWYldveUJHUGpDc0NLOTNqYTdqU1ZXeGJZM0p2bnlvbWk3amdvU3Jxb0lpeDZ2bEg0TWNB?oc=5",
+      "source_name": "Tech in Asia",
+      "published_at": "2026-06-16T00:54:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 234,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1394540295",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
       "company": "Sarvam",
-      "title": "Sarvam raises $234 million Series B at $1.5 billion valuation to build India's sovereign AI stack - Big News Network.com",
-      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWFNJeFZHVFoxck5fSEIwVUZ6WDV4U3ZKcjctNzVPMHBuRFk0eGRrQXhhRUpwYkxITWQ3LXhQcE1kM28tVHNjQXhVZzk0S0ZodjRMSEFkaUxhX2Jwa1V1dE5JZkhjRUlURW1LblpKNVUzaHhhMXNIbVRFNWthOHUwSFA3N0lMU2lPTkFsbHJwb1RLcnpzMlZ5TFRkVlJKUk9ZQjY1Q1N3STk0WmRkd0dQVDNMd2tMNXZ6X2ZOWU5ydXFXLWF1OXBkNmRoR1RBNUo5aGZVUQ?oc=5",
-      "source_name": "Big News Network.com",
-      "published_at": "2026-06-15T16:33:00.000Z",
+      "title": "Sarvam raises $234 million Series B at $1.5 billion valuation to build India's sovereign AI stack - ANI News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS0xjVEsxQTlIZVVBMlVQak9rNll0ekNZdThsUnRQTnNyZUtJVkJFclR1aElvcjhrMVd5LThvTzV6R2xtUk9zQ20zQ0pQZi1kSnBlM0prcllQZHdlNzlGMktEanVXVVVRM3VqYTFRSWNEMWVscEVCeGtDREtkYjdva203VGNsdkVNU2pLVFpWY1JZbkJwM2FOc2RzV09mdmhyV3d4NFhPNXFtNVEwMEFYUHlPaUo0R25Ta3E0V2NfNVFmdl94TDFVb1hhQjloZmYzdE5GS3RFeG51MllB?oc=5",
+      "source_name": "ANI News",
+      "published_at": "2026-06-15T07:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
       "amount_usd_m": 234,
@@ -789,23 +899,23 @@
       }
     },
     {
-      "id": "deal_640396686",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "AI risk intelligence startup Privue",
-      "title": "AI risk intelligence startup Privue raises angel round to expand dealer intelligence application - Business Standard",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQdkwtLTF6T1RWNU5tb0ltbUxtWElIS1dNVXIwYUJ0TTZtbU10WTNRUFVjM3FTbG44UDZsY3hYTXRMdEpTWHJKeUtRZjljYU5Xem1adzliUmVoaWtpOFItbmxNTk1hdmZaU1I0QmdZRDhUUG5XX2ZwZHlpSTU1Vkt5ZjlTcW1zTDdsRkxrUm9ibHR5cUx0RVVzM25qejBPd3JneWl3UDRFNlFkVEJkUG9YajdxM2lwb3gyRDAwdUhnbHl3NEFVeUN2TnZCQlVTdnVzemRaSlZydEdiYVFtWlZxMnVteXhWRFhWOXJHUHVrZ3VaZFVEbUxOSlE0Nk1TWUI3QXhKVGlaUmLSAY4CQVVfeXFMTmdseWFKcnRRTHRJVUNsemNBWGh6TndtVEFWdUJYalRpdEVxT2RCZUNXWHM0UzU2VTI2VnBYaDJpY1JNbzNfMTVENDU0ZlprV0s4QVg4clF3ZXNlbDdDMnYyTW9EeUwxZ0plSW9WemZyNlplOGtKY25kb2RPMHgweDBjajgwemFfR0g3Z1ZmbHlaa3dZSzhkcTlnSFNKbG00Mkk3LXVuRERGcXVwbm15cHBJTF9Va2ZiVC1BLWFBaFpYX1dKLUZjclhZNGxPakxGc0ZwV05udElVMl9GbU00WlVpOV92QjVxajNYN29wZnJhaVBKSlRrckw2VElLR05Bb1cydktxQzdEZm9KbjN3?oc=5",
-      "source_name": "Business Standard",
+      "id": "deal_1345922058",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "THEKER",
+      "title": "THEKER raises $85M in Europe’s largest ever robotics Series A, led by CRV with backing from Samsung and LVMH - Capital-Riesgo.es",
+      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMGV6cEhGazZGem12MjZkay1jOXNSWlQtVno2XzFLRXZ6cTh4NEdpdml4MGNsenlGSVRhMVk0Yk9ua0plV25Ha2pVbUt3eldMZzVOdDhYbnI0dS10VlI0NlVJSTB5OW1hQzFPZGFnd0Y4N3hDNVZMZlRUREdxTWRMWk1XSHRpRjNrcW13WlVWUGhHdkRPWTB2dG9hbVFocHRmemJQWVZ4SDNvMlVwdl9qZVdiSl90V3FMVnVGSExBMlRVSVNDckgxc1FzY3ZjZXZFdHJIVzQzMGVUVHVUMmc?oc=5",
+      "source_name": "Capital-Riesgo.es",
       "published_at": "2026-06-12T07:00:00.000Z",
-      "stage": "Seed",
+      "stage": "Series A",
       "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
+      "amount_usd_m": 85,
+      "confidence": 0.96,
       "location": {
-        "city": "San Francisco",
+        "city": "Palo Alto",
         "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -833,23 +943,23 @@
       }
     },
     {
-      "id": "deal_825018693",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "THEKER",
-      "title": "THEKER raises $85M in Europe’s largest ever robotics Series A, led by CRV with backing from Samsung and LVMH - Cathay Capital",
-      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUDlzUTBGQ0pTTC1jV2d5YVBRXy00NmdCTmt4bmZzNlpaSERrS3psZ0syajB1SnJGa2hxV0poUXJIYUZxU0xQUWR2eTZfVVh4UXJ5dmtBejhyNFpuVGJZemh5UGVnVTk3MDdkRTNiOWxFdmdrVlc0Ul9MX1BxMzJtb1ZYTHktYlJpV2FoV2FNb2xBSUZCcENEOUMyajBGd1pwS3VqalRVVENBVVFkdnFnNGlkZDdBaUN4T25ua2RiOEd0Y1FleDBIdzhGM24zT3VrSVE?oc=5",
-      "source_name": "Cathay Capital",
+      "id": "deal_1143218917",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "From startup to $1.8 trillion: The investors who took a chance on SpaceX now reap the rewards - CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOV2puM0hYdWNmMy1BWmlQWkhtTVhraHFDTWtQLXRPUGJSRUpua2NLeFJuY2NiVTBJT2wtcjFxaVJ2cmZIZTM4ZHFHNVJ1dmpKRUp0alE1ZHVrNUdxRmlsV0hHZVdxeW5pN2F1b0pNWEFNNHFLVDJPV2Y2anBmMGZzaG45OEhOdHEtS3B0T3hjN1Vwdm_SAZgBQVVfeXFMTnpSMzA2Ti1pQ1M1ODMwTVY5Y1VwYTU0b3dVZnRvMlpXUHBHeUNSTHl4UkpBdnpsRVR1Znd0ckpHbUpQVkQ5UnlkSjJUVTM4VUQxQm1ZSHRoc09VVXJjeURrZ1Eydmd2SGxiX0lodjU5N0lXN3BxS2d2aXNLRF90a1JWRUszU2JaMjZINnlTaTZkUVNfZ0ltX3c?oc=5",
+      "source_name": "CNBC",
       "published_at": "2026-06-11T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 85,
-      "confidence": 0.96,
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 1.8,
+      "confidence": 0.61,
       "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -899,6 +1009,28 @@
       }
     },
     {
+      "id": "deal_1048714689",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Unknown",
+      "title": "Minerva Launches AI Platform for Consumer Marketing with $20M from The General Partnership, 8VC, Lingotto Innovation, Topology Ventures and NBA Investments, Alongside OpenAI Collaboration - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPY2xvYUZkUnpwZjNBSXI2d2NOTjVTOXVoeG4tM3UxOU5jWnB4bEJFYTVYeDMtUE1SRDFrWVNDZDFkTW5TMzIxb1l1b25USEJlQWZ5YlFVSFhGMmI5QktZc05vNUstWF9nNWVNd3kxaFRwU2N2QV9aS2tTQXhXUy1Oa29WeV9rbTVkbGgtSUN0LWRuRGZuUnZfczM4LXg4bmNrQlAybmR2eC10TTlBZ05wZVFoYWZ1YmJ6OTlKS2ZkVXhFVVJFY3lwa3hibnJGRlJyLUo2RG9KU1JOUXZScl9YaFJ3UkRfR1BJMTJYQUsxVGJUcGpBeGVYQmxiYnN3a1dlWkFrcDVCZjFlWm9zbVZRdHJobDlXUlhHYU9YNlVRNXQtOC0xbWEwaHI2VFFJS2g4amZ5c25GVk1xOU1MeE0yZ2ZObDFadXphTTFEbEdEdW1EbGpMaHR4RHh4VXdKRlE?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-06-09T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.71,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1642083177",
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
@@ -933,6 +1065,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 465,
       "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_176886088",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Unknown",
+      "title": "Nvidia-Backed Generalist AI Hits $2 Billion Valuation as Robotics Startup Secures $400 Million Funding - TipRanks",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOellMUDFPakVoSlBEc2tuSFc4SUdIY0tRWFRjRTAtaFdrT1RkNm5BVzEzWTBlMFVxY002RHNxLXhtZ3hnMmlvbTBwMHhjYnozSmY1cWEyMzFaLXh3b3hISVN3MU50NHIza1g4ZXFZS2pfUVpqdUVSZHY5NUVGNkVnQlg0Z2toQ0d5c1Q4NEFENGszZG5XajFNd2NiT3JlYkZiZzA3M3hjX0JVRDlmZzZwRzNmbkczck9KU21DRk9aRWEtTmdWNXJ5M0x5NEdXM0RNT2c?oc=5",
+      "source_name": "TipRanks",
+      "published_at": "2026-06-04T13:54:58.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 2000,
+      "confidence": 0.71,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -987,23 +1141,23 @@
       }
     },
     {
-      "id": "deal_1269573580",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "AI-Powered Commercial Insurance Startup",
-      "title": "AI-Powered Commercial Insurance Startup Announces The Largest Publicly Disclosed Series A Amount Raised By A Black Founder - afrotech.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JcG4zUDIwNXk3Q01vY2RMVmI1ZzRHWGRBcS1LeGowR2hEZGhOeE43WkxmaXMzRFUtaU43dWItNmY2cWppQjg4ZC0wcDhab0Q1OW1Tc244REVhU3BxSnBQQmZVZl90R2s?oc=5",
-      "source_name": "afrotech.com",
+      "id": "deal_1271806897",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Unknown",
+      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkl0dWo1cmVmQTAwa3FPOUlhUGdKUU45U1N0STUxWEtodnpqT1FnaHlGQ1ZNTFo4M3d2S3IxSGFYVHE5X2hZQ05rMUFZUFYtQ1g5Wjc4MVhsSW40SVBWS3otU1hBMjRlOWRaZFZaM2hVMTd6elFPY0pSa2V0V3F5XzlrTVhRT1lzcEUtRXhNLVJtZV82QmJvUFY2OUFuZ3FVNDFSYUxFSFVnbHpzZ2k3YkJ5TGh5QQ?oc=5",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Series A",
+      "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
+      "amount_usd_m": 2000,
+      "confidence": 0.71,
       "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1075,45 +1229,23 @@
       }
     },
     {
-      "id": "deal_1875520183",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
+      "id": "deal_1279073528",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
       "company": "Unknown",
-      "title": "Benchmark raises its first-ever growth fund as part of $2B capital haul - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUW53NDRqSlJxUUQ3dnlieEQxbFpGbVhRMVZqd082TldINWtIbl9EQWNBSkkwZ2VzTkp4MThzVHFZaFctNVFCUWNKLVFDUWhucmFqek91YUJ6TEVPOXc5ZlMzZG5rakZvc0tFTzV6X2VqQnRYQ1NsZFl5TzlOSHhLTzgyUXVOZXVvNkJ6SmFBdW5pVXRKazdSNnlKZktXcFBL?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-06-03T07:00:00.000Z",
+      "title": "Westmag Emerges With $11 Million Seed Led By Andreessen Horowitz to Build America’s Drone Motor and Robot Actuator Industry - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPRTliRkRlN09NamtRd0FUWVBxWndhMEVobV9QS2VKbjJJbnh4MHlVX0wycnBFRzh5d293X2U2azZFeTZfSGpzMmNBRzdXNE1KemYxem5XSXpuUlV5UEV3UFZjX2xSRU8zQm4tWE5fNnhuVXF6aE1wb0c5dlpEQmhLYk9xVi1ZTGtYZDBkbWRyUGxQVkJqMXVJNlE3Q2RSb2Vpa2lEWWhsTVE2SmRXM1FuQjhENDI3T3ZvTDZ0MkN4SEd4OE9pR1M3bGdJYUotWlNoRXlnQ1IycnF1OVpscU03MVFrVktsZUtVNjdwLXY2SUhGbmV4LXBZOTV6d2J4OUEyWFBsODJKZHlTemlCZXc?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-06-02T07:00:00.000Z",
       "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 2000,
-      "confidence": 0.71,
+      "sector": "Other",
+      "amount_usd_m": 11,
+      "confidence": 0.61,
       "location": {
-        "city": "San Francisco",
+        "city": "Menlo Park",
         "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_380745590",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "AI music startup Suno",
-      "title": "AI music startup Suno raises funding at $5.4 billion valuation - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa09sNEVOVGdGRXZCQjliZm1rZFVzWXFqa3M1NUdRbVFnYWZHQ1BJcTd3UGktclFTWW9LRDRGWDZKa3JhLVdBYUExR2NXT2lKa2lmYUVWdExXdlZTeUVxaHptVGYxY2p2elIyYkloR3JoT0hEWUI1Z0kxYU9HRXktdUdIYmRULU1iSmRDdnBGMTUzeUFhX05pUjJDY2k2U1lGSDVKYWxsT1pTczZQeVVpRTg3NA?oc=5",
-      "source_name": "Reuters",
-      "published_at": "2026-06-03T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 5400,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1233,9 +1365,9 @@
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
       "company": "Unknown",
-      "title": "Mach Industries Valued at $1.8 Billion in Latest Funding Deal - Bloomberg",
+      "title": "Mach Industries Valued at $1.8 Billion in Latest Funding Deal - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkRYYk5vcGR0RWp6QW9uQk9yZFhDZnowVTFhNW10MlY3SUtZWFZfYXJCQ3A1TmZNVnk4czFRNk40dy01aWZBUHZKZGV5QmFrRmFmYW5KZmR5bkUyZWh0ZGlFaFB1RnJ6aDBubDZHZFI2d2R4XzVZZFZCNTJ3UmJERkU2YUJIZ0dnbXp6T19nZUZkOFRHcXVwRVkzYTR6bllhUWhJak5uZXpIY0c5cEJuRA?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-06-01T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -1295,56 +1427,12 @@
       }
     },
     {
-      "id": "deal_376892045",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "Unknown",
-      "title": "Anthropic Tops OpenAI as Most Valuable AI Startup After $65 Billion Funding Round - Analytics Insight",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMkNVMmtnYXE5d2JuNUpNWUVSZ21JbnZoWks2WG10dnZzWVdZVlhRUGJCZ1hfaXlkejBJaWdRQzRvX0Z3YzFxU0pkdVZaTkRjV1pqSER1VE1LLUl5Tkg1SkdNVS1fdm8zRkV5NTRlejFwcEVpbWo0cFVVZDhtbGh4dHdvZFlXRlVpc000SVJIbFR2NzNsRDdoVFM5XzRnLS1lN01EZnBjckd5bURGc1RPbjBocmhZTG9jdXfSAccBQVVfeXFMT3JjNWNCNExsemEtaXlhWHhfc2tFMVBCUUFsMzhtWmJRRkVKNGtOd2JvcGpCa1MwSkpzdjVsdE9wMG5hVFA1TWhTNEMtdC1lYXkwMjZQN0dTQXozUzhSbktjS2JXYzE3c0dQNjhyWGtTWXBPVjd0WDg1OEpEVUtVcnMtN2tUMURJSzZWZ2hIczVMdFVxZnltMnU4di1Fbm1abkUyT0ZYMk5qR2drTUxwRTI5MmkyT2pDeWpYV0tTcXZfRjZGNzcyWQ?oc=5",
-      "source_name": "Analytics Insight",
-      "published_at": "2026-05-29T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 65000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1405021779",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Unknown",
-      "title": "Corgi Reaches $2.6B Valuation With $106M Series B1 Three Weeks After $160M Unicorn Round - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOc1RBVFRpWnVDSV9vVGg3ME96c1h1Y0p0TlhNa2JEeW00QnlPRXB6SlVRdUI1eW9ta01lMmVBOU9YcE1Db0lhVnMxd3diR2w0SjJLU3QxejZoT3NGZUVHazRPTnRXbEY5ZmtseVFsaS1RZy1VU2NJVDV4Q0x6TDhSTS1mOUdSVzE1MjI5SlYwODlYQlc2aVI5Y0xIcnIyZ0FVZW9MMWQ5ZGEtUFlBWnNhd1RieXhibkRIRXFqUEZpd3hxLVBDd2hZMTdGUDg5SUNyVm1maThLQlo?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-05-28T17:18:00.000Z",
-      "stage": "Series B",
-      "sector": "Other",
-      "amount_usd_m": 2600,
-      "confidence": 0.76,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2071993065",
+      "id": "deal_450398695",
       "vc_id": "sequoia-capital",
       "vc_name": "Sequoia Capital",
       "company": "Unknown",
       "title": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation in latest round - CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55NUFBcFNtS3B3SU9zTmxpZ3hkVlE5UXZqendEb1pIcTIzeXBuSFVLX2ZKSXF5cmljZThjVmFFcW9xVDAyUE5LRHB0WEdlMWtXdEp2ZERJME9PZEV5RkRSaHkxRzBqR2J2UHRTMUR5a0RlY0dVb3ZB?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55NUFBcFNtS3B3SU9zTmxpZ3hkVlE5UXZqendEb1pIcTIzeXBuSFVLX2ZKSXF5cmljZThjVmFFcW9xVDAyUE5LRHB0WEdlMWtXdEp2ZERJME9PZEV5RkRSaHkxRzBqR2J2UHRTMUR5a0RlY0dVb3ZB0gF8QVVfeXFMTzVRMWxaakV4Z3J5WFA3aERDUm1EWXZDQ2pDS0NnVEFSd0VuelBOeXd3cHdPdWFNUXVIa0dVUm94X0MyTWFNNy00eEViS0hfZlNvOS1xT3dfNmh2MjNKYzk4WnJ2bDVwUER6NmljWFg1Zzk2aTlmYW43cklYUw?oc=5",
       "source_name": "CNBC",
       "published_at": "2026-05-28T07:00:00.000Z",
       "stage": "Unspecified",
@@ -1427,12 +1515,12 @@
       }
     },
     {
-      "id": "deal_1367093780",
+      "id": "deal_1650039082",
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "Unknown",
       "title": "Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation in latest round - CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55NUFBcFNtS3B3SU9zTmxpZ3hkVlE5UXZqendEb1pIcTIzeXBuSFVLX2ZKSXF5cmljZThjVmFFcW9xVDAyUE5LRHB0WEdlMWtXdEp2ZERJME9PZEV5RkRSaHkxRzBqR2J2UHRTMUR5a0RlY0dVb3ZB?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55NUFBcFNtS3B3SU9zTmxpZ3hkVlE5UXZqendEb1pIcTIzeXBuSFVLX2ZKSXF5cmljZThjVmFFcW9xVDAyUE5LRHB0WEdlMWtXdEp2ZERJME9PZEV5RkRSaHkxRzBqR2J2UHRTMUR5a0RlY0dVb3ZB0gF8QVVfeXFMTzVRMWxaakV4Z3J5WFA3aERDUm1EWXZDQ2pDS0NnVEFSd0VuelBOeXd3cHdPdWFNUXVIa0dVUm94X0MyTWFNNy00eEViS0hfZlNvOS1xT3dfNmh2MjNKYzk4WnJ2bDVwUER6NmljWFg1Zzk2aTlmYW43cklYUw?oc=5",
       "source_name": "CNBC",
       "published_at": "2026-05-28T07:00:00.000Z",
       "stage": "Unspecified",
@@ -1461,6 +1549,28 @@
       "sector": "Enterprise SaaS",
       "amount_usd_m": 40,
       "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1994516350",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Unknown",
+      "title": "Anthropic hits $965B valuation with latest funding round, overtaking OpenAI - The Hill",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZmJZdFpNRDBtRHRQNWMtUGtILWtpQXpRMnZTR3JRZllZMHRjc0JwQjdPWWYzOG9xa2Y4aVA1a0k4ZldXUU5XSW1VaXFvWVJqRnV5WVUteFMzeE13OTJUMm80NTVnNnlyWEp4QzEza2VqbzZxSnhZd0NHbVRwV3M4eFI0YmXSAYoBQVVfeXFMTTFJb3FhbmE4bDhOUldYNkViN2RuVXdHTklsWVBBMkhjdm52VnJKa0V5UDAzRU5YRXdUR1RDcWFSbU0zS3pZcEp5ODRyajdGU0F1WGliSEhxV0lPT1lzQWRNM0pvYmJYWi1kbnFJOGF5ZmJ4Q19DV1I0cEZ2bElGWFF1X1dwVmx6T0pR?oc=5",
+      "source_name": "The Hill",
+      "published_at": "2026-05-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 965000,
+      "confidence": 0.71,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1515,6 +1625,72 @@
       }
     },
     {
+      "id": "deal_1578926499",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "AI coding startup Cognition",
+      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQzd0YXo5MWwzZmhuUkxZWktSZFBQdnVNRVBJaGlUQlJnUng3d0dPaF9FWUF6RGVDR0ZNWVdfRlA2YlhLbWVydlhsRmpqS21zb2hKYVgxbjNoOHZFUEhMQVFVZ3RnTDZ2SWpYYXRMQUotaF9OQmhKRHB0bk44NjFRZm8wV0tPSzZJMDg4clZTbUdjajBVbk5UdXNfN2Eza1BD?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-05-27T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1083362432",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "AI Coding Startup Cognition",
+      "title": "AI Coding Startup Cognition Raises $1 Billion at $26 Billion Value - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcm9aMFdXbk1qSlBTWmt6SWRuV25iaVU2RG5BbnFFT1BpMktXUEk2N1hVYXo1TldHSS1lYmhncWx4WTBfaTNvQUZNRjBIeGNWVXUyamFuTW5TX3owT19fcUxxYkdoaC1TVUF4Y1ZWTTFLVjNScDlVcGZOcFFWZnFUTG9JeDVPMUV2TTF4T0pUVVhBeVd3ZzlQVC0tMDBibzVkT24yVEdrdERfTy1IYzktdVFXVWxPZw?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-05-27T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1110329417",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Unknown",
+      "title": "Vibe coding startup Cognition more than doubles valuation in new $1B+ round - SiliconANGLE",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzBtcGpEbWcwWXAtVGFtNFZzOHBhaGJxMVFOZDVsYUNiUFBFYmpBWVJlVVozSXpocmpWSDVjaGY1eHBRd3hHcHlZSVEtRElucVJuTnQwYWlWcHBLMEtEWElvcm9GTi1LQkx0OG9fbU84S2FqYXQ0N3lfbDIxVFBJQ2VJM0Q2RDFpT0hMU0d1c25Wc0U3OVg4cWlpd1NpZw?oc=5",
+      "source_name": "SiliconANGLE",
+      "published_at": "2026-05-27T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 1000,
+      "confidence": 0.61,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2122266171",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
@@ -1541,9 +1717,9 @@
       "vc_id": "prelude",
       "vc_name": "Prelude Ventures",
       "company": "Fusion Startup Thea",
-      "title": "Fusion Startup Thea Raises $100 Million to Build Prototype - Bloomberg",
+      "title": "Fusion Startup Thea Raises $100 Million to Build Prototype - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWE16MUoxZHJwdVBDTnZsdzlIZ1ZjdGtIM0pnLWoxR0tEZERyT3kyRHhvZ1gzaDlBNGFYeDFtMVhQTEQ5SC1oX3RQdmRiUzRUdDNjNmNGVEh6alFpWUhEcTB5RW9kWnItOXR1UzFSVkJCWFN6d2lOVmxNTDZqc2lMU0E5SUJ3SndoVWFIVG1hbzhpS2dNbjFOYm9EbjRkLXQ0US1qMHdZNnJLU3Mt?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-05-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1563,9 +1739,9 @@
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
       "company": "AI Coding Startup Cognition",
-      "title": "AI Coding Startup Cognition Raises $1 Billion at $26 Billion Value - Bloomberg",
+      "title": "AI Coding Startup Cognition Raises $1 Billion at $26 Billion Value - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcm9aMFdXbk1qSlBTWmt6SWRuV25iaVU2RG5BbnFFT1BpMktXUEk2N1hVYXo1TldHSS1lYmhncWx4WTBfaTNvQUZNRjBIeGNWVXUyamFuTW5TX3owT19fcUxxYkdoaC1TVUF4Y1ZWTTFLVjNScDlVcGZOcFFWZnFUTG9JeDVPMUV2TTF4T0pUVVhBeVd3ZzlQVC0tMDBibzVkT24yVEdrdERfTy1IYzktdVFXVWxPZw?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-05-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1610,18 +1786,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 30,
-      "weighted_score": 119.47,
-      "latest_at": "2026-06-25T03:47:00.000Z",
-      "amount_usd_m_total": 1101366,
+      "deal_count": 32,
+      "weighted_score": 125.33,
+      "latest_at": "2026-06-25T12:40:29.000Z",
+      "amount_usd_m_total": 1997971,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 26
+          "count": 27
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Enterprise SaaS",
@@ -1640,6 +1816,41 @@
         {
           "name": "Altimeter Capital",
           "count": 6
+        }
+      ]
+    },
+    {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 11,
+      "weighted_score": 47.03,
+      "latest_at": "2026-06-22T20:46:07.000Z",
+      "amount_usd_m_total": 7371.8,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 9
+        },
+        {
+          "name": "Other",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Lux Capital",
+          "count": 6
+        },
+        {
+          "name": "Union Square Ventures",
+          "count": 3
+        },
+        {
+          "name": "Coatue",
+          "count": 1
         }
       ]
     },
@@ -1684,14 +1895,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 38.53,
+      "deal_count": 8,
+      "weighted_score": 33.52,
       "latest_at": "2026-06-24T10:00:18.000Z",
-      "amount_usd_m_total": 33735,
+      "amount_usd_m_total": 151335,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 6
         },
         {
           "name": "Other",
@@ -1700,11 +1911,11 @@
       ],
       "top_vcs": [
         {
-          "name": "BOND",
-          "count": 4
+          "name": "Founders Fund",
+          "count": 3
         },
         {
-          "name": "Founders Fund",
+          "name": "BOND",
           "count": 3
         },
         {
@@ -1714,19 +1925,19 @@
       ]
     },
     {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 31.26,
-      "latest_at": "2026-06-19T15:33:00.000Z",
-      "amount_usd_m_total": 3295,
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 4,
+      "weighted_score": 17.26,
+      "latest_at": "2026-06-09T07:00:00.000Z",
+      "amount_usd_m_total": 3020,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 3
         },
         {
           "name": "Other",
@@ -1735,12 +1946,31 @@
       ],
       "top_vcs": [
         {
-          "name": "Lux Capital",
-          "count": 6
-        },
+          "name": "8VC",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 3,
+      "weighted_score": 13.69,
+      "latest_at": "2026-06-17T20:17:10.000Z",
+      "amount_usd_m_total": 702,
+      "top_sectors": [
         {
-          "name": "Insight Partners",
-          "count": 1
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
+          "count": 3
         }
       ]
     },
@@ -1750,20 +1980,20 @@
       "state": "CA",
       "lat": 37.563,
       "lon": -122.3255,
-      "deal_count": 4,
-      "weighted_score": 14.63,
+      "deal_count": 3,
+      "weighted_score": 11.67,
       "latest_at": "2026-06-16T07:00:00.000Z",
       "amount_usd_m_total": 146,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 3
         }
       ],
       "top_vcs": [
         {
           "name": "Emergence Capital",
-          "count": 4
+          "count": 3
         }
       ]
     },
@@ -1787,52 +2017,6 @@
         {
           "name": "Upfront Ventures",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 2,
-      "weighted_score": 5.63,
-      "latest_at": "2026-06-23T08:54:39.000Z",
-      "amount_usd_m_total": 50,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Dell Technologies Capital",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 1,
-      "weighted_score": 5.33,
-      "latest_at": "2026-06-15T16:33:00.000Z",
-      "amount_usd_m_total": 234,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 1
         }
       ]
     },
@@ -1878,6 +2062,29 @@
       "top_vcs": [
         {
           "name": "Scale Venture Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 1,
+      "weighted_score": 3.52,
+      "latest_at": "2026-06-16T07:00:00.000Z",
+      "amount_usd_m_total": 50,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Dell Technologies Capital",
           "count": 1
         }
       ]
