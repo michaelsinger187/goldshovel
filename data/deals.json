@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T03:58:29.949Z",
+  "generated_at": "2026-07-04T08:49:05.578Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 78,
-    "total_deals": 78,
+    "scraped_deals": 72,
+    "total_deals": 72,
     "demo_mode": false,
-    "deals_with_coordinates": 78,
-    "runtime_ms": 4037,
+    "deals_with_coordinates": 72,
+    "runtime_ms": 3891,
     "note": "",
     "error_sample": []
   },
@@ -36,6 +36,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_527602423",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Together AI",
+      "title": "Together AI Secures $800 Million in Series C, Valuation Surges to $8.3 Billion - Earnings Call Q&A - dars.gov.et",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbmVrQmk4ZU1FcXFjbXVvdGtFZTZFMzl4aE1sV05BTGxQR0VTTWR1a2lZclVzUllPcTVPZjFWcmVGQW82QzUyNFRhMlpONWQ1dU1zWENBUl9IakstYmlud0kxVXdDTUhJQ1BRWUlSVk05a28zYjE0emw4cG5jWmJBT2hsNUNlQ2hWQWVWZVg1Q3NUd1Z2bTRLb2hVa1lUTzNJckxzNzR3NkVaTHBuczlvSkVQTFY2bjhLRkE?oc=5",
+      "source_name": "dars.gov.et",
+      "published_at": "2026-07-02T23:43:33.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 800,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -129,45 +151,23 @@
       }
     },
     {
-      "id": "deal_65483058",
+      "id": "deal_1944421711",
       "vc_id": "salesforce",
       "vc_name": "Salesforce Ventures",
-      "company": "Salesforce (CRM) Stock: Climbs as AI Startup 8090 Labs",
-      "title": "Salesforce (CRM) Stock: Climbs as AI Startup 8090 Labs Secures $135M Series A - parameter.io",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcUI4cGRidWJkT2RNZUxnSGo2UmFNZzNUcEFFX2RQOUZXT3lCNmdHbGdfOWItN2JmcC1qQzFyY2Q0MkdGSG5mc1YwbFJwQW1lTUdPLWFMVERRbTM4VFA1ZTdtdGJUNE9ha0RxekMwRXF6MDhwdF9hWG1SVGg4UWRMWE5jb1lZVUFjYmlGVXdzd1YtWDlSdVJBdzBFUQ?oc=5",
-      "source_name": "parameter.io",
-      "published_at": "2026-06-30T05:03:42.000Z",
-      "stage": "Series A",
+      "company": "Venture capitalist Chamath Palihapitiya's 8090",
+      "title": "Venture capitalist Chamath Palihapitiya's 8090 raises $135 million led by Salesforce Ventures - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZVVUTnRiaHhReU9GTEt1X2J1S3pNVTR3Z0RBeHNNbE1xUUdINkgzYWhtZ2o1Vk5kSmc0QkNPbnBydDdSNHQ1YzRTUjdZTEVfZkJGNmpwSXJEbkc1WnFpN0ZwcXdDTmNvaW1mNDNSWkNPalRwZUpTeTRlcFh1X2NZOVN3aWlmSS1sOW5lVnJLand6cngyd1ppSmhtQWxtZTlMa1ZYaWlWVmU4Q1FWdk9DTHBQZ0FDVGRBNVBOM3ZEMFVEeUotc2ctQzdOeFpCZUFuSjdicC1mMWh1UXRFblpNRUtqTDVfbjczTTBGZ25IQdIB9AFBVV95cUxOcDdKRG5WTXpPdGJsaEF3eE9OZTJQME9GRVFERkQ5Qnc1Qjd0NzZMbUdXemg2eUxZNURDSUh4LUlNY2RINGh2aVRWR0dGLWRrSVZMMi00SGp6c2dWa29DOERoNTFuUEFkVlVWR2J0WnRidERHbF9iQnAySy1JVmVLbW9odFR1dDB0RmVyNFctTTlKXzFBVWZzYTJkdEoyS1F2N2gwWkVrYmFvc0JWRGR6cEFCVzhIc0ZUWVAyZ2hIS3VEQTlzOUNiS2lVUGZ5WHo5OG1vZXA4bmUtb2lTdGlnSnZiSllZT05nOHZnOFpXdExCVEZt?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-06-29T17:51:29.000Z",
+      "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 135,
-      "confidence": 0.96,
+      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_453277264",
-      "vc_id": "gv",
-      "vc_name": "GV",
-      "company": "Unknown",
-      "title": "Alphabet’s GV Backs Fintech That Aims to Fuel Space Industry - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUc1ZEhSUVJHYW1nbHVXN19fSlplWkdBc3JRVWFTd19IeWRGZURMeEY1cFppcU1mM0ctbW1TNE1Nb0ExRVNIM19wY200eGRhcWRJcEVSRVZUNXRUbzFDNHN0REtPOEVxQmk2dVVTbDk5bTFZeEh3dk9IdVZKdUhQRWlVeDJvWmM1Q2FKeDJhZ0k2TDZyTTJhbXJtRG5GNnQzQ3JOVE9IMDRBSzluZHBONUw4VnU?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-06-29T22:37:31.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -239,6 +239,50 @@
       }
     },
     {
+      "id": "deal_705894919",
+      "vc_id": "redpoint",
+      "vc_name": "Redpoint Ventures",
+      "company": "Sail Research",
+      "title": "Sail Research Raises $80M to Build Agent Infrastructure - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGRfb01QWGFNVzFjbHpHVUJLYW5KN253NUJQWlM2Y2lscmY4d3JRRlVuUmR1T3JKMi1XWTNHN3lRZHNsU2hqbGpMNkpxSVJYNFRsT0NLczFFMVFfUGJlM2Z2VU15djV4V2dibjdESUQtS1I0ZjJsVUIxU1Brb1kxaDlUT3RvWWt6c2JMaWdoeFdHSFcyU1dCcU5Za3k?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-06-26T01:30:20.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_845047249",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Sail Research",
+      "title": "Sail Research Raises $80M to Build Agent Infrastructure - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGRfb01QWGFNVzFjbHpHVUJLYW5KN253NUJQWlM2Y2lscmY4d3JRRlVuUmR1T3JKMi1XWTNHN3lRZHNsU2hqbGpMNkpxSVJYNFRsT0NLczFFMVFfUGJlM2Z2VU15djV4V2dibjdESUQtS1I0ZjJsVUIxU1Brb1kxaDlUT3RvWWt6c2JMaWdoeFdHSFcyU1dCcU5Za3k?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-06-26T01:30:20.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1357351839",
       "vc_id": "amex-ventures",
       "vc_name": "Amex Ventures",
@@ -256,6 +300,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_703408917",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "SpaceX",
+      "title": "SpaceX Raises 25 Billion Dollars in Massive Bond Sale - readers.id",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sOHhReEs4RGhUOF9pYkZnSXF6aVc1V1R3WkdwaERFX1R3VFNqeFRQTERzN1V2LTNVczQtS2VOTFo3bXVJZWFSMDRjamtWdG1LRC1GMktoTXk4eHRzUy1jTlhlN2xkY093TlE?oc=5",
+      "source_name": "readers.id",
+      "published_at": "2026-06-25T17:23:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.61,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -745,28 +811,6 @@
       }
     },
     {
-      "id": "deal_1378944077",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "SpaceX",
-      "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO - CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sVE51dTV2ckNPMTVsRjViUUZNVk05Z2pzOVludUR1bWFwRFFHMEVnSUdmZlJERmtJbE9fdVBsQ05DN2RWZXNjaGt3d0N0eFlLdDdxSExZQjNoSWY1ZHRuUnlnSDJqamhQYXBCSDVHek51QdIBd0FVX3lxTE4yYjAzQnhGNlRZSG5YNDlVRHNPVzY5NFQ5aU1zWDNydVdNNlQ3V1hmSTFrM3FWMk5FREVybnptSEIycG9TbGwySXBqYXVJMzN4a0h3VHNsTzVvNEh3TUl0TkNZTWZEaDBOV2ZaWVMybGltalY3cnpr?oc=5",
-      "source_name": "CNBC",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25000,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1606071817",
       "vc_id": "greycroft",
       "vc_name": "Greycroft",
@@ -786,28 +830,6 @@
         "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_136067540",
-      "vc_id": "dcvc",
-      "vc_name": "DCVC",
-      "company": "Unknown",
-      "title": "Syntax Bio expands funding round to $14.4M, reshuffles leadership team - Crain's Chicago Business",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTjBJWjNHeHJuclJ4ZEo4TDFyQ2gzdkJ3LUJfRmI1VmlvWG5IRzZkLUhILVdpVFB1cmg3NHplbFYtQVc2QXQtck5KSzQ5aXBValN4TTlZd09wQWRXQjAxZUJqb3pOR0k3c2FBbEdLUUxNQzV0SGJsd3NCZEhkeDNxRXVOcFM0dXRsUW9sZGxjOGxZUEpKbUkyZ1liOA?oc=5",
-      "source_name": "Crain's Chicago Business",
-      "published_at": "2026-06-22T16:56:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 14.4,
-      "confidence": 0.83,
-      "location": {
-        "city": "Chicago",
-        "state": "IL",
-        "lat": 41.8781,
-        "lon": -87.6298,
-        "method": "city_keyword",
-        "confidence": 0.68
       }
     },
     {
@@ -833,6 +855,28 @@
       }
     },
     {
+      "id": "deal_1168896579",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Social trading platform Fomo",
+      "title": "Social trading platform Fomo raises $75M, reaches $550M valu|Cointelegraph - خبرپو",
+      "source_url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxOSW84ZHZJYVVpVThPTDB3QndUeG4xMnBOMFY5R2JTcHM4cXVoVE1rU1ZMQUJRbVY3MEZuRk9uRDRkRUktcVFZV20wS2FEMlhoNXpEQ0VCUUVaRmhkOF9xSmdKUTNUMmpQU1oxSWlhdDNqT2FYUTdSVVNRSG9KZ2NVdWFKR0ZlN3lWaTY0bmtmdm9fSEY0N29udk50Y0JXWlJBaEhURTVrcVl5MEp3dHZGaWFDdG5hUXJhbTkzOC1RRm0yeG40cWVySXNwMFRUd1FvbDJYd2NETWhfQ3NZem5XR3hmbVdzNmxqbW5YaU5JQ0IyUkZuekg4ZEJiWUoyS0JySXZaczlhUF9zLXFBS0I3dnRuc3JYTzBlcy1OWFN6TFl0R3FZanFTZ0UtZ3F6LTlzdVcwYnRmY3dhbjFUOTh3N053d2xKZUxvQ0VFMzZETmNVekVfREZLQmRFc05pbWZVZWtrOGJ4MnpwTGx1d05ramR4NGNhNC1JUHpmM2hTbnd4T21DMG5ibjU0MTRxT01rc2hfa2RreGVBa0pOdy1N?oc=5",
+      "source_name": "خبرپو",
+      "published_at": "2026-06-22T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 75,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1782880794",
       "vc_id": "spark",
       "vc_name": "Spark Capital",
@@ -850,6 +894,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_259975266",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Prosper AI",
+      "title": "Prosper AI lands $30M backed by Andreessen Horowitz to build AI workforce for healthcare operations - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWDh0ZUFLaG8zMXN2dFdjc3FPbUwzd1EzNmNJZS1FNk54Z1R6T3JrX29TN0dzbE1LOHZKY0M5Q0xSY1hsT1VHRFhqd1ZTY2Q1RUphLWlKSWpCVHd6UG1GN0dnSXJjMDZRUVlMM25NX29uLXRVLTRHVGFfVTJNSDdoSE1veHFDTUZubjJyM0NiVTZROWRSWUF1QTI5bHFsZzFPdnc3eDJvMGRENU8wNllUd2pjVkUwUVUxdUFDb2dKRmE?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-06-22T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -982,28 +1048,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_52249441",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "America's First VC-Backed Cyber Warfare Startup",
-      "title": "America's First VC-Backed Cyber Warfare Startup Raises $100M Series B at $1B Valuation - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdGpRUWFaUDhXMTJySUpMWnJyeE1nWTZ4aUtJc2RKY2Vydi1UM1ItVFMzaTJjdzlqX1k4REZmeGx2SVBKNndieUlOUGdzaVpMckU5c0RwTGkzMXkzWHZFeTZ1aUd4ZnFZQUhTVXZla3JCZC16WjZUcE1VNWwwbjZ4MWg0STM3T2VINS1vU0twNS14RklnR1hEZEtNXzJGTEtteU0wQ1RBOHFMZ0tKWVlwU2NXSUZRRXVjV1VyTEd6N1dBY1pNX3pXemNkdy0wdzRia2gxdy1B?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-06-17T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1317,28 +1361,6 @@
       }
     },
     {
-      "id": "deal_640396686",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "AI risk intelligence startup Privue",
-      "title": "AI risk intelligence startup Privue raises angel round to expand dealer intelligence application - Business Standard",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQdkwtLTF6T1RWNU5tb0ltbUxtWElIS1dNVXIwYUJ0TTZtbU10WTNRUFVjM3FTbG44UDZsY3hYTXRMdEpTWHJKeUtRZjljYU5Xem1adzliUmVoaWtpOFItbmxNTk1hdmZaU1I0QmdZRDhUUG5XX2ZwZHlpSTU1Vkt5ZjlTcW1zTDdsRkxrUm9ibHR5cUx0RVVzM25qejBPd3JneWl3UDRFNlFkVEJkUG9YajdxM2lwb3gyRDAwdUhnbHl3NEFVeUN2TnZCQlVTdnVzemRaSlZydEdiYVFtWlZxMnVteXhWRFhWOXJHUHVrZ3VaZFVEbUxOSlE0Nk1TWUI3QXhKVGlaUmLSAY4CQVVfeXFMTmdseWFKcnRRTHRJVUNsemNBWGh6TndtVEFWdUJYalRpdEVxT2RCZUNXWHM0UzU2VTI2VnBYaDJpY1JNbzNfMTVENDU0ZlprV0s4QVg4clF3ZXNlbDdDMnYyTW9EeUwxZ0plSW9WemZyNlplOGtKY25kb2RPMHgweDBjajgwemFfR0g3Z1ZmbHlaa3dZSzhkcTlnSFNKbG00Mkk3LXVuRERGcXVwbm15cHBJTF9Va2ZiVC1BLWFBaFpYX1dKLUZjclhZNGxPakxGc0ZwV05udElVMl9GbU00WlVpOV92QjVxajNYN29wZnJhaVBKSlRrckw2VElLR05Bb1cydktxQzdEZm9KbjN3?oc=5",
-      "source_name": "Business Standard",
-      "published_at": "2026-06-12T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1302655984",
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
@@ -1579,160 +1601,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1495951338",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Opal Security",
-      "title": "Opal Security Raises $23M and Expands Leadership Team to Unify Identity Governance Across Human, Non-Human, and Agentic AI - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdmw5MDlKOGNYTTM2VzlFRl95NFdFOUV4bFlGVmVPZmlCamNLZng4OHZHMnFxYW84Z2ZySURWd3FDWmZQQ0hPYlAzSnM1NVdqMW1yVGFxSW1uQV9lblFQaF9qeTFTekFCOWItZ0ViTUtGQlR5NTNkUG1yYW9XdHE1ZGlPdEFGVTU2a3p4VERHVGo0RjlPSUhxcldHQktLYkVQaHllVDZ0cmNTby1fcEh6T0xIN3JPSVZXN0d4cUJyelZjRFlRbmFxNy10eEkxNGJDRkYwUlYweUt3blgzR1hCNlJ2bmxXY1hFVHVWamFvN1hKZVo2MkhPM1VZVVZ3YnNCWE9YakYzMmlMaFU?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 23,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_966429322",
-      "vc_id": "insight",
-      "vc_name": "Insight Partners",
-      "company": "Ramp",
-      "title": "Ramp raises $750M at $44B valuation as investors hunger for fintechs with an AI story - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQckVlOTlzX050QnpWQWN1WklFQ2ZzeDVUandlSVhybUdJNmRVdmhHbDc1SWtzOGQ0d3hXWjZ5Vl8waG56UGpCb2huLTU4US1aM3ZUZ0RXSmlqaDV3WUF5RVdsUEJoeHBpYVprU1FiakRUZmlOVlM5QTJ4djQxLXc5QmhPZWhhSm02c1I1eHFmaURPVU9udVJhT09nVGRZSS1DamFfRGZUQVJLQ3g0dHdELTdhV2trdFVhWnc?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 750,
-      "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1271806897",
-      "vc_id": "usv",
-      "vc_name": "Union Square Ventures",
-      "company": "Unknown",
-      "title": "Nvidia-Backed Robotics Startup Generalist AI Valued at $2 Billion - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUkl0dWo1cmVmQTAwa3FPOUlhUGdKUU45U1N0STUxWEtodnpqT1FnaHlGQ1ZNTFo4M3d2S3IxSGFYVHE5X2hZQ05rMUFZUFYtQ1g5Wjc4MVhsSW40SVBWS3otU1hBMjRlOWRaZFZaM2hVMTd6elFPY0pSa2V0V3F5XzlrTVhRT1lzcEUtRXhNLVJtZV82QmJvUFY2OUFuZ3FVNDFSYUxFSFVnbHpzZ2k3YkJ5TGh5QQ?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 2000,
-      "confidence": 0.71,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_329180162",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "AI-Powered Commercial Insurance Startup",
-      "title": "AI-Powered Commercial Insurance Startup Announces The Largest Publicly Disclosed Series A Amount Raised By A Black Founder - AfroTech",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JcG4zUDIwNXk3Q01vY2RMVmI1ZzRHWGRBcS1LeGowR2hEZGhOeE43WkxmaXMzRFUtaU43dWItNmY2cWppQjg4ZC0wcDhab0Q1OW1Tc244REVhU3BxSnBQQmZVZl90R2s?oc=5",
-      "source_name": "AfroTech",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1087559857",
-      "vc_id": "lux",
-      "vc_name": "Lux Capital",
-      "company": "AI startup Flourish reportedly",
-      "title": "AI startup Flourish reportedly raises $500M round backed by Jeff Bezos - SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUF0Q0pZYWtIUEdlUjV2MElfSkFKTHZ4dVpYUWRaUWZ5eHo3X0NZVi1YdkpORmJkWWlLNkRybjU0ZmFYM05UZGFuUzdOeFdVUjhqQnpndVdVWEFHWWE5TDJBTF9MWUJ5LU9xeWxBMHV5MTZqY2lHYjl3UFFVa3hsZVk5b3ZtUlRQS256M01fNU5xdmxYTF9YcTVpZDVmNVkyVTZWZjdn?oc=5",
-      "source_name": "SiliconANGLE",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 500,
-      "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1269573580",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "AI-Powered Commercial Insurance Startup",
-      "title": "AI-Powered Commercial Insurance Startup Announces The Largest Publicly Disclosed Series A Amount Raised By A Black Founder - AfroTech",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JcG4zUDIwNXk3Q01vY2RMVmI1ZzRHWGRBcS1LeGowR2hEZGhOeE43WkxmaXMzRFUtaU43dWItNmY2cWppQjg4ZC0wcDhab0Q1OW1Tc244REVhU3BxSnBQQmZVZl90R2s?oc=5",
-      "source_name": "AfroTech",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.76,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1676488751",
-      "vc_id": "gv",
-      "vc_name": "GV",
-      "company": "AI startup Flourish reportedly",
-      "title": "AI startup Flourish reportedly raises $500M round backed by Jeff Bezos - SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZUF0Q0pZYWtIUEdlUjV2MElfSkFKTHZ4dVpYUWRaUWZ5eHo3X0NZVi1YdkpORmJkWWlLNkRybjU0ZmFYM05UZGFuUzdOeFdVUjhqQnpndVdVWEFHWWE5TDJBTF9MWUJ5LU9xeWxBMHV5MTZqY2lHYjl3UFFVa3hsZVk5b3ZtUlRQS256M01fNU5xdmxYTF9YcTVpZDVmNVkyVTZWZjdn?oc=5",
-      "source_name": "SiliconANGLE",
-      "published_at": "2026-06-04T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 500,
-      "confidence": 0.81,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1742,14 +1610,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 23,
-      "weighted_score": 85.31,
+      "deal_count": 24,
+      "weighted_score": 89.56,
       "latest_at": "2026-06-26T07:48:24.000Z",
-      "amount_usd_m_total": 8012,
+      "amount_usd_m_total": 8149,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 21
+          "count": 22
         },
         {
           "name": "Other",
@@ -1766,8 +1634,8 @@
           "count": 4
         },
         {
-          "name": "Amplify Partners",
-          "count": 3
+          "name": "Kleiner Perkins",
+          "count": 4
         }
       ]
     },
@@ -1777,14 +1645,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 18,
-      "weighted_score": 74.22,
+      "deal_count": 15,
+      "weighted_score": 60.74,
       "latest_at": "2026-06-30T13:36:00.000Z",
-      "amount_usd_m_total": 5733.9,
+      "amount_usd_m_total": 2558.9,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 15
+          "count": 12
         },
         {
           "name": "Other",
@@ -1798,7 +1666,7 @@
       "top_vcs": [
         {
           "name": "Lux Capital",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Amex Ventures",
@@ -1811,54 +1679,19 @@
       ]
     },
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 8,
-      "weighted_score": 27.91,
-      "latest_at": "2026-06-30T05:03:42.000Z",
-      "amount_usd_m_total": 50135,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 5
-        },
-        {
-          "name": "Other",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "BOND",
-          "count": 3
-        },
-        {
-          "name": "Founders Fund",
-          "count": 2
-        },
-        {
-          "name": "Salesforce Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 8,
-      "weighted_score": 27.18,
+      "deal_count": 7,
+      "weighted_score": 22.21,
       "latest_at": "2026-07-02T10:21:43.000Z",
-      "amount_usd_m_total": 410.4,
+      "amount_usd_m_total": 310.4,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Other",
@@ -1872,7 +1705,7 @@
         },
         {
           "name": "Accel",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Ribbit Capital",
@@ -1912,6 +1745,41 @@
       ]
     },
     {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 7,
+      "weighted_score": 20.6,
+      "latest_at": "2026-06-29T17:51:29.000Z",
+      "amount_usd_m_total": 25135,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        },
+        {
+          "name": "Other",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "BOND",
+          "count": 2
+        },
+        {
+          "name": "Founders Fund",
+          "count": 2
+        },
+        {
+          "name": "Salesforce Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Redwood City,CA",
       "city": "Redwood City",
       "state": "CA",
@@ -1931,6 +1799,29 @@
         {
           "name": "Bessemer Venture Partners",
           "count": 4
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 3,
+      "weighted_score": 13.08,
+      "latest_at": "2026-07-02T23:43:33.000Z",
+      "amount_usd_m_total": 880,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
+          "count": 3
         }
       ]
     },
@@ -1988,52 +1879,6 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 6.62,
-      "latest_at": "2026-06-29T22:37:31.000Z",
-      "amount_usd_m_total": 500,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 2,
-      "weighted_score": 6.48,
-      "latest_at": "2026-06-16T07:00:00.000Z",
-      "amount_usd_m_total": 50,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
           "count": 2
         }
       ]
@@ -2103,29 +1948,6 @@
       "top_vcs": [
         {
           "name": "Upfront Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Chicago,IL",
-      "city": "Chicago",
-      "state": "IL",
-      "lat": 41.8781,
-      "lon": -87.6298,
-      "deal_count": 1,
-      "weighted_score": 3.02,
-      "latest_at": "2026-06-22T16:56:00.000Z",
-      "amount_usd_m_total": 14.4,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "DCVC",
           "count": 1
         }
       ]
