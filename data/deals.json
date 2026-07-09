@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:31:45.421Z",
+  "generated_at": "2026-07-09T20:01:45.157Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 67,
-    "total_deals": 67,
+    "scraped_deals": 69,
+    "total_deals": 69,
     "demo_mode": false,
-    "deals_with_coordinates": 67,
-    "runtime_ms": 4221,
+    "deals_with_coordinates": 69,
+    "runtime_ms": 4258,
     "note": "",
     "error_sample": []
   },
@@ -212,6 +212,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1528243648",
+      "vc_id": "spark",
+      "vc_name": "Spark Capital",
+      "company": "Higharc",
+      "title": "Higharc Raises $95M Series C to Scale AI for Homebuilding - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQW5HVUlaMEpiVUdtSnR5MDlKUzlEcUxRMGg4VFlRdFhJb2Z3M1VHX3N6WkdoeU9fa2NSMTNsdGVlWlMwNUloeDJYYThDWmtWMUl0a1FmdWRTcldsdURyYzN2c2VhVXo4SlBJREtENFdWX3JtU2FJZkN6UjJBRzBCNEIyaTVoY2w4Y1NiRmlWU2RONWVZODlDRHUzNlhJdTZSSno5VHVfZnJ5cFV0M3lSc1ZB?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-06-30T13:36:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 95,
+      "confidence": 0.96,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -745,6 +767,28 @@
       }
     },
     {
+      "id": "deal_1131267830",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Exclusive: Crypto analytics startup Allium",
+      "title": "Exclusive: Crypto analytics startup Allium raises $40 million to tame blockchain data for Wall Street - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNlNYTV9nQlVHOEF1UW1yMlpxZ0l2Q3BKOGUxY0tqVlJycGpvdmszWFRjYUVvM1JrdUdmQXktMXFLaTlRMUZObEdtR1ZvTjJSYXFENTZSeUdVWUpBRHVuZGJjLVBsM2NGa3VhemZxZFotLXJLMlBaMmZPWXFJa19tTGRQZTQ5d3dTZkNYNzNhSlZidGc0?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-06-23T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1230498635",
       "vc_id": "amplify",
       "vc_name": "Amplify Partners",
@@ -806,6 +850,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1321761350",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Prosper AI",
+      "title": "Prosper AI lands $30M backed by Andreessen Horowitz to build AI workforce for healthcare operations - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWDh0ZUFLaG8zMXN2dFdjc3FPbUwzd1EzNmNJZS1FNk54Z1R6T3JrX29TN0dzbE1LOHZKY0M5Q0xSY1hsT1VHRFhqd1ZTY2Q1RUphLWlKSWpCVHd6UG1GN0dnSXJjMDZRUVlMM25NX29uLXRVLTRHVGFfVTJNSDdoSE1veHFDTUZubjJyM0NiVTZROWRSWUF1QTI5bHFsZzFPdnc3eDJvMGRENU8wNllUd2pjVkUwUVUxdUFDb2dKRmE?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-06-22T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1006,28 +1072,6 @@
         "lon": -74.006,
         "method": "city_keyword",
         "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_648678968",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Israeli cyber startup Dream",
-      "title": "Israeli cyber startup Dream raises $260 million, valued at $3 billion - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb1JianZVNkZSY3pxakJQMDVBZmxBWDJoNWpLR1NJTDZVemotWWNiMEU3MGJoN0tkY3VLUUhianl6eldIZUVhUld5ODZFcXBOTElaUUxBVkJVNHVXdXRNN0NnVlJIZFc3YkFzZW1ueExtNXU1S2xSamRiNmVObEkxTjRYZ0JHZm1Eb3c5MVNYWlQ4SzBJcWhDMUx5aktKN0JaWDFiRE5sUWlBbGxGQ1Fv?oc=5",
-      "source_name": "Reuters",
-      "published_at": "2026-06-18T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 260,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
       }
     },
     {
@@ -1500,14 +1544,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 16,
-      "weighted_score": 62.99,
+      "deal_count": 18,
+      "weighted_score": 69.71,
       "latest_at": "2026-07-07T06:37:04.000Z",
-      "amount_usd_m_total": 394484,
+      "amount_usd_m_total": 394554,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 15
+          "count": 17
         },
         {
           "name": "Other",
@@ -1524,8 +1568,8 @@
           "count": 3
         },
         {
-          "name": "Altimeter Capital",
-          "count": 2
+          "name": "Andreessen Horowitz",
+          "count": 3
         }
       ]
     },
@@ -1645,9 +1689,9 @@
       "lat": 42.3601,
       "lon": -71.0589,
       "deal_count": 6,
-      "weighted_score": 25.75,
+      "weighted_score": 26.87,
       "latest_at": "2026-07-06T15:06:06.000Z",
-      "amount_usd_m_total": 3459,
+      "amount_usd_m_total": 3294,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1657,15 +1701,15 @@
       "top_vcs": [
         {
           "name": "Bain Capital Ventures",
-          "count": 3
-        },
-        {
-          "name": "Battery Ventures",
           "count": 2
         },
         {
           "name": "Spark Capital",
-          "count": 1
+          "count": 2
+        },
+        {
+          "name": "Battery Ventures",
+          "count": 2
         }
       ]
     },
