@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T19:52:57.718Z",
+  "generated_at": "2026-07-09T04:10:40.648Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 75,
-    "total_deals": 75,
+    "scraped_deals": 73,
+    "total_deals": 73,
     "demo_mode": false,
-    "deals_with_coordinates": 75,
-    "runtime_ms": 4265,
+    "deals_with_coordinates": 73,
+    "runtime_ms": 4057,
     "note": "",
     "error_sample": []
   },
@@ -107,14 +107,36 @@
       }
     },
     {
-      "id": "deal_1149275639",
+      "id": "deal_1651357940",
+      "vc_id": "prelude",
+      "vc_name": "Prelude Ventures",
+      "company": "Geothermal Startup",
+      "title": "Geothermal Startup Raises $134 Million for Drilling Superhot Rocks - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONE56dzItd0M2MEVaVnp4cjJPUVJHZ1Y0OTZyWEN0YnZZUEdVWXFYNnVua05nX3l6NVNIbGNacEIzXzc3b1VtTzljOWRZbU5PMnpjaHJJWFNsb1U1ZVhJdTVVWXJHT3ZxVmFra0t6ZHBqNzNyajF1WEEyaG1hcENabFJzbUp5TDdnd3JvV2lXZEU1anlQajFwc2tERDNIelNtM0FHSmJmY3hKVHpLSVByakFB?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-07-07T12:59:19.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 134,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_257954008",
       "vc_id": "prelude",
       "vc_name": "Prelude Ventures",
       "company": "Quaise Energy",
       "title": "Quaise Energy Raises $134 Million in Initial Close of Series B to Build World’s First Superhot Geothermal Power Plant - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPeVhFbnJZaGd2am5lcEkxZXNHSkgwU0NXXzFKWHBWNkQzMUpqWDFVMERmSTdLNXlUcHZVZmJkaXEyR0dMT2dEamlIX3NTSVRaU1JyMlI4UDhBOGtOemFCQTUzempiYlJBN2JPN2NfSkNDNU9vN2Znamw5QmxKRmN0dGNCdTk2QjZwb2E1OFByOWRmcThUYTl0VjRDV29xelVnd3dWYzctdm93dXRpa3hqSDg2X1VnYXA3VGF5aUg0ekRocjF4d0NBUTBjNnRGaHRSVUlMVHJkNFhhT2d5Ty03aE1tNkstZ2xPTzB1bnlrbEZQR3pPS1F6YTRraFBDcnJidkJUT0dB?oc=5",
       "source_name": "Business Wire",
-      "published_at": "2026-07-07T12:01:00.000Z",
+      "published_at": "2026-07-07T12:02:11.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
       "amount_usd_m": 134,
@@ -168,6 +190,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1098162555",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Higharc",
+      "title": "Higharc Raises $95M Series C to Scale AI for Homebuilding - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQW5HVUlaMEpiVUdtSnR5MDlKUzlEcUxRMGg4VFlRdFhJb2Z3M1VHX3N6WkdoeU9fa2NSMTNsdGVlWlMwNUloeDJYYThDWmtWMUl0a1FmdWRTcldsdURyYzN2c2VhVXo4SlBJREtENFdWX3JtU2FJZkN6UjJBRzBCNEIyaTVoY2w4Y1NiRmlWU2RONWVZODlDRHUzNlhJdTZSSno5VHVfZnJ5cFV0M3lSc1ZB?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-06-30T13:36:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 95,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -256,28 +300,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1643645868",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Straiker",
-      "title": "Straiker Raises $64M Series A to Secure the Agentic Workforce - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVGxUWmRMTXkxMmZDN0FQa2tRNTFWd1RsMzNiV3VoblR2c0wtandRVkgtTWY3UjNkUW9iQkJrNjMxd0thZDNJeU1hZlg5VkFqSTAyRHNmYjV2N2xMOWVXR0lwWjZid2wxOFl3dFE1ZXFzZDZfYjJDX0tJMXU0bHZSczFWOTRCSkhYQWdXN2kzOTJWUGxKLTJjOVM4NHZJVjlhV0tPbjkxb1l2d3pMcjhNanFCN1Nha0E?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-06-29T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 64,
-      "confidence": 0.96,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -432,6 +454,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1017520076",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Sail Research",
+      "title": "Sail Research Raises $80M to Build Agent Infrastructure - Let's Data Science",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZGRfb01QWGFNVzFjbHpHVUJLYW5KN253NUJQWlM2Y2lscmY4d3JRRlVuUmR1T3JKMi1XWTNHN3lRZHNsU2hqbGpMNkpxSVJYNFRsT0NLczFFMVFfUGJlM2Z2VU15djV4V2dibjdESUQtS1I0ZjJsVUIxU1Brb1kxaDlUT3RvWWt6c2JMaWdoeFdHSFcyU1dCcU5Za3k?oc=5",
+      "source_name": "Let's Data Science",
+      "published_at": "2026-06-26T01:30:20.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -635,28 +679,6 @@
       }
     },
     {
-      "id": "deal_566427053",
-      "vc_id": "mayfield",
-      "vc_name": "Mayfield",
-      "company": "Vishal Sikka's startup Hang Ten",
-      "title": "Vishal Sikka's startup Hang Ten raises $32M to use AI for enterprise software services. - Pluang",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOGNURGdXNFU2WFY4MWx2SzhiRUF3R3lVVnY5M09CZF8wLXV4Uk8xWTFuLWhwZ1F5bXFGRV82ZUpWdk5KUHFNbnVjTENYZFBlOVdEX0pyWUJFVFVqNnUweVpNdlhjeUtCamZvWmFrQ0RBNHJtcjViSG51VjJXbUNrQ2lVcDRROGxMRXJDQVFfSEVwY04tZ1FZ?oc=5",
-      "source_name": "Pluang",
-      "published_at": "2026-06-25T01:21:22.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 32,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1094666849",
       "vc_id": "andreessen-horowitz",
       "vc_name": "Andreessen Horowitz",
@@ -745,6 +767,28 @@
       }
     },
     {
+      "id": "deal_931266739",
+      "vc_id": "mayfield",
+      "vc_name": "Mayfield",
+      "company": "Vishal Sikka's startup Hang Ten",
+      "title": "Vishal Sikka's startup Hang Ten raises $32M to use AI for enterprise software services. - Pluang",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOGNURGdXNFU2WFY4MWx2SzhiRUF3R3lVVnY5M09CZF8wLXV4Uk8xWTFuLWhwZ1F5bXFGRV82ZUpWdk5KUHFNbnVjTENYZFBlOVdEX0pyWUJFVFVqNnUweVpNdlhjeUtCamZvWmFrQ0RBNHJtcjViSG51VjJXbUNrQ2lVcDRROGxMRXJDQVFfSEVwY04tZ1FZ?oc=5",
+      "source_name": "Pluang",
+      "published_at": "2026-06-24T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 32,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_170084801",
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
@@ -757,28 +801,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 16,
       "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1086814541",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Unknown",
-      "title": "Invest Qatar Launches VC Funding Module on Gateway Platform | 2026 - News and Statistics - IndexBox",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMHdfb0hRVkZZZHpkd2pFZzZGX0FLQ0NVaWxPZllHTXpwbUFmNjNsanB1V09IaEZkZ1ZBZkdpcTN4Si15VkVPWVF6WXF6a3ZqUDR2ZkVrQ1RhSmZwSHpkYk5Ya2pVWHdoRFZGU2w4VktlcjdPbEtmZ0ZaYW16X01ORlh3dkJidFl0d0YxOVRueTJlVnF1am52VFZsaG5sbXhvVmZj?oc=5",
-      "source_name": "IndexBox",
-      "published_at": "2026-06-23T14:33:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -1009,28 +1031,6 @@
       }
     },
     {
-      "id": "deal_135173317",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Pet healthcare startup Vetic",
-      "title": "Pet healthcare startup Vetic raises $40 Mn led by Bessemer - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVhSUGY2ck90Q0tRaG5tbTZyNDU3V1JZSWtmZTR3Mm9FNldCYTZ4ckN0SnNBam43cVJDYl81LWRzcWJZRFJ0Tm5xdnl0eUhVaDNCeklpb3h6TzJ1d21QUkFuYlNidXFDVGNxMkZsSFdDdzBVUVVFQjhiaTJxQ2stZDFOY3FEcExoRUF3aklZUndoOGVNUS0w0gGXAUFVX3lxTE9NWFJQZjZyT3RDS1Fobm1tNnI0NTdXUllJa2ZlNHcyb0U2V0JhNnhyQ3RKc0FqbjdxUkNiXzUtZHNxYllEUnRObnF2eXR5SFVoM0J6SWlveHpPMnV3bVBSQW5iU2J1cUNUY3EyRmxIV0N3MFVRVUVCOGJpMnFDay1kMU5jcURwTGhFQXdqSVlSd2g4ZU1RLTA?oc=5",
-      "source_name": "Entrackr",
-      "published_at": "2026-06-18T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 40,
-      "confidence": 0.81,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_718061829",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -1094,6 +1094,28 @@
         "lon": -74.006,
         "method": "city_keyword",
         "confidence": 0.68
+      }
+    },
+    {
+      "id": "deal_648678968",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Israeli cyber startup Dream",
+      "title": "Israeli cyber startup Dream raises $260 million, valued at $3 billion - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb1JianZVNkZSY3pxakJQMDVBZmxBWDJoNWpLR1NJTDZVemotWWNiMEU3MGJoN0tkY3VLUUhianl6eldIZUVhUld5ODZFcXBOTElaUUxBVkJVNHVXdXRNN0NnVlJIZFc3YkFzZW1ueExtNXU1S2xSamRiNmVObEkxTjRYZ0JHZm1Eb3c5MVNYWlQ4SzBJcWhDMUx5aktKN0JaWDFiRE5sUWlBbGxGQ1Fv?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-06-18T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 260,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
       }
     },
     {
@@ -1207,28 +1229,6 @@
       }
     },
     {
-      "id": "deal_1810118079",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Sarvam AI",
-      "title": "Sarvam AI raises $234m in new funding round - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNb01STUhmcmt2dTRvYnZPa1JOMUlJb09hMU4xNGhQSmhaVkpTNDhwX2pjNHZjVTFCLTlvUlh6cjFRdHJhMUhxblM5OGMzSGdWYldveUJHUGpDc0NLOTNqYTdqU1ZXeGJZM0p2bnlvbWk3amdvU3Jxb0lpeDZ2bEg0TWNB?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-06-16T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.81,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_999732671",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -1334,28 +1334,6 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1394540295",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Sarvam",
-      "title": "Sarvam raises $234 million Series B at $1.5 billion valuation to build India's sovereign AI stack - ANI News",
-      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS0xjVEsxQTlIZVVBMlVQak9rNll0ekNZdThsUnRQTnNyZUtJVkJFclR1aElvcjhrMVd5LThvTzV6R2xtUk9zQ20zQ0pQZi1kSnBlM0prcllQZHdlNzlGMktEanVXVVVRM3VqYTFRSWNEMWVscEVCeGtDREtkYjdva203VGNsdkVNU2pLVFpWY1JZbkJwM2FOc2RzV09mdmhyV3d4NFhPNXFtNVEwMEFYUHlPaUo0R25Ta3E0V2NfNVFmdl94TDFVb1hhQjloZmYzdE5GS3RFeG51MllB?oc=5",
-      "source_name": "ANI News",
-      "published_at": "2026-06-15T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 234,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1625,28 +1603,6 @@
       }
     },
     {
-      "id": "deal_1048714689",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Unknown",
-      "title": "Minerva Launches AI Platform for Consumer Marketing with $20M from The General Partnership, 8VC, Lingotto Innovation, Topology Ventures and NBA Investments, Alongside OpenAI Collaboration - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPY2xvYUZkUnpwZjNBSXI2d2NOTjVTOXVoeG4tM3UxOU5jWnB4bEJFYTVYeDMtUE1SRDFrWVNDZDFkTW5TMzIxb1l1b25USEJlQWZ5YlFVSFhGMmI5QktZc05vNUstWF9nNWVNd3kxaFRwU2N2QV9aS2tTQXhXUy1Oa29WeV9rbTVkbGgtSUN0LWRuRGZuUnZfczM4LXg4bmNrQlAybmR2eC10TTlBZ05wZVFoYWZ1YmJ6OTlKS2ZkVXhFVVJFY3lwa3hibnJGRlJyLUo2RG9KU1JOUXZScl9YaFJ3UkRfR1BJMTJYQUsxVGJUcGpBeGVYQmxiYnN3a1dlWkFrcDVCZjFlWm9zbVZRdHJobDlXUlhHYU9YNlVRNXQtOC0xbWEwaHI2VFFJS2g4amZ5c25GVk1xOU1MeE0yZ2ZObDFadXphTTFEbEdEdW1EbGpMaHR4RHh4VXdKRlE?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-06-09T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 20,
-      "confidence": 0.71,
-      "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1642083177",
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
@@ -1676,14 +1632,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 21,
-      "weighted_score": 79.21,
+      "deal_count": 22,
+      "weighted_score": 82.93,
       "latest_at": "2026-07-07T06:37:04.000Z",
-      "amount_usd_m_total": 394744,
+      "amount_usd_m_total": 394824,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 20
+          "count": 21
         },
         {
           "name": "Other",
@@ -1712,17 +1668,17 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 12,
-      "weighted_score": 45.78,
+      "weighted_score": 47.71,
       "latest_at": "2026-07-08T16:00:00.000Z",
-      "amount_usd_m_total": 25736,
+      "amount_usd_m_total": 25870,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -1732,7 +1688,7 @@
         },
         {
           "name": "Prelude Ventures",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Craft Ventures",
@@ -1746,14 +1702,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 11,
-      "weighted_score": 41.86,
-      "latest_at": "2026-06-30T07:00:00.000Z",
-      "amount_usd_m_total": 1342.9,
+      "deal_count": 12,
+      "weighted_score": 47.2,
+      "latest_at": "2026-06-30T13:36:00.000Z",
+      "amount_usd_m_total": 1437.9,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Biotech & Health",
@@ -1821,9 +1777,9 @@
       "lat": 42.3601,
       "lon": -71.0589,
       "deal_count": 5,
-      "weighted_score": 21.53,
+      "weighted_score": 21.38,
       "latest_at": "2026-07-06T15:06:06.000Z",
-      "amount_usd_m_total": 3199,
+      "amount_usd_m_total": 3395,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1842,29 +1798,6 @@
         {
           "name": "Spark Capital",
           "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 3,
-      "weighted_score": 12.93,
-      "latest_at": "2026-06-18T07:00:00.000Z",
-      "amount_usd_m_total": 508,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 3
         }
       ]
     },
@@ -2029,29 +1962,6 @@
       "top_vcs": [
         {
           "name": "Upfront Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 3.03,
-      "latest_at": "2026-06-09T07:00:00.000Z",
-      "amount_usd_m_total": 20,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
           "count": 1
         }
       ]
