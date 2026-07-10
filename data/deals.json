@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T09:50:57.454Z",
+  "generated_at": "2026-07-10T14:49:02.727Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 65,
-    "total_deals": 65,
+    "scraped_deals": 70,
+    "total_deals": 70,
     "demo_mode": false,
-    "deals_with_coordinates": 65,
-    "runtime_ms": 4116,
+    "deals_with_coordinates": 70,
+    "runtime_ms": 4577,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1631547965",
+      "vc_id": "obvious",
+      "vc_name": "Obvious Ventures",
+      "company": "Hostie",
+      "title": "Hostie Raises $12M Series A to Power the Future of Restaurant Hospitality - Yahoo Finance Singapore",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2NPRk9sTTg2TENta2ZJNFlyTlpsQ1lsMXNoRVdEU2R2M1lJRDctM1dmWG5WTXZrRWs1aEhVdzRTYmc2bHY0eExWanhadUpLc2c5aW84aV85a0p4MWstZjNzQWN2SXV4QWVDM01jUFpkTWhlOUpTejluSVA3b3RuNDJpajN3dw?oc=5",
+      "source_name": "Yahoo Finance Singapore",
+      "published_at": "2026-07-08T16:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 12,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1844420504",
       "vc_id": "general-catalyst",
@@ -80,6 +102,50 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_60961223",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Oratomic",
+      "title": "Oratomic Raises $300 Million Series A - The Quantum Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNEpYcjNIYUxTUjFIZU1NTWd0WDI4d2JmT0ZQWFNLcGx5S0lNQWt4eVVqREo0aWR6eWEzcXRDaUZVWmNnRkNFZG9jenliTERsMFlOS2g1OVRPdDVPcjE5bDdXdWpMNGxKeUNzc3ZaRHM2b21ncEtvN1hQVDlpbnRCUWZCYWw?oc=5",
+      "source_name": "The Quantum Insider",
+      "published_at": "2026-07-07T17:54:48.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 300,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2102084672",
+      "vc_id": "spark",
+      "vc_name": "Spark Capital",
+      "company": "Oratomic",
+      "title": "Oratomic Raises $300 Million Series A - The Quantum Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNEpYcjNIYUxTUjFIZU1NTWd0WDI4d2JmT0ZQWFNLcGx5S0lNQWt4eVVqREo0aWR6eWEzcXRDaUZVWmNnRkNFZG9jenliTERsMFlOS2g1OVRPdDVPcjE5bDdXdWpMNGxKeUNzc3ZaRHM2b21ncEtvN1hQVDlpbnRCUWZCYWw?oc=5",
+      "source_name": "The Quantum Insider",
+      "published_at": "2026-07-07T17:54:48.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 300,
+      "confidence": 0.96,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -514,6 +580,28 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 64,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1187011088",
+      "vc_id": "amex-ventures",
+      "vc_name": "Amex Ventures",
+      "company": "Airwallex",
+      "title": "Airwallex Secures $320 Million in Series H Funding, Valuation Hits $11 Billion - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYkZEQTEtZnRSM09kVzhabXA3UWRRTWtsblI3eEgwdlE3WGU5N3p1QU9lSzl5Z1k0MVYyMmhnOGg2TGFyZmpRYm9TTnJqSk83SlJkMFVkdzl4VldTRHo2cFJNSER4cjVQNVpoNmxhVXFPZWxHQnU5NnplM0R5ZUdzQzhNdkZWdVB4T21yOGRhTFpsWHhfcmdtNUZyM254Ujg0dllkY2ZhVXM2M2QwUF8wR3ZEVjBtQUJPVTVQUW5RMlR5SmdrYjBrSlZON2tKWTJ6Z2lpUg?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-06-25T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 320,
       "confidence": 0.81,
       "location": {
         "city": "New York",
@@ -1207,13 +1295,13 @@
       }
     },
     {
-      "id": "deal_2017400429",
+      "id": "deal_1394540295",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
-      "company": "Indian AI startup Sarvam",
-      "title": "Indian AI startup Sarvam raises $234M in Series B at $1.5B valuation - Asianet Newsable",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ2N4eGRoREM3Zzd3NXJDNThzMDlaQWlTd3lUQ081OUhTdDJ0RlI4RTltbkR6bG1jZGJZamxUOHdFOFBqdGhVVGg4RVQ2QXgyV2EyUldUZVIyNUNoWjhpcktFTU1HUzZ6ZHVOd1JweVNLR01iMU1yZHhKQW5nUC1McE44NUlOSEEtX2g4dzU5czBzelJXRC02elpXMld0am5Ic3FkSVF2NGVSWjRRUXZuNkJOeERkVE4yTThsejg0Tk9tRWhjWGfSAcsBQVVfeXFMT0sxX25EYmhxN0VPcTNBb0cyRFhYRHd0TDZ1amxNcjYtemNKSk5tWE1fd1Q5dW5NNjBwT19vU2FLZ19VUmxTWVJ6cEJVc0JGSThWdDV3N2swTS1pcl9BMFZVREU0ckl2d3pWYjI1M1YycWwtUmIxbDhERG1nYklZRTIwOWFQRjBrNTM5R3VhdkpCS2R2X3V0VzJ0WGVqRVFfOEtJWWNlal9pUm01Mkl0ZjNKTDgwYk5FdVp6TEhlU1MxYnRjR1IyY0VXdzA?oc=5",
-      "source_name": "Asianet Newsable",
+      "company": "Sarvam",
+      "title": "Sarvam raises $234 million Series B at $1.5 billion valuation to build India's sovereign AI stack - ANI News",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS0xjVEsxQTlIZVVBMlVQak9rNll0ekNZdThsUnRQTnNyZUtJVkJFclR1aElvcjhrMVd5LThvTzV6R2xtUk9zQ20zQ0pQZi1kSnBlM0prcllQZHdlNzlGMktEanVXVVVRM3VqYTFRSWNEMWVscEVCeGtDREtkYjdva203VGNsdkVNU2pLVFpWY1JZbkJwM2FOc2RzV09mdmhyV3d4NFhPNXFtNVEwMEFYUHlPaUo0R25Ta3E0V2NfNVFmdl94TDFVb1hhQjloZmYzdE5GS3RFeG51MllB?oc=5",
+      "source_name": "ANI News",
       "published_at": "2026-06-15T07:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
@@ -1246,6 +1334,28 @@
         "state": "CA",
         "lat": 37.563,
         "lon": -122.3255,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1565474380",
+      "vc_id": "obvious",
+      "vc_name": "Obvious Ventures",
+      "company": "Exclusive: The researchers who built AI-generated DNA just",
+      "title": "Exclusive: The researchers who built AI-generated DNA just raised $50 million to reinvent biology - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWNDSWdrYnNSaXRhNmJBRGtJVzlzQ0J6ckJ6QkNkbnBhb1BLcEZuSVZJclkyR01ONXJoWGh4SjJZTEp4cThkNmVfR2gxR0RocjVrYUpiX0RYR1ZKcVdySHhDckxPOEQtdlVMS1MwcTNWOFZnNUNxb3RWSVFxZzZ4cnBvSFEzLVRHWEVOdGhmeDRIbzVhNVBZTjZxeTBuZWZPYzZDSVRVUEJrN2FBSGh2Vg?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-06-15T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1456,14 +1566,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 16,
-      "weighted_score": 61.21,
-      "latest_at": "2026-07-07T06:37:04.000Z",
-      "amount_usd_m_total": 393004,
+      "deal_count": 17,
+      "weighted_score": 66.25,
+      "latest_at": "2026-07-07T17:54:48.000Z",
+      "amount_usd_m_total": 393304,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 15
+          "count": 16
         },
         {
           "name": "Other",
@@ -1477,7 +1587,7 @@
         },
         {
           "name": "Khosla Ventures",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Andreessen Horowitz",
@@ -1491,14 +1601,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 13,
-      "weighted_score": 48.06,
-      "latest_at": "2026-07-07T21:54:00.000Z",
-      "amount_usd_m_total": 25859,
+      "deal_count": 15,
+      "weighted_score": 55.25,
+      "latest_at": "2026-07-08T16:00:00.000Z",
+      "amount_usd_m_total": 25921,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 11
         },
         {
           "name": "Other",
@@ -1511,11 +1621,11 @@
           "count": 3
         },
         {
-          "name": "Prelude Ventures",
+          "name": "Obvious Ventures",
           "count": 2
         },
         {
-          "name": "Craft Ventures",
+          "name": "Prelude Ventures",
           "count": 2
         }
       ]
@@ -1526,14 +1636,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 10,
-      "weighted_score": 39.26,
+      "deal_count": 11,
+      "weighted_score": 43.58,
       "latest_at": "2026-06-30T13:36:00.000Z",
-      "amount_usd_m_total": 1053.9,
+      "amount_usd_m_total": 1373.9,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Biotech & Health",
@@ -1554,8 +1664,8 @@
           "count": 2
         },
         {
-          "name": "Insight Partners",
-          "count": 1
+          "name": "Amex Ventures",
+          "count": 2
         }
       ]
     },
@@ -1596,24 +1706,24 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 4,
-      "weighted_score": 16.9,
-      "latest_at": "2026-07-06T15:06:06.000Z",
-      "amount_usd_m_total": 294,
+      "deal_count": 5,
+      "weighted_score": 21.93,
+      "latest_at": "2026-07-07T17:54:48.000Z",
+      "amount_usd_m_total": 594,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         }
       ],
       "top_vcs": [
         {
-          "name": "Bain Capital Ventures",
+          "name": "Spark Capital",
           "count": 2
         },
         {
-          "name": "Spark Capital",
-          "count": 1
+          "name": "Bain Capital Ventures",
+          "count": 2
         },
         {
           "name": "Battery Ventures",
