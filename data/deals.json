@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T08:25:45.115Z",
+  "generated_at": "2026-07-14T14:09:48.844Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 73,
-    "total_deals": 73,
+    "scraped_deals": 75,
+    "total_deals": 75,
     "demo_mode": false,
-    "deals_with_coordinates": 73,
-    "runtime_ms": 4065,
+    "deals_with_coordinates": 75,
+    "runtime_ms": 4048,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1275246286",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Unknown",
+      "title": "Greylock Raises $1.5 Billion Fund for Early Stage Startups - Bloomberg Law News",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWlJzTmo2dUFJUTIwSGNTTlByLWR1ODFmdkVSMU5ydjhSQVBJWkNwX0tBcTBMX19paDMzR1dfN2c5VGVyT0FMdmV1aS1INkVyWWdQWW1YX0pqTWtxUkNNb29hY2hPMVp5RGc2WnhPdU1VMV9xSzRZQUktYm1FSV80dEN5WExnaXRsc0hySDJFTU1GVEN1UHdta2lQeG5oSEVVTW5QWg?oc=5",
+      "source_name": "Bloomberg Law News",
+      "published_at": "2026-07-14T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1500,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1756737830",
+      "vc_id": "prelude",
+      "vc_name": "Prelude Ventures",
+      "company": "An MIT Spinout Just",
+      "title": "An MIT Spinout Just Raised $134 Million to Drill for Superhot Rock in Oregon - Startup Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcmJWMkVIb1ItcmZRWWNXd1k5dkh5b01PbG9aM21heTNRWEVxaWtsX013cEpFbGVLakRxY21udDl3VklmZU5oU0Q1NUs2NlZaajlrSW1qeldvZzI3elF3ZWFOLURnVzUyME9oQTdkbkEtVXQyYXZ3andxdzNCUXRJUjZkUTdPYVFLRFNvLVhtY0V4aUpIYlJ3M3U2NXR1XzdNWVlYRWZR?oc=5",
+      "source_name": "Startup Fortune",
+      "published_at": "2026-07-14T07:46:54.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 134,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_834584353",
       "vc_id": "lightspeed",
@@ -177,9 +221,9 @@
       "vc_id": "bond",
       "vc_name": "BOND",
       "company": "Unknown",
-      "title": "Governor nixes funding for Legislative Hall renovations in bond bill - Delawareonline.com",
+      "title": "Governor nixes funding for Legislative Hall renovations in bond bill - The News Journal",
       "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUGJYY2xNM2JEZ2F2aHp6V181Yk9zUGNWaVhXQUx0eFUwUWpjblJDNDR6Y0NIOVVlLV9iOERER3Z3TTd6V3dLUzlSVFZqRmQ1aEU3cHgyT1dtczBXdldpVjlleTh6UVhqSW02V1FxS3dXaV9udmEzMmhTNjZ4dmhIeV94OGlpSTdVRmZXZ2s2ejZpVXBsOWxhZkN1MW5KUlRQWHVUQlQxOUNPTEFvNlJsV2N2ZjB2M2ExRjRQeDhHNV90bl9PZEpIOEs4MXRhQQ?oc=5",
-      "source_name": "Delawareonline.com",
+      "source_name": "The News Journal",
       "published_at": "2026-07-07T21:54:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -1031,28 +1075,6 @@
       }
     },
     {
-      "id": "deal_1324697629",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Cyber resilience startup Mitigata",
-      "title": "Cyber resilience startup Mitigata raises $15 Mn in Series B round led by Bessemer - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd1IwNzRTc0R1VnFBX0tVRU5nenN2ZGp4SG52bFdIWWhKYmJ0YkpXb2dzNXVIZEdwU096NUZZZzFzbjVXZlpqaE1FRXVmZHNSZVZfSVRBLXFtd21fZWpZQkdOWjd3bUN3RlFZZ0UtU2xmUVVqWFB4UmhXOFNPNUIycFdtcnlsRWVhc2pjWlFmUDFBVHRzcV9fNDBHQnlvc19SVzdiMk9RYkRIR2lVOF8ybGI2M1hhZ9IBtgFBVV95cUxQd1IwNzRTc0R1VnFBX0tVRU5nenN2ZGp4SG52bFdIWWhKYmJ0YkpXb2dzNXVIZEdwU096NUZZZzFzbjVXZlpqaE1FRXVmZHNSZVZfSVRBLXFtd21fZWpZQkdOWjd3bUN3RlFZZ0UtU2xmUVVqWFB4UmhXOFNPNUIycFdtcnlsRWVhc2pjWlFmUDFBVHRzcV9fNDBHQnlvc19SVzdiMk9RYkRIR2lVOF8ybGI2M1hhZw?oc=5",
-      "source_name": "Entrackr",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.96,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1308848566",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -1268,6 +1290,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_135173317",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Pet healthcare startup Vetic",
+      "title": "Pet healthcare startup Vetic raises $40 Mn led by Bessemer - Entrackr",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVhSUGY2ck90Q0tRaG5tbTZyNDU3V1JZSWtmZTR3Mm9FNldCYTZ4ckN0SnNBam43cVJDYl81LWRzcWJZRFJ0Tm5xdnl0eUhVaDNCeklpb3h6TzJ1d21QUkFuYlNidXFDVGNxMkZsSFdDdzBVUVVFQjhiaTJxQ2stZDFOY3FEcExoRUF3aklZUndoOGVNUS0w0gGXAUFVX3lxTE9NWFJQZjZyT3RDS1Fobm1tNnI0NTdXUllJa2ZlNHcyb0U2V0JhNnhyQ3RKc0FqbjdxUkNiXzUtZHNxYllEUnRObnF2eXR5SFVoM0J6SWlveHpPMnV3bVBSQW5iU2J1cUNUY3EyRmxIV0N3MFVRVUVCOGJpMnFDay1kMU5jcURwTGhFQXdqSVlSd2g4ZU1RLTA?oc=5",
+      "source_name": "Entrackr",
+      "published_at": "2026-06-18T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.81,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1632,14 +1676,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 24,
-      "weighted_score": 96.86,
-      "latest_at": "2026-07-13T19:43:00.000Z",
-      "amount_usd_m_total": 398619.7,
+      "deal_count": 25,
+      "weighted_score": 101.75,
+      "latest_at": "2026-07-14T13:00:00.000Z",
+      "amount_usd_m_total": 400119.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 22
+          "count": 23
         },
         {
           "name": "Other",
@@ -1667,14 +1711,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 17,
-      "weighted_score": 63.74,
-      "latest_at": "2026-07-09T13:00:00.000Z",
-      "amount_usd_m_total": 26134,
+      "deal_count": 18,
+      "weighted_score": 67.68,
+      "latest_at": "2026-07-14T07:46:54.000Z",
+      "amount_usd_m_total": 26268,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 14
+          "count": 15
         },
         {
           "name": "Other",
@@ -1683,16 +1727,16 @@
       ],
       "top_vcs": [
         {
+          "name": "Prelude Ventures",
+          "count": 3
+        },
+        {
           "name": "BOND",
           "count": 3
         },
         {
           "name": "Craft Ventures",
           "count": 3
-        },
-        {
-          "name": "Benchmark",
-          "count": 2
         }
       ]
     },
@@ -1765,9 +1809,9 @@
       "lat": 37.4852,
       "lon": -122.2364,
       "deal_count": 3,
-      "weighted_score": 13.68,
-      "latest_at": "2026-06-23T07:00:00.000Z",
-      "amount_usd_m_total": 483,
+      "weighted_score": 12.93,
+      "latest_at": "2026-06-18T07:00:00.000Z",
+      "amount_usd_m_total": 508,
       "top_sectors": [
         {
           "name": "AI & ML",
