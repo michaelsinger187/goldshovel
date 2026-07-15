@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T14:06:33.008Z",
+  "generated_at": "2026-07-15T19:33:54.573Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 77,
-    "total_deals": 77,
+    "scraped_deals": 80,
+    "total_deals": 80,
     "demo_mode": false,
-    "deals_with_coordinates": 77,
-    "runtime_ms": 4311,
+    "deals_with_coordinates": 80,
+    "runtime_ms": 4414,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1602275893",
+      "vc_id": "f-prime",
+      "vc_name": "F-Prime Capital",
+      "company": "Stablecoin payments infra startup Cyclops",
+      "title": "Stablecoin payments infra startup Cyclops raises $20M Series A led by Nava Ventures - CryptoRank",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QckxaUVVEeG5KUTNKNmV2cjVVVDJkRF9DV1R5d3pMMTJuT1VPY2lsXzJ5SzF1VjMxUElGbXJESzU0aGQzY3lGaVQ3VnhVRFVucW9zdEVRZXctMnBXckNpTHNrellCazNsZ2s4?oc=5",
+      "source_name": "CryptoRank",
+      "published_at": "2026-07-15T14:20:43.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.96,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_649801983",
       "vc_id": "lightspeed",
@@ -261,50 +283,6 @@
       }
     },
     {
-      "id": "deal_547628227",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Unknown",
-      "title": "Governor nixes funding for Legislative Hall renovations in bond bill - Delawareonline.com",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUGJYY2xNM2JEZ2F2aHp6V181Yk9zUGNWaVhXQUx0eFUwUWpjblJDNDR6Y0NIOVVlLV9iOERER3Z3TTd6V3dLUzlSVFZqRmQ1aEU3cHgyT1dtczBXdldpVjlleTh6UVhqSW02V1FxS3dXaV9udmEzMmhTNjZ4dmhIeV94OGlpSTdVRmZXZ2s2ejZpVXBsOWxhZkN1MW5KUlRQWHVUQlQxOUNPTEFvNlJsV2N2ZjB2M2ExRjRQeDhHNV90bl9PZEpIOEs4MXRhQQ?oc=5",
-      "source_name": "Delawareonline.com",
-      "published_at": "2026-07-07T21:54:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1601143057",
-      "vc_id": "prelude",
-      "vc_name": "Prelude Ventures",
-      "company": "Quaise Energy",
-      "title": "Quaise Energy raises $134M to fuel superhot geothermal ambitions - Canary Media",
-      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaOThaMG9jbWlYa0NVZlZzUHljZHBhbENKN1RCMk1VMnlWaHk0YUVRM1ZYSkJ5SVJwMHdMTXZqNk9vR3BLUzhUQXpqeW5SVlBEWkdLU1BuR25OZE5ZX2g0SnpwSjZsc0Q1Rml2MmUxblFDek1kNjB1S1U3UFVlZw?oc=5",
-      "source_name": "Canary Media",
-      "published_at": "2026-07-07T18:30:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 134,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_60961223",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -415,6 +393,28 @@
       }
     },
     {
+      "id": "deal_1230721523",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Norm Ai",
+      "title": "Norm Ai Raises $120 Million at a $1.2 Billion Valuation Led by Khosla Ventures to Deliver the Full-Stack Model for Legal AI - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObjJaRXR5czc0MDg0OVBZbVhOQl90a0VPUk44a0hsMjVFMG90WkdubnVvUlRUNjhLMklrZGQzZ0VPZ1dadzVOUXVEbW1pU01xaHN2NU5zVXFlRDRuTEgyeldtU25UbjN2UVRkTjBsZF96SG5YNk9paU1LMlNKZUNhZnRiYnZfejlHdGZ1Wk4zdVl4Y2gyeHEzMHhreUJDMUxxcmJIeEpaMEJEVGEyTzZCbGFRZC1RT0RIcVVSVzczLXZ1bEJtaWdOalF3N0xqNVh0aVhsaTdVV25tdUFjc2VDTUh1WUJPZWRkU0N4LUtOZDVqSW95Um5YLVhoaDdwN3drV0tDc1BLS0s?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-07T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 120,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1149275639",
       "vc_id": "prelude",
       "vc_name": "Prelude Ventures",
@@ -437,6 +437,28 @@
       }
     },
     {
+      "id": "deal_1305808219",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Unknown",
+      "title": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-07-07T12:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1200,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1388999482",
       "vc_id": "bcv",
       "vc_name": "Bain Capital Ventures",
@@ -454,6 +476,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_847282254",
+      "vc_id": "prelude",
+      "vc_name": "Prelude Ventures",
+      "company": "Quaise Energy",
+      "title": "Quaise Energy raises $134M to fuel superhot geothermal ambitions - Canary Media",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaOThaMG9jbWlYa0NVZlZzUHljZHBhbENKN1RCMk1VMnlWaHk0YUVRM1ZYSkJ5SVJwMHdMTXZqNk9vR3BLUzhUQXpqeW5SVlBEWkdLU1BuR25OZE5ZX2g0SnpwSjZsc0Q1Rml2MmUxblFDek1kNjB1S1U3UFVlZw?oc=5",
+      "source_name": "Canary Media",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 134,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -943,6 +987,28 @@
       }
     },
     {
+      "id": "deal_1187011088",
+      "vc_id": "amex-ventures",
+      "vc_name": "Amex Ventures",
+      "company": "Airwallex",
+      "title": "Airwallex Secures $320 Million in Series H Funding, Valuation Hits $11 Billion - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYkZEQTEtZnRSM09kVzhabXA3UWRRTWtsblI3eEgwdlE3WGU5N3p1QU9lSzl5Z1k0MVYyMmhnOGg2TGFyZmpRYm9TTnJqSk83SlJkMFVkdzl4VldTRHo2cFJNSER4cjVQNVpoNmxhVXFPZWxHQnU5NnplM0R5ZUdzQzhNdkZWdVB4T21yOGRhTFpsWHhfcmdtNUZyM254Ujg0dllkY2ZhVXM2M2QwUF8wR3ZEVjBtQUJPVTVQUW5RMlR5SmdrYjBrSlZON2tKWTJ6Z2lpUg?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-06-25T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 320,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1868455962",
       "vc_id": "mayfield",
       "vc_name": "Mayfield",
@@ -1087,6 +1153,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 16,
       "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1053414925",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Unknown",
+      "title": "Stark confirms monster €500M funding round, reportedly approaching a €3B valuation - Resilience Media",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdkstZGhwVnA0RWtvd0gyTzNrTk16Zl9oY2F6ZlZuUFNDNEpFSm40UjdjWm9RZi00bUdvREl3RTlVem5tSXh4ODJKdEk3dG5ELWNTWDhFUE1jbVRCX2NoRjRkc1R1QXhTenpiVGJVWG1xNlNBWEY3SFhFUTBJMU41c0huanhSTzBHZzJkZjVjT1FUeFp0LTZYRnNkRVBZRXpkdlN1ajRhUUFYQ0xUZFE?oc=5",
+      "source_name": "Resilience Media",
+      "published_at": "2026-06-23T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -1356,28 +1444,6 @@
         "state": "CA",
         "lat": 37.4852,
         "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1009174461",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "AI verification startup Pramaana Labs",
-      "title": "AI verification startup Pramaana Labs bags $27 mn seed funding led by Khosla Ventures - Business Today",
-      "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQMUd2RHhjQmV6WS1qWm0tUGhmM1FiNUNUN2hUODExb1JTWmpUSF9FUlFkZlh4NGs2WjYxZWVEYlVybVY1SzBtS0pVSzNDLTVqS0hVMXhPU3ZIMElsS2FCVHlLampiU0NoeG1vQ25UQ09wLXUtSWYyQnhxcTJjc25uZ0hMMDBRT0M0SlZRWHktV3ljaFBOMTBZTXFGbUJzZXJzQnJnNXNlZkRmdEp1WGxUR041cG9SWEtNTGFyNGtlRG9haGExQWtKdG1yLVdsNUJZNFQ1T2ZBaThKUnZSYXdmYU1VSk5Pbk1MRlAxdTlxLUdDaHNsUG5YUWY5M0ZRZzZKR0E?oc=5",
-      "source_name": "Business Today",
-      "published_at": "2026-06-18T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 27,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1721,9 +1787,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 25,
-      "weighted_score": 103.47,
+      "weighted_score": 104.66,
       "latest_at": "2026-07-15T11:31:06.000Z",
-      "amount_usd_m_total": 401866.7,
+      "amount_usd_m_total": 403039.7,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1779,12 +1845,12 @@
           "count": 3
         },
         {
-          "name": "BOND",
+          "name": "Craft Ventures",
           "count": 3
         },
         {
-          "name": "Craft Ventures",
-          "count": 3
+          "name": "Salesforce Ventures",
+          "count": 2
         }
       ]
     },
@@ -1794,14 +1860,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 9,
-      "weighted_score": 38.35,
-      "latest_at": "2026-06-30T07:00:00.000Z",
-      "amount_usd_m_total": 1052.1,
+      "deal_count": 11,
+      "weighted_score": 46.56,
+      "latest_at": "2026-07-07T13:00:00.000Z",
+      "amount_usd_m_total": 1492.1,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 10
         },
         {
           "name": "Biotech & Health",
@@ -1818,8 +1884,8 @@
           "count": 2
         },
         {
-          "name": "Insight Partners",
-          "count": 1
+          "name": "Amex Ventures",
+          "count": 2
         }
       ]
     },
@@ -1851,6 +1917,33 @@
       ]
     },
     {
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 4,
+      "weighted_score": 18.66,
+      "latest_at": "2026-07-15T14:20:43.000Z",
+      "amount_usd_m_total": 50370,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 3
+        },
+        {
+          "name": "F-Prime Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Santa Clara,CA",
       "city": "Santa Clara",
       "state": "CA",
@@ -1874,29 +1967,6 @@
         {
           "name": "Dell Technologies Capital",
           "count": 4
-        }
-      ]
-    },
-    {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 3,
-      "weighted_score": 14.78,
-      "latest_at": "2026-07-08T06:56:50.000Z",
-      "amount_usd_m_total": 50350,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "General Catalyst",
-          "count": 3
         }
       ]
     },
