@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T08:30:32.498Z",
+  "generated_at": "2026-07-16T14:18:20.616Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 75,
-    "total_deals": 75,
+    "scraped_deals": 77,
+    "total_deals": 77,
     "demo_mode": false,
-    "deals_with_coordinates": 75,
-    "runtime_ms": 3786,
+    "deals_with_coordinates": 77,
+    "runtime_ms": 4386,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_2009910963",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Robotics startup Monumental",
+      "title": "Robotics startup Monumental raises $32m backed by Khosla Ventures - Sifted",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZFByZy1fenJrVERvSHprRnNvazhrakdMNjJHRDFlV3FBa0ZfTHNCSUxZRmYyREZUaE5YN0ltdU95OWd3SVhiYWp4MFJraUswc2VBZ3NVVGNjVVNkZXZHdlJXM3NqQTEyUGxna1FRelRuUUQ0d3pHMm80SzlCb0NsLS0zOVlvUjJkcXVBNHJkZlRHWnlCQ2c?oc=5",
+      "source_name": "Sifted",
+      "published_at": "2026-07-15T15:55:48.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 32,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1602275893",
       "vc_id": "f-prime",
@@ -58,6 +80,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1596162246",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "AI startup Simile",
+      "title": "AI startup Simile raises $100 million to “simulate” human decisions for business moves - ascendants.in",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFcxQXZ4dXJEV2VPaWc3VVJ5TkVFSDg2eC11UG1lTTVTUVJOTm4wUWFmSjNtTzZaS21sVUZjVEU3MU50OGRsXzBfNVlPS2d5UjVCSk93S3hXWWQ4WklRS1Y5TzZjeWNXX3lheXFiUTFuTHVlWnhVdWNYdFNfMkdhcTBoN3pXRjYyTmY5RFpxNlJfeWpQWlhodFlzMjJCa0tBeHdaWg?oc=5",
+      "source_name": "ascendants.in",
+      "published_at": "2026-07-15T08:36:18.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -195,6 +239,28 @@
       }
     },
     {
+      "id": "deal_1562779511",
+      "vc_id": "f-prime",
+      "vc_name": "F-Prime Capital",
+      "company": "Unknown",
+      "title": "Biotech startup funding gap widens despite rebound in VC investment - BioPharma Dive",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaGhDM3hXSTRJVjFiQ19JeTRzZmMyRGd5Yng5T2N4c3JHYUJzTWVtSmNGcXdPR0JvSzlUcG1zRG90UHFxVnhxLUViSkVSVU9Qa0cwVnoycWRmVUJYUG9jLU9seDNES0tJaExKaVNwc25mTWpETG5Ia19BdEhxZ2VNZmV3UnFrbHRfQ3V0VS1tOGl3ejVY?oc=5",
+      "source_name": "BioPharma Dive",
+      "published_at": "2026-07-13T10:52:51.000Z",
+      "stage": "Unspecified",
+      "sector": "Biotech & Health",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1743648711",
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
@@ -300,50 +366,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1305808219",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Unknown",
-      "title": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-07-07T12:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 1200,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1388999482",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Unknown",
-      "title": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-07-07T12:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 1200,
-      "confidence": 0.71,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -476,28 +498,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1421622003",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "Unknown",
-      "title": "AI Boom Drives $392 Billion VC Surge in H1 2026 as Mega-Rounds Dominate - tokenpost.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UMzNLZmtzVUxXQ3NUcUs3N3gtMEFVdFo2NkRYN3dJcF9PM09oS1g0a2VLYklZSllVd1Bkd05fbTBGZ0I3OUswUlltZVdtdFdWOHVvc0U1QVc?oc=5",
-      "source_name": "tokenpost.com",
-      "published_at": "2026-07-07T06:37:04.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 392000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1207,6 +1207,28 @@
       }
     },
     {
+      "id": "deal_336906795",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "Allium",
+      "title": "Allium Raises $40M as Crypto Data Sector Consolidates - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTWpBUGtONmZNZWxaRzVKWHNYcElIeFFIc0RWODZsa0FRTXFlMklORU9OYkVINXR0MENnbjBCdWRoU3lKejRTN0h3ZFJVOEo1LTRMTUpZQkFTdHhpMnBCeFNoT0ZLQVBfT2p4eHM3YkZGVVhKMFFWZHNsV0tJTWtBZHhOTTkwOWc4d1NlSW9RXzdEQW9vTkdtQnFR?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-06-23T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2006976715",
       "vc_id": "amplify",
       "vc_name": "Amplify Partners",
@@ -1329,6 +1351,28 @@
       "sector": "AI & ML",
       "amount_usd_m": null,
       "confidence": 0.76,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2066030992",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "SpaceX turns to bond market to raise capital, reports $100.8 billion cash - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMnpZYWw2elZhcEd4NV81LWZtVmt1N0Q0aW05Y0FUWmcwSkU3YXBZc3cxLUpOSnVmNjItbzNWS1RaOUNHbkRSbExWMU13QThHa1U1ZnJWMlRjdFR3Z1dNVVppR2pOaHZ0SUdybnFfbElvcTRBOEQ5Z0lycVBqdXNVcE1VWTBhRnd3Vk1ObWxQMjJ2dzByMVVNOTFpSnZnUTJLQTVveDVwbXVNT0VScGJjTk9XT05pX3R0TzZLWE1sQ3NnbFk?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-06-22T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100800,
+      "confidence": 0.71,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -1677,9 +1721,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 26,
-      "weighted_score": 110.75,
-      "latest_at": "2026-07-15T11:31:06.000Z",
-      "amount_usd_m_total": 405809,
+      "weighted_score": 105.41,
+      "latest_at": "2026-07-15T15:55:48.000Z",
+      "amount_usd_m_total": 12681,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1700,8 +1744,8 @@
           "count": 6
         },
         {
-          "name": "Lightspeed Venture Partners",
-          "count": 3
+          "name": "Amplify Partners",
+          "count": 4
         }
       ]
     },
@@ -1711,14 +1755,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 16,
-      "weighted_score": 60.63,
+      "deal_count": 17,
+      "weighted_score": 67.34,
       "latest_at": "2026-07-14T07:46:54.000Z",
-      "amount_usd_m_total": 26153,
+      "amount_usd_m_total": 126953,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Other",
@@ -1739,8 +1783,8 @@
           "count": 3
         },
         {
-          "name": "Salesforce Ventures",
-          "count": 2
+          "name": "BOND",
+          "count": 3
         }
       ]
     },
@@ -1786,9 +1830,9 @@
       "lat": 42.3601,
       "lon": -71.0589,
       "deal_count": 5,
-      "weighted_score": 24.43,
-      "latest_at": "2026-07-07T12:00:00.000Z",
-      "amount_usd_m_total": 3159,
+      "weighted_score": 23.45,
+      "latest_at": "2026-07-15T08:36:18.000Z",
+      "amount_usd_m_total": 2059,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1812,14 +1856,18 @@
       "state": "MA",
       "lat": 42.3736,
       "lon": -71.1097,
-      "deal_count": 4,
-      "weighted_score": 18.66,
+      "deal_count": 5,
+      "weighted_score": 20.77,
       "latest_at": "2026-07-15T14:20:43.000Z",
       "amount_usd_m_total": 50370,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 4
+        },
+        {
+          "name": "Biotech & Health",
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -1829,7 +1877,7 @@
         },
         {
           "name": "F-Prime Capital",
-          "count": 1
+          "count": 2
         }
       ]
     },
