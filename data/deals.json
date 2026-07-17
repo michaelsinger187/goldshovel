@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T03:33:33.172Z",
+  "generated_at": "2026-07-17T08:25:31.278Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 81,
-    "total_deals": 81,
+    "scraped_deals": 80,
+    "total_deals": 80,
     "demo_mode": false,
-    "deals_with_coordinates": 81,
-    "runtime_ms": 4039,
+    "deals_with_coordinates": 80,
+    "runtime_ms": 3716,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1990926437",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "Coatue Leads Databricks Funding Round at $188 Billion Valuation - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUXVnbjM4TVVPclhwQTdSMVJHODNiNUJUaUhJU25CRzRoZUpkdTMxYzFkQmpKNm1UbHp4QWI4SFlDa05YNjFBNS1scDNZWDF0YkNRMHFNWld1R29jN01qWUVXajlNNFpqaDFfRDJVWkd5OXB3c3A5Z2g3cFFzOFFGUm52Nml6LUpIU193dkFFeVFCcWlMcmZRVmI4bGpNdU9KQTRESDBfdC0tY3BfN29KRmdBenZBSmFmcENTdlpSSQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-07-17T04:19:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 188000,
+      "confidence": 0.61,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1571587515",
       "vc_id": "coatue",
@@ -261,6 +283,28 @@
       }
     },
     {
+      "id": "deal_426679851",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "British founder Max Buchan",
+      "title": "British founder Max Buchan raises $50M from US giant NEA to build the sovereign infrastructure layer AI-era governments can't ignore - Tech Funding News",
+      "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb0VyQmIyZ2NGN1lpZWFqVEh1S2hKZFNYQ0JjSFA4bTlFN2JkZ3F1RXFlMUZQb1VwSUpsWndYNDhaWXJueXREZmRhRy1qUDZMUE9USUpZRnBBTnRIdXJEX0JUV2lpS21Lb2M0Tm5GNUFibGhvMFhnc0piQ1hUbHVSVzNZYXo5UUwwMWVGc1NZTVRYUTRFNkRMVEhmcjZ6dTZ0U2pzZ0ZHMjVCT3NlOTFRNXdHSWpGOXlpX2N4NmdBT1BZenJEeXY2QngwNk1CMkN4cUtheDNqSlRVZnZxRmZhNmJPdGZwQQ?oc=5",
+      "source_name": "Tech Funding News",
+      "published_at": "2026-07-14T14:35:47.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_134527136",
       "vc_id": "greylock",
       "vc_name": "Greylock",
@@ -393,28 +437,6 @@
       }
     },
     {
-      "id": "deal_2031697829",
-      "vc_id": "dtc",
-      "vc_name": "Dell Technologies Capital",
-      "company": "Prime Intellect",
-      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-08T16:22:38.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 130,
-      "confidence": 0.96,
-      "location": {
-        "city": "Santa Clara",
-        "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1631547965",
       "vc_id": "obvious",
       "vc_name": "Obvious Ventures",
@@ -432,6 +454,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_492820418",
+      "vc_id": "dtc",
+      "vc_name": "Dell Technologies Capital",
+      "company": "Prime Intellect",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWs0Y0htWE03N0JMbjZ2czFUUHozVm5pV0Fya3hJMEtjM3ZwRTJxNjJHN29XaDg2bG5rWmFVcHRuSjc3SGhJOGRLOU51aXBzYTdjVGhKVkZuT0dlakotaWMzQnl4c0dwVk1fQ1hKUjFiYXRvdTdpeFpmRkg3OHV3MFNPajJTUHA4eldKMG5JM3dTQWM1emlROUxTOUZMdDlqLXRmMEdod2wzQTlvazBhaTZNZjB6enE2?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 130,
+      "confidence": 0.96,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -630,6 +674,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_177296930",
+      "vc_id": "greycroft",
+      "vc_name": "Greycroft",
+      "company": "French fry startup",
+      "title": "French fry startup raises $10 million Series A - Food Business News",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGJDdjhJbS1qTEtCcjR5RHdTbEtEa041bXhIMG9PSk10aDlUYXlQRndLWmNOUlRaN1FyNzdDanYwRUpVdGxHZVBUWm9HMnI1VTR4bXRFdmNEb2hMWmtHQTZNa0E2cFltOEJwekJndW5wZnZUOHBVczF1M3lWVGI2bE5mZHhMSUg3SmJ3RFZBT3BRRWoxRV9abw?oc=5",
+      "source_name": "Food Business News",
+      "published_at": "2026-07-05T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1449,6 +1515,28 @@
       }
     },
     {
+      "id": "deal_260748460",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Crypto trading app Fomo",
+      "title": "Crypto trading app Fomo raises $75 million at $550 million valuation in Index Ventures-led Series B - The Block",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbWtEWm1HOVFfem14OFRkMzB3b3M1YVQ0bnJWN1JhQy01OXNnVDh6dXZlYnJhN2JXSVZ6Z3pNNXJ5NmhLVTdxOVM5Q0RuWlhfUE9RWDhoRHJadU9WREN4TG9ONGhqcE1Ma1NWLWlQXzZFMGhTcXVHLXp0bXl6VWlvNnhRMFVpVm0zOVNkQkJiSndBczRyYzhiWm9LN2NfeVROM3J0RGhDbTRlS1o0Wm5XQmE3TUVUdk56VDA3Tmc1WWJjeTJsRF92SU9pUlFFNVhwZmpGZG1wOA?oc=5",
+      "source_name": "The Block",
+      "published_at": "2026-06-22T07:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 75,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_259975266",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
@@ -1689,116 +1777,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_52249441",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "America's First VC-Backed Cyber Warfare Startup",
-      "title": "America's First VC-Backed Cyber Warfare Startup Raises $100M Series B at $1B Valuation - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdGpRUWFaUDhXMTJySUpMWnJyeE1nWTZ4aUtJc2RKY2Vydi1UM1ItVFMzaTJjdzlqX1k4REZmeGx2SVBKNndieUlOUGdzaVpMckU5c0RwTGkzMXkzWHZFeTZ1aUd4ZnFZQUhTVXZla3JCZC16WjZUcE1VNWwwbjZ4MWg0STM3T2VINS1vU0twNS14RklnR1hEZEtNXzJGTEtteU0wQ1RBOHFMZ0tKWVlwU2NXSUZRRXVjV1VyTEd6N1dBY1pNX3pXemNkdy0wdzRia2gxdy1B?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-06-17T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1083067086",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "AI startup Pramaana Labs",
-      "title": "AI startup Pramaana Labs raises $27 million in seed funding led by Khosla Ventures - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZVpJeTA3SEExdFJHX1Z0eE4wRlVKTGtMQlEtbFlBSzVlYnI1b2E1RHRpYVVQNGluTzhKd1RmZjYzTVk5ald2QUtLT0RwSzVMR3FMaGIybWU1TjY1M0lRTU9HUk5jNGN0dnlIajFCQTNOLVItajRiRkVFbzlETzNqdkZmNVJIOTV6dzJNMGVuMzQyRVFPOTgzYng1Y0FwR1FaWU9OZ0kybmxWTW9rZlpjNE5yMVpldjFGOGhBNDJ1LW1LaWl0Z2tNQmw1Ym05MHZoN3BZdThwSmRVSmhkMDFJa0Z30gHnAUFVX3lxTE1zUDFhenhFNFNMazgzR0pvQ2w3MHo2Y3dCR0dYb2UwaEVFYzcwSnZSNkJjNFlaNTF3RUpQRXJKSkxYS0xPY0swSFJQQzlQX3dKWS04VWdyWUtfdkYyaUdpVm1jTi1sbUFRc2MtNnAtaDExZE9ra3E3emY4azdScGNYdElHSm5zOGJTTHFadzQ4OTJDaVNOYjdMVm1Xbl95YkduT0ktWXA2aVhFa3hiQklDU0NKblJIVDJIY3F4STIzcEdEX214ZWhsdE9yM0ZTTlB3aHRkZnAwVVRJSm56WWtXSHpGMzhlQQ?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-06-17T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 27,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1458556286",
-      "vc_id": "canaan",
-      "vc_name": "Canaan Partners",
-      "company": "Unknown",
-      "title": "A new Westlake-backed biotech takes aim at migraines - BioPharma Dive",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcDExcjZuRmlIaDRkODdxbVBVZE9BMURFTThWMG13bFhCU1p0ZG92RnhOMG1Uam04bmZrRXlWclp4VU44RHdQUER2NHV4VHN6ZFR6RXVlX1dXMTNBaGt5SFYwcWZQekpTcU9ZRk82UGZnV0NDUHhwR1F5TlNtV3VUYmFpZm5nS1ZxVTBTV3ZBbzM?oc=5",
-      "source_name": "BioPharma Dive",
-      "published_at": "2026-06-17T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Westport",
-        "state": "CT",
-        "lat": 41.1415,
-        "lon": -73.3579,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_479691417",
-      "vc_id": "dtc",
-      "vc_name": "Dell Technologies Capital",
-      "company": "Unknown",
-      "title": "Dell Tech Capital, Square Peg lead Limitless’ $20m series A - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWmxIUDVUaTZObnVKSUtyUUl6NWlldTRsRUVlZVMyT3FFTmRITFd6dVlnNGQ2V1hPLWF0SHBHSHVDOUpHc3YxTjdhR2RZTjBPZnBXNEMyYW5DcTVNelBSYU1Kd1k4ajNsVjd2ZmZ4aU9uNm1LazI4RVVzTUhkLVN1RjB4WFZyNW1DdTFBeERMZw?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-06-17T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "Other",
-      "amount_usd_m": 20,
-      "confidence": 0.76,
-      "location": {
-        "city": "Santa Clara",
-        "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_716895966",
-      "vc_id": "dtc",
-      "vc_name": "Dell Technologies Capital",
-      "company": "Unknown",
-      "title": "This Startup’s $100 Million Funding Announcement Went Viral—Because Toby From 'The Office' Delivered It - inc.com",
-      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNU21hNWZWM2NQR09IMXlzMnN6NzdNcEJERi1OVWRLTnF3eUY0RmZwSVZsN1c5cDc3TTJXOGV0TVh2SWY0N0dvb1M0cld4aTB1MXMwenlRRFpwaTlPTW1DRkZqdkNfZmVXOEpDa2RsdG0zeEZaT0RFVTRmMTJlMXJNVjJOTmIzOGd1NFQyNzFPODc0Wi16c2lna2w5S2dDQTlyV0hPeGRtUnFqc25LN3B4TzdKeEc1S1VjUEpvMTgtXzVPZVB0UnhFRVU3N2dicmNC?oc=5",
-      "source_name": "inc.com",
-      "published_at": "2026-06-17T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 100,
-      "confidence": 0.61,
-      "location": {
-        "city": "Santa Clara",
-        "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1809,9 +1787,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 30,
-      "weighted_score": 124.5,
+      "weighted_score": 124.41,
       "latest_at": "2026-07-16T14:51:48.000Z",
-      "amount_usd_m_total": 15831,
+      "amount_usd_m_total": 15854,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1824,16 +1802,55 @@
       ],
       "top_vcs": [
         {
-          "name": "Khosla Ventures",
-          "count": 6
-        },
-        {
           "name": "Mayfield",
           "count": 6
         },
         {
+          "name": "Khosla Ventures",
+          "count": 5
+        },
+        {
           "name": "Amplify Partners",
           "count": 4
+        }
+      ]
+    },
+    {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 16,
+      "weighted_score": 69.96,
+      "latest_at": "2026-07-17T04:19:00.000Z",
+      "amount_usd_m_total": 377496.1,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 13
+        },
+        {
+          "name": "Other",
+          "count": 2
+        },
+        {
+          "name": "Biotech & Health",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Venrock",
+          "count": 4
+        },
+        {
+          "name": "Lux Capital",
+          "count": 3
+        },
+        {
+          "name": "Coatue",
+          "count": 2
         }
       ]
     },
@@ -1873,45 +1890,6 @@
         {
           "name": "Craft Ventures",
           "count": 3
-        }
-      ]
-    },
-    {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 13,
-      "weighted_score": 54.63,
-      "latest_at": "2026-07-17T01:25:00.000Z",
-      "amount_usd_m_total": 189411.1,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 11
-        },
-        {
-          "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "Biotech & Health",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Venrock",
-          "count": 4
-        },
-        {
-          "name": "Lux Capital",
-          "count": 3
-        },
-        {
-          "name": "Amex Ventures",
-          "count": 2
         }
       ]
     },
@@ -1979,15 +1957,11 @@
       "state": "CA",
       "lat": 37.3541,
       "lon": -121.9552,
-      "deal_count": 3,
-      "weighted_score": 11.97,
-      "latest_at": "2026-07-08T16:22:38.000Z",
-      "amount_usd_m_total": 250,
+      "deal_count": 1,
+      "weighted_score": 4.68,
+      "latest_at": "2026-07-08T07:00:00.000Z",
+      "amount_usd_m_total": 130,
       "top_sectors": [
-        {
-          "name": "Other",
-          "count": 2
-        },
         {
           "name": "AI & ML",
           "count": 1
@@ -1996,33 +1970,6 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 8.61,
-      "latest_at": "2026-06-18T07:00:00.000Z",
-      "amount_usd_m_total": 185,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "CRV",
-          "count": 1
-        },
-        {
-          "name": "Accel",
           "count": 1
         }
       ]
@@ -2069,6 +2016,29 @@
       "top_vcs": [
         {
           "name": "QED Investors",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 1,
+      "weighted_score": 3.64,
+      "latest_at": "2026-06-18T07:00:00.000Z",
+      "amount_usd_m_total": 85,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CRV",
           "count": 1
         }
       ]
@@ -2138,29 +2108,6 @@
       "top_vcs": [
         {
           "name": "GV",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Westport,CT",
-      "city": "Westport",
-      "state": "CT",
-      "lat": 41.1415,
-      "lon": -73.3579,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-06-17T07:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Canaan Partners",
           "count": 1
         }
       ]
