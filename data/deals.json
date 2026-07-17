@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:00:04.538Z",
+  "generated_at": "2026-07-17T19:30:06.643Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 79,
-    "total_deals": 79,
+    "scraped_deals": 78,
+    "total_deals": 78,
     "demo_mode": false,
-    "deals_with_coordinates": 79,
-    "runtime_ms": 4763,
+    "deals_with_coordinates": 78,
+    "runtime_ms": 4239,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_339989582",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Unknown",
+      "title": "Africa & Middle East Startup Funding: Oak Leads Week 28 - Techloy",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpaW9ZaVVzV2FENktvVW5sWHU0c1BGbXhpMGRuMEJBcmZiWkdreldidld1NzNsR3BLdktQZmQycHdMcmplbFhyc0hKWHNQM3haUFVBN3p0TENJb1UtZ2MtOG1pN2pFNFE0bjVsMXh5WQ?oc=5",
+      "source_name": "Techloy",
+      "published_at": "2026-07-17T09:40:52.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1990926437",
       "vc_id": "coatue",
@@ -261,28 +283,6 @@
       }
     },
     {
-      "id": "deal_150812501",
-      "vc_id": "qed",
-      "vc_name": "QED Investors",
-      "company": "Velocity",
-      "title": "Velocity Raises $38 Million Series A Led By Dragonfly Capital And FirstMark For Stablecoin Treasury Platform - NewsCord",
-      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdUNZLUVBQW80MFgzSF9vY2htSGx4aDVkN2VLdFlySHBoWUJ5dlk1SERybkRrTXd4NEhWQ2xsZGRieTZTWmxyOWpDSlYxSHpKenZZdkpjVWVKVDlyakJZOHBpRXJxNEh6SmZIRnFyTUlxamlURUJYQVdOdFVCZnlJZGswUkJpSDBXbkpwMGJkdWROcGc0VHFENlcycll6V0F5NE9LM3VXRkFPVF9YYjhtNmoyWnFDeFRrbmEyS25URlBSZ2x4WUNWUGtQTXBSS0s2NEk4T1pGX1prSmlyWTRIVGlGZFUzZHYxZ1E?oc=5",
-      "source_name": "NewsCord",
-      "published_at": "2026-07-14T22:24:28.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 38,
-      "confidence": 0.96,
-      "location": {
-        "city": "Alexandria",
-        "state": "VA",
-        "lat": 38.8048,
-        "lon": -77.0469,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_134527136",
       "vc_id": "greylock",
       "vc_name": "Greylock",
@@ -427,6 +427,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 12,
       "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2118080680",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "Intel-backed AI chip startup SambaNova breathes new life into aging Nvidia GPUs in latest benchmarks - The Register",
+      "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcXVRcUY5emNsRk4ybXE3WU1sWGJpNElJU0R2Q1Z5SElqYjRMeFJkd2NaTXFHLTBLT2NEcUlEcGNWVy1SN3hTbUtOMmNqSENja2FLOFFMVkN1NHRTalNlMHRXdkpvRTV1cEx5VTZDYThnMHp6ZjJtb3RFQjhsOXRTRnc5WFhYSWF0LUlWVlRmRmN5M2xTbXpPYjRrdENLeVZ6SHdOZjltYk9lVFBfNlVob0VrTUZ1SHpVd01lc0U4SW9sVTA0NDBpZ2hhSnJCbFI2ZkMtUnBLNVFybnFnclhLT1FXQVBXTF8yNFhnNkNR?oc=5",
+      "source_name": "The Register",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -850,28 +872,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1643645868",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Straiker",
-      "title": "Straiker Raises $64M Series A to Secure the Agentic Workforce - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVGxUWmRMTXkxMmZDN0FQa2tRNTFWd1RsMzNiV3VoblR2c0wtandRVkgtTWY3UjNkUW9iQkJrNjMxd0thZDNJeU1hZlg5VkFqSTAyRHNmYjV2N2xMOWVXR0lwWjZid2wxOFl3dFE1ZXFzZDZfYjJDX0tJMXU0bHZSczFWOTRCSkhYQWdXN2kzOTJWUGxKLTJjOVM4NHZJVjlhV0tPbjkxb1l2d3pMcjhNanFCN1Nha0E?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-06-29T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 64,
-      "confidence": 0.96,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1625,28 +1625,6 @@
       }
     },
     {
-      "id": "deal_1837118736",
-      "vc_id": "paypal-ventures",
-      "vc_name": "PayPal Ventures",
-      "company": "Unknown",
-      "title": "PayPal Ventures Shuts Down: Investment Arm Halts Operations After Crypto-Focused Run - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vejFmRlhqLWgwVzBGQ0U5eFVwUHhITW9TbXdRWTIzcldfUjh4V1RyWEhQd0J6ZU55NldDdEFpdEt2eDRrWFM5b0hta0VmZlBHeDMwQUJCT0kxQm11SHV5Qjg1aDlUQl95TW85V29EU2hvNTdYQVFPbllR?oc=5",
-      "source_name": "CryptoRank",
-      "published_at": "2026-06-18T22:31:15.000Z",
-      "stage": "Unspecified",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Jose",
-        "state": "CA",
-        "lat": 37.3382,
-        "lon": -121.8863,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_135173317",
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
@@ -1838,14 +1816,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 18,
-      "weighted_score": 64.65,
+      "deal_count": 19,
+      "weighted_score": 66.76,
       "latest_at": "2026-07-16T15:42:00.000Z",
       "amount_usd_m_total": 26153,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Other",
@@ -1858,15 +1836,15 @@
       ],
       "top_vcs": [
         {
+          "name": "Benchmark",
+          "count": 3
+        },
+        {
           "name": "Prelude Ventures",
           "count": 3
         },
         {
           "name": "BOND",
-          "count": 3
-        },
-        {
-          "name": "Craft Ventures",
           "count": 3
         }
       ]
@@ -1877,14 +1855,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 5,
-      "weighted_score": 23.45,
+      "deal_count": 4,
+      "weighted_score": 19.08,
       "latest_at": "2026-07-15T08:36:18.000Z",
-      "amount_usd_m_total": 2059,
+      "amount_usd_m_total": 1995,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 4
         }
       ],
       "top_vcs": [
@@ -1894,7 +1872,7 @@
         },
         {
           "name": "Bain Capital Ventures",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1930,6 +1908,33 @@
       ]
     },
     {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 2,
+      "weighted_score": 5.65,
+      "latest_at": "2026-07-17T09:40:52.000Z",
+      "amount_usd_m_total": 85,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CRV",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Santa Clara,CA",
       "city": "Santa Clara",
       "state": "CA",
@@ -1948,52 +1953,6 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Alexandria,VA",
-      "city": "Alexandria",
-      "state": "VA",
-      "lat": 38.8048,
-      "lon": -77.0469,
-      "deal_count": 1,
-      "weighted_score": 4.15,
-      "latest_at": "2026-07-14T22:24:28.000Z",
-      "amount_usd_m_total": 38,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "QED Investors",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 1,
-      "weighted_score": 3.64,
-      "latest_at": "2026-06-18T07:00:00.000Z",
-      "amount_usd_m_total": 85,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "CRV",
           "count": 1
         }
       ]
@@ -2063,29 +2022,6 @@
       "top_vcs": [
         {
           "name": "GV",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Jose,CA",
-      "city": "San Jose",
-      "state": "CA",
-      "lat": 37.3382,
-      "lon": -121.8863,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-06-18T22:31:15.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Web3 & Crypto",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "PayPal Ventures",
           "count": 1
         }
       ]
