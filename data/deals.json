@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T19:32:46.883Z",
+  "generated_at": "2026-07-17T03:33:33.172Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -13,11 +13,33 @@
     "total_deals": 81,
     "demo_mode": false,
     "deals_with_coordinates": 81,
-    "runtime_ms": 4280,
+    "runtime_ms": 4039,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1571587515",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "Exclusive | Databricks Set to Hit $188 Billion Valuation With New Investment From Coatue - WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc3MxVXZCSTl5Z0NoM1RxNjcwOVZVZk1IY0VoQ01vOXVTcEhzcFdXei05TTRUeS1Pdm1fYlBEMFQtQzRlcHBLODN0X2ppOVMzVGh4LW02cDFGNDltVllqbV9GbHFIeVZYaWNobTA1YmdScHVvc09OZjh0WWliUkd3LUJaZzBzV0FiOFIybDhtZ2RuRnhWdHVSZ25SSFVzZVVwYWNwQURIVWlHckJHNkZ4TjBn?oc=5",
+      "source_name": "WSJ",
+      "published_at": "2026-07-17T01:25:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 188000,
+      "confidence": 0.61,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1228028105",
       "vc_id": "benchmark",
@@ -97,6 +119,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1500,
       "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_251320011",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Unknown",
+      "title": "Israeli identity management startup Oak emerges from stealth with $60 million in seed funding. - N2K CyberWire",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1TTnVhMUtXbHZMQjVWOHdGeUprN1dSSmhfT3BfNmNueFFDbF9XSnNJcjJPTks2ZWtFNEV2ZGVtc21ZYXR5X2NBek5tSGRBNGpOcU1VcFhqbmpJX19kQ3BMekp4eWJKXzNVck5v?oc=5",
+      "source_name": "N2K CyberWire",
+      "published_at": "2026-07-15T21:15:41.000Z",
+      "stage": "Seed",
+      "sector": "Other",
+      "amount_usd_m": 60,
+      "confidence": 0.76,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -877,28 +921,6 @@
       }
     },
     {
-      "id": "deal_1632942923",
-      "vc_id": "general-catalyst",
-      "vc_name": "General Catalyst",
-      "company": "AI startup General Intuition",
-      "title": "AI startup General Intuition raises $320 million from Khosla Ventures, General Catalyst, Jeff Bezos - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbGd6TU0tSU1iaWJMUS01UDNwUHFaMTZ1Tmh3TVZJdWJqNlk0bDRiVElVMDhvaGRWNjZEZ1V6QlBYeHRIeFFrNGFET1VFa2h6Mlc4TkZnaFlHNExNNWNCc1c1Z1RlZnU2aWo0V1NzNVg3UTJ5Y2hod1c3M18xWUdDa0I5VFJTLV83RmJmUmVld0pfUm1RLVpQOU0zeUVYRXA4NW1vUUlNNDdIdUZBWWZ3WndqRzF3aFRrcVFkYWw5R1NWQVRXTkwtQURVcklHU3VBUG9ZTURjcnEzdlQtSHF0Rm5nUGhRYWhOLWVmZG5ydzk2eFE3a2fSAfsBQVVfeXFMUHhHOGlYMG9DU0puM2VWOWVUb1d0aVYtLWtfdGozQ0xJZXZjWnFKQnZBN1Z6MVNLZDJqbm9KVXFubWcwSFdHSVFNU0tJLTlqc3F6MDNMX0REYjQtWVdlRy1HNXpNcy1tY09EcFEyMC1MQktRTWhlNDQ4TGRiU1BDeWMyem84NDhwcGd0Z0ZaYmdsRWxfWjJXbmo1Nkx4TnlxQm5meUIzd3k0aXF6UnpTTC0wc3FFeTFuY3NLZGVIbGwxamUtSS1wdWluMGJPWWxXS0VLSFdUZ29uQkVHb2tnZDhRUlhlX3BBUi1iY1Z5YnBKV0E4b1NkbFEtTjA?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-06-26T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 320,
-      "confidence": 0.81,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1739525693",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -965,6 +987,28 @@
       }
     },
     {
+      "id": "deal_1012891172",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Unknown",
+      "title": "Exclusive: A former Apple engineer thinks AI infrastructure is built for the wrong future. Investors just gave him $80 million to fix it - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnpwMWRnS2RkT0wtVnFFSjhVQWREb0JDM3UwSTlsMnNPdFdmZlJ1ZUlfZGt3YUZHVF9ZdVN2VmtRbXBMOGlLZ3NqbEM3a0JwRU0ybmRfV05zZ0ZIVWljTXJOUVVIcGw3N3lHQmZadnhSYjJScmlVLWtuNHlVREdhSHo2bzJpb2dfb2prTDczMlhxVzBONXlHQ3dCUXRwbF9BNWtBa2tB?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-06-25T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1969655687",
       "vc_id": "venrock",
       "vc_name": "Venrock",
@@ -998,6 +1042,28 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 64,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1043514566",
+      "vc_id": "venrock",
+      "vc_name": "Venrock",
+      "company": "Lycia Therapeutics",
+      "title": "Lycia Therapeutics Raises $75 Million in Oversubscribed - GlobeNewswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNTnZ0dnBiUUVjZ1h0WEFYNk0zMFVhVXQyQk1RWlBIcjduWWx4amQ2aURUNU9fbzl3S2VtT2VGOW15c2lOMHZMcVVnN0VOdjZoQW83SEdPTXoxRzRNekplVHA4TEpiTnM3eVM0Q0diamlZbjVjbzI0OUEwT1QyUFZPSkl6d1dhemlIc3Rsam5sTDBvWG0tZXBzRzhLQkpaem53enZKOUdIRTFLZHJsV1VhVXAxTGxXMlRYVnpBSUNvX2tIeG4yeGR5SWhRS01wOHhLQ3FBcnZ0dWZNNDFyY0txN1hjRTBTbjZCX0lYYk9fb3QwcWw4Q0lBSEhzYzJ6RlpJMkJQY0xsOGpkeFVXd1NfNTRCdV8tNDgyQm11XzN5V0FZcTVKNHhsbTUzSHRibkZ5T25id3dseXVMNjZBYzhoMzJFQ1ZMa3JNa1QxYk1ZS2Fidw?oc=5",
+      "source_name": "GlobeNewswire",
+      "published_at": "2026-06-25T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 75,
       "confidence": 0.81,
       "location": {
         "city": "New York",
@@ -1383,28 +1449,6 @@
       }
     },
     {
-      "id": "deal_260748460",
-      "vc_id": "usv",
-      "vc_name": "Union Square Ventures",
-      "company": "Crypto trading app Fomo",
-      "title": "Crypto trading app Fomo raises $75 million at $550 million valuation in Index Ventures-led Series B - The Block",
-      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbWtEWm1HOVFfem14OFRkMzB3b3M1YVQ0bnJWN1JhQy01OXNnVDh6dXZlYnJhN2JXSVZ6Z3pNNXJ5NmhLVTdxOVM5Q0RuWlhfUE9RWDhoRHJadU9WREN4TG9ONGhqcE1Ma1NWLWlQXzZFMGhTcXVHLXp0bXl6VWlvNnhRMFVpVm0zOVNkQkJiSndBczRyYzhiWm9LN2NfeVROM3J0RGhDbTRlS1o0Wm5XQmE3TUVUdk56VDA3Tmc1WWJjeTJsRF92SU9pUlFFNVhwZmpGZG1wOA?oc=5",
-      "source_name": "The Block",
-      "published_at": "2026-06-22T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 75,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_259975266",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
@@ -1439,28 +1483,6 @@
       "sector": "AI & ML",
       "amount_usd_m": null,
       "confidence": 0.76,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2066030992",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Unknown",
-      "title": "SpaceX turns to bond market to raise capital, reports $100.8 billion cash - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMnpZYWw2elZhcEd4NV81LWZtVmt1N0Q0aW05Y0FUWmcwSkU3YXBZc3cxLUpOSnVmNjItbzNWS1RaOUNHbkRSbExWMU13QThHa1U1ZnJWMlRjdFR3Z1dNVVppR2pOaHZ0SUdybnFfbElvcTRBOEQ5Z0lycVBqdXNVcE1VWTBhRnd3Vk1ObWxQMjJ2dzByMVVNOTFpSnZnUTJLQTVveDVwbXVNT0VScGJjTk9XT05pX3R0TzZLWE1sQ3NnbFk?oc=5",
-      "source_name": "Reuters",
-      "published_at": "2026-06-22T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100800,
-      "confidence": 0.71,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -1669,28 +1691,6 @@
       }
     },
     {
-      "id": "deal_140716591",
-      "vc_id": "paypal-ventures",
-      "vc_name": "PayPal Ventures",
-      "company": "Unknown",
-      "title": "PayPal Ventures Shuts Down: Investment Arm Halts Operations After Crypto-Focused Run - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vejFmRlhqLWgwVzBGQ0U5eFVwUHhITW9TbXdRWTIzcldfUjh4V1RyWEhQd0J6ZU55NldDdEFpdEt2eDRrWFM5b0hta0VmZlBHeDMwQUJCT0kxQm11SHV5Qjg1aDlUQl95TW85V29EU2hvNTdYQVFPbllR?oc=5",
-      "source_name": "CryptoRank",
-      "published_at": "2026-06-18T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Jose",
-        "state": "CA",
-        "lat": 37.3382,
-        "lon": -121.8863,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_52249441",
       "vc_id": "accel",
       "vc_name": "Accel",
@@ -1808,18 +1808,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 28,
-      "weighted_score": 117.14,
+      "deal_count": 30,
+      "weighted_score": 124.5,
       "latest_at": "2026-07-16T14:51:48.000Z",
-      "amount_usd_m_total": 15691,
+      "amount_usd_m_total": 15831,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 24
+          "count": 25
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 5
         }
       ],
       "top_vcs": [
@@ -1843,14 +1843,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 19,
-      "weighted_score": 71.36,
+      "deal_count": 18,
+      "weighted_score": 64.65,
       "latest_at": "2026-07-16T15:42:00.000Z",
-      "amount_usd_m_total": 126953,
+      "amount_usd_m_total": 26153,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 14
+          "count": 13
         },
         {
           "name": "Other",
@@ -1863,11 +1863,11 @@
       ],
       "top_vcs": [
         {
-          "name": "BOND",
-          "count": 4
+          "name": "Prelude Ventures",
+          "count": 3
         },
         {
-          "name": "Prelude Ventures",
+          "name": "BOND",
           "count": 3
         },
         {
@@ -1882,14 +1882,18 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 12,
-      "weighted_score": 48.9,
-      "latest_at": "2026-07-16T13:00:00.000Z",
-      "amount_usd_m_total": 1411.1,
+      "deal_count": 13,
+      "weighted_score": 54.63,
+      "latest_at": "2026-07-17T01:25:00.000Z",
+      "amount_usd_m_total": 189411.1,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 11
+        },
+        {
+          "name": "Other",
+          "count": 1
         },
         {
           "name": "Biotech & Health",
@@ -1898,15 +1902,15 @@
       ],
       "top_vcs": [
         {
+          "name": "Venrock",
+          "count": 4
+        },
+        {
           "name": "Lux Capital",
           "count": 3
         },
         {
-          "name": "Venrock",
-          "count": 3
-        },
-        {
-          "name": "Union Square Ventures",
+          "name": "Amex Ventures",
           "count": 2
         }
       ]
@@ -1944,14 +1948,14 @@
       "state": "MA",
       "lat": 42.3736,
       "lon": -71.1097,
-      "deal_count": 5,
-      "weighted_score": 20.77,
+      "deal_count": 4,
+      "weighted_score": 16.45,
       "latest_at": "2026-07-15T14:20:43.000Z",
-      "amount_usd_m_total": 50370,
+      "amount_usd_m_total": 50050,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Biotech & Health",
@@ -1960,11 +1964,11 @@
       ],
       "top_vcs": [
         {
-          "name": "General Catalyst",
-          "count": 3
+          "name": "F-Prime Capital",
+          "count": 2
         },
         {
-          "name": "F-Prime Capital",
+          "name": "General Catalyst",
           "count": 2
         }
       ]
@@ -2134,29 +2138,6 @@
       "top_vcs": [
         {
           "name": "GV",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Jose,CA",
-      "city": "San Jose",
-      "state": "CA",
-      "lat": 37.3382,
-      "lon": -121.8863,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-06-18T07:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Web3 & Crypto",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "PayPal Ventures",
           "count": 1
         }
       ]
