@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T08:31:40.682Z",
+  "generated_at": "2026-07-19T13:49:59.827Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 72,
-    "total_deals": 72,
+    "scraped_deals": 73,
+    "total_deals": 73,
     "demo_mode": false,
-    "deals_with_coordinates": 72,
-    "runtime_ms": 3915,
+    "deals_with_coordinates": 73,
+    "runtime_ms": 3910,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_315784890",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "AI startup Simile",
+      "title": "AI startup Simile raises $100 million to “simulate” human decisions for business moves - ascendants.in",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFcxQXZ4dXJEV2VPaWc3VVJ5TkVFSDg2eC11UG1lTTVTUVJOTm4wUWFmSjNtTzZaS21sVUZjVEU3MU50OGRsXzBfNVlPS2d5UjVCSk93S3hXWWQ4WklRS1Y5TzZjeWNXX3lheXFiUTFuTHVlWnhVdWNYdFNfMkdhcTBoN3pXRjYyTmY5RFpxNlJfeWpQWlhodFlzMjJCa0tBeHdaWg?oc=5",
+      "source_name": "ascendants.in",
+      "published_at": "2026-07-19T07:39:25.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1983784234",
       "vc_id": "coatue",
@@ -300,28 +322,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1596162246",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "AI startup Simile",
-      "title": "AI startup Simile raises $100 million to “simulate” human decisions for business moves - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFcxQXZ4dXJEV2VPaWc3VVJ5TkVFSDg2eC11UG1lTTVTUVJOTm4wUWFmSjNtTzZaS21sVUZjVEU3MU50OGRsXzBfNVlPS2d5UjVCSk93S3hXWWQ4WklRS1Y5TzZjeWNXX3lheXFiUTFuTHVlWnhVdWNYdFNfMkdhcTBoN3pXRjYyTmY5RFpxNlJfeWpQWlhodFlzMjJCa0tBeHdaWg?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-07-15T08:36:18.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -806,6 +806,28 @@
         "state": "MA",
         "lat": 42.3736,
         "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_457261843",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Higharc",
+      "title": "Higharc Raises $95M Series C to Scale AI for Homebuilding - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQW5HVUlaMEpiVUdtSnR5MDlKUzlEcUxRMGg4VFlRdFhJb2Z3M1VHX3N6WkdoeU9fa2NSMTNsdGVlWlMwNUloeDJYYThDWmtWMUl0a1FmdWRTcldsdURyYzN2c2VhVXo4SlBJREtENFdWX3JtU2FJZkN6UjJBRzBCNEIyaTVoY2w4Y1NiRmlWU2RONWVZODlDRHUzNlhJdTZSSno5VHVfZnJ5cFV0M3lSc1ZB?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-06-30T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 95,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1684,14 +1706,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 12,
-      "weighted_score": 52.14,
+      "deal_count": 13,
+      "weighted_score": 57.48,
       "latest_at": "2026-07-17T12:18:43.000Z",
-      "amount_usd_m_total": 376704.5,
+      "amount_usd_m_total": 376799.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Other",
@@ -1752,7 +1774,7 @@
       "lon": -71.0589,
       "deal_count": 3,
       "weighted_score": 14.2,
-      "latest_at": "2026-07-15T08:36:18.000Z",
+      "latest_at": "2026-07-19T07:39:25.000Z",
       "amount_usd_m_total": 495,
       "top_sectors": [
         {
