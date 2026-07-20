@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T14:31:21.915Z",
+  "generated_at": "2026-07-20T19:54:31.599Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 66,
-    "total_deals": 66,
+    "scraped_deals": 69,
+    "total_deals": 69,
     "demo_mode": false,
-    "deals_with_coordinates": 66,
-    "runtime_ms": 4455,
+    "deals_with_coordinates": 69,
+    "runtime_ms": 4186,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_136621855",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "America's First VC-Backed Cyber Warfare Startup",
+      "title": "America's First VC-Backed Cyber Warfare Startup Raises Additional $30M from Khosla Ventures at $1.2B Valuation - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUU5yS0pUZEc5UUtUMG5PUWdkR2JuRjRYWnhXV3gzanNUWTNyZncxTVVCMEpST1VDRGdLbnRpRjhxZFp5ZmlEbGhDQmFReVBYbU1WeUZhXzF1dWdrZ3c2U3ZzX3ZLS21tZWdSQV9JbTQ5WnNBUlBsR3RXUWNxMWd5T2cyOElDZUtLbVFQN25aZldUSGNyR2N4ZmFPNkNpeUVBN3drX0ctczZiemNZMWlpMFlYMTVJQ1RiY0luTlo3RmdhN0NMUFVmaWYySWFKZEVEZF9rTTRkQ2dtek9EVkpBSzNXZGpES3JMRVJZMTBZSTFIUXZuaHc?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-20T18:30:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_315784890",
       "vc_id": "bcv",
@@ -261,6 +283,50 @@
       }
     },
     {
+      "id": "deal_1857063804",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Oak",
+      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-15T11:17:00.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 60,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1707822873",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Oak",
+      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-15T11:17:00.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 60,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_426679851",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -361,28 +427,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 1800,
       "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_539553379",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "French AI startup Gradium",
-      "title": "Nvidia joins French AI startup Gradium’s $100m seed round - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcU03UUxHTV83ZFVHcUlCdmZOYXlNa21JMi1iM3NhXy1CN3NaaTViTW9Obkliay1vMzRfZXdTZEFXd01mNmN2SHNhdVZZMVpZLW5lcmdHNVJOX0dTeTRQcjhGVERpZndPaFVXUVFybmtiVnN2a3BaaUJvOGlaYmVXQUpGbkJnaW00?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-07-10T00:30:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1361,6 +1405,28 @@
       }
     },
     {
+      "id": "deal_2006976715",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "Visa and BCG Build on Allium as Startup",
+      "title": "Visa and BCG Build on Allium as Startup Closes $40M Series B - Bitcoin News",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHBnM0VaXy1vYzlPU183dXpuZEJEYlpBVFJaLTMwV2lacXNIZmljWXNwazBwb1VRaFphVkxpSXlpYllZZVVLOVN1dnEyWi1wc2RJR3kycTRKdFR2SWRMekdxaE9jZU4ydTR2MGRETVV4ZmtHaTVIbktzVjdpZWpUaHNFZ1BFNFN3dHA4V1NR?oc=5",
+      "source_name": "Bitcoin News",
+      "published_at": "2026-06-23T07:00:00.000Z",
+      "stage": "Series B",
+      "sector": "Other",
+      "amount_usd_m": 40,
+      "confidence": 0.86,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1378944077",
       "vc_id": "bond",
       "vc_name": "BOND",
@@ -1478,18 +1544,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 28,
-      "weighted_score": 116.86,
-      "latest_at": "2026-07-16T14:51:48.000Z",
-      "amount_usd_m_total": 62055,
+      "deal_count": 30,
+      "weighted_score": 124.41,
+      "latest_at": "2026-07-20T18:30:00.000Z",
+      "amount_usd_m_total": 62085,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 23
+          "count": 24
         },
         {
           "name": "Other",
-          "count": 5
+          "count": 6
         }
       ],
       "top_vcs": [
@@ -1498,12 +1564,12 @@
           "count": 6
         },
         {
-          "name": "Amplify Partners",
+          "name": "Khosla Ventures",
           "count": 5
         },
         {
-          "name": "Khosla Ventures",
-          "count": 4
+          "name": "Amplify Partners",
+          "count": 5
         }
       ]
     },
@@ -1637,23 +1703,23 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 7.53,
-      "latest_at": "2026-07-09T07:00:00.000Z",
-      "amount_usd_m_total": 205,
+      "deal_count": 3,
+      "weighted_score": 11.47,
+      "latest_at": "2026-07-15T11:17:00.000Z",
+      "amount_usd_m_total": 265,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
         {
-          "name": "Ribbit Capital",
-          "count": 1
+          "name": "CRV",
+          "count": 2
         },
         {
-          "name": "CRV",
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
