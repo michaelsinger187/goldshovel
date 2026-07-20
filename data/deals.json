@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T19:28:29.105Z",
+  "generated_at": "2026-07-20T04:00:10.388Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 69,
-    "total_deals": 69,
+    "scraped_deals": 65,
+    "total_deals": 65,
     "demo_mode": false,
-    "deals_with_coordinates": 69,
-    "runtime_ms": 4072,
+    "deals_with_coordinates": 65,
+    "runtime_ms": 4043,
     "note": "",
     "error_sample": []
   },
@@ -36,28 +36,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1983784234",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "Unknown",
-      "title": "Coatue Leads Databricks Funding at $188 Billion Valuation - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzN3VnZXbkJDQ0NGQ3lCcjhKNURTQVg1X1NXRExYUWNHakY2QnQ4bFNMTmh1SklBSUswVXpONGxvXzkxbHdzcGhacV9LM2xfTFRESXVadkFybndLSWpQNkZRRE1vUTlJaHJmRHlnemY0NzBLdlptbXJxTHBvMmJzeHlzbl9zX2hzeU96Qmw0em9DZU84b2VVa1BycDUtR3AwYVR3UkNyUWtrVXJoaGM5dzV5Zw?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-07-17T12:18:43.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 188000,
-      "confidence": 0.61,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -173,28 +151,6 @@
       }
     },
     {
-      "id": "deal_873260897",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
-      "company": "Ultrahuman's former hardware VP",
-      "title": "Ultrahuman's former hardware VP raises $5.5M for devices that control AI agents, not just record you - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcVhoVVJmSUZ0dGVSYXR5blBxOHViYXV6TzU3QWgxa0hrT0FoRnBoc3B6RFpUWFM0blozd2tybmtqajQtYkNCRFlMdEZjYkpyUWZweTZ2ajNtbGs0OGhQZnVkLTZoOGlDZHBYRGpwYWxwVDR1SU83S3dJNUNqek1oYXN1al80Y0YwWUMtMVlMX0VfQnYzUEZwS2VSUndmNmlTREQtQ0JuXzVKdEZxRWMybEFXUzZPcjh3VzhqZnNLRmJ4aXpqS1c0QWJXUG0?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-16T11:30:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 5.5,
-      "confidence": 0.81,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_251320011",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -278,6 +234,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1707822873",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Oak",
+      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-15T11:17:00.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 60,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -371,6 +349,28 @@
       }
     },
     {
+      "id": "deal_73889811",
+      "vc_id": "samsung-next",
+      "vc_name": "Samsung Next",
+      "company": "Video-generation startup PixVerse",
+      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSkNYeFRpU0hCc3QxTDZFQTNHbXdBM2MzenA4TDFIM2h1bEVmY1NlckZrVGw1djY5ODR2U3lZYTR5MWVDNHlOWG5ybTAzd3lSM0JWci1WZVViaW9hcUZzalA4YmFXZTJzdzlTcV9BZldWbEc4akNheFhWRVNqNEZjQTZ3dm5SMmZxYUhuZVdLV1NrZExCeHQ2c3AzNlFtdXNmUTZMSUR3dw?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-14T00:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 439,
+      "confidence": 0.81,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_834584353",
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
@@ -415,28 +415,6 @@
       }
     },
     {
-      "id": "deal_995084165",
-      "vc_id": "redpoint",
-      "vc_name": "Redpoint Ventures",
-      "company": "Unknown",
-      "title": "Christina Qi left a hedge fund trading $7 billion a day. Her new startup just raised $97 million - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUU1KTTlGWHFZb3ZUR3l2bTZjS3RGVDJucGJwU0R6UEhEUVdrcmJia19JYnJXRUZnR2FPXzgzVXJvallyRHRCTXdkLTJPazJwZzV0RUoyeXBVMGczR0FFcmk1bGRMWDFaeDFwUmo3Yy10N1ptZ29pN0gxTkFscm9WYXB4UnNaNW45VkJGZWtxc3dBaV9IelpSTkw3bFZvVnBqNDVPMkJBRkJaZERCTldnYXQxM0R1WnBnRHF5MWNCY2I2VmNsVUpuUW5ObDlvMkl5UkFLNkIzOVBMdXdnTWE4WlMzSFVDY0Y2NGhpYXVQRXVnT1AwY2RlZA?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-07-09T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 7000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1851420722",
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
@@ -454,28 +432,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1631547965",
-      "vc_id": "obvious",
-      "vc_name": "Obvious Ventures",
-      "company": "Hostie",
-      "title": "Hostie Raises $12M Series A to Power the Future of Restaurant Hospitality - Yahoo Finance Singapore",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2NPRk9sTTg2TENta2ZJNFlyTlpsQ1lsMXNoRVdEU2R2M1lJRDctM1dmWG5WTXZrRWs1aEhVdzRTYmc2bHY0eExWanhadUpLc2c5aW84aV85a0p4MWstZjNzQWN2SXV4QWVDM01jUFpkTWhlOUpTejluSVA3b3RuNDJpajN3dw?oc=5",
-      "source_name": "Yahoo Finance Singapore",
-      "published_at": "2026-07-08T16:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 12,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -921,28 +877,6 @@
       }
     },
     {
-      "id": "deal_745347601",
-      "vc_id": "citi-ventures",
-      "vc_name": "Citi Ventures",
-      "company": "Straiker",
-      "title": "Straiker Raises $64M Series A to Secure the Agentic Workforce - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVGxUWmRMTXkxMmZDN0FQa2tRNTFWd1RsMzNiV3VoblR2c0wtandRVkgtTWY3UjNkUW9iQkJrNjMxd0thZDNJeU1hZlg5VkFqSTAyRHNmYjV2N2xMOWVXR0lwWjZid2wxOFl3dFE1ZXFzZDZfYjJDX0tJMXU0bHZSczFWOTRCSkhYQWdXN2kzOTJWUGxKLTJjOVM4NHZJVjlhV0tPbjkxb1l2d3pMcjhNanFCN1Nha0E?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-06-29T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 64,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1739525693",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -1295,40 +1229,18 @@
       }
     },
     {
-      "id": "deal_1225839419",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "Unknown",
-      "title": "After betting the firm on Anthropic, Menlo Ventures raises victorious $3B fund - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaS1vdXZ1Vk1wTUpra0FCd2ZKTnNwQzhzWndER0FaRXNSNW5aTUhQeFZMVVc5c1ZpMHotSHZFTWZzMC1NM0l5ZmxNQzJFUGNUVnBta2FidkNsQjJrdmh3TVN4RERlek84c1BTQVd6NU9LX1ZzSU43ZlNwd3ByaG5uS1dPYmowLVFHX2JWZVh1SGJxc00yZnNnN2trRWpsMV9lNkdFaEx5Ukt4SU9CV3V6Mw?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 3000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_421546929",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Unknown",
-      "title": "Seed for Seed R&D Workflow Diagram - ByteDance Seed",
+      "title": "Join ByteDance Seed - ByteDance Seed",
       "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdVdqa1JscWRRYk52dVVOZEJfSzVOLWNiV1ZYVjNmUFJ5cDFsWHBsdy1mVlZqWnFua3owcUlKcjYtOVctaDllWkxpUngwN2ZoQXNYcGNtcnNWMldmV3ZxbDB2emdsS3A4TU9lSEVnSGEwY0pIbXJnSjZSanluZ3NhTDJWRHdtbHhhNTh1cFVn?oc=5",
       "source_name": "ByteDance Seed",
       "published_at": "2026-06-23T07:00:00.000Z",
       "stage": "Unspecified",
-      "sector": "Enterprise SaaS",
+      "sector": "Other",
       "amount_usd_m": null,
-      "confidence": 0.51,
+      "confidence": 0.41,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -1544,14 +1456,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 29,
-      "weighted_score": 121.85,
+      "deal_count": 27,
+      "weighted_score": 111.1,
       "latest_at": "2026-07-16T14:51:48.000Z",
-      "amount_usd_m_total": 72805,
+      "amount_usd_m_total": 62805,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 25
+          "count": 23
         },
         {
           "name": "Other",
@@ -1579,22 +1491,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 17,
-      "weighted_score": 62.29,
+      "deal_count": 16,
+      "weighted_score": 58.52,
       "latest_at": "2026-07-16T15:42:00.000Z",
-      "amount_usd_m_total": 26153,
+      "amount_usd_m_total": 26141,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 12
+          "count": 11
         },
         {
           "name": "Other",
-          "count": 4
-        },
-        {
-          "name": "Enterprise SaaS",
-          "count": 1
+          "count": 5
         }
       ],
       "top_vcs": [
@@ -1618,18 +1526,18 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 12,
-      "weighted_score": 52.14,
-      "latest_at": "2026-07-17T12:18:43.000Z",
-      "amount_usd_m_total": 376704.5,
+      "deal_count": 10,
+      "weighted_score": 40.88,
+      "latest_at": "2026-07-17T01:25:00.000Z",
+      "amount_usd_m_total": 188640.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 9
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -1643,7 +1551,7 @@
         },
         {
           "name": "Coatue",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1670,6 +1578,33 @@
         },
         {
           "name": "F-Prime Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 3,
+      "weighted_score": 11.47,
+      "latest_at": "2026-07-15T11:17:00.000Z",
+      "amount_usd_m_total": 265,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CRV",
+          "count": 2
+        },
+        {
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -1702,42 +1637,15 @@
       ]
     },
     {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 7.53,
-      "latest_at": "2026-07-09T07:00:00.000Z",
-      "amount_usd_m_total": 205,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Ribbit Capital",
-          "count": 1
-        },
-        {
-          "name": "CRV",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
       "lat": 37.3861,
       "lon": -122.0839,
       "deal_count": 2,
-      "weighted_score": 4.73,
-      "latest_at": "2026-07-16T11:30:00.000Z",
-      "amount_usd_m_total": 5.5,
+      "weighted_score": 6.56,
+      "latest_at": "2026-07-14T00:00:00.000Z",
+      "amount_usd_m_total": 439,
       "top_sectors": [
         {
           "name": "AI & ML",
