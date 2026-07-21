@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T03:40:48.929Z",
+  "generated_at": "2026-07-21T08:41:52.760Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 68,
-    "total_deals": 68,
+    "scraped_deals": 70,
+    "total_deals": 70,
     "demo_mode": false,
-    "deals_with_coordinates": 68,
-    "runtime_ms": 3788,
+    "deals_with_coordinates": 70,
+    "runtime_ms": 3759,
     "note": "",
     "error_sample": []
   },
@@ -58,6 +58,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1306784953",
+      "vc_id": "madrona",
+      "vc_name": "Madrona",
+      "company": "Thira",
+      "title": "Thira raises $21 Million seed round led by Madrona - My Startup World",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNVBjR2xybVo3VXVEclNzYTBtWXdCamMtNVVVa3Z0SDlkOHZLNmVub1BzR3FhTUg4SzZiRGNJS1hrZWRrVDJIclNBT1NSV0gzV2JhTFY3TGxXdWhrWHpPZEpvMGZVQXJqWFlPVUlQUFFMNTB3SmZjLWhXV294dmNLNURGdw?oc=5",
+      "source_name": "My Startup World",
+      "published_at": "2026-07-17T06:40:31.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 21,
+      "confidence": 0.96,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -305,28 +327,6 @@
       }
     },
     {
-      "id": "deal_1857063804",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Oak",
-      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-07-15T11:17:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1707822873",
       "vc_id": "crv",
       "vc_name": "CRV",
@@ -339,6 +339,50 @@
       "sector": "AI & ML",
       "amount_usd_m": 60,
       "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_721360163",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Unknown",
+      "title": "Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeTR6RnRrazA0QXVyV0RiMzZmX1E0eUU3TnU5bjVmNW9zaHNaelNoZzlGODg1UFR6amZUUXk1MEQyd19pZVdIMHdtU1pxMkQ1Rk9tQl8zMXRBUmpiVjhhSGVISjZQVFUxVUZSOFVtejhGRGpzNGNEOFdxbVQ4VXFiZWlTWlp4YkxkblItdVhucFRHanNxM2g0Wm9yZkxhN2lOUkNSNWVTZHV3Rm1zZ0FjMFNMZGFqY1hKbnE4V3NrWjZwYkd4Yk1JOGhFeC0zdHVQbjJKdTdEY1k?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-15T11:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 60,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_185655648",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Unknown",
+      "title": "Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeTR6RnRrazA0QXVyV0RiMzZmX1E0eUU3TnU5bjVmNW9zaHNaelNoZzlGODg1UFR6amZUUXk1MEQyd19pZVdIMHdtU1pxMkQ1Rk9tQl8zMXRBUmpiVjhhSGVISjZQVFUxVUZSOFVtejhGRGpzNGNEOFdxbVQ4VXFiZWlTWlp4YkxkblItdVhucFRHanNxM2g0Wm9yZkxhN2lOUkNSNWVTZHV3Rm1zZ0FjMFNMZGFqY1hKbnE4V3NrWjZwYkd4Yk1JOGhFeC0zdHVQbjJKdTdEY1k?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-15T11:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 60,
+      "confidence": 0.71,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -449,28 +493,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 1800,
       "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_539553379",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "French AI startup Gradium",
-      "title": "Nvidia joins French AI startup Gradium’s $100m seed round - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcU03UUxHTV83ZFVHcUlCdmZOYXlNa21JMi1iM3NhXy1CN3NaaTViTW9Obkliay1vMzRfZXdTZEFXd01mNmN2SHNhdVZZMVpZLW5lcmdHNVJOX0dTeTRQcjhGVERpZndPaFVXUVFybmtiVnN2a3BaaUJvOGlaYmVXQUpGbkJnaW00?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-07-10T00:30:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -696,6 +718,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1967151212",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Unknown",
+      "title": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1200,
+      "confidence": 0.71,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1522,14 +1566,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 30,
-      "weighted_score": 125.27,
+      "deal_count": 29,
+      "weighted_score": 120.66,
       "latest_at": "2026-07-16T14:51:48.000Z",
-      "amount_usd_m_total": 62155,
+      "amount_usd_m_total": 62055,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 24
+          "count": 23
         },
         {
           "name": "Other",
@@ -1538,12 +1582,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Amplify Partners",
+          "name": "Mayfield",
           "count": 6
         },
         {
-          "name": "Mayfield",
-          "count": 6
+          "name": "Amplify Partners",
+          "count": 5
         },
         {
           "name": "Khosla Ventures",
@@ -1622,6 +1666,33 @@
       ]
     },
     {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 4,
+      "weighted_score": 14.97,
+      "latest_at": "2026-07-15T11:17:00.000Z",
+      "amount_usd_m_total": 325,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CRV",
+          "count": 3
+        },
+        {
+          "name": "Ribbit Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Cambridge,MA",
       "city": "Cambridge",
       "state": "MA",
@@ -1649,15 +1720,15 @@
       ]
     },
     {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
       "deal_count": 3,
-      "weighted_score": 11.47,
-      "latest_at": "2026-07-15T11:17:00.000Z",
-      "amount_usd_m_total": 265,
+      "weighted_score": 13.64,
+      "latest_at": "2026-07-19T07:39:25.000Z",
+      "amount_usd_m_total": 1600,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1666,35 +1737,8 @@
       ],
       "top_vcs": [
         {
-          "name": "CRV",
-          "count": 2
-        },
-        {
-          "name": "Ribbit Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 2,
-      "weighted_score": 8.85,
-      "latest_at": "2026-07-19T07:39:25.000Z",
-      "amount_usd_m_total": 400,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
           "name": "Bain Capital Ventures",
-          "count": 1
+          "count": 2
         },
         {
           "name": "Spark Capital",
@@ -1748,6 +1792,29 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Seattle,WA",
+      "city": "Seattle",
+      "state": "WA",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "deal_count": 1,
+      "weighted_score": 3.5,
+      "latest_at": "2026-07-17T06:40:31.000Z",
+      "amount_usd_m_total": 21,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Madrona",
           "count": 1
         }
       ]
