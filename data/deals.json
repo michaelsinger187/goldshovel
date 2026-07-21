@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:18:11.025Z",
+  "generated_at": "2026-07-21T19:48:48.711Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 72,
-    "total_deals": 72,
+    "scraped_deals": 73,
+    "total_deals": 73,
     "demo_mode": false,
-    "deals_with_coordinates": 72,
-    "runtime_ms": 4345,
+    "deals_with_coordinates": 73,
+    "runtime_ms": 4372,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_272436367",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "SkyPilot, from Databricks’ cofounder,",
+      "title": "SkyPilot, from Databricks’ cofounder, raises $20M to be the Switzerland of AI compute - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcERYSWFFV25YYWhqdXdMRFlDR2VmZ1VKRVVEYTBZQjlpN0RadUFFRlJENzRfNkwwUkRVUnlNajVpT0psd1dJR0lxUDItaHFOaFNZeE9sQVBVRE1STlVnUEMtdXMwZzlkVFBLWDZjWThNb0pURU5kalZvYUpsVmZWQjN3a0NwRmw0aEthZGJObDJhQXR6SFdQeGNHSmQ0Nnp5Xy1NRVpzZ0luZEZlR0RCeU9QVQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-07-21T11:08:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1245051384",
       "vc_id": "bessemer",
@@ -36,28 +58,6 @@
         "state": "CA",
         "lat": 37.4852,
         "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_136621855",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "America's First VC-Backed Cyber Warfare Startup",
-      "title": "America's First VC-Backed Cyber Warfare Startup Raises Additional $30M from Khosla Ventures at $1.2B Valuation - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUU5yS0pUZEc5UUtUMG5PUWdkR2JuRjRYWnhXV3gzanNUWTNyZncxTVVCMEpST1VDRGdLbnRpRjhxZFp5ZmlEbGhDQmFReVBYbU1WeUZhXzF1dWdrZ3c2U3ZzX3ZLS21tZWdSQV9JbTQ5WnNBUlBsR3RXUWNxMWd5T2cyOElDZUtLbVFQN25aZldUSGNyR2N4ZmFPNkNpeUVBN3drX0ctczZiemNZMWlpMFlYMTVJQ1RiY0luTlo3RmdhN0NMUFVmaWYySWFKZEVEZF9rTTRkQ2dtek9EVkpBSzNXZGpES3JMRVJZMTBZSTFIUXZuaHc?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-07-20T18:30:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 30,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -256,6 +256,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1329782786",
+      "vc_id": "gv",
+      "vc_name": "GV",
+      "company": "Wonder",
+      "title": "Wonder Announces $650 Million Series D Round at a $9 Billion Pre-Money Valuation - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN2pIaFN3Z2VhUWZvOW9tMUh4R1dmb0xIeGtzWndfTnJPM2Jna3Q5RTAzOG0yUEJ1TmZIU2I3SEVoRTlfaklQbEZheTE1UnptRGxpR2dGNFFDdlF2WWNIb1JmcFNXR0VkblBfUGZNN09jV2s5U3dJTkNHX0hWLTgwTGlYZzRkcjZLeFI5WFFsUjY5cEEzbm9Id2NNYkQ5bUdiY2hKLTNLZXFrYUJmdEFocVhoR2J2UzBpdFh0YTJNbkt5TGJlN1doUVRPcEhmNkE?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-16T13:00:00.000Z",
+      "stage": "Series D+",
+      "sector": "Other",
+      "amount_usd_m": 650,
+      "confidence": 0.86,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -679,28 +701,6 @@
       }
     },
     {
-      "id": "deal_2050342475",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Unknown",
-      "title": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-07-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 1200,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1670311516",
       "vc_id": "spark",
       "vc_name": "Spark Capital",
@@ -850,6 +850,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_588839233",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Together AI",
+      "title": "Together AI Secures $800 Million in Series C, Valuation Surges to $8.3 Billion - Earnings Surprise Stocks - dars.gov.et",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUjRmM2JvUEF5c2JHM2FlMFh2R2wxaURjUklJUFpXWVdHMkd6bUhaUTFlRWFGNUtiTG9WNHNuVC05ZjFXOHcwbElGWEE1NmQ5VmNlVVFKSXA2S2lwMkM3Z2JSU3h2NGszWk13WlEwbnhlb3c3RkEybVFMSVd3WWMyc1BzTHhIT3h3RVI4YW9NZUlaR0tFRkpsSU5wQ1B6N0lXVjJMR1pYb2ptUmh4dDU0M2tTV19QOUk?oc=5",
+      "source_name": "dars.gov.et",
+      "published_at": "2026-07-02T23:43:33.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 800,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1273,6 +1295,28 @@
       }
     },
     {
+      "id": "deal_1123008780",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Engram",
+      "title": "Engram raises $98M to cut enterprise AI token costs - qz.com",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hdUNHWXNHblRpY09JVlA1VzlSdUNTYU9pYTZtQmkzdExvOU1WckJHS1NUMmpCUmpzSXBCVHFfUnN1SVY3UF9ZY0R6ZGwyUTBIaDZuV0hKNWtPX2k1RFpZd2MwSmhlc0FjczV6bFlFQ1liV28?oc=5",
+      "source_name": "qz.com",
+      "published_at": "2026-06-24T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 98,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1069997417",
       "vc_id": "amplify",
       "vc_name": "Amplify Partners",
@@ -1537,28 +1581,6 @@
       }
     },
     {
-      "id": "deal_260748460",
-      "vc_id": "usv",
-      "vc_name": "Union Square Ventures",
-      "company": "Crypto trading app Fomo",
-      "title": "Crypto trading app Fomo raises $75 million at $550 million valuation in Index Ventures-led Series B - The Block",
-      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbWtEWm1HOVFfem14OFRkMzB3b3M1YVQ0bnJWN1JhQy01OXNnVDh6dXZlYnJhN2JXSVZ6Z3pNNXJ5NmhLVTdxOVM5Q0RuWlhfUE9RWDhoRHJadU9WREN4TG9ONGhqcE1Ma1NWLWlQXzZFMGhTcXVHLXp0bXl6VWlvNnhRMFVpVm0zOVNkQkJiSndBczRyYzhiWm9LN2NfeVROM3J0RGhDbTRlS1o0Wm5XQmE3TUVUdk56VDA3Tmc1WWJjeTJsRF92SU9pUlFFNVhwZmpGZG1wOA?oc=5",
-      "source_name": "The Block",
-      "published_at": "2026-06-22T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 75,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_259975266",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
@@ -1611,9 +1633,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 31,
-      "weighted_score": 128.75,
-      "latest_at": "2026-07-20T18:30:00.000Z",
-      "amount_usd_m_total": 63285,
+      "weighted_score": 127.6,
+      "latest_at": "2026-07-21T11:08:00.000Z",
+      "amount_usd_m_total": 62173,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1626,7 +1648,7 @@
       ],
       "top_vcs": [
         {
-          "name": "Khosla Ventures",
+          "name": "Amplify Partners",
           "count": 6
         },
         {
@@ -1634,8 +1656,8 @@
           "count": 6
         },
         {
-          "name": "Amplify Partners",
-          "count": 5
+          "name": "Khosla Ventures",
+          "count": 4
         }
       ]
     },
@@ -1680,14 +1702,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 11,
-      "weighted_score": 43.69,
+      "deal_count": 10,
+      "weighted_score": 38.85,
       "latest_at": "2026-07-17T01:25:00.000Z",
-      "amount_usd_m_total": 188649.5,
+      "amount_usd_m_total": 188574.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 9
         },
         {
           "name": "Other",
@@ -1697,7 +1719,7 @@
       "top_vcs": [
         {
           "name": "Union Square Ventures",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Venrock",
@@ -1791,6 +1813,56 @@
       ]
     },
     {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 2,
+      "weighted_score": 9.56,
+      "latest_at": "2026-07-02T23:43:33.000Z",
+      "amount_usd_m_total": 830,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 2,
+      "weighted_score": 8.58,
+      "latest_at": "2026-07-16T13:00:00.000Z",
+      "amount_usd_m_total": 650,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Redwood City,CA",
       "city": "Redwood City",
       "state": "CA",
@@ -1859,52 +1931,6 @@
       "top_vcs": [
         {
           "name": "Madrona",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 1,
-      "weighted_score": 3.3,
-      "latest_at": "2026-06-22T07:00:00.000Z",
-      "amount_usd_m_total": 30,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-06-29T07:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
           "count": 1
         }
       ]
