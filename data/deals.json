@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T08:41:29.857Z",
+  "generated_at": "2026-07-22T14:18:55.796Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -13,7 +13,7 @@
     "total_deals": 66,
     "demo_mode": false,
     "deals_with_coordinates": 66,
-    "runtime_ms": 3711,
+    "runtime_ms": 4022,
     "note": "",
     "error_sample": []
   },
@@ -239,6 +239,28 @@
       }
     },
     {
+      "id": "deal_1056001922",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Nvidia-backed Fireworks hits $17.5 billion valuation as companies pursue cheaper AI models - CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlRKeDJCZWhSbUxXbTV6dTZPeUhPZ3FiN0MzV1pnVXM3NXAzRjRoTVJYSWhxVW0tNGctUVY4QzRIT3lTMUlWRHlNeTFubW11OTdMNHFEd09GMWxHcGRMVkJNcWlIS2I3bFZFVkpoWnNYUzJFOU51ZEprM3RGdE13SVRB0gGHAUFVX3lxTE1YWm5zQU5aTlhaSm10UEJPdENLSTVMTzBuQU5lY0xNX2hpNXFrTERPRXF4OHM3VE9NRElXcl9xQU94ODl2SG1rejVONUFUbnF6eTZtWGcydnV5Y1R2bTd0VHFzLWY1SEJTbFJNbmN5RGZsV1dGSXNnZDRSYnU4a2YwOU9WcGxIYw?oc=5",
+      "source_name": "CNBC",
+      "published_at": "2026-07-16T13:00:02.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 17500,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_118020089",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -278,28 +300,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1329782786",
-      "vc_id": "gv",
-      "vc_name": "GV",
-      "company": "Wonder",
-      "title": "Wonder Announces $650 Million Series D Round at a $9 Billion Pre-Money Valuation - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN2pIaFN3Z2VhUWZvOW9tMUh4R1dmb0xIeGtzWndfTnJPM2Jna3Q5RTAzOG0yUEJ1TmZIU2I3SEVoRTlfaklQbEZheTE1UnptRGxpR2dGNFFDdlF2WWNIb1JmcFNXR0VkblBfUGZNN09jV2s5U3dJTkNHX0hWLTgwTGlYZzRkcjZLeFI5WFFsUjY5cEEzbm9Id2NNYkQ5bUdiY2hKLTNLZXFrYUJmdEFocVhoR2J2UzBpdFh0YTJNbkt5TGJlN1doUVRPcEhmNkE?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-07-16T13:00:00.000Z",
-      "stage": "Series D+",
-      "sector": "Other",
-      "amount_usd_m": 650,
-      "confidence": 0.86,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1478,14 +1478,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 27,
-      "weighted_score": 111.83,
+      "deal_count": 28,
+      "weighted_score": 117.78,
       "latest_at": "2026-07-21T11:08:00.000Z",
-      "amount_usd_m_total": 60611,
+      "amount_usd_m_total": 78111,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 22
+          "count": 23
         },
         {
           "name": "Other",
@@ -1632,33 +1632,6 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 8.58,
-      "latest_at": "2026-07-16T13:00:00.000Z",
-      "amount_usd_m_total": 650,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "GV",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
@@ -1777,6 +1750,29 @@
       "top_vcs": [
         {
           "name": "Madrona",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.11,
+      "latest_at": "2026-06-29T07:00:00.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
           "count": 1
         }
       ]
