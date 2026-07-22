@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T19:48:48.711Z",
+  "generated_at": "2026-07-22T03:41:25.501Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 73,
-    "total_deals": 73,
+    "scraped_deals": 71,
+    "total_deals": 71,
     "demo_mode": false,
-    "deals_with_coordinates": 73,
-    "runtime_ms": 4372,
+    "deals_with_coordinates": 71,
+    "runtime_ms": 3941,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1736802540",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "SkyPilot, from Databricks’ cofounder,",
+      "title": "SkyPilot, from Databricks’ cofounder, raises $20M to be the Switzerland of AI compute - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcERYSWFFV25YYWhqdXdMRFlDR2VmZ1VKRVVEYTBZQjlpN0RadUFFRlJENzRfNkwwUkRVUnlNajVpT0psd1dJR0lxUDItaHFOaFNZeE9sQVBVRE1STlVnUEMtdXMwZzlkVFBLWDZjWThNb0pURU5kalZvYUpsVmZWQjN3a0NwRmw0aEthZGJObDJhQXR6SFdQeGNHSmQ0Nnp5Xy1NRVpzZ0luZEZlR0RCeU9QVQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-07-21T11:08:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_272436367",
       "vc_id": "amplify",
@@ -102,6 +124,28 @@
         "state": "WA",
         "lat": 47.6062,
         "lon": -122.3321,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1591377788",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "Databricks is Raising a Strategic Round of Funding at a $188 Billion Valuation - Databricks",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRjU4RDl2RkctN0s4LUlqNEtzNDBEa2prLUdpZmNPN1N5LTFhQU5vS2cwSW9YdFdzdUgtVVdLdnVYdE5ELXF2X2pLSVZPMVVxSnlSOFlBQk1YU3REMkJKbzE0SEl5OXBpTTRQRmNNNU9abl9pZDd2cTZoTjFROG5RZ2lfQV9iajdhVHlfY1pxZUxPQzhOZFcyZTFrSGNfZnZnS3JiNlVadGNfc1hWZk9DelVsX0lDLXZ2eFlDc0hwX20?oc=5",
+      "source_name": "Databricks",
+      "published_at": "2026-07-17T04:23:40.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 188000,
+      "confidence": 0.71,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -393,50 +437,6 @@
       }
     },
     {
-      "id": "deal_721360163",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Unknown",
-      "title": "Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeTR6RnRrazA0QXVyV0RiMzZmX1E0eUU3TnU5bjVmNW9zaHNaelNoZzlGODg1UFR6amZUUXk1MEQyd19pZVdIMHdtU1pxMkQ1Rk9tQl8zMXRBUmpiVjhhSGVISjZQVFUxVUZSOFVtejhGRGpzNGNEOFdxbVQ4VXFiZWlTWlp4YkxkblItdVhucFRHanNxM2g0Wm9yZkxhN2lOUkNSNWVTZHV3Rm1zZ0FjMFNMZGFqY1hKbnE4V3NrWjZwYkd4Yk1JOGhFeC0zdHVQbjJKdTdEY1k?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-15T11:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_185655648",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "Unknown",
-      "title": "Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeTR6RnRrazA0QXVyV0RiMzZmX1E0eUU3TnU5bjVmNW9zaHNaelNoZzlGODg1UFR6amZUUXk1MEQyd19pZVdIMHdtU1pxMkQ1Rk9tQl8zMXRBUmpiVjhhSGVISjZQVFUxVUZSOFVtejhGRGpzNGNEOFdxbVQ4VXFiZWlTWlp4YkxkblItdVhucFRHanNxM2g0Wm9yZkxhN2lOUkNSNWVTZHV3Rm1zZ0FjMFNMZGFqY1hKbnE4V3NrWjZwYkd4Yk1JOGhFeC0zdHVQbjJKdTdEY1k?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-15T11:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.71,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_426679851",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -537,6 +537,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1800,
       "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_539553379",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "French AI startup Gradium",
+      "title": "Nvidia joins French AI startup Gradium’s $100m seed round - Tech in Asia",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcU03UUxHTV83ZFVHcUlCdmZOYXlNa21JMi1iM3NhXy1CN3NaaTViTW9Obkliay1vMzRfZXdTZEFXd01mNmN2SHNhdVZZMVpZLW5lcmdHNVJOX0dTeTRQcjhGVERpZndPaFVXUVFybmtiVnN2a3BaaUJvOGlaYmVXQUpGbkJnaW00?oc=5",
+      "source_name": "Tech in Asia",
+      "published_at": "2026-07-10T00:30:00.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -762,28 +784,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1967151212",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Unknown",
-      "title": "AI Legal Startup Norm Valued at $1.2 Billion in Funding Round - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFkxYzc4RVJGX2hJdERZd0pWWVRGenZGYUhnSWwwbGJaM3d4YlpoSGtrMG1Xc1V6bVl3cWZiN2NkYzFHQllUY1NTR2Q4enh6dFVKeEFMWHhodGNranVrOUYwR3FIdWpwUHkwZFZFZk9HRm1OVmFsZm4zcWdXcGR0djJUQjBCWUQ3ekp1WXI5RzZkTTEwZEVDdm1FMVZDOVdJU2pRUGdVTnlnVUZ1VzV2NA?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-07-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 1200,
-      "confidence": 0.71,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1021,28 +1021,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 320,
       "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_635871826",
-      "vc_id": "mayfield",
-      "vc_name": "Mayfield",
-      "company": "Former Infosys CEO’s startup",
-      "title": "Former Infosys CEO’s startup raises $32m in seed funding - Tech in Asia",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMThlVWhVZjFQMmpuaFcwbkM2WDI4NTd4c1JsX1hhZnRGSVBqYWpDVDhsamFYdGREVDF2MGROSGlyWkZBYms0Wk16Qjd5cWxRUmVQel9pMzNtOFVCeWtLeVUxUTN6STBXODA4dldxUU5YeVppVFptS1c3NmdYWFhVTGR3?oc=5",
-      "source_name": "Tech in Asia",
-      "published_at": "2026-06-25T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 32,
-      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1515,28 +1493,6 @@
       }
     },
     {
-      "id": "deal_2006976715",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "Visa and BCG Build on Allium as Startup",
-      "title": "Visa and BCG Build on Allium as Startup Closes $40M Series B - Bitcoin News",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeHBnM0VaXy1vYzlPU183dXpuZEJEYlpBVFJaLTMwV2lacXNIZmljWXNwazBwb1VRaFphVkxpSXlpYllZZVVLOVN1dnEyWi1wc2RJR3kycTRKdFR2SWRMekdxaE9jZU4ydTR2MGRETVV4ZmtHaTVIbktzVjdpZWpUaHNFZ1BFNFN3dHA4V1NR?oc=5",
-      "source_name": "Bitcoin News",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "Other",
-      "amount_usd_m": 40,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1378944077",
       "vc_id": "bond",
       "vc_name": "BOND",
@@ -1632,18 +1588,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 31,
-      "weighted_score": 127.6,
+      "deal_count": 29,
+      "weighted_score": 120.11,
       "latest_at": "2026-07-21T11:08:00.000Z",
-      "amount_usd_m_total": 62173,
+      "amount_usd_m_total": 62141,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 25
+          "count": 24
         },
         {
           "name": "Other",
-          "count": 6
+          "count": 5
         }
       ],
       "top_vcs": [
@@ -1653,7 +1609,7 @@
         },
         {
           "name": "Mayfield",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Khosla Ventures",
@@ -1702,14 +1658,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 10,
-      "weighted_score": 38.85,
-      "latest_at": "2026-07-17T01:25:00.000Z",
-      "amount_usd_m_total": 188574.5,
+      "deal_count": 12,
+      "weighted_score": 48.97,
+      "latest_at": "2026-07-21T11:08:00.000Z",
+      "amount_usd_m_total": 376594.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 11
         },
         {
           "name": "Other",
@@ -1726,35 +1682,8 @@
           "count": 3
         },
         {
-          "name": "Coatue",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 4,
-      "weighted_score": 14.97,
-      "latest_at": "2026-07-15T11:17:00.000Z",
-      "amount_usd_m_total": 325,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "CRV",
-          "count": 3
-        },
-        {
-          "name": "Ribbit Capital",
-          "count": 1
+          "name": "Lux Capital",
+          "count": 2
         }
       ]
     },
@@ -1786,15 +1715,15 @@
       ]
     },
     {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
       "deal_count": 3,
-      "weighted_score": 13.64,
-      "latest_at": "2026-07-19T07:39:25.000Z",
-      "amount_usd_m_total": 1600,
+      "weighted_score": 11.47,
+      "latest_at": "2026-07-15T11:17:00.000Z",
+      "amount_usd_m_total": 265,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1803,11 +1732,11 @@
       ],
       "top_vcs": [
         {
-          "name": "Bain Capital Ventures",
+          "name": "CRV",
           "count": 2
         },
         {
-          "name": "Spark Capital",
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -1832,6 +1761,33 @@
         {
           "name": "Emergence Capital",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 2,
+      "weighted_score": 8.85,
+      "latest_at": "2026-07-19T07:39:25.000Z",
+      "amount_usd_m_total": 400,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bain Capital Ventures",
+          "count": 1
+        },
+        {
+          "name": "Spark Capital",
+          "count": 1
         }
       ]
     },
