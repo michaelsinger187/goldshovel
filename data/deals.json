@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:18:55.796Z",
+  "generated_at": "2026-07-22T19:40:33.600Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 66,
-    "total_deals": 66,
+    "scraped_deals": 67,
+    "total_deals": 67,
     "demo_mode": false,
-    "deals_with_coordinates": 66,
-    "runtime_ms": 4022,
+    "deals_with_coordinates": 67,
+    "runtime_ms": 4166,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_502438544",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Cheiron",
+      "title": "Cheiron Raises $8M Seed Led by Menlo Ventures to Build the Operating System for Drug Programs - Yahoo Finance Singapore",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRmx4RWRFT3dDUml2LVYzeXBDNFhEbnZxOWZITzdQLVMzbWRicGNZMDFmV2lSUzBxYlQ4RVlMNTJxRWtMNGVDTXpqRnU3SVdheUJNUTlYNFFQT3FVdHl6Vk8yOXI4SjVHVGJOOHNpUC02VUhBYy00aDE5VEg0VXlBNw?oc=5",
+      "source_name": "Yahoo Finance Singapore",
+      "published_at": "2026-07-22T16:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 8,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1736802540",
       "vc_id": "lux",
@@ -85,23 +107,23 @@
       }
     },
     {
-      "id": "deal_315784890",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "AI startup Simile",
-      "title": "AI startup Simile raises $100 million to “simulate” human decisions for business moves - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFcxQXZ4dXJEV2VPaWc3VVJ5TkVFSDg2eC11UG1lTTVTUVJOTm4wUWFmSjNtTzZaS21sVUZjVEU3MU50OGRsXzBfNVlPS2d5UjVCSk93S3hXWWQ4WklRS1Y5TzZjeWNXX3lheXFiUTFuTHVlWnhVdWNYdFNfMkdhcTBoN3pXRjYyTmY5RFpxNlJfeWpQWlhodFlzMjJCa0tBeHdaWg?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-07-19T07:39:25.000Z",
+      "id": "deal_136621855",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "America's First VC-Backed Cyber Warfare Startup",
+      "title": "America's First VC-Backed Cyber Warfare Startup Raises Additional $30M from Khosla Ventures at $1.2B Valuation - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUU5yS0pUZEc5UUtUMG5PUWdkR2JuRjRYWnhXV3gzanNUWTNyZncxTVVCMEpST1VDRGdLbnRpRjhxZFp5ZmlEbGhDQmFReVBYbU1WeUZhXzF1dWdrZ3c2U3ZzX3ZLS21tZWdSQV9JbTQ5WnNBUlBsR3RXUWNxMWd5T2cyOElDZUtLbVFQN25aZldUSGNyR2N4ZmFPNkNpeUVBN3drX0ctczZiemNZMWlpMFlYMTVJQ1RiY0luTlo3RmdhN0NMUFVmaWYySWFKZEVEZF9rTTRkQ2dtek9EVkpBSzNXZGpES3JMRVJZMTBZSTFIUXZuaHc?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-20T18:30:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 100,
+      "amount_usd_m": 30,
       "confidence": 0.81,
       "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -657,28 +679,6 @@
       }
     },
     {
-      "id": "deal_976510521",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Norm Ai",
-      "title": "Norm Ai Raises $120 Million at a $1.2 Billion Valuation Led by Khosla Ventures to Deliver the Full-Stack Model for Legal AI - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObjJaRXR5czc0MDg0OVBZbVhOQl90a0VPUk44a0hsMjVFMG90WkdubnVvUlRUNjhLMklrZGQzZ0VPZ1dadzVOUXVEbW1pU01xaHN2NU5zVXFlRDRuTEgyeldtU25UbjN2UVRkTjBsZF96SG5YNk9paU1LMlNKZUNhZnRiYnZfejlHdGZ1Wk4zdVl4Y2gyeHEzMHhreUJDMUxxcmJIeEpaMEJEVGEyTzZCbGFRZC1RT0RIcVVSVzczLXZ1bEJtaWdOalF3N0xqNVh0aVhsaTdVV25tdUFjc2VDTUh1WUJPZWRkU0N4LUtOZDVqSW95Um5YLVhoaDdwN3drV0tDc1BLS0s?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-07-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 120,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_492734379",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -691,6 +691,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 300,
       "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_976510521",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Norm Ai",
+      "title": "Norm Ai Raises $120 Million at a $1.2 Billion Valuation Led by Khosla Ventures to Deliver the Full-Stack Model for Legal AI - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObjJaRXR5czc0MDg0OVBZbVhOQl90a0VPUk44a0hsMjVFMG90WkdubnVvUlRUNjhLMklrZGQzZ0VPZ1dadzVOUXVEbW1pU01xaHN2NU5zVXFlRDRuTEgyeldtU25UbjN2UVRkTjBsZF96SG5YNk9paU1LMlNKZUNhZnRiYnZfejlHdGZ1Wk4zdVl4Y2gyeHEzMHhreUJDMUxxcmJIeEpaMEJEVGEyTzZCbGFRZC1RT0RIcVVSVzczLXZ1bEJtaWdOalF3N0xqNVh0aVhsaTdVV25tdUFjc2VDTUh1WUJPZWRkU0N4LUtOZDVqSW95Um5YLVhoaDdwN3drV0tDc1BLS0s?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-07T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 120,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1478,14 +1500,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 28,
-      "weighted_score": 117.78,
-      "latest_at": "2026-07-21T11:08:00.000Z",
-      "amount_usd_m_total": 78111,
+      "deal_count": 30,
+      "weighted_score": 123.85,
+      "latest_at": "2026-07-22T16:00:00.000Z",
+      "amount_usd_m_total": 78149,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 23
+          "count": 25
         },
         {
           "name": "Other",
@@ -1498,12 +1520,12 @@
           "count": 6
         },
         {
-          "name": "Mayfield",
+          "name": "Khosla Ventures",
           "count": 5
         },
         {
-          "name": "Khosla Ventures",
-          "count": 4
+          "name": "Mayfield",
+          "count": 5
         }
       ]
     },
@@ -1605,33 +1627,6 @@
       ]
     },
     {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 2,
-      "weighted_score": 8.85,
-      "latest_at": "2026-07-19T07:39:25.000Z",
-      "amount_usd_m_total": 400,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bain Capital Ventures",
-          "count": 1
-        },
-        {
-          "name": "Spark Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
@@ -1704,6 +1699,29 @@
       "top_vcs": [
         {
           "name": "Emergence Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 1,
+      "weighted_score": 5.04,
+      "latest_at": "2026-07-07T07:00:00.000Z",
+      "amount_usd_m_total": 300,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Spark Capital",
           "count": 1
         }
       ]
