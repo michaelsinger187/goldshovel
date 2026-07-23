@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:27:25.577Z",
+  "generated_at": "2026-07-23T19:42:40.793Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 64,
-    "total_deals": 64,
+    "scraped_deals": 65,
+    "total_deals": 65,
     "demo_mode": false,
-    "deals_with_coordinates": 64,
-    "runtime_ms": 4864,
+    "deals_with_coordinates": 65,
+    "runtime_ms": 4251,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1078827137",
+      "vc_id": "cisco",
+      "vc_name": "Cisco Investments",
+      "company": "Israeli cyber startup led by Iranian-born security veteran.",
+      "title": "Cisco backs Israeli cyber startup led by Iranian-born security veteran - The Times of Israel",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVVhRVUlRbGJNTVN4aG82Q2FSSmIxQ282UGxBd09VckxybVpVU1ZVdG5YNjF4NGNNSzk5X0ItZjN0TlhzaXNIOTc0NGNvX2xVTE9CVmFyWGZvSXhDU3VnQ0tCSXJyTFcxNUpyVEpENElyNktXcWVQUTJ4MXFGTmtoYkF6RlYwR2lXSzY1LUdGTmhueW5mTjhpRDhDVDZ2MlJnQ0NoOGJady3SAagBQVVfeXFMTlVYUVVJUWxiTU1TeGhvNkNhUkpiMUNvNlBsQXdPVXJMcm1aVVNWVXRuWDYxeDRjTUs5OV9CLWYzdE5Yc2lzSDk3NDRjb19sVUxPQlZhclhmb0l4Q1N1Z0NLQklyckxXMTVKclRKRDRJcjZLV3FlUFEyeDFxRk5raGJBekZWMEdpV0s2NS1HRk5obnluZk44aUQ4Q1Q2djJSZ0NDaDhiWnct?oc=5",
+      "source_name": "The Times of Israel",
+      "published_at": "2026-07-23T18:48:33.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Jose",
+        "state": "CA",
+        "lat": 37.3382,
+        "lon": -121.8863,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1341556571",
       "vc_id": "8vc",
@@ -58,28 +80,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_394971203",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "AI startup Simile",
-      "title": "AI startup Simile raises $100 million to “simulate” human decisions for business moves - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbFcxQXZ4dXJEV2VPaWc3VVJ5TkVFSDg2eC11UG1lTTVTUVJOTm4wUWFmSjNtTzZaS21sVUZjVEU3MU50OGRsXzBfNVlPS2d5UjVCSk93S3hXWWQ4WklRS1Y5TzZjeWNXX3lheXFiUTFuTHVlWnhVdWNYdFNfMkdhcTBoN3pXRjYyTmY5RFpxNlJfeWpQWlhodFlzMjJCa0tBeHdaWg?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-07-23T11:10:10.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -168,6 +168,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1736802540",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "SkyPilot, from Databricks’ cofounder,",
+      "title": "SkyPilot, from Databricks’ cofounder, raises $20M to be the Switzerland of AI compute - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcERYSWFFV25YYWhqdXdMRFlDR2VmZ1VKRVVEYTBZQjlpN0RadUFFRlJENzRfNkwwUkRVUnlNajVpT0psd1dJR0lxUDItaHFOaFNZeE9sQVBVRE1STlVnUEMtdXMwZzlkVFBLWDZjWThNb0pURU5kalZvYUpsVmZWQjN3a0NwRmw0aEthZGJObDJhQXR6SFdQeGNHSmQ0Nnp5Xy1NRVpzZ0luZEZlR0RCeU9QVQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-07-21T11:08:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -305,28 +327,6 @@
       }
     },
     {
-      "id": "deal_59028802",
-      "vc_id": "usv",
-      "vc_name": "Union Square Ventures",
-      "company": "Prediction market startup Pascal",
-      "title": "Prediction market startup Pascal raises $9M Series A led by USV to target pro traders - CryptoRank",
-      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fSW9QMjVfZVJJT0p4bDBhUHlNOE5NaDNvS2xlMWdzSDVRQU9QclJLZlVFV1BUTTdVNURVa0dSNlE0VV9RVFlFRW9fa0pzYWpkb25YTXRyTUVGTnBPUkdMWElkSHB2MWM5NVE?oc=5",
-      "source_name": "CryptoRank",
-      "published_at": "2026-07-16T18:35:01.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 9,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1228028105",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -344,6 +344,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1847457141",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Fireworks Lights Up with $1.51 Billion Funding - Devdiscourse",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaURYNGdGYURIdlNGVUhfN2lnX1VmWmZwbmU5VFVwOHVtWWJfTmQ5MjY1X1dsc2FWU28wVzA2MER0NnZLRE9SQmpJdmQzLVBFbEdnUWdiSk1DOU5mYlNHUnNIemw3MldQU3hGUENkdkcxLU5Lay1vY0FhLWZtQTNHSFNZOEVDUFhINmN0Sy0wTmpuSElwcno5MEkwc0x5dnpLR3fSAacBQVVfeXFMUGdZSFdBVWdoQjd4dy1MT1d4SmdDS0lCblVhWUpvdVBPRVdrcUNjdG1QTlFIXzBxXzRTLTAtVzRYckd4R29MMHppWmU1LWxKek1CTU9zZEgxV0xFcmh1bmZGWHY1LVhxMU16cjF0dHhsR1JBLTYxUFZYMGt5Vmo5cnppcnl2UjJrN2dqT3RaVHJHdUxoOWRQN2Yza3VqMFJsTzFfRUxveEk?oc=5",
+      "source_name": "Devdiscourse",
+      "published_at": "2026-07-16T14:51:48.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 1510,
+      "confidence": 0.61,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -569,25 +591,25 @@
       }
     },
     {
-      "id": "deal_834584353",
-      "vc_id": "lightspeed",
-      "vc_name": "Lightspeed Venture Partners",
-      "company": "German defence startup Helsing",
-      "title": "CPP Investments backs German defence startup Helsing’s US$1.8B funding round - The Logic",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMHRFOEZnVENuc0MzVkdGLXJ0WE5fNF9KSFI0eU5LQVRZeGRvbmtIaDFheC1tMTIzSVBGS09wUktHLVJyUlVBUXlBeTF4VFVMOHNUSUMxTW5wOUFfSG5nOWh5bk4yQ09ucHJ2SGVVeWFJUlVWbnhjdTJabjBRMXFIX3d5SXNDZDFfNFpJeHVSNzEyRF8ydUtpUkRfV0NxckRza2NCRG9Idw?oc=5",
-      "source_name": "The Logic",
-      "published_at": "2026-07-13T19:43:00.000Z",
+      "id": "deal_2126396083",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Chai Discovery, an A.I. Drug Start-Up,",
+      "title": "Chai Discovery, an A.I. Drug Start-Up, Raises $400 Million - The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeDlRODFkM0tGYnRSSUdHMGFBYU5YUGdzaWFEcHpDa2tuX0hTUFJ3dXhYVEVSRzBLN1lrbTlyN2M5bDY1Mm10VWtiN2hELVZlZTYtMzdocEVoVTUyUHhHTDR6eHc4ZWsyM2lpWnkzQXpmVDgwNkRjRThtSHZyWnE0Z1NxM2toRzd4SS12WEt4WU9YVWhSeUww?oc=5",
+      "source_name": "The New York Times",
+      "published_at": "2026-07-14T07:00:00.000Z",
       "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 1800,
-      "confidence": 0.71,
+      "sector": "AI & ML",
+      "amount_usd_m": 400,
+      "confidence": 0.93,
       "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "city_keyword",
+        "confidence": 0.68
       }
     },
     {
@@ -1435,9 +1457,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 26,
-      "weighted_score": 108.28,
+      "weighted_score": 108.11,
       "latest_at": "2026-07-23T08:47:34.000Z",
-      "amount_usd_m_total": 76659,
+      "amount_usd_m_total": 76369,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1469,14 +1491,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 10,
-      "weighted_score": 43.03,
-      "latest_at": "2026-07-17T04:23:40.000Z",
-      "amount_usd_m_total": 376565.5,
+      "deal_count": 11,
+      "weighted_score": 47.13,
+      "latest_at": "2026-07-21T11:08:00.000Z",
+      "amount_usd_m_total": 376976.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Other",
@@ -1489,11 +1511,11 @@
           "count": 3
         },
         {
-          "name": "Coatue",
+          "name": "Lux Capital",
           "count": 2
         },
         {
-          "name": "Union Square Ventures",
+          "name": "Coatue",
           "count": 2
         }
       ]
@@ -1592,33 +1614,6 @@
       ]
     },
     {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 2,
-      "weighted_score": 8.85,
-      "latest_at": "2026-07-23T11:10:10.000Z",
-      "amount_usd_m_total": 400,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bain Capital Ventures",
-          "count": 1
-        },
-        {
-          "name": "Spark Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "San Mateo,CA",
       "city": "San Mateo",
       "state": "CA",
@@ -1637,6 +1632,29 @@
       "top_vcs": [
         {
           "name": "Emergence Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 1,
+      "weighted_score": 5.04,
+      "latest_at": "2026-07-07T07:00:00.000Z",
+      "amount_usd_m_total": 300,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Spark Capital",
           "count": 1
         }
       ]
@@ -1688,6 +1706,29 @@
       ]
     },
     {
+      "key": "San Jose,CA",
+      "city": "San Jose",
+      "state": "CA",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-07-23T18:48:33.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Cisco Investments",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Seattle,WA",
       "city": "Seattle",
       "state": "WA",
@@ -1729,29 +1770,6 @@
       "top_vcs": [
         {
           "name": "Bessemer Venture Partners",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Jose,CA",
-      "city": "San Jose",
-      "state": "CA",
-      "lat": 37.3382,
-      "lon": -121.8863,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-07-23T01:23:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Cisco Investments",
           "count": 1
         }
       ]
