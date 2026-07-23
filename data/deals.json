@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T03:40:26.882Z",
+  "generated_at": "2026-07-23T08:42:46.129Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 68,
-    "total_deals": 68,
+    "scraped_deals": 61,
+    "total_deals": 61,
     "demo_mode": false,
-    "deals_with_coordinates": 68,
-    "runtime_ms": 4084,
+    "deals_with_coordinates": 61,
+    "runtime_ms": 4452,
     "note": "",
     "error_sample": []
   },
@@ -1119,6 +1119,28 @@
       }
     },
     {
+      "id": "deal_1014795038",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Unknown",
+      "title": "Exclusive: A former Apple engineer thinks AI infrastructure is built for the wrong future. Investors just gave him $80 million to fix it - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnpwMWRnS2RkT0wtVnFFSjhVQWREb0JDM3UwSTlsMnNPdFdmZlJ1ZUlfZGt3YUZHVF9ZdVN2VmtRbXBMOGlLZ3NqbEM3a0JwRU0ybmRfV05zZ0ZIVWljTXJOUVVIcGw3N3lHQmZadnhSYjJScmlVLWtuNHlVREdhSHo2bzJpb2dfb2prTDczMlhxVzBONXlHQ3dCUXRwbF9BNWtBa2tB?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-06-25T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1187011088",
       "vc_id": "amex-ventures",
       "vc_name": "Amex Ventures",
@@ -1337,182 +1359,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1843993838",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Unknown",
-      "title": "India: Bessemer leads $15m Series B funding in AI startup Mitigata - DealStreetAsia",
-      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SaUlYWHpWREE2bnZGM09McmhqblVyVG5HN2hCRnRIdDRHQTk2VHJ1NkpDMng1R0pwclV1bkJhVXpHbXRSVlVIT1VaeXVjdnh6cmx4NnNucjNHMUVjVVgyYk5XWjR6SFBtaFdjYUNNRjU?oc=5",
-      "source_name": "DealStreetAsia",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 15,
-      "confidence": 0.86,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1053414925",
-      "vc_id": "founders-fund",
-      "vc_name": "Founders Fund",
-      "company": "Unknown",
-      "title": "Stark confirms monster €500M funding round, reportedly approaching a €3B valuation - Resilience Media",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdkstZGhwVnA0RWtvd0gyTzNrTk16Zl9oY2F6ZlZuUFNDNEpFSm40UjdjWm9RZi00bUdvREl3RTlVem5tSXh4ODJKdEk3dG5ELWNTWDhFUE1jbVRCX2NoRjRkc1R1QXhTenpiVGJVWG1xNlNBWEY3SFhFUTBJMU41c0huanhSTzBHZzJkZjVjT1FUeFp0LTZYRnNkRVBZRXpkdlN1ajRhUUFYQ0xUZFE?oc=5",
-      "source_name": "Resilience Media",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_421546929",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "Join ByteDance Seed - ByteDance Seed",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdVdqa1JscWRRYk52dVVOZEJfSzVOLWNiV1ZYVjNmUFJ5cDFsWHBsdy1mVlZqWnFua3owcUlKcjYtOVctaDllWkxpUngwN2ZoQXNYcGNtcnNWMldmV3ZxbDB2emdsS3A4TU9lSEVnSGEwY0pIbXJnSjZSanluZ3NhTDJWRHdtbHhhNTh1cFVn?oc=5",
-      "source_name": "ByteDance Seed",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1131267830",
-      "vc_id": "kleiner-perkins",
-      "vc_name": "Kleiner Perkins",
-      "company": "Exclusive: Crypto analytics startup Allium",
-      "title": "Exclusive: Crypto analytics startup Allium raises $40 million to tame blockchain data for Wall Street - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNlNYTV9nQlVHOEF1UW1yMlpxZ0l2Q3BKOGUxY0tqVlJycGpvdmszWFRjYUVvM1JrdUdmQXktMXFLaTlRMUZObEdtR1ZvTjJSYXFENTZSeUdVWUpBRHVuZGJjLVBsM2NGa3VhemZxZFotLXJLMlBaMmZPWXFJa19tTGRQZTQ5d3dTZkNYNzNhSlZidGc0?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 40,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1230498635",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "Exclusive: Crypto analytics startup Allium",
-      "title": "Exclusive: Crypto analytics startup Allium raises $40 million to tame blockchain data for Wall Street - Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNlNYTV9nQlVHOEF1UW1yMlpxZ0l2Q3BKOGUxY0tqVlJycGpvdmszWFRjYUVvM1JrdUdmQXktMXFLaTlRMUZObEdtR1ZvTjJSYXFENTZSeUdVWUpBRHVuZGJjLVBsM2NGa3VhemZxZFotLXJLMlBaMmZPWXFJa19tTGRQZTQ5d3dTZkNYNzNhSlZidGc0?oc=5",
-      "source_name": "Fortune",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 40,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1312954065",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "Blockchain data startup Allium",
-      "title": "Blockchain data startup Allium raises $40M Series B as institutional interest in onchain analytics grows - The Block",
-      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWlhXMDM4YTh3LTFVYlJkSEowVWVzSUF4RkpSdzN2Y1dnNFRVc1BtQnJzSjZfYjdZNkFENkd4SFF4ZVF4ajVGckpXTGg5aFgxTnlHU2N0enZhSHJ4NWNHSldsMHQ5N3lLMnRyLW1fZ1ZPanlJb1g2Y3JuazJCcHozTDRQVDhpOVhoYjlWVFR3WGg3MTdVYnE1NWRjVVI3b01kTmlBTlVGZ1ZMWm9ZUjBzc0ltOXZYcERKU2ItcDFWNTVRN1pkd3B3RlNreU5Gc3NtSmI0NFJrWDZqUng0YzRxUw?oc=5",
-      "source_name": "The Block",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 40,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_336906795",
-      "vc_id": "amplify",
-      "vc_name": "Amplify Partners",
-      "company": "Allium",
-      "title": "Allium Raises $40M as Crypto Data Sector Consolidates - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTWpBUGtONmZNZWxaRzVKWHNYcElIeFFIc0RWODZsa0FRTXFlMklORU9OYkVINXR0MENnbjBCdWRoU3lKejRTN0h3ZFJVOEo1LTRMTUpZQkFTdHhpMnBCeFNoT0ZLQVBfT2p4eHM3YkZGVVhKMFFWZHNsV0tJTWtBZHhOTTkwOWc4d1NlSW9RXzdEQW9vTkdtQnFR?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 40,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1378944077",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "SpaceX",
-      "title": "SpaceX raises $25 billion in debt sale less than two weeks after IPO - CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sVE51dTV2ckNPMTVsRjViUUZNVk05Z2pzOVludUR1bWFwRFFHMEVnSUdmZlJERmtJbE9fdVBsQ05DN2RWZXNjaGt3d0N0eFlLdDdxSExZQjNoSWY1ZHRuUnlnSDJqamhQYXBCSDVHek51QdIBd0FVX3lxTE4yYjAzQnhGNlRZSG5YNDlVRHNPVzY5NFQ5aU1zWDNydVdNNlQ3V1hmSTFrM3FWMk5FREVybnptSEIycG9TbGwySXBqYXVJMzN4a0h3VHNsTzVvNEh3TUl0TkNZTWZEaDBOV2ZaWVMybGltalY3cnpr?oc=5",
-      "source_name": "CNBC",
-      "published_at": "2026-06-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25000,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1522,14 +1368,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 30,
-      "weighted_score": 123.85,
+      "deal_count": 26,
+      "weighted_score": 109,
       "latest_at": "2026-07-22T16:00:00.000Z",
-      "amount_usd_m_total": 78149,
+      "amount_usd_m_total": 77989,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 25
+          "count": 21
         },
         {
           "name": "Other",
@@ -1537,10 +1383,6 @@
         }
       ],
       "top_vcs": [
-        {
-          "name": "Amplify Partners",
-          "count": 6
-        },
         {
           "name": "Khosla Ventures",
           "count": 5
@@ -1548,41 +1390,10 @@
         {
           "name": "Mayfield",
           "count": 5
-        }
-      ]
-    },
-    {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 13,
-      "weighted_score": 46.69,
-      "latest_at": "2026-07-16T15:42:00.000Z",
-      "amount_usd_m_total": 25737,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 8
         },
         {
-          "name": "Other",
-          "count": 5
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Benchmark",
-          "count": 2
-        },
-        {
-          "name": "BOND",
-          "count": 2
-        },
-        {
-          "name": "Craft Ventures",
-          "count": 2
+          "name": "Amplify Partners",
+          "count": 3
         }
       ]
     },
@@ -1622,6 +1433,41 @@
       ]
     },
     {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 10,
+      "weighted_score": 36.46,
+      "latest_at": "2026-07-16T15:42:00.000Z",
+      "amount_usd_m_total": 737,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 7
+        },
+        {
+          "name": "Other",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Craft Ventures",
+          "count": 2
+        },
+        {
+          "name": "Prelude Ventures",
+          "count": 2
+        },
+        {
+          "name": "Benchmark",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Cambridge,MA",
       "city": "Cambridge",
       "state": "MA",
@@ -1644,6 +1490,33 @@
         },
         {
           "name": "F-Prime Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 3,
+      "weighted_score": 11.47,
+      "latest_at": "2026-07-15T11:17:00.000Z",
+      "amount_usd_m_total": 265,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CRV",
+          "count": 2
+        },
+        {
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -1672,60 +1545,6 @@
         {
           "name": "Spark Capital",
           "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 7.86,
-      "latest_at": "2026-07-15T11:17:00.000Z",
-      "amount_usd_m_total": 185,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "CRV",
-          "count": 1
-        },
-        {
-          "name": "Ribbit Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 2,
-      "weighted_score": 6.56,
-      "latest_at": "2026-07-21T03:29:12.000Z",
-      "amount_usd_m_total": 21.7,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 2
         }
       ]
     },
@@ -1794,6 +1613,29 @@
       "top_vcs": [
         {
           "name": "Madrona",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 1,
+      "weighted_score": 2.5,
+      "latest_at": "2026-07-21T03:29:12.000Z",
+      "amount_usd_m_total": 6.7,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
           "count": 1
         }
       ]
