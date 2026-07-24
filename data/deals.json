@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T08:39:32.814Z",
+  "generated_at": "2026-07-24T14:08:32.074Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 61,
-    "total_deals": 61,
+    "scraped_deals": 59,
+    "total_deals": 59,
     "demo_mode": false,
-    "deals_with_coordinates": 61,
-    "runtime_ms": 4073,
+    "deals_with_coordinates": 59,
+    "runtime_ms": 4118,
     "note": "",
     "error_sample": []
   },
@@ -129,28 +129,6 @@
       }
     },
     {
-      "id": "deal_799222047",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "AI Startup Corgi Of Seven-Day Work Week Fame",
-      "title": "AI Startup Corgi Of Seven-Day Work Week Fame Raises Yet Again At $4 Billion Valuation - Forbes",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcEt4ZXc5SlJVb3BKOEtVTloyMmlpaXFORVRrbFBUdWw3NVBiTm8wQUQzTFd6SGp4VElfN0dLVklBZW8tVUF3SzNmeVFacE9zVk9MaTNoRG9qN0Itd0ZhSm5CNEVlX1RJQ184QlZJYjhpcXA1V05yZEozTnlUR1MxUnFOS3k2R0xOV2gwUHZQMFNmeUtaRnNoSlhNQm1JcE94c2JIWEtWNHJKY0F6VUc4cGcyMXB4UXVnWUdWaE9lNlNBTnRBNFBiZTNwR1BBYjg?oc=5",
-      "source_name": "Forbes",
-      "published_at": "2026-07-22T23:21:24.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 4000,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_502438544",
       "vc_id": "menlo-ventures",
       "vc_name": "Menlo Ventures",
@@ -207,6 +185,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 32.5,
       "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_71699043",
+      "vc_id": "obvious",
+      "vc_name": "Obvious Ventures",
+      "company": "Dimension Capital",
+      "title": "Dimension Capital Raises $800 Million for Science-Compute Tech - Whalesbook",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOa1BwbXJYeHFIWUIwcktmaTJjN2RselFaZ3QtaWZxNVl2eXdaazJwb0d5U2VNMkdXcTJyMGZOOXpTSGNvMEFtYWJrTEJYem55YkRiZ1ZkcWszWTNvd1pJaGpmR3FKazFOY0tBZ2JVMlp3WFdvcThLTGhLZ04yVmRmZk0yVFNJR1FXbXdjTF8tYWNOazhSeUNSRUMyV0FFZjlsZnJqaHJUZWRfbDVRUHVnQXVybFFOYndFYXhPNnF0aHRNc2hhUEFlUHRrMU52SEgwbWNIdHhiNzJUUGc?oc=5",
+      "source_name": "Whalesbook",
+      "published_at": "2026-07-22T01:51:52.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 800,
+      "confidence": 0.81,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -371,50 +371,6 @@
       }
     },
     {
-      "id": "deal_1847457141",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Unknown",
-      "title": "Fireworks Lights Up with $1.51 Billion Funding - Devdiscourse",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaURYNGdGYURIdlNGVUhfN2lnX1VmWmZwbmU5VFVwOHVtWWJfTmQ5MjY1X1dsc2FWU28wVzA2MER0NnZLRE9SQmpJdmQzLVBFbEdnUWdiSk1DOU5mYlNHUnNIemw3MldQU3hGUENkdkcxLU5Lay1vY0FhLWZtQTNHSFNZOEVDUFhINmN0Sy0wTmpuSElwcno5MEkwc0x5dnpLR3fSAacBQVVfeXFMUGdZSFdBVWdoQjd4dy1MT1d4SmdDS0lCblVhWUpvdVBPRVdrcUNjdG1QTlFIXzBxXzRTLTAtVzRYckd4R29MMHppWmU1LWxKek1CTU9zZEgxV0xFcmh1bmZGWHY1LVhxMU16cjF0dHhsR1JBLTYxUFZYMGt5Vmo5cnppcnl2UjJrN2dqT3RaVHJHdUxoOWRQN2Yza3VqMFJsTzFfRUxveEk?oc=5",
-      "source_name": "Devdiscourse",
-      "published_at": "2026-07-16T14:51:48.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 1510,
-      "confidence": 0.61,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1056001922",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Unknown",
-      "title": "Nvidia-backed Fireworks hits $17.5 billion valuation as companies pursue cheaper AI models - CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlRKeDJCZWhSbUxXbTV6dTZPeUhPZ3FiN0MzV1pnVXM3NXAzRjRoTVJYSWhxVW0tNGctUVY4QzRIT3lTMUlWRHlNeTFubW11OTdMNHFEd09GMWxHcGRMVkJNcWlIS2I3bFZFVkpoWnNYUzJFOU51ZEprM3RGdE13SVRB0gGHAUFVX3lxTE1YWm5zQU5aTlhaSm10UEJPdENLSTVMTzBuQU5lY0xNX2hpNXFrTERPRXF4OHM3VE9NRElXcl9xQU94ODl2SG1rejVONUFUbnF6eTZtWGcydnV5Y1R2bTd0VHFzLWY1SEJTbFJNbmN5RGZsV1dGSXNnZDRSYnU4a2YwOU9WcGxIYw?oc=5",
-      "source_name": "CNBC",
-      "published_at": "2026-07-16T13:00:02.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 17500,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_118020089",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -459,23 +415,45 @@
       }
     },
     {
-      "id": "deal_1329782786",
-      "vc_id": "gv",
-      "vc_name": "GV",
-      "company": "Wonder",
-      "title": "Wonder Announces $650 Million Series D Round at a $9 Billion Pre-Money Valuation - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN2pIaFN3Z2VhUWZvOW9tMUh4R1dmb0xIeGtzWndfTnJPM2Jna3Q5RTAzOG0yUEJ1TmZIU2I3SEVoRTlfaklQbEZheTE1UnptRGxpR2dGNFFDdlF2WWNIb1JmcFNXR0VkblBfUGZNN09jV2s5U3dJTkNHX0hWLTgwTGlYZzRkcjZLeFI5WFFsUjY5cEEzbm9Id2NNYkQ5bUdiY2hKLTNLZXFrYUJmdEFocVhoR2J2UzBpdFh0YTJNbkt5TGJlN1doUVRPcEhmNkE?oc=5",
-      "source_name": "PR Newswire",
+      "id": "deal_150763231",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Exclusive: Prediction market startup Pascal",
+      "title": "Exclusive: Prediction market startup Pascal raises $9 million to challenge heavyweights Kalshi and Polymarket - inkl",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMUFTYmhsRWJKT2NLNGI1Zl9udkt4aXNJVUdXcFhGUGo4TXROMC1WaGZ6aGZBdTJmeGFZMDU4M2Rpa2g5X1Z6cVJiQnVPekxuazgza2xBdnpaQmV4UzNBcklhdDRHX3NLTGNwMkt3ZlVEajlCODRUZXpFV1lZeU1SMGlmWUVITXhreGdFRk13eTU5d0ZYOWthUmZKSmdlbU9PaG1LZ3cyN0JaY3JEYVhlMHVaTmtZal9ldnFKS0NqSGtpdm5IZmUxWTR5Wkotdw?oc=5",
+      "source_name": "inkl",
       "published_at": "2026-07-16T13:00:00.000Z",
-      "stage": "Series D+",
-      "sector": "Other",
-      "amount_usd_m": 650,
-      "confidence": 0.86,
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 9,
+      "confidence": 0.81,
       "location": {
-        "city": "Mountain View",
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_303526341",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Nvidia-backed Fireworks hits $17.5 billion valuation as companies pursue cheaper AI models - CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRlRKeDJCZWhSbUxXbTV6dTZPeUhPZ3FiN0MzV1pnVXM3NXAzRjRoTVJYSWhxVW0tNGctUVY4QzRIT3lTMUlWRHlNeTFubW11OTdMNHFEd09GMWxHcGRMVkJNcWlIS2I3bFZFVkpoWnNYUzJFOU51ZEprM3RGdE13SVRB0gGHAUFVX3lxTE1YWm5zQU5aTlhaSm10UEJPdENLSTVMTzBuQU5lY0xNX2hpNXFrTERPRXF4OHM3VE9NRElXcl9xQU94ODl2SG1rejVONUFUbnF6eTZtWGcydnV5Y1R2bTd0VHFzLWY1SEJTbFJNbmN5RGZsV1dGSXNnZDRSYnU4a2YwOU9WcGxIYw?oc=5",
+      "source_name": "CNBC",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 17500,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
         "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1185,28 +1163,6 @@
       }
     },
     {
-      "id": "deal_1632942923",
-      "vc_id": "general-catalyst",
-      "vc_name": "General Catalyst",
-      "company": "AI startup General Intuition",
-      "title": "AI startup General Intuition raises $320 million from Khosla Ventures, General Catalyst, Jeff Bezos - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbGd6TU0tSU1iaWJMUS01UDNwUHFaMTZ1Tmh3TVZJdWJqNlk0bDRiVElVMDhvaGRWNjZEZ1V6QlBYeHRIeFFrNGFET1VFa2h6Mlc4TkZnaFlHNExNNWNCc1c1Z1RlZnU2aWo0V1NzNVg3UTJ5Y2hod1c3M18xWUdDa0I5VFJTLV83RmJmUmVld0pfUm1RLVpQOU0zeUVYRXA4NW1vUUlNNDdIdUZBWWZ3WndqRzF3aFRrcVFkYWw5R1NWQVRXTkwtQURVcklHU3VBUG9ZTURjcnEzdlQtSHF0Rm5nUGhRYWhOLWVmZG5ydzk2eFE3a2fSAfsBQVVfeXFMUHhHOGlYMG9DU0puM2VWOWVUb1d0aVYtLWtfdGozQ0xJZXZjWnFKQnZBN1Z6MVNLZDJqbm9KVXFubWcwSFdHSVFNU0tJLTlqc3F6MDNMX0REYjQtWVdlRy1HNXpNcy1tY09EcFEyMC1MQktRTWhlNDQ4TGRiU1BDeWMyem84NDhwcGd0Z0ZaYmdsRWxfWjJXbmo1Nkx4TnlxQm5meUIzd3k0aXF6UnpTTC0wc3FFeTFuY3NLZGVIbGwxamUtSS1wdWluMGJPWWxXS0VLSFdUZ29uQkVHb2tnZDhRUlhlX3BBUi1iY1Z5YnBKV0E4b1NkbFEtTjA?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-06-26T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 320,
-      "confidence": 0.81,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1739525693",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -1368,18 +1324,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 19,
-      "weighted_score": 85.38,
+      "deal_count": 17,
+      "weighted_score": 75.18,
       "latest_at": "2026-07-23T08:47:34.000Z",
-      "amount_usd_m_total": 79962,
+      "amount_usd_m_total": 74452,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 15
+          "count": 14
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -1388,11 +1344,11 @@
           "count": 5
         },
         {
-          "name": "TCV",
-          "count": 3
+          "name": "Amplify Partners",
+          "count": 2
         },
         {
-          "name": "Amplify Partners",
+          "name": "New Enterprise Associates",
           "count": 2
         }
       ]
@@ -1403,14 +1359,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 14,
-      "weighted_score": 51.5,
+      "deal_count": 15,
+      "weighted_score": 56.22,
       "latest_at": "2026-07-23T03:11:48.000Z",
-      "amount_usd_m_total": 1056.86,
+      "amount_usd_m_total": 1856.86,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Other",
@@ -1438,14 +1394,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 11,
-      "weighted_score": 47.13,
+      "deal_count": 12,
+      "weighted_score": 49.94,
       "latest_at": "2026-07-21T11:08:00.000Z",
-      "amount_usd_m_total": 376976.5,
+      "amount_usd_m_total": 376985.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Other",
@@ -1464,33 +1420,6 @@
         {
           "name": "Coatue",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 4,
-      "weighted_score": 18.66,
-      "latest_at": "2026-07-15T14:20:43.000Z",
-      "amount_usd_m_total": 50370,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "General Catalyst",
-          "count": 3
-        },
-        {
-          "name": "F-Prime Capital",
-          "count": 1
         }
       ]
     },
@@ -1526,29 +1455,29 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 8.58,
-      "latest_at": "2026-07-16T13:00:00.000Z",
-      "amount_usd_m_total": 650,
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 3,
+      "weighted_score": 14.34,
+      "latest_at": "2026-07-15T14:20:43.000Z",
+      "amount_usd_m_total": 50050,
       "top_sectors": [
         {
-          "name": "Other",
-          "count": 1
-        },
-        {
           "name": "AI & ML",
-          "count": 1
+          "count": 3
         }
       ],
       "top_vcs": [
         {
-          "name": "GV",
+          "name": "General Catalyst",
           "count": 2
+        },
+        {
+          "name": "F-Prime Capital",
+          "count": 1
         }
       ]
     },
@@ -1663,6 +1592,29 @@
       "top_vcs": [
         {
           "name": "Bessemer Venture Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.11,
+      "latest_at": "2026-06-29T07:00:00.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "GV",
           "count": 1
         }
       ]
