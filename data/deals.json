@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T03:52:09.310Z",
+  "generated_at": "2026-07-26T08:37:45.323Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 45,
-    "total_deals": 45,
+    "scraped_deals": 44,
+    "total_deals": 44,
     "demo_mode": false,
-    "deals_with_coordinates": 45,
-    "runtime_ms": 5196,
+    "deals_with_coordinates": 44,
+    "runtime_ms": 3972,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1257782249",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Unknown",
+      "title": "National Pension Service Partners With 6 Top Silicon Valley VCs to Boost Korean Startup Investment - Seoul Economic Daily",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU203TmY1NC1vWHU5QnBqTXk3aDBYaGxJYnctczFMSjZUVWRpOVlrTjljVE5FU0pOZXFSdXY5VDlBTEVCWWdFNWdLb1VvUG5VRkkzV0RwM0FaUkR6emZvZkJVenRqekpPV21yLXM0ZVZTa19IMExIVHNuNUYtQUE0R1VQU01QWEd5QVhkOWJwSlp0VWRhSUxNblYzSkhZSkVpdk9j?oc=5",
+      "source_name": "Seoul Economic Daily",
+      "published_at": "2026-07-26T01:52:25.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1130911992",
       "vc_id": "bond",
@@ -124,28 +146,6 @@
         "state": "CA",
         "lat": 37.3382,
         "lon": -121.8863,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2020757735",
-      "vc_id": "costanoa",
-      "vc_name": "Costanoa Ventures",
-      "company": "Unknown",
-      "title": "Sheryl Sandberg leads $10 million investment in smartphone-based vehicle inspection startup - The Daily Star",
-      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWGVSSFg0NXRzVFdXQ0gycW5TVGZSdmh4M1o4R0xGenF5NG1tTWllTFdwUTYxWnBjdWRESzh5aGNqWmtUaDE1YVByZjd0LXAtRl8wUVpqVlVMb2VMUzJheG1EQURLaGNPSmFLMmV6RU1Femo3QUdYT3p1ZWY0ZEtLZTZKM0c4czBQRlN3Zm9OTEM1UkRlX1c0bER1cVJPMHlVV05XUml6Yk1nNmtvdlRsSnBpaW9NcUlyOWVxM29zNS1tRC1zdGtlTTM0NktqMEN5S2doRkw4bHJKZDFXeVh6cw?oc=5",
-      "source_name": "The Daily Star",
-      "published_at": "2026-07-22T11:59:55.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 10,
-      "confidence": 0.71,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -985,66 +985,9 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1739525693",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "AI startup General Intuition",
-      "title": "AI startup General Intuition raises $320 million from Khosla Ventures, General Catalyst, Jeff Bezos - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbGd6TU0tSU1iaWJMUS01UDNwUHFaMTZ1Tmh3TVZJdWJqNlk0bDRiVElVMDhvaGRWNjZEZ1V6QlBYeHRIeFFrNGFET1VFa2h6Mlc4TkZnaFlHNExNNWNCc1c1Z1RlZnU2aWo0V1NzNVg3UTJ5Y2hod1c3M18xWUdDa0I5VFJTLV83RmJmUmVld0pfUm1RLVpQOU0zeUVYRXA4NW1vUUlNNDdIdUZBWWZ3WndqRzF3aFRrcVFkYWw5R1NWQVRXTkwtQURVcklHU3VBUG9ZTURjcnEzdlQtSHF0Rm5nUGhRYWhOLWVmZG5ydzk2eFE3a2fSAfsBQVVfeXFMUHhHOGlYMG9DU0puM2VWOWVUb1d0aVYtLWtfdGozQ0xJZXZjWnFKQnZBN1Z6MVNLZDJqbm9KVXFubWcwSFdHSVFNU0tJLTlqc3F6MDNMX0REYjQtWVdlRy1HNXpNcy1tY09EcFEyMC1MQktRTWhlNDQ4TGRiU1BDeWMyem84NDhwcGd0Z0ZaYmdsRWxfWjJXbmo1Nkx4TnlxQm5meUIzd3k0aXF6UnpTTC0wc3FFeTFuY3NLZGVIbGwxamUtSS1wdWluMGJPWWxXS0VLSFdUZ29uQkVHb2tnZDhRUlhlX3BBUi1iY1Z5YnBKV0E4b1NkbFEtTjA?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-06-26T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 320,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
-    {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 13,
-      "weighted_score": 58.19,
-      "latest_at": "2026-07-23T08:47:34.000Z",
-      "amount_usd_m_total": 24022,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 11
-        },
-        {
-          "name": "Other",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Khosla Ventures",
-          "count": 5
-        },
-        {
-          "name": "TCV",
-          "count": 2
-        },
-        {
-          "name": "Greylock",
-          "count": 2
-        }
-      ]
-    },
     {
       "key": "San Francisco,CA",
       "city": "San Francisco",
@@ -1076,6 +1019,41 @@
         },
         {
           "name": "Prelude Ventures",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 13,
+      "weighted_score": 55.98,
+      "latest_at": "2026-07-26T01:52:25.000Z",
+      "amount_usd_m_total": 23702,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 11
+        },
+        {
+          "name": "Other",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Khosla Ventures",
+          "count": 4
+        },
+        {
+          "name": "New Enterprise Associates",
+          "count": 2
+        },
+        {
+          "name": "TCV",
           "count": 2
         }
       ]
@@ -1138,33 +1116,6 @@
         },
         {
           "name": "General Catalyst",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 6.66,
-      "latest_at": "2026-07-22T11:59:55.000Z",
-      "amount_usd_m_total": 135,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Costanoa Ventures",
-          "count": 1
-        },
-        {
-          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -1258,6 +1209,29 @@
         {
           "name": "Cisco Investments",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 1,
+      "weighted_score": 3.91,
+      "latest_at": "2026-07-09T07:00:00.000Z",
+      "amount_usd_m_total": 125,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Ribbit Capital",
+          "count": 1
         }
       ]
     },
