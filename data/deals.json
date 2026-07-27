@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T03:58:38.950Z",
+  "generated_at": "2026-07-27T10:06:17.611Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 41,
-    "total_deals": 41,
+    "scraped_deals": 42,
+    "total_deals": 42,
     "demo_mode": false,
-    "deals_with_coordinates": 41,
-    "runtime_ms": 4124,
+    "deals_with_coordinates": 42,
+    "runtime_ms": 3795,
     "note": "",
     "error_sample": []
   },
@@ -58,6 +58,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1978004694",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Insurance startup Corgi reportedly",
+      "title": "Insurance startup Corgi reportedly raised more money at $4B — its third round in 8 weeks - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEF2RW9tTC1DVWsxSUdCQjhfcVdPZHdxZFEzcmNIRHpENnI3RTk3b3VhRkNXcFVwQkg5bXEzanA3TS1LYmhfX3lBdXBpd0JXTFA2alQ5c2pDcW5uRHA5aVU5RnFDaFp3MzdwR0U5RGZHZnJDQ0l5bXoyYlpmb2N3akV2MGdnM2VWWmUyanRnYzJVdEhRTjhNMVJnTGI5aGU4MThNc0xNZjAxWDlUa0VtXzlWaUZtSEM3MVRta3FGX2JSQQ?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-23T20:13:24.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 4000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -190,6 +212,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1245051384",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Unknown",
+      "title": "Bessemer leads $6.7 Mn round in travel tech startup 30 Sundays - Entrackr",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1lQRnJCNmlEbnJjYjNteXQ5ZkJlZUtPdFRlbTJoN2o5WXE1dG9MeUREa2NsamxCQmNaNlZNUGhmNkRLQmRpRzZrVDFQc19XZkl5QTQ0TVh3Z0FfUWNvc2pZVGkwblYtWkJXMFUyZDRwUnYxNTNic0tDc3JyRzdYZ3dtRldFYk9vZVZLSjRud1JsNXJSN0V0RE8ydkl5dXEw0gGgAUFVX3lxTE5vWVBGckI2aURucmNiM215dDlmQmVlS090VGVtMmg3ajlZcTV0b0x5RERrY2xqbEJCY1o2Vk1QaGY2REtCZGlHNmtUMVBzX1dmSXlBNDRNWHdnQV9RY29zallUaTBuVi1aQlcwVTJkNHBSdjE1M2JzS0NzcnJHN1hnd21GV0ViT29lVktKNG53Umw1clI3RXRETzJ2SXl1cTA?oc=5",
+      "source_name": "Entrackr",
+      "published_at": "2026-07-21T03:29:12.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 6.7,
+      "confidence": 0.61,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -410,6 +454,28 @@
         "state": "MA",
         "lat": 42.3736,
         "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1857063804",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Oak",
+      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-15T11:17:00.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 60,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -789,50 +855,6 @@
       }
     },
     {
-      "id": "deal_1195990106",
-      "vc_id": "craft",
-      "vc_name": "Craft Ventures",
-      "company": "Venture capitalist Chamath Palihapitiya's 8090",
-      "title": "Venture capitalist Chamath Palihapitiya's 8090 raises $135 million led by Salesforce Ventures - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZVVUTnRiaHhReU9GTEt1X2J1S3pNVTR3Z0RBeHNNbE1xUUdINkgzYWhtZ2o1Vk5kSmc0QkNPbnBydDdSNHQ1YzRTUjdZTEVfZkJGNmpwSXJEbkc1WnFpN0ZwcXdDTmNvaW1mNDNSWkNPalRwZUpTeTRlcFh1X2NZOVN3aWlmSS1sOW5lVnJLand6cngyd1ppSmhtQWxtZTlMa1ZYaWlWVmU4Q1FWdk9DTHBQZ0FDVGRBNVBOM3ZEMFVEeUotc2ctQzdOeFpCZUFuSjdicC1mMWh1UXRFblpNRUtqTDVfbjczTTBGZ25IQdIB9AFBVV95cUxOcDdKRG5WTXpPdGJsaEF3eE9OZTJQME9GRVFERkQ5Qnc1Qjd0NzZMbUdXemg2eUxZNURDSUh4LUlNY2RINGh2aVRWR0dGLWRrSVZMMi00SGp6c2dWa29DOERoNTFuUEFkVlVWR2J0WnRidERHbF9iQnAySy1JVmVLbW9odFR1dDB0RmVyNFctTTlKXzFBVWZzYTJkdEoyS1F2N2gwWkVrYmFvc0JWRGR6cEFCVzhIc0ZUWVAyZ2hIS3VEQTlzOUNiS2lVUGZ5WHo5OG1vZXA4bmUtb2lTdGlnSnZiSllZT05nOHZnOFpXdExCVEZt?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-06-29T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 135,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_612797746",
-      "vc_id": "future",
-      "vc_name": "Future Ventures",
-      "company": "Unknown",
-      "title": "Early Tesla and SpaceX investor joins $28M raise for London startup addressing battery limitations in AI - Tech Funding News",
-      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqUnNmX2tGRjVxTjMtSHk1NGN6TmJqc0pkWHk0UjNmUkw2bFAzU0FVc0M1NjJnZnFvb3liU2E0NG5PdjkwWlBZSGc3WGZELVhVcEtmOTAxZjZkWlprU3FWc0dha0NyNUMwLTdSTnUxY1J5QWgxYmtKZ0hKb1g?oc=5",
-      "source_name": "Tech Funding News",
-      "published_at": "2026-06-29T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 28,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1024212123",
       "vc_id": "bond",
       "vc_name": "BOND",
@@ -923,54 +945,19 @@
   ],
   "bubbles": [
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 13,
-      "weighted_score": 54.7,
-      "latest_at": "2026-07-24T21:28:57.000Z",
-      "amount_usd_m_total": 33123.5,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 10
-        },
-        {
-          "name": "Other",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Craft Ventures",
-          "count": 3
-        },
-        {
-          "name": "BOND",
-          "count": 2
-        },
-        {
-          "name": "Prelude Ventures",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Menlo Park,CA",
       "city": "Menlo Park",
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 11,
-      "weighted_score": 48.71,
+      "deal_count": 13,
+      "weighted_score": 58.07,
       "latest_at": "2026-07-26T01:52:25.000Z",
-      "amount_usd_m_total": 23610,
+      "amount_usd_m_total": 27670,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 11
         },
         {
           "name": "Other",
@@ -978,6 +965,10 @@
         }
       ],
       "top_vcs": [
+        {
+          "name": "TCV",
+          "count": 3
+        },
         {
           "name": "Khosla Ventures",
           "count": 3
@@ -985,9 +976,40 @@
         {
           "name": "New Enterprise Associates",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 11,
+      "weighted_score": 47.58,
+      "latest_at": "2026-07-24T21:28:57.000Z",
+      "amount_usd_m_total": 32960.5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 8
         },
         {
-          "name": "TCV",
+          "name": "Other",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "BOND",
+          "count": 2
+        },
+        {
+          "name": "Craft Ventures",
+          "count": 2
+        },
+        {
+          "name": "Prelude Ventures",
           "count": 2
         }
       ]
@@ -1165,6 +1187,29 @@
       "top_vcs": [
         {
           "name": "Ribbit Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 1,
+      "weighted_score": 2.5,
+      "latest_at": "2026-07-21T03:29:12.000Z",
+      "amount_usd_m_total": 6.7,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
           "count": 1
         }
       ]
