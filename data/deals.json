@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T19:51:21.825Z",
+  "generated_at": "2026-07-28T03:30:43.290Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 44,
-    "total_deals": 44,
+    "scraped_deals": 43,
+    "total_deals": 43,
     "demo_mode": false,
-    "deals_with_coordinates": 44,
-    "runtime_ms": 4548,
+    "deals_with_coordinates": 43,
+    "runtime_ms": 4111,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_708387455",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Unknown",
+      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - AlleyWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3h5d0NncmZLRHFVdkQ2Q2ExUjBqSGFpMEFlNnlYeFdPUjFwWVA3bi1yajBBOVZrRmxFNG1jT2hlaTRUWnJwb1dfSDZpUzc1RU1SRDdyYXpZMjBFSldKNVc5OUVFVVdoR0lQZ0VjQV90YU5vTG9PaHBZakVrMkgtMTFXVHlKSUYyd1NF?oc=5",
+      "source_name": "AlleyWatch",
+      "published_at": "2026-07-27T20:01:01.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_640914022",
+      "vc_id": "boldstart",
+      "vc_name": "boldstart ventures",
+      "company": "Unknown",
+      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - AlleyWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3h5d0NncmZLRHFVdkQ2Q2ExUjBqSGFpMEFlNnlYeFdPUjFwWVA3bi1yajBBOVZrRmxFNG1jT2hlaTRUWnJwb1dfSDZpUzc1RU1SRDdyYXpZMjBFSldKNVc5OUVFVVdoR0lQZ0VjQV90YU5vTG9PaHBZakVrMkgtMTFXVHlKSUYyd1NF?oc=5",
+      "source_name": "AlleyWatch",
+      "published_at": "2026-07-27T20:01:01.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1257782249",
       "vc_id": "nea",
@@ -58,50 +102,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1361353288",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "Unknown",
-      "title": "Alphabet's $124 billion Anthropic stake reshapes how investors should read Google's earnings - Startup Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXdUV0ZOSjdHQzY1VWs4QU4tN1l2ejBRRlZ1bUNfOGI0bGhfdTFSTUJBQTI3U3Q0b0o2d2FROEJNYW9Ha093S0Q1VHZUQWVPTEJMMUZRVDFkTHZWVEJwVW5iamMwNnJuQkZLNGFwd1VQZWladksyQTU1OTdWT2ZfSTRpU2hEQnRIS0NxcThfbjZxbHBNWnVDb2o3RkdyQWNnRW1GZ0N1T0lEdnB2U2xPWldEcWNlSmJo?oc=5",
-      "source_name": "Startup Fortune",
-      "published_at": "2026-07-24T04:28:27.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 124000,
-      "confidence": 0.61,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1978004694",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Insurance startup Corgi reportedly",
-      "title": "Insurance startup Corgi reportedly raised more money at $4B — its third round in 8 weeks - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEF2RW9tTC1DVWsxSUdCQjhfcVdPZHdxZFEzcmNIRHpENnI3RTk3b3VhRkNXcFVwQkg5bXEzanA3TS1LYmhfX3lBdXBpd0JXTFA2alQ5c2pDcW5uRHA5aVU5RnFDaFp3MzdwR0U5RGZHZnJDQ0l5bXoyYlpmb2N3akV2MGdnM2VWWmUyanRnYzJVdEhRTjhNMVJnTGI5aGU4MThNc0xNZjAxWDlUa0VtXzlWaUZtSEM3MVRta3FGX2JSQQ?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-23T20:13:24.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 4000,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -190,28 +190,6 @@
         "state": "CA",
         "lat": 37.3382,
         "lon": -121.8863,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1870661750",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Travis Kalanick’s robotics",
-      "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTFNCcW9WTHpvRGNjV0xMUjNFNkhHR2l5cEEwS21ZR0ZuMGo3M05mWUZndldtMXN2dzExZzRpWllMYzBpU0w0a2pCWVlmWjlpU1ZPaEZOSVpfblhDU1loRHVJVnllYzNZN1BTdDRiMnNjd2Q5X05pempDVzVkNjlmU0VRS0FMTmlDUURoRzk5Y0NQUFlaT3ow?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-22T18:50:44.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 1700,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -520,28 +498,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1912717524",
-      "vc_id": "crosslink",
-      "vc_name": "Crosslink Capital",
-      "company": "Risk Ledger",
-      "title": "Risk Ledger Secures $32M Series B - StartupHub.ai",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkFzaDB5MXlmU3dhRERvWUdOSlZBN3U0VFQwRGh4TGMtZDJ0eUhFem1nMVk4dG9VQ191X3ZvdGdYdFhxUkRSRzRGMWc3WGlqUmhBVUhjSFhxQW9xdk56eDJlNzR2STdWc294NzFySjZFaEljQ2lERmVsX0Z1bm1GNHJaLU1OcGpQX21ERDFn?oc=5",
-      "source_name": "StartupHub.ai",
-      "published_at": "2026-07-15T12:59:18.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 32,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -899,6 +855,28 @@
       }
     },
     {
+      "id": "deal_1195990106",
+      "vc_id": "craft",
+      "vc_name": "Craft Ventures",
+      "company": "Venture capitalist Chamath Palihapitiya's 8090",
+      "title": "Venture capitalist Chamath Palihapitiya's 8090 raises $135 million led by Salesforce Ventures - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZVVUTnRiaHhReU9GTEt1X2J1S3pNVTR3Z0RBeHNNbE1xUUdINkgzYWhtZ2o1Vk5kSmc0QkNPbnBydDdSNHQ1YzRTUjdZTEVfZkJGNmpwSXJEbkc1WnFpN0ZwcXdDTmNvaW1mNDNSWkNPalRwZUpTeTRlcFh1X2NZOVN3aWlmSS1sOW5lVnJLand6cngyd1ppSmhtQWxtZTlMa1ZYaWlWVmU4Q1FWdk9DTHBQZ0FDVGRBNVBOM3ZEMFVEeUotc2ctQzdOeFpCZUFuSjdicC1mMWh1UXRFblpNRUtqTDVfbjczTTBGZ25IQdIB9AFBVV95cUxOcDdKRG5WTXpPdGJsaEF3eE9OZTJQME9GRVFERkQ5Qnc1Qjd0NzZMbUdXemg2eUxZNURDSUh4LUlNY2RINGh2aVRWR0dGLWRrSVZMMi00SGp6c2dWa29DOERoNTFuUEFkVlVWR2J0WnRidERHbF9iQnAySy1JVmVLbW9odFR1dDB0RmVyNFctTTlKXzFBVWZzYTJkdEoyS1F2N2gwWkVrYmFvc0JWRGR6cEFCVzhIc0ZUWVAyZ2hIS3VEQTlzOUNiS2lVUGZ5WHo5OG1vZXA4bmUtb2lTdGlnSnZiSllZT05nOHZnOFpXdExCVEZt?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-06-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 135,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1024212123",
       "vc_id": "bond",
       "vc_name": "BOND",
@@ -994,18 +972,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 16,
-      "weighted_score": 74.28,
+      "deal_count": 13,
+      "weighted_score": 57.12,
       "latest_at": "2026-07-26T01:52:25.000Z",
-      "amount_usd_m_total": 153820,
+      "amount_usd_m_total": 24120,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 11
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -1014,12 +992,12 @@
           "count": 3
         },
         {
-          "name": "TCV",
+          "name": "Khosla Ventures",
           "count": 3
         },
         {
-          "name": "Khosla Ventures",
-          "count": 3
+          "name": "TCV",
+          "count": 2
         }
       ]
     },
@@ -1030,9 +1008,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 13,
-      "weighted_score": 56.78,
+      "weighted_score": 56.24,
       "latest_at": "2026-07-24T21:28:57.000Z",
-      "amount_usd_m_total": 33792.5,
+      "amount_usd_m_total": 33895.5,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1045,11 +1023,11 @@
       ],
       "top_vcs": [
         {
-          "name": "BOND",
-          "count": 2
+          "name": "Craft Ventures",
+          "count": 3
         },
         {
-          "name": "Craft Ventures",
+          "name": "BOND",
           "count": 2
         },
         {
@@ -1064,9 +1042,9 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 30.27,
-      "latest_at": "2026-07-21T11:08:00.000Z",
+      "deal_count": 9,
+      "weighted_score": 34.29,
+      "latest_at": "2026-07-27T20:01:01.000Z",
       "amount_usd_m_total": 376078,
       "top_sectors": [
         {
@@ -1075,16 +1053,16 @@
         },
         {
           "name": "Other",
-          "count": 1
+          "count": 3
         }
       ],
       "top_vcs": [
         {
-          "name": "Lux Capital",
-          "count": 2
+          "name": "Union Square Ventures",
+          "count": 3
         },
         {
-          "name": "Union Square Ventures",
+          "name": "Lux Capital",
           "count": 2
         },
         {
