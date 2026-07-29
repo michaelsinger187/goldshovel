@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T19:49:15.079Z",
+  "generated_at": "2026-07-29T03:34:14.322Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,24 +9,68 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 50,
-    "total_deals": 50,
+    "scraped_deals": 51,
+    "total_deals": 51,
     "demo_mode": false,
-    "deals_with_coordinates": 50,
-    "runtime_ms": 4010,
+    "deals_with_coordinates": 51,
+    "runtime_ms": 3701,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
-      "id": "deal_1647444593",
+      "id": "deal_2051262099",
+      "vc_id": "f-prime",
+      "vc_name": "F-Prime Capital",
+      "company": "Flourish Health",
+      "title": "Flourish Health raises $46M to bring psychiatrist-led teams into homes as an alternative to psychiatric wards - Startup Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVmRuaXl1bzlPTVFIRVdIYml3bjBmSXJwZ3BsOTZnWTlLZWVucmwxc1hLRXQwc0YtYlQ4NFVFZTEyU1B0TVhGbEJQZVJMWHR1YnBZdGtLSUxMbFAyOVZURkNyTk90UFhLbXJSSDV6d0hDX0tXcE5HX3Q0OHo3YzNlWTZoclNzQmhfNWdaaUJWd29EVVRlMEREeFVOd09hVlZmNy1UTEVJX3FKb3V5cXlEbTBRbE5ycFY3SGw5cUFSZl9kM2tNVkxiaHlSdmRPcWNWcXc?oc=5",
+      "source_name": "Startup Fortune",
+      "published_at": "2026-07-28T19:13:40.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 46,
+      "confidence": 0.81,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1326346876",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Freight Forwarding AI Workers: Munich Startup",
+      "title": "Freight Forwarding AI Workers: Munich Startup Raises $3.2M Backed by DHL and Maersk Execs - Tech Times",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVjlEMFh6NVFtblBJaEdjM1cxZ0ZYWlB5ZzZQaFo2WEdsVDhsX0ZsZ3FlVGFwRDhoYTVKRmQwdXUxYTVyTWFId3VQRF9yUnNFQXZqdXJZSTdwb2l3Y2VHdl80aExxODFyQXBjeEdNOERSZ3N0dXV6SFVNdldScy1yUGFMdFJ3d1pkWDlKNmg0VzJFdHBwZDc3eWFpQm9WZXVpNHM3d1pBWjg5b29MdFByRlR2UWxIakNlNDlodTFGRW1VNnFBSEk0TkFVN3o3Um8?oc=5",
+      "source_name": "Tech Times",
+      "published_at": "2026-07-28T18:44:03.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 3.2,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1231257912",
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Unknown",
       "title": "Founders who sold their startup to Cisco raise $34 million to kill IT tickets. Read their new AI startup's pitch deck. - Business Insider",
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1dmR0VHM0FHbDkwQ19ISFRNODY3LXh0MTdZZFVRd002ZDdsQ2NENmRyQzRENlZrYnowdUVMcHBMUWNDVk9kVElGYnZLdUt5bEpyTi1xUGYxR2Q0dUdmNExlMDllalZ4MWtvQ0NPQ3BVZnFLQmdPaFozbmI0NEJqaVh6OHp0OUU0RTR2MWlfQjhuX19XVmcyRElNcFZfbGpR?oc=5",
       "source_name": "Business Insider",
-      "published_at": "2026-07-28T14:33:28.000Z",
+      "published_at": "2026-07-28T13:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 34,
@@ -41,14 +85,14 @@
       }
     },
     {
-      "id": "deal_1897350785",
-      "vc_id": "boldstart",
-      "vc_name": "boldstart ventures",
+      "id": "deal_274259813",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
       "company": "Unknown",
       "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - AlleyWatch",
       "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR0tKWU51Z0UtZUhmMmt4Zjd2dFRMS09Ra2lpSHgxb2RvNm84bHBJRldlc3BYMHplS1hUUDRHT2x6Y2JtSDNFdDVXVWZxSVp3Y05zRHA4TE52a2NhYWJ2b3pTNWV3WFFFbjRvXzR5UUZoQWljVkdmaElOdjhaV3dNd29MUnNYUQ?oc=5",
       "source_name": "AlleyWatch",
-      "published_at": "2026-07-27T20:01:37.000Z",
+      "published_at": "2026-07-27T20:01:03.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -63,14 +107,14 @@
       }
     },
     {
-      "id": "deal_708387455",
-      "vc_id": "usv",
-      "vc_name": "Union Square Ventures",
+      "id": "deal_379411136",
+      "vc_id": "boldstart",
+      "vc_name": "boldstart ventures",
       "company": "Unknown",
       "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3h5d0NncmZLRHFVdkQ2Q2ExUjBqSGFpMEFlNnlYeFdPUjFwWVA3bi1yajBBOVZrRmxFNG1jT2hlaTRUWnJwb1dfSDZpUzc1RU1SRDdyYXpZMjBFSldKNVc5OUVFVVdoR0lQZ0VjQV90YU5vTG9PaHBZakVrMkgtMTFXVHlKSUYyd1NF?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR0tKWU51Z0UtZUhmMmt4Zjd2dFRMS09Ra2lpSHgxb2RvNm84bHBJRldlc3BYMHplS1hUUDRHT2x6Y2JtSDNFdDVXVWZxSVp3Y05zRHA4TE52a2NhYWJ2b3pTNWV3WFFFbjRvXzR5UUZoQWljVkdmaElOdjhaV3dNd29MUnNYUQ?oc=5",
       "source_name": "AlleyWatch",
-      "published_at": "2026-07-27T20:01:01.000Z",
+      "published_at": "2026-07-27T20:01:03.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -168,28 +212,6 @@
         "state": "CA",
         "lat": 37.3382,
         "lon": -121.8863,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1390385167",
-      "vc_id": "nea",
-      "vc_name": "New Enterprise Associates",
-      "company": "CuspAI",
-      "title": "CuspAI Raises $450 Million at $2.6 Billion Valuation to Accelerate Materials Discovery - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDNrd0NUd0NVNFMwc05vUmFoTjh2M3NrWF9GOTY2OFhkMnR6d0I5ZWFkNG1QNld3ZFN5by1uMjVweTFMUHAtUFJ0SFpUb0tIdEc4bWZBUzBQbFZYamoyWHVVQXdaQUxDWXd3dlpyWVZsOGFDbk5ZcGdyWG1Lb0pUdW1tcWhiZEFhQ3lFY1Axak8wVjJsd3BxQVkzOUc?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-07-23T12:54:03.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 450,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -344,28 +366,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1245051384",
-      "vc_id": "bessemer",
-      "vc_name": "Bessemer Venture Partners",
-      "company": "Unknown",
-      "title": "Bessemer leads $6.7 Mn round in travel tech startup 30 Sundays - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1lQRnJCNmlEbnJjYjNteXQ5ZkJlZUtPdFRlbTJoN2o5WXE1dG9MeUREa2NsamxCQmNaNlZNUGhmNkRLQmRpRzZrVDFQc19XZkl5QTQ0TVh3Z0FfUWNvc2pZVGkwblYtWkJXMFUyZDRwUnYxNTNic0tDc3JyRzdYZ3dtRldFYk9vZVZLSjRud1JsNXJSN0V0RE8ydkl5dXEw0gGgAUFVX3lxTE5vWVBGckI2aURucmNiM215dDlmQmVlS090VGVtMmg3ajlZcTV0b0x5RERrY2xqbEJCY1o2Vk1QaGY2REtCZGlHNmtUMVBzX1dmSXlBNDRNWHdnQV9RY29zallUaTBuVi1aQlcwVTJkNHBSdjE1M2JzS0NzcnJHN1hnd21GV0ViT29lVktKNG53Umw1clI3RXRETzJ2SXl1cTA?oc=5",
-      "source_name": "Entrackr",
-      "published_at": "2026-07-21T03:29:12.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 6.7,
-      "confidence": 0.61,
-      "location": {
-        "city": "Redwood City",
-        "state": "CA",
-        "lat": 37.4852,
-        "lon": -122.2364,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -569,28 +569,6 @@
       }
     },
     {
-      "id": "deal_1912717524",
-      "vc_id": "crosslink",
-      "vc_name": "Crosslink Capital",
-      "company": "Risk Ledger",
-      "title": "Risk Ledger Secures $32M Series B - StartupHub.ai",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkFzaDB5MXlmU3dhRERvWUdOSlZBN3U0VFQwRGh4TGMtZDJ0eUhFem1nMVk4dG9VQ191X3ZvdGdYdFhxUkRSRzRGMWc3WGlqUmhBVUhjSFhxQW9xdk56eDJlNzR2STdWc294NzFySjZFaEljQ2lERmVsX0Z1bm1GNHJaLU1OcGpQX21ERDFn?oc=5",
-      "source_name": "StartupHub.ai",
-      "published_at": "2026-07-15T12:59:18.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 32,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_649801983",
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
@@ -679,6 +657,28 @@
       }
     },
     {
+      "id": "deal_625434535",
+      "vc_id": "qed",
+      "vc_name": "QED Investors",
+      "company": "Velocity",
+      "title": "Velocity Raises $38 Million Series A to Bring Enterprise-Grade Stablecoin Infrastructure to Global Treasury and Payments - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRWpsdVE4UkNjaUdrUDlLdGplblg0TDNFSkpROF9TOWFjRjgzRVBjR0xVaW5ya0t2dUVpNzZZOUNzZXhFelR5eW5QNnVMZVlIbmhWRkVlN1VpYWE0T0NUWEttYXBDWEtqdVNlVlA2cEdva2xrUU1VZ0Y0VGl3eUx4VnhMeXNuNzZyQzZwamJqbWtIb2cwT2hfSVc4TzNEdlo0cWwyUnF5VnlOeGdzUEFjeGU4SmQ5ZnhUcW9xc2ZacFpiaEE0MFlaTVBNN3gyLThKbnRTRmN1VVA4OHk1S2txbnIyS3dTNE5sNXU1NWJiMGpyVVduLVZTdndySkRranNKWEpueEpSb3A5aEE?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-07-14T13:05:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 38,
+      "confidence": 0.96,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_737987315",
       "vc_id": "greylock",
       "vc_name": "Greylock",
@@ -691,6 +691,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1500,
       "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1026758618",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "TerraFirma",
+      "title": "TerraFirma Raises $115M to Accelerate Construction on Earth and Beyond - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZUtLUWlGN2djeHM4RWpCNlVMRWQtclpOSWI1MmtINFZ6WFZOMW1JZDEyelZZWTB1cE1ObElLd0M5bGdGRlN4cGVQSC1hQmp2bHRUaGpxTkFjT2xLamxFQTlsdWxZU3YzeXhtaXVlUXQ3dGp6ZEhzbUQ0ejhJekx0M21aV1VLdGU3U3BBZkZJNnBLWGtLTFZTLXpQeUlublVrQ3kyNEE2b2ZqMk9Zb3BCMzVkdlJLN3NYdl9pWGp6Z0tLN2ZLMjNOaA?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-07-14T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 115,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1127,9 +1149,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 15,
-      "weighted_score": 66.71,
+      "weighted_score": 66.12,
       "latest_at": "2026-07-26T02:40:28.000Z",
-      "amount_usd_m_total": 26570,
+      "amount_usd_m_total": 26235,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1143,7 +1165,7 @@
       "top_vcs": [
         {
           "name": "New Enterprise Associates",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Khosla Ventures",
@@ -1162,9 +1184,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 15,
-      "weighted_score": 61.65,
-      "latest_at": "2026-07-28T14:33:28.000Z",
-      "amount_usd_m_total": 26872.5,
+      "weighted_score": 59.61,
+      "latest_at": "2026-07-28T18:44:03.000Z",
+      "amount_usd_m_total": 26843.7,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1198,7 +1220,7 @@
       "lon": -74.006,
       "deal_count": 9,
       "weighted_score": 34.29,
-      "latest_at": "2026-07-27T20:01:37.000Z",
+      "latest_at": "2026-07-27T20:01:03.000Z",
       "amount_usd_m_total": 376078,
       "top_sectors": [
         {
@@ -1231,17 +1253,17 @@
       "state": "MA",
       "lat": 42.3736,
       "lon": -71.1097,
-      "deal_count": 2,
-      "weighted_score": 9.02,
-      "latest_at": "2026-07-15T11:31:06.000Z",
-      "amount_usd_m_total": 1830,
+      "deal_count": 3,
+      "weighted_score": 12.5,
+      "latest_at": "2026-07-28T19:13:40.000Z",
+      "amount_usd_m_total": 1876,
       "top_sectors": [
         {
-          "name": "Other",
-          "count": 1
+          "name": "AI & ML",
+          "count": 2
         },
         {
-          "name": "AI & ML",
+          "name": "Other",
           "count": 1
         }
       ],
@@ -1249,6 +1271,10 @@
         {
           "name": "General Catalyst",
           "count": 2
+        },
+        {
+          "name": "F-Prime Capital",
+          "count": 1
         }
       ]
     },
@@ -1353,24 +1379,24 @@
       ]
     },
     {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
+      "key": "Alexandria,VA",
+      "city": "Alexandria",
+      "state": "VA",
+      "lat": 38.8048,
+      "lon": -77.0469,
       "deal_count": 1,
-      "weighted_score": 2.5,
-      "latest_at": "2026-07-21T03:29:12.000Z",
-      "amount_usd_m_total": 6.7,
+      "weighted_score": 4.15,
+      "latest_at": "2026-07-14T13:05:00.000Z",
+      "amount_usd_m_total": 38,
       "top_sectors": [
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Bessemer Venture Partners",
+          "name": "QED Investors",
           "count": 1
         }
       ]
