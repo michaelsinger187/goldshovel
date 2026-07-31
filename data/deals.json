@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T19:48:01.743Z",
+  "generated_at": "2026-07-31T03:47:01.005Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 54,
-    "total_deals": 54,
+    "scraped_deals": 56,
+    "total_deals": 56,
     "demo_mode": false,
-    "deals_with_coordinates": 54,
-    "runtime_ms": 4590,
+    "deals_with_coordinates": 56,
+    "runtime_ms": 4656,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_255233256",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Freehand",
+      "title": "Freehand raises $75 million to let AI agents decide which invoices Fortune 500 companies pay - Startup Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVnlYYkQ4T3E0WXFzcFFWT3JSenNiY1F6WC1mbXRMV0NwM0lNUGdzRTVLS1h2enVTNVE4WXp1YkNnbUtheC05b3ZNYmVfWWpZc25zY2Z6LWZsSXdDOVRDcmhnRlBMVm1GbklYbm90ZzlzZWx1X0xSNUlLRWhnNjRPdUFsZWUxaFJUWkRoMkQ4akNpUnBobEpENkt2ZjhXclc1V2E2RmR5dUlheWEybDhtNENIczhQUDFQM2hF?oc=5",
+      "source_name": "Startup Fortune",
+      "published_at": "2026-07-30T15:58:39.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 75,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_915830798",
       "vc_id": "battery",
@@ -111,9 +133,9 @@
       "vc_id": "cisco",
       "vc_name": "Cisco Investments",
       "company": "Eliyan",
-      "title": "Eliyan raises $145 million at a $1 billion valuation as AI's real bottleneck moves between chips - startupfortune.com",
+      "title": "Eliyan raises $145 million at a $1 billion valuation as AI's real bottleneck moves between chips - Startup Fortune",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQjVSY0FrNUp2cHNteW1fZTFOZTM5T2U5bXpTRFBkODdoX05ZODZoU1ZmSlNSbWRqbFRJWGRrM2hDeTBPdHhrbDRKbUZqbndlOUZrY0JTZHczN3dUenpnTS1ZaWFxUkJDZzM3eThEUkRDSjViWFhtdlNhMW9pQjJ1UjdyMF94Q0R4Y0w0WE1WMHhORzk4dm43cUY5X1JOWFVqMEhWVmJDZHVySDJ1VzhrWV9YT0ZoY2REN0IyZWl3?oc=5",
-      "source_name": "startupfortune.com",
+      "source_name": "Startup Fortune",
       "published_at": "2026-07-29T15:29:54.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -129,14 +151,14 @@
       }
     },
     {
-      "id": "deal_1129878762",
+      "id": "deal_913931143",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
       "company": "Engineering AI startup, P-1 AI,",
-      "title": "Engineering AI startup, P-1 AI, Announces Its Series A Financing Led by NEA, Adding Jeff Immelt to the Company’s Board - markets.businessinsider.com",
-      "source_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOOGg1THlzYUZEREV4MjVXN0IwMEtNcnU5SzdoM1NoM1RsRkNmbHpYMHlpWTAtQTFoYVhIR2dhc0pkY0NnaGlscDBTZ3NSOHZIbkxKTVNuOC1TN2d3Z1J2ZnhCNW5odklaYWFyT2JVNktJTXJJQjhpRTJGeWtUWVV2RWdZdlFsUnVlUEk4TEI3cEFEOWZOSjh0SVRuV01PWXZaeXNtVEJWUjkxdG9BcEVOanlpcW5iM0o3WXFIMTNLOEZGMklTOTI4SUJlYXM5LWhrMzMwcVR3S21lbGdtREdYYmh4RjN6RmhWXzVrOUVsRmpWZTVSUkV1V3dNMnJuWWVrbEw0ZQ?oc=5",
-      "source_name": "markets.businessinsider.com",
-      "published_at": "2026-07-29T13:08:52.000Z",
+      "title": "Engineering AI startup, P-1 AI, Announces Its Series A - GlobeNewswire",
+      "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYi1HSThoNzVhZ0tUZmlZejZTQUplcmk3Vy1yYl9SMnlhcGVOQXZ5d2l5ZlpOZFZRUjJScUY0aFFtam5XQjktUS1iTGROaXJBbmtXaHc5azRjak02bDl1bGRWVmhpTzAwbFhaTFlXUUp3dWJNVDhPUU5rU2REdmFiUERSX09CcGJ0VEpFVTdmd0l4VnF2X0FFSU9WZlZ2WkhPYURyNkpfdXZMbnJkYlMzRlZOWUp0R19PWDMwNVV4OXlTejFYQjU3WWR4Rkl6dWtENS1VZzM3aW5hQmNKSExkWjc2VkpnX0I3Z2pqY3c1YnRYZGJVRXhGYmVXUDQ0aThtM1ZvamFpX0sxZW56akNla2kyeWJfQQ?oc=5",
+      "source_name": "GlobeNewswire",
+      "published_at": "2026-07-29T12:35:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
       "amount_usd_m": null,
@@ -217,13 +239,35 @@
       }
     },
     {
+      "id": "deal_453429465",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Harmony",
+      "title": "Harmony Raises $34 Million to Automate Workplace IT and HR Requests - ascendants.in",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRnlWMnREd2Zfd0dXZlB5RXZWZkR0Z2NrOEY3SXlHVVdXUnY5WjVoakRhXzcxdVZNNEdzc1prUHBQN0ZKZG9HTUlxb2lWOGNtTVlZclhVdld4c0xSZkxXMnVESHB6Y1FpMnRlbGpYXzVNRWIyek5OMTdKaS1FcnpRTjlBTG03ZG5JQXR2NlE2RQ?oc=5",
+      "source_name": "ascendants.in",
+      "published_at": "2026-07-29T07:50:17.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 34,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1878920897",
       "vc_id": "fin-capital",
       "vc_name": "Fin Capital",
       "company": "Unknown",
-      "title": "Epsagon founders raise $34M seed round for Harmony, an AI agent platform built inside Slack and Teams - startupfortune.com",
+      "title": "Epsagon founders raise $34M seed round for Harmony, an AI agent platform built inside Slack and Teams - Startup Fortune",
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRFV0a0V3cGZMVTZRZjdLMGFEeWdpNGxkZUgtYVk2WE5KSXFOS3pMMzZOMFRmOVhzYXByYWE4d2FwVy1tcTJDUXlOS2NFTWNKcHdmQWlTUXJZZGVwemJUVm1kbGhBTnozalgzNmZUTk5xY1BONlJxQ0JHUDNBcHlmbm1kWXN1dno5NjZYekwwc1R4eUVURUVhV2s0cEVsdzM3N0N6clFZem9nb0MyTG5YMURBSHQ5SFNLbWx1TENPS1d5ZnE0UEE?oc=5",
-      "source_name": "startupfortune.com",
+      "source_name": "Startup Fortune",
       "published_at": "2026-07-29T05:22:43.000Z",
       "stage": "Seed",
       "sector": "AI & ML",
@@ -243,9 +287,9 @@
       "vc_id": "f-prime",
       "vc_name": "F-Prime Capital",
       "company": "Flourish Health",
-      "title": "Flourish Health raises $46M to bring psychiatrist-led teams into homes as an alternative to psychiatric wards - startupfortune.com",
+      "title": "Flourish Health raises $46M to bring psychiatrist-led teams into homes as an alternative to psychiatric wards - Startup Fortune",
       "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVmRuaXl1bzlPTVFIRVdIYml3bjBmSXJwZ3BsOTZnWTlLZWVucmwxc1hLRXQwc0YtYlQ4NFVFZTEyU1B0TVhGbEJQZVJMWHR1YnBZdGtLSUxMbFAyOVZURkNyTk90UFhLbXJSSDV6d0hDX0tXcE5HX3Q0OHo3YzNlWTZoclNzQmhfNWdaaUJWd29EVVRlMEREeFVOd09hVlZmNy1UTEVJX3FKb3V5cXlEbTBRbE5ycFY3SGw5cUFSZl9kM2tNVkxiaHlSdmRPcWNWcXc?oc=5",
-      "source_name": "startupfortune.com",
+      "source_name": "Startup Fortune",
       "published_at": "2026-07-28T19:13:40.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -331,9 +375,9 @@
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
       "company": "Marc Lore",
-      "title": "Marc Lore raises $650 million for Wonder at a $9 billion valuation and eyes an IPO in early 2027 - startupfortune.com",
+      "title": "Marc Lore raises $650 million for Wonder at a $9 billion valuation and eyes an IPO in early 2027 - Startup Fortune",
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTZaMG90ZmRUM3Nna01XN2VSeHFKUDRjUlQzQVZXNUN3cXRONndmMEtuR0Y5NkpQdkhETzJKdVRQTW1RUVJ0a2lPbnEtT3JiT3ROVUM5alMxX1BiU2JQcng2U1BnUWtKMGN3MzFEOXZDS1VjaG5senUxMy1lMldkYmp6QlpLWEhzdzFRdWVmMTQyZEdTeTR5N29DX19GVENfWmZjMm5qalAxeFdpNDdkdHFLVmJSMU5iOUt5ckxqcw?oc=5",
-      "source_name": "startupfortune.com",
+      "source_name": "Startup Fortune",
       "published_at": "2026-07-26T02:40:28.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -393,35 +437,13 @@
       }
     },
     {
-      "id": "deal_1361353288",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "Unknown",
-      "title": "Alphabet's $124 billion Anthropic stake reshapes how investors should read Google's earnings - startupfortune.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVXdUV0ZOSjdHQzY1VWs4QU4tN1l2ejBRRlZ1bUNfOGI0bGhfdTFSTUJBQTI3U3Q0b0o2d2FROEJNYW9Ha093S0Q1VHZUQWVPTEJMMUZRVDFkTHZWVEJwVW5iamMwNnJuQkZLNGFwd1VQZWladksyQTU1OTdWT2ZfSTRpU2hEQnRIS0NxcThfbjZxbHBNWnVDb2o3RkdyQWNnRW1GZ0N1T0lEdnB2U2xPWldEcWNlSmJo?oc=5",
-      "source_name": "startupfortune.com",
-      "published_at": "2026-07-24T04:28:27.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 124000,
-      "confidence": 0.61,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1447523478",
       "vc_id": "cisco",
       "vc_name": "Cisco Investments",
       "company": "Israeli cyber startup led by Iranian-born security veteran.",
-      "title": "Cisco backs Israeli cyber startup led by Iranian-born security veteran - timesofisrael.com",
+      "title": "Cisco backs Israeli cyber startup led by Iranian-born security veteran - The Times of Israel",
       "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc1pRUnpySUh0bTFtSVNsNHpKekpqQXZjZldObkhYSUNUWV9mcnc0WFFQekNjd04wV21ndngwLWtYb2pKc3FyZkllZWdsS25kTV84Zy1CVmdxb3FMR0NfWjZGNWxJQzhONWc4RzBKTl8zTGxrVWJpVkFGOUZUa0c1M2p5cl9FUGlHLUFrVmVmdXRYcjNkcG9id3AxYjY2TGNOM3k40gGoAUFVX3lxTE5VWFFVSVFsYk1NU3hobzZDYVJKYjFDbzZQbEF3T1VyTHJtWlVTVlV0blg2MXg0Y01LOTlfQi1mM3ROWHNpc0g5NzQ0Y29fbFVMT0JWYXJYZm9JeENTdWdDS0JJcnJMVzE1SnJUSkQ0SXI2S1dxZVBRMngxcUZOa2hiQXpGVjBHaVdLNjUtR0ZOaG55bmZOOGlEOENUNnYyUmdDQ2g4Ylp3LQ?oc=5",
-      "source_name": "timesofisrael.com",
+      "source_name": "The Times of Israel",
       "published_at": "2026-07-23T18:39:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -503,35 +525,13 @@
       }
     },
     {
-      "id": "deal_2038216683",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "Dezerv",
-      "title": "Dezerv raises ₹350 crore in funding led by Premji Invest and Accel - Startup Story",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVpiWkNqYlF0bm9sb2VrUzdiV0dFVzNmdGpJODhuazVCdVBQSXhxWTJRUi1LSnB2RVRhZzZ5UkZYUzhzMzZORW8weVRxT1pzSEg0UXo2T1VBZ2VOS3UyQmVSMEthdVQyTm9Gd2VBQlJVaVpjNHJzYThCYVhFbGZjOVFXb0xMaXdzZ25MY0xGeTY3dTJVRUIwTUR6MkdBTm1NMnM0MS01VjUyZExTQmx0SVNB?oc=5",
-      "source_name": "Startup Story",
-      "published_at": "2026-07-22T10:10:01.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_834323949",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
       "company": "Fierce Healthcare Fundraising Tracker '26: Bunkerhill Health",
-      "title": "Fierce Healthcare Fundraising Tracker '26: Bunkerhill Health closes series B round; Corner Health lands $32.5M - Fierce Healthcare",
+      "title": "Fierce Healthcare Fundraising Tracker '26: Bunkerhill Health closes series B round; Corner Health lands $32.5M - fiercehealthcare.com",
       "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-      "source_name": "Fierce Healthcare",
+      "source_name": "fiercehealthcare.com",
       "published_at": "2026-07-22T07:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
@@ -815,9 +815,9 @@
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
       "company": "US",
-      "title": "Pension fund joins US$1.8 billion funding round for defence startup - Benefits and Pensions Monitor",
+      "title": "Pension fund joins US$1.8 billion funding round for defence startup - benefitsandpensionsmonitor.com",
       "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWDM0SnBfamRUQjNLUlFEWWUzNllhTjJIajh2OWNJcGFubmQ1Yy05MnI3aHJFR2pxRTFpR1dmc0tFUmptNnpXUFBkdk9sajVjMUQwd1VpeXR5dGFLRWZNLTU0Um9rX0x0c19sSEJKM0QtSjIwN1JpYjRHV2c2N2J5WjZnMzQ0MVd0TExDeUlOaUppQ0R0aS1yU1NVZ19EdFdyQWVvQlBUd0xkMkhBUnE3WGt3SnhidTlQVWJibjRYMXYwc0laYngtWTdhZkFpMU0?oc=5",
-      "source_name": "Benefits and Pensions Monitor",
+      "source_name": "benefitsandpensionsmonitor.com",
       "published_at": "2026-07-15T11:31:06.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -837,9 +837,9 @@
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
       "company": "US",
-      "title": "Pension fund joins US$1.8 billion funding round for defence startup - Benefits and Pensions Monitor",
+      "title": "Pension fund joins US$1.8 billion funding round for defence startup - benefitsandpensionsmonitor.com",
       "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWDM0SnBfamRUQjNLUlFEWWUzNllhTjJIajh2OWNJcGFubmQ1Yy05MnI3aHJFR2pxRTFpR1dmc0tFUmptNnpXUFBkdk9sajVjMUQwd1VpeXR5dGFLRWZNLTU0Um9rX0x0c19sSEJKM0QtSjIwN1JpYjRHV2c2N2J5WjZnMzQ0MVd0TExDeUlOaUppQ0R0aS1yU1NVZ19EdFdyQWVvQlBUd0xkMkhBUnE3WGt3SnhidTlQVWJibjRYMXYwc0laYngtWTdhZkFpMU0?oc=5",
-      "source_name": "Benefits and Pensions Monitor",
+      "source_name": "benefitsandpensionsmonitor.com",
       "published_at": "2026-07-15T11:31:06.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -925,9 +925,9 @@
       "vc_id": "greylock",
       "vc_name": "Greylock",
       "company": "Unknown",
-      "title": "Greylock Raises $1.5 Billion Fund for Early Stage Startups - Bloomberg.com",
+      "title": "Greylock Raises $1.5 Billion Fund for Early Stage Startups - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY1NlNF9iSndtTGp4UXBEUmg1WnMtWGpEOXFGRGpjcFZjM2FjWXh3ekotWXBWTFFBNEhQQzRndk5FSGFwdXV5R19ydHFWVUxvYXlLaWpGcGRJdnlTaWlTT2YtM1dXSlR0dkpxRXFZMzh4UDhWVTVhZXhKVllRZnMyQ052OEd4RHowVWxkUTdGaFM1dWJQSW80ZTY1T1E3THRIb0w2cXpRc3ZpR0ZT?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-07-14T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1004,6 +1004,28 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_519947160",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Unknown",
+      "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmU5Ym5YckNvRUhYOGx0dHp1ZUVUMm1yTWl3cFJpSDJJZnVqMjluc3dmNF9XUlhyX3lMby0wWmNLZXBLNGMzTUl6T191ei1TdTJ0MkNmeDhKN0dLLWZta3pYeElOcGQ2aVdyckthTk1Bb3ktZFJnOHdCRXZPOWZPNnNzeVBMRWFlTlBMZTJDak1fUFpjMkZ3OU5XLWFsdXNVbmxHVVpkSnRjWDVpTzNWVTc3REZvNzRYTjNKTnVWX1E?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1200,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1145,9 +1167,9 @@
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Handspring Health",
-      "title": "Handspring Health lands $19M series B to expand behavioral health model for youth - Fierce Healthcare",
+      "title": "Handspring Health lands $19M series B to expand behavioral health model for youth - fiercehealthcare.com",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOak5XWXZWZGxUVVVhSDFnRm13bk16a3VkVXN0eVgxVnBOXzdTemxCNkhfZ1J0eWwzNWxPSzIxX1ZlX1c4OFJZbV9lbU9mTU9FYkFaMHNVWEFOWW1EaVpwbXU0ckhTNlBtZl8zSGtJU2hpVVV0a3VLZFdvZ1lTS3ZSWmlsN3FiVGlTSER3RTAydVI0S2l0WTJtQ3o5UU9sVkhEZVdKbEtrTE1xVm94WW5vcHJaVllNVm1kbUE?oc=5",
-      "source_name": "Fierce Healthcare",
+      "source_name": "fiercehealthcare.com",
       "published_at": "2026-07-07T07:00:00.000Z",
       "stage": "Series B",
       "sector": "Other",
@@ -1205,6 +1227,28 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
+    },
+    {
+      "id": "deal_588839233",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Together AI",
+      "title": "Together AI Secures $800 Million in Series C, Valuation Surges to $8.3 Billion - Earnings Surprise Stocks - dars.gov.et",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUjRmM2JvUEF5c2JHM2FlMFh2R2wxaURjUklJUFpXWVdHMkd6bUhaUTFlRWFGNUtiTG9WNHNuVC05ZjFXOHcwbElGWEE1NmQ5VmNlVVFKSXA2S2lwMkM3Z2JSU3h2NGszWk13WlEwbnhlb3c3RkEybVFMSVd3WWMyc1BzTHhIT3h3RVI4YW9NZUlaR0tFRkpsSU5wQ1B6N0lXVjJMR1pYb2ptUmh4dDU0M2tTV19QOUk?oc=5",
+      "source_name": "dars.gov.et",
+      "published_at": "2026-07-02T23:43:33.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 800,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
     }
   ],
   "bubbles": [
@@ -1215,17 +1259,17 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 20,
-      "weighted_score": 85.54,
-      "latest_at": "2026-07-29T13:08:52.000Z",
-      "amount_usd_m_total": 151743,
+      "weighted_score": 83.63,
+      "latest_at": "2026-07-29T12:35:00.000Z",
+      "amount_usd_m_total": 28943,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 16
+          "count": 17
         },
         {
           "name": "Other",
-          "count": 4
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -1235,7 +1279,7 @@
         },
         {
           "name": "Khosla Ventures",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Greylock",
@@ -1249,14 +1293,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 9,
-      "weighted_score": 31.55,
+      "deal_count": 10,
+      "weighted_score": 34.91,
       "latest_at": "2026-07-29T18:30:03.000Z",
-      "amount_usd_m_total": 523.5,
+      "amount_usd_m_total": 557.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Other",
@@ -1265,11 +1309,11 @@
       ],
       "top_vcs": [
         {
-          "name": "Benchmark",
-          "count": 2
+          "name": "Fin Capital",
+          "count": 3
         },
         {
-          "name": "Fin Capital",
+          "name": "Benchmark",
           "count": 2
         },
         {
@@ -1284,14 +1328,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 7,
-      "weighted_score": 26.66,
-      "latest_at": "2026-07-30T13:00:00.000Z",
-      "amount_usd_m_total": 609,
+      "deal_count": 8,
+      "weighted_score": 30.35,
+      "latest_at": "2026-07-30T15:58:39.000Z",
+      "amount_usd_m_total": 684,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Other",
@@ -1301,7 +1345,7 @@
       "top_vcs": [
         {
           "name": "Battery Ventures",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Bain Capital Ventures",
@@ -1354,14 +1398,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 4,
-      "weighted_score": 16.07,
+      "deal_count": 3,
+      "weighted_score": 13.86,
       "latest_at": "2026-07-30T12:00:00.000Z",
       "amount_usd_m_total": 735,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Other",
@@ -1372,10 +1416,6 @@
         {
           "name": "Ribbit Capital",
           "count": 2
-        },
-        {
-          "name": "Accel",
-          "count": 1
         },
         {
           "name": "CRV",
@@ -1437,6 +1477,29 @@
         },
         {
           "name": "General Catalyst",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 1,
+      "weighted_score": 6.26,
+      "latest_at": "2026-07-02T23:43:33.000Z",
+      "amount_usd_m_total": 800,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
           "count": 1
         }
       ]
