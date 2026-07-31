@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T14:31:21.681Z",
+  "generated_at": "2026-07-31T19:48:55.644Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 57,
-    "total_deals": 57,
+    "scraped_deals": 58,
+    "total_deals": 58,
     "demo_mode": false,
-    "deals_with_coordinates": 57,
-    "runtime_ms": 4390,
+    "deals_with_coordinates": 58,
+    "runtime_ms": 4981,
     "note": "",
     "error_sample": []
   },
@@ -63,6 +63,28 @@
       }
     },
     {
+      "id": "deal_1378830858",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "K2 Space",
+      "title": "K2 Space Raises $500M Series D at $6.8B Valuation to Scale Large, High-Power Satellites - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORzRONFpYZ1JtV0lQaHpzZVFTejRla0prWTdUYzVTa0tZcDR1RUFHYkl5cEQzNWRYanJmZG5GRmlKdGwxNll4clpQU2tFekFvR1Z3MEM3eWh2SjJlX0gxLUFXd1RPbmFvRVhEQTJTeXJHR0pidld4dXU0T2dieG8yd0VGUU5QN2ZhT2txWVdJdXZVSndKQlNmcVhZQWtDRlNvLUFpdE9ORWo1U3UtTTlJV3N3S0dRamtaVTN5R2tQbGt4UFBSd3c1T2hxMThTbWVtaXA0emNlQQ?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-07-30T14:15:00.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 500,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_915830798",
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
@@ -80,6 +102,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_282729518",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Satellite Startup K2 Space",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-07-30T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 500,
+      "confidence": 0.81,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -133,9 +177,9 @@
       "vc_id": "cisco",
       "vc_name": "Cisco Investments",
       "company": "Cisco-backed Silicon Valley startup Eliyan",
-      "title": "Cisco-backed Silicon Valley startup Eliyan raises $145M at $1B valuation to build the future of AI interconnects - Tech Funding News",
+      "title": "Cisco-backed Silicon Valley startup Eliyan raises $145M at $1B valuation to build the future of AI interconnects - techfundingnews.com",
       "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbXpVUlpnYVdLY2ZjQnpWT2tQYUpKaDhHM2dfT3lFcmxRWERyX25CcWhGa0h0YXNLbDRra05sZ0liZDBpVDVvT2RPdFJhaDFFX1lnSzZLMkJMSGFKSDFNVkZHYnNJdkFzUENTbWFvVzVBZUVzcno0NnFuSXdPTEJyS2FKMENYeTZLX2pNcy1CdnFaOWQ2V0Q1VzJSRTFjNkUxNlg0Wk5kbHBSNXN3aHBHZlRjZFYyaU9UME1DbkdnX1l1WmM0Z0x3UnBRa1ZRelZVallzWFJ3?oc=5",
-      "source_name": "Tech Funding News",
+      "source_name": "techfundingnews.com",
       "published_at": "2026-07-30T11:59:35.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -221,9 +265,9 @@
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
       "company": "Toronto startup Terminal",
-      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - theglobeandmail.com",
+      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - The Globe and Mail",
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2xWZE5LaFdFdW1GRW1mTXBJUE5ZX2dWN3BTSWJ2WjU1S1dHQ0E5MGhRNDRFZlZ4dzVOYW4zMGhDMU8xd2VaRVlzY0hTN3JJd3BOX3kyeTkyWHFDNlpEMXdZR1pTWThqVXp2Wi1ZZlpXLTdtM0xxRGFRZG04WHl0ZEpuNG80T01JaFZxRTZZNEpQZ1RsSDRUamxpRmtGdjdWS2pGeGhzbFhXWlQwUnc?oc=5",
-      "source_name": "theglobeandmail.com",
+      "source_name": "The Globe and Mail",
       "published_at": "2026-07-29T12:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -375,9 +419,9 @@
       "vc_id": "usv",
       "vc_name": "Union Square Ventures",
       "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - AlleyWatch",
+      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - alleywatch.com",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3h5d0NncmZLRHFVdkQ2Q2ExUjBqSGFpMEFlNnlYeFdPUjFwWVA3bi1yajBBOVZrRmxFNG1jT2hlaTRUWnJwb1dfSDZpUzc1RU1SRDdyYXpZMjBFSldKNVc5OUVFVVdoR0lQZ0VjQV90YU5vTG9PaHBZakVrMkgtMTFXVHlKSUYyd1NF?oc=5",
-      "source_name": "AlleyWatch",
+      "source_name": "alleywatch.com",
       "published_at": "2026-07-27T20:01:03.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -397,9 +441,9 @@
       "vc_id": "spark",
       "vc_name": "Spark Capital",
       "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - AlleyWatch",
+      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - alleywatch.com",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3h5d0NncmZLRHFVdkQ2Q2ExUjBqSGFpMEFlNnlYeFdPUjFwWVA3bi1yajBBOVZrRmxFNG1jT2hlaTRUWnJwb1dfSDZpUzc1RU1SRDdyYXpZMjBFSldKNVc5OUVFVVdoR0lQZ0VjQV90YU5vTG9PaHBZakVrMkgtMTFXVHlKSUYyd1NF?oc=5",
-      "source_name": "AlleyWatch",
+      "source_name": "alleywatch.com",
       "published_at": "2026-07-27T20:01:03.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -419,9 +463,9 @@
       "vc_id": "boldstart",
       "vc_name": "boldstart ventures",
       "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - AlleyWatch",
+      "title": "The 19 Largest Global Startup Funding Rounds of June 2026 - alleywatch.com",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3h5d0NncmZLRHFVdkQ2Q2ExUjBqSGFpMEFlNnlYeFdPUjFwWVA3bi1yajBBOVZrRmxFNG1jT2hlaTRUWnJwb1dfSDZpUzc1RU1SRDdyYXpZMjBFSldKNVc5OUVFVVdoR0lQZ0VjQV90YU5vTG9PaHBZakVrMkgtMTFXVHlKSUYyd1NF?oc=5",
-      "source_name": "AlleyWatch",
+      "source_name": "alleywatch.com",
       "published_at": "2026-07-27T20:01:03.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -432,6 +476,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1632577148",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Marc Lore",
+      "title": "Marc Lore raises $650 million for Wonder at a $9 billion valuation and eyes an IPO in early 2027 - Startup Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTZaMG90ZmRUM3Nna01XN2VSeHFKUDRjUlQzQVZXNUN3cXRONndmMEtuR0Y5NkpQdkhETzJKdVRQTW1RUVJ0a2lPbnEtT3JiT3ROVUM5alMxX1BiU2JQcng2U1BnUWtKMGN3MzFEOXZDS1VjaG5senUxMy1lMldkYmp6QlpLWEhzdzFRdWVmMTQyZEdTeTR5N29DX19GVENfWmZjMm5qalAxeFdpNDdkdHFLVmJSMU5iOUt5ckxqcw?oc=5",
+      "source_name": "Startup Fortune",
+      "published_at": "2026-07-26T02:40:28.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 650,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -547,28 +613,6 @@
       }
     },
     {
-      "id": "deal_1876995511",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "Cheiron",
-      "title": "Cheiron Raises $8M Seed Led by Menlo Ventures to Build the Operating System for Drug Programs - GlobeNewswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNUFJjRjMyWG5VSTlsdUY3V25IcXJDZlZaZ0VmRkUyemU2ckJvOHhCdlRHVTZpVEIxM2hJRmQ2UVdyMGg5aWF0ZjU2WHl6Y0NFeWEyZWIwNHUtaUNqT1JXTGVkRGpDRHRvTHpWcUJLTlZXV2V3dzk0THlyQUpLdll2aUNsWFhlMjZRc3dlbEJIWE5WUVRoenZPYXR1b3RWSmxhRl94c0t0U3VIQ3NlWF83SU14QTUwTWJCZExDeXNQVGw4cnREcXZ4R19iMXFvWUluRk9kbEdUM2Z0RjdodVl1V3BnZFdGNVNaQWJzYllPdmVHWl9WRXNv?oc=5",
-      "source_name": "GlobeNewswire",
-      "published_at": "2026-07-22T16:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 8,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_834323949",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
@@ -661,9 +705,9 @@
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Unknown",
-      "title": "Harvey Continues Acquisition Streak With Addition of Investment Platform Benchmark - Law.com",
+      "title": "Harvey Continues Acquisition Streak With Addition of Investment Platform Benchmark - law.com",
       "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdlo5RjJFRGVkSExvd1NMb0taS1dEbXlKUGhELVNfaTloMVJKck9LV3NZV3d2dHhDelNZVmZzWnFGaWx6cFJzQXpSOGhQN0NiMlRteHhxRnBvUWxTaVVsYXduamRNOURkZ2ZYeFQ1b01PdHJ6OS1fOGl6MGhaT1lTMVpXUlJvR2swQkdJMFVyMmFEbGNjRC1tTkZyOVM5RGJBdXJGZGd2TFJTMERhSDN2UE9TQ204ZkNxa3dESGVTdWRydUFORHNjaQ?oc=5",
-      "source_name": "Law.com",
+      "source_name": "law.com",
       "published_at": "2026-07-16T15:42:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -674,28 +718,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_61738970",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Unknown",
-      "title": "Andreessen Horowitz Backs Startup Aiming to ‘Parent’ AI Agents - The Information",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYXlweC1ET05XXzFKeVBQSElTQlA5eGpOaC1YNElzLWhseVNmaGY4WVZHSkNBSV9iNWY3NTc4OWZIRExiSFpnR1d2TU1ZNGdRdjV2T0YxaWZ1cEpxZ0VyN2txSGZsenNkT0pzLVNjRjFUNWFHeUdTLXlSMHVNVGw2YmVpSGlfWmRQM0dnSzFYMHl2bFNhRnRfLWRfR2Q2QXhxSGVZUTVUN0FhdnRIMFdF?oc=5",
-      "source_name": "The Information",
-      "published_at": "2026-07-16T14:01:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1167,9 +1189,9 @@
       "vc_id": "susa",
       "vc_name": "Susa Ventures",
       "company": "Unknown",
-      "title": "$35M Defense Company Seed Launch Strives to Ease Pentagon Startup Barriers - Military.com",
+      "title": "$35M Defense Company Seed Launch Strives to Ease Pentagon Startup Barriers - military.com",
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRmpTRGhrZHZaSVJ4cFJzYjlPNjd4RW9YR2puQ195RnZ1Y0l0bmdnNFpyNkxLLXZiSkJ4bzN2R3F2azg0ZUlUa2JJQWRhdU9XcmdtVVAxb19wbEVsODNFRVF6alVaWGxvT3dyVjhyc2FhYlBmRWpvSW5SUnNra2lqcEZPMVBncTBRWFkyNmtDZ2xyUU9PbFpYUVJkSTZiUkk?oc=5",
-      "source_name": "Military.com",
+      "source_name": "military.com",
       "published_at": "2026-07-07T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -1281,9 +1303,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 18,
-      "weighted_score": 71.49,
-      "latest_at": "2026-07-30T12:07:01.000Z",
-      "amount_usd_m_total": 25283,
+      "weighted_score": 77.7,
+      "latest_at": "2026-07-30T14:15:00.000Z",
+      "amount_usd_m_total": 26425,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1297,14 +1319,14 @@
       "top_vcs": [
         {
           "name": "New Enterprise Associates",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Khosla Ventures",
           "count": 4
         },
         {
-          "name": "Lightspeed Venture Partners",
+          "name": "Kleiner Perkins",
           "count": 2
         }
       ]
@@ -1549,6 +1571,29 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 4.51,
+      "latest_at": "2026-07-30T13:00:00.000Z",
+      "amount_usd_m_total": 500,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
