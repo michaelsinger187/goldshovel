@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:50:38.843Z",
+  "generated_at": "2026-08-03T10:02:58.613Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 52,
-    "total_deals": 52,
+    "scraped_deals": 53,
+    "total_deals": 53,
     "demo_mode": false,
-    "deals_with_coordinates": 52,
-    "runtime_ms": 3735,
+    "deals_with_coordinates": 53,
+    "runtime_ms": 3837,
     "note": "",
     "error_sample": []
   },
@@ -300,6 +300,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1878920897",
+      "vc_id": "fin-capital",
+      "vc_name": "Fin Capital",
+      "company": "Unknown",
+      "title": "Epsagon founders raise $34M seed round for Harmony, an AI agent platform built inside Slack and Teams - Startup Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRFV0a0V3cGZMVTZRZjdLMGFEeWdpNGxkZUgtYVk2WE5KSXFOS3pMMzZOMFRmOVhzYXByYWE4d2FwVy1tcTJDUXlOS2NFTWNKcHdmQWlTUXJZZGVwemJUVm1kbGhBTnozalgzNmZUTk5xY1BONlJxQ0JHUDNBcHlmbm1kWXN1dno5NjZYekwwc1R4eUVURUVhV2s0cEVsdzM3N0N6clFZem9nb0MyTG5YMURBSHQ5SFNLbWx1TENPS1d5ZnE0UEE?oc=5",
+      "source_name": "Startup Fortune",
+      "published_at": "2026-07-29T05:22:43.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 34,
+      "confidence": 0.86,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -635,62 +657,18 @@
       }
     },
     {
-      "id": "deal_380772167",
-      "vc_id": "true-ventures",
-      "vc_name": "True Ventures",
-      "company": "Unknown",
-      "title": "No product? No problem. This Disrupt 2026 session shows how to get pre-seed funding with conviction, storytelling - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOWkpkMVJHTGkwamtwTjMyRlhraGlNUWl1R1o5X2o2eUF2ZTE0SWtVdnBvTUdCMFQ5ZGpkbFdUZzFacldRdWY4WGxHZ1hHVkVQT0hZYVRDeXBSNjJ1Q1ZWZXdTRVE5Vng2SVBSdVotck1VcUVEdmZ5QkpSMUxzN213RnVoem1jNV91ZzdFVktYS0FiZE1FT01vTWJ6N2cxd0hsd1FqbXZKNXI0Nk4wcS0tMjdfRlVGcXBJb0hSbVdydWRPTlNrMWtsQmU2cC05ZE1yMHNOYmx4M3liVjYyTVE?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-17T07:00:00.000Z",
-      "stage": "Pre-Seed",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.56,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1850194936",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Unknown",
-      "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
-      "source_name": "Tracxn",
-      "published_at": "2026-07-17T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1228028105",
+      "id": "deal_1577821167",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Unknown",
-      "title": "Harvey Continues Acquisition Streak With Addition of Investment Platform Benchmark - Law.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdlo5RjJFRGVkSExvd1NMb0taS1dEbXlKUGhELVNfaTloMVJKck9LV3NZV3d2dHhDelNZVmZzWnFGaWx6cFJzQXpSOGhQN0NiMlRteHhxRnBvUWxTaVVsYXduamRNOURkZ2ZYeFQ1b01PdHJ6OS1fOGl6MGhaT1lTMVpXUlJvR2swQkdJMFVyMmFEbGNjRC1tTkZyOVM5RGJBdXJGZGd2TFJTMERhSDN2UE9TQ204ZkNxa3dESGVTdWRydUFORHNjaQ?oc=5",
-      "source_name": "Law.com",
-      "published_at": "2026-07-16T15:42:00.000Z",
+      "title": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnBoNXNCTGtvcWdpbWExMzB6WXFPa09xVVE3QXpBaGJYNDM1MTlzWEpfd3lQcWtLX1UwVkNnTHJEX0dPY3B0eVFHb0tmQjczVlRVem8wUExudzVYYUFpd095TnJrZGRlV0VSc1ZYUHNVX0MyTHUtdVZTUU50SWg1dThMQkFBSXE1aC1VZ2wxMTdMLWlyTUlrMHBVd2JoZm1iQXQwUnpVbmI3VWJ6WUxz?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-17T07:00:00.000Z",
       "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
+      "sector": "AI & ML",
+      "amount_usd_m": 6000,
+      "confidence": 0.71,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -718,6 +696,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1113540573",
+      "vc_id": "usv",
+      "vc_name": "Union Square Ventures",
+      "company": "Prediction market startup Pascal",
+      "title": "Prediction market startup Pascal raises $9M Series A led by USV to target pro traders - CryptoRank",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fSW9QMjVfZVJJT0p4bDBhUHlNOE5NaDNvS2xlMWdzSDVRQU9QclJLZlVFV1BUTTdVNURVa0dSNlE0VV9RVFlFRW9fa0pzYWpkb25YTXRyTUVGTnBPUkdMWElkSHB2MWM5NVE?oc=5",
+      "source_name": "CryptoRank",
+      "published_at": "2026-07-16T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 9,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -815,9 +815,9 @@
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
       "company": "US",
-      "title": "Pension fund joins US$1.8 billion funding round for defence startup - Benefits and Pensions Monitor",
+      "title": "Pension fund joins US$1.8 billion funding round for defence startup - benefitsandpensionsmonitor.com",
       "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWDM0SnBfamRUQjNLUlFEWWUzNllhTjJIajh2OWNJcGFubmQ1Yy05MnI3aHJFR2pxRTFpR1dmc0tFUmptNnpXUFBkdk9sajVjMUQwd1VpeXR5dGFLRWZNLTU0Um9rX0x0c19sSEJKM0QtSjIwN1JpYjRHV2c2N2J5WjZnMzQ0MVd0TExDeUlOaUppQ0R0aS1yU1NVZ19EdFdyQWVvQlBUd0xkMkhBUnE3WGt3SnhidTlQVWJibjRYMXYwc0laYngtWTdhZkFpMU0?oc=5",
-      "source_name": "Benefits and Pensions Monitor",
+      "source_name": "benefitsandpensionsmonitor.com",
       "published_at": "2026-07-15T11:31:06.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -955,6 +955,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1800,
       "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_519947160",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Unknown",
+      "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmU5Ym5YckNvRUhYOGx0dHp1ZUVUMm1yTWl3cFJpSDJJZnVqMjluc3dmNF9XUlhyX3lMby0wWmNLZXBLNGMzTUl6T191ei1TdTJ0MkNmeDhKN0dLLWZta3pYeElOcGQ2aVdyckthTk1Bb3ktZFJnOHdCRXZPOWZPNnNzeVBMRWFlTlBMZTJDak1fUFpjMkZ3OU5XLWFsdXNVbmxHVVpkSnRjWDVpTzNWVTc3REZvNzRYTjNKTnVWX1E?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-07-08T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1200,
+      "confidence": 0.71,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1145,9 +1167,9 @@
       "vc_id": "prelude",
       "vc_name": "Prelude Ventures",
       "company": "Quaise Energy",
-      "title": "Quaise Energy raises $134M to fuel superhot geothermal ambitions - Canary Media",
+      "title": "Quaise Energy raises $134M to fuel superhot geothermal ambitions - canarymedia.com",
       "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBaOThaMG9jbWlYa0NVZlZzUHljZHBhbENKN1RCMk1VMnlWaHk0YUVRM1ZYSkJ5SVJwMHdMTXZqNk9vR3BLUzhUQXpqeW5SVlBEWkdLU1BuR25OZE5ZX2g0SnpwSjZsc0Q1Rml2MmUxblFDek1kNjB1S1U3UFVlZw?oc=5",
-      "source_name": "Canary Media",
+      "source_name": "canarymedia.com",
       "published_at": "2026-07-07T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1170,14 +1192,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 17,
-      "weighted_score": 73.7,
+      "deal_count": 18,
+      "weighted_score": 78.49,
       "latest_at": "2026-07-30T14:15:00.000Z",
-      "amount_usd_m_total": 28575,
+      "amount_usd_m_total": 29775,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 14
+          "count": 15
         },
         {
           "name": "Other",
@@ -1191,7 +1213,7 @@
         },
         {
           "name": "Khosla Ventures",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Kleiner Perkins",
@@ -1205,18 +1227,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 9,
-      "weighted_score": 30.8,
+      "deal_count": 10,
+      "weighted_score": 37.88,
       "latest_at": "2026-07-31T12:00:00.000Z",
-      "amount_usd_m_total": 499.5,
+      "amount_usd_m_total": 6533.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 9
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -1229,7 +1251,7 @@
           "count": 2
         },
         {
-          "name": "Prelude Ventures",
+          "name": "Fin Capital",
           "count": 2
         }
       ]
@@ -1240,14 +1262,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 27.35,
+      "deal_count": 8,
+      "weighted_score": 30.91,
       "latest_at": "2026-07-30T13:00:00.000Z",
-      "amount_usd_m_total": 376079,
+      "amount_usd_m_total": 376088,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Other",
@@ -1257,7 +1279,7 @@
       "top_vcs": [
         {
           "name": "Union Square Ventures",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Coatue",
@@ -1275,8 +1297,8 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 7,
-      "weighted_score": 26.5,
+      "deal_count": 6,
+      "weighted_score": 24.49,
       "latest_at": "2026-07-30T14:15:00.000Z",
       "amount_usd_m_total": 914,
       "top_sectors": [
@@ -1286,7 +1308,7 @@
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -1300,7 +1322,7 @@
         },
         {
           "name": "NextView Ventures",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1310,28 +1332,24 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 4,
-      "weighted_score": 15.77,
+      "deal_count": 3,
+      "weighted_score": 13.61,
       "latest_at": "2026-07-30T12:00:00.000Z",
       "amount_usd_m_total": 681,
       "top_sectors": [
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 2
         },
         {
-          "name": "AI & ML",
-          "count": 2
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "Ribbit Capital",
           "count": 2
-        },
-        {
-          "name": "True Ventures",
-          "count": 1
         },
         {
           "name": "CRV",
