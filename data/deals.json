@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:38:32.615Z",
+  "generated_at": "2026-08-11T19:16:50.022Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 38,
-    "total_deals": 38,
+    "scraped_deals": 39,
+    "total_deals": 39,
     "demo_mode": false,
-    "deals_with_coordinates": 38,
-    "runtime_ms": 4256,
+    "deals_with_coordinates": 39,
+    "runtime_ms": 4201,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1009387332",
+      "vc_id": "signalfire",
+      "vc_name": "SignalFire",
+      "company": "Flagler Health",
+      "title": "Flagler Health secures $50M series B for AI-native MSK care platform expansion - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSldXV09jZVV4VkRoT0tGLTJKUWI4bFdRcEtfTmlzSGtSYUI4V1ItX2Z5NFpYSnhWWVRudHlLSklYNTZmWmdpa2hjeVpwNHgxMzVXOUtXMllEd1psS1ZqenVIZEtBdERvVHhETWxlS1JSelFTYnl3R0tKNEw4bjZZa19HdW1qWmRONlJrTXF1cVdwVjQ4RGMyTDFNUmVlNzJuU0NTZnlMRk5hYkhUNUN3S1hNZjc?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-08-11T16:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1117293731",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
+      "company": "Unknown",
+      "title": "The 12 Largest US Funding Rounds of July 2026 - AlleyWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
+      "source_name": "AlleyWatch",
+      "published_at": "2026-08-11T15:32:17.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_841346900",
       "vc_id": "lux",
@@ -111,9 +155,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36Kr",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "36Kr",
+      "source_name": "36 Kr",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -173,14 +217,14 @@
       }
     },
     {
-      "id": "deal_1188179928",
+      "id": "deal_378446045",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
       "company": "Mariana Minerals",
       "title": "Mariana Minerals Raises $310 Million Series B Led by Khosla Ventures to Accelerate Critical Minerals Production - PR Newswire",
       "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeE9TTWxOMXFpZTNFTmw3Z1ZJN2ViN3JCX3FENFdpMnp0b2NJbjhaTGtZekFhYjAtWF80dWpKYTcxTl9VekpIYkdmMzV3V2IwWHlUdTBjMjlMR2dpQjhwc3hPT2M2NkFVWGUxZUEzTjZGaXNBOVJwSHpBcE4yb1doV1ZwWll4emgzaE96VG1Vd2tfWUxGaXRLTmx0VXFnb1dpVG5SMlM4dXY5eW9CbzV6ZXRad041d1Q3dklZdTRzNEFscnBUeTFwbndxU3B6MUFRanV3RDROMzQxczRrZ0ZIZ09CbF9WLUhKMTM5MEpSN3d5ZUgyY1RINlh3?oc=5",
       "source_name": "PR Newswire",
-      "published_at": "2026-08-03T13:00:00.000Z",
+      "published_at": "2026-08-03T07:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
       "amount_usd_m": 310,
@@ -309,9 +353,9 @@
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
       "company": "Toronto startup Terminal",
-      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - The Globe and Mail",
+      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - theglobeandmail.com",
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2xWZE5LaFdFdW1GRW1mTXBJUE5ZX2dWN3BTSWJ2WjU1S1dHQ0E5MGhRNDRFZlZ4dzVOYW4zMGhDMU8xd2VaRVlzY0hTN3JJd3BOX3kyeTkyWHFDNlpEMXdZR1pTWThqVXp2Wi1ZZlpXLTdtM0xxRGFRZG04WHl0ZEpuNG80T01JaFZxRTZZNEpQZ1RsSDRUamxpRmtGdjdWS2pGeGhzbFhXWlQwUnc?oc=5",
-      "source_name": "The Globe and Mail",
+      "source_name": "theglobeandmail.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -701,28 +745,6 @@
       }
     },
     {
-      "id": "deal_1857063804",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Oak",
-      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-07-15T11:17:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_2138092968",
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
@@ -862,14 +884,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 14,
-      "weighted_score": 66.5,
+      "deal_count": 13,
+      "weighted_score": 62.56,
       "latest_at": "2026-08-06T04:40:11.000Z",
-      "amount_usd_m_total": 91353,
+      "amount_usd_m_total": 91293,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 12
         },
         {
           "name": "Other",
@@ -932,14 +954,18 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 4,
-      "weighted_score": 17.35,
-      "latest_at": "2026-08-08T13:39:10.000Z",
+      "deal_count": 5,
+      "weighted_score": 19.36,
+      "latest_at": "2026-08-11T15:32:17.000Z",
       "amount_usd_m_total": 626,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 4
+        },
+        {
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -948,11 +974,11 @@
           "count": 2
         },
         {
-          "name": "OpenView",
+          "name": "NextView Ventures",
           "count": 1
         },
         {
-          "name": "Spark Capital",
+          "name": "OpenView",
           "count": 1
         }
       ]
@@ -963,14 +989,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 4,
-      "weighted_score": 13.94,
-      "latest_at": "2026-08-04T17:00:00.000Z",
-      "amount_usd_m_total": 151.5,
+      "deal_count": 5,
+      "weighted_score": 18.61,
+      "latest_at": "2026-08-11T16:00:00.000Z",
+      "amount_usd_m_total": 201.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         }
       ],
       "top_vcs": [
@@ -979,11 +1005,11 @@
           "count": 2
         },
         {
-          "name": "Fin Capital",
+          "name": "SignalFire",
           "count": 1
         },
         {
-          "name": "First Round Capital",
+          "name": "Fin Capital",
           "count": 1
         }
       ]
