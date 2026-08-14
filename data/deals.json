@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:16:48.330Z",
+  "generated_at": "2026-08-14T02:42:51.267Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 38,
-    "total_deals": 38,
+    "scraped_deals": 41,
+    "total_deals": 41,
     "demo_mode": false,
-    "deals_with_coordinates": 38,
-    "runtime_ms": 6790,
+    "deals_with_coordinates": 41,
+    "runtime_ms": 8215,
     "note": "",
     "error_sample": []
   },
@@ -58,6 +58,94 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2120575719",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Lovable confirms new $13.3B valuation,",
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzR4alhoN3YzcnZnTjIyOWJ5ZlZLOVp1Q1RvbTZ0NmVZS3dRUkNWbnNGSXhmWWZubVAydWtRdzZCc1oxenUwZUp4RFFnb2tfUk1iT21hV0hodS1CSjA1WXFBTmVoQU1YNDhESTNoUjZaNC1xRFpKdDZ2NkcyUTRub0NtV3FQWDBIb1RDTzNpeDVJeFlqREE?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-12T16:04:27.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 13300,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_255373124",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Lovable confirms new $13.3B valuation,",
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzR4alhoN3YzcnZnTjIyOWJ5ZlZLOVp1Q1RvbTZ0NmVZS3dRUkNWbnNGSXhmWWZubVAydWtRdzZCc1oxenUwZUp4RFFnb2tfUk1iT21hV0hodS1CSjA1WXFBTmVoQU1YNDhESTNoUjZaNC1xRFpKdDZ2NkcyUTRub0NtV3FQWDBIb1RDTzNpeDVJeFlqREE?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-12T16:04:27.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 13300,
+      "confidence": 0.81,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_37481413",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Unknown",
+      "title": "Accel Raises $3.5 Billion to Invest in Emerging Global AI Startups - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVnlJWGExZGM5YTRUZUxDaTI2QUNhaV9lVHhsai1sMndBeUJicUdmSXRQM3ZuaGlvRkpUZ0phQ3FuTWwwa3l1Q0pqT2VzZDkyVl9BSVMzOXM2MFJQR0cwbmdBUFVadEJ5clZ5endMTmwxVlJtN2NOa2xHdlZLZzEzZmk3b01PZjZFMG4xSEtYXzg5Zw?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-08-11T21:12:17.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 3500,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1173590282",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "Unknown",
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb1RXX01BUGdyZ1RwQjg1cFBaYTExcWtIVVRYN2dCaTIwNXdCSTlPOEV3d0pTSXZyV3ZKZnllbmNHbGNYYkhyalZQYzh2UG1SM1ZTVlRtSjNwV3NpYkdDblFZQjF3ZDJXb1ZNdnJDaXhWaWtSTk0tZ3NGUVB5NVk0M2NzT1A2M014VUlzdlpKamtERlNGTVlRblVn?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-11T17:41:22.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1100,
+      "confidence": 0.71,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -129,28 +217,6 @@
       }
     },
     {
-      "id": "deal_330620352",
-      "vc_id": "amex-ventures",
-      "vc_name": "Amex Ventures",
-      "company": "Fazeshift",
-      "title": "Fazeshift Announces Investment from Amex Ventures - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSDhmNzJSR2h5MExLWS1hcFppbVc1U2dtLThTN1RscEJpZEhGdDRKZFNKdklydm50ZUJBWHpEcnhDSnBkNnphTkVHWGhCM1cxcTNBMjRZNXl3XzhpUTZ1SExVMV9sM0hFcGZXVEpjMVpCcElnZ2tKZ1VOeGE4R1B0T0xlOGxQMXFuQk5Lajl2NEdlVGZycF9HSEh0RU1wN0lfUUVyZk1qUExkYWU0?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-08-11T13:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_841346900",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
@@ -217,13 +283,35 @@
       }
     },
     {
+      "id": "deal_752645875",
+      "vc_id": "crv",
+      "vc_name": "CRV",
+      "company": "Omen AI Liquid Cooling Startup",
+      "title": "Omen AI Liquid Cooling Startup Raises $31m Series A to Guard Data Centre Coolant - News Anyway",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQnZpQUVvSi1Oc3dBQkVMeDFXY2gtVjdZVmgydmxwY1BCR2s2TGZEcEpQSk1kTVdVYU1mVXptek5hNzF0aUtuNHh5UjVnRF83eTk4MjZkZlRCT1FzVS1BMUxxNmlENElITGJXNkwzd3hpcDgydzl4b0h5TDBXR3k3WkFMU0VTYVNGeG50SHVjekxIX0dXWmlua0xGY3ZDdW5FTWkxc0ZNeXZEOUNlNmZLWkpxWWEtQlo5SWc?oc=5",
+      "source_name": "News Anyway",
+      "published_at": "2026-08-08T13:39:10.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 31,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1036121410",
       "vc_id": "citi-ventures",
       "vc_name": "Citi Ventures",
       "company": "Unknown",
-      "title": "Straiker attracts 64 million US Dollars from Neva, Marathon Management Partners, Citi Ventures, Illuminate Financial, Workday Ventures, and other investors - BeBeez International",
+      "title": "Straiker attracts 64 million US Dollars from Neva, Marathon Management Partners, Citi Ventures, Illuminate Financial, Workday Ventures, and other investors - bebeez.eu",
       "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOdnBVdkhHY2xXUFpBSjRtaDhJaFIzLWtSaDRjTVZ5SDl1bUkzc01KWUtHVzBweHdyZjF2NnRmUHZhOUh5MTBMc3RpZ2REeWduSVVUWkpOQVBEZklPX3NCTFJ0RXFaNHdxOXhwTC1vbVVwN2dfUExHWlEyTzVwV1QzOXpCeGxLZ2tCX3lvQS01U3c3d09LbXFpTlpxUU9PRjRIaENxUGUxVGVpcVdzNmU3N29neUQtUFBvTXoxN1dCRXhMUUFkWllCcFI4NjNqWFMxOWMwZ0toLUVac0RHaHlITC05aGJldFZFcTZzcnM2Sl9BNHlCY1RrVEs1WXJjVHRSUUhDRXFIQUpkT09t?oc=5",
-      "source_name": "BeBeez International",
+      "source_name": "bebeez.eu",
       "published_at": "2026-08-07T09:18:39.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -287,9 +375,9 @@
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Decade",
-      "title": "Decade Raises $85M in Latin America's Largest Seed Round to Create a New Generation of Millionaires with AI - Business Wire",
+      "title": "Decade Raises $85M in Latin America's Largest Seed Round to Create a New Generation of Millionaires with AI - businesswire.com",
       "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNelJHSnJUWFloT2t5cFd0WlB5NEF1d0FjLTluU0VmSE5LN19QQ1Z1MF9oLUNjODZZOUdhbVppYVY1NHN3X2VIZDRfYnRWUHh3Z2dnWC04a1c3WmUtZmJZRlMyc096bXdZbExCbG1seEh5Q19kUldCZmVabHRzREpyY2xOVTNVWjVkZi1FbnNPM0pSZFJiTDV4cGNBbEQxZ1lrNk0yNDJRU1pKZ3NBT19jRTdXT2NuNkpwU0pETHFpNmE0V3NfOU53b3lRTGdWZWk3OGRwS0k1QlVsbm5iUFVNOXJSM3lMWVJiem9uUkJKQXJwT2ZzdU5Kbw?oc=5",
-      "source_name": "Business Wire",
+      "source_name": "businesswire.com",
       "published_at": "2026-08-04T07:00:00.000Z",
       "stage": "Seed",
       "sector": "AI & ML",
@@ -344,6 +432,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_562487074",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Repeat founder Ryan Williams",
+      "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BjOVgzYzlQM1JZODQ5WXZaektJNDJmd1kydW9fWm5FZGRycGN0TWYtdVdUWjM4MGtvRWE0MnFBNlF4bGZ1dWhGSi01bktaWUF5NE9mUE95TmtobzFya0ZqNW9TT08wMl9aU2lTcHF5OU45dkNlU2FVM3ZJTllDYkU1ZFJUblBPRTVTaDRrRktTaUpNUXpzZW00bkpNNjhRTHd6WDdaT3drMlU3SUcyN1Ztdnc1dHhoS29icUlicGVSSkU?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -635,6 +745,28 @@
       }
     },
     {
+      "id": "deal_84468381",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "SkyPilot, from Databricks’ cofounder,",
+      "title": "SkyPilot, from Databricks’ cofounder, raises $20M to be the Switzerland of AI compute - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcERYSWFFV25YYWhqdXdMRFlDR2VmZ1VKRVVEYTBZQjlpN0RadUFFRlJENzRfNkwwUkRVUnlNajVpT0psd1dJR0lxUDItaHFOaFNZeE9sQVBVRE1STlVnUEMtdXMwZzlkVFBLWDZjWThNb0pURU5kalZvYUpsVmZWQjN3a0NwRmw0aEthZGJObDJhQXR6SFdQeGNHSmQ0Nnp5Xy1NRVpzZ0luZEZlR0RCeU9QVQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_318525778",
       "vc_id": "qed",
       "vc_name": "QED Investors",
@@ -674,28 +806,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1171419543",
-      "vc_id": "lux",
-      "vc_name": "Lux Capital",
-      "company": "CuspAI",
-      "title": "CuspAI raises $450 million Series B for AI materials discovery - qz.com",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR3hrT0Y0a0hKdG9rVlBHeTNDZDdPTHppUFRuQUlFa2U3aElzSllGYlc1dnJmdUxRZkdrRkROUF9hbF9Sa05EQ01uVEJUalc3Q01YMnpXNktNY2N1TFFhN05zVDc0SW9WdU9HNkFsUlY1ckNfTlROajZDSnV6R3N3bzExZw?oc=5",
-      "source_name": "qz.com",
-      "published_at": "2026-07-20T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 450,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -789,50 +899,6 @@
       }
     },
     {
-      "id": "deal_1857063804",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "Oak",
-      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-07-15T11:17:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1707822873",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "Oak",
-      "title": "Oak Raises $60M in Seed Funding to Build the AI-Native Identity Operating System - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWXhlTzVRc3N5RFZ2cVJJNVZOZlA1akw1ZndHN2Rqd0t5bnJfMlVsTUpqSHZZRG4tc1FHZV81NTlpbXdlY2FEdVN2VWVqU0ZZTkMxTUtPb19abUJPenEyc2xjS3pYVE9iYzVDUjF2MWU0UjhsbGtKeXJZT0syUTJkcHZ0bFlVNFh1Vzh5QnNJcW9zOWV1VUtTVUVZSlUySk9rUzNpNm9BZ2d2NE9nVkExRlJLM3VyQjE0TzZXT1BtajFkaXRpOWJ0UDVjUUhnVElxdWhYMg?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-07-15T11:17:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_2138092968",
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
@@ -863,9 +929,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 9,
-      "weighted_score": 40.26,
-      "latest_at": "2026-08-06T04:40:11.000Z",
-      "amount_usd_m_total": 69938,
+      "weighted_score": 42.25,
+      "latest_at": "2026-08-12T16:04:27.000Z",
+      "amount_usd_m_total": 83178,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -878,16 +944,16 @@
       ],
       "top_vcs": [
         {
+          "name": "Menlo Ventures",
+          "count": 2
+        },
+        {
           "name": "Khosla Ventures",
           "count": 2
         },
         {
           "name": "New Enterprise Associates",
           "count": 2
-        },
-        {
-          "name": "Altimeter Capital",
-          "count": 1
         }
       ]
     },
@@ -897,10 +963,10 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 9,
-      "weighted_score": 34.75,
-      "latest_at": "2026-08-11T13:00:00.000Z",
-      "amount_usd_m_total": 190148,
+      "deal_count": 8,
+      "weighted_score": 30.16,
+      "latest_at": "2026-08-09T12:04:53.000Z",
+      "amount_usd_m_total": 189718,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -908,14 +974,10 @@
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
-        {
-          "name": "Amex Ventures",
-          "count": 2
-        },
         {
           "name": "Lux Capital",
           "count": 2
@@ -923,6 +985,10 @@
         {
           "name": "Union Square Ventures",
           "count": 2
+        },
+        {
+          "name": "Citi Ventures",
+          "count": 1
         }
       ]
     },
@@ -932,14 +998,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 5,
-      "weighted_score": 18.61,
+      "deal_count": 6,
+      "weighted_score": 21.46,
       "latest_at": "2026-08-11T16:00:00.000Z",
-      "amount_usd_m_total": 201.5,
+      "amount_usd_m_total": 211.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 6
         }
       ],
       "top_vcs": [
@@ -948,11 +1014,11 @@
           "count": 2
         },
         {
-          "name": "SignalFire",
-          "count": 1
+          "name": "First Round Capital",
+          "count": 2
         },
         {
-          "name": "Fin Capital",
+          "name": "SignalFire",
           "count": 1
         }
       ]
@@ -998,19 +1064,23 @@
       "state": "CA",
       "lat": 37.3861,
       "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 8.45,
+      "deal_count": 3,
+      "weighted_score": 14.38,
       "latest_at": "2026-08-13T06:03:12.000Z",
-      "amount_usd_m_total": 62.5,
+      "amount_usd_m_total": 13362.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
         {
           "name": "GV",
+          "count": 1
+        },
+        {
+          "name": "CapitalG",
           "count": 1
         },
         {
@@ -1025,23 +1095,27 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 7.61,
-      "latest_at": "2026-07-27T07:00:00.000Z",
-      "amount_usd_m_total": 131,
+      "deal_count": 3,
+      "weighted_score": 12.99,
+      "latest_at": "2026-08-11T21:12:17.000Z",
+      "amount_usd_m_total": 3602,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
         {
-          "name": "Ribbit Capital",
+          "name": "Accel",
           "count": 1
         },
         {
           "name": "CRV",
+          "count": 1
+        },
+        {
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -1052,17 +1126,21 @@
       "state": "MA",
       "lat": 42.3736,
       "lon": -71.1097,
-      "deal_count": 1,
-      "weighted_score": 5.36,
-      "latest_at": "2026-08-10T08:13:20.000Z",
-      "amount_usd_m_total": 3400,
+      "deal_count": 2,
+      "weighted_score": 10.11,
+      "latest_at": "2026-08-11T17:41:22.000Z",
+      "amount_usd_m_total": 4500,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 1
+        },
         {
           "name": "Lux Capital",
           "count": 1
