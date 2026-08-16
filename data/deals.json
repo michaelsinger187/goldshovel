@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:58:08.352Z",
+  "generated_at": "2026-08-16T18:44:31.933Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 32,
-    "total_deals": 32,
+    "scraped_deals": 31,
+    "total_deals": 31,
     "demo_mode": false,
-    "deals_with_coordinates": 32,
-    "runtime_ms": 3935,
+    "deals_with_coordinates": 31,
+    "runtime_ms": 4219,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_757456035",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "ShopUp's parent platform",
+      "title": "ShopUp's parent platform raises $100 million for Saudi financing push - The Daily Star",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTks4OXROYlJScmlwOWRHclg3Z056MElCdGpKcXkzdTVRaEpKMW1JSk9aQlRuUm1zQ25XbUlIN1VSWXpXRHZhbVFucVJyM1BNQlo3MTlLX0JndThSME9Bam1XWi1uQ1NYeFJHbk1US1RCbjdFYTJkYWVINm9CMklxNVNsRDZERlhLdVRYTTFqTlNMTHZVb0JRdk9BX0M4V25aSzFFd0w2TGdtRUl2VUotQm93czk?oc=5",
+      "source_name": "The Daily Star",
+      "published_at": "2026-08-15T11:02:54.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 100,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1762502530",
       "vc_id": "nextview",
@@ -45,9 +67,9 @@
       "vc_id": "gv",
       "vc_name": "GV",
       "company": "AI code testing platform Blacksmith",
-      "title": "AI code testing platform Blacksmith raises $45 Mn in Series B led by Peak XV - Entrackr",
+      "title": "AI code testing platform Blacksmith raises $45 Mn in Series B led by Peak XV - entrackr.com",
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa0xueEVjd251WDNOMzNWSVp5bkVnakdpUVlXTmRtVWY0NUJvb3ZBdl90U1dBOFBvaEhsZ1ZET1YyMm9OQ1Bqa2ZyQ3B0YUFKcHhyZWZxbjh4SDktM0ZKekNLUVJhd2dxaFhnU1lHZmw0eUF1SDdfTjNVRU1IcnQxZU9XRk5ET0VsLTdhWlE5VFZUdEdCdXdaVThKR1Q3OUVwNGhZdjVvVUltVkQ2WXE00gGvAUFVX3lxTE1rTG54RWN3bnVYM04zM1ZJWnluRWdqR2lRWVdOZG1VZjQ1Qm9vdkF2X3RTV0E4UG9oSGxnVkRPVjIyb05DUGprZnJDcHRhQUpweHJlZnFuOHhIOS0zRkp6Q0tRUmF3Z3FoWGdTWUdmbDR5QXVIN19OM1VFTUhydDFlT1dGTkRPRWwtN2FaUTlUVlR0R0J1d1pVOEpHVDc5RXA0aFl2NW9VSW1WRDZZcTQ?oc=5",
-      "source_name": "Entrackr",
+      "source_name": "entrackr.com",
       "published_at": "2026-08-13T06:03:12.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
@@ -151,50 +173,6 @@
       }
     },
     {
-      "id": "deal_1115849221",
-      "vc_id": "openview",
-      "vc_name": "OpenView",
-      "company": "Omen AI Liquid Cooling Startup",
-      "title": "Omen AI Liquid Cooling Startup Raises $31m Series A to Guard Data Centre Coolant - newsanyway.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQnZpQUVvSi1Oc3dBQkVMeDFXY2gtVjdZVmgydmxwY1BCR2s2TGZEcEpQSk1kTVdVYU1mVXptek5hNzF0aUtuNHh5UjVnRF83eTk4MjZkZlRCT1FzVS1BMUxxNmlENElITGJXNkwzd3hpcDgydzl4b0h5TDBXR3k3WkFMU0VTYVNGeG50SHVjekxIX0dXWmlua0xGY3ZDdW5FTWkxc0ZNeXZEOUNlNmZLWkpxWWEtQlo5SWc?oc=5",
-      "source_name": "newsanyway.com",
-      "published_at": "2026-08-08T13:39:10.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 31,
-      "confidence": 0.96,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_752645875",
-      "vc_id": "crv",
-      "vc_name": "CRV",
-      "company": "Omen AI Liquid Cooling Startup",
-      "title": "Omen AI Liquid Cooling Startup Raises $31m Series A to Guard Data Centre Coolant - newsanyway.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQnZpQUVvSi1Oc3dBQkVMeDFXY2gtVjdZVmgydmxwY1BCR2s2TGZEcEpQSk1kTVdVYU1mVXptek5hNzF0aUtuNHh5UjVnRF83eTk4MjZkZlRCT1FzVS1BMUxxNmlENElITGJXNkwzd3hpcDgydzl4b0h5TDBXR3k3WkFMU0VTYVNGeG50SHVjekxIX0dXWmlua0xGY3ZDdW5FTWkxc0ZNeXZEOUNlNmZLWkpxWWEtQlo5SWc?oc=5",
-      "source_name": "newsanyway.com",
-      "published_at": "2026-08-08T13:39:10.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 31,
-      "confidence": 0.96,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1036121410",
       "vc_id": "citi-ventures",
       "vc_name": "Citi Ventures",
@@ -221,9 +199,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - eu.36kr.com",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "36 Kr",
+      "source_name": "eu.36kr.com",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -265,9 +243,9 @@
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Decade",
-      "title": "Decade Raises $85M in Latin America's Largest Seed Round to Create a New Generation of Millionaires with AI - businesswire.com",
+      "title": "Decade Raises $85M in Latin America's Largest Seed Round to Create a New Generation of Millionaires with AI - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNelJHSnJUWFloT2t5cFd0WlB5NEF1d0FjLTluU0VmSE5LN19QQ1Z1MF9oLUNjODZZOUdhbVppYVY1NHN3X2VIZDRfYnRWUHh3Z2dnWC04a1c3WmUtZmJZRlMyc096bXdZbExCbG1seEh5Q19kUldCZmVabHRzREpyY2xOVTNVWjVkZi1FbnNPM0pSZFJiTDV4cGNBbEQxZ1lrNk0yNDJRU1pKZ3NBT19jRTdXT2NuNkpwU0pETHFpNmE0V3NfOU53b3lRTGdWZWk3OGRwS0k1QlVsbm5iUFVNOXJSM3lMWVJiem9uUkJKQXJwT2ZzdU5Kbw?oc=5",
-      "source_name": "businesswire.com",
+      "source_name": "Business Wire",
       "published_at": "2026-08-04T07:00:00.000Z",
       "stage": "Seed",
       "sector": "AI & ML",
@@ -371,13 +349,13 @@
       }
     },
     {
-      "id": "deal_1405341313",
+      "id": "deal_663796778",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
       "company": "Engineering AI startup, P-1 AI,",
-      "title": "Engineering AI startup, P-1 AI, Announces Its Series A - GlobeNewswire",
-      "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYi1HSThoNzVhZ0tUZmlZejZTQUplcmk3Vy1yYl9SMnlhcGVOQXZ5d2l5ZlpOZFZRUjJScUY0aFFtam5XQjktUS1iTGROaXJBbmtXaHc5azRjak02bDl1bGRWVmhpTzAwbFhaTFlXUUp3dWJNVDhPUU5rU2REdmFiUERSX09CcGJ0VEpFVTdmd0l4VnF2X0FFSU9WZlZ2WkhPYURyNkpfdXZMbnJkYlMzRlZOWUp0R19PWDMwNVV4OXlTejFYQjU3WWR4Rkl6dWtENS1VZzM3aW5hQmNKSExkWjc2VkpnX0I3Z2pqY3c1YnRYZGJVRXhGYmVXUDQ0aThtM1ZvamFpX0sxZW56akNla2kyeWJfQQ?oc=5",
-      "source_name": "GlobeNewswire",
+      "title": "Engineering AI startup, P-1 AI, Announces Its Series A Financing Led by NEA, Adding Jeff Immelt to the Company’s Board - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGZLTW5wRHR3YXhfNkdhWVJGd0dDdW9XZ2NoZVNqNWxmSFppeXNaaG9zbFluWG01VHdRVmhKYlFHeTkxNEdpdnl1UDJUTDh0aDI2TmR6TkZ2b2FhblJLSjAzN01MN0Q0YmpIZ2lyX0NSUTVkNS1GWHRzOUkySjBSZThNZHdqYVBjNVBTS3dPUkRFaWda?oc=5",
+      "source_name": "Yahoo Finance",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -419,9 +397,9 @@
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
       "company": "Toronto startup Terminal",
-      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - theglobeandmail.com",
+      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - The Globe and Mail",
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2xWZE5LaFdFdW1GRW1mTXBJUE5ZX2dWN3BTSWJ2WjU1S1dHQ0E5MGhRNDRFZlZ4dzVOYW4zMGhDMU8xd2VaRVlzY0hTN3JJd3BOX3kyeTkyWHFDNlpEMXdZR1pTWThqVXp2Wi1ZZlpXLTdtM0xxRGFRZG04WHl0ZEpuNG80T01JaFZxRTZZNEpQZ1RsSDRUamxpRmtGdjdWS2pGeGhzbFhXWlQwUnc?oc=5",
-      "source_name": "theglobeandmail.com",
+      "source_name": "The Globe and Mail",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -441,9 +419,9 @@
       "vc_id": "canaan",
       "vc_name": "Canaan Partners",
       "company": "Mate Security",
-      "title": "Mate Security Secures $35M Series A as Enterprise Demand Pushes Total Funding Beyond $50M - theglobeandmail.com",
+      "title": "Mate Security Secures $35M Series A as Enterprise Demand Pushes Total Funding Beyond $50M - The Globe and Mail",
       "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUHhic0FtQzhoSDNWSG1ITEZUV240Unl5NmZjNHZJS1lodl9vQ09nd3dsSS1kSEpuQml6c3ZyOXVHb3djT2lCZUgwZHN2RTczTkg4bV9BeV9IMGkzcjAwQzJqWDk1ZXFobUhMQVJNTGUyaE5ZV21LMDdMUjM2OGtNRnVqMk02X05KSlJZU01FQk5jTzI4VzhlcU12cWk1WFNyWFQyQjdnNmN4OTRaMjNMd3FvR001R2tFSFRqaHFIM1VUbnBhRGIySzl2UF9aTWdCWThUNlI1M0w3Z00xUU5OSldCcGpBMlM1ZjdvRWwtRzNLUmxMcU9VY0pIWng?oc=5",
-      "source_name": "theglobeandmail.com",
+      "source_name": "The Globe and Mail",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -463,9 +441,9 @@
       "vc_id": "m12",
       "vc_name": "M12",
       "company": "Mate Security",
-      "title": "Mate Security Secures $35M Series A as Enterprise Demand Pushes Total Funding Beyond $50M - theglobeandmail.com",
+      "title": "Mate Security Secures $35M Series A as Enterprise Demand Pushes Total Funding Beyond $50M - The Globe and Mail",
       "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUHhic0FtQzhoSDNWSG1ITEZUV240Unl5NmZjNHZJS1lodl9vQ09nd3dsSS1kSEpuQml6c3ZyOXVHb3djT2lCZUgwZHN2RTczTkg4bV9BeV9IMGkzcjAwQzJqWDk1ZXFobUhMQVJNTGUyaE5ZV21LMDdMUjM2OGtNRnVqMk02X05KSlJZU01FQk5jTzI4VzhlcU12cWk1WFNyWFQyQjdnNmN4OTRaMjNMd3FvR001R2tFSFRqaHFIM1VUbnBhRGIySzl2UF9aTWdCWThUNlI1M0w3Z00xUU5OSldCcGpBMlM1ZjdvRWwtRzNLUmxMcU9VY0pIWng?oc=5",
-      "source_name": "theglobeandmail.com",
+      "source_name": "The Globe and Mail",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -756,6 +734,37 @@
       ]
     },
     {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 6,
+      "weighted_score": 21.17,
+      "latest_at": "2026-08-15T11:02:54.000Z",
+      "amount_usd_m_total": 294,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 6
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Benchmark",
+          "count": 2
+        },
+        {
+          "name": "Human Capital",
+          "count": 1
+        },
+        {
+          "name": "SignalFire",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "New York,NY",
       "city": "New York",
       "state": "NY",
@@ -791,53 +800,22 @@
       ]
     },
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 5,
-      "weighted_score": 17.35,
-      "latest_at": "2026-08-11T16:00:00.000Z",
-      "amount_usd_m_total": 194,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 5
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Benchmark",
-          "count": 2
-        },
-        {
-          "name": "SignalFire",
-          "count": 1
-        },
-        {
-          "name": "Fin Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Boston,MA",
       "city": "Boston",
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 5,
-      "weighted_score": 14.91,
+      "deal_count": 4,
+      "weighted_score": 10.84,
       "latest_at": "2026-08-13T15:32:15.000Z",
-      "amount_usd_m_total": 126,
+      "amount_usd_m_total": 95,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 3
+          "name": "Other",
+          "count": 2
         },
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 2
         }
       ],
@@ -849,10 +827,6 @@
         {
           "name": "Battery Ventures",
           "count": 2
-        },
-        {
-          "name": "OpenView",
-          "count": 1
         }
       ]
     },
@@ -862,14 +836,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 10.55,
-      "latest_at": "2026-08-08T13:39:10.000Z",
-      "amount_usd_m_total": 117,
+      "deal_count": 2,
+      "weighted_score": 6.48,
+      "latest_at": "2026-07-27T07:00:00.000Z",
+      "amount_usd_m_total": 86,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 1
         },
         {
           "name": "Other",
@@ -877,10 +851,6 @@
         }
       ],
       "top_vcs": [
-        {
-          "name": "CRV",
-          "count": 1
-        },
         {
           "name": "Ribbit Capital",
           "count": 1
