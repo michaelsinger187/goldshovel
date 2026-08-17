@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:03:12.761Z",
+  "generated_at": "2026-08-17T18:55:02.902Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,37 +9,15 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 31,
-    "total_deals": 31,
+    "scraped_deals": 32,
+    "total_deals": 32,
     "demo_mode": false,
-    "deals_with_coordinates": 31,
-    "runtime_ms": 4253,
+    "deals_with_coordinates": 32,
+    "runtime_ms": 4248,
     "note": "",
     "error_sample": []
   },
   "deals": [
-    {
-      "id": "deal_8138086",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Terra Industries",
-      "title": "Terra Industries raises additional $18 million, closes seed round at $52 million - Nairametrics",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFJGeTRjZ1hoMllBYk5wRm9jc2U2SUdCV0ZzSG4tWmdxUXJWeUpzRVdwTUpmc0Q3ZkljMXRlOWNBYld0emJZeUs3LVBzUzZGOVB4eWthVldtb2NTMUdXenJ3UWVsZ1Zhalo3MlBLQWtiTm5JbWt6X2ExcVNXV0oyMlR5S3NJQ1RTNjN6a21hLU5UbURUMU40VG5TLWZCYjg4QS1LaW1rbnQtR2paUmRnSl9tc3U?oc=5",
-      "source_name": "Nairametrics",
-      "published_at": "2026-08-17T12:00:08.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 18,
-      "confidence": 0.96,
-      "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
     {
       "id": "deal_757456035",
       "vc_id": "human-capital",
@@ -102,6 +80,28 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1136969249",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Unknown",
+      "title": "Monzo and Lovable backer Accel raises enlarged $800M early-stage fund - Tech.eu",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSno1SEx3SGEweU04X3p2RjNOMVhOQ0N5d1F6ek1memt6bkQtbTA2a0JRWkpFYTEtM3R0TEluYkNudXp4LXRFUm1WUEFKVjhHLXFlRFZWYmJxUWQzOWpkMjlGMHkyU0w4NTNESnhwMGZtaFZyd1BmMFNMU21Sd0E0SFhrY1NIT1FsMk9uc29aNkwyRHlPRlVKaVZEbXo?oc=5",
+      "source_name": "Tech.eu",
+      "published_at": "2026-08-12T08:39:33.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 800,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -177,9 +177,9 @@
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Unknown",
-      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - sifted.eu",
+      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - Sifted",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUVoxbEZwN3pDTTN4WlRWMVkxVHNtUlNOeUExUEVDSmhFVEljTjRENUlpa3ZGbVdOMlpZMTBrTkNKV3MzNmNVYXFSWDVzWnJNSUpUYXU1RzE5dkRRak5DbG5RQjBacHVycHVSeEZ1VXF2OTFt?oc=5",
-      "source_name": "sifted.eu",
+      "source_name": "Sifted",
       "published_at": "2026-08-10T08:13:29.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -327,6 +327,28 @@
       }
     },
     {
+      "id": "deal_1365335287",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Inforcer",
+      "title": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFpTVGdmVXpVaTJScHZabThXZnZESlk4dGZxQVotZzh1YlJaZkY4RnhCTmVuUkpGZWFxU1VRYUNQakMzeTd6RDBZQXRDYnJDVUFobk1zTF9ad05nSnpnMlA1eFhlQlp1QTZHWVFVbnlGMjl0NzQxSzl4UkNxSWtGY0hQTXFLeDk5M1M2alFsZG84TjRQMHlSa3FXc3h6b1pHZXVObXlpUDNraVJpZWFTbFJpQllnZWc?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_663796778",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -349,28 +371,6 @@
       }
     },
     {
-      "id": "deal_1450014593",
-      "vc_id": "battery",
-      "vc_name": "Battery Ventures",
-      "company": "AI startup Freehand",
-      "title": "AI startup Freehand raises $75 million led by Battery Ventures, NewRoad, Nexus - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTE5oTkhfR2pqU3VQYUNVMkNVb0pqdE8xM0VkSkduWkJYREY5cXpkcHlrLXJtZEtZbi0yMGJKUkRhOHdianlIaXh1LTJzYzE3SWJmNjB4X09XQTVBQWlndmdySHZqWW9WTXA1MS1nN3hkeV9FZXctTWJIV0xLeXA0MW1WclM2ZThxWWFnanVTaHFOUmVyVTZtSzB1OVA3bUNFVXJHNDNLcjRFc0NPV0lUeWZDWnB5c2w1MWxyeWlGaEtRZXJaZ2J0MEV1UXhDbFBxUVZaYk5zNTZ4UFnSAeABQVVfeXFMUFprVVVZWmd6ek9xT253VXRvQWRaUWtyRlZDV0FqYjZfcGh2Zm91RnlnR0o1OHdTSmswei1qZTluT0M2cHVMOW1FeXhpNkp3OThaMGRBQlVoR0NIbkxwa21UY0RaSWI0el9KSldYUXBWdWN0R2dMQm5OWU5fRGd0NzBTdDV0aURncTZxV3FNeEZkMEV0a0FuOXVNWHREZHVXVHFaRnBBTGJWM1k0Sy15ZXVvUzV0TzFuSEYxdTZwQ1BuQmVDWVhTWlRpdXBKMzV0cnVmOUtwa0ZBVTA5Y0JHUGc?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-07-29T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 75,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1232321174",
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
@@ -382,6 +382,28 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 20,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1450014593",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "AI startup Freehand",
+      "title": "AI startup Freehand raises $75 million led by Battery Ventures, NewRoad, Nexus - The Economic Times",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTE5oTkhfR2pqU3VQYUNVMkNVb0pqdE8xM0VkSkduWkJYREY5cXpkcHlrLXJtZEtZbi0yMGJKUkRhOHdianlIaXh1LTJzYzE3SWJmNjB4X09XQTVBQWlndmdySHZqWW9WTXA1MS1nN3hkeV9FZXctTWJIV0xLeXA0MW1WclM2ZThxWWFnanVTaHFOUmVyVTZtSzB1OVA3bUNFVXJHNDNLcjRFc0NPV0lUeWZDWnB5c2w1MWxyeWlGaEtRZXJaZ2J0MEV1UXhDbFBxUVZaYk5zNTZ4UFnSAeABQVVfeXFMUFprVVVZWmd6ek9xT253VXRvQWRaUWtyRlZDV0FqYjZfcGh2Zm91RnlnR0o1OHdTSmswei1qZTluT0M2cHVMOW1FeXhpNkp3OThaMGRBQlVoR0NIbkxwa21UY0RaSWI0el9KSldYUXBWdWN0R2dMQm5OWU5fRGd0NzBTdDV0aURncTZxV3FNeEZkMEV0a0FuOXVNWHREZHVXVHFaRnBBTGJWM1k0Sy15ZXVvUzV0TzFuSEYxdTZwQ1BuQmVDWVhTWlRpdXBKMzV0cnVmOUtwa0ZBVTA5Y0JHUGc?oc=5",
+      "source_name": "The Economic Times",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 75,
       "confidence": 0.81,
       "location": {
         "city": "Boston",
@@ -507,9 +529,9 @@
       "vc_id": "dtc",
       "vc_name": "Dell Technologies Capital",
       "company": "Exclusive: Fly.io",
-      "title": "Exclusive: Fly.io raises $25M and hires new CEO - Axios",
+      "title": "Exclusive: Fly.io raises $25M and hires new CEO - axios.com",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFdoVTd1RWl0TGdCLW13YndZRy0wU3dJcGl1Ny1vNHVOOGZRSVp5bDUxVk1nQ3dtRTBibkdCZlpuYjdTQUpENUtKTlZ3cWdQWU5ZVEdPYlI1WFZXUkE0aTRqZzNIdmxVMm5hN0lPQTNDMk1zdDBld0c2S3NyS2FOdUNZeHZkanotdGxVVkIwMGNIaDZV?oc=5",
-      "source_name": "Axios",
+      "source_name": "axios.com",
       "published_at": "2026-07-24T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -591,14 +613,14 @@
       }
     },
     {
-      "id": "deal_846176622",
+      "id": "deal_1448742795",
       "vc_id": "cisco",
       "vc_name": "Cisco Investments",
       "company": "Israeli cyber startup Zafran.",
       "title": "Cisco Investments backs Israeli cyber startup Zafran - Tech in Asia",
       "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3dUUnJBc0lqaFNtMmIxRjhES0lzblRLSElGRTJKYjJSVktuVXVJX2VPX3J5VFU1M1I0X1E5ckQ3a1dpZy1welBpdHFQbTJELUhrNDRUZE5CdlRaRERlSGN6M1V4b2ZHWUZSdzlCYUc1UnRrcnQtSVBPUVNSYXo5ckJpcGVlSzV0QWR5aQ?oc=5",
       "source_name": "Tech in Asia",
-      "published_at": "2026-07-23T07:00:00.000Z",
+      "published_at": "2026-07-23T01:23:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -770,14 +792,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 5,
-      "weighted_score": 17.65,
+      "deal_count": 6,
+      "weighted_score": 21.17,
       "latest_at": "2026-08-09T12:04:53.000Z",
-      "amount_usd_m_total": 1700,
+      "amount_usd_m_total": 1750,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Other",
@@ -795,6 +817,41 @@
         },
         {
           "name": "Amex Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 4,
+      "weighted_score": 13.11,
+      "latest_at": "2026-08-12T08:39:33.000Z",
+      "amount_usd_m_total": 886,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        },
+        {
+          "name": "Other",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Accel",
+          "count": 2
+        },
+        {
+          "name": "Social Capital",
+          "count": 1
+        },
+        {
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -826,41 +883,6 @@
         },
         {
           "name": "NextView Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 8.49,
-      "latest_at": "2026-08-12T03:02:17.000Z",
-      "amount_usd_m_total": 86,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 2
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Social Capital",
-          "count": 1
-        },
-        {
-          "name": "Ribbit Capital",
-          "count": 1
-        },
-        {
-          "name": "Accel",
           "count": 1
         }
       ]
@@ -999,29 +1021,6 @@
       "top_vcs": [
         {
           "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 3.44,
-      "latest_at": "2026-08-17T12:00:08.000Z",
-      "amount_usd_m_total": 18,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
           "count": 1
         }
       ]
