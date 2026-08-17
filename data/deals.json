@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:13:12.863Z",
+  "generated_at": "2026-08-17T13:03:12.761Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 29,
-    "total_deals": 29,
+    "scraped_deals": 31,
+    "total_deals": 31,
     "demo_mode": false,
-    "deals_with_coordinates": 29,
-    "runtime_ms": 3949,
+    "deals_with_coordinates": 31,
+    "runtime_ms": 4253,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_8138086",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Terra Industries",
+      "title": "Terra Industries raises additional $18 million, closes seed round at $52 million - Nairametrics",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFJGeTRjZ1hoMllBYk5wRm9jc2U2SUdCV0ZzSG4tWmdxUXJWeUpzRVdwTUpmc0Q3ZkljMXRlOWNBYld0emJZeUs3LVBzUzZGOVB4eWthVldtb2NTMUdXenJ3UWVsZ1Zhalo3MlBLQWtiTm5JbWt6X2ExcVNXV0oyMlR5S3NJQ1RTNjN6a21hLU5UbURUMU40VG5TLWZCYjg4QS1LaW1rbnQtR2paUmRnSl9tc3U?oc=5",
+      "source_name": "Nairametrics",
+      "published_at": "2026-08-17T12:00:08.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 18,
+      "confidence": 0.96,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_757456035",
       "vc_id": "human-capital",
@@ -305,35 +327,13 @@
       }
     },
     {
-      "id": "deal_421241041",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "Finance AI Ceiling: Claude Fable 5 Tops Frontier Models at Just 49% on Investment Tasks - Tech Times",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZkc3VGxKSDVMNkVpd1lTN2NlTkFqTE9VSTdXMEZEaXBzQVo4aVIxLVlSVGtnR3B4OTR6LXZoSEhmV0s2Q2JfUnhnU2xlS3Z4VFdMMTBOeFdpM09LT3BncjJ3V25kMnpXZW5rTm5pVEVYblFtMDVlMjBfc1pNZ08tc0RYa09RTGE4UWRYWVRwRHA4c1NfOWMyN0ZKM2FEUzNRUU1sUjl4UGtvNEVvNmQwQ2tXWWdHWER0SlhjRzRrVDFhaVhLRjUxSFRrSnp1Qzg?oc=5",
-      "source_name": "Tech Times",
-      "published_at": "2026-07-29T18:30:03.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1405341313",
+      "id": "deal_663796778",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
       "company": "Engineering AI startup, P-1 AI,",
-      "title": "Engineering AI startup, P-1 AI, Announces Its Series A - globenewswire.com",
-      "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYi1HSThoNzVhZ0tUZmlZejZTQUplcmk3Vy1yYl9SMnlhcGVOQXZ5d2l5ZlpOZFZRUjJScUY0aFFtam5XQjktUS1iTGROaXJBbmtXaHc5azRjak02bDl1bGRWVmhpTzAwbFhaTFlXUUp3dWJNVDhPUU5rU2REdmFiUERSX09CcGJ0VEpFVTdmd0l4VnF2X0FFSU9WZlZ2WkhPYURyNkpfdXZMbnJkYlMzRlZOWUp0R19PWDMwNVV4OXlTejFYQjU3WWR4Rkl6dWtENS1VZzM3aW5hQmNKSExkWjc2VkpnX0I3Z2pqY3c1YnRYZGJVRXhGYmVXUDQ0aThtM1ZvamFpX0sxZW56akNla2kyeWJfQQ?oc=5",
-      "source_name": "globenewswire.com",
+      "title": "Engineering AI startup, P-1 AI, Announces Its Series A Financing Led by NEA, Adding Jeff Immelt to the Company’s Board - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGZLTW5wRHR3YXhfNkdhWVJGd0dDdW9XZ2NoZVNqNWxmSFppeXNaaG9zbFluWG01VHdRVmhKYlFHeTkxNEdpdnl1UDJUTDh0aDI2TmR6TkZ2b2FhblJLSjAzN01MN0Q0YmpIZ2lyX0NSUTVkNS1GWHRzOUkySjBSZThNZHdqYVBjNVBTS3dPUkRFaWda?oc=5",
+      "source_name": "Yahoo Finance",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -388,6 +388,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_246732309",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "Finance AI Ceiling: Claude Fable 5 Tops Frontier Models at Just 49% on Investment Tasks - Tech Times",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZkc3VGxKSDVMNkVpd1lTN2NlTkFqTE9VSTdXMEZEaXBzQVo4aVIxLVlSVGtnR3B4OTR6LXZoSEhmV0s2Q2JfUnhnU2xlS3Z4VFdMMTBOeFdpM09LT3BncjJ3V25kMnpXZW5rTm5pVEVYblFtMDVlMjBfc1pNZ08tc0RYa09RTGE4UWRYWVRwRHA4c1NfOWMyN0ZKM2FEUzNRUU1sUjl4UGtvNEVvNmQwQ2tXWWdHWER0SlhjRzRrVDFhaVhLRjUxSFRrSnp1Qzg?oc=5",
+      "source_name": "Tech Times",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -463,9 +485,9 @@
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
       "company": "Enigma",
-      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume - techcrunch.com",
+      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume - TechCrunch",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSnNERUE3ZUlwdlZwNHVuZzVBVkE2alZHTGIyRUJWNEtsMndDV2lSWGxNMUoxS3lURXE4VlNGREpURWhUc3dzSkZYWFNQNU94eDNGOHNXVFVldVRtWjVwcTBJdEMyNWZMWTFndXlIMl9CdnNRTWNCd1owZmxUZUN3WThGdWJidHc3am1RNzlmZ0lMWlRHWGd3cmxwM19hQXFYOEdqNnJFSDhQN1N2QmxQdXNn?oc=5",
-      "source_name": "techcrunch.com",
+      "source_name": "TechCrunch",
       "published_at": "2026-07-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -507,9 +529,9 @@
       "vc_id": "redpoint",
       "vc_name": "Redpoint Ventures",
       "company": "Israeli startup Glow",
-      "title": "Israeli startup Glow raises $180m for AI endpoint security platform - jpost.com",
+      "title": "Israeli startup Glow raises $180m for AI endpoint security platform - The Jerusalem Post",
       "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6enBEdnVGNVV1Z09aUjA2Y25SZDE5dnFtanZfZlhtcnZ2SURIdHdSaW40bnpUc2pMVmktbnZQRDNnTjgxSUgzTGd2SlI5QkE0ckExMk9GTzN5OFdKR1pyQ0tiTQ?oc=5",
-      "source_name": "jpost.com",
+      "source_name": "The Jerusalem Post",
       "published_at": "2026-07-23T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -569,14 +591,14 @@
       }
     },
     {
-      "id": "deal_1448742795",
+      "id": "deal_846176622",
       "vc_id": "cisco",
       "vc_name": "Cisco Investments",
       "company": "Israeli cyber startup Zafran.",
       "title": "Cisco Investments backs Israeli cyber startup Zafran - Tech in Asia",
       "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3dUUnJBc0lqaFNtMmIxRjhES0lzblRLSElGRTJKYjJSVktuVXVJX2VPX3J5VFU1M1I0X1E5ckQ3a1dpZy1welBpdHFQbTJELUhrNDRUZE5CdlRaRERlSGN6M1V4b2ZHWUZSdzlCYUc1UnRrcnQtSVBPUVNSYXo5ckJpcGVlSzV0QWR5aQ?oc=5",
       "source_name": "Tech in Asia",
-      "published_at": "2026-07-23T01:23:00.000Z",
+      "published_at": "2026-07-23T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -586,6 +608,28 @@
         "state": "CA",
         "lat": 37.3382,
         "lon": -121.8863,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_84468381",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "SkyPilot, from Databricks’ cofounder,",
+      "title": "SkyPilot, from Databricks’ cofounder, raises $20M to be the Switzerland of AI compute - Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcERYSWFFV25YYWhqdXdMRFlDR2VmZ1VKRVVEYTBZQjlpN0RadUFFRlJENzRfNkwwUkRVUnlNajVpT0psd1dJR0lxUDItaHFOaFNZeE9sQVBVRE1STlVnUEMtdXMwZzlkVFBLWDZjWThNb0pURU5kalZvYUpsVmZWQjN3a0NwRmw0aEthZGJObDJhQXR6SFdQeGNHSmQ0Nnp5Xy1NRVpzZ0luZEZlR0RCeU9QVQ?oc=5",
+      "source_name": "Fortune",
+      "published_at": "2026-07-21T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -726,14 +770,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 4,
-      "weighted_score": 14.52,
+      "deal_count": 5,
+      "weighted_score": 17.65,
       "latest_at": "2026-08-09T12:04:53.000Z",
-      "amount_usd_m_total": 1680,
+      "amount_usd_m_total": 1700,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Other",
@@ -743,7 +787,7 @@
       "top_vcs": [
         {
           "name": "Lux Capital",
-          "count": 1
+          "count": 2
         },
         {
           "name": "Citi Ventures",
@@ -955,6 +999,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 1,
+      "weighted_score": 3.44,
+      "latest_at": "2026-08-17T12:00:08.000Z",
+      "amount_usd_m_total": 18,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "8VC",
           "count": 1
         }
       ]
