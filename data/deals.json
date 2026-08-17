@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:52:35.055Z",
+  "generated_at": "2026-08-17T07:13:12.863Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 30,
-    "total_deals": 30,
+    "scraped_deals": 29,
+    "total_deals": 29,
     "demo_mode": false,
-    "deals_with_coordinates": 30,
-    "runtime_ms": 3822,
+    "deals_with_coordinates": 29,
+    "runtime_ms": 3949,
     "note": "",
     "error_sample": []
   },
@@ -63,28 +63,6 @@
       }
     },
     {
-      "id": "deal_1762502530",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM0lwR3VzR3d2WUpMUDR0Xzl1cTUteG9oNFRzdzRSaDM2SDNRamNfV3BpOHV1YjJxVHllSFVGNkU0elN2QVozeE5LVEU3aXRmcTN0VHFpMmhDZTJxRHRCbkVseE9POFBCWkhnOWg3aFZKc0xfbEJEQkRlbnUzRkFrMERyZ0g2UQ?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-08-13T15:32:15.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_606421240",
       "vc_id": "gv",
       "vc_name": "GV",
@@ -102,6 +80,28 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_426092196",
+      "vc_id": "social-capital",
+      "vc_name": "Social Capital",
+      "company": "Unknown",
+      "title": "Impact Investing Firms & Funds: 79 Investors to Know - Causeartist",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTXpySGVIX3dPWV9MQllIN0NxdkhwbzJjbF9sOEZucS1VbC1tWHNxNUxOZnlJWmV2ZzRSZjlmWGcxMU41SG1JZXZZMlVJM2NjSHN6dWpDNEtDZVJXX2hnVFlsNEpGa0xNYlJfTnJRTzZaeEc2ZFY3VGFDdUJ3eDB3ZlFrQ2VuQTJhcnEw?oc=5",
+      "source_name": "Causeartist",
+      "published_at": "2026-08-12T03:02:17.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -151,14 +151,14 @@
       }
     },
     {
-      "id": "deal_841346900",
+      "id": "deal_1099009259",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Unknown",
       "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - sifted.eu",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUVoxbEZwN3pDTTN4WlRWMVkxVHNtUlNOeUExUEVDSmhFVEljTjRENUlpa3ZGbVdOMlpZMTBrTkNKV3MzNmNVYXFSWDVzWnJNSUpUYXU1RzE5dkRRak5DbG5RQjBacHVycHVSeEZ1VXF2OTFt?oc=5",
       "source_name": "sifted.eu",
-      "published_at": "2026-08-10T08:13:20.000Z",
+      "published_at": "2026-08-10T08:13:29.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 3400,
@@ -305,13 +305,35 @@
       }
     },
     {
-      "id": "deal_663796778",
+      "id": "deal_421241041",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "Finance AI Ceiling: Claude Fable 5 Tops Frontier Models at Just 49% on Investment Tasks - Tech Times",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZkc3VGxKSDVMNkVpd1lTN2NlTkFqTE9VSTdXMEZEaXBzQVo4aVIxLVlSVGtnR3B4OTR6LXZoSEhmV0s2Q2JfUnhnU2xlS3Z4VFdMMTBOeFdpM09LT3BncjJ3V25kMnpXZW5rTm5pVEVYblFtMDVlMjBfc1pNZ08tc0RYa09RTGE4UWRYWVRwRHA4c1NfOWMyN0ZKM2FEUzNRUU1sUjl4UGtvNEVvNmQwQ2tXWWdHWER0SlhjRzRrVDFhaVhLRjUxSFRrSnp1Qzg?oc=5",
+      "source_name": "Tech Times",
+      "published_at": "2026-07-29T18:30:03.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1405341313",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
       "company": "Engineering AI startup, P-1 AI,",
-      "title": "Engineering AI startup, P-1 AI, Announces Its Series A Financing Led by NEA, Adding Jeff Immelt to the Company’s Board - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGZLTW5wRHR3YXhfNkdhWVJGd0dDdW9XZ2NoZVNqNWxmSFppeXNaaG9zbFluWG01VHdRVmhKYlFHeTkxNEdpdnl1UDJUTDh0aDI2TmR6TkZ2b2FhblJLSjAzN01MN0Q0YmpIZ2lyX0NSUTVkNS1GWHRzOUkySjBSZThNZHdqYVBjNVBTS3dPUkRFaWda?oc=5",
-      "source_name": "Yahoo Finance",
+      "title": "Engineering AI startup, P-1 AI, Announces Its Series A - globenewswire.com",
+      "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYi1HSThoNzVhZ0tUZmlZejZTQUplcmk3Vy1yYl9SMnlhcGVOQXZ5d2l5ZlpOZFZRUjJScUY0aFFtam5XQjktUS1iTGROaXJBbmtXaHc5azRjak02bDl1bGRWVmhpTzAwbFhaTFlXUUp3dWJNVDhPUU5rU2REdmFiUERSX09CcGJ0VEpFVTdmd0l4VnF2X0FFSU9WZlZ2WkhPYURyNkpfdXZMbnJkYlMzRlZOWUp0R19PWDMwNVV4OXlTejFYQjU3WWR4Rkl6dWtENS1VZzM3aW5hQmNKSExkWjc2VkpnX0I3Z2pqY3c1YnRYZGJVRXhGYmVXUDQ0aThtM1ZvamFpX0sxZW56akNla2kyeWJfQQ?oc=5",
+      "source_name": "globenewswire.com",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -366,28 +388,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_246732309",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "Finance AI Ceiling: Claude Fable 5 Tops Frontier Models at Just 49% on Investment Tasks - techtimes.com",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZkc3VGxKSDVMNkVpd1lTN2NlTkFqTE9VSTdXMEZEaXBzQVo4aVIxLVlSVGtnR3B4OTR6LXZoSEhmV0s2Q2JfUnhnU2xlS3Z4VFdMMTBOeFdpM09LT3BncjJ3V25kMnpXZW5rTm5pVEVYblFtMDVlMjBfc1pNZ08tc0RYa09RTGE4UWRYWVRwRHA4c1NfOWMyN0ZKM2FEUzNRUU1sUjl4UGtvNEVvNmQwQ2tXWWdHWER0SlhjRzRrVDFhaVhLRjUxSFRrSnp1Qzg?oc=5",
-      "source_name": "techtimes.com",
-      "published_at": "2026-07-29T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -463,9 +463,9 @@
       "vc_id": "ribbit",
       "vc_name": "Ribbit Capital",
       "company": "Enigma",
-      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume - TechCrunch",
+      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume - techcrunch.com",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSnNERUE3ZUlwdlZwNHVuZzVBVkE2alZHTGIyRUJWNEtsMndDV2lSWGxNMUoxS3lURXE4VlNGREpURWhUc3dzSkZYWFNQNU94eDNGOHNXVFVldVRtWjVwcTBJdEMyNWZMWTFndXlIMl9CdnNRTWNCd1owZmxUZUN3WThGdWJidHc3am1RNzlmZ0lMWlRHWGd3cmxwM19hQXFYOEdqNnJFSDhQN1N2QmxQdXNn?oc=5",
-      "source_name": "TechCrunch",
+      "source_name": "techcrunch.com",
       "published_at": "2026-07-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -485,9 +485,9 @@
       "vc_id": "dtc",
       "vc_name": "Dell Technologies Capital",
       "company": "Exclusive: Fly.io",
-      "title": "Exclusive: Fly.io raises $25M and hires new CEO - axios.com",
+      "title": "Exclusive: Fly.io raises $25M and hires new CEO - Axios",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFdoVTd1RWl0TGdCLW13YndZRy0wU3dJcGl1Ny1vNHVOOGZRSVp5bDUxVk1nQ3dtRTBibkdCZlpuYjdTQUpENUtKTlZ3cWdQWU5ZVEdPYlI1WFZXUkE0aTRqZzNIdmxVMm5hN0lPQTNDMk1zdDBld0c2S3NyS2FOdUNZeHZkanotdGxVVkIwMGNIaDZV?oc=5",
-      "source_name": "axios.com",
+      "source_name": "Axios",
       "published_at": "2026-07-24T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -507,9 +507,9 @@
       "vc_id": "redpoint",
       "vc_name": "Redpoint Ventures",
       "company": "Israeli startup Glow",
-      "title": "Israeli startup Glow raises $180m for AI endpoint security platform - The Jerusalem Post",
+      "title": "Israeli startup Glow raises $180m for AI endpoint security platform - jpost.com",
       "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6enBEdnVGNVV1Z09aUjA2Y25SZDE5dnFtanZfZlhtcnZ2SURIdHdSaW40bnpUc2pMVmktbnZQRDNnTjgxSUgzTGd2SlI5QkE0ckExMk9GTzN5OFdKR1pyQ0tiTQ?oc=5",
-      "source_name": "The Jerusalem Post",
+      "source_name": "jpost.com",
       "published_at": "2026-07-23T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -655,28 +655,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1638076970",
-      "vc_id": "nea",
-      "vc_name": "New Enterprise Associates",
-      "company": "CuspAI",
-      "title": "CuspAI Raises $450 Million at $2.6 Billion Valuation to Accelerate Materials Discovery - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWDNrd0NUd0NVNFMwc05vUmFoTjh2M3NrWF9GOTY2OFhkMnR6d0I5ZWFkNG1QNld3ZFN5by1uMjVweTFMUHAtUFJ0SFpUb0tIdEc4bWZBUzBQbFZYamoyWHVVQXdaQUxDWXd3dlpyWVZsOGFDbk5ZcGdyWG1Lb0pUdW1tcWhiZEFhQ3lFY1Axak8wVjJsd3BxQVkzOUc?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-07-20T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 450,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -686,14 +664,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 6,
-      "weighted_score": 26.89,
+      "deal_count": 5,
+      "weighted_score": 22.42,
       "latest_at": "2026-08-06T04:40:11.000Z",
-      "amount_usd_m_total": 68970,
+      "amount_usd_m_total": 68520,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         }
       ],
       "top_vcs": [
@@ -702,11 +680,11 @@
           "count": 2
         },
         {
-          "name": "New Enterprise Associates",
-          "count": 2
+          "name": "Altimeter Capital",
+          "count": 1
         },
         {
-          "name": "Altimeter Capital",
+          "name": "New Enterprise Associates",
           "count": 1
         }
       ]
@@ -783,28 +761,28 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 4,
-      "weighted_score": 10.84,
-      "latest_at": "2026-08-13T15:32:15.000Z",
+      "deal_count": 3,
+      "weighted_score": 8.83,
+      "latest_at": "2026-08-11T15:32:17.000Z",
       "amount_usd_m_total": 95,
       "top_sectors": [
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 2
         },
         {
-          "name": "AI & ML",
-          "count": 2
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "NextView Ventures",
+          "name": "Battery Ventures",
           "count": 2
         },
         {
-          "name": "Battery Ventures",
-          "count": 2
+          "name": "NextView Ventures",
+          "count": 1
         }
       ]
     },
@@ -814,21 +792,25 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 6.48,
-      "latest_at": "2026-07-27T07:00:00.000Z",
+      "deal_count": 3,
+      "weighted_score": 8.49,
+      "latest_at": "2026-08-12T03:02:17.000Z",
       "amount_usd_m_total": 86,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 1
+          "name": "Other",
+          "count": 2
         },
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 1
         }
       ],
       "top_vcs": [
+        {
+          "name": "Social Capital",
+          "count": 1
+        },
         {
           "name": "Ribbit Capital",
           "count": 1
@@ -847,7 +829,7 @@
       "lon": -71.1097,
       "deal_count": 1,
       "weighted_score": 5.36,
-      "latest_at": "2026-08-10T08:13:20.000Z",
+      "latest_at": "2026-08-10T08:13:29.000Z",
       "amount_usd_m_total": 3400,
       "top_sectors": [
         {
