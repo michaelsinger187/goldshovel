@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:44:31.933Z",
+  "generated_at": "2026-08-17T01:52:35.055Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 31,
-    "total_deals": 31,
+    "scraped_deals": 30,
+    "total_deals": 30,
     "demo_mode": false,
-    "deals_with_coordinates": 31,
-    "runtime_ms": 4219,
+    "deals_with_coordinates": 30,
+    "runtime_ms": 3822,
     "note": "",
     "error_sample": []
   },
@@ -31,6 +31,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 100,
       "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1130291123",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Decade",
+      "title": "Decade Secures $85M in Latin America’s Largest Seed Round to Create a New Generation of Millionaires with AI - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTWxsRjhWOUdySDQwTWRmZkpMUDBCN1RxQVMxWllZM1hZVjlBcU5uOGFvNjJDMnY4WERLZ01fRWhrMUJ2QU9UbzZkUVlESWNJd1Q1eFRtRXo4U2M0SjFobERySzV0T3VmR3JmRWt3U3B0bHVlMFAwTVpFSkMwYU5Fb09MU1U3WVNnU3JtMVc1OVZlcl9BdUh3b1UtZTh5aFMyNDFuVHlOS0diZGFnNGxoMzByOXVYU3hIWGJjbUtscUJ1WHhwbzdpeGd1T0hiN2Fyc1JCLUVfWHhwbTdh?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-08-14T15:55:07.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 85,
+      "confidence": 0.96,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -67,9 +89,9 @@
       "vc_id": "gv",
       "vc_name": "GV",
       "company": "AI code testing platform Blacksmith",
-      "title": "AI code testing platform Blacksmith raises $45 Mn in Series B led by Peak XV - entrackr.com",
+      "title": "AI code testing platform Blacksmith raises $45 Mn in Series B led by Peak XV - Entrackr",
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa0xueEVjd251WDNOMzNWSVp5bkVnakdpUVlXTmRtVWY0NUJvb3ZBdl90U1dBOFBvaEhsZ1ZET1YyMm9OQ1Bqa2ZyQ3B0YUFKcHhyZWZxbjh4SDktM0ZKekNLUVJhd2dxaFhnU1lHZmw0eUF1SDdfTjNVRU1IcnQxZU9XRk5ET0VsLTdhWlE5VFZUdEdCdXdaVThKR1Q3OUVwNGhZdjVvVUltVkQ2WXE00gGvAUFVX3lxTE1rTG54RWN3bnVYM04zM1ZJWnluRWdqR2lRWVdOZG1VZjQ1Qm9vdkF2X3RTV0E4UG9oSGxnVkRPVjIyb05DUGprZnJDcHRhQUpweHJlZnFuOHhIOS0zRkp6Q0tRUmF3Z3FoWGdTWUdmbDR5QXVIN19OM1VFTUhydDFlT1dGTkRPRWwtN2FaUTlUVlR0R0J1d1pVOEpHVDc5RXA0aFl2NW9VSW1WRDZZcTQ?oc=5",
-      "source_name": "entrackr.com",
+      "source_name": "Entrackr",
       "published_at": "2026-08-13T06:03:12.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
@@ -199,9 +221,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - eu.36kr.com",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36Kr",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "eu.36kr.com",
+      "source_name": "36Kr",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -234,28 +256,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1609695785",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Decade",
-      "title": "Decade Raises $85M in Latin America's Largest Seed Round to Create a New Generation of Millionaires with AI - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNelJHSnJUWFloT2t5cFd0WlB5NEF1d0FjLTluU0VmSE5LN19QQ1Z1MF9oLUNjODZZOUdhbVppYVY1NHN3X2VIZDRfYnRWUHh3Z2dnWC04a1c3WmUtZmJZRlMyc096bXdZbExCbG1seEh5Q19kUldCZmVabHRzREpyY2xOVTNVWjVkZi1FbnNPM0pSZFJiTDV4cGNBbEQxZ1lrNk0yNDJRU1pKZ3NBT19jRTdXT2NuNkpwU0pETHFpNmE0V3NfOU53b3lRTGdWZWk3OGRwS0k1QlVsbm5iUFVNOXJSM3lMWVJiem9uUkJKQXJwT2ZzdU5Kbw?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 85,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -300,50 +300,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1365335287",
-      "vc_id": "insight",
-      "vc_name": "Insight Partners",
-      "company": "Inforcer",
-      "title": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFpTVGdmVXpVaTJScHZabThXZnZESlk4dGZxQVotZzh1YlJaZkY4RnhCTmVuUkpGZWFxU1VRYUNQakMzeTd6RDBZQXRDYnJDVUFobk1zTF9ad05nSnpnMlA1eFhlQlp1QTZHWVFVbnlGMjl0NzQxSzl4UkNxSWtGY0hQTXFLeDk5M1M2alFsZG84TjRQMHlSa3FXc3h6b1pHZXVObXlpUDNraVJpZWFTbFJpQllnZWc?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_421241041",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "Finance AI Ceiling: Claude Fable 5 Tops Frontier Models at Just 49% on Investment Tasks - Tech Times",
-      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZkc3VGxKSDVMNkVpd1lTN2NlTkFqTE9VSTdXMEZEaXBzQVo4aVIxLVlSVGtnR3B4OTR6LXZoSEhmV0s2Q2JfUnhnU2xlS3Z4VFdMMTBOeFdpM09LT3BncjJ3V25kMnpXZW5rTm5pVEVYblFtMDVlMjBfc1pNZ08tc0RYa09RTGE4UWRYWVRwRHA4c1NfOWMyN0ZKM2FEUzNRUU1sUjl4UGtvNEVvNmQwQ2tXWWdHWER0SlhjRzRrVDFhaVhLRjUxSFRrSnp1Qzg?oc=5",
-      "source_name": "Tech Times",
-      "published_at": "2026-07-29T18:30:03.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -410,6 +366,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_246732309",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "Finance AI Ceiling: Claude Fable 5 Tops Frontier Models at Just 49% on Investment Tasks - techtimes.com",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZkc3VGxKSDVMNkVpd1lTN2NlTkFqTE9VSTdXMEZEaXBzQVo4aVIxLVlSVGtnR3B4OTR6LXZoSEhmV0s2Q2JfUnhnU2xlS3Z4VFdMMTBOeFdpM09LT3BncjJ3V25kMnpXZW5rTm5pVEVYblFtMDVlMjBfc1pNZ08tc0RYa09RTGE4UWRYWVRwRHA4c1NfOWMyN0ZKM2FEUzNRUU1sUjl4UGtvNEVvNmQwQ2tXWWdHWER0SlhjRzRrVDFhaVhLRjUxSFRrSnp1Qzg?oc=5",
+      "source_name": "techtimes.com",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -507,9 +485,9 @@
       "vc_id": "dtc",
       "vc_name": "Dell Technologies Capital",
       "company": "Exclusive: Fly.io",
-      "title": "Exclusive: Fly.io raises $25M and hires new CEO - Axios",
+      "title": "Exclusive: Fly.io raises $25M and hires new CEO - axios.com",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFdoVTd1RWl0TGdCLW13YndZRy0wU3dJcGl1Ny1vNHVOOGZRSVp5bDUxVk1nQ3dtRTBibkdCZlpuYjdTQUpENUtKTlZ3cWdQWU5ZVEdPYlI1WFZXUkE0aTRqZzNIdmxVMm5hN0lPQTNDMk1zdDBld0c2S3NyS2FOdUNZeHZkanotdGxVVkIwMGNIaDZV?oc=5",
-      "source_name": "Axios",
+      "source_name": "axios.com",
       "published_at": "2026-07-24T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -770,14 +748,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 5,
-      "weighted_score": 18.04,
+      "deal_count": 4,
+      "weighted_score": 14.52,
       "latest_at": "2026-08-09T12:04:53.000Z",
-      "amount_usd_m_total": 1730,
+      "amount_usd_m_total": 1680,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Other",
