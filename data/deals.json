@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T07:02:27.656Z",
+  "generated_at": "2026-08-19T13:06:14.516Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 37,
-    "total_deals": 37,
+    "scraped_deals": 40,
+    "total_deals": 40,
     "demo_mode": false,
-    "deals_with_coordinates": 37,
-    "runtime_ms": 4071,
+    "deals_with_coordinates": 40,
+    "runtime_ms": 3981,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_706529174",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "Unknown",
+      "title": "Bridgewater’s top investors are backing an AI startup to give smaller hedge funds more firepower - Business Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObFNFOGU1RWk3TmxOOXU0a0kydWU3b3Q5OXJsVEtueVFVSE9OM1U2ZHAzQWVCWTRMYl9RUzdwQk5RQndXUUZGbUIzYmQ1NFVRQlFmNGFKZmEyeERCaGxDbm1iQlpjMmZ3S2NPRkJLQnlYaUZkcnYxS3JISmhVdXVBQW1uV2tIX0JVYWt5U3VVRURlRm1EMk1WbHkxaWFRNFdZZE0w?oc=5",
+      "source_name": "Business Insider",
+      "published_at": "2026-08-19T09:50:03.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2010683995",
+      "vc_id": "lux",
+      "vc_name": "Lux Capital",
+      "company": "Unknown",
+      "title": "Bridgewater’s top investors are backing an AI startup to give smaller hedge funds more firepower - Business Insider Africa",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeklIWkxwUDNmUEVBc3Zkc3hhYWNsVGpDREJJckVOb0g4Nk1QZWZhR1RialludHdObHRwMVJjOXcxbFE1Vnltcnh0WTV1WXRjUE5neXhvQlZQRVdHQzJvY2NkME8xaHROOU1NZFpJSzBiUjhsZ0M3NWF5cElFTUdqVFp1LXFMUVdKbDh6U29mQkgxWGtHb3J4SThJWmpuUlNtSG1kZF9TNUdIbGZubTJHVFdwLXBSZmR1d09jb01Ma1BTbnhnOWtyZ1d0MFpKNGhydFE?oc=5",
+      "source_name": "Business Insider Africa",
+      "published_at": "2026-08-19T09:50:01.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1721639213",
       "vc_id": "human-capital",
@@ -58,6 +102,28 @@
         "state": "TX",
         "lat": 30.2672,
         "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1130291123",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Decade",
+      "title": "Decade Secures $85M in Latin America’s Largest Seed Round to Create a New Generation of Millionaires with AI - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTWxsRjhWOUdySDQwTWRmZkpMUDBCN1RxQVMxWllZM1hZVjlBcU5uOGFvNjJDMnY4WERLZ01fRWhrMUJ2QU9UbzZkUVlESWNJd1Q1eFRtRXo4U2M0SjFobERySzV0T3VmR3JmRWt3U3B0bHVlMFAwTVpFSkMwYU5Fb09MU1U3WVNnU3JtMVc1OVZlcl9BdUh3b1UtZTh5aFMyNDFuVHlOS0diZGFnNGxoMzByOXVYU3hIWGJjbUtscUJ1WHhwbzdpeGd1T0hiN2Fyc1JCLUVfWHhwbTdh?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-08-14T15:55:07.000Z",
+      "stage": "Seed",
+      "sector": "AI & ML",
+      "amount_usd_m": 85,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -243,9 +309,9 @@
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
       "company": "Flagler Health",
-      "title": "Flagler Health secures $50M series B for AI-native MSK care platform expansion - Fierce Healthcare",
+      "title": "Flagler Health secures $50M series B for AI-native MSK care platform expansion - fiercehealthcare.com",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSldXV09jZVV4VkRoT0tGLTJKUWI4bFdRcEtfTmlzSGtSYUI4V1ItX2Z5NFpYSnhWWVRudHlLSklYNTZmWmdpa2hjeVpwNHgxMzVXOUtXMllEd1psS1ZqenVIZEtBdERvVHhETWxlS1JSelFTYnl3R0tKNEw4bjZZa19HdW1qWmRONlJrTXF1cVdwVjQ4RGMyTDFNUmVlNzJuU0NTZnlMRk5hYkhUNUN3S1hNZjc?oc=5",
-      "source_name": "Fierce Healthcare",
+      "source_name": "fiercehealthcare.com",
       "published_at": "2026-08-11T16:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
@@ -283,13 +349,35 @@
       }
     },
     {
+      "id": "deal_2061293496",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Unknown",
+      "title": "The 12 Largest US Funding Rounds of July 2026 - alleywatch.com",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
+      "source_name": "alleywatch.com",
+      "published_at": "2026-08-11T15:32:17.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_261166417",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Unknown",
-      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - Sifted",
+      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - sifted.eu",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUVoxbEZwN3pDTTN4WlRWMVkxVHNtUlNOeUExUEVDSmhFVEljTjRENUlpa3ZGbVdOMlpZMTBrTkNKV3MzNmNVYXFSWDVzWnJNSUpUYXU1RzE5dkRRak5DbG5RQjBacHVycHVSeEZ1VXF2OTFt?oc=5",
-      "source_name": "Sifted",
+      "source_name": "sifted.eu",
       "published_at": "2026-08-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -375,9 +463,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - eu.36kr.com",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "eu.36kr.com",
+      "source_name": "36 Kr",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -432,28 +520,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1609695785",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Decade",
-      "title": "Decade Raises $85M in Latin America's Largest Seed Round to Create a New Generation of Millionaires with AI - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNelJHSnJUWFloT2t5cFd0WlB5NEF1d0FjLTluU0VmSE5LN19QQ1Z1MF9oLUNjODZZOUdhbVppYVY1NHN3X2VIZDRfYnRWUHh3Z2dnWC04a1c3WmUtZmJZRlMyc096bXdZbExCbG1seEh5Q19kUldCZmVabHRzREpyY2xOVTNVWjVkZi1FbnNPM0pSZFJiTDV4cGNBbEQxZ1lrNk0yNDJRU1pKZ3NBT19jRTdXT2NuNkpwU0pETHFpNmE0V3NfOU53b3lRTGdWZWk3OGRwS0k1QlVsbm5iUFVNOXJSM3lMWVJiem9uUkJKQXJwT2ZzdU5Kbw?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-08-04T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 85,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -871,14 +937,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 22.26,
-      "latest_at": "2026-08-11T16:08:46.000Z",
+      "deal_count": 9,
+      "weighted_score": 26.48,
+      "latest_at": "2026-08-19T09:50:03.000Z",
       "amount_usd_m_total": 1730,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 8
         },
         {
           "name": "Other",
@@ -887,12 +953,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Amex Ventures",
+          "name": "Lux Capital",
           "count": 3
         },
         {
-          "name": "Lux Capital",
-          "count": 1
+          "name": "Amex Ventures",
+          "count": 3
         },
         {
           "name": "Citi Ventures",
@@ -1140,6 +1206,29 @@
       ]
     },
     {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 2,
+      "weighted_score": 4.02,
+      "latest_at": "2026-08-13T15:32:15.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
       "key": "Austin,TX",
       "city": "Austin",
       "state": "TX",
@@ -1181,29 +1270,6 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 1,
-      "weighted_score": 2.01,
-      "latest_at": "2026-08-13T15:32:15.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
           "count": 1
         }
       ]
