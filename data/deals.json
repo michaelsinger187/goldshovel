@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:06:14.516Z",
+  "generated_at": "2026-08-19T18:50:38.944Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 40,
-    "total_deals": 40,
+    "scraped_deals": 41,
+    "total_deals": 41,
     "demo_mode": false,
-    "deals_with_coordinates": 40,
-    "runtime_ms": 3981,
+    "deals_with_coordinates": 41,
+    "runtime_ms": 4352,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1642363041",
+      "vc_id": "floodgate",
+      "vc_name": "Floodgate",
+      "company": "Unknown",
+      "title": "SEC Opens $75M Crypto Funding Floodgate With New Rule Plan - news.bitcoin.com",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRkMyQktQRXlMSTdaTTd2VHRxRk4tWFR2ek95TE9Za0dySUViS1lOUjNRZVcwN3daVGU3cmtpcDM3U0pjeGZrWWtpRFZMaEU2OG5fZlJyTFl3NDZVUjNmb1FqSFJLWUdtUDMwVC1seGRZQUN3ZkJ1WmR4NVNQUDhweUgtUmI3RGNLYU5xbHJkYlNJaHp0UXZPWUZuUWxjOUhtZ19rNl9kSQ?oc=5",
+      "source_name": "news.bitcoin.com",
+      "published_at": "2026-08-19T14:37:31.000Z",
+      "stage": "Unspecified",
+      "sector": "Web3 & Crypto",
+      "amount_usd_m": 75,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2034660239",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "The O.H.I.O. Fund",
+      "title": "The O.H.I.O. Fund Announces Lead Investment in Sonic Fire Tech's Seed Round; Khosla Ventures Reinvests, Capping Cleveland Startup's Seed Funding at $15M - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOUDFEN244a3diYTQzLUwyZ3NpaEpKZ2tfVjN4dkFrX1RnZ2xaQkp3SzlzeFM0TDVjTy1ITUpvT2RGemljdW1mM3RyYmVmSERWeUFFT0h5TU4zRENLZEN6cmNXU3dsUlN6OVJjeDRlLXZRckJIUnpPVzBsTXdtTVl5T1RrbkFNaThzU2RQY0hxRnpBZ3BaeWN5VEZ0Ml9tV1lNNlE0U1lzczVzR0U1QjFXZVpTbk5BbmtXeEc0VHBUNlFCOTUyakYwQWh4V0RVQ19zUHhCVzkxWmRpSUcyZEEzMExjSGhPSU5MdTk2dEJFZElQR2ROTFVLUVg5QXBFTjNycW1EZ1BBTE1sZWRDT0VILTRDTDl4QjdVSC1zQmtDOVFzR0xnZ1puRnNJam8tNE1E?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-08-19T14:00:00.000Z",
+      "stage": "Seed",
+      "sector": "Other",
+      "amount_usd_m": 15,
+      "confidence": 0.98,
+      "location": {
+        "city": "Cleveland",
+        "state": "OH",
+        "lat": 41.4993,
+        "lon": -81.6944,
+        "method": "city_keyword",
+        "confidence": 0.68
+      }
+    },
     {
       "id": "deal_706529174",
       "vc_id": "lux",
@@ -85,13 +129,35 @@
       }
     },
     {
+      "id": "deal_803162035",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Fierce Healthcare Fundraising Tracker '26: Aligned Marketplace",
+      "title": "Fierce Healthcare Fundraising Tracker '26: Aligned Marketplace lands $20M; Happy Health buoyed by $75M round - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-08-18T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_8138086",
       "vc_id": "8vc",
       "vc_name": "8VC",
       "company": "Terra Industries",
-      "title": "Terra Industries raises additional $18 million, closes seed round at $52 million - Nairametrics",
+      "title": "Terra Industries raises additional $18 million, closes seed round at $52 million - nairametrics.com",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFJGeTRjZ1hoMllBYk5wRm9jc2U2SUdCV0ZzSG4tWmdxUXJWeUpzRVdwTUpmc0Q3ZkljMXRlOWNBYld0emJZeUs3LVBzUzZGOVB4eWthVldtb2NTMUdXenJ3UWVsZ1Zhalo3MlBLQWtiTm5JbWt6X2ExcVNXV0oyMlR5S3NJQ1RTNjN6a21hLU5UbURUMU40VG5TLWZCYjg4QS1LaW1rbnQtR2paUmRnSl9tc3U?oc=5",
-      "source_name": "Nairametrics",
+      "source_name": "nairametrics.com",
       "published_at": "2026-08-17T12:00:08.000Z",
       "stage": "Seed",
       "sector": "AI & ML",
@@ -155,9 +221,9 @@
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
       "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - alleywatch.com",
+      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0RoMnk1XzB5RzZpMk9iQzhlNE1SR2E2Uk5ScGEtTEN3UjZIUHJvY0RZbFRZbGRadU1xd1VEa3JfQ0cwV0Q2SVM4VTBUa3lyZUFKY1FfN1pnMWgtUmItWVY4d1d0bHNvbHBpOUlaX1E4NDZKM2w5NnVEbElmOVhNZmt4aHRoRDVvMUVF?oc=5",
-      "source_name": "alleywatch.com",
+      "source_name": "AlleyWatch",
       "published_at": "2026-08-13T15:32:15.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -177,9 +243,9 @@
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - alleywatch.com",
+      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0RoMnk1XzB5RzZpMk9iQzhlNE1SR2E2Uk5ScGEtTEN3UjZIUHJvY0RZbFRZbGRadU1xd1VEa3JfQ0cwV0Q2SVM4VTBUa3lyZUFKY1FfN1pnMWgtUmItWVY4d1d0bHNvbHBpOUlaX1E4NDZKM2w5NnVEbElmOVhNZmt4aHRoRDVvMUVF?oc=5",
-      "source_name": "alleywatch.com",
+      "source_name": "AlleyWatch",
       "published_at": "2026-08-13T15:32:15.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -199,9 +265,9 @@
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
       "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - alleywatch.com",
+      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0RoMnk1XzB5RzZpMk9iQzhlNE1SR2E2Uk5ScGEtTEN3UjZIUHJvY0RZbFRZbGRadU1xd1VEa3JfQ0cwV0Q2SVM4VTBUa3lyZUFKY1FfN1pnMWgtUmItWVY4d1d0bHNvbHBpOUlaX1E4NDZKM2w5NnVEbElmOVhNZmt4aHRoRDVvMUVF?oc=5",
-      "source_name": "alleywatch.com",
+      "source_name": "AlleyWatch",
       "published_at": "2026-08-13T15:32:15.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -309,9 +375,9 @@
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
       "company": "Flagler Health",
-      "title": "Flagler Health secures $50M series B for AI-native MSK care platform expansion - fiercehealthcare.com",
+      "title": "Flagler Health secures $50M series B for AI-native MSK care platform expansion - Fierce Healthcare",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSldXV09jZVV4VkRoT0tGLTJKUWI4bFdRcEtfTmlzSGtSYUI4V1ItX2Z5NFpYSnhWWVRudHlLSklYNTZmWmdpa2hjeVpwNHgxMzVXOUtXMllEd1psS1ZqenVIZEtBdERvVHhETWxlS1JSelFTYnl3R0tKNEw4bjZZa19HdW1qWmRONlJrTXF1cVdwVjQ4RGMyTDFNUmVlNzJuU0NTZnlMRk5hYkhUNUN3S1hNZjc?oc=5",
-      "source_name": "fiercehealthcare.com",
+      "source_name": "Fierce Healthcare",
       "published_at": "2026-08-11T16:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
@@ -331,9 +397,9 @@
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Unknown",
-      "title": "The 12 Largest US Funding Rounds of July 2026 - alleywatch.com",
+      "title": "The 12 Largest US Funding Rounds of July 2026 - AlleyWatch",
       "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
-      "source_name": "alleywatch.com",
+      "source_name": "AlleyWatch",
       "published_at": "2026-08-11T15:32:17.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -349,35 +415,13 @@
       }
     },
     {
-      "id": "deal_2061293496",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "Unknown",
-      "title": "The 12 Largest US Funding Rounds of July 2026 - alleywatch.com",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
-      "source_name": "alleywatch.com",
-      "published_at": "2026-08-11T15:32:17.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_261166417",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Unknown",
-      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - sifted.eu",
+      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - Sifted",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUVoxbEZwN3pDTTN4WlRWMVkxVHNtUlNOeUExUEVDSmhFVEljTjRENUlpa3ZGbVdOMlpZMTBrTkNKV3MzNmNVYXFSWDVzWnJNSUpUYXU1RzE5dkRRak5DbG5RQjBacHVycHVSeEZ1VXF2OTFt?oc=5",
-      "source_name": "sifted.eu",
+      "source_name": "Sifted",
       "published_at": "2026-08-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -393,14 +437,14 @@
       }
     },
     {
-      "id": "deal_698448871",
+      "id": "deal_1348187571",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Hadrian",
       "title": "Hadrian raises $1.37B for AI-powered defense factories - eciks.org",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xWS1UV0htaF9BNzdBdUIzaTJXTUY3bVc1RlQ4OXhhTnB5MFdmc1dzZGJiV1dYTHp0eUl5Nkg0TXVFak5aYkJpWFd5STFvaEFHSjJ2SjJtRW14RnRpR3MyQlo1ZGJOQnVEdk5Heg?oc=5",
       "source_name": "eciks.org",
-      "published_at": "2026-08-09T12:04:53.000Z",
+      "published_at": "2026-08-09T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 1370,
@@ -463,9 +507,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36Kr",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "36 Kr",
+      "source_name": "36Kr",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -507,9 +551,9 @@
       "vc_id": "amex-ventures",
       "vc_name": "Amex Ventures",
       "company": "Unknown",
-      "title": "Marketing startup Pie attracts latest investor: AmEx Ventures - Marketing Brew",
+      "title": "Marketing startup Pie attracts latest investor: AmEx Ventures - marketingbrew.com",
       "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRk5UY3FVZmxUYXVSZ3VKWXFwOHBRcnhoTWM4MnlKT01XWEN0bnY4RDR1R0RDTkt1SlFrSWMwSUk5WmsxZmVZYnZWRkNQck5mZTJvOVdXWS1XMThsQUZWa0RQRWZqMDVoYXl4WXJ5S2pmU3d1LURpb3Qxa2lZcEdFQTh4aS1iQnU4dVdRQQ?oc=5",
-      "source_name": "Marketing Brew",
+      "source_name": "marketingbrew.com",
       "published_at": "2026-08-04T12:00:46.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -581,28 +625,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 310,
       "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1365335287",
-      "vc_id": "insight",
-      "vc_name": "Insight Partners",
-      "company": "Inforcer",
-      "title": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFpTVGdmVXpVaTJScHZabThXZnZESlk4dGZxQVotZzh1YlJaZkY4RnhCTmVuUkpGZWFxU1VRYUNQakMzeTd6RDBZQXRDYnJDVUFobk1zTF9ad05nSnpnMlA1eFhlQlp1QTZHWVFVbnlGMjl0NzQxSzl4UkNxSWtGY0hQTXFLeDk5M1M2alFsZG84TjRQMHlSa3FXc3h6b1pHZXVObXlpUDNraVJpZWFTbFJpQllnZWc?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.81,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -906,14 +928,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 7,
-      "weighted_score": 27.27,
+      "deal_count": 8,
+      "weighted_score": 30.41,
       "latest_at": "2026-08-18T17:53:08.000Z",
-      "amount_usd_m_total": 25294,
+      "amount_usd_m_total": 25314,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 8
         }
       ],
       "top_vcs": [
@@ -926,7 +948,7 @@
           "count": 1
         },
         {
-          "name": "SignalFire",
+          "name": "First Round Capital",
           "count": 1
         }
       ]
@@ -937,14 +959,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 9,
-      "weighted_score": 26.48,
+      "deal_count": 8,
+      "weighted_score": 22.96,
       "latest_at": "2026-08-19T09:50:03.000Z",
-      "amount_usd_m_total": 1730,
+      "amount_usd_m_total": 1680,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 7
         },
         {
           "name": "Other",
@@ -1038,14 +1060,18 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 10.29,
-      "latest_at": "2026-08-12T09:00:10.000Z",
-      "amount_usd_m_total": 871,
+      "deal_count": 4,
+      "weighted_score": 13.88,
+      "latest_at": "2026-08-19T14:37:31.000Z",
+      "amount_usd_m_total": 946,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 2
+        },
+        {
+          "name": "Web3 & Crypto",
+          "count": 1
         },
         {
           "name": "Other",
@@ -1054,15 +1080,15 @@
       ],
       "top_vcs": [
         {
+          "name": "Floodgate",
+          "count": 1
+        },
+        {
           "name": "Accel",
           "count": 1
         },
         {
           "name": "Social Capital",
-          "count": 1
-        },
-        {
-          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -1206,29 +1232,6 @@
       ]
     },
     {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 2,
-      "weighted_score": 4.02,
-      "latest_at": "2026-08-13T15:32:15.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Austin,TX",
       "city": "Austin",
       "state": "TX",
@@ -1252,6 +1255,29 @@
       ]
     },
     {
+      "key": "Cleveland,OH",
+      "city": "Cleveland",
+      "state": "OH",
+      "lat": 41.4993,
+      "lon": -81.6944,
+      "deal_count": 1,
+      "weighted_score": 3.38,
+      "latest_at": "2026-08-19T14:00:00.000Z",
+      "amount_usd_m_total": 15,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Khosla Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Santa Clara,CA",
       "city": "Santa Clara",
       "state": "CA",
@@ -1270,6 +1296,29 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-08-13T15:32:15.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
           "count": 1
         }
       ]
