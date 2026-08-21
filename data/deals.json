@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:55:15.751Z",
+  "generated_at": "2026-08-21T07:04:40.121Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 44,
-    "total_deals": 44,
+    "scraped_deals": 43,
+    "total_deals": 43,
     "demo_mode": false,
-    "deals_with_coordinates": 44,
-    "runtime_ms": 4372,
+    "deals_with_coordinates": 43,
+    "runtime_ms": 3771,
     "note": "",
     "error_sample": []
   },
@@ -38,28 +38,6 @@
         "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_510587453",
-      "vc_id": "gradient",
-      "vc_name": "Gradient Ventures",
-      "company": "Axle",
-      "title": "Axle Raises $17.5M Series A, Plans To Double Headcount And Grow Atlanta Team - Hypepotamus",
-      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pWmlGeHVYeVF0cnFxNXE1QU4ydVJqdGYxQjNTMVdsV2RNTnNDcWZTRzV2YWRyX0pMTmtQMHZremJ6eU1fcjAyUHl4b2F4TXhOVkE5blBiYjhWdThQWWp5bHZfalVsUUZ2?oc=5",
-      "source_name": "Hypepotamus",
-      "published_at": "2026-08-20T14:35:40.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 17.5,
-      "confidence": 0.98,
-      "location": {
-        "city": "Atlanta",
-        "state": "GA",
-        "lat": 33.749,
-        "lon": -84.388,
-        "method": "city_keyword",
-        "confidence": 0.68
       }
     },
     {
@@ -437,6 +415,28 @@
       }
     },
     {
+      "id": "deal_2061293496",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Unknown",
+      "title": "The 12 Largest US Funding Rounds of July 2026 - AlleyWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
+      "source_name": "AlleyWatch",
+      "published_at": "2026-08-11T15:32:17.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_479113531",
       "vc_id": "amex-ventures",
       "vc_name": "Amex Ventures",
@@ -493,28 +493,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 1370,
       "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_370970109",
-      "vc_id": "citi-ventures",
-      "vc_name": "Citi Ventures",
-      "company": "Unknown",
-      "title": "Straiker attracts 64 million US Dollars from Neva, Marathon Management Partners, Citi Ventures, Illuminate Financial, Workday Ventures, and other investors - BeBeez International",
-      "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOdnBVdkhHY2xXUFpBSjRtaDhJaFIzLWtSaDRjTVZ5SDl1bUkzc01KWUtHVzBweHdyZjF2NnRmUHZhOUh5MTBMc3RpZ2REeWduSVVUWkpOQVBEZklPX3NCTFJ0RXFaNHdxOXhwTC1vbVVwN2dfUExHWlEyTzVwV1QzOXpCeGxLZ2tCX3lvQS01U3c3d09LbXFpTlpxUU9PRjRIaENxUGUxVGVpcVdzNmU3N29neUQtUFBvTXoxN1dCRXhMUUFkWllCcFI4NjNqWFMxOWMwZ0toLUVac0RHaHlITC05aGJldFZFcTZzcnM2Sl9BNHlCY1RrVEs1WXJjVHRSUUhDRXFIQUpkT09t?oc=5",
-      "source_name": "BeBeez International",
-      "published_at": "2026-08-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -1056,14 +1034,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 9,
-      "weighted_score": 25.07,
+      "deal_count": 8,
+      "weighted_score": 22.96,
       "latest_at": "2026-08-19T09:50:01.000Z",
       "amount_usd_m_total": 1680,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Other",
@@ -1080,7 +1058,7 @@
           "count": 3
         },
         {
-          "name": "Citi Ventures",
+          "name": "Greycroft",
           "count": 1
         }
       ]
@@ -1294,25 +1272,25 @@
       ]
     },
     {
-      "key": "Atlanta,GA",
-      "city": "Atlanta",
-      "state": "GA",
-      "lat": 33.749,
-      "lon": -84.388,
-      "deal_count": 1,
-      "weighted_score": 3.85,
-      "latest_at": "2026-08-20T14:35:40.000Z",
-      "amount_usd_m_total": 17.5,
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 2,
+      "weighted_score": 4.02,
+      "latest_at": "2026-08-13T15:32:15.000Z",
+      "amount_usd_m_total": 0,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 1
+          "name": "Other",
+          "count": 2
         }
       ],
       "top_vcs": [
         {
-          "name": "Gradient Ventures",
-          "count": 1
+          "name": "Emergence Capital",
+          "count": 2
         }
       ]
     },
@@ -1358,29 +1336,6 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 1,
-      "weighted_score": 2.01,
-      "latest_at": "2026-08-13T15:32:15.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
           "count": 1
         }
       ]
