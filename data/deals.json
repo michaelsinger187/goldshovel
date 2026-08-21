@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:08:08.658Z",
+  "generated_at": "2026-08-21T18:52:48.062Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -13,33 +13,11 @@
     "total_deals": 42,
     "demo_mode": false,
     "deals_with_coordinates": 42,
-    "runtime_ms": 5759,
+    "runtime_ms": 4041,
     "note": "",
     "error_sample": []
   },
   "deals": [
-    {
-      "id": "deal_1597537612",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical",
-      "title": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical lands $31.5M; Happy Health buoyed by $75M round - Fierce Healthcare",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-      "source_name": "Fierce Healthcare",
-      "published_at": "2026-08-21T07:59:50.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 31.5,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
     {
       "id": "deal_2011981198",
       "vc_id": "mayfield",
@@ -58,6 +36,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1117115274",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical",
+      "title": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical lands $31.5M; Happy Health buoyed by $75M round - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 31.5,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -987,7 +987,7 @@
       "lon": -122.4194,
       "deal_count": 7,
       "weighted_score": 26.78,
-      "latest_at": "2026-08-21T07:59:50.000Z",
+      "latest_at": "2026-08-20T07:00:00.000Z",
       "amount_usd_m_total": 25225.5,
       "top_sectors": [
         {
