@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:04:40.121Z",
+  "generated_at": "2026-08-21T13:08:08.658Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 43,
-    "total_deals": 43,
+    "scraped_deals": 42,
+    "total_deals": 42,
     "demo_mode": false,
-    "deals_with_coordinates": 43,
-    "runtime_ms": 3771,
+    "deals_with_coordinates": 42,
+    "runtime_ms": 5759,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1597537612",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical",
+      "title": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical lands $31.5M; Happy Health buoyed by $75M round - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-08-21T07:59:50.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 31.5,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_2011981198",
       "vc_id": "mayfield",
@@ -124,28 +146,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_803162035",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical",
-      "title": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical lands $31.5M; Happy Health buoyed by $75M round - Fierce Healthcare",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-      "source_name": "Fierce Healthcare",
-      "published_at": "2026-08-18T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 31.5,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -415,28 +415,6 @@
       }
     },
     {
-      "id": "deal_2061293496",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "Unknown",
-      "title": "The 12 Largest US Funding Rounds of July 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-08-11T15:32:17.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_479113531",
       "vc_id": "amex-ventures",
       "vc_name": "Amex Ventures",
@@ -591,6 +569,28 @@
       }
     },
     {
+      "id": "deal_1777664014",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Unknown",
+      "title": "Sequoia Leads $1 Billion Funding Round in Nuke Startup Valar - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkxkTjc4RnZDN2U5WUhYaHc5TEhIQjJVTGdvNkZNeEZhTFhpM1g4c2pKdUVjTFlyaDRDV1l2XzBRVE5xSDhqdExJVERBcEtkNlZtQ2hKYlVFVzh3RE1mMWx1Ym9JV0diWnJMVEFySkFRUy1jVUpDQnUyQlJkSWp6cWdLMlhLQVh0ejVabmc5YjB4LVNaUTdQSFJBYUVhZHhkTEE4TGpoRFNrSHh5SXVrWjZqVUY?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-08-03T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 1000,
+      "confidence": 0.61,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1968645765",
       "vc_id": "sequoia-capital",
       "vc_name": "Sequoia Capital",
@@ -630,28 +630,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_728123932",
-      "vc_id": "greycroft",
-      "vc_name": "Greycroft",
-      "company": "Mariana Minerals",
-      "title": "Mariana Minerals Raises $310 Million Series B Led by Khosla Ventures to Accelerate Critical Minerals Production - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeE9TTWxOMXFpZTNFTmw3Z1ZJN2ViN3JCX3FENFdpMnp0b2NJbjhaTGtZekFhYjAtWF80dWpKYTcxTl9VekpIYkdmMzV3V2IwWHlUdTBjMjlMR2dpQjhwc3hPT2M2NkFVWGUxZUEzTjZGaXNBOVJwSHpBcE4yb1doV1ZwWll4emgzaE96VG1Vd2tfWUxGaXRLTmx0VXFnb1dpVG5SMlM4dXY5eW9CbzV6ZXRad041d1Q3dklZdTRzNEFscnBUeTFwbndxU3B6MUFRanV3RDROMzQxczRrZ0ZIZ09CbF9WLUhKMTM5MEpSN3d5ZUgyY1RINlh3?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-08-03T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 310,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -967,6 +945,41 @@
   ],
   "bubbles": [
     {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 8,
+      "weighted_score": 30.75,
+      "latest_at": "2026-08-20T18:37:20.000Z",
+      "amount_usd_m_total": 69498.7,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 7
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Khosla Ventures",
+          "count": 2
+        },
+        {
+          "name": "New Enterprise Associates",
+          "count": 2
+        },
+        {
+          "name": "Mayfield",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "San Francisco,CA",
       "city": "San Francisco",
       "state": "CA",
@@ -974,7 +987,7 @@
       "lon": -122.4194,
       "deal_count": 7,
       "weighted_score": 26.78,
-      "latest_at": "2026-08-18T07:00:00.000Z",
+      "latest_at": "2026-08-21T07:59:50.000Z",
       "amount_usd_m_total": 25225.5,
       "top_sectors": [
         {
@@ -998,50 +1011,19 @@
       ]
     },
     {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 7,
-      "weighted_score": 26.14,
-      "latest_at": "2026-08-20T18:37:20.000Z",
-      "amount_usd_m_total": 68498.7,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 7
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Khosla Ventures",
-          "count": 2
-        },
-        {
-          "name": "New Enterprise Associates",
-          "count": 2
-        },
-        {
-          "name": "Mayfield",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "New York,NY",
       "city": "New York",
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 8,
-      "weighted_score": 22.96,
+      "deal_count": 7,
+      "weighted_score": 17.51,
       "latest_at": "2026-08-19T09:50:01.000Z",
-      "amount_usd_m_total": 1680,
+      "amount_usd_m_total": 1370,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Other",
@@ -1056,10 +1038,6 @@
         {
           "name": "Lux Capital",
           "count": 3
-        },
-        {
-          "name": "Greycroft",
-          "count": 1
         }
       ]
     },
@@ -1272,29 +1250,6 @@
       ]
     },
     {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 2,
-      "weighted_score": 4.02,
-      "latest_at": "2026-08-13T15:32:15.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Cleveland,OH",
       "city": "Cleveland",
       "state": "OH",
@@ -1336,6 +1291,29 @@
       "top_vcs": [
         {
           "name": "Dell Technologies Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-08-13T15:32:15.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
           "count": 1
         }
       ]
