@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T18:46:26.437Z",
+  "generated_at": "2026-08-23T01:57:27.364Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 39,
-    "total_deals": 39,
+    "scraped_deals": 36,
+    "total_deals": 36,
     "demo_mode": false,
-    "deals_with_coordinates": 39,
-    "runtime_ms": 4276,
+    "deals_with_coordinates": 36,
+    "runtime_ms": 4358,
     "note": "",
     "error_sample": []
   },
@@ -36,6 +36,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1265836108",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Unknown",
+      "title": "Exclusive | Carlyle Joins $1 Billion Investment Round in Missile Startup Castelion - WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdkEtNTZ4VWduNERSd2pFVzR1OHlTeHJaV2xISGVaZ2NuSGhuTTVFYjhJRkNOZEFHUkVzUW5IMm0zSWVBZGgxck5iQkFiSzlEZ1ZZbXBfMHAyem1yNXZhNGlSQ1ptVVpwMjFaUDlhQlU1cFRrN3ZOekVTNWVKOUFCV2VRNHVXbDFjRzNtemlyRjhNLU9Fb2hhWnpSWG1iclMxbXBBMkhDM3pYQUk?oc=5",
+      "source_name": "WSJ",
+      "published_at": "2026-08-19T23:02:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 1000,
+      "confidence": 0.61,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -168,94 +190,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_587569754",
-      "vc_id": "battery",
-      "vc_name": "Battery Ventures",
-      "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0RoMnk1XzB5RzZpMk9iQzhlNE1SR2E2Uk5ScGEtTEN3UjZIUHJvY0RZbFRZbGRadU1xd1VEa3JfQ0cwV0Q2SVM4VTBUa3lyZUFKY1FfN1pnMWgtUmItWVY4d1d0bHNvbHBpOUlaX1E4NDZKM2w5NnVEbElmOVhNZmt4aHRoRDVvMUVF?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-08-13T15:32:15.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1224699441",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0RoMnk1XzB5RzZpMk9iQzhlNE1SR2E2Uk5ScGEtTEN3UjZIUHJvY0RZbFRZbGRadU1xd1VEa3JfQ0cwV0Q2SVM4VTBUa3lyZUFKY1FfN1pnMWgtUmItWVY4d1d0bHNvbHBpOUlaX1E4NDZKM2w5NnVEbElmOVhNZmt4aHRoRDVvMUVF?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-08-13T15:32:15.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_857685467",
-      "vc_id": "sapphire",
-      "vc_name": "Sapphire Ventures",
-      "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0RoMnk1XzB5RzZpMk9iQzhlNE1SR2E2Uk5ScGEtTEN3UjZIUHJvY0RZbFRZbGRadU1xd1VEa3JfQ0cwV0Q2SVM4VTBUa3lyZUFKY1FfN1pnMWgtUmItWVY4d1d0bHNvbHBpOUlaX1E4NDZKM2w5NnVEbElmOVhNZmt4aHRoRDVvMUVF?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-08-13T15:32:15.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_365577494",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "Unknown",
-      "title": "The 19 Largest Global Startup Funding Rounds of July 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0RoMnk1XzB5RzZpMk9iQzhlNE1SR2E2Uk5ScGEtTEN3UjZIUHJvY0RZbFRZbGRadU1xd1VEa3JfQ0cwV0Q2SVM4VTBUa3lyZUFKY1FfN1pnMWgtUmItWVY4d1d0bHNvbHBpOUlaX1E4NDZKM2w5NnVEbElmOVhNZmt4aHRoRDVvMUVF?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-08-13T15:32:15.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -419,9 +353,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36Kr",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "36 Kr",
+      "source_name": "36Kr",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -485,9 +419,9 @@
       "vc_id": "sequoia-capital",
       "vc_name": "Sequoia Capital",
       "company": "Unknown",
-      "title": "Sequoia Leads $1 Billion Funding Round in Nuke Startup Valar - Bloomberg.com",
+      "title": "Sequoia Leads $1 Billion Funding Round in Nuke Startup Valar - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNkxkTjc4RnZDN2U5WUhYaHc5TEhIQjJVTGdvNkZNeEZhTFhpM1g4c2pKdUVjTFlyaDRDV1l2XzBRVE5xSDhqdExJVERBcEtkNlZtQ2hKYlVFVzh3RE1mMWx1Ym9JV0diWnJMVEFySkFRUy1jVUpDQnUyQlJkSWp6cWdLMlhLQVh0ejVabmc5YjB4LVNaUTdQSFJBYUVhZHhkTEE4TGpoRFNrSHh5SXVrWjZqVUY?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-08-03T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -661,9 +595,9 @@
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -884,10 +818,10 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 7,
-      "weighted_score": 31.03,
-      "latest_at": "2026-08-17T18:58:00.000Z",
-      "amount_usd_m_total": 69818.7,
+      "deal_count": 8,
+      "weighted_score": 35.64,
+      "latest_at": "2026-08-19T23:02:00.000Z",
+      "amount_usd_m_total": 70818.7,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -895,7 +829,7 @@
         },
         {
           "name": "Other",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -908,7 +842,7 @@
           "count": 2
         },
         {
-          "name": "Altimeter Capital",
+          "name": "Andreessen Horowitz",
           "count": 1
         }
       ]
@@ -940,41 +874,6 @@
         },
         {
           "name": "SignalFire",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 7,
-      "weighted_score": 22.45,
-      "latest_at": "2026-08-13T15:32:15.000Z",
-      "amount_usd_m_total": 615,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        },
-        {
-          "name": "Other",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Battery Ventures",
-          "count": 4
-        },
-        {
-          "name": "NextView Ventures",
-          "count": 2
-        },
-        {
-          "name": "Spark Capital",
           "count": 1
         }
       ]
@@ -1015,6 +914,41 @@
       ]
     },
     {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 5,
+      "weighted_score": 18.43,
+      "latest_at": "2026-08-11T15:32:17.000Z",
+      "amount_usd_m_total": 615,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Battery Ventures",
+          "count": 3
+        },
+        {
+          "name": "NextView Ventures",
+          "count": 1
+        },
+        {
+          "name": "Spark Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
@@ -1047,17 +981,17 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 4,
-      "weighted_score": 11.28,
+      "deal_count": 3,
+      "weighted_score": 9.27,
       "latest_at": "2026-08-19T18:33:27.000Z",
       "amount_usd_m_total": 146,
       "top_sectors": [
         {
-          "name": "Other",
-          "count": 2
+          "name": "Web3 & Crypto",
+          "count": 1
         },
         {
-          "name": "Web3 & Crypto",
+          "name": "Other",
           "count": 1
         },
         {
@@ -1071,11 +1005,11 @@
           "count": 1
         },
         {
-          "name": "Sapphire Ventures",
+          "name": "Social Capital",
           "count": 1
         },
         {
-          "name": "Social Capital",
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
@@ -1149,29 +1083,6 @@
       "top_vcs": [
         {
           "name": "Khosla Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 1,
-      "weighted_score": 2.01,
-      "latest_at": "2026-08-13T15:32:15.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
           "count": 1
         }
       ]
