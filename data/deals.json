@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:56:02.962Z",
+  "generated_at": "2026-08-26T07:05:54.886Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 40,
-    "total_deals": 40,
+    "scraped_deals": 44,
+    "total_deals": 44,
     "demo_mode": false,
-    "deals_with_coordinates": 40,
-    "runtime_ms": 4303,
+    "deals_with_coordinates": 44,
+    "runtime_ms": 3930,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1017759791",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Unknown",
+      "title": "Robotics Startup Generalist Hits $3B Valuation After Funding Extension, Sources Say - Bitcoin World",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS1Nha2M4SWkzUko2OEV2OThzUUVMb1c1RFhuTFBNYWt1UlNQcHBrOTBsR2pmMEpxSVBZS0RjWDZlb0hfalI3SUNEUHd5em05eS11T2Etd2swZVFVZEMtMTQ2UGZjOGxMTU5NenpMYjlmODJtR1lMV0ROMkRyendxMW9JcUtzQ0h6cEtiV1dISQ?oc=5",
+      "source_name": "Bitcoin World",
+      "published_at": "2026-08-26T01:30:12.000Z",
+      "stage": "Unspecified",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 3000,
+      "confidence": 0.71,
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1555222690",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Unknown",
+      "title": "Gamma acquires Accel-backed design startup Lica - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVmRfREZUM1BYY1VBaUtNY0E1NVhFcjRGOEVCNkc3WDJQUmx3ampUaGhDQWQ0NXpTemROMzBHWEJBNkpFN1BtWGpsQ0xwRGRDRUpwelhiZkJDbGU0QXI4c2xMMjdkTFBDMG56ZWhRN3k4UjQ0RWNoSFhfQnhZZFBjeGRGVGQ1OGJudUE?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-25T15:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_923639962",
       "vc_id": "benchmark",
@@ -283,6 +327,28 @@
       }
     },
     {
+      "id": "deal_1005765789",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Unknown",
+      "title": "Thrive Capital Finds its Lane as a New Kind of Venture Investor - Newcomer | Substack",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raVR4NVo5bUZQTXk2Ql9PRWdMejNBUmlHc05WNnFSRXBrM1dOZENQeFAyRXpsUFlObjdNM2VqemJKUUdQSkoyTkRPRmNRUTJEWE8waE5LR0o5OXBuYmdmb1pfOFAyRFhKaEE?oc=5",
+      "source_name": "Newcomer | Substack",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_918138069",
       "vc_id": "gv",
       "vc_name": "GV",
@@ -459,28 +525,6 @@
       }
     },
     {
-      "id": "deal_370970109",
-      "vc_id": "citi-ventures",
-      "vc_name": "Citi Ventures",
-      "company": "Unknown",
-      "title": "Straiker attracts 64 million US Dollars from Neva, Marathon Management Partners, Citi Ventures, Illuminate Financial, Workday Ventures, and other investors - BeBeez International",
-      "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOdnBVdkhHY2xXUFpBSjRtaDhJaFIzLWtSaDRjTVZ5SDl1bUkzc01KWUtHVzBweHdyZjF2NnRmUHZhOUh5MTBMc3RpZ2REeWduSVVUWkpOQVBEZklPX3NCTFJ0RXFaNHdxOXhwTC1vbVVwN2dfUExHWlEyTzVwV1QzOXpCeGxLZ2tCX3lvQS01U3c3d09LbXFpTlpxUU9PRjRIaENxUGUxVGVpcVdzNmU3N29neUQtUFBvTXoxN1dCRXhMUUFkWllCcFI4NjNqWFMxOWMwZ0toLUVac0RHaHlITC05aGJldFZFcTZzcnM2Sl9BNHlCY1RrVEs1WXJjVHRSUUhDRXFIQUpkT09t?oc=5",
-      "source_name": "BeBeez International",
-      "published_at": "2026-08-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1672065369",
       "vc_id": "bond",
       "vc_name": "BOND",
@@ -507,9 +551,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36Kr",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "36Kr",
+      "source_name": "36 Kr",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -603,6 +647,72 @@
       "sector": "AI & ML",
       "amount_usd_m": 310,
       "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1108842627",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Repeat founder Ryan Williams",
+      "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BjOVgzYzlQM1JZODQ5WXZaektJNDJmd1kydW9fWm5FZGRycGN0TWYtdVdUWjM4MGtvRWE0MnFBNlF4bGZ1dWhGSi01bktaWUF5NE9mUE95TmtobzFya0ZqNW9TT08wMl9aU2lTcHF5OU45dkNlU2FVM3ZJTllDYkU1ZFJUblBPRTVTaDRrRktTaUpNUXpzZW00bkpNNjhRTHd6WDdaT3drMlU3SUcyN1Ztdnc1dHhoS29icUlicGVSSkU?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_562487074",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Repeat founder Ryan Williams",
+      "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BjOVgzYzlQM1JZODQ5WXZaektJNDJmd1kydW9fWm5FZGRycGN0TWYtdVdUWjM4MGtvRWE0MnFBNlF4bGZ1dWhGSi01bktaWUF5NE9mUE95TmtobzFya0ZqNW9TT08wMl9aU2lTcHF5OU45dkNlU2FVM3ZJTllDYkU1ZFJUblBPRTVTaDRrRktTaUpNUXpzZW00bkpNNjhRTHd6WDdaT3drMlU3SUcyN1Ztdnc1dHhoS29icUlicGVSSkU?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-07-31T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 10,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_157214271",
+      "vc_id": "lightspeed",
+      "vc_name": "Lightspeed Venture Partners",
+      "company": "Satellite Startup K2 Space",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 500,
+      "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -875,28 +985,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_365364625",
-      "vc_id": "ribbit",
-      "vc_name": "Ribbit Capital",
-      "company": "Enigma",
-      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSnNERUE3ZUlwdlZwNHVuZzVBVkE2alZHTGIyRUJWNEtsMndDV2lSWGxNMUoxS3lURXE4VlNGREpURWhUc3dzSkZYWFNQNU94eDNGOHNXVFVldVRtWjVwcTBJdEMyNWZMWTFndXlIMl9CdnNRTWNCd1owZmxUZUN3WThGdWJidHc3am1RNzlmZ0lMWlRHWGd3cmxwM19hQXFYOEdqNnJFSDhQN1N2QmxQdXNn?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-27T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 71,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -906,27 +994,31 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 9,
-      "weighted_score": 41.36,
+      "deal_count": 12,
+      "weighted_score": 50.73,
       "latest_at": "2026-08-24T06:02:00.000Z",
-      "amount_usd_m_total": 69979.7,
+      "amount_usd_m_total": 70489.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 11
+        },
+        {
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Mayfield",
-          "count": 2
-        },
-        {
           "name": "Khosla Ventures",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Altimeter Capital",
+          "count": 3
+        },
+        {
+          "name": "Mayfield",
           "count": 2
         }
       ]
@@ -937,14 +1029,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 6,
-      "weighted_score": 23.52,
+      "deal_count": 7,
+      "weighted_score": 26.37,
       "latest_at": "2026-08-24T14:49:21.000Z",
-      "amount_usd_m_total": 25146,
+      "amount_usd_m_total": 25156,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Fintech",
@@ -953,11 +1045,11 @@
       ],
       "top_vcs": [
         {
-          "name": "Benchmark",
-          "count": 1
+          "name": "First Round Capital",
+          "count": 2
         },
         {
-          "name": "First Round Capital",
+          "name": "Benchmark",
           "count": 1
         },
         {
@@ -1002,58 +1094,23 @@
       ]
     },
     {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 17.51,
-      "latest_at": "2026-08-19T09:50:01.000Z",
-      "amount_usd_m_total": 1370,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 6
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Lux Capital",
-          "count": 3
-        },
-        {
-          "name": "Amex Ventures",
-          "count": 3
-        },
-        {
-          "name": "Citi Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
       "deal_count": 5,
-      "weighted_score": 17.48,
-      "latest_at": "2026-08-24T06:33:46.000Z",
-      "amount_usd_m_total": 696,
+      "weighted_score": 15.82,
+      "latest_at": "2026-08-25T15:00:00.000Z",
+      "amount_usd_m_total": 625,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 2
+          "name": "Other",
+          "count": 3
         },
         {
-          "name": "Other",
-          "count": 2
+          "name": "AI & ML",
+          "count": 1
         },
         {
           "name": "Web3 & Crypto",
@@ -1062,8 +1119,8 @@
       ],
       "top_vcs": [
         {
-          "name": "Ribbit Capital",
-          "count": 2
+          "name": "Accel",
+          "count": 1
         },
         {
           "name": "DCVC",
@@ -1103,6 +1160,37 @@
       ]
     },
     {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 6,
+      "weighted_score": 15.4,
+      "latest_at": "2026-08-19T09:50:01.000Z",
+      "amount_usd_m_total": 1370,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Lux Capital",
+          "count": 3
+        },
+        {
+          "name": "Amex Ventures",
+          "count": 3
+        }
+      ]
+    },
+    {
       "key": "Cambridge,MA",
       "city": "Cambridge",
       "state": "MA",
@@ -1121,6 +1209,29 @@
       "top_vcs": [
         {
           "name": "Lux Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Austin,TX",
+      "city": "Austin",
+      "state": "TX",
+      "lat": 30.2672,
+      "lon": -97.7431,
+      "deal_count": 1,
+      "weighted_score": 5.19,
+      "latest_at": "2026-08-26T01:30:12.000Z",
+      "amount_usd_m_total": 3000,
+      "top_sectors": [
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "8VC",
           "count": 1
         }
       ]
