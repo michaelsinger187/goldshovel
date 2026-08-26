@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:13:11.295Z",
+  "generated_at": "2026-08-26T20:00:41.963Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 41,
-    "total_deals": 41,
+    "scraped_deals": 42,
+    "total_deals": 42,
     "demo_mode": false,
-    "deals_with_coordinates": 41,
-    "runtime_ms": 4361,
+    "deals_with_coordinates": 42,
+    "runtime_ms": 4651,
     "note": "",
     "error_sample": []
   },
@@ -22,8 +22,8 @@
       "id": "deal_1434432911",
       "vc_id": "cisco",
       "vc_name": "Cisco Investments",
-      "company": "Data Centers? In Space?! Startup",
-      "title": "Data Centers? In Space?! Startup Raises $250 Million - Newsweek",
+      "company": "Data Centers In Space? Startup",
+      "title": "Data Centers In Space? Startup Raises $250 Million - Newsweek",
       "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcE1CNHlRTWRZMzdIWk4wNEVNZWdZcFA3VXdwazJvWkdhQ3dFbURNU1dfWWNhdmFhcGQ2azBieWhHdHc0emxFc0k1UW5tTGNsN09yUm5QYWFTMnRfTlJISmNQLTYxMV9yMkJXUHBZTjZFRU9RRmRQeXhweTAybzNpaHNBZ2FXZw?oc=5",
       "source_name": "Newsweek",
       "published_at": "2026-08-26T10:27:00.000Z",
@@ -58,28 +58,6 @@
         "state": "TX",
         "lat": 30.2672,
         "lon": -97.7431,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1555222690",
-      "vc_id": "accel",
-      "vc_name": "Accel",
-      "company": "Unknown",
-      "title": "Gamma acquires Accel-backed design startup Lica - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVmRfREZUM1BYY1VBaUtNY0E1NVhFcjRGOEVCNkc3WDJQUmx3ampUaGhDQWQ0NXpTemROMzBHWEJBNkpFN1BtWGpsQ0xwRGRDRUpwelhiZkJDbGU0QXI4c2xMMjdkTFBDMG56ZWhRN3k4UjQ0RWNoSFhfQnhZZFBjeGRGVGQ1OGJudUE?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-08-25T15:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -366,6 +344,28 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_388376532",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "OpenAI-backed Thrive Holdings",
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWloUTdtYTlOZTdjeVZ5d2tFd2wxbzJzWlJFR1R5Y3hURjVzQk1zaUE5Z2dOdFNtN0k2V0VOREpFeVFYeFhwMVFXVWxiUzJ1Zm1WbGRETFdZcXNwZll1bDBNN2pGQmZEMENSczhfZU1XcVlGY0o3UVJXWmlnVi0wS3MxNHJ5bE9ZN3VuN0dMX0h2YmhtYldrSVAtOE82RmNlUGNsN2Q0QQ?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 2000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -679,6 +679,28 @@
       }
     },
     {
+      "id": "deal_157214271",
+      "vc_id": "lightspeed",
+      "vc_name": "Lightspeed Venture Partners",
+      "company": "Satellite Startup K2 Space",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
+      "source_name": "Bloomberg",
+      "published_at": "2026-07-30T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 500,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_54328466",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -705,9 +727,9 @@
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -771,9 +793,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -815,9 +837,9 @@
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -855,28 +877,6 @@
       }
     },
     {
-      "id": "deal_1232321174",
-      "vc_id": "battery",
-      "vc_name": "Battery Ventures",
-      "company": "Toronto startup Terminal",
-      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - The Globe and Mail",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2xWZE5LaFdFdW1GRW1mTXBJUE5ZX2dWN3BTSWJ2WjU1S1dHQ0E5MGhRNDRFZlZ4dzVOYW4zMGhDMU8xd2VaRVlzY0hTN3JJd3BOX3kyeTkyWHFDNlpEMXdZR1pTWThqVXp2Wi1ZZlpXLTdtM0xxRGFRZG04WHl0ZEpuNG80T01JaFZxRTZZNEpQZ1RsSDRUamxpRmtGdjdWS2pGeGhzbFhXWlQwUnc?oc=5",
-      "source_name": "The Globe and Mail",
-      "published_at": "2026-07-29T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 20,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1450014593",
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
@@ -888,6 +888,28 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 75,
+      "confidence": 0.81,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1232321174",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Toronto startup Terminal",
+      "title": "Toronto startup Terminal raises $20-million to become the ‘Switzerland’ of telematics trade - The Globe and Mail",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2xWZE5LaFdFdW1GRW1mTXBJUE5ZX2dWN3BTSWJ2WjU1S1dHQ0E5MGhRNDRFZlZ4dzVOYW4zMGhDMU8xd2VaRVlzY0hTN3JJd3BOX3kyeTkyWHFDNlpEMXdZR1pTWThqVXp2Wi1ZZlpXLTdtM0xxRGFRZG04WHl0ZEpuNG80T01JaFZxRTZZNEpQZ1RsSDRUamxpRmtGdjdWS2pGeGhzbFhXWlQwUnc?oc=5",
+      "source_name": "The Globe and Mail",
+      "published_at": "2026-07-29T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 20,
       "confidence": 0.81,
       "location": {
         "city": "Boston",
@@ -928,14 +950,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 10,
-      "weighted_score": 44.21,
+      "deal_count": 12,
+      "weighted_score": 53.84,
       "latest_at": "2026-08-24T06:02:00.000Z",
-      "amount_usd_m_total": 69989.7,
+      "amount_usd_m_total": 72489.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 12
         }
       ],
       "top_vcs": [
@@ -944,11 +966,11 @@
           "count": 3
         },
         {
-          "name": "Mayfield",
-          "count": 2
+          "name": "Altimeter Capital",
+          "count": 3
         },
         {
-          "name": "Altimeter Capital",
+          "name": "Mayfield",
           "count": 2
         }
       ]
@@ -1091,14 +1113,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 4,
-      "weighted_score": 12.23,
-      "latest_at": "2026-08-25T15:00:00.000Z",
+      "deal_count": 3,
+      "weighted_score": 10.22,
+      "latest_at": "2026-08-24T06:33:46.000Z",
       "amount_usd_m_total": 550,
       "top_sectors": [
         {
           "name": "Other",
-          "count": 3
+          "count": 2
         },
         {
           "name": "AI & ML",
@@ -1107,15 +1129,15 @@
       ],
       "top_vcs": [
         {
-          "name": "Accel",
-          "count": 1
-        },
-        {
           "name": "DCVC",
           "count": 1
         },
         {
           "name": "Social Capital",
+          "count": 1
+        },
+        {
+          "name": "Ribbit Capital",
           "count": 1
         }
       ]
