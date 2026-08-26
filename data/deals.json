@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:05:54.886Z",
+  "generated_at": "2026-08-26T13:13:11.295Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 44,
-    "total_deals": 44,
+    "scraped_deals": 41,
+    "total_deals": 41,
     "demo_mode": false,
-    "deals_with_coordinates": 44,
-    "runtime_ms": 3930,
+    "deals_with_coordinates": 41,
+    "runtime_ms": 4361,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1434432911",
+      "vc_id": "cisco",
+      "vc_name": "Cisco Investments",
+      "company": "Data Centers? In Space?! Startup",
+      "title": "Data Centers? In Space?! Startup Raises $250 Million - Newsweek",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcE1CNHlRTWRZMzdIWk4wNEVNZWdZcFA3VXdwazJvWkdhQ3dFbURNU1dfWWNhdmFhcGQ2azBieWhHdHc0emxFc0k1UW5tTGNsN09yUm5QYWFTMnRfTlJISmNQLTYxMV9yMkJXUHBZTjZFRU9RRmRQeXhweTAybzNpaHNBZ2FXZw?oc=5",
+      "source_name": "Newsweek",
+      "published_at": "2026-08-26T10:27:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 250,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Jose",
+        "state": "CA",
+        "lat": 37.3382,
+        "lon": -121.8863,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1017759791",
       "vc_id": "8vc",
@@ -173,28 +195,6 @@
       }
     },
     {
-      "id": "deal_1093089616",
-      "vc_id": "floodgate",
-      "vc_name": "Floodgate",
-      "company": "Unknown",
-      "title": "SEC Opens $75M Crypto Funding Floodgate With New Rule Plan - Bitcoin News",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRkMyQktQRXlMSTdaTTd2VHRxRk4tWFR2ek95TE9Za0dySUViS1lOUjNRZVcwN3daVGU3cmtpcDM3U0pjeGZrWWtpRFZMaEU2OG5fZlJyTFl3NDZVUjNmb1FqSFJLWUdtUDMwVC1seGRZQUN3ZkJ1WmR4NVNQUDhweUgtUmI3RGNLYU5xbHJkYlNJaHp0UXZPWUZuUWxjOUhtZ19rNl9kSQ?oc=5",
-      "source_name": "Bitcoin News",
-      "published_at": "2026-08-19T18:33:27.000Z",
-      "stage": "Unspecified",
-      "sector": "Web3 & Crypto",
-      "amount_usd_m": 75,
-      "confidence": 0.71,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_2034660239",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -327,28 +327,6 @@
       }
     },
     {
-      "id": "deal_1005765789",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "Unknown",
-      "title": "Thrive Capital Finds its Lane as a New Kind of Venture Investor - Newcomer | Substack",
-      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raVR4NVo5bUZQTXk2Ql9PRWdMejNBUmlHc05WNnFSRXBrM1dOZENQeFAyRXpsUFlObjdNM2VqemJKUUdQSkoyTkRPRmNRUTJEWE8waE5LR0o5OXBuYmdmb1pfOFAyRFhKaEE?oc=5",
-      "source_name": "Newcomer | Substack",
-      "published_at": "2026-08-14T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_918138069",
       "vc_id": "gv",
       "vc_name": "GV",
@@ -410,28 +388,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_586901606",
-      "vc_id": "signalfire",
-      "vc_name": "SignalFire",
-      "company": "Flagler Health",
-      "title": "Flagler Health secures $50M series B for AI-native MSK care platform expansion - Fierce Healthcare",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSldXV09jZVV4VkRoT0tGLTJKUWI4bFdRcEtfTmlzSGtSYUI4V1ItX2Z5NFpYSnhWWVRudHlLSklYNTZmWmdpa2hjeVpwNHgxMzVXOUtXMllEd1psS1ZqenVIZEtBdERvVHhETWxlS1JSelFTYnl3R0tKNEw4bjZZa19HdW1qWmRONlJrTXF1cVdwVjQ4RGMyTDFNUmVlNzJuU0NTZnlMRk5hYkhUNUN3S1hNZjc?oc=5",
-      "source_name": "Fierce Healthcare",
-      "published_at": "2026-08-11T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -515,6 +471,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1370,
       "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_370970109",
+      "vc_id": "citi-ventures",
+      "vc_name": "Citi Ventures",
+      "company": "Unknown",
+      "title": "Straiker attracts 64 million US Dollars from Neva, Marathon Management Partners, Citi Ventures, Illuminate Financial, Workday Ventures, and other investors - BeBeez International",
+      "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOdnBVdkhHY2xXUFpBSjRtaDhJaFIzLWtSaDRjTVZ5SDl1bUkzc01KWUtHVzBweHdyZjF2NnRmUHZhOUh5MTBMc3RpZ2REeWduSVVUWkpOQVBEZklPX3NCTFJ0RXFaNHdxOXhwTC1vbVVwN2dfUExHWlEyTzVwV1QzOXpCeGxLZ2tCX3lvQS01U3c3d09LbXFpTlpxUU9PRjRIaENxUGUxVGVpcVdzNmU3N29neUQtUFBvTXoxN1dCRXhMUUFkWllCcFI4NjNqWFMxOWMwZ0toLUVac0RHaHlITC05aGJldFZFcTZzcnM2Sl9BNHlCY1RrVEs1WXJjVHRSUUhDRXFIQUpkT09t?oc=5",
+      "source_name": "BeBeez International",
+      "published_at": "2026-08-07T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
       "location": {
         "city": "New York",
         "state": "NY",
@@ -701,50 +679,6 @@
       }
     },
     {
-      "id": "deal_157214271",
-      "vc_id": "lightspeed",
-      "vc_name": "Lightspeed Venture Partners",
-      "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-07-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 500,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1168629496",
-      "vc_id": "battery",
-      "vc_name": "Battery Ventures",
-      "company": "Terminal",
-      "title": "Terminal raises $20M to untangle fleet telematics data - FreightWaves",
-      "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQaXlnQUhSYWFYeURJcVBnYlgtcmJXVmUzX2hYWjhMQUhSbXdheGZQTWh5MkJFaVZ5bmIzRHdvNmtyaG5xcGxndTF6REdVSUU?oc=5",
-      "source_name": "FreightWaves",
-      "published_at": "2026-07-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 20,
-      "confidence": 0.81,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_54328466",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -899,13 +833,13 @@
       }
     },
     {
-      "id": "deal_663796778",
+      "id": "deal_1405341313",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
       "company": "Engineering AI startup, P-1 AI,",
-      "title": "Engineering AI startup, P-1 AI, Announces Its Series A Financing Led by NEA, Adding Jeff Immelt to the Company’s Board - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGZLTW5wRHR3YXhfNkdhWVJGd0dDdW9XZ2NoZVNqNWxmSFppeXNaaG9zbFluWG01VHdRVmhKYlFHeTkxNEdpdnl1UDJUTDh0aDI2TmR6TkZ2b2FhblJLSjAzN01MN0Q0YmpIZ2lyX0NSUTVkNS1GWHRzOUkySjBSZThNZHdqYVBjNVBTS3dPUkRFaWda?oc=5",
-      "source_name": "Yahoo Finance",
+      "title": "Engineering AI startup, P-1 AI, Announces Its Series A - GlobeNewswire",
+      "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYi1HSThoNzVhZ0tUZmlZejZTQUplcmk3Vy1yYl9SMnlhcGVOQXZ5d2l5ZlpOZFZRUjJScUY0aFFtam5XQjktUS1iTGROaXJBbmtXaHc5azRjak02bDl1bGRWVmhpTzAwbFhaTFlXUUp3dWJNVDhPUU5rU2REdmFiUERSX09CcGJ0VEpFVTdmd0l4VnF2X0FFSU9WZlZ2WkhPYURyNkpfdXZMbnJkYlMzRlZOWUp0R19PWDMwNVV4OXlTejFYQjU3WWR4Rkl6dWtENS1VZzM3aW5hQmNKSExkWjc2VkpnX0I3Z2pqY3c1YnRYZGJVRXhGYmVXUDQ0aThtM1ZvamFpX0sxZW56akNla2kyeWJfQQ?oc=5",
+      "source_name": "GlobeNewswire",
       "published_at": "2026-07-29T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -994,18 +928,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 12,
-      "weighted_score": 50.73,
+      "deal_count": 10,
+      "weighted_score": 44.21,
       "latest_at": "2026-08-24T06:02:00.000Z",
-      "amount_usd_m_total": 70489.7,
+      "amount_usd_m_total": 69989.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
-        },
-        {
-          "name": "Other",
-          "count": 1
+          "count": 10
         }
       ],
       "top_vcs": [
@@ -1014,11 +944,11 @@
           "count": 3
         },
         {
-          "name": "Altimeter Capital",
-          "count": 3
+          "name": "Mayfield",
+          "count": 2
         },
         {
-          "name": "Mayfield",
+          "name": "Altimeter Capital",
           "count": 2
         }
       ]
@@ -1029,14 +959,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 7,
-      "weighted_score": 26.37,
+      "deal_count": 6,
+      "weighted_score": 21.7,
       "latest_at": "2026-08-24T14:49:21.000Z",
-      "amount_usd_m_total": 25156,
+      "amount_usd_m_total": 25106,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Fintech",
@@ -1053,7 +983,42 @@
           "count": 1
         },
         {
-          "name": "SignalFire",
+          "name": "Crosslink Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 7,
+      "weighted_score": 17.51,
+      "latest_at": "2026-08-19T09:50:01.000Z",
+      "amount_usd_m_total": 1370,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 6
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Lux Capital",
+          "count": 3
+        },
+        {
+          "name": "Amex Ventures",
+          "count": 3
+        },
+        {
+          "name": "Citi Ventures",
           "count": 1
         }
       ]
@@ -1064,14 +1029,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 6,
-      "weighted_score": 20.44,
+      "deal_count": 5,
+      "weighted_score": 17.3,
       "latest_at": "2026-08-18T03:43:52.000Z",
-      "amount_usd_m_total": 615,
+      "amount_usd_m_total": 595,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Other",
@@ -1079,55 +1044,16 @@
         }
       ],
       "top_vcs": [
-        {
-          "name": "Battery Ventures",
-          "count": 3
-        },
         {
           "name": "NextView Ventures",
           "count": 2
         },
         {
+          "name": "Battery Ventures",
+          "count": 2
+        },
+        {
           "name": "Spark Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 5,
-      "weighted_score": 15.82,
-      "latest_at": "2026-08-25T15:00:00.000Z",
-      "amount_usd_m_total": 625,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 3
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Web3 & Crypto",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Accel",
-          "count": 1
-        },
-        {
-          "name": "DCVC",
-          "count": 1
-        },
-        {
-          "name": "Floodgate",
           "count": 1
         }
       ]
@@ -1160,33 +1086,60 @@
       ]
     },
     {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 6,
-      "weighted_score": 15.4,
-      "latest_at": "2026-08-19T09:50:01.000Z",
-      "amount_usd_m_total": 1370,
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 4,
+      "weighted_score": 12.23,
+      "latest_at": "2026-08-25T15:00:00.000Z",
+      "amount_usd_m_total": 550,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 5
+          "name": "Other",
+          "count": 3
         },
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Lux Capital",
-          "count": 3
+          "name": "Accel",
+          "count": 1
         },
         {
-          "name": "Amex Ventures",
-          "count": 3
+          "name": "DCVC",
+          "count": 1
+        },
+        {
+          "name": "Social Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Jose,CA",
+      "city": "San Jose",
+      "state": "CA",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "deal_count": 2,
+      "weighted_score": 8.42,
+      "latest_at": "2026-08-26T10:27:00.000Z",
+      "amount_usd_m_total": 500,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Cisco Investments",
+          "count": 2
         }
       ]
     },
@@ -1255,29 +1208,6 @@
       "top_vcs": [
         {
           "name": "Sequoia Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Jose,CA",
-      "city": "San Jose",
-      "state": "CA",
-      "lat": 37.3382,
-      "lon": -121.8863,
-      "deal_count": 1,
-      "weighted_score": 4.21,
-      "latest_at": "2026-08-21T14:00:00.000Z",
-      "amount_usd_m_total": 250,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Cisco Investments",
           "count": 1
         }
       ]
