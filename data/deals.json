@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:00:41.963Z",
+  "generated_at": "2026-08-27T09:40:11.922Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,33 +9,77 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 42,
-    "total_deals": 42,
+    "scraped_deals": 40,
+    "total_deals": 40,
     "demo_mode": false,
-    "deals_with_coordinates": 42,
-    "runtime_ms": 4651,
+    "deals_with_coordinates": 40,
+    "runtime_ms": 4162,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
-      "id": "deal_1434432911",
-      "vc_id": "cisco",
-      "vc_name": "Cisco Investments",
-      "company": "Data Centers In Space? Startup",
-      "title": "Data Centers In Space? Startup Raises $250 Million - Newsweek",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcE1CNHlRTWRZMzdIWk4wNEVNZWdZcFA3VXdwazJvWkdhQ3dFbURNU1dfWWNhdmFhcGQ2azBieWhHdHc0emxFc0k1UW5tTGNsN09yUm5QYWFTMnRfTlJISmNQLTYxMV9yMkJXUHBZTjZFRU9RRmRQeXhweTAybzNpaHNBZ2FXZw?oc=5",
-      "source_name": "Newsweek",
-      "published_at": "2026-08-26T10:27:00.000Z",
+      "id": "deal_163660686",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Unknown",
+      "title": "Even Healthcare Set to Raise INR 208 Cr in Series B Led by Khosla Ventures - Digital Health News",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU1RSTVU5SU10OFBMSUFtTGE2WU5EdVNsU0hwMlFkZldtaGZoNTFFWGE4Tmh1Rkg2TV9IOS0td0xuMEtrQnktOFlqLXJpNEFkSGFUamhaNm05S3ZTRDdCVnVlbTJLTFdUZXN0RzU4bXhVOEQ4MC1QQkpIWlF3Um5fVFZYc1dtZWx5NTNxRUlKSjZXN3lCNGhLamRMYkZUc0JfNkMtTUpTd1dYTkhU?oc=5",
+      "source_name": "Digital Health News",
+      "published_at": "2026-08-27T08:07:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.66,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2126186013",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "Japan Foreign Bond Investment Turns To Outflow In Late August - Bitcoin World",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94UXdKOGZHU1VPWGhKb0VhTTBqSGNIQlRWN3YycHNBVGhoODNTWUFodlMtSTBRejFpXzlGTkhxRnNvQnBIT1RyZmg5OEwwTllVVUxMZVNsNFFkUkpQTXR3RjlEMzZud29sY0pzX0JhTURyd1ZCSnpBbWNBTTQ?oc=5",
+      "source_name": "Bitcoin World",
+      "published_at": "2026-08-27T00:45:11.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_68822093",
+      "vc_id": "bond",
+      "vc_name": "BOND",
+      "company": "Unknown",
+      "title": "Bessent Doubled Treasury Bond Buybacks and the Market Erased the Gains in a Day - Startup Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTFVHV1pjMGhPZ1ZMdzFkYm5lNE1SNm9GcG1ZTjY4V0VMa3hJRXlSUmxZNlNVV1hZeHBRLVYzZVNKVUpDZlA1dzRNMEFCdUlEbWJWczJxVWoxeVN0OHVXRGJnblVrYk1qMTQ0NzFZMVJNOEhCQjVQWFN2ZG1jS2Y2Q3JoSVdtcWVIb1BxQnBJcEJQNlBWSmJwVDlsWGVnNUNPZVZhZWxWSFhpMkE?oc=5",
+      "source_name": "Startup Fortune",
+      "published_at": "2026-08-26T06:54:15.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 250,
-      "confidence": 0.81,
+      "amount_usd_m": null,
+      "confidence": 0.51,
       "location": {
-        "city": "San Jose",
+        "city": "San Francisco",
         "state": "CA",
-        "lat": 37.3382,
-        "lon": -121.8863,
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -173,6 +217,28 @@
       }
     },
     {
+      "id": "deal_178559018",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical",
+      "title": "Fierce Healthcare Fundraising Tracker '26: MaxQ Medical lands $31.5M; Happy Health buoyed by $75M round - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-08-20T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 31.5,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2034660239",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -217,14 +283,14 @@
       }
     },
     {
-      "id": "deal_792416627",
+      "id": "deal_68014540",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Unknown",
       "title": "Bridgewater’s top investors are backing an AI startup to give smaller hedge funds more firepower - Business Insider",
       "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObFNFOGU1RWk3TmxOOXU0a0kydWU3b3Q5OXJsVEtueVFVSE9OM1U2ZHAzQWVCWTRMYl9RUzdwQk5RQndXUUZGbUIzYmQ1NFVRQlFmNGFKZmEyeERCaGxDbm1iQlpjMmZ3S2NPRkJLQnlYaUZkcnYxS3JISmhVdXVBQW1uV2tIX0JVYWt5U3VVRURlRm1EMk1WbHkxaWFRNFdZZE0w?oc=5",
       "source_name": "Business Insider",
-      "published_at": "2026-08-19T09:50:00.000Z",
+      "published_at": "2026-08-19T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": null,
@@ -234,28 +300,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1839571061",
-      "vc_id": "mayfield",
-      "vc_name": "Mayfield",
-      "company": "Velaura AI",
-      "title": "Velaura AI secures $110M Series A, crosses $1B valuation - My Startup World",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMEdSUUtpS1pLb1F4bkUwNlhNalZEVm1oblpXSmlHUW9yWUVHM0RGRnM3YlpFZDBWWEUtM2ZkUkYwSU1nTXkxVU0zSjlpSzhEOWo2R013bUxjOGcxR1hBQkMzUW1hYzF1WVlYM0VXMS12ZEwwWmVyM3NCeDZyU0NBQ2dvZ2pZeDd2?oc=5",
-      "source_name": "My Startup World",
-      "published_at": "2026-08-19T09:27:40.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 110,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -349,28 +393,6 @@
       }
     },
     {
-      "id": "deal_388376532",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "OpenAI-backed Thrive Holdings",
-      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWloUTdtYTlOZTdjeVZ5d2tFd2wxbzJzWlJFR1R5Y3hURjVzQk1zaUE5Z2dOdFNtN0k2V0VOREpFeVFYeFhwMVFXVWxiUzJ1Zm1WbGRETFdZcXNwZll1bDBNN2pGQmZEMENSczhfZU1XcVlGY0o3UVJXWmlnVi0wS3MxNHJ5bE9ZN3VuN0dMX0h2YmhtYldrSVAtOE82RmNlUGNsN2Q0QQ?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-08-12T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 2000,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1117293731",
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
@@ -388,6 +410,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_586901606",
+      "vc_id": "signalfire",
+      "vc_name": "SignalFire",
+      "company": "Flagler Health",
+      "title": "Flagler Health secures $50M series B for AI-native MSK care platform expansion - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSldXV09jZVV4VkRoT0tGLTJKUWI4bFdRcEtfTmlzSGtSYUI4V1ItX2Z5NFpYSnhWWVRudHlLSklYNTZmWmdpa2hjeVpwNHgxMzVXOUtXMllEd1psS1ZqenVIZEtBdERvVHhETWxlS1JSelFTYnl3R0tKNEw4bjZZa19HdW1qWmRONlJrTXF1cVdwVjQ4RGMyTDFNUmVlNzJuU0NTZnlMRk5hYkhUNUN3S1hNZjc?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -434,28 +478,6 @@
         "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_261166417",
-      "vc_id": "lux",
-      "vc_name": "Lux Capital",
-      "company": "Unknown",
-      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - Sifted",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUVoxbEZwN3pDTTN4WlRWMVkxVHNtUlNOeUExUEVDSmhFVEljTjRENUlpa3ZGbVdOMlpZMTBrTkNKV3MzNmNVYXFSWDVzWnJNSUpUYXU1RzE5dkRRak5DbG5RQjBacHVycHVSeEZ1VXF2OTFt?oc=5",
-      "source_name": "Sifted",
-      "published_at": "2026-08-10T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 3400,
-      "confidence": 0.83,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
-        "method": "city_keyword",
-        "confidence": 0.68
       }
     },
     {
@@ -536,6 +558,28 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 68000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_522659070",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Volta",
+      "title": "Volta secures $10B partnership and $300M raise, co-led by a16z, at a $2.4B valuation - Crypto Briefing",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VMjlFeGo1cDFxZWZyV0NKNkR5TUt3TmVLQUVNUzZJd2lubU52TUh1LW8xXy1lNTJYRTdiZGNBSjVQQURyc2c4Z2Y4cUhEazJMSFJlblpRQ3YxWGtBb3VycEhpZ1JvWXA3LVBoZ0VxT21HM2xkZEZsVVo0aw?oc=5",
+      "source_name": "Crypto Briefing",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 10000,
       "confidence": 0.81,
       "location": {
         "city": "Menlo Park",
@@ -635,57 +679,13 @@
       }
     },
     {
-      "id": "deal_1108842627",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Repeat founder Ryan Williams",
-      "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BjOVgzYzlQM1JZODQ5WXZaektJNDJmd1kydW9fWm5FZGRycGN0TWYtdVdUWjM4MGtvRWE0MnFBNlF4bGZ1dWhGSi01bktaWUF5NE9mUE95TmtobzFya0ZqNW9TT08wMl9aU2lTcHF5OU45dkNlU2FVM3ZJTllDYkU1ZFJUblBPRTVTaDRrRktTaUpNUXpzZW00bkpNNjhRTHd6WDdaT3drMlU3SUcyN1Ztdnc1dHhoS29icUlicGVSSkU?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-31T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 10,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_562487074",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Repeat founder Ryan Williams",
-      "title": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BjOVgzYzlQM1JZODQ5WXZaektJNDJmd1kydW9fWm5FZGRycGN0TWYtdVdUWjM4MGtvRWE0MnFBNlF4bGZ1dWhGSi01bktaWUF5NE9mUE95TmtobzFya0ZqNW9TT08wMl9aU2lTcHF5OU45dkNlU2FVM3ZJTllDYkU1ZFJUblBPRTVTaDRrRktTaUpNUXpzZW00bkpNNjhRTHd6WDdaT3drMlU3SUcyN1Ztdnc1dHhoS29icUlicGVSSkU?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-07-31T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 10,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_157214271",
       "vc_id": "lightspeed",
       "vc_name": "Lightspeed Venture Partners",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -727,9 +727,9 @@
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -767,35 +767,13 @@
       }
     },
     {
-      "id": "deal_1831526398",
-      "vc_id": "ribbit",
-      "vc_name": "Ribbit Capital",
-      "company": "Antora",
-      "title": "Antora Closes $550 Million in Series C Funding to Meet Surging Energy Demand and Reindustrialize America - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaTJLMFJpUU5LZkhlOW5TVjNSVEFyM0hOYllfUHhza3ZtX1Jxb0lGbjg5TDlJRTF5cVFUdWtBX2FQRzBPbXVHNWRyTl85Vm9vMUM5Z0NJN0I2bmVSa0NMRDBIM05RLUVGZk0wbHdLbkIxenhsUG9oMkhfS0FZUUJzNDVhclBLbkFOQ0NydXowY21hc1U?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-07-30T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "Other",
-      "amount_usd_m": 550,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1747550473",
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -837,9 +815,9 @@
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
       "company": "Satellite Startup K2 Space",
-      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg",
+      "title": "Satellite Startup K2 Space Raises $500 Million at $6.8 Billion Value - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa19aT3pUMkNFQ3ljNERDYVZ4VmdGaDk2MklrOWJETEZKWlRpTHY3QkRoRmVVYVczZVFxQ0ZJSE5QNXBmNzlUd2RsSDZ4SHpjbmhEMlVBM0JIV19ib2IzN2NyOUU2MlhUY3FaNllXMG9fS1pnUzZnZGlqQ0c1NllPS3RFY0FWRHUxekMwZElHa0c2TkdCdXhmbXBTLVppWDJTNkZLVXNOVWx3U0wwRGRZTg?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-07-30T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -919,28 +897,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_2040991795",
-      "vc_id": "fin-capital",
-      "vc_name": "Fin Capital",
-      "company": "Unknown",
-      "title": "Founders who sold their startup to Cisco raise $34 million to kill IT tickets. Read their new AI startup's pitch deck. - Business Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1dmR0VHM0FHbDkwQ19ISFRNODY3LXh0MTdZZFVRd002ZDdsQ2NENmRyQzRENlZrYnowdUVMcHBMUWNDVk9kVElGYnZLdUt5bEpyTi1xUGYxR2Q0dUdmNExlMDllalZ4MWtvQ0NPQ3BVZnFLQmdPaFozbmI0NEJqaVh6OHp0OUU0RTR2MWlfQjhuX19XVmcyRElNcFZfbGpR?oc=5",
-      "source_name": "Business Insider",
-      "published_at": "2026-07-28T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 34,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -951,9 +907,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 12,
-      "weighted_score": 53.84,
-      "latest_at": "2026-08-24T06:02:00.000Z",
-      "amount_usd_m_total": 72489.7,
+      "weighted_score": 53.66,
+      "latest_at": "2026-08-27T08:07:00.000Z",
+      "amount_usd_m_total": 80401.2,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -970,7 +926,7 @@
           "count": 3
         },
         {
-          "name": "Mayfield",
+          "name": "Kleiner Perkins",
           "count": 2
         }
       ]
@@ -981,14 +937,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 6,
-      "weighted_score": 21.7,
-      "latest_at": "2026-08-24T14:49:21.000Z",
-      "amount_usd_m_total": 25106,
+      "deal_count": 7,
+      "weighted_score": 24.39,
+      "latest_at": "2026-08-27T00:45:11.000Z",
+      "amount_usd_m_total": 25112,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 1
         },
         {
           "name": "Fintech",
@@ -997,15 +957,15 @@
       ],
       "top_vcs": [
         {
-          "name": "First Round Capital",
-          "count": 2
+          "name": "BOND",
+          "count": 3
         },
         {
           "name": "Benchmark",
           "count": 1
         },
         {
-          "name": "Crosslink Capital",
+          "name": "First Round Capital",
           "count": 1
         }
       ]
@@ -1108,87 +1068,6 @@
       ]
     },
     {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 10.22,
-      "latest_at": "2026-08-24T06:33:46.000Z",
-      "amount_usd_m_total": 550,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 2
-        },
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "DCVC",
-          "count": 1
-        },
-        {
-          "name": "Social Capital",
-          "count": 1
-        },
-        {
-          "name": "Ribbit Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Jose,CA",
-      "city": "San Jose",
-      "state": "CA",
-      "lat": 37.3382,
-      "lon": -121.8863,
-      "deal_count": 2,
-      "weighted_score": 8.42,
-      "latest_at": "2026-08-26T10:27:00.000Z",
-      "amount_usd_m_total": 500,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Cisco Investments",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 1,
-      "weighted_score": 5.36,
-      "latest_at": "2026-08-10T07:00:00.000Z",
-      "amount_usd_m_total": 3400,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Lux Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Austin,TX",
       "city": "Austin",
       "state": "TX",
@@ -1230,6 +1109,60 @@
       "top_vcs": [
         {
           "name": "Sequoia Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 2,
+      "weighted_score": 4.22,
+      "latest_at": "2026-08-24T06:33:46.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "DCVC",
+          "count": 1
+        },
+        {
+          "name": "Social Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Jose,CA",
+      "city": "San Jose",
+      "state": "CA",
+      "lat": 37.3382,
+      "lon": -121.8863,
+      "deal_count": 1,
+      "weighted_score": 4.21,
+      "latest_at": "2026-08-21T14:00:00.000Z",
+      "amount_usd_m_total": 250,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Cisco Investments",
           "count": 1
         }
       ]
