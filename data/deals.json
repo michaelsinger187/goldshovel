@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T11:50:59.399Z",
+  "generated_at": "2026-08-30T16:38:20.675Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 34,
-    "total_deals": 34,
+    "scraped_deals": 32,
+    "total_deals": 32,
     "demo_mode": false,
-    "deals_with_coordinates": 34,
-    "runtime_ms": 3735,
+    "deals_with_coordinates": 32,
+    "runtime_ms": 4252,
     "note": "",
     "error_sample": []
   },
@@ -415,53 +415,9 @@
       }
     },
     {
-      "id": "deal_388376532",
-      "vc_id": "altimeter",
-      "vc_name": "Altimeter Capital",
-      "company": "OpenAI-backed Thrive Holdings",
-      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWloUTdtYTlOZTdjeVZ5d2tFd2wxbzJzWlJFR1R5Y3hURjVzQk1zaUE5Z2dOdFNtN0k2V0VOREpFeVFYeFhwMVFXVWxiUzJ1Zm1WbGRETFdZcXNwZll1bDBNN2pGQmZEMENSczhfZU1XcVlGY0o3UVJXWmlnVi0wS3MxNHJ5bE9ZN3VuN0dMX0h2YmhtYldrSVAtOE82RmNlUGNsN2Q0QQ?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-08-12T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 2000,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1117293731",
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
-      "company": "Unknown",
-      "title": "The 12 Largest US Funding Rounds of July 2026 - AlleyWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
-      "source_name": "AlleyWatch",
-      "published_at": "2026-08-11T15:32:17.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_253168928",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
       "company": "Unknown",
       "title": "The 12 Largest US Funding Rounds of July 2026 - AlleyWatch",
       "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOclRRUGg1cW41MFUtdTh5UmtHYUEzRWozYTJuNE16TGlnMzJONmVJdkdRRjhEbUFLcVQwNTd1eWlYbDV2WWc3WGN4VTVFY0FFR3dzS3FzVnM0VUlIMWJvWHVsa2w0ckE4N2IwQU1jTm1lVURUWVg1c01YTFdSdnh2Rw?oc=5",
@@ -774,14 +730,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 8,
-      "weighted_score": 37.53,
+      "deal_count": 7,
+      "weighted_score": 32.42,
       "latest_at": "2026-08-27T08:07:00.000Z",
-      "amount_usd_m_total": 80538.7,
+      "amount_usd_m_total": 78538.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 7
         }
       ],
       "top_vcs": [
@@ -790,11 +746,11 @@
           "count": 3
         },
         {
-          "name": "Altimeter Capital",
-          "count": 3
+          "name": "Mayfield",
+          "count": 2
         },
         {
-          "name": "Mayfield",
+          "name": "Altimeter Capital",
           "count": 2
         }
       ]
@@ -889,33 +845,6 @@
         {
           "name": "Cisco Investments",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 3,
-      "weighted_score": 6.03,
-      "latest_at": "2026-08-18T03:43:52.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "NextView Ventures",
-          "count": 2
-        },
-        {
-          "name": "Bain Capital Ventures",
-          "count": 1
         }
       ]
     },
@@ -1039,6 +968,29 @@
         {
           "name": "GV",
           "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 2,
+      "weighted_score": 4.02,
+      "latest_at": "2026-08-18T03:43:52.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "NextView Ventures",
+          "count": 2
         }
       ]
     },
