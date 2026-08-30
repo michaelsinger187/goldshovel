@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T05:19:55.477Z",
+  "generated_at": "2026-08-30T11:50:59.399Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -13,7 +13,7 @@
     "total_deals": 34,
     "demo_mode": false,
     "deals_with_coordinates": 34,
-    "runtime_ms": 4457,
+    "runtime_ms": 3735,
     "note": "",
     "error_sample": []
   },
@@ -66,15 +66,15 @@
       "id": "deal_1214923951",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
-      "company": "Fierce Healthcare Fundraising Tracker '26: Arintra",
-      "title": "Fierce Healthcare Fundraising Tracker '26: Arintra lands $25M; Happy Health buoyed by $75M round - Fierce Healthcare",
+      "company": "Unknown",
+      "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
       "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
       "source_name": "Fierce Healthcare",
       "published_at": "2026-08-27T07:00:00.000Z",
       "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.81,
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -806,13 +806,17 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 6,
-      "weighted_score": 22.9,
+      "weighted_score": 21.68,
       "latest_at": "2026-08-27T14:05:33.000Z",
-      "amount_usd_m_total": 25170.5,
+      "amount_usd_m_total": 25145.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
