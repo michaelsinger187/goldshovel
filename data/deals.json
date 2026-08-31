@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:41:04.631Z",
+  "generated_at": "2026-08-31T22:47:11.579Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 28,
-    "total_deals": 28,
+    "scraped_deals": 29,
+    "total_deals": 29,
     "demo_mode": false,
-    "deals_with_coordinates": 28,
-    "runtime_ms": 4234,
+    "deals_with_coordinates": 29,
+    "runtime_ms": 4161,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1592996676",
+      "vc_id": "signalfire",
+      "vc_name": "SignalFire",
+      "company": "Harvard Law dropout",
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’ - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFlGbHJieW9QQkVNOHJoODVrQWRVSTY2RlhJTWdtUjRpUzJwLWVzdkg3OGZ2d1pZWUd1ZklLUnRmS2JvcGNMc0tqUUVlUjNTbElNTHBKQV9tNzMwX2lpQUpPQjVzVmdlMWJrUWZZMVpVb3NEbWpFdDRQQnozUzZhRGxOQlJTZE50UkR4U0dTUDQyX1JXbENNQ3NIekZuUmJmcjZ5MjhIc3dKamh0OXVDVUc2NUhPd05f?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-31T18:35:11.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 6,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_163660686",
       "vc_id": "khosla",
@@ -371,6 +393,28 @@
       }
     },
     {
+      "id": "deal_388376532",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "OpenAI-backed Thrive Holdings",
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWloUTdtYTlOZTdjeVZ5d2tFd2wxbzJzWlJFR1R5Y3hURjVzQk1zaUE5Z2dOdFNtN0k2V0VOREpFeVFYeFhwMVFXVWxiUzJ1Zm1WbGRETFdZcXNwZll1bDBNN2pGQmZEMENSczhfZU1XcVlGY0o3UVJXWmlnVi0wS3MxNHJ5bE9ZN3VuN0dMX0h2YmhtYldrSVAtOE82RmNlUGNsN2Q0QQ?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 2000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1117293731",
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
@@ -415,35 +459,13 @@
       }
     },
     {
-      "id": "deal_614968434",
-      "vc_id": "amex-ventures",
-      "vc_name": "Amex Ventures",
-      "company": "Unknown",
-      "title": "Amex Ventures Invests in Fazeshift to Scale AI-Powered Autonomous Accounts Receivable - FF News",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQnpfTUZwLXFCYzhLU1lXVDZPTVFnVmp5cldnTEt4VjM5RVdPOUdIVmdtRURNcjBuWW5RWHBrbEVSUE45dE5fSHVjQkVYTmxiUTJMeGk0S2gxc0d0VFdfZlZPRWpnSldBRnRPek1VaEx1UXNSdTNQakVFU29Wd09hcGtVNlF6WEtKdlE?oc=5",
-      "source_name": "FF News",
-      "published_at": "2026-08-11T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_261166417",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Unknown",
-      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - Sifted",
+      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - sifted.eu",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUVoxbEZwN3pDTTN4WlRWMVkxVHNtUlNOeUExUEVDSmhFVEljTjRENUlpa3ZGbVdOMlpZMTBrTkNKV3MzNmNVYXFSWDVzWnJNSUpUYXU1RzE5dkRRak5DbG5RQjBacHVycHVSeEZ1VXF2OTFt?oc=5",
-      "source_name": "Sifted",
+      "source_name": "sifted.eu",
       "published_at": "2026-08-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -529,9 +551,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36氪",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "36氪",
+      "source_name": "36 Kr",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -642,14 +664,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 5,
-      "weighted_score": 22.76,
+      "deal_count": 6,
+      "weighted_score": 27.87,
       "latest_at": "2026-08-27T08:07:00.000Z",
-      "amount_usd_m_total": 68428.7,
+      "amount_usd_m_total": 70428.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 6
         }
       ],
       "top_vcs": [
@@ -658,11 +680,46 @@
           "count": 3
         },
         {
+          "name": "Altimeter Capital",
+          "count": 2
+        },
+        {
           "name": "Mayfield",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 5,
+      "weighted_score": 18.93,
+      "latest_at": "2026-08-31T18:35:11.000Z",
+      "amount_usd_m_total": 25121.5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 4
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Benchmark",
+          "count": 2
+        },
+        {
+          "name": "SignalFire",
           "count": 1
         },
         {
-          "name": "Altimeter Capital",
+          "name": "First Round Capital",
           "count": 1
         }
       ]
@@ -673,14 +730,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 8,
-      "weighted_score": 20.98,
+      "deal_count": 7,
+      "weighted_score": 18.87,
       "latest_at": "2026-08-26T14:00:00.000Z",
       "amount_usd_m_total": 1395,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Other",
@@ -694,45 +751,10 @@
         },
         {
           "name": "Amex Ventures",
-          "count": 3
-        },
-        {
-          "name": "Citi Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 4,
-      "weighted_score": 16.27,
-      "latest_at": "2026-08-27T07:00:00.000Z",
-      "amount_usd_m_total": 25115.5,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Benchmark",
           "count": 2
         },
         {
-          "name": "First Round Capital",
-          "count": 1
-        },
-        {
-          "name": "BOND",
+          "name": "Citi Ventures",
           "count": 1
         }
       ]
