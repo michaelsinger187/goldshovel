@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:47:11.579Z",
+  "generated_at": "2026-09-01T05:02:05.909Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 29,
-    "total_deals": 29,
+    "scraped_deals": 28,
+    "total_deals": 28,
     "demo_mode": false,
-    "deals_with_coordinates": 29,
-    "runtime_ms": 4161,
+    "deals_with_coordinates": 28,
+    "runtime_ms": 3898,
     "note": "",
     "error_sample": []
   },
@@ -129,28 +129,6 @@
       }
     },
     {
-      "id": "deal_1017759791",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Unknown",
-      "title": "Robotics Startup Generalist Hits $3B Valuation After Funding Extension, Sources Say - Bitcoin World",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS1Nha2M4SWkzUko2OEV2OThzUUVMb1c1RFhuTFBNYWt1UlNQcHBrOTBsR2pmMEpxSVBZS0RjWDZlb0hfalI3SUNEUHd5em05eS11T2Etd2swZVFVZEMtMTQ2UGZjOGxMTU5NenpMYjlmODJtR1lMV0ROMkRyendxMW9JcUtzQ0h6cEtiV1dISQ?oc=5",
-      "source_name": "Bitcoin World",
-      "published_at": "2026-08-26T01:30:12.000Z",
-      "stage": "Unspecified",
-      "sector": "Semis, Robotics & Hardware",
-      "amount_usd_m": 3000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_923639962",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -190,28 +168,6 @@
         "state": "CA",
         "lat": 37.3382,
         "lon": -121.8863,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1330141936",
-      "vc_id": "dcvc",
-      "vc_name": "DCVC",
-      "company": "AI workload optimization startup Callosum",
-      "title": "AI workload optimization startup Callosum raises $100M - SiliconANGLE",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONUxJSDByTXpVNDRDeHltcm5VMUhLdEQ2TVRzLURBUWd1Rzh1dGFCRWF2dVBmZzZQV29acW16RUt3QlhuT3BZaVRJaFBnOTgxWm03aWE2bjgzTkJWdE8zYWhiMDJ0YkZlTFUxdkVfWmlzcDh3Tlh6U3hsTGFZT0NvX18xRjQzdXhOcm4yVlgzMHdjQ0ZS?oc=5",
-      "source_name": "SiliconANGLE",
-      "published_at": "2026-08-20T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.81,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -459,13 +415,35 @@
       }
     },
     {
+      "id": "deal_118944456",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "Unknown",
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb1RXX01BUGdyZ1RwQjg1cFBaYTExcWtIVVRYN2dCaTIwNXdCSTlPOEV3d0pTSXZyV3ZKZnllbmNHbGNYYkhyalZQYzh2UG1SM1ZTVlRtSjNwV3NpYkdDblFZQjF3ZDJXb1ZNdnJDaXhWaWtSTk0tZ3NGUVB5NVk0M2NzT1A2M014VUlzdlpKamtERlNGTVlRblVn?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-08-11T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1100,
+      "confidence": 0.71,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_261166417",
       "vc_id": "lux",
       "vc_name": "Lux Capital",
       "company": "Unknown",
-      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - sifted.eu",
+      "title": "UK air defence startup Cambridge Aerospace hits $3.4bn valuation in new fundraise - Sifted",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBUVoxbEZwN3pDTTN4WlRWMVkxVHNtUlNOeUExUEVDSmhFVEljTjRENUlpa3ZGbVdOMlpZMTBrTkNKV3MzNmNVYXFSWDVzWnJNSUpUYXU1RzE5dkRRak5DbG5RQjBacHVycHVSeEZ1VXF2OTFt?oc=5",
-      "source_name": "sifted.eu",
+      "source_name": "Sifted",
       "published_at": "2026-08-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -760,6 +738,33 @@
       ]
     },
     {
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 2,
+      "weighted_score": 10.11,
+      "latest_at": "2026-08-11T07:00:00.000Z",
+      "amount_usd_m_total": 4500,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 1
+        },
+        {
+          "name": "Lux Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "San Jose,CA",
       "city": "San Jose",
       "state": "CA",
@@ -779,83 +784,6 @@
         {
           "name": "Cisco Investments",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 5.82,
-      "latest_at": "2026-08-20T07:00:00.000Z",
-      "amount_usd_m_total": 100,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "DCVC",
-          "count": 1
-        },
-        {
-          "name": "Sapphire Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 1,
-      "weighted_score": 5.36,
-      "latest_at": "2026-08-10T07:00:00.000Z",
-      "amount_usd_m_total": 3400,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Lux Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 5.19,
-      "latest_at": "2026-08-26T01:30:12.000Z",
-      "amount_usd_m_total": 3000,
-      "top_sectors": [
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
-          "count": 1
         }
       ]
     },
@@ -947,6 +875,29 @@
       "top_vcs": [
         {
           "name": "Khosla Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-08-11T15:32:17.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Sapphire Ventures",
           "count": 1
         }
       ]
