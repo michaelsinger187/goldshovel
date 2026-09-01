@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:02:05.909Z",
+  "generated_at": "2026-09-01T11:34:41.179Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,23 +9,45 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 28,
-    "total_deals": 28,
+    "scraped_deals": 29,
+    "total_deals": 29,
     "demo_mode": false,
-    "deals_with_coordinates": 28,
-    "runtime_ms": 3898,
+    "deals_with_coordinates": 29,
+    "runtime_ms": 4211,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
+      "id": "deal_991432551",
+      "vc_id": "8vc",
+      "vc_name": "8VC",
+      "company": "Columbus insurtech",
+      "title": "Columbus insurtech raises $21M for AI health plan shopping - The Business Journals",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM2o4alBtalNrMXhGN1ZvLXlMM0dKbnE2ckp0c3YyQW1qRW1LV3dWUUZBVVA2OVpxbG8zTFNTaVQzQWNFcV9YR3AzTnN3TE5WMGRnX2ZXbWhieFhNaV9DS3B2WTVYVDFlTFVMNGVNZjhjQThDd20zWVF3YWdySFZCaWVQT1c1VGR3d2VtX3R1dmIxNGMxVkVBVXM0U19FMUtu?oc=5",
+      "source_name": "The Business Journals",
+      "published_at": "2026-09-01T10:32:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 21,
+      "confidence": 0.93,
+      "location": {
+        "city": "Columbus",
+        "state": "OH",
+        "lat": 39.9612,
+        "lon": -82.9988,
+        "method": "city_keyword",
+        "confidence": 0.68
+      }
+    },
+    {
       "id": "deal_1592996676",
       "vc_id": "signalfire",
       "vc_name": "SignalFire",
       "company": "Harvard Law dropout",
-      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’ - TechCrunch",
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’ - techcrunch.com",
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFlGbHJieW9QQkVNOHJoODVrQWRVSTY2RlhJTWdtUjRpUzJwLWVzdkg3OGZ2d1pZWUd1ZklLUnRmS2JvcGNMc0tqUUVlUjNTbElNTHBKQV9tNzMwX2lpQUpPQjVzVmdlMWJrUWZZMVpVb3NEbWpFdDRQQnozUzZhRGxOQlJTZE50UkR4U0dTUDQyX1JXbENNQ3NIekZuUmJmcjZ5MjhIc3dKamh0OXVDVUc2NUhPd05f?oc=5",
-      "source_name": "TechCrunch",
+      "source_name": "techcrunch.com",
       "published_at": "2026-08-31T18:35:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -124,6 +146,28 @@
         "state": "CA",
         "lat": 37.3382,
         "lon": -121.8863,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_960486384",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
+      "company": "Unknown",
+      "title": "Attentive Mobile - 2026 Funding Rounds & List of Investors - tracxn.com",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjhpU05FZk1OWXJYdGJxSERjVkhfdV9ILXczeV9Ga3dXdVpFWlRlYzVpeVhjSWU2YU5jR285eS0tSmR4aks0MFd5enUwa1prM25lanJhX2o5SzNET2FUUFcwVk5iT2ZjcmtVSHU5V093aUxveUZ3b0VmUXhqLXVQSHN0ajlrN0pwWnV3em0xNW8xLThWb0h0emY3dkZjWlU1LWRURlpvaFVoc1ViVjRBc0t4cjF0dw?oc=5",
+      "source_name": "tracxn.com",
+      "published_at": "2026-08-25T22:43:27.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -265,9 +309,9 @@
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Unknown",
-      "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
+      "title": "Whoop - 2026 Funding Rounds & List of Investors - tracxn.com",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
-      "source_name": "Tracxn",
+      "source_name": "tracxn.com",
       "published_at": "2026-08-18T03:43:52.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -305,28 +349,6 @@
       }
     },
     {
-      "id": "deal_1383606537",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Decade",
-      "title": "Decade Secures $85M in Latin America’s Largest Seed Round to Create a New Generation of Millionaires with AI - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTWxsRjhWOUdySDQwTWRmZkpMUDBCN1RxQVMxWllZM1hZVjlBcU5uOGFvNjJDMnY4WERLZ01fRWhrMUJ2QU9UbzZkUVlESWNJd1Q1eFRtRXo4U2M0SjFobERySzV0T3VmR3JmRWt3U3B0bHVlMFAwTVpFSkMwYU5Fb09MU1U3WVNnU3JtMVc1OVZlcl9BdUh3b1UtZTh5aFMyNDFuVHlOS0diZGFnNGxoMzByOXVYU3hIWGJjbUtscUJ1WHhwbzdpeGd1T0hiN2Fyc1JCLUVfWHhwbTdh?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-08-14T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 85,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_918138069",
       "vc_id": "gv",
       "vc_name": "GV",
@@ -353,9 +375,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "OpenAI-backed Thrive Holdings",
-      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise - TechCrunch",
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise - techcrunch.com",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWloUTdtYTlOZTdjeVZ5d2tFd2wxbzJzWlJFR1R5Y3hURjVzQk1zaUE5Z2dOdFNtN0k2V0VOREpFeVFYeFhwMVFXVWxiUzJ1Zm1WbGRETFdZcXNwZll1bDBNN2pGQmZEMENSczhfZU1XcVlGY0o3UVJXWmlnVi0wS3MxNHJ5bE9ZN3VuN0dMX0h2YmhtYldrSVAtOE82RmNlUGNsN2Q0QQ?oc=5",
-      "source_name": "TechCrunch",
+      "source_name": "techcrunch.com",
       "published_at": "2026-08-12T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -419,9 +441,9 @@
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
       "company": "Unknown",
-      "title": "General Catalyst leads $1.1B round into 2-month-old River AI - TechCrunch",
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI - techcrunch.com",
       "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb1RXX01BUGdyZ1RwQjg1cFBaYTExcWtIVVRYN2dCaTIwNXdCSTlPOEV3d0pTSXZyV3ZKZnllbmNHbGNYYkhyalZQYzh2UG1SM1ZTVlRtSjNwV3NpYkdDblFZQjF3ZDJXb1ZNdnJDaXhWaWtSTk0tZ3NGUVB5NVk0M2NzT1A2M014VUlzdlpKamtERlNGTVlRblVn?oc=5",
-      "source_name": "TechCrunch",
+      "source_name": "techcrunch.com",
       "published_at": "2026-08-11T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -529,9 +551,9 @@
       "vc_id": "altimeter",
       "vc_name": "Altimeter Capital",
       "company": "NVIDIA-Backed Startup (Founded 7 Months)",
-      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - 36 Kr",
+      "title": "NVIDIA-Backed Startup (Founded 7 Months) Secures $68B AI Mega-Deal From Anthropic - eu.36kr.com",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1SWTM3ZGN6bXJBZmxDODI1RkhFVE45M3lMVGpKUU5KSXJiZlJqWFhvcERRTlBPUnpNdHRteXVFbW9fdVE1WlNWOUVBSmM1WTc4Y1FB?oc=5",
-      "source_name": "36 Kr",
+      "source_name": "eu.36kr.com",
       "published_at": "2026-08-06T04:40:11.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -668,41 +690,6 @@
       ]
     },
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 5,
-      "weighted_score": 18.93,
-      "latest_at": "2026-08-31T18:35:11.000Z",
-      "amount_usd_m_total": 25121.5,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Benchmark",
-          "count": 2
-        },
-        {
-          "name": "SignalFire",
-          "count": 1
-        },
-        {
-          "name": "First Round Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "New York,NY",
       "city": "New York",
       "state": "NY",
@@ -733,6 +720,41 @@
         },
         {
           "name": "Citi Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 4,
+      "weighted_score": 14.83,
+      "latest_at": "2026-08-31T18:35:11.000Z",
+      "amount_usd_m_total": 25036.5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "SignalFire",
+          "count": 1
+        },
+        {
+          "name": "First Round Capital",
+          "count": 1
+        },
+        {
+          "name": "Benchmark",
           "count": 1
         }
       ]
@@ -788,6 +810,29 @@
       ]
     },
     {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 3,
+      "weighted_score": 6.03,
+      "latest_at": "2026-08-25T22:43:27.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "NextView Ventures",
+          "count": 3
+        }
+      ]
+    },
+    {
       "key": "Los Angeles,CA",
       "city": "Los Angeles",
       "state": "CA",
@@ -834,29 +879,6 @@
       ]
     },
     {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 2,
-      "weighted_score": 4.02,
-      "latest_at": "2026-08-18T03:43:52.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "NextView Ventures",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Cleveland,OH",
       "city": "Cleveland",
       "state": "OH",
@@ -875,6 +897,29 @@
       "top_vcs": [
         {
           "name": "Khosla Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Columbus,OH",
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lon": -82.9988,
+      "deal_count": 1,
+      "weighted_score": 3.27,
+      "latest_at": "2026-09-01T10:32:00.000Z",
+      "amount_usd_m_total": 21,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "8VC",
           "count": 1
         }
       ]
