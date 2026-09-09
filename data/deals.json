@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:17:08.501Z",
+  "generated_at": "2026-09-09T16:35:36.942Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,81 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 46,
-    "total_deals": 46,
+    "scraped_deals": 50,
+    "total_deals": 50,
     "demo_mode": false,
-    "deals_with_coordinates": 46,
-    "runtime_ms": 4056,
+    "deals_with_coordinates": 50,
+    "runtime_ms": 4440,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_792058040",
+      "vc_id": "greylock",
+      "vc_name": "Greylock",
+      "company": "Physical AI Simulation Startup Antioch",
+      "title": "Physical AI Simulation Startup Antioch Raises $32M Series A Led by Greylock - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIT3J3cHRxTUpJVXNvb3B0NUJEWjhlZTRfS2Q4LUdBTXY4TDR3NmZQVHlaVWN5Qkp3OU0xRWhzaDhwMUpaWmZyVG14Wlpyb3N0VkVF?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-09-09T12:32:07.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 32,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1726424915",
+      "vc_id": "spark",
+      "vc_name": "Spark Capital",
+      "company": "Unknown",
+      "title": "Spark Centre Launches Program to Connect Investment-Ready Canadian Startups with Investors Across North America - Yahoo Finance Singapore",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVW5Md3Y2c2tsRldJWHpYbTVDblRhSmJWUTA3YlZJY1daMEZfM3M5SkQ3LTBIZ3Z5OUsyYzBRSDhlbl9Eal91c29xN2NZbTFuakZKZGJTZjl2Z0pTSTMtdzg1ZUduOWcwREw2THBDRnljNXZIMnpyX24xRFh5QjlHZkhBMGFlZElBc1p4VGtzTQ?oc=5",
+      "source_name": "Yahoo Finance Singapore",
+      "published_at": "2026-09-09T12:05:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_420271564",
+      "vc_id": "canaan",
+      "vc_name": "Canaan Partners",
+      "company": "Harbour BioMed Partner, Solstice Oncology,",
+      "title": "Harbour BioMed Partner, Solstice Oncology, announces $225 Million Series A Financing to Advance Porustobart, a Neoadjuvant Immuno-Oncology Therapy - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOOVJNNFJUa3JabUI2bEFtOWRjUFlxRm1MeTZRYUc4MTU5NS1vMUNTX3pWQWFFLVNRWmJvcUMtakxnUXA1bnlzSVVLSVhwREJJdEVTazhKWEpmbktNR3pTNnR4VW85anA5bFo1VnZHUG91YkM5N3ViMHBqQTE1MHlFelFjMHNPck1BX0Utajd3VXJaUVN1Wk9UMW56elFfTVk0T1IzazMxM2FYRWQ1c2FQSTJWSGtwa0N5U0hEVDFScXg2RXNCVFYyNDRhbkZoa3d1YjNraVA2WmktQktNWnVkWkJuQUlWTWEzbTVfVnRpTkg0dlhjTEV6Y1pQWkhCQ3dPYV9Mb2tCYWs3TlNPd1VIRV9GdlBYbTBRMXE0VWFTdG1QbEc2?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-09-09T11:12:00.000Z",
+      "stage": "Series A",
+      "sector": "Other",
+      "amount_usd_m": 225,
+      "confidence": 0.86,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_2147166909",
       "vc_id": "craft",
@@ -151,28 +217,6 @@
       }
     },
     {
-      "id": "deal_1955602823",
-      "vc_id": "m12",
-      "vc_name": "M12",
-      "company": "Gimlet Labs",
-      "title": "Gimlet Labs Raises $300 Million at $3 Billion Valuation as Six-Chip AI Strategy Scales to Several Hundred Megawatts - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUW8xc1c1Nnp0RUV5UlVxdlozc1ZESmZnQjhOclVtZDB0aEdnYzlKYWJMVllzeUZ6bGxYWi0zUm5idEk5MGFteVYxR1BxTXFLcU05LTRVWFZjSTRxcW9pRDhpN25oMWZNSVJPQ2tYaUxMVk9wUzlhSlNfLUU2UmtsZFJ4anVfdG5CajdoV00yQktPZ2k5MFo0dXRRbm5RSVRo?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-09-05T07:23:44.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 300,
-      "confidence": 0.81,
-      "location": {
-        "city": "Redmond",
-        "state": "WA",
-        "lat": 47.6739,
-        "lon": -122.1215,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_883568240",
       "vc_id": "m12",
       "vc_name": "M12",
@@ -265,9 +309,9 @@
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
       "company": "{Funding Alert} Ultrahuman",
-      "title": "{Funding Alert} Ultrahuman Raises $70 Mn in Funding Round Led by Qualcomm Ventures - Indian Retailer",
+      "title": "{Funding Alert} Ultrahuman Raises $70 Mn in Funding Round Led by Qualcomm Ventures - indianretailer.com",
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVlZqSGZKVnN6dVVMelBxd3ZhTnpLT002TDV3YlB6NmRUU19ZX2xYbnk0MklmczVyNFExUkZrNi1BcU1MTEJOVHZJWmc0TUpiNUw2OVRwRWk3YndFN1pQZnk4bE44V1lUWm1NZnphMXBlY2dqM1JyYmUxSWhtZVEzMVdkT2R4Ti1RUjNyQzJSUzRhQ3hKN0p4b0t2STA5M0lJSFVTd1lONzJhcjdwNFE?oc=5",
-      "source_name": "Indian Retailer",
+      "source_name": "indianretailer.com",
       "published_at": "2026-09-04T08:11:14.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -287,9 +331,9 @@
       "vc_id": "rre",
       "vc_name": "RRE Ventures",
       "company": "Helogen",
-      "title": "Helogen Raises $7.1M in Seed Funding - finsmes.com",
+      "title": "Helogen Raises $7.1M in Seed Funding - FinSMEs",
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iWU9JTWN6d25veHZiaW1DTlA0MFFJSVNza3RzN3lyOHdxWUlESFlNdVVMRW9rVmhXQjRoOGFQX1JoaE44d2dFT1ZNRDI1UFI5RGFQbGwwMnZtMkVkTHpjdlhKR29TN216dzQwcUFwbzhfbVhHa3BJYTYtTEE?oc=5",
-      "source_name": "finsmes.com",
+      "source_name": "FinSMEs",
       "published_at": "2026-09-04T07:58:39.000Z",
       "stage": "Seed",
       "sector": "AI & ML",
@@ -300,6 +344,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1991032125",
+      "vc_id": "qualcomm",
+      "vc_name": "Qualcomm Ventures",
+      "company": "Ultrahuman",
+      "title": "Ultrahuman Raises $70 Mn From Qualcomm, Alpha Wave, Nexus and Others - ascendants.in",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZaFFwbXFqcm9GVWV1VVcwU1Y0elIyY3hpVDIwTlRTSndJMWtSWWFKV3FTUmRza3ZXVDloc1lSVkFxcWdpV19DLXBRZ2hYTFhveXN4WDcxYVJ4UVRPd21ZRnlqMHJGR0JFY3BB?oc=5",
+      "source_name": "ascendants.in",
+      "published_at": "2026-09-04T04:55:56.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 70,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Diego",
+        "state": "CA",
+        "lat": 32.7157,
+        "lon": -117.1611,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -353,9 +419,9 @@
       "vc_id": "bessemer",
       "vc_name": "Bessemer Venture Partners",
       "company": "AI startup Wonderful",
-      "title": "AI startup Wonderful raises $550M, doubling its valuation to $5 billion in six months - cryptopolitan.com",
+      "title": "AI startup Wonderful raises $550M, doubling its valuation to $5 billion in six months - Cryptopolitan",
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12MGFWM0k1OXV6b3duRWd5OUw2U3hXWkp2dlNBMm0wc3huejBqRk5LUFJjQXZ4WkNzck5aamR3clAwU1dZd0hkdExmNWsxRWtjUzFvVjVNSUE3YmlaZm1YN0tvQzNnbXNxUW96a19rSVhCYkpGVTBrTjJTdHI?oc=5",
-      "source_name": "cryptopolitan.com",
+      "source_name": "Cryptopolitan",
       "published_at": "2026-09-02T19:45:43.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -375,9 +441,9 @@
       "vc_id": "insight",
       "vc_name": "Insight Partners",
       "company": "AI startup Wonderful",
-      "title": "AI startup Wonderful raises $550M, doubling its valuation to $5 billion in six months - cryptopolitan.com",
+      "title": "AI startup Wonderful raises $550M, doubling its valuation to $5 billion in six months - Cryptopolitan",
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12MGFWM0k1OXV6b3duRWd5OUw2U3hXWkp2dlNBMm0wc3huejBqRk5LUFJjQXZ4WkNzck5aamR3clAwU1dZd0hkdExmNWsxRWtjUzFvVjVNSUE3YmlaZm1YN0tvQzNnbXNxUW96a19rSVhCYkpGVTBrTjJTdHI?oc=5",
-      "source_name": "cryptopolitan.com",
+      "source_name": "Cryptopolitan",
       "published_at": "2026-09-02T19:45:43.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -397,9 +463,9 @@
       "vc_id": "ivp",
       "vc_name": "IVP",
       "company": "AI startup Wonderful",
-      "title": "AI startup Wonderful raises $550M, doubling its valuation to $5 billion in six months - cryptopolitan.com",
+      "title": "AI startup Wonderful raises $550M, doubling its valuation to $5 billion in six months - Cryptopolitan",
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12MGFWM0k1OXV6b3duRWd5OUw2U3hXWkp2dlNBMm0wc3huejBqRk5LUFJjQXZ4WkNzck5aamR3clAwU1dZd0hkdExmNWsxRWtjUzFvVjVNSUE3YmlaZm1YN0tvQzNnbXNxUW96a19rSVhCYkpGVTBrTjJTdHI?oc=5",
-      "source_name": "cryptopolitan.com",
+      "source_name": "Cryptopolitan",
       "published_at": "2026-09-02T19:45:43.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -449,28 +515,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 60,
       "confidence": 0.71,
-      "location": {
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.7157,
-        "lon": -117.1611,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1839242955",
-      "vc_id": "qualcomm",
-      "vc_name": "Qualcomm Ventures",
-      "company": "Ultrahuman",
-      "title": "Ultrahuman raises $60 million led by Qualcomm Ventures at $360 million valuation - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdExuMkI2ZmNtdzByNkx3UzUtTHNvcGpBUnYwQ1AzRnFoQkl2YkdjYXBJV1VmSW5EN2s2NnBMQjJHUFQtODBCZ1ZnVzljVlh2SjU3QzdpZUs3dnJDQWMyRW9haGFua1lBSXVVa0ROQ05aTklBY2VtZjRQTzhMQlo2NTJoVzRGdVp0UHQzQUNvMGZVV1Bha2lERXJlSnV0b2RRcGxlRm91S2JxYVlsNmp4QjlSZ0NycTdibm9QN0F6dEtyNjFCOERPVGtaZkxpSWNhM0QtUjBCYW9oZGJOZWfSAeMBQVVfeXFMUGozRVhqNy0wM3RWQkJDbm1SRGJpNlRPdmZFSFJDZWhnNUJqY3F0d3hsNjZIemZZQV8wYlR5dXRGeXc5d1paRHZQSzZQeG5wQVZCNnlVdUlJNkE2ZVJOYUJqRjkzOThKX3RTeE5WaUZiY3l6aTJJbk9ZS29tZ3hCa3E1elJ2YWNWRW9tbUlkUHMwT3F2RVRCUkUzSVE5VkZsRUxXQk5zTHAzOHhxLTRkMnRLNnctSWVCdjUxeVZqT0VQWFJQRDdSRXIzVDQzQlgwOHFLSXBVeVpiMy1rdGU0VFQxdGc?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-09-01T13:18:23.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 60,
-      "confidence": 0.81,
       "location": {
         "city": "San Diego",
         "state": "CA",
@@ -547,6 +591,28 @@
       }
     },
     {
+      "id": "deal_528596701",
+      "vc_id": "nyca",
+      "vc_name": "Nyca Partners",
+      "company": "Clearing firm RQD*",
+      "title": "Clearing firm RQD* raises $74M minority round to build tokenized markets infrastructure - CryptoRank",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zMnZONElyTVVaT0ZBOC1xTUQ3REJsM3VBZEpldUs0a3BlbXZ5QmRCX19vWmRsSGoxdzdRYU9QbFpnYzZqQUF2RjA1YWhSNWtEQjJ5c2VwX2t0ZVZfbVgzOGUxN1FVZDFEMHpsOWk1N2ZTdWxBS2kwX2t3?oc=5",
+      "source_name": "CryptoRank",
+      "published_at": "2026-08-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 74,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_29107471",
       "vc_id": "khosla",
       "vc_name": "Khosla Ventures",
@@ -564,28 +630,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1861476499",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Instinct",
-      "title": "Instinct Raises $250M Series B, Valuation Hits $2.5 Billion - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWE9GaWdOdUZLZGRuTl84NGt6RTFJci1zUEVxaEdvNl9PM013UVhBZkpacFJzNFdWSm03SEx1aWJPR2JoR0QwZ2xaSnRReFd1b1k4dGdEdEhha3dCTUlWbDNaX1dHR2JrNS03ZTRrZnNvUU1OUDlCbmFmTWlRNFVlZEhXc0d3YU9iQTktbzdZVEhKaW8?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-08-27T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 250,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -683,9 +727,9 @@
       "vc_id": "redpoint",
       "vc_name": "Redpoint Ventures",
       "company": "Unknown",
-      "title": "AI Funding Roundup: $11B Across 60 Rounds, Aug 17 to Aug 23 - StartupHub.ai",
+      "title": "AI Funding Roundup: $11B Across 60 Rounds, Aug 17 to Aug 23 - startuphub.ai",
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMzVybWtjYmg3bGZLRU5QVWhwSVpBZUJwZmJULVN2QVdGbEdlMUlkVnU0RXIzNE92OUN0cTBfWTZjT2lPVDVwYnZNdks2ZGVEMFp4REc0d1VWSGNOZHZzeWVmb2RzaWV1ZlgtVGNXak4wZElnMWFGNXNCYlRjZ2pMdl9maWh5d1Fsbm84ZXNvU1hrYlFNVVNMQkdZMVhydG1feHRxVjZCd19HdTNRUUE?oc=5",
-      "source_name": "StartupHub.ai",
+      "source_name": "startuphub.ai",
       "published_at": "2026-08-24T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -877,6 +921,28 @@
       }
     },
     {
+      "id": "deal_1005765789",
+      "vc_id": "altimeter",
+      "vc_name": "Altimeter Capital",
+      "company": "Unknown",
+      "title": "Thrive Capital Finds its Lane as a New Kind of Venture Investor - Newcomer | Substack",
+      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5raVR4NVo5bUZQTXk2Ql9PRWdMejNBUmlHc05WNnFSRXBrM1dOZENQeFAyRXpsUFlObjdNM2VqemJKUUdQSkoyTkRPRmNRUTJEWE8waE5LR0o5OXBuYmdmb1pfOFAyRFhKaEE?oc=5",
+      "source_name": "Newcomer | Substack",
+      "published_at": "2026-08-14T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_918138069",
       "vc_id": "gv",
       "vc_name": "GV",
@@ -911,6 +977,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 13300,
       "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1804943696",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Unknown",
+      "title": "Lovable raise €343 million Series C to expand its platform, infrastructure and global team - EU-Startups",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWlNIZmpfOXNrYXA3NmhvRTRZSXBvb2haVDlma1VvbW9xU3M0YVNkQzk3VWpKeTBEbl9LQWhSQi1PSjc4WkV5aEl2eWd0dEFOelRvcnR5QlNMNDlaUTFsZVctRTdwRUNtZVJmV0lBNmRTTUF2VkR4ZV95QTVqZ3Bvb0dHSDRiQ2c3aGtnX2hjT3F4Z1o4NTBjTEVJZGdZTHQyRXJWR21Hc1VPNkpDd3pfb1MyUFgzVUVxSUhhTDFXM0I0VVJa?oc=5",
+      "source_name": "EU-Startups",
+      "published_at": "2026-08-12T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.66,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -1038,18 +1126,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 11,
-      "weighted_score": 48.25,
-      "latest_at": "2026-09-08T15:20:32.000Z",
-      "amount_usd_m_total": 30660.7,
+      "deal_count": 14,
+      "weighted_score": 58,
+      "latest_at": "2026-09-09T12:32:07.000Z",
+      "amount_usd_m_total": 30692.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 11
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -1058,47 +1146,12 @@
           "count": 3
         },
         {
+          "name": "Greylock",
+          "count": 2
+        },
+        {
           "name": "Khosla Ventures",
           "count": 2
-        },
-        {
-          "name": "Mayfield",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 7,
-      "weighted_score": 24.93,
-      "latest_at": "2026-09-09T10:23:00.000Z",
-      "amount_usd_m_total": 651.5,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 6
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Benchmark",
-          "count": 2
-        },
-        {
-          "name": "Craft Ventures",
-          "count": 1
-        },
-        {
-          "name": "Obvious Ventures",
-          "count": 1
         }
       ]
     },
@@ -1109,9 +1162,9 @@
       "lat": 32.7157,
       "lon": -117.1611,
       "deal_count": 6,
-      "weighted_score": 21.74,
+      "weighted_score": 21.8,
       "latest_at": "2026-09-07T04:12:44.000Z",
-      "amount_usd_m_total": 400,
+      "amount_usd_m_total": 410,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1122,6 +1175,72 @@
         {
           "name": "Qualcomm Ventures",
           "count": 6
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 6,
+      "weighted_score": 19.57,
+      "latest_at": "2026-09-09T10:23:00.000Z",
+      "amount_usd_m_total": 401.5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 5
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Craft Ventures",
+          "count": 1
+        },
+        {
+          "name": "Obvious Ventures",
+          "count": 1
+        },
+        {
+          "name": "SignalFire",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "New York,NY",
+      "city": "New York",
+      "state": "NY",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "deal_count": 6,
+      "weighted_score": 17.73,
+      "latest_at": "2026-09-04T07:58:39.000Z",
+      "amount_usd_m_total": 631.1,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 6
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Lux Capital",
+          "count": 2
+        },
+        {
+          "name": "RRE Ventures",
+          "count": 1
+        },
+        {
+          "name": "Insight Partners",
+          "count": 1
         }
       ]
     },
@@ -1148,37 +1267,6 @@
         },
         {
           "name": "GV",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "New York,NY",
-      "city": "New York",
-      "state": "NY",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "deal_count": 5,
-      "weighted_score": 14.05,
-      "latest_at": "2026-09-04T07:58:39.000Z",
-      "amount_usd_m_total": 557.1,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 5
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Lux Capital",
-          "count": 2
-        },
-        {
-          "name": "RRE Ventures",
-          "count": 1
-        },
-        {
-          "name": "Insight Partners",
           "count": 1
         }
       ]
@@ -1219,48 +1307,29 @@
       ]
     },
     {
-      "key": "Redmond,WA",
-      "city": "Redmond",
-      "state": "WA",
-      "lat": 47.6739,
-      "lon": -122.1215,
-      "deal_count": 2,
-      "weighted_score": 8.58,
-      "latest_at": "2026-09-05T07:23:44.000Z",
-      "amount_usd_m_total": 600,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "M12",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Boston,MA",
       "city": "Boston",
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 3,
-      "weighted_score": 6.03,
-      "latest_at": "2026-08-29T06:16:35.000Z",
+      "deal_count": 4,
+      "weighted_score": 8.04,
+      "latest_at": "2026-09-09T12:05:00.000Z",
       "amount_usd_m_total": 0,
       "top_sectors": [
         {
           "name": "Other",
-          "count": 3
+          "count": 4
         }
       ],
       "top_vcs": [
         {
           "name": "NextView Ventures",
           "count": 2
+        },
+        {
+          "name": "Spark Capital",
+          "count": 1
         },
         {
           "name": "Bain Capital Ventures",
@@ -1292,6 +1361,29 @@
       ]
     },
     {
+      "key": "Westport,CT",
+      "city": "Westport",
+      "state": "CT",
+      "lat": 41.1415,
+      "lon": -73.3579,
+      "deal_count": 1,
+      "weighted_score": 4.81,
+      "latest_at": "2026-09-09T11:12:00.000Z",
+      "amount_usd_m_total": 225,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Canaan Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Redwood City,CA",
       "city": "Redwood City",
       "state": "CA",
@@ -1310,6 +1402,29 @@
       "top_vcs": [
         {
           "name": "Bessemer Venture Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redmond,WA",
+      "city": "Redmond",
+      "state": "WA",
+      "lat": 47.6739,
+      "lon": -122.1215,
+      "deal_count": 1,
+      "weighted_score": 4.29,
+      "latest_at": "2026-09-05T06:55:00.000Z",
+      "amount_usd_m_total": 300,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "M12",
           "count": 1
         }
       ]
