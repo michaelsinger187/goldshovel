@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:24:56.614Z",
+  "generated_at": "2026-09-11T20:55:33.208Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,37 +9,15 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 50,
-    "total_deals": 50,
+    "scraped_deals": 46,
+    "total_deals": 46,
     "demo_mode": false,
-    "deals_with_coordinates": 50,
-    "runtime_ms": 4359,
+    "deals_with_coordinates": 46,
+    "runtime_ms": 4678,
     "note": "",
     "error_sample": []
   },
   "deals": [
-    {
-      "id": "deal_1775482372",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
-      "company": "Unknown",
-      "title": "HD Hyundai Robotics Invests ₩13 Billion in Robot Sensor Startup Aidin Robotics - finance.biggo.com",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81Q0NGbkxKYmlfUjJrYnRIUXUwVW4zZlVhSXlYaVppYTAzY0V6WGEyM3hsV0VoNEswTXlaenpOMWF0QXAtemx6Q2ZPYm04Wkw3YTRkTHBOa0VMeURsWlBvT1c5ZmtaUXozNF9PTTNkcUVnWUh3X0E?oc=5",
-      "source_name": "finance.biggo.com",
-      "published_at": "2026-09-11T02:25:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
     {
       "id": "deal_1895454090",
       "vc_id": "spark",
@@ -89,9 +67,9 @@
       "vc_id": "spark",
       "vc_name": "Spark Capital",
       "company": "Unknown",
-      "title": "Anthropic Investor Leads Funding for Off-Grid AI Power Startup - Bloomberg.com",
+      "title": "Anthropic Investor Leads Funding for Off-Grid AI Power Startup - bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEd6RUpWa0dXOXozckhWWWdLUFZzWFVqN0FzSUo2VWtibXJZUHlLWUhac3ZwVFJ3dEliT1lwUjQzOU5mRDhoWE1iVkU5Sl9TcW9aUDdrWUFJd2I3LWJzdlRkdXNPaF8yUnVPR1lWTjQ2Ui1iS2llZ2RUbFY1LU4yMFhrNlRZSE5JdDZCOUV4RXBtdjJId0RPbHA4NVNVYUVENlNQUTVkb3NIaHFkSmhON0ZBSQ?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "bloomberg.com",
       "published_at": "2026-09-10T12:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -102,28 +80,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2143308714",
-      "vc_id": "fin-capital",
-      "vc_name": "Fin Capital",
-      "company": "Luminary",
-      "title": "Luminary Raises $22 Million to Power the Data Infrastructure Behind Wealth Transfer - Yahoo Finance UK",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaGU4YXVkeEN1bUZpUTZBVnFscmJIeUMwWFZuVzJORDFPWnNZSTVkWDBERVhKSzJMaVZPdkxoU2NmcFE1NVY3UHlZRTJ3Mi1ydF9XTThzcWlWWjNpamJkb1N4cnotRWNidmlfdktqQjVUZlRvUzc1UlYwZ1pWNERnaGk0Y2p1U1B6?oc=5",
-      "source_name": "Yahoo Finance UK",
-      "published_at": "2026-09-10T10:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 22,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -155,9 +111,9 @@
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
       "company": "Elon Musk’s Boring",
-      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - The Straits Times",
+      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - straitstimes.com",
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNFVKYV82akVRR2JVVldFTTlXcFBCVDkxWWY1b2lfSWtRblBXWmZ4Rm1RTjlEcDFMei1NSUdXYXMyUUpyVGYtSEgzMjNrSExLLUZ1bmMtT1hnZVN5Z1V1a0QweGJhRlVRV3VKSldteXktaTJ2RElUTXBEVmZCV2JsVkZEQXRldU5nRHh5WTJqMURGQ21BVVFaZkY1ZHduTTFnaTJUWUdLVEFOU004UGYyQjZ4S2puNXhHT2dNNU9BWEx5cWF1Z3c?oc=5",
-      "source_name": "The Straits Times",
+      "source_name": "straitstimes.com",
       "published_at": "2026-09-10T06:40:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -177,9 +133,9 @@
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
       "company": "Musk's tunnel startup The Boring",
-      "title": "Musk's tunnel startup The Boring Company raises $3 billion at $23 billion valuation - Reuters",
+      "title": "Musk's tunnel startup The Boring Company raises $3 billion at $23 billion valuation - reuters.com",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWFlJZWowcXpXek0tMlhhRGNnWVlEWV9Wc0RubTZLTnRuWm1rVXc2WG5Ua3RaRHp1RUhDZ1lwanBiUDNxVzlZS1p5MTB2NTVMOUt2b2c4NFl5Rm44SGN4b0lzam9PR2d5a2JKdzVyT2ZZczU1cVMtSnVaakZPVWoxQ3lFZVl4c19aaE9YVFdULS15UTFFSS1Hd1RkTkxhQzNqSjlsbS1lQ0VTSGdxbHRyT2I5X3lYRUFjd1E?oc=5",
-      "source_name": "Reuters",
+      "source_name": "reuters.com",
       "published_at": "2026-09-10T06:21:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -353,9 +309,9 @@
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
       "company": "Unknown",
-      "title": "Alphabet’s CapitalG Backs AI Chip Startup Celero at $3 Billion Value - Bloomberg.com",
+      "title": "Alphabet’s CapitalG Backs AI Chip Startup Celero at $3 Billion Value - bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM192QmJrN2IzTmN2SU94MlRPYlhidmMycmdtdV80c3poNzJfRVhNRmxyakc0bFMtRm5FQ0xiSS1pT2hIdko2NzNTT3pKeWZWR2dhNDVaeDFsRXl3NXUxYTN3cHlZZ1VOQVZyaTR5ZTFscUw2RjJQMmdLaWdXX1RxclhWUjFncVJobFktVmNJblRXUXprd3RZdEJnbmRnY1cwSElHaEc3ZEU2V3ZwcDZ2Y2N4cTRjV1ZGOWc?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "bloomberg.com",
       "published_at": "2026-09-08T14:00:02.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -419,9 +375,9 @@
       "vc_id": "8vc",
       "vc_name": "8VC",
       "company": "Unknown",
-      "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation - TechCrunch",
+      "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation - techcrunch.com",
       "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRHJjRWt6VTZxRE1SS0Vyb0ZXV1V5b1BMVnZnQW43UmtpVFl1NU12RUFqMDRRcHhJMENLQldLbGtScmpDWU9UM1p6R3QwRGphM0twVlZEZDhPdHlXMFljWE4xRl9YUHM0bE1fSlFpeUVJYzV3bWVyNmRnVGd1a1F3eDdYdkF6ZTZxNTQ4elNVNjI2VF9MSFpPTmZad0VQRTc3NDIyMVFtZV8ycWIwclhManZsSEJ3a0tZSkNj?oc=5",
-      "source_name": "TechCrunch",
+      "source_name": "techcrunch.com",
       "published_at": "2026-09-04T23:36:14.000Z",
       "stage": "Series B",
       "sector": "Other",
@@ -617,9 +573,9 @@
       "vc_id": "ivp",
       "vc_name": "IVP",
       "company": "AI Startup Wonderful",
-      "title": "AI Startup Wonderful Raises Funds at $5 Billion Valuation - Bloomberg.com",
+      "title": "AI Startup Wonderful Raises Funds at $5 Billion Valuation - bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaW9CRnJwZkJxTm1UaE5lMk0zWnNvWUNFVHB1YkFxRTZUemlub05XVnU0VjltQ05pUjhXMFhWakR1UXpkdk5uYTFleHRXSVVkVkU5NWpJT052WkZNMm1hR2YxYWI1NDNncHhtU0RsMlpXSl92Y3dsZ0JGZnNqYV8xVVBCaDktcGxRNW9oeFpoR3QtNU5NbUg5ZTFhTm0zTVpTYmdTY1FvNml1ckU?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "bloomberg.com",
       "published_at": "2026-09-02T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -745,28 +701,6 @@
       }
     },
     {
-      "id": "deal_29107471",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Unknown",
-      "title": "Even Healthcare Set to Raise INR 208 Cr in Series B Led by Khosla Ventures - Digital Health News",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU1RSTVU5SU10OFBMSUFtTGE2WU5EdVNsU0hwMlFkZldtaGZoNTFFWGE4Tmh1Rkg2TV9IOS0td0xuMEtrQnktOFlqLXJpNEFkSGFUamhaNm05S3ZTRDdCVnVlbTJLTFdUZXN0RzU4bXhVOEQ4MC1QQkpIWlF3Um5fVFZYc1dtZWx5NTNxRUlKSjZXN3lCNGhLamRMYkZUc0JfNkMtTUpTd1dYTkhU?oc=5",
-      "source_name": "Digital Health News",
-      "published_at": "2026-08-27T08:09:49.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.66,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1214923951",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
@@ -837,9 +771,9 @@
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Viral AI startup Instinct has",
-      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation - TechCrunch",
+      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation - techcrunch.com",
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZExrdDZQaXN6Q2ctNVU0UWNjMThGbl9oTVQ4UFp6X3FDZVVUZUlSVWdlMm1QdUQ4NmhfY2VLNnpTcHBONi05aXlRMGlzbjEtT2RQcDUtVExDTVFTZUtFenJYdGNhUFJlVG5jdTBaakJPbXNUc2Fsd2haQVg3SEFFRnQ2Y0RGd1FCeEtEcmlHNHZROUt2X29UUGNYS3hvMVNDeWE1X3ptekE4TmJQTnBv?oc=5",
-      "source_name": "TechCrunch",
+      "source_name": "techcrunch.com",
       "published_at": "2026-08-26T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -881,9 +815,9 @@
       "vc_id": "redpoint",
       "vc_name": "Redpoint Ventures",
       "company": "Unknown",
-      "title": "AI Funding Roundup: $11B Across 60 Rounds, Aug 17 to Aug 23 - StartupHub.ai",
+      "title": "AI Funding Roundup: $11B Across 60 Rounds, Aug 17 to Aug 23 - startuphub.ai",
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMzVybWtjYmg3bGZLRU5QVWhwSVpBZUJwZmJULVN2QVdGbEdlMUlkVnU0RXIzNE92OUN0cTBfWTZjT2lPVDVwYnZNdks2ZGVEMFp4REc0d1VWSGNOZHZzeWVmb2RzaWV1ZlgtVGNXak4wZElnMWFGNXNCYlRjZ2pMdl9maWh5d1Fsbm84ZXNvU1hrYlFNVVNMQkdZMVhydG1feHRxVjZCd19HdTNRUUE?oc=5",
-      "source_name": "StartupHub.ai",
+      "source_name": "startuphub.ai",
       "published_at": "2026-08-24T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -925,9 +859,9 @@
       "vc_id": "mayfield",
       "vc_name": "Mayfield",
       "company": "Velaura AI",
-      "title": "Velaura AI secures $110M Series A, crosses $1B valuation - mystartupworld.com",
+      "title": "Velaura AI secures $110M Series A, crosses $1B valuation - My Startup World",
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMEdSUUtpS1pLb1F4bkUwNlhNalZEVm1oblpXSmlHUW9yWUVHM0RGRnM3YlpFZDBWWEUtM2ZkUkYwSU1nTXkxVU0zSjlpSzhEOWo2R013bUxjOGcxR1hBQkMzUW1hYzF1WVlYM0VXMS12ZEwwWmVyM3NCeDZyU0NBQ2dvZ2pZeDd2?oc=5",
-      "source_name": "mystartupworld.com",
+      "source_name": "My Startup World",
       "published_at": "2026-08-19T09:27:40.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -1004,28 +938,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1682539538",
-      "vc_id": "crosslink",
-      "vc_name": "Crosslink Capital",
-      "company": "Fire-Zone Insurance Broker RockRose Risk",
-      "title": "Fire-Zone Insurance Broker RockRose Risk Raises $12.5 Million - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZG9ZdHJqU1VkaFJ2cTQwSVgwS0VCaGV2M2FSS3pmeXN5RVV0d2Z1NVhuM1BJdUxYZXNoRmFqMDluQjkxM2dZWXB5ZWM1aTN3VXUwSHlKTVpZckh5bHFobFl0ekxFUF9PWG44Qzg5WHBvaUcxWXZLcEVKQUNhVHBFUlR0cGdISEVKMHR0c2haNldlLU1hUC1sR0VWTk5PaWdfSHlJR05XX3J1Q1ZHR1FnWA?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-08-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 12.5,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1126,14 +1038,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 12,
-      "weighted_score": 46.43,
+      "deal_count": 11,
+      "weighted_score": 43.17,
       "latest_at": "2026-09-09T12:32:07.000Z",
       "amount_usd_m_total": 16874.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 10
         },
         {
           "name": "Other",
@@ -1142,15 +1054,15 @@
       ],
       "top_vcs": [
         {
-          "name": "Khosla Ventures",
-          "count": 3
-        },
-        {
           "name": "Greylock",
           "count": 2
         },
         {
           "name": "IVP",
+          "count": 2
+        },
+        {
+          "name": "Khosla Ventures",
           "count": 2
         }
       ]
@@ -1161,14 +1073,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 41.05,
-      "latest_at": "2026-09-10T10:00:00.000Z",
-      "amount_usd_m_total": 32598.5,
+      "deal_count": 8,
+      "weighted_score": 34.94,
+      "latest_at": "2026-09-10T09:34:00.000Z",
+      "amount_usd_m_total": 32564,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 8
         }
       ],
       "top_vcs": [
@@ -1177,11 +1089,11 @@
           "count": 3
         },
         {
-          "name": "Fin Capital",
+          "name": "Craft Ventures",
           "count": 1
         },
         {
-          "name": "Craft Ventures",
+          "name": "Obvious Ventures",
           "count": 1
         }
       ]
@@ -1206,37 +1118,6 @@
         {
           "name": "Qualcomm Ventures",
           "count": 6
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 4,
-      "weighted_score": 17.11,
-      "latest_at": "2026-09-11T02:25:00.000Z",
-      "amount_usd_m_total": 6045,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "CapitalG",
-          "count": 2
-        },
-        {
-          "name": "Samsung Next",
-          "count": 1
-        },
-        {
-          "name": "GV",
-          "count": 1
         }
       ]
     },
@@ -1267,6 +1148,33 @@
         },
         {
           "name": "Insight Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 3,
+      "weighted_score": 15,
+      "latest_at": "2026-09-08T18:55:38.000Z",
+      "amount_usd_m_total": 6045,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
+          "count": 2
+        },
+        {
+          "name": "GV",
           "count": 1
         }
       ]
