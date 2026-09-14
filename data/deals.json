@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T04:50:06.175Z",
+  "generated_at": "2026-09-14T12:38:51.720Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,23 +9,89 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 42,
-    "total_deals": 42,
+    "scraped_deals": 43,
+    "total_deals": 43,
     "demo_mode": false,
-    "deals_with_coordinates": 42,
-    "runtime_ms": 3848,
+    "deals_with_coordinates": 43,
+    "runtime_ms": 4236,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
+      "id": "deal_2108355580",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Intel-Backed Construction AI Firm Buildots",
+      "title": "Intel-Backed Construction AI Firm Buildots Raises $130 Million - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNXRBTUlkNzQ5SjBXX0xKbEhXYjFjaEI2UldrT3FSenRzdW5lVlNlRDI1RDhSU0VZZHE3bndhQ25PNTE2NGJzcGdrcTNta2NPZGw5VGIydHlOQjBBU3FDMXlzUldLcTBka0NiTVJuUHRHQ3JteWNWQUlvWHhzcFFIT09sWm45VmNFQ2I5ZVJiZWFVZU5wcjA4aFpKVjlaaU55T3RZaF9jeTdDbXkyQUZRNjVn?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-09-14T11:30:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 130,
+      "confidence": 0.81,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1586142035",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Graph AI",
+      "title": "Graph AI Raises $13.3 Mn to Scale AI Drug Safety Platform Across the US & Europe - Digital Health News",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYXQ0X1BPUWlrMEVLN1lReHZDMjVxSVFUdXRhV3JWRGYtWU15cGpNbUxUMlQ5d3JEOVJFZHVaaHQ4eVQwWFU5Rk40Zjk3YVNxN21xaDRzVUY5RDZLZko2b1ZoM1l2cW00aGJzZTFlM0tUMlpycFJRTzVSV01tN1YzcFc5aXBuRjlTYWV3RmtVdlFHT1pLV3FqN3NOeFBNbjN4WGtlR3N0emI2LU9aMmhVTQ?oc=5",
+      "source_name": "Digital Health News",
+      "published_at": "2026-09-14T10:10:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 13.3,
+      "confidence": 0.81,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1408630716",
+      "vc_id": "nextview",
+      "vc_name": "NextView Ventures",
+      "company": "Unknown",
+      "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
+      "source_name": "Tracxn",
+      "published_at": "2026-09-12T21:33:41.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_2085649007",
       "vc_id": "crosslink",
       "vc_name": "Crosslink Capital",
       "company": "CloudPay Invests In Intermezzo As Startup",
-      "title": "CloudPay Invests In Intermezzo As Startup Raises Funds For AI Payroll Infrastructure - Crowdfund Insider",
+      "title": "CloudPay Invests In Intermezzo As Startup Raises Funds For AI Payroll Infrastructure - crowdfundinsider.com",
       "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZXl2OEhSUGtnWU51amhfT3VvYVd6TWZKd0diUnVUc2xMc1ZzYmdLVUpCaGU2UVVuQlNvNFBHenNjY2UtcnZMMHdVbmtLWXRqb1FsOC1taGIybzgybU1GQWFzSmpUUDBvZU5id3BPOGxGTXV0UGFkd0p5SjZvc0NIQUxHUk9SRkFpdzhURWdiUExTX0dNWjlZM04zbEVoN1dJV2trSjZ2UnBFX00zdmVGSkhMb2ZPRjRsUnllTjBwX2ZNVEpaTHVQZHBHdXhDdw?oc=5",
-      "source_name": "Crowdfund Insider",
+      "source_name": "crowdfundinsider.com",
       "published_at": "2026-09-12T16:57:25.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -85,28 +151,6 @@
       }
     },
     {
-      "id": "deal_1788937098",
-      "vc_id": "greylock",
-      "vc_name": "Greylock",
-      "company": "AI-Native CRM Lightfield",
-      "title": "AI-Native CRM Lightfield Raises $47M Series A - Wowtale",
-      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vSGlYbUQyYkpMUnd1VzdFaXQzTHhNeERGcjlfdDd4aUlBcXhVQXNRV000elVYSVFzTzA3NGZvT095cDhhRFhXREtCWUlielZjYVlN?oc=5",
-      "source_name": "Wowtale",
-      "published_at": "2026-09-11T15:43:34.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 47,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1775482372",
       "vc_id": "samsung-next",
       "vc_name": "Samsung Next",
@@ -155,9 +199,9 @@
       "vc_id": "spark",
       "vc_name": "Spark Capital",
       "company": "Unknown",
-      "title": "Anthropic Investor Leads Funding for Off-Grid AI Power Startup - bloomberg.com",
+      "title": "Anthropic Investor Leads Funding for Off-Grid AI Power Startup - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEd6RUpWa0dXOXozckhWWWdLUFZzWFVqN0FzSUo2VWtibXJZUHlLWUhac3ZwVFJ3dEliT1lwUjQzOU5mRDhoWE1iVkU5Sl9TcW9aUDdrWUFJd2I3LWJzdlRkdXNPaF8yUnVPR1lWTjQ2Ui1iS2llZ2RUbFY1LU4yMFhrNlRZSE5JdDZCOUV4RXBtdjJId0RPbHA4NVNVYUVENlNQUTVkb3NIaHFkSmhON0ZBSQ?oc=5",
-      "source_name": "bloomberg.com",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-09-10T12:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -331,9 +375,9 @@
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
       "company": "Unknown",
-      "title": "Alphabet’s CapitalG Backs AI Chip Startup Celero at $3 Billion Value - bloomberg.com",
+      "title": "Alphabet’s CapitalG Backs AI Chip Startup Celero at $3 Billion Value - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNM192QmJrN2IzTmN2SU94MlRPYlhidmMycmdtdV80c3poNzJfRVhNRmxyakc0bFMtRm5FQ0xiSS1pT2hIdko2NzNTT3pKeWZWR2dhNDVaeDFsRXl3NXUxYTN3cHlZZ1VOQVZyaTR5ZTFscUw2RjJQMmdLaWdXX1RxclhWUjFncVJobFktVmNJblRXUXprd3RZdEJnbmRnY1cwSElHaEc3ZEU2V3ZwcDZ2Y2N4cTRjV1ZGOWc?oc=5",
-      "source_name": "bloomberg.com",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-09-08T14:00:02.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -353,9 +397,9 @@
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
       "company": "Ultrahuman",
-      "title": "Ultrahuman raises $70 Mn from Qualcomm, Alpha Wave, Nexus and others | Startup Story - Startup Story",
+      "title": "Ultrahuman raises $70 Mn from Qualcomm, Alpha Wave, Nexus and others | Startup Story - startupstorymedia.com",
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ3MzQjlHVXFyanBuWVFUSXhTM1JQSVNrT0xaSVhpYnlZOXF1Q3Q4aXMyZTc0UVF4V0J6N1ItQ0xCMDZlRGphRVVYNmFzMmZlM0FZZHd5Qi1wS3NkY3RRcUhvOXZERTBvb1JsVkJPWDFzbHZtZ1dzdXZrVjdhYXctWnQxWWxUSnFJUFJOdjNmUUR5NU1scDdnS3JtMHbSAaQBQVVfeXFMTl9wUEZUQXdtVXIyZmpncnQ3ZGMzWWMwMmtURERRYmxWOS10Nk40eWZlVHZ5UHA5VHlNVHpMeUxGd3N0R2ZLdnVmdks1RWdSWUlBRE54Y2ZEVVBqMEx5bTA5bHB6RU8tMy1tMGhJQjdzdE1DRExBYkFsOXB0QlYzWWxndFF5NU10bXlOTm5Ba3Rwc2M3NC1FcnVJckZYTnBsRFVfVDY?oc=5",
-      "source_name": "Startup Story",
+      "source_name": "startupstorymedia.com",
       "published_at": "2026-09-07T04:12:44.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -463,9 +507,9 @@
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
       "company": "Ultrahuman",
-      "title": "Ultrahuman raises $70 million from Qualcomm Ventures, Labcorp, others - economictimes.com",
+      "title": "Ultrahuman raises $70 million from Qualcomm Ventures, Labcorp, others - The Economic Times",
       "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcXNZTnZRRmhvSm1XNEVybmxOWEs2ZjdEMmc4czFpZnduY1ptWFFuRnJXaWR2Z2I0WktQWTh5eEZ1NzR2QzltS2Y5M1ZTdGlNY0tqTnliQTlkRC1lSi1XaV9IdGNYTDdUNEJzZWRDNUEtNm1qNjliNVUwX0ZaaGFKUEFjOUo4Sm05MlhEQ1I1RExkUXNTTGhlelZvYUVodmFtNktHSHgyb29FdVh4Mm5GaXlIa2dVd2NOLWRzSVVhT2NlZkFIeGRLT0tRcDRkQdIB0wFBVV95cUxOamg5aUl1NGowbWtRQWVMYUp0R3c2MzZYbXlnb1VDOGFZZDAyZHJIdnM0OGZvZDlNRkNKV3lSd1NiYmRUT1AxQVFVRmUtTjg3VEpWRi01NFI3ZXRraGNENVU1eVlaUEthVWRZY1d4enBZS25OX3lKbDdHS3Vnc3pET05rMzlMRWYtUkJGRGtpSkFDWVd2djl4LTF0OGxRWTM5dUFEVjRMWG0xc2JtYndqQk9fRVJNSm4zMXZyNW5tR2hOUkRYMkVUeGd6TWtieXJ3NjRZ?oc=5",
-      "source_name": "economictimes.com",
+      "source_name": "The Economic Times",
       "published_at": "2026-09-04T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -573,9 +617,9 @@
       "vc_id": "ivp",
       "vc_name": "IVP",
       "company": "AI Startup Wonderful",
-      "title": "AI Startup Wonderful Raises Funds at $5 Billion Valuation - bloomberg.com",
+      "title": "AI Startup Wonderful Raises Funds at $5 Billion Valuation - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaW9CRnJwZkJxTm1UaE5lMk0zWnNvWUNFVHB1YkFxRTZUemlub05XVnU0VjltQ05pUjhXMFhWakR1UXpkdk5uYTFleHRXSVVkVkU5NWpJT052WkZNMm1hR2YxYWI1NDNncHhtU0RsMlpXSl92Y3dsZ0JGZnNqYV8xVVBCaDktcGxRNW9oeFpoR3QtNU5NbUg5ZTFhTm0zTVpTYmdTY1FvNml1ckU?oc=5",
-      "source_name": "bloomberg.com",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-09-02T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -595,9 +639,9 @@
       "vc_id": "8vc",
       "vc_name": "8VC",
       "company": "Columbus insurtech",
-      "title": "Columbus insurtech raises $21M for AI health plan shopping - bizjournals.com",
+      "title": "Columbus insurtech raises $21M for AI health plan shopping - The Business Journals",
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM2o4alBtalNrMXhGN1ZvLXlMM0dKbnE2ckp0c3YyQW1qRW1LV3dWUUZBVVA2OVpxbG8zTFNTaVQzQWNFcV9YR3AzTnN3TE5WMGRnX2ZXbWhieFhNaV9DS3B2WTVYVDFlTFVMNGVNZjhjQThDd20zWVF3YWdySFZCaWVQT1c1VGR3d2VtX3R1dmIxNGMxVkVBVXM0U19FMUtu?oc=5",
-      "source_name": "bizjournals.com",
+      "source_name": "The Business Journals",
       "published_at": "2026-09-01T10:32:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -630,28 +674,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_712006884",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Unknown",
-      "title": "Whoop - 2026 Funding Rounds & List of Investors - tracxn.com",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
-      "source_name": "tracxn.com",
-      "published_at": "2026-08-29T06:16:35.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -950,14 +972,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 10,
-      "weighted_score": 44.91,
+      "deal_count": 9,
+      "weighted_score": 40.67,
       "latest_at": "2026-09-11T22:42:00.000Z",
-      "amount_usd_m_total": 67034.7,
+      "amount_usd_m_total": 66987.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 9
         }
       ],
       "top_vcs": [
@@ -966,12 +988,12 @@
           "count": 3
         },
         {
-          "name": "Greylock",
+          "name": "IVP",
           "count": 2
         },
         {
-          "name": "IVP",
-          "count": 2
+          "name": "Greylock",
+          "count": 1
         }
       ]
     },
@@ -1153,7 +1175,7 @@
       "lon": -71.0589,
       "deal_count": 3,
       "weighted_score": 7.88,
-      "latest_at": "2026-09-10T12:31:37.000Z",
+      "latest_at": "2026-09-12T21:33:41.000Z",
       "amount_usd_m_total": 15,
       "top_sectors": [
         {
@@ -1173,6 +1195,29 @@
         {
           "name": "NextView Ventures",
           "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
+      "state": "CA",
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 2,
+      "weighted_score": 7.52,
+      "latest_at": "2026-09-14T10:10:00.000Z",
+      "amount_usd_m_total": 563.3,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bessemer Venture Partners",
+          "count": 2
         }
       ]
     },
@@ -1200,29 +1245,6 @@
       ]
     },
     {
-      "key": "Redwood City,CA",
-      "city": "Redwood City",
-      "state": "CA",
-      "lat": 37.4852,
-      "lon": -122.2364,
-      "deal_count": 1,
-      "weighted_score": 4.55,
-      "latest_at": "2026-09-02T19:45:43.000Z",
-      "amount_usd_m_total": 550,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bessemer Venture Partners",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Redmond,WA",
       "city": "Redmond",
       "state": "WA",
@@ -1241,6 +1263,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 1,
+      "weighted_score": 3.93,
+      "latest_at": "2026-09-14T11:30:00.000Z",
+      "amount_usd_m_total": 130,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
           "count": 1
         }
       ]
