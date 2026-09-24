@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:06:29.804Z",
+  "generated_at": "2026-09-24T21:28:09.966Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 44,
-    "total_deals": 44,
+    "scraped_deals": 46,
+    "total_deals": 46,
     "demo_mode": false,
-    "deals_with_coordinates": 44,
-    "runtime_ms": 4155,
+    "deals_with_coordinates": 46,
+    "runtime_ms": 6506,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_214573018",
+      "vc_id": "true-ventures",
+      "vc_name": "True Ventures",
+      "company": "Basecamp Research",
+      "title": "Basecamp Research raises $140M to advance AI-designed therapeutics - Yahoo Finance Singapore",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUV9zT0doT3RKV0JLNzdXV0VIN21CVDhuLVRQM3pVQlBnMFRqTEFwOXVvcndFWUNuVmlKQ3RsOUZlSC1mSVpabFRlVUNMWXBMOGNSdV9SVkNncDBuX1MzT2NIc2pMTkFzRGpVWHVNcXB4OHFVcEViYWdfY3hRcVp6OVBpZmxySTdYakd5aDNzOA?oc=5",
+      "source_name": "Yahoo Finance Singapore",
+      "published_at": "2026-09-23T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 140,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_167694759",
       "vc_id": "kleiner-perkins",
@@ -102,28 +124,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_88571376",
-      "vc_id": "upfront",
-      "vc_name": "Upfront Ventures",
-      "company": "Can cloud seeding fight drought? Startup Rainmaker just",
-      "title": "Can cloud seeding fight drought? Startup Rainmaker just raised $100 million to find out - Fast Company",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZkdZN3VMS1o3MlFUSVNhZnB2bXBoSjI2bnVUTUl6WHhLbjVRS3pWMjRDM2tCNGdkby0zdi1VOWlvX0ZpTWVRemd3dk1yUHFuUmZYZHJhcW9vdmlIVFJyU09rbHlVNGRYbUp6aF9DVmxEU1pqM1N4QWYzUTVXRHV6LXZuX2Mtd3pi?oc=5",
-      "source_name": "Fast Company",
-      "published_at": "2026-09-21T20:45:18.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.81,
-      "location": {
-        "city": "Santa Monica",
-        "state": "CA",
-        "lat": 34.0195,
-        "lon": -118.4912,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -309,9 +309,9 @@
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Unknown",
-      "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
+      "title": "Whoop - 2026 Funding Rounds & List of Investors - tracxn.com",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
-      "source_name": "Tracxn",
+      "source_name": "tracxn.com",
       "published_at": "2026-09-12T21:33:41.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -463,9 +463,9 @@
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
       "company": "Elon Musk’s Boring",
-      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - straitstimes.com",
+      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - The Straits Times",
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNFVKYV82akVRR2JVVldFTTlXcFBCVDkxWWY1b2lfSWtRblBXWmZ4Rm1RTjlEcDFMei1NSUdXYXMyUUpyVGYtSEgzMjNrSExLLUZ1bmMtT1hnZVN5Z1V1a0QweGJhRlVRV3VKSldteXktaTJ2RElUTXBEVmZCV2JsVkZEQXRldU5nRHh5WTJqMURGQ21BVVFaZkY1ZHduTTFnaTJUWUdLVEFOU004UGYyQjZ4S2puNXhHT2dNNU9BWEx5cWF1Z3c?oc=5",
-      "source_name": "straitstimes.com",
+      "source_name": "The Straits Times",
       "published_at": "2026-09-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -507,9 +507,9 @@
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Harvey",
-      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - Harvey",
+      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - harvey.ai",
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzhxRXRqZFpTQnE1TkthcDNTdEl4RnFESFR0LTlvdTlDTGF4WTBPb2Y0dTNKNXFLU0dDNC1LM3N0RUZJOXJIUjR5cTdfVU1ZT3Qwa0d3ZGMtRWhGYnBfeWtYYzdIMkNUU01PWXhuZGswQWFmVWZiSkQ2WUtfcVdlNTFBUko2UnNpRTluU3hvOEM4M1JVMTBZVVUzX0pkT3EwS2JQTEFCcGpjY1RWRDNfbkhoOG9vbVlsZ1lCYw?oc=5",
-      "source_name": "Harvey",
+      "source_name": "harvey.ai",
       "published_at": "2026-09-09T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -551,9 +551,9 @@
       "vc_id": "craft",
       "vc_name": "Craft Ventures",
       "company": "GenHealth.ai",
-      "title": "GenHealth.ai Raises $16.5 Mn in Series A Funding to Expand Healthcare AI Agents - Digital Health News",
+      "title": "GenHealth.ai Raises $16.5 Mn in Series A Funding to Expand Healthcare AI Agents - digitalhealthnews.com",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSV96aUdIWHMyUVZTdnFjZWxvQ0VjV1RMV0FmUFFYVEtpV0o0RjVHajVIQXNzUWVXYWpCWjhyWmdZWHByeXVqd3BSRHE3VktiNnhtVmV4bDNhWHEtSVlmMHRfbjZZVVMta2dkMGp4Y0hld2x3VklBLVVnUERuWXFfb0kwTFpCbFlKaVJDZ0pCbW1KRm1xOTliYkdFVGx5V3lIRkZyOWFNaWJXaWRHangyOUJR?oc=5",
-      "source_name": "Digital Health News",
+      "source_name": "digitalhealthnews.com",
       "published_at": "2026-09-09T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -595,9 +595,9 @@
       "vc_id": "sapphire",
       "vc_name": "Sapphire Ventures",
       "company": "Harvey",
-      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - Harvey",
+      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - harvey.ai",
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzhxRXRqZFpTQnE1TkthcDNTdEl4RnFESFR0LTlvdTlDTGF4WTBPb2Y0dTNKNXFLU0dDNC1LM3N0RUZJOXJIUjR5cTdfVU1ZT3Qwa0d3ZGMtRWhGYnBfeWtYYzdIMkNUU01PWXhuZGswQWFmVWZiSkQ2WUtfcVdlNTFBUko2UnNpRTluU3hvOEM4M1JVMTBZVVUzX0pkT3EwS2JQTEFCcGpjY1RWRDNfbkhoOG9vbVlsZ1lCYw?oc=5",
-      "source_name": "Harvey",
+      "source_name": "harvey.ai",
       "published_at": "2026-09-09T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -617,9 +617,9 @@
       "vc_id": "obvious",
       "vc_name": "Obvious Ventures",
       "company": "GenHealth.ai",
-      "title": "GenHealth.ai Raises $16.5 Mn in Series A Funding to Expand Healthcare AI Agents - Digital Health News",
+      "title": "GenHealth.ai Raises $16.5 Mn in Series A Funding to Expand Healthcare AI Agents - digitalhealthnews.com",
       "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSV96aUdIWHMyUVZTdnFjZWxvQ0VjV1RMV0FmUFFYVEtpV0o0RjVHajVIQXNzUWVXYWpCWjhyWmdZWHByeXVqd3BSRHE3VktiNnhtVmV4bDNhWHEtSVlmMHRfbjZZVVMta2dkMGp4Y0hld2x3VklBLVVnUERuWXFfb0kwTFpCbFlKaVJDZ0pCbW1KRm1xOTliYkdFVGx5V3lIRkZyOWFNaWJXaWRHangyOUJR?oc=5",
-      "source_name": "Digital Health News",
+      "source_name": "digitalhealthnews.com",
       "published_at": "2026-09-09T07:00:00.000Z",
       "stage": "Series A",
       "sector": "AI & ML",
@@ -705,9 +705,9 @@
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
       "company": "Ultrahuman",
-      "title": "Ultrahuman raises $70 Mn from Qualcomm, Alpha Wave, Nexus and others | Startup Story - startupstorymedia.com",
+      "title": "Ultrahuman raises $70 Mn from Qualcomm, Alpha Wave, Nexus and others | Startup Story - Startup Story",
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ3MzQjlHVXFyanBuWVFUSXhTM1JQSVNrT0xaSVhpYnlZOXF1Q3Q4aXMyZTc0UVF4V0J6N1ItQ0xCMDZlRGphRVVYNmFzMmZlM0FZZHd5Qi1wS3NkY3RRcUhvOXZERTBvb1JsVkJPWDFzbHZtZ1dzdXZrVjdhYXctWnQxWWxUSnFJUFJOdjNmUUR5NU1scDdnS3JtMHbSAaQBQVVfeXFMTl9wUEZUQXdtVXIyZmpncnQ3ZGMzWWMwMmtURERRYmxWOS10Nk40eWZlVHZ5UHA5VHlNVHpMeUxGd3N0R2ZLdnVmdks1RWdSWUlBRE54Y2ZEVVBqMEx5bTA5bHB6RU8tMy1tMGhJQjdzdE1DRExBYkFsOXB0QlYzWWxndFF5NU10bXlOTm5Ba3Rwc2M3NC1FcnVJckZYTnBsRFVfVDY?oc=5",
-      "source_name": "startupstorymedia.com",
+      "source_name": "Startup Story",
       "published_at": "2026-09-07T04:12:44.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -762,6 +762,28 @@
         "state": "WA",
         "lat": 47.6739,
         "lon": -122.1215,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2057474445",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Unknown",
+      "title": "Wonderful Targets 350 More Hires After $550 Million Series C Pushes Valuation to $5 Billion - ascendants.in",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYTRhemVqY0luc29uZ2lxV0dsMjFhRm84Vmw0eUxIcUtOTHBIVXZaVldoenpNMFo5Z1FOLWpjQmxwMGFKOEQ2TDEydmlXdXZrOVFkVUVuV1dxSjF3eTdfT1dTNEtiMldnUUU1SEJtZ091TlNlaVphVmJvVnREWWxteW9tTlRwM0NIOURLNWpTYVp5NFVmNXdoYUZmYzBWV29PZEE?oc=5",
+      "source_name": "ascendants.in",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "Other",
+      "amount_usd_m": 550,
+      "confidence": 0.76,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -845,6 +867,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 6,
       "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1861476499",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Instinct",
+      "title": "Instinct Raises $250M Series B, Valuation Hits $2.5 Billion - ascendants.in",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWE9GaWdOdUZLZGRuTl84NGt6RTFJci1zUEVxaEdvNl9PM013UVhBZkpacFJzNFdWSm03SEx1aWJPR2JoR0QwZ2xaSnRReFd1b1k4dGdEdEhha3dCTUlWbDNaX1dHR2JrNS03ZTRrZnNvUU1OUDlCbmFmTWlRNFVlZEhXc0d3YU9iQTktbzdZVEhKaW8?oc=5",
+      "source_name": "ascendants.in",
+      "published_at": "2026-08-27T07:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 250,
+      "confidence": 0.96,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -994,14 +1038,18 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 9,
-      "weighted_score": 44.92,
+      "deal_count": 10,
+      "weighted_score": 50.83,
       "latest_at": "2026-09-22T16:16:48.000Z",
-      "amount_usd_m_total": 65543,
+      "amount_usd_m_total": 66093,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 9
+        },
+        {
+          "name": "Other",
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -1010,11 +1058,11 @@
           "count": 2
         },
         {
-          "name": "Kleiner Perkins",
-          "count": 1
+          "name": "IVP",
+          "count": 2
         },
         {
-          "name": "Lightspeed Venture Partners",
+          "name": "Kleiner Perkins",
           "count": 1
         }
       ]
@@ -1025,14 +1073,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 8,
-      "weighted_score": 33.89,
+      "deal_count": 9,
+      "weighted_score": 39.25,
       "latest_at": "2026-09-10T07:00:00.000Z",
-      "amount_usd_m_total": 32974,
+      "amount_usd_m_total": 33224,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Other",
@@ -1041,11 +1089,11 @@
       ],
       "top_vcs": [
         {
-          "name": "Human Capital",
-          "count": 2
+          "name": "Benchmark",
+          "count": 3
         },
         {
-          "name": "Benchmark",
+          "name": "Human Capital",
           "count": 2
         },
         {
@@ -1121,6 +1169,37 @@
       ]
     },
     {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 3,
+      "weighted_score": 11.83,
+      "latest_at": "2026-09-23T13:00:00.000Z",
+      "amount_usd_m_total": 730,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "True Ventures",
+          "count": 1
+        },
+        {
+          "name": "DCVC",
+          "count": 1
+        },
+        {
+          "name": "Sapphire Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "San Diego,CA",
       "city": "San Diego",
       "state": "CA",
@@ -1167,33 +1246,6 @@
         {
           "name": "QED Investors",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 7.87,
-      "latest_at": "2026-09-15T07:00:00.000Z",
-      "amount_usd_m_total": 590,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "DCVC",
-          "count": 1
-        },
-        {
-          "name": "Sapphire Ventures",
-          "count": 1
         }
       ]
     },
@@ -1285,29 +1337,6 @@
       "top_vcs": [
         {
           "name": "Intel Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Santa Monica,CA",
-      "city": "Santa Monica",
-      "state": "CA",
-      "lat": 34.0195,
-      "lon": -118.4912,
-      "deal_count": 1,
-      "weighted_score": 3.81,
-      "latest_at": "2026-09-21T20:45:18.000Z",
-      "amount_usd_m_total": 100,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Upfront Ventures",
           "count": 1
         }
       ]
