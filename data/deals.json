@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T21:27:29.752Z",
+  "generated_at": "2026-09-24T04:43:11.054Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 43,
-    "total_deals": 43,
+    "scraped_deals": 45,
+    "total_deals": 45,
     "demo_mode": false,
-    "deals_with_coordinates": 43,
-    "runtime_ms": 4515,
+    "deals_with_coordinates": 45,
+    "runtime_ms": 4017,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1947884708",
+      "vc_id": "lightspeed",
+      "vc_name": "Lightspeed Venture Partners",
+      "company": "Ande",
+      "title": "Ande Raises $52M Seed and Series A to Launch The First Entertainment Operating System For Enterprises - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVi0wcU5UZG5VV1IxSU1EUE1GcV93RElFVUVJQ1ZrVUhLb1Y1WTRoQjRtd2V1bkt2NlJIZ2hweVFUOEp2SUJabTFDbDVrZ2dNcGJzS0lxeGJVX19JMF8wVFlSMjlUMU5KZ3AzZjRJMEVsdVo3dGVDcVE4aGtmd3lPTUwtYXV5dl9ocVk1a3F2dWltWDRzRXZTcndaNFNrTXRiZ0p5azAwTWRBTVQtVTdtejhQY0daSlNCR24tU09MS0NwX1dUUGMyTzljZ25POG9EMV9vNFVrZkh3VFdCMFpPbHAyRlp1N1JYWnNNQQ?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-09-22T16:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 52,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_2121512750",
       "vc_id": "redpoint",
@@ -41,6 +63,28 @@
       }
     },
     {
+      "id": "deal_1247775480",
+      "vc_id": "bcv",
+      "vc_name": "Bain Capital Ventures",
+      "company": "Ande",
+      "title": "Ande Raises $52M Seed and Series A to Launch The First Entertainment Operating System For Enterprises - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVi0wcU5UZG5VV1IxSU1EUE1GcV93RElFVUVJQ1ZrVUhLb1Y1WTRoQjRtd2V1bkt2NlJIZ2hweVFUOEp2SUJabTFDbDVrZ2dNcGJzS0lxeGJVX19JMF8wVFlSMjlUMU5KZ3AzZjRJMEVsdVo3dGVDcVE4aGtmd3lPTUwtYXV5dl9ocVk1a3F2dWltWDRzRXZTcndaNFNrTXRiZ0p5azAwTWRBTVQtVTdtejhQY0daSlNCR24tU09MS0NwX1dUUGMyTzljZ25POG9EMV9vNFVrZkh3VFdCMFpPbHAyRlp1N1JYWnNNQQ?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-09-22T16:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 52,
+      "confidence": 0.96,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_88571376",
       "vc_id": "upfront",
       "vc_name": "Upfront Ventures",
@@ -58,28 +102,6 @@
         "state": "CA",
         "lat": 34.0195,
         "lon": -118.4912,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_243746607",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Unknown",
-      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJ4Rm1xU3l0ZmZpa1BiN21DekVIQWlBaHVLbG9vX2JPRENVRHduNHVNSFpLb0VTR1ZkUkJMdVlmZlFxUWpVM3c1MTFkSDBSWTFWMHE0a1U3dFBGb3plU0QtREZmXzVtUGV3MVVxYXgzLXlJWHpBN2dqNy01R2VONWFQV3dFQ1ZrRm5nTVZXZmN6OG53bUF2d2VFd0lVcDlTaHIwT2Vra0dyNV9xaFJtczBEeDBkNi12TXRKNGVHRVJKRUY3SDhv?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-19T13:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -168,6 +190,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1702771010",
+      "vc_id": "qed",
+      "vc_name": "QED Investors",
+      "company": "Flam",
+      "title": "Flam Raises $40 Million Series B Led by QED Investors to Scale AI Interactive Content - Indian Startup Times",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeUF0UERZbkJuWjlDRWZNd0JoX09sU0JGTnF0YkM5SGNjU0piakdLYmhfbXd1eEdscVNGSEVBS3ROV1dDbzdaUUgwZHJ6VThPcENtLTB0T0lsSHA0bm9aY2d6SGVsNHhtSWxwNDhRWUIxZ3I1N19GNEthQ3VMUUJYaHFuZVR3MFdIVVdLR2x3UktCQ0Z0eDJhSkYzUjdGOWlFaEZHX0hyMzZWNzRjbHlVWTVlVUFHaTBRdC1FWDJUNWJyQXg3SF9HeWlpdw?oc=5",
+      "source_name": "Indian Startup Times",
+      "published_at": "2026-09-15T14:01:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.96,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -366,6 +410,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_33627538",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Elon Musk’s Boring",
+      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - The Straits Times",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNFVKYV82akVRR2JVVldFTTlXcFBCVDkxWWY1b2lfSWtRblBXWmZ4Rm1RTjlEcDFMei1NSUdXYXMyUUpyVGYtSEgzMjNrSExLLUZ1bmMtT1hnZVN5Z1V1a0QweGJhRlVRV3VKSldteXktaTJ2RElUTXBEVmZCV2JsVkZEQXRldU5nRHh5WTJqMURGQ21BVVFaZkY1ZHduTTFnaTJUWUdLVEFOU004UGYyQjZ4S2puNXhHT2dNNU9BWEx5cWF1Z3c?oc=5",
+      "source_name": "The Straits Times",
+      "published_at": "2026-09-10T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 29000,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -621,28 +687,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ3MzQjlHVXFyanBuWVFUSXhTM1JQSVNrT0xaSVhpYnlZOXF1Q3Q4aXMyZTc0UVF4V0J6N1ItQ0xCMDZlRGphRVVYNmFzMmZlM0FZZHd5Qi1wS3NkY3RRcUhvOXZERTBvb1JsVkJPWDFzbHZtZ1dzdXZrVjdhYXctWnQxWWxUSnFJUFJOdjNmUUR5NU1scDdnS3JtMHbSAaQBQVVfeXFMTl9wUEZUQXdtVXIyZmpncnQ3ZGMzWWMwMmtURERRYmxWOS10Nk40eWZlVHZ5UHA5VHlNVHpMeUxGd3N0R2ZLdnVmdks1RWdSWUlBRE54Y2ZEVVBqMEx5bTA5bHB6RU8tMy1tMGhJQjdzdE1DRExBYkFsOXB0QlYzWWxndFF5NU10bXlOTm5Ba3Rwc2M3NC1FcnVJckZYTnBsRFVfVDY?oc=5",
       "source_name": "Startup Story",
       "published_at": "2026-09-07T04:12:44.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 70,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.7157,
-        "lon": -117.1611,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1757336376",
-      "vc_id": "qualcomm",
-      "vc_name": "Qualcomm Ventures",
-      "company": "{Funding Alert} Ultrahuman",
-      "title": "{Funding Alert} Ultrahuman Raises $70 Mn in Funding Round Led by Qualcomm Ventures - Indian Retailer",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVlZqSGZKVnN6dVVMelBxd3ZhTnpLT002TDV3YlB6NmRUU19ZX2xYbnk0MklmczVyNFExUkZrNi1BcU1MTEJOVHZJWmc0TUpiNUw2OVRwRWk3YndFN1pQZnk4bE44V1lUWm1NZnphMXBlY2dqM1JyYmUxSWhtZVEzMVdkT2R4Ti1RUjNyQzJSUzRhQ3hKN0p4b0t2STA5M0lJSFVTd1lONzJhcjdwNFE?oc=5",
-      "source_name": "Indian Retailer",
-      "published_at": "2026-09-04T08:11:14.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 70,
@@ -973,9 +1017,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 8,
-      "weighted_score": 37.34,
+      "weighted_score": 39.52,
       "latest_at": "2026-09-22T16:00:00.000Z",
-      "amount_usd_m_total": 60491,
+      "amount_usd_m_total": 60543,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -988,11 +1032,11 @@
           "count": 2
         },
         {
-          "name": "Redpoint Ventures",
+          "name": "Lightspeed Venture Partners",
           "count": 1
         },
         {
-          "name": "Andreessen Horowitz",
+          "name": "Redpoint Ventures",
           "count": 1
         }
       ]
@@ -1003,14 +1047,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 8,
-      "weighted_score": 30.28,
-      "latest_at": "2026-09-09T07:00:00.000Z",
-      "amount_usd_m_total": 3980,
+      "deal_count": 9,
+      "weighted_score": 36.55,
+      "latest_at": "2026-09-10T07:00:00.000Z",
+      "amount_usd_m_total": 32980,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Other",
@@ -1019,16 +1063,16 @@
       ],
       "top_vcs": [
         {
+          "name": "Human Capital",
+          "count": 2
+        },
+        {
           "name": "Benchmark",
           "count": 2
         },
         {
           "name": "SignalFire",
           "count": 2
-        },
-        {
-          "name": "Craft Ventures",
-          "count": 1
         }
       ]
     },
@@ -1038,14 +1082,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 7,
-      "weighted_score": 22.77,
-      "latest_at": "2026-09-16T14:00:00.000Z",
-      "amount_usd_m_total": 1775,
+      "deal_count": 8,
+      "weighted_score": 27.06,
+      "latest_at": "2026-09-22T16:00:00.000Z",
+      "amount_usd_m_total": 1827,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Other",
@@ -1063,7 +1107,7 @@
         },
         {
           "name": "Bain Capital Ventures",
-          "count": 1
+          "count": 2
         },
         {
           "name": "NextView Ventures",
@@ -1072,29 +1116,25 @@
       ]
     },
     {
-      "key": "San Diego,CA",
-      "city": "San Diego",
-      "state": "CA",
-      "lat": 32.7157,
-      "lon": -117.1611,
-      "deal_count": 4,
-      "weighted_score": 14.55,
-      "latest_at": "2026-09-07T04:12:44.000Z",
-      "amount_usd_m_total": 280,
+      "key": "Alexandria,VA",
+      "city": "Alexandria",
+      "state": "VA",
+      "lat": 38.8048,
+      "lon": -77.0469,
+      "deal_count": 3,
+      "weighted_score": 12.57,
+      "latest_at": "2026-09-15T14:01:00.000Z",
+      "amount_usd_m_total": 120,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 3
-        },
-        {
-          "name": "Other",
-          "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "Qualcomm Ventures",
-          "count": 4
+          "name": "QED Investors",
+          "count": 3
         }
       ]
     },
@@ -1126,6 +1166,33 @@
       ]
     },
     {
+      "key": "San Diego,CA",
+      "city": "San Diego",
+      "state": "CA",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "deal_count": 3,
+      "weighted_score": 10.88,
+      "latest_at": "2026-09-07T04:12:44.000Z",
+      "amount_usd_m_total": 210,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Qualcomm Ventures",
+          "count": 3
+        }
+      ]
+    },
+    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
@@ -1149,29 +1216,6 @@
         {
           "name": "DCVC",
           "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Alexandria,VA",
-      "city": "Alexandria",
-      "state": "VA",
-      "lat": 38.8048,
-      "lon": -77.0469,
-      "deal_count": 2,
-      "weighted_score": 8,
-      "latest_at": "2026-09-15T07:07:36.000Z",
-      "amount_usd_m_total": 80,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "QED Investors",
-          "count": 2
         }
       ]
     },
