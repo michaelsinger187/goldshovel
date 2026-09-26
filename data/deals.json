@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:31:59.009Z",
+  "generated_at": "2026-09-26T04:52:03.070Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 49,
-    "total_deals": 49,
+    "scraped_deals": 47,
+    "total_deals": 47,
     "demo_mode": false,
-    "deals_with_coordinates": 49,
-    "runtime_ms": 4719,
+    "deals_with_coordinates": 47,
+    "runtime_ms": 3743,
     "note": "",
     "error_sample": []
   },
@@ -107,6 +107,28 @@
       }
     },
     {
+      "id": "deal_586244813",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Unknown",
+      "title": "Ex-Anthropic Staffers’ Self-Improving AI Startup in Talks to Raise at $5 Billion Value - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbDdtVUY4N1ppQ3oycy03VUtwdUJnSjd4Nnc5dmNIdFAwWVJzWUlTYUwzT0ozdnhHNTFoTU54X0tMMnZEM1hLck16UkphQVp2ZXlzY2wyV2lmeXRsUlVLbEpobVd2Y1Zwb3Zva0MzQ1poOHZHWm1OWTN4R0JteFBuNGdGSVR5ckJ6TmdoLVdkY0ZraFJ2VVdXYmVlTTB2XzRFU1E?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-09-22T16:16:48.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 5000,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_167694759",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -190,28 +212,6 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_243746607",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Unknown",
-      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJ4Rm1xU3l0ZmZpa1BiN21DekVIQWlBaHVLbG9vX2JPRENVRHduNHVNSFpLb0VTR1ZkUkJMdVlmZlFxUWpVM3c1MTFkSDBSWTFWMHE0a1U3dFBGb3plU0QtREZmXzVtUGV3MVVxYXgzLXlJWHpBN2dqNy01R2VONWFQV3dFQ1ZrRm5nTVZXZmN6OG53bUF2d2VFd0lVcDlTaHIwT2Vra0dyNV9xaFJtczBEeDBkNi12TXRKNGVHRVJKRUY3SDhv?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-19T13:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -327,28 +327,6 @@
       }
     },
     {
-      "id": "deal_190358018",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Unknown",
-      "title": "Ontario Teachers’ TVG Makes Follow-On Investment in Darwinbox - Indian Startup Times",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnQ2R0JQamtKRnJaT2luNXNkRkZ6aFZvMHhwNFhyWjJHWnNZRXFHMHZTMGdPS05sRkdSN1FleXdoRFQ1eW5sckNJSXM3Qi1kamVYalZES0IxYWN4bmZkT2NUZ2RjM21FSXJrd25wd2w0cEJwYmRtNXM5V1JUT25BUkhJZ3BISU5iVVNrVS1HenVhSzEyanZ3aHZ1ZjRUcHBjX1FB?oc=5",
-      "source_name": "Indian Startup Times",
-      "published_at": "2026-09-15T13:30:17.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1172601681",
       "vc_id": "qed",
       "vc_name": "QED Investors",
@@ -388,6 +366,28 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_501724678",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "Ontario Teachers’ TVG Makes Follow-On Investment in Darwinbox - Indian Startup Times",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnQ2R0JQamtKRnJaT2luNXNkRkZ6aFZvMHhwNFhyWjJHWnNZRXFHMHZTMGdPS05sRkdSN1FleXdoRFQ1eW5sckNJSXM3Qi1kamVYalZES0IxYWN4bmZkT2NUZ2RjM21FSXJrd25wd2w0cEJwYmRtNXM5V1JUT25BUkhJZ3BISU5iVVNrVS1HenVhSzEyanZ3aHZ1ZjRUcHBjX1FB?oc=5",
+      "source_name": "Indian Startup Times",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -463,9 +463,9 @@
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Unknown",
-      "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
+      "title": "Whoop - 2026 Funding Rounds & List of Investors - tracxn.com",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
-      "source_name": "Tracxn",
+      "source_name": "tracxn.com",
       "published_at": "2026-09-12T21:33:41.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -595,9 +595,9 @@
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
       "company": "Elon Musk’s Boring",
-      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - The Straits Times",
+      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - straitstimes.com",
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNFVKYV82akVRR2JVVldFTTlXcFBCVDkxWWY1b2lfSWtRblBXWmZ4Rm1RTjlEcDFMei1NSUdXYXMyUUpyVGYtSEgzMjNrSExLLUZ1bmMtT1hnZVN5Z1V1a0QweGJhRlVRV3VKSldteXktaTJ2RElUTXBEVmZCV2JsVkZEQXRldU5nRHh5WTJqMURGQ21BVVFaZkY1ZHduTTFnaTJUWUdLVEFOU004UGYyQjZ4S2puNXhHT2dNNU9BWEx5cWF1Z3c?oc=5",
-      "source_name": "The Straits Times",
+      "source_name": "straitstimes.com",
       "published_at": "2026-09-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -635,28 +635,6 @@
       }
     },
     {
-      "id": "deal_2075814611",
-      "vc_id": "lightspeed",
-      "vc_name": "Lightspeed Venture Partners",
-      "company": "Harvey",
-      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - harvey.ai",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzhxRXRqZFpTQnE1TkthcDNTdEl4RnFESFR0LTlvdTlDTGF4WTBPb2Y0dTNKNXFLU0dDNC1LM3N0RUZJOXJIUjR5cTdfVU1ZT3Qwa0d3ZGMtRWhGYnBfeWtYYzdIMkNUU01PWXhuZGswQWFmVWZiSkQ2WUtfcVdlNTFBUko2UnNpRTluU3hvOEM4M1JVMTBZVVUzX0pkT3EwS2JQTEFCcGpjY1RWRDNfbkhoOG9vbVlsZ1lCYw?oc=5",
-      "source_name": "harvey.ai",
-      "published_at": "2026-09-09T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 550,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_80487838",
       "vc_id": "menlo-ventures",
       "vc_name": "Menlo Ventures",
@@ -683,9 +661,9 @@
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Harvey",
-      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - harvey.ai",
+      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - Harvey",
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzhxRXRqZFpTQnE1TkthcDNTdEl4RnFESFR0LTlvdTlDTGF4WTBPb2Y0dTNKNXFLU0dDNC1LM3N0RUZJOXJIUjR5cTdfVU1ZT3Qwa0d3ZGMtRWhGYnBfeWtYYzdIMkNUU01PWXhuZGswQWFmVWZiSkQ2WUtfcVdlNTFBUko2UnNpRTluU3hvOEM4M1JVMTBZVVUzX0pkT3EwS2JQTEFCcGpjY1RWRDNfbkhoOG9vbVlsZ1lCYw?oc=5",
-      "source_name": "harvey.ai",
+      "source_name": "Harvey",
       "published_at": "2026-09-09T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -749,9 +727,9 @@
       "vc_id": "coatue",
       "vc_name": "Coatue",
       "company": "Harvey",
-      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - harvey.ai",
+      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - Harvey",
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzhxRXRqZFpTQnE1TkthcDNTdEl4RnFESFR0LTlvdTlDTGF4WTBPb2Y0dTNKNXFLU0dDNC1LM3N0RUZJOXJIUjR5cTdfVU1ZT3Qwa0d3ZGMtRWhGYnBfeWtYYzdIMkNUU01PWXhuZGswQWFmVWZiSkQ2WUtfcVdlNTFBUko2UnNpRTluU3hvOEM4M1JVMTBZVVUzX0pkT3EwS2JQTEFCcGpjY1RWRDNfbkhoOG9vbVlsZ1lCYw?oc=5",
-      "source_name": "harvey.ai",
+      "source_name": "Harvey",
       "published_at": "2026-09-09T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -815,9 +793,9 @@
       "vc_id": "sapphire",
       "vc_name": "Sapphire Ventures",
       "company": "Harvey",
-      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - harvey.ai",
+      "title": "Harvey Raises $550M at a $15.5B Valuation to Help Legal Teams Own Their Intelligence - Harvey",
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzhxRXRqZFpTQnE1TkthcDNTdEl4RnFESFR0LTlvdTlDTGF4WTBPb2Y0dTNKNXFLU0dDNC1LM3N0RUZJOXJIUjR5cTdfVU1ZT3Qwa0d3ZGMtRWhGYnBfeWtYYzdIMkNUU01PWXhuZGswQWFmVWZiSkQ2WUtfcVdlNTFBUko2UnNpRTluU3hvOEM4M1JVMTBZVVUzX0pkT3EwS2JQTEFCcGpjY1RWRDNfbkhoOG9vbVlsZ1lCYw?oc=5",
-      "source_name": "harvey.ai",
+      "source_name": "Harvey",
       "published_at": "2026-09-09T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -899,35 +877,13 @@
       }
     },
     {
-      "id": "deal_2088932802",
-      "vc_id": "gradient",
-      "vc_name": "Gradient Ventures",
-      "company": "Nuclear startup Bluecore Energy",
-      "title": "Nuclear startup Bluecore Energy raises $50M seed round, just two months after launch - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVjBoU2Z3X3ZnR2hDTm9QYUpNVjR2aTh5X0d5U3JmZnNrUTVKSF9zb1lLTG9GalVNYmdndEFPZnZ0cnRiWHRycUx3WU1qeTNJakZZdnpoZ0dxQ1U5VlVTMi1lY3NFbi1UazlxNnl6QnZ3QjVJY1hmU2tTY0RyUklBYzVVdXpPYUpIWXZIanF0Z21aRHppMmQ5QjhudGI4OFdYVGN1SGF6RUZJVDZPNDB3M0VieHNNWUx1?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-08T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.96,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_729419469",
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
       "company": "Ultrahuman",
-      "title": "Ultrahuman raises $70 Mn from Qualcomm, Alpha Wave, Nexus and others | Startup Story - Startup Story",
+      "title": "Ultrahuman raises $70 Mn from Qualcomm, Alpha Wave, Nexus and others | Startup Story - startupstorymedia.com",
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ3MzQjlHVXFyanBuWVFUSXhTM1JQSVNrT0xaSVhpYnlZOXF1Q3Q4aXMyZTc0UVF4V0J6N1ItQ0xCMDZlRGphRVVYNmFzMmZlM0FZZHd5Qi1wS3NkY3RRcUhvOXZERTBvb1JsVkJPWDFzbHZtZ1dzdXZrVjdhYXctWnQxWWxUSnFJUFJOdjNmUUR5NU1scDdnS3JtMHbSAaQBQVVfeXFMTl9wUEZUQXdtVXIyZmpncnQ3ZGMzWWMwMmtURERRYmxWOS10Nk40eWZlVHZ5UHA5VHlNVHpMeUxGd3N0R2ZLdnVmdks1RWdSWUlBRE54Y2ZEVVBqMEx5bTA5bHB6RU8tMy1tMGhJQjdzdE1DRExBYkFsOXB0QlYzWWxndFF5NU10bXlOTm5Ba3Rwc2M3NC1FcnVJckZYTnBsRFVfVDY?oc=5",
-      "source_name": "Startup Story",
+      "source_name": "startupstorymedia.com",
       "published_at": "2026-09-07T04:12:44.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -938,28 +894,6 @@
         "state": "CA",
         "lat": 32.7157,
         "lon": -117.1611,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_195256248",
-      "vc_id": "m12",
-      "vc_name": "M12",
-      "company": "Gimlet Labs",
-      "title": "Gimlet Labs Raises $300 Million at $3 Billion Valuation as Six-Chip AI Strategy Scales to Several Hundred Megawatts - ascendants.in",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUW8xc1c1Nnp0RUV5UlVxdlozc1ZESmZnQjhOclVtZDB0aEdnYzlKYWJMVllzeUZ6bGxYWi0zUm5idEk5MGFteVYxR1BxTXFLcU05LTRVWFZjSTRxcW9pRDhpN25oMWZNSVJPQ2tYaUxMVk9wUzlhSlNfLUU2UmtsZFJ4anVfdG5CajdoV00yQktPZ2k5MFo0dXRRbm5RSVRo?oc=5",
-      "source_name": "ascendants.in",
-      "published_at": "2026-09-05T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 300,
-      "confidence": 0.81,
-      "location": {
-        "city": "Redmond",
-        "state": "WA",
-        "lat": 47.6739,
-        "lon": -122.1215,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1026,6 +960,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_324974854",
+      "vc_id": "dcvc",
+      "vc_name": "DCVC",
+      "company": "Unknown",
+      "title": "DCVC And Kembara Lead New Investment In Quantum Motion - Quantum Zeitgeist",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50ODY4U2JpSlAzclBIa1Y5TmlmN1c5NUR2RDlwZjBWOXFNemxJM1hzVEluWjFXMERRWlVkekRFQzA1bjhEY2xVamQwVE03Q0EzSmFIZlZFQ0VwZXVKeEtVY3BxaXlBcGYxbFpnejdWRGZvQWJUeWl2NnA0b3hFZw?oc=5",
+      "source_name": "Quantum Zeitgeist",
+      "published_at": "2026-09-03T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1104,14 +1060,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 12,
-      "weighted_score": 60.14,
+      "deal_count": 11,
+      "weighted_score": 58.89,
       "latest_at": "2026-09-23T13:00:00.000Z",
-      "amount_usd_m_total": 66736,
+      "amount_usd_m_total": 71186,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 10
         },
         {
           "name": "Other",
@@ -1120,7 +1076,7 @@
       ],
       "top_vcs": [
         {
-          "name": "Lightspeed Venture Partners",
+          "name": "Kleiner Perkins",
           "count": 2
         },
         {
@@ -1208,6 +1164,41 @@
       ]
     },
     {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 4,
+      "weighted_score": 13.84,
+      "latest_at": "2026-09-23T13:00:00.000Z",
+      "amount_usd_m_total": 730,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "DCVC",
+          "count": 2
+        },
+        {
+          "name": "True Ventures",
+          "count": 1
+        },
+        {
+          "name": "Sapphire Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Alexandria,VA",
       "city": "Alexandria",
       "state": "VA",
@@ -1227,91 +1218,6 @@
         {
           "name": "QED Investors",
           "count": 3
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 11.83,
-      "latest_at": "2026-09-23T13:00:00.000Z",
-      "amount_usd_m_total": 730,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "True Ventures",
-          "count": 1
-        },
-        {
-          "name": "DCVC",
-          "count": 1
-        },
-        {
-          "name": "Sapphire Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Redmond,WA",
-      "city": "Redmond",
-      "state": "WA",
-      "lat": 47.6739,
-      "lon": -122.1215,
-      "deal_count": 3,
-      "weighted_score": 11.8,
-      "latest_at": "2026-09-18T10:15:18.000Z",
-      "amount_usd_m_total": 625,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "M12",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 3,
-      "weighted_score": 11.16,
-      "latest_at": "2026-09-11T02:25:00.000Z",
-      "amount_usd_m_total": 3050,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Samsung Next",
-          "count": 1
-        },
-        {
-          "name": "CapitalG",
-          "count": 1
-        },
-        {
-          "name": "Gradient Ventures",
-          "count": 1
         }
       ]
     },
@@ -1396,6 +1302,56 @@
         },
         {
           "name": "Coatue",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Redmond,WA",
+      "city": "Redmond",
+      "state": "WA",
+      "lat": 47.6739,
+      "lon": -122.1215,
+      "deal_count": 2,
+      "weighted_score": 7.51,
+      "latest_at": "2026-09-18T10:15:18.000Z",
+      "amount_usd_m_total": 325,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "M12",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 2,
+      "weighted_score": 7.3,
+      "latest_at": "2026-09-11T02:25:00.000Z",
+      "amount_usd_m_total": 3000,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Samsung Next",
+          "count": 1
+        },
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
