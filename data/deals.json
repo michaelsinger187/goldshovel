@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:11:22.850Z",
+  "generated_at": "2026-09-30T05:27:17.451Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 61,
-    "total_deals": 61,
+    "scraped_deals": 58,
+    "total_deals": 58,
     "demo_mode": false,
-    "deals_with_coordinates": 61,
-    "runtime_ms": 4161,
+    "deals_with_coordinates": 58,
+    "runtime_ms": 4174,
     "note": "",
     "error_sample": []
   },
@@ -36,6 +36,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1678665316",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Instinct",
+      "title": "Instinct Announces $1B in Series C Funding from Sequoia, Benchmark and Coatue at $10B Valuation - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkdaV25wOHRmWTl2NVFKN1h6ZHhmUnl4QkRVQmpuRWhfUnkxNV9BR18wS2ktV05TajJiQmZBTm9qWXk1R3B2WnRSUElMNUV1N0EtSmRjWFFubkRxVFJ3bVRUVjNGN29ndHJkOEN3ZG5tQXJjQ2MzcEhzLWk3cTlPRkhfRlVDbkgwblhRdWVyQVpzekRYLUxyUXJCUjlMM21Zel9LNnozNkFTVjJscFdHejU4ZjYyeXZqekxXaEZyX2FteGs5ZVotaGl3?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-09-29T16:35:30.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -107,28 +129,6 @@
       }
     },
     {
-      "id": "deal_291963923",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "Unknown",
-      "title": "Instinct Hits $10 Billion Valuation in $1 Billion Round Just One Month After Last Raise - finance.biggo.com",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tSjh0Wi04bkV5UEFlWEF2RXBUMXIwdmNhWEExbjBSQjRHWlBmeW5qOHp4Z3g0MWJwRDk3bC1QQl96UjJnMWFPM3JlRmg4enJValcyQmpKZnpwSl80aFFkemZHci00SzZ0NjhrSVdPVVItYjlJLUE?oc=5",
-      "source_name": "finance.biggo.com",
-      "published_at": "2026-09-29T02:35:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 10000,
-      "confidence": 0.71,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_786254436",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -170,28 +170,6 @@
         "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1871562007",
-      "vc_id": "future",
-      "vc_name": "Future Ventures",
-      "company": "Boston startup Modulate",
-      "title": "Boston startup Modulate raises $25 million for voice AI models — TechCrunch - UA.NEWS",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTE9fMndaVTJqM3g3R1RCQzI0eW52b3JaWF9tc21rQ1lDQWwzMW9TcUhwSTdqTjhHM25CRTJrRUZCRWxqUnRQY25IcmhrekRWZm5QWm5QNXZEcWhJYW53TDZxRUlqM05oUUIwZGFRTnJlTnFsa0I4OVNaNGc2WjB5N2ZJbXB4WXlLTUdzNG1hTzQ1QmcxYTlHZXRaaEpCN1liT0NMc00taVQ2ejdnWEE?oc=5",
-      "source_name": "UA.NEWS",
-      "published_at": "2026-09-28T14:23:34.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.93,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "city_keyword",
-        "confidence": 0.68
       }
     },
     {
@@ -256,28 +234,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1148217518",
-      "vc_id": "sequoia-capital",
-      "vc_name": "Sequoia Capital",
-      "company": "Viral AI agent Instinct",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-28T13:38:48.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -441,9 +397,9 @@
       "vc_id": "true-ventures",
       "vc_name": "True Ventures",
       "company": "Basecamp Research",
-      "title": "Basecamp Research raises $140M to advance AI-designed therapeutics - sg.finance.yahoo.com",
+      "title": "Basecamp Research raises $140M to advance AI-designed therapeutics - Yahoo Finance Singapore",
       "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUV9zT0doT3RKV0JLNzdXV0VIN21CVDhuLVRQM3pVQlBnMFRqTEFwOXVvcndFWUNuVmlKQ3RsOUZlSC1mSVpabFRlVUNMWXBMOGNSdV9SVkNncDBuX1MzT2NIc2pMTkFzRGpVWHVNcXB4OHFVcEViYWdfY3hRcVp6OVBpZmxySTdYakd5aDNzOA?oc=5",
-      "source_name": "sg.finance.yahoo.com",
+      "source_name": "Yahoo Finance Singapore",
       "published_at": "2026-09-23T13:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -507,9 +463,9 @@
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
       "company": "Unknown",
-      "title": "Ex-Anthropic Staffers’ Self-Improving AI Startup in Talks to Raise at $5 Billion Value - finance.yahoo.com",
+      "title": "Ex-Anthropic Staffers’ Self-Improving AI Startup in Talks to Raise at $5 Billion Value - Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbDdtVUY4N1ppQ3oycy03VUtwdUJnSjd4Nnc5dmNIdFAwWVJzWUlTYUwzT0ozdnhHNTFoTU54X0tMMnZEM1hLck16UkphQVp2ZXlzY2wyV2lmeXRsUlVLbEpobVd2Y1Zwb3Zva0MzQ1poOHZHWm1OWTN4R0JteFBuNGdGSVR5ckJ6TmdoLVdkY0ZraFJ2VVdXYmVlTTB2XzRFU1E?oc=5",
-      "source_name": "finance.yahoo.com",
+      "source_name": "Yahoo Finance",
       "published_at": "2026-09-22T16:16:48.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -679,28 +635,6 @@
       }
     },
     {
-      "id": "deal_565987276",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Unknown",
-      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJ4Rm1xU3l0ZmZpa1BiN21DekVIQWlBaHVLbG9vX2JPRENVRHduNHVNSFpLb0VTR1ZkUkJMdVlmZlFxUWpVM3c1MTFkSDBSWTFWMHE0a1U3dFBGb3plU0QtREZmXzVtUGV3MVVxYXgzLXlJWHpBN2dqNy01R2VONWFQV3dFQ1ZrRm5nTVZXZmN6OG53bUF2d2VFd0lVcDlTaHIwT2Vra0dyNV9xaFJtczBEeDBkNi12TXRKNGVHRVJKRUY3SDhv?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_805808380",
       "vc_id": "m12",
       "vc_name": "M12",
@@ -815,9 +749,9 @@
       "vc_id": "dcvc",
       "vc_name": "DCVC",
       "company": "Unknown",
-      "title": "TypeSafe AI Emerges From Stealth With $40M in Funding With New Model for Composable AI - finance.yahoo.com",
+      "title": "TypeSafe AI Emerges From Stealth With $40M in Funding With New Model for Composable AI - Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS1RyS2ZVbUI1cHJNLWtuWHpISEI4cy1KZFdXelg3QllpSDJVUGhQZXI0YnB0dzFoekNkRjM0TWFSSi0xSV9POFR5NmFkT0xZOThFZ3E1Si1MQkxtV243TDhNdXBpUS0tS1NZRGVwZUZxXzFMZ2NEN2QxYjRQWTdiTjBSTzJBTkR5ZUQyWUNPdTFJZ2tFTEdqUS14dw?oc=5",
-      "source_name": "finance.yahoo.com",
+      "source_name": "Yahoo Finance",
       "published_at": "2026-09-15T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -855,6 +789,28 @@
       }
     },
     {
+      "id": "deal_2133028857",
+      "vc_id": "qed",
+      "vc_name": "QED Investors",
+      "company": "AI-content startup Flam",
+      "title": "AI-content startup Flam bags $40 million in its Series B led by QED Investor - BusinessLine",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVkk1bF8xcXUzSllUTk5obzRYYk5kLXJTeG1wS2VXclkwUnkyQmFUTGxuVUN3MEpmZmtXY1hpdkl2dkp0dlFjX1MyTmJlakk5bXVqMGt2VF9XZE9KbkgyTW5fMGZrQi1ScDJLZGN3M3NBRVQ1WTFZQ2Y0bXdpY1A4ZEN1QWFTalhoakdfbEVnNU5ROEc0UF9TYVlDUktwd1EyejhyQXRNUmNQcGFfZ3pkRmJoR1dlbDhzMWVpdW1HMndkU0Q5OHE3dXNkQlZ6Sl94ZTFtYVJTaGItd9IB4AFBVV95cUxQZ21YdFA3SGpkUTNqdTM4dklwZHk0bEZZX2RFZldscGVNV3VDMWY4UHgzTFJEV0JkZkhxdk1RTWxrUU1WTkpibkswMTVad1BLUVB4cGw5VThjREdxcmxJUG1ZeGt5VGtPbWR5dUx3UnNqeHZCakQ4cjdhQ3R3dWZIRlZSNzhWWnlhbzJycmJUdmo1QjA2dXM4Um50ZEktSlJvQTdudDZsT1JqNjZnRGNWbDZqOXRBXzUwaV84Y3ZHcjNGQnNEREtLVF9QRV9jVE1oTEJZNXJ2N0QzSUVRb3B5aQ?oc=5",
+      "source_name": "BusinessLine",
+      "published_at": "2026-09-15T07:00:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 40,
+      "confidence": 0.96,
+      "location": {
+        "city": "Alexandria",
+        "state": "VA",
+        "lat": 38.8048,
+        "lon": -77.0469,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_175522056",
       "vc_id": "qed",
       "vc_name": "QED Investors",
@@ -881,9 +837,9 @@
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Unknown",
-      "title": "Whoop - 2026 Funding Rounds & List of Investors - tracxn.com",
+      "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
-      "source_name": "tracxn.com",
+      "source_name": "Tracxn",
       "published_at": "2026-09-12T21:33:41.000Z",
       "stage": "Unspecified",
       "sector": "Other",
@@ -1337,28 +1293,6 @@
         "method": "city_keyword",
         "confidence": 0.68
       }
-    },
-    {
-      "id": "deal_220116266",
-      "vc_id": "signalfire",
-      "vc_name": "SignalFire",
-      "company": "Unknown",
-      "title": "Ryan Breslow is raising up to $27M in pay-to-play bridge funding to save Bolt - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDB1MS1GaXRHY1psZzgzcGt2U1VRTlYtVWpURjM4cFFEQnUzOXdlRGwwMXg0MEFCUVN6V19SbWYtdkFJV1N1LWdNeU9hUk1Qa2FSMDVvNG1kU0E1V2ptTEIwVzhKWURoOHFjOV84aWd0MmFiT2VyVWRkZlB2VmpSUzg5TF8zNC1GVFhXT3RqLXRXTE5ZZDJhaVMzNVpjZHg3d0Q2Mkw3aHZPNnUxZWp5Zg?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-08-31T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 27,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1368,14 +1302,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 15,
-      "weighted_score": 72.47,
+      "deal_count": 14,
+      "weighted_score": 69.31,
       "latest_at": "2026-09-29T16:35:30.000Z",
-      "amount_usd_m_total": 36964.5,
+      "amount_usd_m_total": 36937.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 14
+          "count": 13
         },
         {
           "name": "Other",
@@ -1388,11 +1322,11 @@
           "count": 6
         },
         {
-          "name": "SignalFire",
+          "name": "Uncork Capital",
           "count": 2
         },
         {
-          "name": "Uncork Capital",
+          "name": "Human Capital",
           "count": 2
         }
       ]
@@ -1403,27 +1337,27 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 13,
-      "weighted_score": 65.81,
+      "deal_count": 11,
+      "weighted_score": 57.34,
       "latest_at": "2026-09-29T11:58:08.000Z",
-      "amount_usd_m_total": 71986,
+      "amount_usd_m_total": 70986,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 11
         }
       ],
       "top_vcs": [
-        {
-          "name": "Andreessen Horowitz",
-          "count": 2
-        },
         {
           "name": "Kleiner Perkins",
           "count": 2
         },
         {
-          "name": "Sequoia Capital",
+          "name": "Andreessen Horowitz",
+          "count": 1
+        },
+        {
+          "name": "Mayfield",
           "count": 1
         }
       ]
@@ -1435,9 +1369,9 @@
       "lat": 40.7128,
       "lon": -74.006,
       "deal_count": 8,
-      "weighted_score": 39.05,
-      "latest_at": "2026-09-29T02:35:00.000Z",
-      "amount_usd_m_total": 13335,
+      "weighted_score": 39.7,
+      "latest_at": "2026-09-29T16:35:30.000Z",
+      "amount_usd_m_total": 4335,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1469,14 +1403,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 8,
-      "weighted_score": 28.39,
-      "latest_at": "2026-09-28T14:23:34.000Z",
-      "amount_usd_m_total": 1852,
+      "deal_count": 7,
+      "weighted_score": 25.05,
+      "latest_at": "2026-09-22T16:00:00.000Z",
+      "amount_usd_m_total": 1827,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Climate & Energy",
@@ -1497,7 +1431,7 @@
           "count": 2
         },
         {
-          "name": "Future Ventures",
+          "name": "NextView Ventures",
           "count": 1
         }
       ]
@@ -1539,20 +1473,20 @@
       "state": "VA",
       "lat": 38.8048,
       "lon": -77.0469,
-      "deal_count": 2,
-      "weighted_score": 8,
+      "deal_count": 3,
+      "weighted_score": 12.57,
       "latest_at": "2026-09-15T07:00:00.000Z",
-      "amount_usd_m_total": 80,
+      "amount_usd_m_total": 120,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
         {
           "name": "QED Investors",
-          "count": 2
+          "count": 3
         }
       ]
     },
