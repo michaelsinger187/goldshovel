@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:11:28.392Z",
+  "generated_at": "2026-10-01T05:45:48.043Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 61,
-    "total_deals": 61,
+    "scraped_deals": 60,
+    "total_deals": 60,
     "demo_mode": false,
-    "deals_with_coordinates": 61,
-    "runtime_ms": 4812,
+    "deals_with_coordinates": 60,
+    "runtime_ms": 3925,
     "note": "",
     "error_sample": []
   },
@@ -23,9 +23,9 @@
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
       "company": "Flow Engineering",
-      "title": "Flow Engineering Raises $50M Series B at $750M Valuation to Make Hardware Iteration as Fast as Software - ca.finance.yahoo.com",
+      "title": "Flow Engineering Raises $50M Series B at $750M Valuation to Make Hardware Iteration as Fast as Software - Yahoo! Finance Canada",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR0JqeklOanA5Q2F1WFVvWEI4X3oyZ0hSazlNUlVfVlJMY2dxWEMyaEVNZkNhVV9zdXJUSWxLaUlVRDJ3VkI3ekxDc2NLMXd3NFp3MkR2YWdpQmJCMFE2Z0R5WjRCczdoQ2lTTHgxU0VBeGs4WXBnY3BpOUxJZXY3Q1o3WGx6eF9ZclBj?oc=5",
-      "source_name": "ca.finance.yahoo.com",
+      "source_name": "Yahoo! Finance Canada",
       "published_at": "2026-09-30T15:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
@@ -349,13 +349,35 @@
       }
     },
     {
+      "id": "deal_1904944817",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Exclusive: Maritime intelligence startup Quartermaster",
+      "title": "Exclusive: Maritime intelligence startup Quartermaster raises another $140M - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNODBnWlo0RHpQUDM2SDZmMlFpREd3ZkRwa1hnTEZDUXN5VURqOGRPRU1TeE9oMDlyVjJ3VjkydkdhZ1hRVnBfNHIxSUxvMjZrN3Zackg1blZCTU5Ra1FQdjRtb3VMbEJrOFM5bjRaWk9JWE04ZmZBQThmT216azI1ajdpcmJsdFVXd3hwUk9pVWlEeUM2X3RFVFgyWXptbXc?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-09-28T13:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 140,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1929930517",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
       "company": "Finnish startup Verda",
-      "title": "Finnish startup Verda raises €163M to scale full-stack AI cloud - evertiq.com",
+      "title": "Finnish startup Verda raises €163M to scale full-stack AI cloud - Evertiq",
       "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmRoS3RsUnlmRWpKelcwcXQ3NXJKOU91SkFiZFBWZ0FiOC1kdjBCenJfRlZLVndLaXhDRTFCSXpIWllTVHBBSmRCM3RqTGpaZmsxMXFQUDg4aHc2UHp4VkVGZGtITUxyV2tKVTNwLTZGeWl2WlNFVnd5T05ySExFXzZTY3lLQjkzcGtSQ1dsMzdZNFgxNHV4aEdTajA1RDA?oc=5",
-      "source_name": "evertiq.com",
+      "source_name": "Evertiq",
       "published_at": "2026-09-25T09:03:32.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -617,9 +639,9 @@
       "vc_id": "upfront",
       "vc_name": "Upfront Ventures",
       "company": "Can cloud seeding fight drought? Startup Rainmaker just",
-      "title": "Can cloud seeding fight drought? Startup Rainmaker just raised $100 million to find out - fastcompany.com",
+      "title": "Can cloud seeding fight drought? Startup Rainmaker just raised $100 million to find out - Fast Company",
       "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZkdZN3VMS1o3MlFUSVNhZnB2bXBoSjI2bnVUTUl6WHhLbjVRS3pWMjRDM2tCNGdkby0zdi1VOWlvX0ZpTWVRemd3dk1yUHFuUmZYZHJhcW9vdmlIVFJyU09rbHlVNGRYbUp6aF9DVmxEU1pqM1N4QWYzUTVXRHV6LXZuX2Mtd3pi?oc=5",
-      "source_name": "fastcompany.com",
+      "source_name": "Fast Company",
       "published_at": "2026-09-21T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -652,28 +674,6 @@
         "state": "CA",
         "lat": 37.563,
         "lon": -122.3255,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_565987276",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Unknown",
-      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJ4Rm1xU3l0ZmZpa1BiN21DekVIQWlBaHVLbG9vX2JPRENVRHduNHVNSFpLb0VTR1ZkUkJMdVlmZlFxUWpVM3c1MTFkSDBSWTFWMHE0a1U3dFBGb3plU0QtREZmXzVtUGV3MVVxYXgzLXlJWHpBN2dqNy01R2VONWFQV3dFQ1ZrRm5nTVZXZmN6OG53bUF2d2VFd0lVcDlTaHIwT2Vra0dyNV9xaFJtczBEeDBkNi12TXRKNGVHRVJKRUY3SDhv?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1035,9 +1035,9 @@
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
       "company": "Elon Musk’s Boring",
-      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - The Straits Times",
+      "title": "Elon Musk’s Boring Company raises capital, valuing firm at $29b - straitstimes.com",
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNFVKYV82akVRR2JVVldFTTlXcFBCVDkxWWY1b2lfSWtRblBXWmZ4Rm1RTjlEcDFMei1NSUdXYXMyUUpyVGYtSEgzMjNrSExLLUZ1bmMtT1hnZVN5Z1V1a0QweGJhRlVRV3VKSldteXktaTJ2RElUTXBEVmZCV2JsVkZEQXRldU5nRHh5WTJqMURGQ21BVVFaZkY1ZHduTTFnaTJUWUdLVEFOU004UGYyQjZ4S2puNXhHT2dNNU9BWEx5cWF1Z3c?oc=5",
-      "source_name": "The Straits Times",
+      "source_name": "straitstimes.com",
       "published_at": "2026-09-10T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1295,28 +1295,6 @@
       }
     },
     {
-      "id": "deal_616649946",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Malaysian founder",
-      "title": "Malaysian founder raises US$3mil for fashion tech startup Lekondo - The Star",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdlJLWXd6MTFuMGZJNFBMcFNEQUFEY0FEQlRlMFVfeDFtck15cWZIWm9UOHFMb1VBaHdydEpOSEM0U05CWU9Nb2I2VjNObElCN0FVbnoyLVFNQ1F6Y1k0VjhaSEktNmw2b1d1bEk0MUM5djVtOXdrN2kwVjRKdl95d1hES3RLX1otNFd6WlgxLVZiQmdQZ3QwQkVXREZnWnJ3U3RBTmpoRmxzcVgyOURYX1NDcFQ5LW4tN0xUUmxPS1dtbm8?oc=5",
-      "source_name": "The Star",
-      "published_at": "2026-09-03T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 3,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1720057084",
       "vc_id": "ivp",
       "vc_name": "IVP",
@@ -1368,14 +1346,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 16,
-      "weighted_score": 75.68,
+      "deal_count": 15,
+      "weighted_score": 73.27,
       "latest_at": "2026-09-30T15:00:00.000Z",
-      "amount_usd_m_total": 36963.6,
+      "amount_usd_m_total": 36960.6,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 15
+          "count": 14
         },
         {
           "name": "Other",
@@ -1403,24 +1381,24 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 13,
-      "weighted_score": 65.81,
+      "deal_count": 12,
+      "weighted_score": 63.7,
       "latest_at": "2026-09-29T11:58:08.000Z",
       "amount_usd_m_total": 71986,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 13
+          "count": 12
         }
       ],
       "top_vcs": [
         {
-          "name": "Andreessen Horowitz",
+          "name": "Kleiner Perkins",
           "count": 2
         },
         {
-          "name": "Kleiner Perkins",
-          "count": 2
+          "name": "Andreessen Horowitz",
+          "count": 1
         },
         {
           "name": "Sequoia Capital",
@@ -1434,14 +1412,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 35.74,
+      "deal_count": 8,
+      "weighted_score": 39.7,
       "latest_at": "2026-09-29T16:35:30.000Z",
-      "amount_usd_m_total": 4195,
+      "amount_usd_m_total": 4335,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Climate & Energy",
@@ -1455,7 +1433,7 @@
         },
         {
           "name": "Insight Partners",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Union Square Ventures",
