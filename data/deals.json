@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T05:12:53.011Z",
+  "generated_at": "2026-10-03T11:35:07.013Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 58,
-    "total_deals": 58,
+    "scraped_deals": 59,
+    "total_deals": 59,
     "demo_mode": false,
-    "deals_with_coordinates": 58,
-    "runtime_ms": 4064,
+    "deals_with_coordinates": 59,
+    "runtime_ms": 3978,
     "note": "",
     "error_sample": []
   },
@@ -207,6 +207,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 34.5,
       "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2049415518",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "WIPO Global Innovation Index 2026: Switzerland, Sweden, US, Republic of Korea and Singapore Top Ranking; AI Reshaping Innovation Investments as Deep Science Startups Top $7.6 Trillion - World Intellectual Property Organization (WIPO)",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tWkZoU1g5UUFuaHd5N3FxMFpzektkdU9aR2szeVlRWUxQYzc4dUhlSmpxbUxKMnZMbFFvNXZualQ4TnNvZGw1WkZoTlJXZ0RmVWdXQk44Q1pIemN6RnhZMS1sbXotUGNWbFJXdjU2V0dRU28?oc=5",
+      "source_name": "World Intellectual Property Organization (WIPO)",
+      "published_at": "2026-09-29T12:12:13.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 7.6,
+      "confidence": 0.71,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -1302,14 +1324,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 13,
-      "weighted_score": 61.39,
+      "deal_count": 14,
+      "weighted_score": 64.04,
       "latest_at": "2026-10-01T07:00:00.000Z",
-      "amount_usd_m_total": 6937.5,
+      "amount_usd_m_total": 6945.1,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 12
         },
         {
           "name": "Other",
@@ -1322,12 +1344,12 @@
           "count": 5
         },
         {
-          "name": "Uncork Capital",
+          "name": "Human Capital",
           "count": 2
         },
         {
-          "name": "First Round Capital",
-          "count": 1
+          "name": "Uncork Capital",
+          "count": 2
         }
       ]
     },
