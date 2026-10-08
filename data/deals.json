@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:02:22.021Z",
+  "generated_at": "2026-10-08T05:56:36.372Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 61,
-    "total_deals": 61,
+    "scraped_deals": 64,
+    "total_deals": 64,
     "demo_mode": false,
-    "deals_with_coordinates": 61,
-    "runtime_ms": 4481,
+    "deals_with_coordinates": 64,
+    "runtime_ms": 4608,
     "note": "",
     "error_sample": []
   },
@@ -36,6 +36,50 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_690128121",
+      "vc_id": "true-ventures",
+      "vc_name": "True Ventures",
+      "company": "This Startup",
+      "title": "This Startup Raised $2 Million Searching for New Scent Molecules - TechJuice",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTFBZMmRRRXJXTE8zSk5raDQ2TGsxVW43MUdpc0ZublBkWjZnUkcxSW5mVDZrbHJSTlQ3ZkgzSFoyeUs3T195YmdjSDhXck9kbzlHYnVtUnlRaUkyUTNSUkVIX3hDR25Qc1F5OER6d21oTjltZWdPOVdlNjhuWGtTUWtn?oc=5",
+      "source_name": "TechJuice",
+      "published_at": "2026-10-06T12:20:01.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 2,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_582281659",
+      "vc_id": "gradient",
+      "vc_name": "Gradient Ventures",
+      "company": "These young founders just",
+      "title": "These young founders just raised $5.2 million from Gradient to teach AI agents how companies work - Business Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUV93akU3eGJkcGFveTMzNExlZXRWaFN0YVlRRWlzT1g4eTdwdDRIcV9oWW05emlRNVpGX3BMZXFWLU1GUHpra1Y5dU5NdmZMamlPa0RyTEZKV0s2bnFHYk1xV2d6V2RRMHBaVXhLZVBvYmljV1ZXQkJKbXFpREJtX0tYS1ZNUWRjQXpYWlNVRVdRdUdNdldiVXQzcEU0bzA5b2E4Zw?oc=5",
+      "source_name": "Business Insider",
+      "published_at": "2026-10-06T12:01:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 5.2,
+      "confidence": 0.81,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -168,6 +212,50 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_137953092",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "Coatue Becomes Hedge Funds’ Most Active VC Investor - Institutional Investor",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSXJJZUdmR2VKSmF6bFpsM2hoRjkyMlpOb0FrLU9IQy1Sb3JpYlZ0N1dYb0p3bXNyc1p1N1NERS1SSmZpZUZZQ0tNMjJMWXhGSkxXMHhlZGwzMHFXaXpZdGZlMzB4NG4zbEtGaGpPYVB3T2tKYUloZkhMMmpoMTJZOFNmb2NuQjhaN1lWUkxVaTNKaVFpbTJwT3hIT2E?oc=5",
+      "source_name": "Institutional Investor",
+      "published_at": "2026-10-05T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_355481935",
+      "vc_id": "susa",
+      "vc_name": "Susa Ventures",
+      "company": "Volantis",
+      "title": "Volantis Raises $88M to Attack AI Memory Wall [2026] - shattered.io",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObmdIa19YQXN1ME44OEppbTRhVjB5U2NXRHc3dVpyTFZXOTd0RWRZQnZ2X1FqQjAyWFhnRWV5YjVRUXBFdi1hSkVyYnhrTEh3blFTMnVwSzNNX1h0TXFNWEJQSUlhZ04yclg2S1p1Z2lEZkk4cU9ZTy1vY21RNGZGUXdVTkdnT3M?oc=5",
+      "source_name": "shattered.io",
+      "published_at": "2026-10-05T01:53:29.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 88,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1009,36 +1097,14 @@
       }
     },
     {
-      "id": "deal_529171880",
-      "vc_id": "intel-capital",
-      "vc_name": "Intel Capital",
-      "company": "Intel-Backed Construction AI Firm Buildots",
-      "title": "Intel-Backed Construction AI Firm Buildots Raises $130 Million - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNXRBTUlkNzQ5SjBXX0xKbEhXYjFjaEI2UldrT3FSenRzdW5lVlNlRDI1RDhSU0VZZHE3bndhQ25PNTE2NGJzcGdrcTNta2NPZGw5VGIydHlOQjBBU3FDMXlzUldLcTBka0NiTVJuUHRHQ3JteWNWQUlvWHhzcFFIT09sWm45VmNFQ2I5ZVJiZWFVZU5wcjA4aFpKVjlaaU55T3RZaF9jeTdDbXkyQUZRNjVn?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-09-14T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 130,
-      "confidence": 0.81,
-      "location": {
-        "city": "Santa Clara",
-        "state": "CA",
-        "lat": 37.3541,
-        "lon": -121.9552,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1408630716",
+      "id": "deal_908225777",
       "vc_id": "nextview",
       "vc_name": "NextView Ventures",
       "company": "Unknown",
       "title": "Whoop - 2026 Funding Rounds & List of Investors - Tracxn",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOGRFQkZhX0pUX3J4cTRSXy1MQnlGVDNKWTJtUkZjUUl0Q1UtUnY4WGxzel9MQUFwZGowUXdiN0xVN1kwS0EzWV9hRXVDYjlJN1dadnRVWnp3V1AxZnFmb1V1ZGVMTTZBSXhVUUNJRVpaUGNVYUUwXy1VdEdRTlVVQ0U4QXpNMWhIWUJySlloMTBBbGxMQXZ2aFFQSVdVdklZanJhNzRGTQ?oc=5",
       "source_name": "Tracxn",
-      "published_at": "2026-09-12T21:33:41.000Z",
+      "published_at": "2026-09-12T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -1403,14 +1469,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 54.27,
-      "latest_at": "2026-10-01T07:00:00.000Z",
-      "amount_usd_m_total": 5925.1,
+      "deal_count": 13,
+      "weighted_score": 58.03,
+      "latest_at": "2026-10-05T01:53:29.000Z",
+      "amount_usd_m_total": 6013.1,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 12
         },
         {
           "name": "Other",
@@ -1427,7 +1493,7 @@
           "count": 2
         },
         {
-          "name": "First Round Capital",
+          "name": "Susa Ventures",
           "count": 1
         }
       ]
@@ -1438,14 +1504,18 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 8,
-      "weighted_score": 41.05,
+      "deal_count": 9,
+      "weighted_score": 43.06,
       "latest_at": "2026-10-06T17:28:00.000Z",
       "amount_usd_m_total": 8195,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 7
+        },
+        {
+          "name": "Other",
+          "count": 1
         },
         {
           "name": "Climate & Energy",
@@ -1455,7 +1525,7 @@
       "top_vcs": [
         {
           "name": "Coatue",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Insight Partners",
@@ -1512,14 +1582,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 6,
-      "weighted_score": 20.1,
-      "latest_at": "2026-10-06T01:23:20.000Z",
-      "amount_usd_m_total": 704,
+      "deal_count": 7,
+      "weighted_score": 22.39,
+      "latest_at": "2026-10-06T12:20:01.000Z",
+      "amount_usd_m_total": 706,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Other",
@@ -1538,6 +1608,10 @@
         {
           "name": "DCVC",
           "count": 2
+        },
+        {
+          "name": "True Ventures",
+          "count": 1
         }
       ]
     },
@@ -1565,55 +1639,55 @@
       ]
     },
     {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 2,
-      "weighted_score": 9.47,
-      "latest_at": "2026-10-05T12:09:48.000Z",
-      "amount_usd_m_total": 280,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Dell Technologies Capital",
-          "count": 1
-        },
-        {
-          "name": "Intel Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Mountain View,CA",
       "city": "Mountain View",
       "state": "CA",
       "lat": 37.3861,
       "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 5.98,
-      "latest_at": "2026-09-10T07:00:00.000Z",
-      "amount_usd_m_total": 115,
+      "deal_count": 3,
+      "weighted_score": 8.59,
+      "latest_at": "2026-10-06T12:01:00.000Z",
+      "amount_usd_m_total": 120.2,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
+        {
+          "name": "Gradient Ventures",
+          "count": 1
+        },
         {
           "name": "CapitalG",
           "count": 1
         },
         {
           "name": "Samsung Next",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 1,
+      "weighted_score": 5.54,
+      "latest_at": "2026-10-05T12:09:48.000Z",
+      "amount_usd_m_total": 150,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Dell Technologies Capital",
           "count": 1
         }
       ]
