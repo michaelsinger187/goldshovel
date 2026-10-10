@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T22:34:41.565Z",
+  "generated_at": "2026-10-10T05:45:54.415Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 55,
-    "total_deals": 55,
+    "scraped_deals": 54,
+    "total_deals": 54,
     "demo_mode": false,
-    "deals_with_coordinates": 55,
-    "runtime_ms": 4178,
+    "deals_with_coordinates": 54,
+    "runtime_ms": 4237,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1864804234",
+      "vc_id": "dcvc",
+      "vc_name": "DCVC",
+      "company": "TypeSafe, a Judgment-Specialized AI Startup,",
+      "title": "TypeSafe, a Judgment-Specialized AI Startup, Raises ¥87 Billion Led by a16z at ¥1.2 Trillion Valuation - BigGo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xa3h5MDZ0NjJ6SEloSWR4dm9QdExuLXlrMlRVdHpNRTV2WHc5LUJVdVhCR2dVTnJ3TlkyWnFUTG5Od01faDdzYVF0aUhkOVpVOGpYWmtjWmRQcWNKVmJ5QmVJZllPaV84RVhhQXBCN1lLQ0dObHc?oc=5",
+      "source_name": "BigGo Finance",
+      "published_at": "2026-10-09T21:35:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.61,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1637645744",
       "vc_id": "first-round",
@@ -789,28 +811,6 @@
       }
     },
     {
-      "id": "deal_319011702",
-      "vc_id": "kleiner-perkins",
-      "vc_name": "Kleiner Perkins",
-      "company": "Unknown",
-      "title": "Ex-Anthropic Staffers’ Self-Improving AI Startup in Talks to Raise at $5 Billion Value - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbDdtVUY4N1ppQ3oycy03VUtwdUJnSjd4Nnc5dmNIdFAwWVJzWUlTYUwzT0ozdnhHNTFoTU54X0tMMnZEM1hLck16UkphQVp2ZXlzY2wyV2lmeXRsUlVLbEpobVd2Y1Zwb3Zva0MzQ1poOHZHWm1OWTN4R0JteFBuNGdGSVR5ckJ6TmdoLVdkY0ZraFJ2VVdXYmVlTTB2XzRFU1E?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-09-22T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 5000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_737561756",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -1185,28 +1185,6 @@
       }
     },
     {
-      "id": "deal_943557393",
-      "vc_id": "capitalg",
-      "vc_name": "CapitalG",
-      "company": "Clay",
-      "title": "Clay raises $115 million for B2B sales and marketing AI, valuation more than doubles in a year - 디지털투데이",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNHRZU1psVlRUUlhiN0hIYUN5QWpjYkVYUFFIZklQb3BkeWpTc00xcUJMbTN2cExiWlN3OVFZWm9lcUZzU0d0TmRhM3lzNXlhSTl1UEc0ZnVlSXF3QUw1TUt6NDNzOWNpU1JJWHNHMUo2bWFISDEzdVlaWW5CX3NPZmYyaGpvbUJ4aE1HbGhOM2s3ZHQwOHNFbjVaUG5EbzhXNHVla2NYN1JLVlhaRHNZTVVILVg1ZHEyQzV1VVFsVUZrT1VfN2dz?oc=5",
-      "source_name": "디지털투데이",
-      "published_at": "2026-09-10T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 115,
-      "confidence": 0.81,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1797255853",
       "vc_id": "samsung-next",
       "vc_name": "Samsung Next",
@@ -1230,41 +1208,6 @@
     }
   ],
   "bubbles": [
-    {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 10,
-      "weighted_score": 49.27,
-      "latest_at": "2026-10-08T07:00:00.000Z",
-      "amount_usd_m_total": 65154,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 9
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Kleiner Perkins",
-          "count": 2
-        },
-        {
-          "name": "Felicis",
-          "count": 1
-        },
-        {
-          "name": "New Enterprise Associates",
-          "count": 1
-        }
-      ]
-    },
     {
       "key": "New York,NY",
       "city": "New York",
@@ -1300,6 +1243,41 @@
         },
         {
           "name": "Citi Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 9,
+      "weighted_score": 43.86,
+      "latest_at": "2026-10-08T07:00:00.000Z",
+      "amount_usd_m_total": 60154,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 8
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Felicis",
+          "count": 1
+        },
+        {
+          "name": "New Enterprise Associates",
+          "count": 1
+        },
+        {
+          "name": "Amplify Partners",
           "count": 1
         }
       ]
@@ -1384,14 +1362,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 5,
-      "weighted_score": 18.05,
-      "latest_at": "2026-10-08T23:25:00.000Z",
+      "deal_count": 6,
+      "weighted_score": 20.26,
+      "latest_at": "2026-10-09T21:35:00.000Z",
       "amount_usd_m_total": 314,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Web3 & Crypto",
@@ -1405,7 +1383,7 @@
       "top_vcs": [
         {
           "name": "DCVC",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Sapphire Ventures",
@@ -1433,37 +1411,6 @@
         {
           "name": "QED Investors",
           "count": 3
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 3,
-      "weighted_score": 8.59,
-      "latest_at": "2026-10-06T12:01:00.000Z",
-      "amount_usd_m_total": 120.2,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Gradient Ventures",
-          "count": 1
-        },
-        {
-          "name": "CapitalG",
-          "count": 1
-        },
-        {
-          "name": "Samsung Next",
-          "count": 1
         }
       ]
     },
@@ -1509,6 +1456,33 @@
       "top_vcs": [
         {
           "name": "First Round Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 2,
+      "weighted_score": 4.71,
+      "latest_at": "2026-10-06T12:01:00.000Z",
+      "amount_usd_m_total": 5.2,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Gradient Ventures",
+          "count": 1
+        },
+        {
+          "name": "Samsung Next",
           "count": 1
         }
       ]
