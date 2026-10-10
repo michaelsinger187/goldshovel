@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:25:08.719Z",
+  "generated_at": "2026-10-10T21:37:51.322Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 54,
-    "total_deals": 54,
+    "scraped_deals": 55,
+    "total_deals": 55,
     "demo_mode": false,
-    "deals_with_coordinates": 54,
-    "runtime_ms": 4562,
+    "deals_with_coordinates": 55,
+    "runtime_ms": 4256,
     "note": "",
     "error_sample": []
   },
@@ -85,23 +85,23 @@
       }
     },
     {
-      "id": "deal_394971211",
-      "vc_id": "citi-ventures",
-      "vc_name": "Citi Ventures",
-      "company": "Vesta",
-      "title": "Vesta raises $30M to bring swarms of agents to mortgage lenders - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOS1OZ3A0TXVabFM2OVRTMENzN0ZUYnNnZVVGdXRiQVA3aXBaemJ6S0hsRDRLTXBQbnRUQmZOZFRBeGxxT2FoN1cwM2F0aU1mOXNkUVFyelpYcHpfTUtBTjFOblN4Tmkwb29zTFBQSHpvMFlfeFpQaDVUaVRoMGF5elVRWms?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-10-08T12:00:00.000Z",
+      "id": "deal_1386429744",
+      "vc_id": "future",
+      "vc_name": "Future Ventures",
+      "company": "Sam Altman-Backed Meanwhile",
+      "title": "Sam Altman-Backed Meanwhile Raises $37.5M as Families Across Asia, Europe and the Middle East Turn to Bitcoin Life Insurance - STT Info",
+      "source_url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPY25DZmVqSjUxbTBLdFNCSHBwYzhELXlmQ2JQaTR3N01UNVJlMGQ3LXpFVUxGV0syam9sTEtoVzNYR3h3Y1o2ekk5Rl82MTlmYmFrYms3cXlXOURtZnFHNGZaMlR6dTlxOFVDb1g4UDNtc2dPd2NtaHBEcERvUHVROFJ0bk5qWmt1SThfVzdkaDV0SUlHZzB0d2NhbFJWekVPUFJGSlRsX095cVRLZE94NGhvbnJwbUdBeUZhaFV0dmZfMDRtVlp0VmRLZVUwd2FwZlJZbERxS2xFNEIwZkFwazJCa09oS0VPcEM0R20wd0NhbGpDSEM0MzgyZ2RJeXdlcVFlZW9vUXdJc0RCLTVPZ2pLYnhiZElZY2ltYzkwREZDdw?oc=5",
+      "source_name": "STT Info",
+      "published_at": "2026-10-08T16:12:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 30,
+      "amount_usd_m": 37.5,
       "confidence": 0.81,
       "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -190,6 +190,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2071757077",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Unknown",
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPal9fRWtFbk5PV1FVeXVVY09EanJ6T29EaS04OVpiREZSX3I0NmVMRFNxR1VuN25OM1hOeXBDaVVXekNzU1RTRl95VDdjTUJaLUpBU191QmR0MEl0bm4tRHdFeTFKLWRJb2t6UWdUd1QxMVh4aVpYM1NSTGRrWTc1R1k3R21jMWRkbEU4T0VYSlRXazZLc0Z2NDkydw?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-10-06T20:00:30.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 4000,
+      "confidence": 0.71,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -503,28 +525,6 @@
       }
     },
     {
-      "id": "deal_1009106659",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Instinct",
-      "title": "Instinct Announces $1B in Series C Funding from Sequoia, Benchmark and Coatue at $10B Valuation - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkdaV25wOHRmWTl2NVFKN1h6ZHhmUnl4QkRVQmpuRWhfUnkxNV9BR18wS2ktV05TajJiQmZBTm9qWXk1R3B2WnRSUElMNUV1N0EtSmRjWFFubkRxVFJ3bVRUVjNGN29ndHJkOEN3ZG5tQXJjQ2MzcEhzLWk3cTlPRkhfRlVDbkgwblhRdWVyQVpzekRYLUxyUXJCUjlMM21Zel9LNnozNkFTVjJscFdHejU4ZjYyeXZqekxXaEZyX2FteGs5ZVotaGl3?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-09-29T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1413154901",
       "vc_id": "coatue",
       "vc_name": "Coatue",
@@ -679,6 +679,28 @@
       }
     },
     {
+      "id": "deal_2026847094",
+      "vc_id": "signalfire",
+      "vc_name": "SignalFire",
+      "company": "Insurtech Outmarket",
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVJtcGYwOGYzSEh4c3hzY21EcTdxajNvWXViTFVucmFZUm95VnhMYmFjRDRQaGlwWGVTY3c5b1lCNTM3N2VJUzNMRW9kcWo5TGJtMG9iemFyWDRCS3hWd1VwZTdfR2pIWFVueXhZamMyRGR6MlJlMVBxU1A2ZG01UzhWWVBMSUIyX1FqY2NPaDQtLTcxZU9wbXRpMGxOMms?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-09-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 34.5,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1847451909",
       "vc_id": "future",
       "vc_name": "Future Ventures",
@@ -770,28 +792,6 @@
       "id": "deal_1324365337",
       "vc_id": "uncork",
       "vc_name": "Uncork Capital",
-      "company": "Numeral",
-      "title": "Numeral Raises $100 Million Series C to Expand AI-Powered Tax Compliance Across Industries - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT3pwc1NoaGxNYTdLZFZ2REJGUkFzVzJfenE0VktQYVBJV0x0M2x1SGFOcFZVdnoxS1kzWXJGc1ZuN0FTTHhrRjJub1RNN3J5R1M3QWRfY0EzT1hVcGFDTVBVMUtmanNyUUI3czdzcFl3Uk5iWk9LWDdQc2ZsZjdsM2xvYmZVaThrNGxpUEV0ZTdiaWFhME9IcDg4QWlpTlRvNmxUYVJyYVVDamcwM3l2X0hIUVJzZFdBMnEzak1MUUxFY2p3RmhqRllMNHpyOXk4QXVUWW1wMXAxeWotNUdyLU1UOA?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-09-23T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_932341320",
-      "vc_id": "salesforce",
-      "vc_name": "Salesforce Ventures",
       "company": "Numeral",
       "title": "Numeral Raises $100 Million Series C to Expand AI-Powered Tax Compliance Across Industries - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT3pwc1NoaGxNYTdLZFZ2REJGUkFzVzJfenE0VktQYVBJV0x0M2x1SGFOcFZVdnoxS1kzWXJGc1ZuN0FTTHhrRjJub1RNN3J5R1M3QWRfY0EzT1hVcGFDTVBVMUtmanNyUUI3czdzcFl3Uk5iWk9LWDdQc2ZsZjdsM2xvYmZVaThrNGxpUEV0ZTdiaWFhME9IcDg4QWlpTlRvNmxUYVJyYVVDamcwM3l2X0hIUVJzZFdBMnEzak1MUUxFY2p3RmhqRllMNHpyOXk4QXVUWW1wMXAxeWotNUdyLU1UOA?oc=5",
@@ -938,6 +938,28 @@
         "state": "CA",
         "lat": 34.0195,
         "lon": -118.4912,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_565987276",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Unknown",
+      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJ4Rm1xU3l0ZmZpa1BiN21DekVIQWlBaHVLbG9vX2JPRENVRHduNHVNSFpLb0VTR1ZkUkJMdVlmZlFxUWpVM3c1MTFkSDBSWTFWMHE0a1U3dFBGb3plU0QtREZmXzVtUGV3MVVxYXgzLXlJWHpBN2dqNy01R2VONWFQV3dFQ1ZrRm5nTVZXZmN6OG53bUF2d2VFd0lVcDlTaHIwT2Vra0dyNV9xaFJtczBEeDBkNi12TXRKNGVHRVJKRUY3SDhv?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-09-19T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1209,50 +1231,15 @@
   ],
   "bubbles": [
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 51.67,
-      "latest_at": "2026-10-09T10:21:00.000Z",
-      "amount_usd_m_total": 3443.1,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 11
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Benchmark",
-          "count": 4
-        },
-        {
-          "name": "First Round Capital",
-          "count": 3
-        },
-        {
-          "name": "Future Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "New York,NY",
       "city": "New York",
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
       "deal_count": 10,
-      "weighted_score": 46.32,
-      "latest_at": "2026-10-08T12:00:00.000Z",
-      "amount_usd_m_total": 7305,
+      "weighted_score": 48.33,
+      "latest_at": "2026-10-06T20:00:30.000Z",
+      "amount_usd_m_total": 11275,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1270,15 +1257,50 @@
       "top_vcs": [
         {
           "name": "Coatue",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Insight Partners",
           "count": 2
         },
         {
-          "name": "Citi Ventures",
+          "name": "Venrock",
           "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 12,
+      "weighted_score": 46.7,
+      "latest_at": "2026-10-09T10:21:00.000Z",
+      "amount_usd_m_total": 2415.1,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 11
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "First Round Capital",
+          "count": 3
+        },
+        {
+          "name": "Benchmark",
+          "count": 3
+        },
+        {
+          "name": "Future Ventures",
+          "count": 2
         }
       ]
     },
@@ -1288,14 +1310,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 9,
-      "weighted_score": 43.86,
+      "deal_count": 10,
+      "weighted_score": 45.97,
       "latest_at": "2026-10-08T07:00:00.000Z",
       "amount_usd_m_total": 60154,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Other",
