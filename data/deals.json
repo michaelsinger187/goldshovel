@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:37:51.322Z",
+  "generated_at": "2026-10-11T05:40:18.607Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 55,
-    "total_deals": 55,
+    "scraped_deals": 50,
+    "total_deals": 50,
     "demo_mode": false,
-    "deals_with_coordinates": 55,
-    "runtime_ms": 4256,
+    "deals_with_coordinates": 50,
+    "runtime_ms": 3961,
     "note": "",
     "error_sample": []
   },
@@ -481,28 +481,6 @@
       }
     },
     {
-      "id": "deal_1930377730",
-      "vc_id": "signalfire",
-      "vc_name": "SignalFire",
-      "company": "AI startup Outmarket",
-      "title": "AI startup Outmarket raises $34.5 million to automate insurance paperwork - The American Bazaar",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ2s3NjBrUHppRGVSVDViWW41bVpSS1p0MEt0QTJ4bEUwbXh4VmJ1WlpCOEJsRV9wVUNPZUVnMThzdEhUWUtXSlZxekEycFRwa0EwckFha0tMa095UXBkbkRYNEtTVS1FWGNzNDhFanlMWWxrSXFUcm1nRHA2LXdPSFNnWDhzS3p5eWVkaXcxRW9UZGh0eW5nYXRPSkpaRXBBWGEtcWNQSkw2OTJzZlY4TmFfMlc2cFBBb1Z6Q1R1bVpTQQ?oc=5",
-      "source_name": "The American Bazaar",
-      "published_at": "2026-09-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 34.5,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_169932370",
       "vc_id": "dtc",
       "vc_name": "Dell Technologies Capital",
@@ -569,28 +547,6 @@
       }
     },
     {
-      "id": "deal_1953257236",
-      "vc_id": "sequoia-capital",
-      "vc_name": "Sequoia Capital",
-      "company": "Viral AI agent Instinct",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-28T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1887940842",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -603,28 +559,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 1000,
       "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_507482875",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Viral AI agent Instinct",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-28T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.96,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -652,50 +586,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_362877879",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "Viral AI agent Instinct",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-28T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2026847094",
-      "vc_id": "signalfire",
-      "vc_name": "SignalFire",
-      "company": "Insurtech Outmarket",
-      "title": "Insurtech Outmarket raises $34.5M just months after prior round - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVJtcGYwOGYzSEh4c3hzY21EcTdxajNvWXViTFVucmFZUm95VnhMYmFjRDRQaGlwWGVTY3c5b1lCNTM3N2VJUzNMRW9kcWo5TGJtMG9iemFyWDRCS3hWd1VwZTdfR2pIWFVueXhZamMyRGR6MlJlMVBxU1A2ZG01UzhWWVBMSUIyX1FqY2NPaDQtLTcxZU9wbXRpMGxOMms?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-28T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 34.5,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1236,14 +1126,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 10,
-      "weighted_score": 48.33,
+      "deal_count": 9,
+      "weighted_score": 41.97,
       "latest_at": "2026-10-06T20:00:30.000Z",
-      "amount_usd_m_total": 11275,
+      "amount_usd_m_total": 10275,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Other",
@@ -1257,7 +1147,7 @@
       "top_vcs": [
         {
           "name": "Coatue",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Insight Partners",
@@ -1270,54 +1160,19 @@
       ]
     },
     {
-      "key": "San Francisco,CA",
-      "city": "San Francisco",
-      "state": "CA",
-      "lat": 37.7749,
-      "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 46.7,
-      "latest_at": "2026-10-09T10:21:00.000Z",
-      "amount_usd_m_total": 2415.1,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 11
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "First Round Capital",
-          "count": 3
-        },
-        {
-          "name": "Benchmark",
-          "count": 3
-        },
-        {
-          "name": "Future Ventures",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "Menlo Park,CA",
       "city": "Menlo Park",
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 10,
-      "weighted_score": 45.97,
+      "deal_count": 9,
+      "weighted_score": 39.61,
       "latest_at": "2026-10-08T07:00:00.000Z",
-      "amount_usd_m_total": 60154,
+      "amount_usd_m_total": 59154,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 8
         },
         {
           "name": "Other",
@@ -1336,6 +1191,41 @@
         {
           "name": "Amplify Partners",
           "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Francisco,CA",
+      "city": "San Francisco",
+      "state": "CA",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "deal_count": 9,
+      "weighted_score": 33.62,
+      "latest_at": "2026-10-09T10:21:00.000Z",
+      "amount_usd_m_total": 1346.1,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 8
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "First Round Capital",
+          "count": 3
+        },
+        {
+          "name": "Future Ventures",
+          "count": 2
+        },
+        {
+          "name": "Benchmark",
+          "count": 2
         }
       ]
     },
