@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:42:45.766Z",
+  "generated_at": "2026-10-11T21:53:46.142Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 52,
-    "total_deals": 52,
+    "scraped_deals": 53,
+    "total_deals": 53,
     "demo_mode": false,
-    "deals_with_coordinates": 52,
-    "runtime_ms": 3784,
+    "deals_with_coordinates": 53,
+    "runtime_ms": 4337,
     "note": "",
     "error_sample": []
   },
@@ -234,6 +234,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_348774901",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Supabase",
+      "title": "Supabase Announces $150M in New Funding and Turso Acquisition - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa29haWdVWlhhbWNGRjlvVElkTHZSbXFqQ2JOVnpUV2dSa2tHWnBHWVQyYzJSMU5XRlFLclVsaVdyODRiTldCT3RiQ09fRjd4WUpyeE45Tk1BX2V6VDNvUDhmMFlCUTNzd0pzNmVkclhhTU54RWx0MG42Mm5uRDhvS2d2RUlRUmpSUkdqeHpkMGdfeWNTNVY0RUU5QU1CcGM?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-10-06T15:34:46.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 150,
+      "confidence": 0.81,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -525,28 +547,6 @@
       }
     },
     {
-      "id": "deal_1413154901",
-      "vc_id": "coatue",
-      "vc_name": "Coatue",
-      "company": "Instinct",
-      "title": "Instinct Announces $1B in Series C Funding from Sequoia, Benchmark and Coatue at $10B Valuation - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkdaV25wOHRmWTl2NVFKN1h6ZHhmUnl4QkRVQmpuRWhfUnkxNV9BR18wS2ktV05TajJiQmZBTm9qWXk1R3B2WnRSUElMNUV1N0EtSmRjWFFubkRxVFJ3bVRUVjNGN29ndHJkOEN3ZG5tQXJjQ2MzcEhzLWk3cTlPRkhfRlVDbkgwblhRdWVyQVpzekRYLUxyUXJCUjlMM21Zel9LNnozNkFTVjJscFdHejU4ZjYyeXZqekxXaEZyX2FteGs5ZVotaGl3?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-09-29T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1531296121",
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
@@ -569,6 +569,28 @@
       }
     },
     {
+      "id": "deal_1953257236",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "Viral AI agent Instinct",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-09-28T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1887940842",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -581,6 +603,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1000,
       "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_507482875",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Viral AI agent Instinct",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-09-28T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.96,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -613,17 +657,39 @@
       }
     },
     {
-      "id": "deal_747878939",
-      "vc_id": "future",
-      "vc_name": "Future Ventures",
-      "company": "Modulate",
-      "title": "Modulate raises $25M for its voice models and analysis suite - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOV05rUkdoRkJsanlaRGN6aVJHVGdBOGZ3NzJuM1JWYktNb1pubFA0RDk4TDliSWFwMVBVZ21ZaFVGU3dxVnczb2FZdzBrSW51M0hXVXYtdE1GT0hVRXlpM1VzYkthaTVmTThMLTZWeUNoRUZESzFmdG5FRTFFRmt5eUxGcTZsZk1QcXFaUmRqbUFwVlVCbWU4bzhR?oc=5",
+      "id": "deal_362877879",
+      "vc_id": "coatue",
+      "vc_name": "Coatue",
+      "company": "Viral AI agent Instinct",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-09-28T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2026847094",
+      "vc_id": "signalfire",
+      "vc_name": "SignalFire",
+      "company": "Insurtech Outmarket",
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUVJtcGYwOGYzSEh4c3hzY21EcTdxajNvWXViTFVucmFZUm95VnhMYmFjRDRQaGlwWGVTY3c5b1lCNTM3N2VJUzNMRW9kcWo5TGJtMG9iemFyWDRCS3hWd1VwZTdfR2pIWFVueXhZamMyRGR6MlJlMVBxU1A2ZG01UzhWWVBMSUIyX1FqY2NPaDQtLTcxZU9wbXRpMGxOMms?oc=5",
       "source_name": "TechCrunch",
       "published_at": "2026-09-28T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 25,
+      "amount_usd_m": 34.5,
       "confidence": 0.81,
       "location": {
         "city": "San Francisco",
@@ -632,28 +698,6 @@
         "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1847451909",
-      "vc_id": "future",
-      "vc_name": "Future Ventures",
-      "company": "Boston startup Modulate",
-      "title": "Boston startup Modulate raises $25 million for voice AI models — TechCrunch - UA.NEWS",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTE9fMndaVTJqM3g3R1RCQzI0eW52b3JaWF9tc21rQ1lDQWwzMW9TcUhwSTdqTjhHM25CRTJrRUZCRWxqUnRQY25IcmhrekRWZm5QWm5QNXZEcWhJYW53TDZxRUlqM05oUUIwZGFRTnJlTnFsa0I4OVNaNGc2WjB5N2ZJbXB4WXlLTUdzNG1hTzQ1QmcxYTlHZXRaaEpCN1liT0NMc00taVQ2ejdnWEE?oc=5",
-      "source_name": "UA.NEWS",
-      "published_at": "2026-09-28T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.93,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
-        "method": "city_keyword",
-        "confidence": 0.68
       }
     },
     {
@@ -894,28 +938,6 @@
         "state": "CA",
         "lat": 34.0195,
         "lon": -118.4912,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_565987276",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Unknown",
-      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJ4Rm1xU3l0ZmZpa1BiN21DekVIQWlBaHVLbG9vX2JPRENVRHduNHVNSFpLb0VTR1ZkUkJMdVlmZlFxUWpVM3c1MTFkSDBSWTFWMHE0a1U3dFBGb3plU0QtREZmXzVtUGV3MVVxYXgzLXlJWHpBN2dqNy01R2VONWFQV3dFQ1ZrRm5nTVZXZmN6OG53bUF2d2VFd0lVcDlTaHIwT2Vra0dyNV9xaFJtczBEeDBkNi12TXRKNGVHRVJKRUY3SDhv?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1170,14 +1192,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 45.51,
+      "deal_count": 13,
+      "weighted_score": 52.01,
       "latest_at": "2026-10-09T10:21:00.000Z",
-      "amount_usd_m_total": 1685.6,
+      "amount_usd_m_total": 2695.1,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 11
+          "count": 12
         },
         {
           "name": "Other",
@@ -1186,16 +1208,16 @@
       ],
       "top_vcs": [
         {
+          "name": "Benchmark",
+          "count": 4
+        },
+        {
           "name": "First Round Capital",
           "count": 3
         },
         {
           "name": "Future Ventures",
-          "count": 3
-        },
-        {
-          "name": "Benchmark",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -1245,9 +1267,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 8,
-      "weighted_score": 33.2,
+      "weighted_score": 37.45,
       "latest_at": "2026-10-08T07:00:00.000Z",
-      "amount_usd_m_total": 9154,
+      "amount_usd_m_total": 10154,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1314,14 +1336,14 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 5,
-      "weighted_score": 17.88,
-      "latest_at": "2026-09-28T07:00:00.000Z",
-      "amount_usd_m_total": 1717,
+      "deal_count": 4,
+      "weighted_score": 14.53,
+      "latest_at": "2026-09-22T07:00:00.000Z",
+      "amount_usd_m_total": 1692,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Climate & Energy",
@@ -1338,11 +1360,11 @@
           "count": 2
         },
         {
-          "name": "Future Ventures",
+          "name": "Spark Capital",
           "count": 1
         },
         {
-          "name": "Spark Capital",
+          "name": "NextView Ventures",
           "count": 1
         }
       ]
@@ -1390,6 +1412,33 @@
         {
           "name": "Dell Technologies Capital",
           "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 2,
+      "weighted_score": 6.59,
+      "latest_at": "2026-10-06T15:34:46.000Z",
+      "amount_usd_m_total": 155.2,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
+          "count": 1
+        },
+        {
+          "name": "Gradient Ventures",
+          "count": 1
         }
       ]
     },
@@ -1481,29 +1530,6 @@
       "top_vcs": [
         {
           "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 1,
-      "weighted_score": 2.6,
-      "latest_at": "2026-10-06T12:01:00.000Z",
-      "amount_usd_m_total": 5.2,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Gradient Ventures",
           "count": 1
         }
       ]
