@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:47:27.664Z",
+  "generated_at": "2026-10-14T11:45:19.677Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -7,15 +7,44 @@
     "concurrency": 8
   },
   "meta": {
-    "requests_succeeded": 100,
-    "requests_failed": 0,
+    "requests_succeeded": 93,
+    "requests_failed": 7,
     "scraped_deals": 51,
     "total_deals": 51,
     "demo_mode": false,
     "deals_with_coordinates": 51,
-    "runtime_ms": 3851,
+    "runtime_ms": 4429,
     "note": "",
-    "error_sample": []
+    "error_sample": [
+      {
+        "vc": "accel",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "andreessen-horowitz",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "sequoia-capital",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "bessemer",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "general-catalyst",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "khosla",
+        "error": "fetch failed"
+      },
+      {
+        "vc": "founders-fund",
+        "error": "fetch failed"
+      }
+    ]
   },
   "deals": [
     {
@@ -278,28 +307,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_348774901",
-      "vc_id": "capitalg",
-      "vc_name": "CapitalG",
-      "company": "Supabase",
-      "title": "Supabase Announces $150M in New Funding and Turso Acquisition - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa29haWdVWlhhbWNGRjlvVElkTHZSbXFqQ2JOVnpUV2dSa2tHWnBHWVQyYzJSMU5XRlFLclVsaVdyODRiTldCT3RiQ09fRjd4WUpyeE45Tk1BX2V6VDNvUDhmMFlCUTNzd0pzNmVkclhhTU54RWx0MG42Mm5uRDhvS2d2RUlRUmpSUkdqeHpkMGdfeWNTNVY0RUU5QU1CcGM?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-10-06T15:34:46.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 150,
-      "confidence": 0.81,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -569,28 +576,6 @@
       }
     },
     {
-      "id": "deal_1953257236",
-      "vc_id": "sequoia-capital",
-      "vc_name": "Sequoia Capital",
-      "company": "Viral AI agent Instinct",
-      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-09-28T07:00:00.000Z",
-      "stage": "Series C",
-      "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1887940842",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -603,6 +588,28 @@
       "sector": "AI & ML",
       "amount_usd_m": 1000,
       "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_507482875",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Viral AI agent Instinct",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR19WOTV3NHNLQl9CRHJUQXRwTkdzSFJJN2lBUTBsek1KSk1nQnpfS2N3RXQyNUNrQnVELWZPSGF2RENQbE9QaWQ0dEphQWhTeEstbWU0Sk1ZczV4SW1oX0lsMjd3LVNmXzAtaXBwRWlKUnUxcHhHVTRkS1RsMG41cDdqOU9yZFJ3QXRpSTlRMmk3aHVjTXQ1RDVBcnI?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-09-28T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.96,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -877,6 +884,28 @@
       }
     },
     {
+      "id": "deal_1482093204",
+      "vc_id": "battery",
+      "vc_name": "Battery Ventures",
+      "company": "Unknown",
+      "title": "Hogan Lovells Cadwalader advises Crescent Capital Group on financing Battery Ventures’ investment in Sustainability at Work Group - Legal Desire",
+      "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYTlHWDQzTGlpTmZZOEh2U21WUVlNU2RCYUtXdklLSjRVeERrZURkWWluZUxOalA2UjBrWFFETUxmVU9ubHhSYm9aMm1Ibkl1d1hRUHFPU3QwQ0hRYkRaakNBMEkzclhESExRbXB0UVJqaExWRWRnbFZJRnp0MFZqRnZHNUpscUZmMU5PeFliUnIxdTJuOTFyclJnbTJfQTA4cHRyN1BXVXhmMDZBVmxJUWJ2VTd2ak1BZHVFcXFybHRrZ2NieWRtX2xST3loalVCWV9uRzlSZG4zTHYybnFlVUNmVW83VTk5?oc=5",
+      "source_name": "Legal Desire",
+      "published_at": "2026-09-21T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1695811277",
       "vc_id": "upfront",
       "vc_name": "Upfront Ventures",
@@ -921,28 +950,6 @@
       }
     },
     {
-      "id": "deal_305076114",
-      "vc_id": "general-catalyst",
-      "vc_name": "General Catalyst",
-      "company": "Unknown",
-      "title": "Latham Advises General Catalyst and a16z on Mistral AI’s €3 Billion Series D Funding Round - Legal Desire",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUdvaXlLeXdDS2hmdFZJaUloWWNNdEdzRzhtMmE1R0l3VUtDQWxiNmRqbzNjYnIya2pjOUhrdFdZYmFLejJSR2JBZXZ3NUpmY2xDZlV3MXpWWmpFU0lmUVRSckg4OFlOWXNsd192MHNxcGkwQ21yemw1MTQtRE9vSDJocEJJWlZnSThYUUZtS2JGTHl4b3F0UmEycU0xMnlVTmlaVlVaQi1kQm90Rl8yaWk5RlY?oc=5",
-      "source_name": "Legal Desire",
-      "published_at": "2026-09-17T07:00:00.000Z",
-      "stage": "Series D+",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.66,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1857544741",
       "vc_id": "tcv",
       "vc_name": "TCV",
@@ -960,6 +967,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_477652130",
+      "vc_id": "scale-vp",
+      "vc_name": "Scale Venture Partners",
+      "company": "Unknown",
+      "title": "Latham & Watkins Advises Thatch on US$108 Million Series C - Legal Desire",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdTV3Nlc1dVRLWjlFTWdmZDNla3ZWdTRteE1iOXNMajlDdkhHU0tnWGk2aFNaSTNWOFpkRm10M0lnNjNtV0lERlQ3SHFqSFh6Z2MtejNpTldsSUNaVmNfMjRwSllobjUyWS01dUZOR3pCQVBZYlRidTZJMTE5eHVjMG9GQXVfRG8?oc=5",
+      "source_name": "Legal Desire",
+      "published_at": "2026-09-17T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "Other",
+      "amount_usd_m": 108,
+      "confidence": 0.76,
+      "location": {
+        "city": "Foster City",
+        "state": "CA",
+        "lat": 37.5585,
+        "lon": -122.2711,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1119,14 +1148,14 @@
       }
     },
     {
-      "id": "deal_175522056",
+      "id": "deal_1513202478",
       "vc_id": "qed",
       "vc_name": "QED Investors",
       "company": "Flam",
-      "title": "Flam Raises $40 Million Series B to Scale AI Interactive Content - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUmZPLTE4dXF4dTFwbXFMMldiS1lheHNVblg5S1ZTb191TVJZOURQQzRTdGZZZjFETHJ0c0JyUHEwMDVnZGtPMjdwaDdyenFqSDZTZTFjM2xxV21vY3NmQ1NCSm5pZklRZmtkOW1SRGNLbGVsdTZFSG1odTgydE13bldPTjVTOWVmT3JaYVltNkF5dExtTnJpaUVpU05KQzN1OUZkQ2lta1BpeS12a2h2NzZINGVoZjQzQ1Bpc3U3dUw?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-09-14T07:00:00.000Z",
+      "title": "Flam Raises $40 Million Series B Led by QED Investors as India, Overseas Business Hits 50:50 Split - https://ascendants.in/",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOalJ4ZU9jUUhRTW43NjY1OWtyYk5mZmlQZFVnRldnQnVLNUs5SzJzc1JOdERVX29oaVJvYlNiZUU1NFZab21hUTQ0TlZjVnk3VVZoQ2Rjd0pXbDVqVTBpc3pXR3AyRXY4NU5VZGRvU2ptZUFnOVMxUjVqWmhva3E2cjZIWDRtQ0pGam1xUGozQllySWowVlExSG51ZmFMcXdGc1E?oc=5",
+      "source_name": "https://ascendants.in/",
+      "published_at": "2026-09-15T07:00:00.000Z",
       "stage": "Series B",
       "sector": "AI & ML",
       "amount_usd_m": 40,
@@ -1148,14 +1177,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 14,
-      "weighted_score": 48.16,
+      "deal_count": 15,
+      "weighted_score": 54.52,
       "latest_at": "2026-10-12T17:57:11.000Z",
-      "amount_usd_m_total": 1665.2,
+      "amount_usd_m_total": 2665.2,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Other",
@@ -1164,51 +1193,16 @@
       ],
       "top_vcs": [
         {
+          "name": "Benchmark",
+          "count": 4
+        },
+        {
           "name": "Future Ventures",
           "count": 3
         },
         {
           "name": "First Round Capital",
           "count": 3
-        },
-        {
-          "name": "Benchmark",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 8,
-      "weighted_score": 37.45,
-      "latest_at": "2026-10-08T07:00:00.000Z",
-      "amount_usd_m_total": 10154,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 7
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Felicis",
-          "count": 1
-        },
-        {
-          "name": "New Enterprise Associates",
-          "count": 1
-        },
-        {
-          "name": "Amplify Partners",
-          "count": 1
         }
       ]
     },
@@ -1252,6 +1246,41 @@
       ]
     },
     {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 7,
+      "weighted_score": 31.09,
+      "latest_at": "2026-10-08T07:00:00.000Z",
+      "amount_usd_m_total": 9154,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 6
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Felicis",
+          "count": 1
+        },
+        {
+          "name": "New Enterprise Associates",
+          "count": 1
+        },
+        {
+          "name": "Amplify Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
@@ -1287,6 +1316,41 @@
       ]
     },
     {
+      "key": "Boston,MA",
+      "city": "Boston",
+      "state": "MA",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "deal_count": 4,
+      "weighted_score": 14.63,
+      "latest_at": "2026-09-22T07:00:00.000Z",
+      "amount_usd_m_total": 1692,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 3
+        },
+        {
+          "name": "Climate & Energy",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Bain Capital Ventures",
+          "count": 2
+        },
+        {
+          "name": "Battery Ventures",
+          "count": 1
+        },
+        {
+          "name": "Spark Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Alexandria,VA",
       "city": "Alexandria",
       "state": "VA",
@@ -1306,37 +1370,6 @@
         {
           "name": "QED Investors",
           "count": 3
-        }
-      ]
-    },
-    {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 3,
-      "weighted_score": 12.52,
-      "latest_at": "2026-09-22T07:00:00.000Z",
-      "amount_usd_m_total": 1692,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        },
-        {
-          "name": "Climate & Energy",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Bain Capital Ventures",
-          "count": 2
-        },
-        {
-          "name": "Spark Capital",
-          "count": 1
         }
       ]
     },
@@ -1364,51 +1397,24 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
+      "key": "Foster City,CA",
+      "city": "Foster City",
       "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 6.59,
-      "latest_at": "2026-10-06T15:34:46.000Z",
-      "amount_usd_m_total": 155.2,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "CapitalG",
-          "count": 1
-        },
-        {
-          "name": "Gradient Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
+      "lat": 37.5585,
+      "lon": -122.2711,
       "deal_count": 1,
-      "weighted_score": 4.06,
+      "weighted_score": 5.2,
       "latest_at": "2026-09-17T07:00:00.000Z",
-      "amount_usd_m_total": 0,
+      "amount_usd_m_total": 108,
       "top_sectors": [
         {
-          "name": "AI & ML",
+          "name": "Other",
           "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "General Catalyst",
+          "name": "Scale Venture Partners",
           "count": 1
         }
       ]
@@ -1455,6 +1461,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.6,
+      "latest_at": "2026-10-06T12:01:00.000Z",
+      "amount_usd_m_total": 5.2,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Gradient Ventures",
           "count": 1
         }
       ]
