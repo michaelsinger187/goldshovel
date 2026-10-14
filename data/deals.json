@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:39:33.285Z",
+  "generated_at": "2026-10-14T04:47:27.664Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 50,
-    "total_deals": 50,
+    "scraped_deals": 51,
+    "total_deals": 51,
     "demo_mode": false,
-    "deals_with_coordinates": 50,
-    "runtime_ms": 4668,
+    "deals_with_coordinates": 51,
+    "runtime_ms": 3851,
     "note": "",
     "error_sample": []
   },
@@ -239,14 +239,14 @@
       }
     },
     {
-      "id": "deal_481525904",
+      "id": "deal_482554664",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
-      "company": "Healthleap",
-      "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaE1WZ0JoOGdUdTVRRVdtUVNSS3lmZWtOS3RoQy1POFVfMmtOV1l0WlJJUjZpQk0yUkcwUkY3UDV0eHZqb21VNXpQX3RPeWpDdDdzUnBCQV9wNnFpVjloS2NjX0hJbWh4QlRXcHRIYzkxYU9wVjZNWmh3SjhYVlZwQ2ltRlJKaE5lWXJ4Yl8yQUFGU0NyYnR4VWxWaWx3VHZkalZudXFnRnFwZExjLUJsX1dYR1IwNWdFU3hXQXFCeVM?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-10-07T15:07:08.000Z",
+      "company": "HealthLeap",
+      "title": "HealthLeap Raises $38M to Scale AI Patient Monitoring - The Tech Buzz",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGRnbkFDUlBsZHkxczhPdHl4ZllFTUN5UjUwdFB5TUY1cEF3dHdfX2liS21sR2tERFl1VjQ4ZVlpNnhOTmVrRVNaWGdZbUtqZWNVTVBRcC1yQkVpaU5MbHVUT1FURDh0OG1PdnRPQVd5bTJaNEZScERIeTBMTlAyUHlSTVJrdjg1TUU5Rm5R?oc=5",
+      "source_name": "The Tech Buzz",
+      "published_at": "2026-10-07T15:38:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 38,
@@ -833,6 +833,28 @@
       }
     },
     {
+      "id": "deal_737561756",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "Unknown",
+      "title": "Ex-Anthropic Staffers’ Self-Improving AI Startup in Talks to Raise at $5 Billion Value - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNEttTkpIMmxhV3RwcFQ5R2pMTUV0NUpPNmhBbUx6bWpNZFpkMmJhWE9ka29ObnNZLW1MTS1ETHZITmNJVjBzR2tNVWd6bndyYndPTTA0MXB0Y2hCNzhQbFZNQU5HM1FnZkx2MFAzQ3h1LW9CM0xGUW0zVkI2MU9QYm1GRGhtb2xPU1hFVDU4OWlVeXlzeG44VkU0RFM0RWJ6OEF2LVhzeW5CS3hBY0dId3pUXzJFbG92cHNYeA?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-09-22T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 5000,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_825289754",
       "vc_id": "bcv",
       "vc_name": "Bain Capital Ventures",
@@ -1156,6 +1178,41 @@
       ]
     },
     {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 8,
+      "weighted_score": 37.45,
+      "latest_at": "2026-10-08T07:00:00.000Z",
+      "amount_usd_m_total": 10154,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 7
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Felicis",
+          "count": 1
+        },
+        {
+          "name": "New Enterprise Associates",
+          "count": 1
+        },
+        {
+          "name": "Amplify Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "New York,NY",
       "city": "New York",
       "state": "NY",
@@ -1190,41 +1247,6 @@
         },
         {
           "name": "Venrock",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 7,
-      "weighted_score": 32.04,
-      "latest_at": "2026-10-08T07:00:00.000Z",
-      "amount_usd_m_total": 5154,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 6
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Felicis",
-          "count": 1
-        },
-        {
-          "name": "New Enterprise Associates",
-          "count": 1
-        },
-        {
-          "name": "Amplify Partners",
           "count": 1
         }
       ]
