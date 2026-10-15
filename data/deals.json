@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:37:17.244Z",
+  "generated_at": "2026-10-15T04:31:21.111Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,24 +9,24 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 52,
-    "total_deals": 52,
+    "scraped_deals": 53,
+    "total_deals": 53,
     "demo_mode": false,
-    "deals_with_coordinates": 52,
-    "runtime_ms": 4739,
+    "deals_with_coordinates": 53,
+    "runtime_ms": 4485,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
-      "id": "deal_335647417",
+      "id": "deal_1132569632",
       "vc_id": "first-round",
       "vc_name": "First Round Capital",
       "company": "Unknown",
       "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
       "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
       "source_name": "Fierce Healthcare",
-      "published_at": "2026-10-14T18:56:22.000Z",
+      "published_at": "2026-10-15T00:56:23.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -41,14 +41,14 @@
       }
     },
     {
-      "id": "deal_602908839",
+      "id": "deal_194013376",
       "vc_id": "felicis",
       "vc_name": "Felicis",
       "company": "Unknown",
       "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
       "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
       "source_name": "Fierce Healthcare",
-      "published_at": "2026-10-14T18:56:22.000Z",
+      "published_at": "2026-10-15T00:56:23.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -58,6 +58,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_400723275",
+      "vc_id": "uncork",
+      "vc_name": "Uncork Capital",
+      "company": "Startup Evos",
+      "title": "Startup Evos Raises Funding To Target Industrial Businesses - Forbes",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQjcxQnJkNnQyZXZfNk5TS0tGaXVSeEZNdDlMQzJXR0lOTl9FYV9BU2tLeFVIb0lVU3JTSElZc0xKd3JEUzRUTE5lLW8taHNXMzRWRDhEQTc2WGwwZHppY3FDZ1dZZ2tvd0xBRl9VVDRjcmkxc2M5QXl6U0d6NHV0QnV4Vnp0dV93RTUtcUlINHdGQ19Zc0RsVDVtak9EdzJuWnNpVHZ1bm9ILWQwMHlWR0NLMA?oc=5",
+      "source_name": "Forbes",
+      "published_at": "2026-10-14T12:15:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.61,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -146,28 +168,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1232289424",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Unknown",
-      "title": "Bond investors are starting to say no to the AI debt binge - Startup Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUjVnRlhEempCcWQ0RjRrN21Wdmt1bU1Dank5QU10RVFVUWZkcUwtd0RoZVhLVzNPWENUcmtqVVpKNndTQzhzeGo4VmRaa3hWNnNRTEZPMVRTLWplOThBY2pQWGdyR09XWFZEQ1kxaDNUTFN0elZ1MEdnajBESUhiLU5iMkRNSG1SMjZiVWZXTQ?oc=5",
-      "source_name": "Startup Fortune",
-      "published_at": "2026-10-10T13:35:17.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -283,28 +283,6 @@
       }
     },
     {
-      "id": "deal_582281659",
-      "vc_id": "gradient",
-      "vc_name": "Gradient Ventures",
-      "company": "These young founders just",
-      "title": "These young founders just raised $5.2 million from Gradient to teach AI agents how companies work - Business Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUV93akU3eGJkcGFveTMzNExlZXRWaFN0YVlRRWlzT1g4eTdwdDRIcV9oWW05emlRNVpGX3BMZXFWLU1GUHpra1Y5dU5NdmZMamlPa0RyTEZKV0s2bnFHYk1xV2d6V2RRMHBaVXhLZVBvYmljV1ZXQkJKbXFpREJtX0tYS1ZNUWRjQXpYWlNVRVdRdUdNdldiVXQzcEU0bzA5b2E4Zw?oc=5",
-      "source_name": "Business Insider",
-      "published_at": "2026-10-06T12:01:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 5.2,
-      "confidence": 0.81,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_2127249385",
       "vc_id": "venrock",
       "vc_name": "Venrock",
@@ -366,6 +344,50 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1175194351",
+      "vc_id": "ribbit",
+      "vc_name": "Ribbit Capital",
+      "company": "Mike Cagney’s Navra",
+      "title": "Mike Cagney’s Navra raises $19M Series A led by Ribbit Capital - Crypto Briefing",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSUVRTUU14WkJJMlVKWE5IZDhFa2dxTWlQSUt3emh5ZC1NZEpzRFZOSVBRLXNqOGd0YmVKV2lXYlAxLWxHZ1pOSTJNbUV1dTUwam13OGZoMVU5NXkwSzlIUDJZWGx3OExYaGI3Z1RyMWItc1JkT0Jz?oc=5",
+      "source_name": "Crypto Briefing",
+      "published_at": "2026-10-06T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 19,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_966414572",
+      "vc_id": "gradient",
+      "vc_name": "Gradient Ventures",
+      "company": "These young founders just",
+      "title": "These young founders just raised $5.2 million from Gradient to teach AI agents how companies work - Business Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUV93akU3eGJkcGFveTMzNExlZXRWaFN0YVlRRWlzT1g4eTdwdDRIcV9oWW05emlRNVpGX3BMZXFWLU1GUHpra1Y5dU5NdmZMamlPa0RyTEZKV0s2bnFHYk1xV2d6V2RRMHBaVXhLZVBvYmljV1ZXQkJKbXFpREJtX0tYS1ZNUWRjQXpYWlNVRVdRdUdNdldiVXQzcEU0bzA5b2E4Zw?oc=5",
+      "source_name": "Business Insider",
+      "published_at": "2026-10-06T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 5.2,
+      "confidence": 0.81,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1171,8 +1193,8 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 14,
-      "weighted_score": 51.3,
-      "latest_at": "2026-10-14T18:56:22.000Z",
+      "weighted_score": 51.4,
+      "latest_at": "2026-10-15T00:56:23.000Z",
       "amount_usd_m_total": 2640.2,
       "top_sectors": [
         {
@@ -1194,7 +1216,7 @@
           "count": 3
         },
         {
-          "name": "Future Ventures",
+          "name": "Uncork Capital",
           "count": 2
         }
       ]
@@ -1246,7 +1268,7 @@
       "lon": -122.1817,
       "deal_count": 8,
       "weighted_score": 35.6,
-      "latest_at": "2026-10-14T18:56:22.000Z",
+      "latest_at": "2026-10-15T00:56:23.000Z",
       "amount_usd_m_total": 5209,
       "top_sectors": [
         {
@@ -1279,14 +1301,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 6,
-      "weighted_score": 21.82,
+      "deal_count": 7,
+      "weighted_score": 25.68,
       "latest_at": "2026-10-08T23:25:00.000Z",
-      "amount_usd_m_total": 354,
+      "amount_usd_m_total": 373,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Web3 & Crypto",
@@ -1305,6 +1327,10 @@
         {
           "name": "Sapphire Ventures",
           "count": 2
+        },
+        {
+          "name": "Ribbit Capital",
+          "count": 1
         }
       ]
     },
@@ -1512,7 +1538,7 @@
       "lon": -122.0839,
       "deal_count": 1,
       "weighted_score": 2.6,
-      "latest_at": "2026-10-06T12:01:00.000Z",
+      "latest_at": "2026-10-06T07:00:00.000Z",
       "amount_usd_m_total": 5.2,
       "top_sectors": [
         {
