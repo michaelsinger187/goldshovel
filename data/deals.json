@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T16:34:06.913Z",
+  "generated_at": "2026-10-16T21:02:21.016Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 54,
-    "total_deals": 54,
+    "scraped_deals": 51,
+    "total_deals": 51,
     "demo_mode": false,
-    "deals_with_coordinates": 54,
-    "runtime_ms": 4498,
+    "deals_with_coordinates": 51,
+    "runtime_ms": 5129,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_2093681532",
+      "vc_id": "crosslink",
+      "vc_name": "Crosslink Capital",
+      "company": "Unknown",
+      "title": "The Week’s 10 Biggest Funding Rounds: Spending Contracts For Latest AI-Driven Startup Batch - Crunchbase News",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdk54TThQUXNsaUlzMVYxQXJuajFXYTktc0ZnZmhWMjNsMjlUZ0JVaUxCRTBFYzkxS0dPUjZJM2thZldjWm9CZ2dPXzB6ajBxc0p1c2ZESjhaMVNTMTRrcUhvM2pjTG4tY2xKcG5QVUVzaVl5OVVIVVg0eF8tS2VJaWx6OFVnb29DSXdZNzl6QjZfREtpVVVCU0k4cktWY0k?oc=5",
+      "source_name": "Crunchbase News",
+      "published_at": "2026-10-16T17:57:38.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_400723275",
       "vc_id": "uncork",
@@ -80,28 +102,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1774367644",
-      "vc_id": "bcv",
-      "vc_name": "Bain Capital Ventures",
-      "company": "Unknown",
-      "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-      "source_name": "Fierce Healthcare",
-      "published_at": "2026-10-14T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -327,28 +327,6 @@
       }
     },
     {
-      "id": "deal_2127249385",
-      "vc_id": "venrock",
-      "vc_name": "Venrock",
-      "company": "KymaThera",
-      "title": "KymaThera Announces $80 Million Series B Financing to Advance K-1728, a Next-Generation Pan-Mutant Selective PI3Kα Inhibitor, for Cancer and Vascular Malformations - PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPdFB1Vy0xYWVNalhvc0wtRVN6dkNPeV9lOC10NDdrZ0lTU2xEV3ZqUUtVb3I3eU5tTGlscDBJNWZXRTV6WUZYQUE2SFRnNnRac3dkVGpTWVRwNWF1NUx4Q3V2cVNSOHZvaXFqS2xtNG5RSHJIVUZzaU9JYWJ0M3UxdzFvVU5vR2x3UVVFcjduSndMSDIxVjJPZ3pNMlV2OEltUGZfM3RZRFVjblJWZVUxY2JJa2NTT2RENTFTc1lRTnhHU1lMTjlJZUJqVGNmS0pldHJwcTdOTHJrWUt2ei1ySG1ITkVkR3JyRy1wN1FDbHA2MjlLQWhnc3Y1SG93ZFpmQlZiVjVSa2ZHWU80U2lxS29PYTZQbXhsb1AyemFBSFdIa0dWS2VhdkVQYXFLMUxMQzZRaTQyZUNqaEk?oc=5",
-      "source_name": "PR Newswire",
-      "published_at": "2026-10-06T12:00:00.000Z",
-      "stage": "Series B",
-      "sector": "Other",
-      "amount_usd_m": 80,
-      "confidence": 0.86,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1566041657",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -559,28 +537,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 34.5,
       "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1306151176",
-      "vc_id": "signalfire",
-      "vc_name": "SignalFire",
-      "company": "Outmarket AI",
-      "title": "Outmarket AI Raises $34.5M Series B to Solidify Position as the #1 AI Platform for Insurance - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQnVRTkhqSFd6Qk9zRXFiSFpfeFpKV05iZzdpTmk0ZEx3S3c2NkZNbEdtNjFGaW1Wck9EM2loMXZZUjZYdXdIOU1xOEdfTzRGdkVKWHZfSWN1N1Z1bTFTT3N6ZXdKMXFTN24weDlCZ3ZoUjBSNHFERDREYjJxNnhnOFdVUW1XTGZUU1pGUGZka3Z5Ty1wc1VTbWhrTG1RcUpxakoyZVZpVkpwOG5DclpwM3NhYVZ2NzJLTzhWOTNVT1hubkJCU0Vr?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-09-29T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 34.5,
-      "confidence": 0.96,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -1009,28 +965,6 @@
       }
     },
     {
-      "id": "deal_672236136",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "AI Cloud Startup Verda",
-      "title": "AI Cloud Startup Verda Raises $189 Million in Funding Round - Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFdiaVpkcmdRN0d2bHhiYkFTTThRSUhJZ1h5ODFrcnBzREJiLUZfLVlRUV84X1VYNEQzWmZmY2xvcm9FUGNPSDZwXzh3clFiVnctT0RraW5KTExDRlVGdHNEWVh5TXJMaXE5bHZEbFhHX2xBNkxoZ0R1YkRtZWkwUW9sNDR6VkVnT0UwU0g4YmEzcm9xMDFMS3pBSko2RDZiR3puUDRiaUx0UlVFRVE?oc=5",
-      "source_name": "Bloomberg.com",
-      "published_at": "2026-09-22T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 189,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1482093204",
       "vc_id": "battery",
       "vc_name": "Battery Ventures",
@@ -1215,9 +1149,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 16,
-      "weighted_score": 60.68,
-      "latest_at": "2026-10-14T12:15:00.000Z",
-      "amount_usd_m_total": 2741.3,
+      "weighted_score": 58.28,
+      "latest_at": "2026-10-16T17:57:38.000Z",
+      "amount_usd_m_total": 2706.8,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1284,10 +1218,10 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 33.33,
-      "latest_at": "2026-10-06T12:00:00.000Z",
-      "amount_usd_m_total": 6235,
+      "deal_count": 6,
+      "weighted_score": 28.57,
+      "latest_at": "2026-10-06T07:00:00.000Z",
+      "amount_usd_m_total": 6155,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -1295,7 +1229,7 @@
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -1306,10 +1240,6 @@
         {
           "name": "Insight Partners",
           "count": 2
-        },
-        {
-          "name": "Venrock",
-          "count": 1
         }
       ]
     },
@@ -1377,51 +1307,24 @@
       "state": "MA",
       "lat": 42.3601,
       "lon": -71.0589,
-      "deal_count": 3,
-      "weighted_score": 8.4,
-      "latest_at": "2026-10-14T07:00:00.000Z",
+      "deal_count": 2,
+      "weighted_score": 6.39,
+      "latest_at": "2026-09-22T07:00:00.000Z",
       "amount_usd_m_total": 52,
       "top_sectors": [
         {
           "name": "AI & ML",
           "count": 2
-        },
-        {
-          "name": "Other",
-          "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "Bain Capital Ventures",
-          "count": 2
+          "count": 1
         },
         {
           "name": "Battery Ventures",
           "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 2,
-      "weighted_score": 6.3,
-      "latest_at": "2026-09-25T09:03:32.000Z",
-      "amount_usd_m_total": 189,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
-          "count": 2
         }
       ]
     },
@@ -1582,6 +1485,29 @@
       "top_vcs": [
         {
           "name": "Gradient Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 1,
+      "weighted_score": 2.21,
+      "latest_at": "2026-09-25T09:03:32.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
           "count": 1
         }
       ]
