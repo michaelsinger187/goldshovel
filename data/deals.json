@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:58:25.603Z",
+  "generated_at": "2026-10-18T15:48:23.441Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 51,
-    "total_deals": 51,
+    "scraped_deals": 50,
+    "total_deals": 50,
     "demo_mode": false,
-    "deals_with_coordinates": 51,
-    "runtime_ms": 4283,
+    "deals_with_coordinates": 50,
+    "runtime_ms": 4387,
     "note": "",
     "error_sample": []
   },
@@ -234,28 +234,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1864804234",
-      "vc_id": "dcvc",
-      "vc_name": "DCVC",
-      "company": "TypeSafe, a Judgment-Specialized AI Startup,",
-      "title": "TypeSafe, a Judgment-Specialized AI Startup, Raises ¥87 Billion Led by a16z at ¥1.2 Trillion Valuation - BigGo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xa3h5MDZ0NjJ6SEloSWR4dm9QdExuLXlrMlRVdHpNRTV2WHc5LUJVdVhCR2dVTnJ3TlkyWnFUTG5Od01faDdzYVF0aUhkOVpVOGpYWmtjWmRQcWNKVmJ5QmVJZllPaV84RVhhQXBCN1lLQ0dObHc?oc=5",
-      "source_name": "BigGo Finance",
-      "published_at": "2026-10-09T21:35:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1057,9 +1035,9 @@
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
       "company": "Unknown",
-      "title": "Ex-Anthropic Staffers’ Self-Improving AI Startup in Talks to Raise at $5 Billion Value - Bloomberg.com",
+      "title": "Ex-Anthropic Staffers’ Self-Improving AI Startup in Talks to Raise at $5 Billion Value - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNEttTkpIMmxhV3RwcFQ5R2pMTUV0NUpPNmhBbUx6bWpNZFpkMmJhWE9ka29ObnNZLW1MTS1ETHZITmNJVjBzR2tNVWd6bndyYndPTTA0MXB0Y2hCNzhQbFZNQU5HM1FnZkx2MFAzQ3h1LW9CM0xGUW0zVkI2MU9QYm1GRGhtb2xPU1hFVDU4OWlVeXlzeG44VkU0RFM0RWJ6OEF2LVhzeW5CS3hBY0dId3pUXzJFbG92cHNYeA?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-09-22T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -1307,14 +1285,14 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 8.08,
-      "latest_at": "2026-10-09T21:35:00.000Z",
+      "deal_count": 2,
+      "weighted_score": 5.87,
+      "latest_at": "2026-10-06T07:00:00.000Z",
       "amount_usd_m_total": 19,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 1
         },
         {
           "name": "Other",
@@ -1322,10 +1300,6 @@
         }
       ],
       "top_vcs": [
-        {
-          "name": "DCVC",
-          "count": 1
-        },
         {
           "name": "Ribbit Capital",
           "count": 1
