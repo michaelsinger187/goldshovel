@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T04:24:58.931Z",
+  "generated_at": "2026-10-18T10:58:25.603Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 52,
-    "total_deals": 52,
+    "scraped_deals": 51,
+    "total_deals": 51,
     "demo_mode": false,
-    "deals_with_coordinates": 52,
-    "runtime_ms": 4115,
+    "deals_with_coordinates": 51,
+    "runtime_ms": 4283,
     "note": "",
     "error_sample": []
   },
@@ -322,6 +322,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2061679184",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "HealthLeap",
+      "title": "HealthLeap Raises $38M to Scale AI Patient Monitoring - The Tech Buzz",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGRnbkFDUlBsZHkxczhPdHl4ZllFTUN5UjUwdFB5TUY1cEF3dHdfX2liS21sR2tERFl1VjQ4ZVlpNnhOTmVrRVNaWGdZbUtqZWNVTVBRcC1yQkVpaU5MbHVUT1FURDh0OG1PdnRPQVd5bTJaNEZScERIeTBMTlAyUHlSTVJrdjg1TUU5Rm5R?oc=5",
+      "source_name": "The Tech Buzz",
+      "published_at": "2026-10-07T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 38,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1117,50 +1139,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1573153999",
-      "vc_id": "voyager",
-      "vc_name": "Voyager Capital",
-      "company": "Rapta",
-      "title": "Rapta Raises $8M in Funding to Expand AI Quality Assurance for Defense Manufacturing - AI Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRHVQd3JRd0lDeVFGSk5QeEZQcHYxXzM3V0V4LXNGTEdPeVN0TmZfZkczaU85dkVBTGxja0Y0QXZLdVNwLVd1YzZjeHBiMGlfdkRrOE5FQV9LTDJaRkxsa0lKRGJuMVpKcmxwcG1kT042c250Q3hpVmJGYmNzVXpncFdqV0MtdWpDZkFOaGQyMnR0UC1relkwZTZhZHJaemZJVlYwSmN2bGtLYURTOFdfLWM0U2ZpcVhSZE1XOU9B?oc=5",
-      "source_name": "AI Insider",
-      "published_at": "2026-09-18T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 8,
-      "confidence": 0.81,
-      "location": {
-        "city": "Seattle",
-        "state": "WA",
-        "lat": 47.6062,
-        "lon": -122.3321,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_805808380",
-      "vc_id": "m12",
-      "vc_name": "M12",
-      "company": "AI startup Mantic",
-      "title": "AI startup Mantic raises $25 million for superhuman forecasting - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQW9XS2FtcHhIZWFuWWYtY1poZjNKa0FFaHJtZGhLWGlPODZwRy0wMGhCTVh6VDVxNW5QZkJ4Q0J5dDh3Q25MWjVXeWFVdjJkck9yRXExSmgwZ3VWYS1OVXk4RVZxc0lWQjl1aFJOYWVwODRYVnh2RHFrZ0FUMzQyQU55Zy03WlJEWENxWTl2ajg2cl9QMFZ0RnB0emtrY0dqZ2EtWS1vXzJoWmJkVU9MVGdLWGJtazB0LV9LbTBRTWtyRFBqbFdjZ2Z30gHPAUFVX3lxTE44NDRmQnRrTW5WeTZodXdEbGFxWUdNWEc4T1FpcjJUMHdUZ2x2dFJ1V2g5N0J5NVUwaHRHUGxoUzlmTHZUZGVJWjZhQVRjdnJsRnVESzNRYXowOU5VcW9NTjlQR2l0cGZWQTFQVFVKckVwR3M0MVlmN3VKQkZWdk8xSnBOV2tCalBjbzQ5YTlJeE5sRjlCWThDR3RxYnl2LVdYUlVQY0g1d0x5Z3pJbVJIRTRESWZNT3d6TTlJMmg0R1ZXQ25Yamc4NWNNZ25sTQ?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-09-18T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 25,
-      "confidence": 0.81,
-      "location": {
-        "city": "Redmond",
-        "state": "WA",
-        "lat": 47.6739,
-        "lon": -122.1215,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -1170,14 +1148,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 18,
-      "weighted_score": 68.93,
+      "deal_count": 19,
+      "weighted_score": 72.33,
       "latest_at": "2026-10-17T05:58:46.000Z",
-      "amount_usd_m_total": 3491.3,
+      "amount_usd_m_total": 3529.3,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 15
+          "count": 16
         },
         {
           "name": "Other",
@@ -1190,11 +1168,11 @@
           "count": 4
         },
         {
-          "name": "Crosslink Capital",
-          "count": 2
+          "name": "First Round Capital",
+          "count": 3
         },
         {
-          "name": "First Round Capital",
+          "name": "Crosslink Capital",
           "count": 2
         }
       ]
@@ -1404,52 +1382,6 @@
       "top_vcs": [
         {
           "name": "Upfront Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Redmond,WA",
-      "city": "Redmond",
-      "state": "WA",
-      "lat": 47.6739,
-      "lon": -122.1215,
-      "deal_count": 1,
-      "weighted_score": 3.22,
-      "latest_at": "2026-09-18T07:00:00.000Z",
-      "amount_usd_m_total": 25,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Seattle,WA",
-      "city": "Seattle",
-      "state": "WA",
-      "lat": 47.6062,
-      "lon": -122.3321,
-      "deal_count": 1,
-      "weighted_score": 2.76,
-      "latest_at": "2026-09-18T07:00:00.000Z",
-      "amount_usd_m_total": 8,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Voyager Capital",
           "count": 1
         }
       ]
