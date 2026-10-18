@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:48:23.441Z",
+  "generated_at": "2026-10-18T20:36:19.379Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 50,
-    "total_deals": 50,
+    "scraped_deals": 51,
+    "total_deals": 51,
     "demo_mode": false,
-    "deals_with_coordinates": 50,
-    "runtime_ms": 4387,
+    "deals_with_coordinates": 51,
+    "runtime_ms": 4547,
     "note": "",
     "error_sample": []
   },
@@ -261,14 +261,14 @@
       }
     },
     {
-      "id": "deal_1386429744",
+      "id": "deal_1325370605",
       "vc_id": "future",
       "vc_name": "Future Ventures",
       "company": "Sam Altman-Backed Meanwhile",
       "title": "Sam Altman-Backed Meanwhile Raises $37.5M as Families Across Asia, Europe and the Middle East Turn to Bitcoin Life Insurance - STT Info",
       "source_url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPY25DZmVqSjUxbTBLdFNCSHBwYzhELXlmQ2JQaTR3N01UNVJlMGQ3LXpFVUxGV0syam9sTEtoVzNYR3h3Y1o2ekk5Rl82MTlmYmFrYms3cXlXOURtZnFHNGZaMlR6dTlxOFVDb1g4UDNtc2dPd2NtaHBEcERvUHVROFJ0bk5qWmt1SThfVzdkaDV0SUlHZzB0d2NhbFJWekVPUFJGSlRsX095cVRLZE94NGhvbnJwbUdBeUZhaFV0dmZfMDRtVlp0VmRLZVUwd2FwZlJZbERxS2xFNEIwZkFwazJCa09oS0VPcEM0R20wd0NhbGpDSEM0MzgyZ2RJeXdlcVFlZW9vUXdJc0RCLTVPZ2pLYnhiZElZY2ltYzkwREZDdw?oc=5",
       "source_name": "STT Info",
-      "published_at": "2026-10-08T16:12:00.000Z",
+      "published_at": "2026-10-08T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 37.5,
@@ -476,6 +476,28 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1009100773",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Tokenized Cash Startup Spiko",
+      "title": "Tokenized Cash Startup Spiko Raises $90 Million to Take On US Giants - Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbDI4Y0dvdFR3QWl4WjBOZUFhLURpVzBRVzMxZGdGb1pEd05KS0hfRV83bDhmWDNlS0Q4QnRUelp4VTEwVDlaejg1bWNsRzRrUGhoTmhOcEdqWHp2clhnLU4ybDZLQjlXcmM2ZmF5ajFFQ3ZMSFZHYU1MQUN5VFZqTFZjMVlqZ2ZGekhtcFZheGFwNGpGdEVQekVpZTJVSnFmdkR2eEF5RnRiQWM4SzZpRkpUYS16Tk45dXc?oc=5",
+      "source_name": "Bloomberg.com",
+      "published_at": "2026-10-05T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 90,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -1161,14 +1183,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 11,
-      "weighted_score": 47.79,
+      "deal_count": 12,
+      "weighted_score": 51.56,
       "latest_at": "2026-10-16T07:00:00.000Z",
-      "amount_usd_m_total": 11409,
+      "amount_usd_m_total": 11499,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Other",
@@ -1178,7 +1200,7 @@
       "top_vcs": [
         {
           "name": "New Enterprise Associates",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Kleiner Perkins",
