@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:18:23.709Z",
+  "generated_at": "2026-10-25T16:09:18.314Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 79,
-    "total_deals": 79,
+    "scraped_deals": 82,
+    "total_deals": 82,
     "demo_mode": false,
-    "deals_with_coordinates": 79,
-    "runtime_ms": 4632,
+    "deals_with_coordinates": 82,
+    "runtime_ms": 4318,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_863712028",
+      "vc_id": "sapphire",
+      "vc_name": "Sapphire Ventures",
+      "company": "Tractian",
+      "title": "Tractian Closes $130M Series D to Expand AI for Industrial Asset Health - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQclhVNnd4azRmQnVvbHl1TlVEN0xXenE5c0F1dUZoUHR2LXRPNmw1cVlqNEVqdm01RGMtdFBfQnc1dmlRNTMxa24tb3NNRFVvQjY3cEFyMDh4ZmRCdG9nVE90MEFEWldwS2pBZEd6U2pfaktyZ0ZWS3BHMG42bzRiZU5YMkRJODVnem90VHlPNHVuWjhndkctRjYwaTRtTy1lWGlHRmtOOVBGM0lz?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-10-25T15:26:32.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 130,
+      "confidence": 0.96,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1776981301",
       "vc_id": "nextview",
@@ -36,6 +58,28 @@
         "state": "MA",
         "lat": 42.3601,
         "lon": -71.0589,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1735432731",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "Home healthcare startup Carewell procures $5m seed - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOFAzMElVQWpjY1F0Z3ZuLUcwWkl2V1pjX3l5c3lkQXctRlNMb2Z6aERTUENSN3FNN2xteGc2ZklCQmpKWHFGaGtVWU84cDJDUFlZdHVXVF9qa0RKVFBTRnNWdVZETmtIdlB6azl6dndOSUpuRFRIX0JaZGVMRU81OVY4YlY4d1F4Z3lnMGRwTHhEdExUWGg1SQ?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-10-24T16:02:21.000Z",
+      "stage": "Growth",
+      "sector": "Other",
+      "amount_usd_m": 5,
+      "confidence": 0.76,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -261,18 +305,18 @@
       }
     },
     {
-      "id": "deal_426022468",
+      "id": "deal_2055489443",
       "vc_id": "tcv",
       "vc_name": "TCV",
-      "company": "Unknown",
-      "title": "Nvidia Invests in AI Video Startup Higgsfield, Expanding August Series B Round - BigGo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLUUc0Z1JZUGhBQ3dIVnpPVmtramdmY2h6c2g3RnZSeVM1YVZHNUF4LUpqcWZxano1YmJLNXdIajQ4R3g2eVB5S3Q4VGoxODZYUTVxcE5XRUt4QVJKNDFnZHpTUGJ1R1M0T1VxaVowek45NVZOZ1E?oc=5",
-      "source_name": "BigGo Finance",
-      "published_at": "2026-10-23T06:05:00.000Z",
-      "stage": "Series B",
+      "company": "AI video startup Higgsfield- Bloomberg.",
+      "title": "Nvidia invests in AI video startup Higgsfield- Bloomberg - Yahoo Finance UK",
+      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVTFaSnlDMFN5REZEQTMxQWQ2c1hvNjR2YW53bWpYVmJGdTlmak8ydFJySks4SDAzTHp0SGJtLXBRTTJUbW12bWRFNzI1U0JNbllPZ1JPdUtXVTVVSDAyYmREQThZQmw2dkNpT1RsbTc4b0IzNFl0cjBVX1VaWjZEaG1DbVJzdVk?oc=5",
+      "source_name": "Yahoo Finance UK",
+      "published_at": "2026-10-23T06:16:00.000Z",
+      "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": null,
-      "confidence": 0.66,
+      "confidence": 0.61,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -569,14 +613,14 @@
       }
     },
     {
-      "id": "deal_1531987028",
+      "id": "deal_1520777893",
       "vc_id": "bond",
       "vc_name": "BOND",
       "company": "ShaMaran",
-      "title": "ShaMaran Announces Investment in Iraq and Contemplated Bond Issuance - BeBeez International",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcnYyLXdSNDhwWnN5VDZNWWgwa1RhQzNuNXJCeGhJR3FZZmEtc184enBueTlKUWNPOElEUUhBNGswa2pqX2VkcUdyNjR4YUhrYlJ6dkNhZ3JhbDZ6VFdWekFHc050UVZiTTBQN0F1b3pIZS1tc0tmczVMNmNiQnMtd1g1M2F5RmM3aEpSZ3ZaZW93SnZSTkxqR0E3NGhHb2s?oc=5",
-      "source_name": "BeBeez International",
-      "published_at": "2026-10-20T07:12:48.000Z",
+      "title": "ShaMaran Announces Investment in Iraq and Contemplated Bond Issuance - TradingView",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSnE0SkRHaU9KVHFwTWg5OWxzNjFBb293aGlGR2JIWkRTVDF6ci1FVkVIeTB1MzIyVG5PNmctZ0s2RzliSUZxNGVSMmZ5XzRVOGppa2RVdlVwMDBDNVV0T0ZPdGZtY1lET05FNkZyVVNZN0hUZ1p1T3Qyc0p5OGgtUzEyVTJmZGJ1VklDNkh0RnQ3TU53TWl4QVY1X1hvV2ozbFlHaTdoZDlQQUNPZmhrZDNjRkdaOG9XMmVHQ1dRRGFoNnU3U1lEeg?oc=5",
+      "source_name": "TradingView",
+      "published_at": "2026-10-20T06:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -921,28 +965,6 @@
       }
     },
     {
-      "id": "deal_357836922",
-      "vc_id": "qualcomm",
-      "vc_name": "Qualcomm Ventures",
-      "company": "Unknown",
-      "title": "Shadowfax's early investor Qualcomm Ventures sells Rs 157 crore stake, taking total sales to Rs 341 crore - Indian Startup News",
-      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOTVWWEgzNV9LWm51alBhNURTeU9vaXptZmRGdm5CTHRjb1l3T0xpVmhFYi1YanI0ckUwY1E4QXVQZ0haUnRsRm1HclZWVlNOQmhfNVBSMEFnaGktZWFNRVlLMWswNlp0SEJvTDF1bzd2YW95Qm5yUkRBa2UzTlJJS1pKblkyUXQtaWw4MWpNdUdFNENYOXR2eHVkd1RQMTdYYXRpM3dnVVoySzBFLXNPZVFaVzlPTmlCR29ZeXBmQlZiek1hZzl5ZkhPR1hpQWdJQnIwRk81MkNhSElaUGlvd9IB4AFBVV95cUxQOTVWWEgzNV9LWm51alBhNURTeU9vaXptZmRGdm5CTHRjb1l3T0xpVmhFYi1YanI0ckUwY1E4QXVQZ0haUnRsRm1HclZWVlNOQmhfNVBSMEFnaGktZWFNRVlLMWswNlp0SEJvTDF1bzd2YW95Qm5yUkRBa2UzTlJJS1pKblkyUXQtaWw4MWpNdUdFNENYOXR2eHVkd1RQMTdYYXRpM3dnVVoySzBFLXNPZVFaVzlPTmlCR29ZeXBmQlZiek1hZzl5ZkhPR1hpQWdJQnIwRk81MkNhSElaUGlvdw?oc=5",
-      "source_name": "Indian Startup News",
-      "published_at": "2026-10-13T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.7157,
-        "lon": -117.1611,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_550122397",
       "vc_id": "founders-fund",
       "vc_name": "Founders Fund",
@@ -1130,28 +1152,6 @@
       "stage": "Unspecified",
       "sector": "AI & ML",
       "amount_usd_m": 37.5,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2061679184",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "HealthLeap",
-      "title": "HealthLeap Raises $38M to Scale AI Patient Monitoring - The Tech Buzz",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcGRnbkFDUlBsZHkxczhPdHl4ZllFTUN5UjUwdFB5TUY1cEF3dHdfX2liS21sR2tERFl1VjQ4ZVlpNnhOTmVrRVNaWGdZbUtqZWNVTVBRcC1yQkVpaU5MbHVUT1FURDh0OG1PdnRPQVd5bTJaNEZScERIeTBMTlAyUHlSTVJrdjg1TUU5Rm5R?oc=5",
-      "source_name": "The Tech Buzz",
-      "published_at": "2026-10-07T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 38,
       "confidence": 0.81,
       "location": {
         "city": "San Francisco",
@@ -1515,6 +1515,28 @@
       }
     },
     {
+      "id": "deal_1009106659",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Instinct",
+      "title": "Instinct Announces $1B in Series C Funding from Sequoia, Benchmark and Coatue at $10B Valuation - AI Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZkdaV25wOHRmWTl2NVFKN1h6ZHhmUnl4QkRVQmpuRWhfUnkxNV9BR18wS2ktV05TajJiQmZBTm9qWXk1R3B2WnRSUElMNUV1N0EtSmRjWFFubkRxVFJ3bVRUVjNGN29ndHJkOEN3ZG5tQXJjQ2MzcEhzLWk3cTlPRkhfRlVDbkgwblhRdWVyQVpzekRYLUxyUXJCUjlMM21Zel9LNnozNkFTVjJscFdHejU4ZjYyeXZqekxXaEZyX2FteGs5ZVotaGl3?oc=5",
+      "source_name": "AI Insider",
+      "published_at": "2026-09-29T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1413154901",
       "vc_id": "coatue",
       "vc_name": "Coatue",
@@ -1647,6 +1669,50 @@
       }
     },
     {
+      "id": "deal_185672497",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Instinct",
+      "title": "Instinct Raises $1 Billion in Series C Funding from Sequoia, Benchmark and Coatue at $10 Billion Valuation - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3VNMTJPQTVjOGZ3Z01uZnowUDI0RC1hNGlYdWFYMF9MSmR4b2pqQnNHalFTQzdpV3NHQ0dFdkt3R3p6cldWREtCcl9ZLUVpd2JtNGJlWTFlQUxkTk1iRzVwOHR2aE1QOHRCcVRRSDNVd3AwZm8xclVFVWcxTHhUSDFGdUI1eW5wbVVzV1Nwd0p1dWhSZE9kRzJCS2k?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-09-28T07:00:00.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1887940842",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "AI agent firm Instinct",
+      "title": "AI agent firm Instinct raises $1 billion in latest funding round - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSng0ZWE1OGdrZ1h0amRIYTBJeFVXd0JpellybmtzcHY5WEM0RWpWY2hkZ1FVVUloZUVSalRkQnAxb3hPS0ljbHViV1NXMnUtcEpfV2hRdUU0YXV3OWFUQnp3a25icW9IbnFUbWs4TG9pYXVfZWt3bkRCOHVJb1AxZEpxbWJOekpRT3o1UElTT1dUR0N0bWRpc2MxTUtRS20wbHhzT203Q0VHdUE?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-09-28T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_507482875",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -1764,18 +1830,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 33,
-      "weighted_score": 117.95,
-      "latest_at": "2026-10-24T01:19:09.000Z",
-      "amount_usd_m_total": 3404,
+      "deal_count": 36,
+      "weighted_score": 136.62,
+      "latest_at": "2026-10-24T16:02:21.000Z",
+      "amount_usd_m_total": 6371,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 25
+          "count": 27
         },
         {
           "name": "Other",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Semis, Robotics & Hardware",
@@ -1784,15 +1850,15 @@
       ],
       "top_vcs": [
         {
-          "name": "First Round Capital",
+          "name": "Human Capital",
           "count": 5
         },
         {
-          "name": "Human Capital",
-          "count": 4
+          "name": "Benchmark",
+          "count": 5
         },
         {
-          "name": "Future Ventures",
+          "name": "First Round Capital",
           "count": 4
         }
       ]
@@ -1804,7 +1870,7 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 17,
-      "weighted_score": 60.93,
+      "weighted_score": 59.88,
       "latest_at": "2026-10-23T15:18:00.000Z",
       "amount_usd_m_total": 1672,
       "top_sectors": [
@@ -1887,6 +1953,37 @@
         {
           "name": "Dell Technologies Capital",
           "count": 3
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 3,
+      "weighted_score": 10.72,
+      "latest_at": "2026-10-25T15:26:32.000Z",
+      "amount_usd_m_total": 139.5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Sapphire Ventures",
+          "count": 2
+        },
+        {
+          "name": "DCVC",
+          "count": 1
         }
       ]
     },
@@ -1991,37 +2088,6 @@
       ]
     },
     {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 4.84,
-      "latest_at": "2026-10-23T10:16:00.000Z",
-      "amount_usd_m_total": 9.5,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "DCVC",
-          "count": 1
-        },
-        {
-          "name": "Sapphire Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Austin,TX",
       "city": "Austin",
       "state": "TX",
@@ -2086,29 +2152,6 @@
       "top_vcs": [
         {
           "name": "Gradient Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Diego,CA",
-      "city": "San Diego",
-      "state": "CA",
-      "lat": 32.7157,
-      "lon": -117.1611,
-      "deal_count": 1,
-      "weighted_score": 2.11,
-      "latest_at": "2026-10-13T07:00:00.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Qualcomm Ventures",
           "count": 1
         }
       ]
