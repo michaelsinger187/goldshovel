@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:37:26.449Z",
+  "generated_at": "2026-11-05T19:53:12.479Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,33 +9,55 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 25,
-    "total_deals": 25,
+    "scraped_deals": 26,
+    "total_deals": 26,
     "demo_mode": false,
-    "deals_with_coordinates": 25,
-    "runtime_ms": 3724,
+    "deals_with_coordinates": 26,
+    "runtime_ms": 4354,
     "note": "",
     "error_sample": []
   },
   "deals": [
     {
-      "id": "deal_1885696684",
-      "vc_id": "social-capital",
-      "vc_name": "Social Capital",
+      "id": "deal_919842261",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
       "company": "Unknown",
-      "title": "Space Hardware Investment Jumps 34x to $17B [2026] - shattered.io",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
-      "source_name": "shattered.io",
-      "published_at": "2026-11-04T13:16:44.000Z",
-      "stage": "Unspecified",
-      "sector": "Semis, Robotics & Hardware",
-      "amount_usd_m": 17000,
-      "confidence": 0.71,
+      "title": "NEA, Andreessen Horowitz lead $1.8 mln seed round in Apropose - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVEtudXhoUVN0Zkd3TTUzc2ZoVVlQajd5NUtLa25PUEtXNWMtX1hpeHBKX2FuTGhSNXJOR2xJVnh1TGEwT1V1NGQ1akNlWTItYlhiUElfSlMwMVNuTE5ZLThTS2JkZDlqZkY0U09yZFVfVDZrWmpWTXlVT05oZ0lGMlZVSmJrVUZzSW9LWHdoeTVyWjU1UGVvdHE4anZ2UlRha0pxQWRB?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-04T13:57:32.000Z",
+      "stage": "Seed",
+      "sector": "Other",
+      "amount_usd_m": 1.8,
+      "confidence": 0.76,
       "location": {
-        "city": "Palo Alto",
+        "city": "Menlo Park",
         "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_901972880",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Unknown",
+      "title": "NEA, Andreessen Horowitz lead $1.8 mln seed round in Apropose - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVEtudXhoUVN0Zkd3TTUzc2ZoVVlQajd5NUtLa25PUEtXNWMtX1hpeHBKX2FuTGhSNXJOR2xJVnh1TGEwT1V1NGQ1akNlWTItYlhiUElfSlMwMVNuTE5ZLThTS2JkZDlqZkY0U09yZFVfVDZrWmpWTXlVT05oZ0lGMlZVSmJrVUZzSW9LWHdoeTVyWjU1UGVvdHE4anZ2UlRha0pxQWRB?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-04T13:57:32.000Z",
+      "stage": "Seed",
+      "sector": "Other",
+      "amount_usd_m": 1.8,
+      "confidence": 0.76,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -173,6 +195,28 @@
       }
     },
     {
+      "id": "deal_1802921170",
+      "vc_id": "social-capital",
+      "vc_name": "Social Capital",
+      "company": "Unknown",
+      "title": "Space Hardware Funding Jumps 34x to $17B [2026] - shattered.io",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
+      "source_name": "shattered.io",
+      "published_at": "2026-11-03T01:58:15.000Z",
+      "stage": "Unspecified",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 17000,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1928686499",
       "vc_id": "root",
       "vc_name": "Root Ventures",
@@ -212,6 +256,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_37832706",
+      "vc_id": "ivp",
+      "vc_name": "IVP",
+      "company": "Unknown",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdlU2bk9SZ1JlWlQ4eHYzb2F4ZFlUWEttQ1hnSW1WSF9IdHhrcUc2c0VzNFBnQnV2ZHQwOFhWVncxWU5uMDNNb1M5MHVTOE93OXdWQXRPOXJJVDZmLWw4T2tERUtUeVlWSlRuc0pRZGxERWJ2VXd1OFNuaGpWSHJnck00c1JrdkJXLXdMUElTSzlBR0ZTNlk1a3BXYllyRGtsYlM4R2tRUVJCbk9kNnNtVGwwbw?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-10-29T14:35:26.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1250,
+      "confidence": 0.71,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -283,25 +349,25 @@
       }
     },
     {
-      "id": "deal_1626512043",
-      "vc_id": "sequoia-capital",
-      "vc_name": "Sequoia Capital",
-      "company": "Silicon Valley startup",
-      "title": "Silicon Valley startup raises $200M to create genetically engineered military dogs: 'Captain America meets Iron Man' - New York Post",
-      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRXZEc0YxaGZNMWdacjNUVHVrNzhndndZa1lfS3A0VU5YVUg3bnNGZm1iczU3V1haek45RFV0eDFuWE5vT0ppMTdPeFFxLV81bUZ3WU5oRFh6aVpIUW8wTElva3NyY0QyTXFDSWJCVkhIamxLMU9Oa3BfRXp4RmcxUG1Ya3h5QVBVTkFnTlQ0TVVFVTE4U09vZ2Z5MWFOY1dkUTFUNzR1UkhGYnQyX21HQXhIVUpZanFyVEE1UUlvNHVycF9sRTdDanBKWnJnaXZZdVJDWVFXRDBQbmN3Z1JjV2dXSm1aSVU?oc=5",
-      "source_name": "New York Post",
+      "id": "deal_886536557",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUGRCQmlVOHc4d1JtTVpKSi1aMFZzbERHZ1VzaEZUcUtpQ21telB5ZWZBUmE3QWcyWWRsSjYtcnJHNDYySFRlOUxXaU9PT3FXZDZvaE5nNVZxaWtPOE1aUndiMUFya2s1a3BQcldiYkpEaDFNX1NETlFsZllUYWY5VWNGZHFXMGplbERyS3pXTXdrUXBjNWZCQXJGQzA5OTNCSkdpWQ?oc=5",
+      "source_name": "Yahoo Finance",
       "published_at": "2026-10-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 200,
-      "confidence": 0.93,
+      "stage": "Series B",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.56,
       "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "city_keyword",
-        "confidence": 0.68
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
       }
     },
     {
@@ -366,28 +432,6 @@
         "state": "TX",
         "lat": 30.2672,
         "lon": -97.7431,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1504598265",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Unknown",
-      "title": "Israel start-up investment 2026: Global capital trends - The Jerusalem Post",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYnQ2Y2JsZTFiYURKZlUxay1uWDdfVi1FeWFUNDRXWl84S1dxNGVDNFFQelVKanp1cjc5dmZRaWRWLTlGMXpPUFp4Y2FmdEd6TzhTZ05VUzhrUzFpaTY2WDRNNWdxY0xkWWxwMWUwZ0xpNEpad1BFZ3p1Wkd6NHpBUVJ1dElsQQ?oc=5",
-      "source_name": "The Jerusalem Post",
-      "published_at": "2026-10-22T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.41,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -545,28 +589,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_35484969",
-      "vc_id": "nea",
-      "vc_name": "New Enterprise Associates",
-      "company": "Spiko",
-      "title": "Spiko Raises $90M Series B Led by NEA to Make Yield Universal - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMTRMNkJYZ3o2Tl9IdzF6Z0gycF9MMkpFaW5Xc0l0TmVBVmdJN092dHFwNnExNXdkUGVkUnFHM0E1NTd0WXZSNHJVeldTb2lJT3R6X01NeElMVXlYWkwtdjJ4dDR6Y1lrcW5odlRmWWtTd3VKbHlIM21kbWRObHduY1ljOUQ5Uzh0UDhNMFlmV2tpZTk5dUFRdlNRbWwyUVFVakpDNDFLcWVWZUtOYndyMVdjbm1NaHNWTndIOA?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-10-06T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 90,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -576,18 +598,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 9,
-      "weighted_score": 28.78,
+      "deal_count": 8,
+      "weighted_score": 26.77,
       "latest_at": "2026-11-03T21:33:16.000Z",
       "amount_usd_m_total": 288.5,
       "top_sectors": [
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 4
         },
         {
-          "name": "AI & ML",
-          "count": 4
+          "name": "Other",
+          "count": 3
         },
         {
           "name": "Fintech",
@@ -600,11 +622,46 @@
           "count": 3
         },
         {
+          "name": "Root Ventures",
+          "count": 1
+        },
+        {
           "name": "Human Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 6,
+      "weighted_score": 19.56,
+      "latest_at": "2026-11-04T13:57:32.000Z",
+      "amount_usd_m_total": 1303.6,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 3
+        },
+        {
+          "name": "AI & ML",
+          "count": 3
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "TCV",
           "count": 2
         },
         {
-          "name": "Root Ventures",
+          "name": "Andreessen Horowitz",
+          "count": 1
+        },
+        {
+          "name": "New Enterprise Associates",
           "count": 1
         }
       ]
@@ -615,14 +672,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 5,
-      "weighted_score": 22.53,
+      "deal_count": 4,
+      "weighted_score": 18.3,
       "latest_at": "2026-11-03T23:02:54.000Z",
-      "amount_usd_m_total": 1311,
+      "amount_usd_m_total": 1111,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 4
         }
       ],
       "top_vcs": [
@@ -635,38 +692,7 @@
           "count": 1
         },
         {
-          "name": "Sequoia Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 3,
-      "weighted_score": 11.7,
-      "latest_at": "2026-10-23T07:00:00.000Z",
-      "amount_usd_m_total": 140,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 3
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "TCV",
-          "count": 1
-        },
-        {
-          "name": "Khosla Ventures",
-          "count": 1
-        },
-        {
-          "name": "New Enterprise Associates",
+          "name": "BOND",
           "count": 1
         }
       ]
@@ -679,7 +705,7 @@
       "lon": -122.143,
       "deal_count": 2,
       "weighted_score": 10.4,
-      "latest_at": "2026-11-04T13:16:44.000Z",
+      "latest_at": "2026-11-03T01:58:15.000Z",
       "amount_usd_m_total": 17100,
       "top_sectors": [
         {
