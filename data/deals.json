@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:53:12.479Z",
+  "generated_at": "2026-11-06T06:33:02.665Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,81 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 26,
-    "total_deals": 26,
+    "scraped_deals": 30,
+    "total_deals": 30,
     "demo_mode": false,
-    "deals_with_coordinates": 26,
-    "runtime_ms": 4354,
+    "deals_with_coordinates": 30,
+    "runtime_ms": 3731,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1522473218",
+      "vc_id": "canaan",
+      "vc_name": "Canaan Partners",
+      "company": "Unknown",
+      "title": "Canaan Partners leads funding in security startup PerimeterX - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdGUtN1NsTGlObEJYTXpaMFNjSWpfYlFTYUEzQnRabXZYX21lbV9qZW1RSTRac3VabU9RLXpRRnN4VWNfcWhtNEEzQmhsY3loOUdvMEtCbVNVa3diLUhtLXpGOC01N1NaSVBOSVU2Vk1xMFVoRUxicEwyZTJpZzBNYlhjQTE0VE05V0xWMFlfbjRVNEZQTkczWjN3SmFudTEyQXptRzBWWQ?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-05T19:46:30.000Z",
+      "stage": "Growth",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.56,
+      "location": {
+        "city": "Westport",
+        "state": "CT",
+        "lat": 41.1415,
+        "lon": -73.3579,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1281800424",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Unknown",
+      "title": "New Enterprise Associates invests $10.4 mln in IIX's Series A round - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSjBTQ2h5OHdlS1dBZThkNEhfV1VlZUdaa2E5UEkwZ0NuM3NXME5QQjRocnBQdFlpUVhsUmVkVG8wejJZZUhsM3lqUlk0am8yUmxodjVraHhOcWxwY3JIX0NaVVNjVnVHNmZHczdhZ2tkMWJzZGt1ZGtzbi1lUTI3SmFaUUFzOURPeHhaYmFPMXA2Z2xMX3RoejN4bDg3VnBwTlg1c0liUmpybGdaR1E?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-05T14:00:20.000Z",
+      "stage": "Series A",
+      "sector": "Other",
+      "amount_usd_m": 10.4,
+      "confidence": 0.76,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1335766333",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Relationship analytics startup Introhive",
+      "title": "Relationship analytics startup Introhive closes $7.2 mln Series B round - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEtUTGJfNFFkU0RQSm5NTG9IQXNyUy1UUHE1TFNlSU52aGo0dTlSU2llX3NMVXBmeFNKN2U4aFZDaEtWT0FESnRWSFJOSHJteG5MazJCSjJHaGdvdnRsaTNSOElINF9sR3VRQjJtb2dsNkZLZ2hDTEpyanZ1aFNuYUd6NTlMenJPM0thSUtHbDdtamZSVGpuWVAwWmRNQXRmd1VseFVwZnhrYkVtZE5VcEwwUVk?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-05T05:45:10.000Z",
+      "stage": "Series B",
+      "sector": "Other",
+      "amount_usd_m": 7.2,
+      "confidence": 0.86,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_919842261",
       "vc_id": "andreessen-horowitz",
@@ -283,23 +349,23 @@
       }
     },
     {
-      "id": "deal_1776981301",
-      "vc_id": "nextview",
-      "vc_name": "NextView Ventures",
-      "company": "Unknown",
-      "title": "Home healthcare startup Carewell procures $5m seed - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOFAzMElVQWpjY1F0Z3ZuLUcwWkl2V1pjX3l5c3lkQXctRlNMb2Z6aERTUENSN3FNN2xteGc2ZklCQmpKWHFGaGtVWU84cDJDUFlZdHVXVF9qa0RKVFBTRnNWdVZETmtIdlB6azl6dndOSUpuRFRIX0JaZGVMRU81OVY4YlY4d1F4Z3lnMGRwTHhEdExUWGg1SQ?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-10-24T16:02:21.000Z",
-      "stage": "Growth",
-      "sector": "Other",
-      "amount_usd_m": 5,
-      "confidence": 0.76,
+      "id": "deal_1373634907",
+      "vc_id": "dtc",
+      "vc_name": "Dell Technologies Capital",
+      "company": "Hyperbolic",
+      "title": "Hyperbolic Raises $30M Series A-1 led by Intel CEO Lip-Bu Tan’s Walden Catalyst - AI Funding Tracker",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNUdGhKaGdnTlBqNW1uQ2tZOFItZ1BqTjgzd3J2ejVWM2hUM0x4VFF1dzlvQnRzdG16SFJMUy1MdTNqMnRTZTVyZ0lmb2VzN2Jxbk54X1V1TnVTTWNTeHg4cjVERXRycUI3dnNVSlpHX1NNd1NWMkpkcG9RakJoU1E1TUZXTUVrQnYxUnVQYWhVRWxseEg5YkhWUWRfQktkRm4xZGlxZ1RTMVk?oc=5",
+      "source_name": "AI Funding Tracker",
+      "published_at": "2026-10-28T15:14:09.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 30,
+      "confidence": 0.96,
       "location": {
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.3601,
-        "lon": -71.0589,
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -432,6 +498,28 @@
         "state": "TX",
         "lat": 30.2672,
         "lon": -97.7431,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1504598265",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "Israel start-up investment 2026: Global capital trends - The Jerusalem Post",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYnQ2Y2JsZTFiYURKZlUxay1uWDdfVi1FeWFUNDRXWl84S1dxNGVDNFFQelVKanp1cjc5dmZRaWRWLTlGMXpPUFp4Y2FmdEd6TzhTZ05VUzhrUzFpaTY2WDRNNWdxY0xkWWxwMWUwZ0xpNEpad1BFZ3p1Wkd6NHpBUVJ1dElsQQ?oc=5",
+      "source_name": "The Jerusalem Post",
+      "published_at": "2026-10-22T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -598,18 +686,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 8,
-      "weighted_score": 26.77,
-      "latest_at": "2026-11-03T21:33:16.000Z",
-      "amount_usd_m_total": 288.5,
+      "deal_count": 10,
+      "weighted_score": 32.55,
+      "latest_at": "2026-11-05T05:45:10.000Z",
+      "amount_usd_m_total": 295.7,
       "top_sectors": [
+        {
+          "name": "Other",
+          "count": 5
+        },
         {
           "name": "AI & ML",
           "count": 4
-        },
-        {
-          "name": "Other",
-          "count": 3
         },
         {
           "name": "Fintech",
@@ -618,15 +706,15 @@
       ],
       "top_vcs": [
         {
+          "name": "Human Capital",
+          "count": 3
+        },
+        {
           "name": "Obvious Ventures",
           "count": 3
         },
         {
           "name": "Root Ventures",
-          "count": 1
-        },
-        {
-          "name": "Human Capital",
           "count": 1
         }
       ]
@@ -637,14 +725,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 6,
-      "weighted_score": 19.56,
-      "latest_at": "2026-11-04T13:57:32.000Z",
-      "amount_usd_m_total": 1303.6,
+      "deal_count": 7,
+      "weighted_score": 22.98,
+      "latest_at": "2026-11-05T14:00:20.000Z",
+      "amount_usd_m_total": 1314,
       "top_sectors": [
         {
           "name": "Other",
-          "count": 3
+          "count": 4
         },
         {
           "name": "AI & ML",
@@ -653,15 +741,15 @@
       ],
       "top_vcs": [
         {
+          "name": "New Enterprise Associates",
+          "count": 2
+        },
+        {
           "name": "TCV",
           "count": 2
         },
         {
           "name": "Andreessen Horowitz",
-          "count": 1
-        },
-        {
-          "name": "New Enterprise Associates",
           "count": 1
         }
       ]
@@ -729,6 +817,37 @@
       ]
     },
     {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 2,
+      "weighted_score": 7.55,
+      "latest_at": "2026-11-04T05:20:47.000Z",
+      "amount_usd_m_total": 40,
+      "top_sectors": [
+        {
+          "name": "Consumer & Commerce",
+          "count": 1
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
+          "count": 1
+        },
+        {
+          "name": "Dell Technologies Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Santa Monica,CA",
       "city": "Santa Monica",
       "state": "CA",
@@ -775,29 +894,6 @@
       ]
     },
     {
-      "key": "Boston,MA",
-      "city": "Boston",
-      "state": "MA",
-      "lat": 42.3601,
-      "lon": -71.0589,
-      "deal_count": 1,
-      "weighted_score": 4.54,
-      "latest_at": "2026-10-24T16:02:21.000Z",
-      "amount_usd_m_total": 5,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "NextView Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Cambridge,MA",
       "city": "Cambridge",
       "state": "MA",
@@ -821,6 +917,29 @@
       ]
     },
     {
+      "key": "Westport,CT",
+      "city": "Westport",
+      "state": "CT",
+      "lat": 41.1415,
+      "lon": -73.3579,
+      "deal_count": 1,
+      "weighted_score": 4.16,
+      "latest_at": "2026-11-05T19:46:30.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Canaan Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
       "key": "Austin,TX",
       "city": "Austin",
       "state": "TX",
@@ -839,29 +958,6 @@
       "top_vcs": [
         {
           "name": "8VC",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Santa Clara,CA",
-      "city": "Santa Clara",
-      "state": "CA",
-      "lat": 37.3541,
-      "lon": -121.9552,
-      "deal_count": 1,
-      "weighted_score": 3.5,
-      "latest_at": "2026-11-04T05:20:47.000Z",
-      "amount_usd_m_total": 10,
-      "top_sectors": [
-        {
-          "name": "Consumer & Commerce",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Intel Capital",
           "count": 1
         }
       ]
