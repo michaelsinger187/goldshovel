@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T05:52:14.702Z",
+  "generated_at": "2026-11-07T12:53:36.290Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,37 +9,15 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 32,
-    "total_deals": 32,
+    "scraped_deals": 31,
+    "total_deals": 31,
     "demo_mode": false,
-    "deals_with_coordinates": 32,
-    "runtime_ms": 3707,
+    "deals_with_coordinates": 31,
+    "runtime_ms": 3960,
     "note": "",
     "error_sample": []
   },
   "deals": [
-    {
-      "id": "deal_1490430613",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Digital insurance startup Zensurance",
-      "title": "Digital insurance startup Zensurance raises $1 mln in seed round - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jbFdOWmw2ZXRFLWpDSGl1RGJkbVZtN3ZLMTFkTnh5amlOWS1ZeG1SNWJOdWQybXFYaVRLSFhSWlpxR2tZeXNHMDNaRDhCOGNMcTRqUEc2VGZIQzFDREtSdTQweEFDNE5vM3ZZbWlfeVV5YkVQa2lWaA?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-06T15:07:33.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 1,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
     {
       "id": "deal_790270129",
       "vc_id": "qualcomm",
@@ -129,6 +107,28 @@
       }
     },
     {
+      "id": "deal_1563507849",
+      "vc_id": "f-prime",
+      "vc_name": "F-Prime Capital",
+      "company": "Unknown",
+      "title": "Fierce Biotech Fundraising Tracker '26: Alethio attains $90M series A for rare blood cancer drugs - Fierce Biotech",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWnNIYUVmZkJnUzFkM3dqNFpZaFZRRUdTUWNxb2lMeDY4NklMMGJobEM0NDU3LUQ2ZmRhYjNNaTlRM3N4MzZHOExoV3BGQXk1a1dKNDFHaHlrT0RZX3pYd0g0OVhlNnZobEtEdzBtLTh3ZnRsSWFpbGNjRVVpU1VIMA?oc=5",
+      "source_name": "Fierce Biotech",
+      "published_at": "2026-11-05T08:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 90,
+      "confidence": 0.86,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1335766333",
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
@@ -212,6 +212,28 @@
         "state": "MA",
         "lat": 42.3736,
         "lon": -71.1097,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1071089579",
+      "vc_id": "social-capital",
+      "vc_name": "Social Capital",
+      "company": "Unknown",
+      "title": "Space Hardware Funding Jumps 34x to $17B [2026] - shattered.io",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
+      "source_name": "shattered.io",
+      "published_at": "2026-11-04T10:32:06.000Z",
+      "stage": "Unspecified",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 17000,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -327,28 +349,6 @@
       }
     },
     {
-      "id": "deal_1802921170",
-      "vc_id": "social-capital",
-      "vc_name": "Social Capital",
-      "company": "Unknown",
-      "title": "Space Hardware Funding Jumps 34x to $17B [2026] - shattered.io",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
-      "source_name": "shattered.io",
-      "published_at": "2026-11-03T01:58:15.000Z",
-      "stage": "Unspecified",
-      "sector": "Semis, Robotics & Hardware",
-      "amount_usd_m": 17000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1928686499",
       "vc_id": "root",
       "vc_name": "Root Ventures",
@@ -410,6 +410,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_437748641",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "Impression Ventures leads funding round for Montreal fintech startup FlexPay - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0Z6NWFjMmxUd0d2Y3otRXZlWXFhai1DUUZxTTlHR0dRTThTQjVTZmdTUlNnV1B0Q040VkowWmxyVFRxc0t0aW5Ub2pzUWwxOHdBejdmWXVrNHkwcDNzOEgwOTdjWEs0Yy0tWG1VT2tWRzhjd29MVzhYRHJZNFdGQjdBWmE1dVFGTDg2Y3lFWHFhOVJBUFhySlVSZkZDQ1hla2FpN2NlMENkcHg2T08ySkxQOHJRUHozbnBWVg?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-10-26T08:23:15.000Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.66,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -481,28 +503,6 @@
       }
     },
     {
-      "id": "deal_886536557",
-      "vc_id": "tcv",
-      "vc_name": "TCV",
-      "company": "Unknown",
-      "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUGRCQmlVOHc4d1JtTVpKSi1aMFZzbERHZ1VzaEZUcUtpQ21telB5ZWZBUmE3QWcyWWRsSjYtcnJHNDYySFRlOUxXaU9PT3FXZDZvaE5nNVZxaWtPOE1aUndiMUFya2s1a3BQcldiYkpEaDFNX1NETlFsZllUYWY5VWNGZHFXMGplbERyS3pXTXdrUXBjNWZCQXJGQzA5OTNCSkdpWQ?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-10-23T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.56,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_195893327",
       "vc_id": "tcv",
       "vc_name": "TCV",
@@ -544,6 +544,28 @@
         "lon": -74.006,
         "method": "city_keyword",
         "confidence": 0.68
+      }
+    },
+    {
+      "id": "deal_840852664",
+      "vc_id": "crosslink",
+      "vc_name": "Crosslink Capital",
+      "company": "Unknown",
+      "title": "VC-backed Bonfire to be acquired by U.S. SPAC for $140 mln - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM3hrTkREdW5iMWZlcWFvVktLWXUtalRGX01ENVQzaDVuNjNVTjhNOHQ4TEpvX3JEMkxfaVpHR01TT0tldmFCeC1Za1U2SjBwQUlud25RUmlMdFREQ3BNbi1KZkoyZ3RDSzJVN2t4c2FRTldHSnB1d04wSzYzMnNTZVg1YnlnN1BXWkF1MkUwVmpKWFlwb2pEOXhtcVhhUTNQZ1E?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-10-23T04:35:03.000Z",
+      "stage": "Growth",
+      "sector": "Other",
+      "amount_usd_m": 140,
+      "confidence": 0.76,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
       }
     },
     {
@@ -677,50 +699,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_2112383620",
-      "vc_id": "usv",
-      "vc_name": "Union Square Ventures",
-      "company": "Unknown",
-      "title": "Union Square Ventures raises $900 million and reduces active partnership - Crypto Briefing",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YYU0xQk5UOGFJZVVWcnRJdzJvdXVhendZQS1XSFRFYjhFSnhHSHlYc3dueVUwZ1A0THJYMkxDWDNoTXNCZmJldEF6cmN0LTlSZHFHOEtYNmladTNsdVF6UGg3eHVKWlhOOWpYZktnV0ZWNXo1ZDU1dzB3?oc=5",
-      "source_name": "Crypto Briefing",
-      "published_at": "2026-10-08T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 900,
-      "confidence": 0.71,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1818018141",
-      "vc_id": "dcvc",
-      "vc_name": "DCVC",
-      "company": "Unknown",
-      "title": "Singapore’s EDBI, Roblox CEO back Universal Quantum start-up in US$100 million Series A round - The Straits Times",
-      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWFabHFMM01FUk15ZVlLb29la1BQaVlGNlhERFg1X2JLRDZLeC1NSnJEcGxyTVNuN3daei1DOGFRM29SWklXQlFfaU9sbmRLdm1iY0dhVW54b01scFdrN0JRVE0xenRfVUtmSUg1TTczakljaHd3M3M4cmV2eGM2SFpDQlBuZnlnUmlTRDdPc1VfaTBjM1FnS1FyY2pYMko0U3FfTUxVM0wzaUZ2T2ZPZDR6ZmxicldoYXkwUGk0aDV2Q3ctcWdr?oc=5",
-      "source_name": "The Straits Times",
-      "published_at": "2026-10-08T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 100,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -730,18 +708,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 33.01,
-      "latest_at": "2026-11-06T15:07:33.000Z",
-      "amount_usd_m_total": 296.7,
+      "deal_count": 11,
+      "weighted_score": 40.71,
+      "latest_at": "2026-11-05T05:45:10.000Z",
+      "amount_usd_m_total": 435.7,
       "top_sectors": [
         {
-          "name": "AI & ML",
+          "name": "Other",
           "count": 5
         },
         {
-          "name": "Other",
-          "count": 4
+          "name": "AI & ML",
+          "count": 5
         },
         {
           "name": "Fintech",
@@ -769,14 +747,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 7,
-      "weighted_score": 22.98,
+      "deal_count": 6,
+      "weighted_score": 19.82,
       "latest_at": "2026-11-05T14:00:20.000Z",
       "amount_usd_m_total": 1314,
       "top_sectors": [
         {
           "name": "Other",
-          "count": 4
+          "count": 3
         },
         {
           "name": "AI & ML",
@@ -789,11 +767,11 @@
           "count": 2
         },
         {
-          "name": "TCV",
-          "count": 2
+          "name": "Andreessen Horowitz",
+          "count": 1
         },
         {
-          "name": "Andreessen Horowitz",
+          "name": "IVP",
           "count": 1
         }
       ]
@@ -804,14 +782,14 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 4,
-      "weighted_score": 18.3,
+      "deal_count": 3,
+      "weighted_score": 13.63,
       "latest_at": "2026-11-03T23:02:54.000Z",
-      "amount_usd_m_total": 1111,
+      "amount_usd_m_total": 211,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -830,32 +808,28 @@
       ]
     },
     {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
       "deal_count": 2,
-      "weighted_score": 10.4,
-      "latest_at": "2026-11-03T01:58:15.000Z",
-      "amount_usd_m_total": 17100,
+      "weighted_score": 8.93,
+      "latest_at": "2026-11-05T08:00:00.000Z",
+      "amount_usd_m_total": 590,
       "top_sectors": [
         {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
-        },
-        {
           "name": "AI & ML",
-          "count": 1
+          "count": 2
         }
       ],
       "top_vcs": [
         {
-          "name": "Social Capital",
+          "name": "F-Prime Capital",
           "count": 1
         },
         {
-          "name": "DCVC",
+          "name": "General Catalyst",
           "count": 1
         }
       ]
@@ -934,24 +908,24 @@
       ]
     },
     {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
       "deal_count": 1,
-      "weighted_score": 4.51,
-      "latest_at": "2026-11-04T11:32:09.000Z",
-      "amount_usd_m_total": 500,
+      "weighted_score": 5.94,
+      "latest_at": "2026-11-04T10:32:06.000Z",
+      "amount_usd_m_total": 17000,
       "top_sectors": [
         {
-          "name": "AI & ML",
+          "name": "Semis, Robotics & Hardware",
           "count": 1
         }
       ],
       "top_vcs": [
         {
-          "name": "General Catalyst",
+          "name": "Social Capital",
           "count": 1
         }
       ]
