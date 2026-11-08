@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:15:52.498Z",
+  "generated_at": "2026-11-08T21:58:35.950Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 37,
-    "total_deals": 37,
+    "scraped_deals": 34,
+    "total_deals": 34,
     "demo_mode": false,
-    "deals_with_coordinates": 37,
-    "runtime_ms": 3858,
+    "deals_with_coordinates": 34,
+    "runtime_ms": 3564,
     "note": "",
     "error_sample": []
   },
@@ -503,28 +503,6 @@
       }
     },
     {
-      "id": "deal_24785358",
-      "vc_id": "avenir",
-      "vc_name": "Avenir Growth Capital",
-      "company": "Unknown",
-      "title": "How Much Did Sigma Computing Raise? Funding & Key Investors - Clay",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIVllHajhhaTQxLTFONDIyamRUcW90VWVzMTNjLV9fQS1OYlBCOS1Yb3R5YXZqNGZhWng5c1AydnZPaHo1ZFQxTWFLOFB4MFBuWkhYNXJhZFNLQW1SX1ZYWUdn?oc=5",
-      "source_name": "Clay",
-      "published_at": "2026-10-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_625642743",
       "vc_id": "floodgate",
       "vc_name": "Floodgate",
@@ -564,28 +542,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_2018791643",
-      "vc_id": "emergence",
-      "vc_name": "Emergence Capital",
-      "company": "Unknown",
-      "title": "This startup’s self-driving excavators help dig up $600M in new funding - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmpvY1pGQzRtcWpnV1JBQXNwUGowRmNUcEFfV3NBX3BFR3ptTjl1UUpDZm5ackljOE1Kb1FrOWtKdEk0V1FzVE5VNUdUc01rQkgtcGFuQkltZThqMTM5NGpQc2lJeW5MYnRsY041dzMySzdONWJGRWYwV2ZqRE9CTDlrZnd5WFFSMl9FdUliTEZzQUJXZk5paExQZEQzSVVOLV84alNFdw?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-10-26T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Other",
-      "amount_usd_m": 600,
-      "confidence": 0.61,
-      "location": {
-        "city": "San Mateo",
-        "state": "CA",
-        "lat": 37.563,
-        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -661,9 +617,9 @@
       "vc_id": "tcv",
       "vc_name": "TCV",
       "company": "Unknown",
-      "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg.com",
+      "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMHhEb3JuUm1ma05hdTNPb0hBc2lQbTFnNTF0ZThWZFBzUXpxSTM3Nmw2d05LRDVSRllZd1FJUHd3ekFPZmhCdjlQWWVvbnI1UklWeThscm9nTXZLSkVPTUxtS1VEYi1YSlJMZHlYdXJnbE9CRXdmYlNSc3dZdkhWZnl5QmhtMkZiMHFtdW14Yjh5bGRvaTBwRHN6bUt6MzNFTkVKMi1SbUZrVlBUbUpYUHo4SVA4YmVqT2RpZU5n?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-10-23T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -701,23 +657,23 @@
       }
     },
     {
-      "id": "deal_507794461",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Warhound",
-      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTE80dGJINzdYUVQtVWlNQzBpdVJBa0hQa3RtSDlMR3hLMENYZzNVdGZLMlZ0SUtlVVRGUUpHVHhWZ19zSGxnZmxLY2xqOFNXT20zcDBtdWM3OHZSTnJaYXBpd0NyZDU1TXdNeHI2Q2N2a1IwN2xna1l1LTc5VDVMZW54LUw2VXFTSWVfbVgwYXplcGk3YVM4b01OcDFzRWFoOFNwMFY2cl9QYWdzM1c3OS1yLTZCUE9UQkpsTQ?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-10-22T07:00:00.000Z",
+      "id": "deal_456886921",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Unknown",
+      "title": "Investors Double Down on Brellium With $23 Million for AI That Audits Every Note - Breaking News ABA",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFVUZ0NoZlFvWlN1SWNPaUN2SHE1TWZkazRCUlR3UmdNMjlIejFrTWw5Z24yNXppbFprbzRrcHZRTjljVndrbThjd1N0X1hwRTh6dGNYNV9jTWcyRGwwZDhSNmkzOWFiUFJUMkZjZXJqME9qMEFIMm5kMFJkTFNJQmNlOEw?oc=5",
+      "source_name": "Breaking News ABA",
+      "published_at": "2026-10-22T17:30:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 200,
-      "confidence": 0.81,
+      "amount_usd_m": 23,
+      "confidence": 0.71,
       "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -740,28 +696,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_328533257",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Even Healthcare",
-      "title": "Even Healthcare raises $50 Mn in Series B led by Khosla Ventures - Entrackr",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb04xTVRfS2tKejctZ3diNVZwUkY5Q1RQSWRMcTJ1RWdhZ0diTDBwTzJjVFBUZUhHd3pLUkJzTHp1VXFsU0hjWEc5VGxoSnF3bFhVMDR0U1Fpd3dnVmtoenNJZV82YWc0cFJ4WUp0QzBGZWlaWGNmOTRjSlI1d3pjYktJRm4yaDhDNks0VldzZWFyZjZ4alVscC1CQ0U3aVHSAZ8BQVVfeXFMTm9OMU1UX0trSno3LWd3YjVWcFJGOUNUUElkTHEydUVnYWdHYkwwcE8yY1RQVGVIR3d6S1JCc0x6dVVxbFNIY1hHOVRsaEpxd2xYVTA0dFNRaXd3Z1ZraHpzSWVfNmFnNHBSeFlKdEMwRmVpWlhjZjk0Y0pSNXd6Y2JLSUZuMmg4QzZLNFZXc2VhcmY2eGpVbHAtQkNFN2lR?oc=5",
-      "source_name": "Entrackr",
-      "published_at": "2026-10-19T07:00:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -840,14 +774,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 11,
-      "weighted_score": 38.68,
+      "deal_count": 12,
+      "weighted_score": 41.77,
       "latest_at": "2026-11-07T14:29:19.000Z",
-      "amount_usd_m_total": 337.7,
+      "amount_usd_m_total": 360.7,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 7
         },
         {
           "name": "Other",
@@ -864,8 +798,8 @@
           "count": 3
         },
         {
-          "name": "Slow Ventures",
-          "count": 1
+          "name": "First Round Capital",
+          "count": 2
         }
       ]
     },
@@ -875,10 +809,10 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 8,
-      "weighted_score": 27.68,
+      "deal_count": 7,
+      "weighted_score": 23.01,
       "latest_at": "2026-11-07T14:44:01.000Z",
-      "amount_usd_m_total": 119.6,
+      "amount_usd_m_total": 69.6,
       "top_sectors": [
         {
           "name": "Other",
@@ -886,7 +820,7 @@
         },
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -910,8 +844,8 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 6,
-      "weighted_score": 23.66,
+      "deal_count": 5,
+      "weighted_score": 21.55,
       "latest_at": "2026-11-07T17:52:13.000Z",
       "amount_usd_m_total": 266,
       "top_sectors": [
@@ -921,7 +855,7 @@
         },
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -934,7 +868,7 @@
           "count": 1
         },
         {
-          "name": "Avenir Growth Capital",
+          "name": "BOND",
           "count": 1
         }
       ]
@@ -1090,29 +1024,6 @@
       ]
     },
     {
-      "key": "San Mateo,CA",
-      "city": "San Mateo",
-      "state": "CA",
-      "lat": 37.563,
-      "lon": -122.3255,
-      "deal_count": 1,
-      "weighted_score": 4.39,
-      "latest_at": "2026-10-26T07:00:00.000Z",
-      "amount_usd_m_total": 600,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Emergence Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "San Diego,CA",
       "city": "San Diego",
       "state": "CA",
@@ -1154,29 +1065,6 @@
       "top_vcs": [
         {
           "name": "Canaan Partners",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 4.11,
-      "latest_at": "2026-10-22T07:00:00.000Z",
-      "amount_usd_m_total": 200,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
           "count": 1
         }
       ]
