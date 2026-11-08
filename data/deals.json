@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T05:54:45.384Z",
+  "generated_at": "2026-11-08T13:15:52.498Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 34,
-    "total_deals": 34,
+    "scraped_deals": 37,
+    "total_deals": 37,
     "demo_mode": false,
-    "deals_with_coordinates": 34,
-    "runtime_ms": 3492,
+    "deals_with_coordinates": 37,
+    "runtime_ms": 3858,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1974416801",
+      "vc_id": "pelion",
+      "vc_name": "Pelion Venture Partners",
+      "company": "CloudFlare discloses it",
+      "title": "CloudFlare discloses it raised $50 mln in funding a year ago - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZXNSS1pWZ0JOMzBYSUNHRkhUaXh2VkRJOUtIU0pwRlQ5MWRTRFNTaWYtNHFyd19FYUVHY2RxSkdCYlhzSWJiVUg5MThDa2pycFlJUG5XNXpENC1BWlhYaHBNd2t2VnhMN0pZNmdfM2QxZ2ZscjVNbHJ0M1BSVmYzcVB4bVFUMDBUa1g2LWo4TFZtVlZRZklPRlozTXNUYjFPdlo1WlBB?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-07T18:06:54.000Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.96,
+      "location": {
+        "city": "Salt Lake City",
+        "state": "UT",
+        "lat": 40.7608,
+        "lon": -111.891,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_782686874",
       "vc_id": "rre",
@@ -102,6 +124,72 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_8667612",
+      "vc_id": "menlo-ventures",
+      "vc_name": "Menlo Ventures",
+      "company": "Series C round.",
+      "title": "Space provider Breather nets $53 mln in Menlo-led Series C round - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Ld09CMDNKUTAtWUZoN0x1M01GMDJCNXM2OEFIWGRsM1VZR1E4Q3d3c0pDM2dKZ1lFUUxmU05IU01hZExIZ0RkbGxTdlRpYmZuSlRUQ2dqU2RabEU0NzEycDF5dw?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-07T14:29:19.000Z",
+      "stage": "Series C",
+      "sector": "Other",
+      "amount_usd_m": 53,
+      "confidence": 0.86,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1386193621",
+      "vc_id": "rre",
+      "vc_name": "RRE Ventures",
+      "company": "Series C round.",
+      "title": "Space provider Breather nets $53 mln in Menlo-led Series C round - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Ld09CMDNKUTAtWUZoN0x1M01GMDJCNXM2OEFIWGRsM1VZR1E4Q3d3c0pDM2dKZ1lFUUxmU05IU01hZExIZ0RkbGxTdlRpYmZuSlRUQ2dqU2RabEU0NzEycDF5dw?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-07T14:29:19.000Z",
+      "stage": "Series C",
+      "sector": "Other",
+      "amount_usd_m": 53,
+      "confidence": 0.86,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_994688591",
+      "vc_id": "slow",
+      "vc_name": "Slow Ventures",
+      "company": "Series C round.",
+      "title": "Space provider Breather nets $53 mln in Menlo-led Series C round - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Ld09CMDNKUTAtWUZoN0x1M01GMDJCNXM2OEFIWGRsM1VZR1E4Q3d3c0pDM2dKZ1lFUUxmU05IU01hZExIZ0RkbGxTdlRpYmZuSlRUQ2dqU2RabEU0NzEycDF5dw?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-07T14:29:19.000Z",
+      "stage": "Series C",
+      "sector": "Other",
+      "amount_usd_m": 53,
+      "confidence": 0.86,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -283,28 +371,6 @@
       }
     },
     {
-      "id": "deal_972688191",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Unknown",
-      "title": "Tacit Innovations to ease restaurant ordering with $700k in seed funding - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0hRbWNPRW04amFyal9jcnpsQ0ZlT1RETF9wWklrYnctSnNyWXV1SjY0QWVGV01CR0dqU2stX0UzN2IyNmpKdWxwT0lGS3FqQjYzVWE0TVBwUEthWmZZdFRjNzBrSVZ4QURZLUxlWjhLbFFsT1c0R2gtUzBwU0Q1aF9RSkQ0b01mVzFZQ00yWWhiTG1QMlp3ZEhUdl9PMW5xbDFSWkhKLS1Id0hnRlRQZW1pTWJZQQ?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-04T13:50:49.000Z",
-      "stage": "Seed",
-      "sector": "Other",
-      "amount_usd_m": 0.7,
-      "confidence": 0.76,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_572940784",
       "vc_id": "general-catalyst",
       "vc_name": "General Catalyst",
@@ -432,6 +498,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_24785358",
+      "vc_id": "avenir",
+      "vc_name": "Avenir Growth Capital",
+      "company": "Unknown",
+      "title": "How Much Did Sigma Computing Raise? Funding & Key Investors - Clay",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIVllHajhhaTQxLTFONDIyamRUcW90VWVzMTNjLV9fQS1OYlBCOS1Yb3R5YXZqNGZhWng5c1AydnZPaHo1ZFQxTWFLOFB4MFBuWkhYNXJhZFNLQW1SX1ZYWUdn?oc=5",
+      "source_name": "Clay",
+      "published_at": "2026-10-30T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -743,28 +831,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_870910495",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Sabi",
-      "title": "Sabi Raises $50 Million Seed Round Led by Khosla Ventures to Put a Brain-AI Interface Inside a Baseball Cap - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPek45X08xYVRWS05oSkZybHBROEQxUXV4ZklxbVhidzV5amZZRjRJOFdjMkV0UThZTnNxTks4WnJfM0lnUWpMY0NDTGZaYVEtMnlORU14dVAwU2NqWm5kYU9HUGIzR05QMG5wUEMzcjVfTEdoQnZpbF91eUQ5bjhRd29JMTk0THlIUDFzd3psb01qMlZPS2c?oc=5",
-      "source_name": "Yahoo Finance",
-      "published_at": "2026-10-09T07:00:00.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -775,9 +841,9 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 11,
-      "weighted_score": 35.88,
-      "latest_at": "2026-11-06T15:07:33.000Z",
-      "amount_usd_m_total": 285.4,
+      "weighted_score": 38.68,
+      "latest_at": "2026-11-07T14:29:19.000Z",
+      "amount_usd_m_total": 337.7,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -791,14 +857,14 @@
       "top_vcs": [
         {
           "name": "Human Capital",
-          "count": 4
+          "count": 3
         },
         {
           "name": "Obvious Ventures",
           "count": 3
         },
         {
-          "name": "Root Ventures",
+          "name": "Slow Ventures",
           "count": 1
         }
       ]
@@ -810,17 +876,17 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 8,
-      "weighted_score": 26.55,
+      "weighted_score": 27.68,
       "latest_at": "2026-11-07T14:44:01.000Z",
-      "amount_usd_m_total": 116.6,
+      "amount_usd_m_total": 119.6,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 4
+          "name": "Other",
+          "count": 5
         },
         {
-          "name": "Other",
-          "count": 4
+          "name": "AI & ML",
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -833,8 +899,8 @@
           "count": 2
         },
         {
-          "name": "Khosla Ventures",
-          "count": 2
+          "name": "Sequoia Capital",
+          "count": 1
         }
       ]
     },
@@ -844,31 +910,31 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 4,
-      "weighted_score": 16.56,
+      "deal_count": 6,
+      "weighted_score": 23.66,
       "latest_at": "2026-11-07T17:52:13.000Z",
-      "amount_usd_m_total": 213,
+      "amount_usd_m_total": 266,
       "top_sectors": [
         {
           "name": "Other",
-          "count": 2
+          "count": 3
         },
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
         {
           "name": "RRE Ventures",
-          "count": 2
+          "count": 3
         },
         {
           "name": "boldstart ventures",
           "count": 1
         },
         {
-          "name": "BOND",
+          "name": "Avenir Growth Capital",
           "count": 1
         }
       ]
@@ -973,6 +1039,29 @@
         },
         {
           "name": "Floodgate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Salt Lake City,UT",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "lat": 40.7608,
+      "lon": -111.891,
+      "deal_count": 1,
+      "weighted_score": 5.67,
+      "latest_at": "2026-11-07T18:06:54.000Z",
+      "amount_usd_m_total": 50,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Pelion Venture Partners",
           "count": 1
         }
       ]
