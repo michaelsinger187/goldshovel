@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:15:44.880Z",
+  "generated_at": "2026-11-09T22:16:11.892Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 36,
-    "total_deals": 36,
+    "scraped_deals": 34,
+    "total_deals": 34,
     "demo_mode": false,
-    "deals_with_coordinates": 36,
-    "runtime_ms": 3966,
+    "deals_with_coordinates": 34,
+    "runtime_ms": 4033,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_624484137",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "NVIDIA Plans Investments in Korean AI Startups Motif, Upstage and RLWRLD - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HZldOR0I0azZnUXhTeTNQTEpWQ19NS2NCWEhibGxHMHZlVzJXaE5oU0RKckVVeXVxeXE1YVByNVZlb1BZMFpZTlZDbVRDLVFDQWZB?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-09T12:48:02.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1974416801",
       "vc_id": "pelion",
@@ -212,28 +234,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_790270129",
-      "vc_id": "qualcomm",
-      "vc_name": "Qualcomm Ventures",
-      "company": "Unknown",
-      "title": "Qualcomm Backs Anteryon - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PRS1QOG1URHBXNHNoeFVlaEp6M0dXemR1M2tzelRETk9ZY2pjTkpld0hzSTY1ckJraGRuUE5PV0RnRHQtRlRZNVdzVFV0NTczalpTR0JqV094RVNNQWFuTENjcjhMblNqb3ZWenpaQWRyNl9uQlE?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-05T22:46:05.000Z",
-      "stage": "Growth",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.56,
-      "location": {
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.7157,
-        "lon": -117.1611,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -525,28 +525,6 @@
       }
     },
     {
-      "id": "deal_437748641",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Unknown",
-      "title": "Impression Ventures leads funding round for Montreal fintech startup FlexPay - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0Z6NWFjMmxUd0d2Y3otRXZlWXFhai1DUUZxTTlHR0dRTThTQjVTZmdTUlNnV1B0Q040VkowWmxyVFRxc0t0aW5Ub2pzUWwxOHdBejdmWXVrNHkwcDNzOEgwOTdjWEs0Yy0tWG1VT2tWRzhjd29MVzhYRHJZNFdGQjdBWmE1dVFGTDg2Y3lFWHFhOVJBUFhySlVSZkZDQ1hla2FpN2NlMENkcHg2T08ySkxQOHJRUHozbnBWVg?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-10-26T08:23:15.000Z",
-      "stage": "Growth",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.66,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_2018791643",
       "vc_id": "emergence",
       "vc_name": "Emergence Capital",
@@ -639,9 +617,9 @@
       "vc_id": "tcv",
       "vc_name": "TCV",
       "company": "Unknown",
-      "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg",
+      "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMHhEb3JuUm1ma05hdTNPb0hBc2lQbTFnNTF0ZThWZFBzUXpxSTM3Nmw2d05LRDVSRllZd1FJUHd3ekFPZmhCdjlQWWVvbnI1UklWeThscm9nTXZLSkVPTUxtS1VEYi1YSlJMZHlYdXJnbE9CRXdmYlNSc3dZdkhWZnl5QmhtMkZiMHFtdW14Yjh5bGRvaTBwRHN6bUt6MzNFTkVKMi1SbUZrVlBUbUpYUHo4SVA4YmVqT2RpZU5n?oc=5",
-      "source_name": "Bloomberg",
+      "source_name": "Bloomberg.com",
       "published_at": "2026-10-23T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -676,28 +654,6 @@
         "lon": -74.006,
         "method": "city_keyword",
         "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_456886921",
-      "vc_id": "first-round",
-      "vc_name": "First Round Capital",
-      "company": "Unknown",
-      "title": "Investors Double Down on Brellium With $23 Million for AI That Audits Every Note - Breaking News ABA",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFVUZ0NoZlFvWlN1SWNPaUN2SHE1TWZkazRCUlR3UmdNMjlIejFrTWw5Z24yNXppbFprbzRrcHZRTjljVndrbThjd1N0X1hwRTh6dGNYNV9jTWcyRGwwZDhSNmkzOWFiUFJUMkZjZXJqME9qMEFIMm5kMFJkTFNJQmNlOEw?oc=5",
-      "source_name": "Breaking News ABA",
-      "published_at": "2026-10-22T17:30:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 23,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
       }
     },
     {
@@ -818,14 +774,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 11,
-      "weighted_score": 37.36,
-      "latest_at": "2026-11-07T14:29:19.000Z",
-      "amount_usd_m_total": 357.2,
+      "deal_count": 10,
+      "weighted_score": 32.12,
+      "latest_at": "2026-11-09T12:48:02.000Z",
+      "amount_usd_m_total": 334.2,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 6
         },
         {
           "name": "Other",
@@ -835,15 +791,15 @@
       "top_vcs": [
         {
           "name": "Human Capital",
-          "count": 3
+          "count": 2
         },
         {
           "name": "Obvious Ventures",
           "count": 2
         },
         {
-          "name": "First Round Capital",
-          "count": 2
+          "name": "Benchmark",
+          "count": 1
         }
       ]
     },
@@ -1094,29 +1050,6 @@
       "top_vcs": [
         {
           "name": "Emergence Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "San Diego,CA",
-      "city": "San Diego",
-      "state": "CA",
-      "lat": 32.7157,
-      "lon": -117.1611,
-      "deal_count": 1,
-      "weighted_score": 4.16,
-      "latest_at": "2026-11-05T22:46:05.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Qualcomm Ventures",
           "count": 1
         }
       ]
