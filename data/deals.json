@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:16:11.892Z",
+  "generated_at": "2026-11-10T07:10:00.982Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 34,
-    "total_deals": 34,
+    "scraped_deals": 33,
+    "total_deals": 33,
     "demo_mode": false,
-    "deals_with_coordinates": 34,
-    "runtime_ms": 4033,
+    "deals_with_coordinates": 33,
+    "runtime_ms": 3259,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_998486788",
+      "vc_id": "human-capital",
+      "vc_name": "Human Capital",
+      "company": "Unknown",
+      "title": "Payments startup Thunes snags $10 mln Series A - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMTlqYWxIMFRWRnNYUXJHWm9wcU5SRjJpS1k1ZF9rdW5nbmJwTERFOGxvVkJ2cXE4V08xeGdPamltQi1CN2VIZUI0MUFGb3ZKOGwwaWZiMmNPcHotWEtwM01rb3hpQm96WGJVaHVpXy05U1U0MnpXc3hiQXBIWnR4TWFzYjZOaWpoMlVjTVZBd3VLV3M?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-09T14:52:21.000Z",
+      "stage": "Series A",
+      "sector": "Fintech",
+      "amount_usd_m": 10,
+      "confidence": 0.86,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_624484137",
       "vc_id": "benchmark",
@@ -393,28 +415,6 @@
       }
     },
     {
-      "id": "deal_1071089579",
-      "vc_id": "social-capital",
-      "vc_name": "Social Capital",
-      "company": "Unknown",
-      "title": "Space Hardware Funding Jumps 34x to $17B [2026] - shattered.io",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
-      "source_name": "shattered.io",
-      "published_at": "2026-11-04T10:32:06.000Z",
-      "stage": "Unspecified",
-      "sector": "Semis, Robotics & Hardware",
-      "amount_usd_m": 17000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1810252195",
       "vc_id": "intel-capital",
       "vc_name": "Intel Capital",
@@ -635,28 +635,6 @@
       }
     },
     {
-      "id": "deal_1525253812",
-      "vc_id": "bond",
-      "vc_name": "BOND",
-      "company": "Silicon Valley startup",
-      "title": "Silicon Valley startup raises $200M to create genetically engineered military dogs: 'Captain America meets Iron Man' - New York Post",
-      "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRXZEc0YxaGZNMWdacjNUVHVrNzhndndZa1lfS3A0VU5YVUg3bnNGZm1iczU3V1haek45RFV0eDFuWE5vT0ppMTdPeFFxLV81bUZ3WU5oRFh6aVpIUW8wTElva3NyY0QyTXFDSWJCVkhIamxLMU9Oa3BfRXp4RmcxUG1Ya3h5QVBVTkFnTlQ0TVVFVTE4U09vZ2Z5MWFOY1dkUTFUNzR1UkhGYnQyX21HQXhIVUpZanFyVEE1UUlvNHVycF9sRTdDanBKWnJnaXZZdVJDWVFXRDBQbmN3Z1JjV2dXSm1aSVU?oc=5",
-      "source_name": "New York Post",
-      "published_at": "2026-10-23T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 200,
-      "confidence": 0.93,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "city_keyword",
-        "confidence": 0.68
-      }
-    },
-    {
       "id": "deal_507794461",
       "vc_id": "8vc",
       "vc_name": "8VC",
@@ -774,10 +752,10 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 32.12,
-      "latest_at": "2026-11-09T12:48:02.000Z",
-      "amount_usd_m_total": 334.2,
+      "deal_count": 11,
+      "weighted_score": 35.62,
+      "latest_at": "2026-11-09T14:52:21.000Z",
+      "amount_usd_m_total": 344.2,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -786,12 +764,16 @@
         {
           "name": "Other",
           "count": 4
+        },
+        {
+          "name": "Fintech",
+          "count": 1
         }
       ],
       "top_vcs": [
         {
           "name": "Human Capital",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Obvious Ventures",
@@ -844,10 +826,10 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 5,
-      "weighted_score": 21.55,
+      "deal_count": 4,
+      "weighted_score": 17.32,
       "latest_at": "2026-11-07T17:52:13.000Z",
-      "amount_usd_m_total": 266,
+      "amount_usd_m_total": 66,
       "top_sectors": [
         {
           "name": "Other",
@@ -855,7 +837,7 @@
         },
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 1
         }
       ],
       "top_vcs": [
@@ -865,49 +847,6 @@
         },
         {
           "name": "boldstart ventures",
-          "count": 1
-        },
-        {
-          "name": "BOND",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 11.91,
-      "latest_at": "2026-11-07T17:48:23.000Z",
-      "amount_usd_m_total": 17005,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Eclipse Ventures",
-          "count": 1
-        },
-        {
-          "name": "Social Capital",
-          "count": 1
-        },
-        {
-          "name": "Floodgate",
           "count": 1
         }
       ]
@@ -981,6 +920,37 @@
       "top_vcs": [
         {
           "name": "B Capital Group",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 2,
+      "weighted_score": 5.97,
+      "latest_at": "2026-11-07T17:48:23.000Z",
+      "amount_usd_m_total": 5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Eclipse Ventures",
+          "count": 1
+        },
+        {
+          "name": "Floodgate",
           "count": 1
         }
       ]
