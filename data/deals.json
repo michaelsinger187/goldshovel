@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:40:26.673Z",
+  "generated_at": "2026-11-11T06:04:59.784Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 39,
-    "total_deals": 39,
+    "scraped_deals": 41,
+    "total_deals": 41,
     "demo_mode": false,
-    "deals_with_coordinates": 39,
-    "runtime_ms": 4186,
+    "deals_with_coordinates": 41,
+    "runtime_ms": 3734,
     "note": "",
     "error_sample": []
   },
@@ -102,6 +102,50 @@
         "state": "WA",
         "lat": 47.6739,
         "lon": -122.1215,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_625530664",
+      "vc_id": "rre",
+      "vc_name": "RRE Ventures",
+      "company": "This startup says AI agents suffer from 'amnesia.' It",
+      "title": "This startup says AI agents suffer from 'amnesia.' It raised $35 million to solve that with this pitch deck. - Business Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcF9wSU9Qd3p3a0hJX0hvTGpFaGJWR2dIQlBTa09sNWFGcE1Ra2dKT2VDMFZobWNMWGJGWmdLRmwyb2FKRVJSa2p4VExnbTdlM1hTSy1yaXg2YjdkNkpsT1pEVUdsVUlLM2dyaHZoU3Vacm9XWks2SElrTmF2R2FGQ0dUcXZCS2M5UXZnUg?oc=5",
+      "source_name": "Business Insider",
+      "published_at": "2026-11-10T16:01:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 35,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1984380164",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Mercor",
+      "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Help Enterprises Own Their Intelligence - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNHNMblZIRzRoZWdJRmRJa3lVczR5bFhsempFNVBOaFBac1U4cFR4cS00NVg2eUtMLW5wWC1faE1jc0FuQ1daLW1pM1I4LTdhMWljejNtZFJiZzlucElPeEM2NUt1NEM1MEtjUkgzejJleUo1b1lCcTd3RzBJV3FaRTQ0VWsxcExYYllXSzVGbGdrTkhpaEVDRTR3cW9GbmdxUXJqSzFrSmwzYlFyeVZPSGt0THN5UjRTeDkwWll4ZHNHcUxmUTNiQjdmckN0NnlmMW1lV1lpNTBxRW5iM0Z1bU5VQXhfaWFYV0NxZjVxRF9iSXJtMVlj?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-11-10T13:15:00.000Z",
+      "stage": "Series D+",
+      "sector": "AI & ML",
+      "amount_usd_m": 750,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -591,28 +635,6 @@
       }
     },
     {
-      "id": "deal_344804649",
-      "vc_id": "rre",
-      "vc_name": "RRE Ventures",
-      "company": "Payfone",
-      "title": "Payfone Raises $11 Million - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUnJueW55VExLNkEySVdqWnhaeWNhUk0xMl95Q2VQaktLbWZGS1FOcHJCb0dhenU3blhTUVZCMzdSVkU1ZHM5YXNvcFJxX1FieV9pcW1OLTBvZG9OaFBFVmhrT3dzcEZqeVRITkh6UmpqNnVKeC1oOA?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-03T21:12:33.000Z",
-      "stage": "Growth",
-      "sector": "AI & ML",
-      "amount_usd_m": 11,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1928686499",
       "vc_id": "root",
       "vc_name": "Root Ventures",
@@ -635,18 +657,18 @@
       }
     },
     {
-      "id": "deal_625642743",
-      "vc_id": "floodgate",
-      "vc_name": "Floodgate",
-      "company": "Unknown",
-      "title": "SpareFoot.com Inks $1.5M Series B - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ERUdXV1Z6Q1gwX2tISnVjODA2Y1Bua3J4dk1zWGI1aTE5X25GYlpTcEpIa2ZHenFXZFJzMUhheXp6ZV9qRWlxMDgxdE5IazAtNU5qV0NxUHA4N2dkdWt1OTdoMjZHSU5iMkV2WUJ6cktKb0JYb29EbGpZSmd1OVE?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-10-26T20:16:37.000Z",
-      "stage": "Series B",
-      "sector": "Other",
-      "amount_usd_m": 1.5,
-      "confidence": 0.76,
+      "id": "deal_793315742",
+      "vc_id": "wing",
+      "vc_name": "Wing Venture Capital",
+      "company": "Upwind Security",
+      "title": "Upwind Security raises $400 million in Series C funding. - N2K CyberWire",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJQzRwVHFlUDJjNzMxOHB6czZNQzlnVEpnMmZBVUhYU1ZsdDdpbDNXOEpTZ1daejM0X1JHQ1RMMFUxR1dhbm9INWFBMkRZaDJuc25DNzdXdVpaeDdFN2Y3ckZxVmk1ZlRRWUpz?oc=5",
+      "source_name": "N2K CyberWire",
+      "published_at": "2026-10-28T22:30:20.000Z",
+      "stage": "Series C",
+      "sector": "AI & ML",
+      "amount_usd_m": 400,
+      "confidence": 0.96,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -762,6 +784,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_437834804",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Even Healthcare",
+      "title": "Even Healthcare raises $50 mn in funding led by Khosla Ventures - Moneycontrol.com",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWDdGRkFCQ3U5MWlfZkNrWjRMdmhjdHUzM0Vxa3lMMjhsZHpJaWJWNm5UQ2VoU2hxeG9teXRtcTZZcnBjdGl3OHRrcndBYU1rOHJmdFdQN3pnUzNtcE83bzNOUUhKZ0QtMjNlZnpOREYyNE51ek9Fb2xZVnp0R2lpTzZkamt4eWNBWnVKNUNOelpLVDcxbUxMbENPV21sMF9wbmV0MDNvOHg1dW1nWjM0REdLcHh3eHM1TWhOZUc4eWJUeUxUMWfSAcsBQVVfeXFMTVhWbmV1d2cwTW91R0lGcEFxa3VDbERMNjJ1UnV5ek9OVGp3X0JrY19NUDAxWGhHU0F2M3hxdzNHUENqbHlEMkdTXzVpY2lmLU1lWDZnUkV5dEZZbjkyQi1jZzR1X3JXQUZjRzVvLVVNSE9QczdOeXFZVVlWdFlJQU44SDJtM3B2V3ZBcEhwWFhLdkh3N0szRWNLdkNlSGE3SE9BVWpKemE2WWUxZWZTenFjaHJfNmstVDVlUm95cHlOMElEQ1dSbFV1Nm8?oc=5",
+      "source_name": "Moneycontrol.com",
+      "published_at": "2026-10-19T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -884,14 +928,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 15,
-      "weighted_score": 49.24,
+      "deal_count": 16,
+      "weighted_score": 55.88,
       "latest_at": "2026-11-10T18:33:49.000Z",
-      "amount_usd_m_total": 20359.2,
+      "amount_usd_m_total": 21109.2,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Other",
@@ -904,12 +948,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Human Capital",
+          "name": "Benchmark",
           "count": 4
         },
         {
-          "name": "Benchmark",
-          "count": 3
+          "name": "Human Capital",
+          "count": 4
         },
         {
           "name": "Obvious Ventures",
@@ -924,9 +968,9 @@
       "lat": 40.7128,
       "lon": -74.006,
       "deal_count": 7,
-      "weighted_score": 28.6,
-      "latest_at": "2026-11-07T17:52:13.000Z",
-      "amount_usd_m_total": 277,
+      "weighted_score": 26.93,
+      "latest_at": "2026-11-10T16:01:00.000Z",
+      "amount_usd_m_total": 301,
       "top_sectors": [
         {
           "name": "Other",
@@ -958,10 +1002,10 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 7,
-      "weighted_score": 23.01,
+      "deal_count": 8,
+      "weighted_score": 26.53,
       "latest_at": "2026-11-07T14:44:01.000Z",
-      "amount_usd_m_total": 69.6,
+      "amount_usd_m_total": 119.6,
       "top_sectors": [
         {
           "name": "Other",
@@ -969,7 +1013,7 @@
         },
         {
           "name": "AI & ML",
-          "count": 2
+          "count": 3
         }
       ],
       "top_vcs": [
@@ -983,6 +1027,33 @@
         },
         {
           "name": "Sequoia Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 2,
+      "weighted_score": 8.78,
+      "latest_at": "2026-11-07T17:48:23.000Z",
+      "amount_usd_m_total": 403.5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Eclipse Ventures",
+          "count": 1
+        },
+        {
+          "name": "Wing Venture Capital",
           "count": 1
         }
       ]
@@ -1011,37 +1082,6 @@
         {
           "name": "Intel Capital",
           "count": 2
-        }
-      ]
-    },
-    {
-      "key": "Palo Alto,CA",
-      "city": "Palo Alto",
-      "state": "CA",
-      "lat": 37.4419,
-      "lon": -122.143,
-      "deal_count": 2,
-      "weighted_score": 5.97,
-      "latest_at": "2026-11-07T17:48:23.000Z",
-      "amount_usd_m_total": 5,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Eclipse Ventures",
-          "count": 1
-        },
-        {
-          "name": "Floodgate",
-          "count": 1
         }
       ]
     },
