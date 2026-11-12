@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:10:51.503Z",
+  "generated_at": "2026-11-12T00:36:14.850Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,59 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 38,
-    "total_deals": 38,
+    "scraped_deals": 35,
+    "total_deals": 35,
     "demo_mode": false,
-    "deals_with_coordinates": 38,
-    "runtime_ms": 4125,
+    "deals_with_coordinates": 35,
+    "runtime_ms": 3993,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1463044046",
+      "vc_id": "rre",
+      "vc_name": "RRE Ventures",
+      "company": "Graphon Labs",
+      "title": "Graphon Labs Raises $35M Series A to Give AI Agents Long-Term Memory - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50U2FzNUdwQWRiNXcyRkNJdkdNUnQyS0ZLWElEZzB2YjZCb2lPZ21RY0NZVnRQS1dOT0ZnZ1BMWGkxSVRwdHVJRl9KSnBfQ3F0bFpz?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-11T21:09:17.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 35,
+      "confidence": 0.96,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1369747423",
+      "vc_id": "capitalg",
+      "vc_name": "CapitalG",
+      "company": "Unknown",
+      "title": "Lightspeed and Alphabet's CapitalG back Fractile in £500M plus funding round - Tech.eu",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOER2enNUUlN6NVFHdzVNYmlyLThJVlJwMnk2Y3dtNmNQblFtYzRJRi1iY0lwemhxVzd1THJqWWtGczhDQ2I5emFXa19yQ3FkYTUwaUdYXzVBOFFvNkNUaVkyT2dvSjd6Y2o0QUVQZzlPdDhVUjVlMzhCanlOTmV4aFZGa09tc3JUMUxjV3J4UlRyb3ZyN3pMLWxqalZVRjhGd1MwamRR?oc=5",
+      "source_name": "Tech.eu",
+      "published_at": "2026-11-11T14:14:48.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_790469467",
       "vc_id": "benchmark",
@@ -107,6 +151,28 @@
       }
     },
     {
+      "id": "deal_625530664",
+      "vc_id": "rre",
+      "vc_name": "RRE Ventures",
+      "company": "This startup says AI agents suffer from 'amnesia.' It",
+      "title": "This startup says AI agents suffer from 'amnesia.' It raised $35 million to solve that with this pitch deck. - Business Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcF9wSU9Qd3p3a0hJX0hvTGpFaGJWR2dIQlBTa09sNWFGcE1Ra2dKT2VDMFZobWNMWGJGWmdLRmwyb2FKRVJSa2p4VExnbTdlM1hTSy1yaXg2YjdkNkpsT1pEVUdsVUlLM2dyaHZoU3Vacm9XWks2SElrTmF2R2FGQ0dUcXZCS2M5UXZnUg?oc=5",
+      "source_name": "Business Insider",
+      "published_at": "2026-11-10T16:01:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 35,
+      "confidence": 0.81,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1984380164",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
@@ -141,6 +207,28 @@
       "sector": "Fintech",
       "amount_usd_m": 10,
       "confidence": 0.86,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_624484137",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "NVIDIA Plans Investments in Korean AI Startups Motif, Upstage and RLWRLD - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HZldOR0I0azZnUXhTeTNQTEpWQ19NS2NCWEhibGxHMHZlVzJXaE5oU0RKckVVeXVxeXE1YVByNVZlb1BZMFpZTlZDbVRDLVFDQWZB?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-09T12:48:02.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.51,
       "location": {
         "city": "San Francisco",
         "state": "CA",
@@ -217,94 +305,6 @@
       }
     },
     {
-      "id": "deal_1525564283",
-      "vc_id": "sequoia-capital",
-      "vc_name": "Sequoia Capital",
-      "company": "QI startup Qindom",
-      "title": "QI startup Qindom raises $2.6 mln in seed-stage funding - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFNnTURnR2pCTTdDb25rQloxdkpFVXk5cDBFZTR0NlNncm1FQ20wMWZ4SFR2bEw5WjF1cjRybW02OUZEM014bTRTRHVrSmphQUNlQ0NWdEkxVE8yNmw1R29nd2Y4d3g2LVBjd1N3UFhvd096RWhxb3NKS3JHQzZha3FmNkdNZWJiSk1EWjR1TXo3OEZRSjVyQmdxUVhnbXM?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-07T14:44:01.000Z",
-      "stage": "Growth",
-      "sector": "AI & ML",
-      "amount_usd_m": 2.6,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_8667612",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
-      "company": "Series C round.",
-      "title": "Space provider Breather nets $53 mln in Menlo-led Series C round - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Ld09CMDNKUTAtWUZoN0x1M01GMDJCNXM2OEFIWGRsM1VZR1E4Q3d3c0pDM2dKZ1lFUUxmU05IU01hZExIZ0RkbGxTdlRpYmZuSlRUQ2dqU2RabEU0NzEycDF5dw?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-07T14:29:19.000Z",
-      "stage": "Series C",
-      "sector": "Other",
-      "amount_usd_m": 53,
-      "confidence": 0.86,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1386193621",
-      "vc_id": "rre",
-      "vc_name": "RRE Ventures",
-      "company": "Series C round.",
-      "title": "Space provider Breather nets $53 mln in Menlo-led Series C round - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Ld09CMDNKUTAtWUZoN0x1M01GMDJCNXM2OEFIWGRsM1VZR1E4Q3d3c0pDM2dKZ1lFUUxmU05IU01hZExIZ0RkbGxTdlRpYmZuSlRUQ2dqU2RabEU0NzEycDF5dw?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-07T14:29:19.000Z",
-      "stage": "Series C",
-      "sector": "Other",
-      "amount_usd_m": 53,
-      "confidence": 0.86,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_994688591",
-      "vc_id": "slow",
-      "vc_name": "Slow Ventures",
-      "company": "Series C round.",
-      "title": "Space provider Breather nets $53 mln in Menlo-led Series C round - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Ld09CMDNKUTAtWUZoN0x1M01GMDJCNXM2OEFIWGRsM1VZR1E4Q3d3c0pDM2dKZ1lFUUxmU05IU01hZExIZ0RkbGxTdlRpYmZuSlRUQ2dqU2RabEU0NzEycDF5dw?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-07T14:29:19.000Z",
-      "stage": "Series C",
-      "sector": "Other",
-      "amount_usd_m": 53,
-      "confidence": 0.86,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_958802355",
       "vc_id": "social-capital",
       "vc_name": "Social Capital",
@@ -344,28 +344,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_790270129",
-      "vc_id": "qualcomm",
-      "vc_name": "Qualcomm Ventures",
-      "company": "Unknown",
-      "title": "Qualcomm Backs Anteryon - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PRS1QOG1URHBXNHNoeFVlaEp6M0dXemR1M2tzelRETk9ZY2pjTkpld0hzSTY1ckJraGRuUE5PV0RnRHQtRlRZNVdzVFV0NTczalpTR0JqV094RVNNQWFuTENjcjhMblNqb3ZWenpaQWRyNl9uQlE?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-05T22:46:05.000Z",
-      "stage": "Growth",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.56,
-      "location": {
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.7157,
-        "lon": -117.1611,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -591,28 +569,6 @@
       }
     },
     {
-      "id": "deal_344804649",
-      "vc_id": "rre",
-      "vc_name": "RRE Ventures",
-      "company": "Payfone",
-      "title": "Payfone Raises $11 Million - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HUnJueW55VExLNkEySVdqWnhaeWNhUk0xMl95Q2VQaktLbWZGS1FOcHJCb0dhenU3blhTUVZCMzdSVkU1ZHM5YXNvcFJxX1FieV9pcW1OLTBvZG9OaFBFVmhrT3dzcEZqeVRITkh6UmpqNnVKeC1oOA?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-03T21:12:33.000Z",
-      "stage": "Growth",
-      "sector": "AI & ML",
-      "amount_usd_m": 11,
-      "confidence": 0.96,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_1928686499",
       "vc_id": "root",
       "vc_name": "Root Ventures",
@@ -635,18 +591,18 @@
       }
     },
     {
-      "id": "deal_850306326",
-      "vc_id": "dcvc",
-      "vc_name": "DCVC",
-      "company": "YC-backed healthtech startup BioStack",
-      "title": "YC-backed healthtech startup BioStack raises $9.5 million from Peak XV, DCVC, others - The Economic Times",
-      "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLVhQY2pucXhzWElFeHhyVDNlbmRSbGxrWnJFQTZuRGxfSUhWaUo3V2oxdjk3TGtWdkZxNy04SFNIS3owdTZfc19XN2s2NjI2dEtpdkhjVHUyS19JZEU1VGJzbnNHS0M0S2NJTmdCRThJOFhsMm1manB4S3owUkpxcHB6ZFhHdHBTTWd4eHlIMXJqMUJLbmdLaEwwQjR5RHVfZGRwRzE0em9MU0tHNENsSFVqOTJkeUpxcTREVHJ2V19oWGlWQldxanZJOTFmZUFGWGg5cU8xRlNrRUtSb2FZdU9B0gHoAUFVX3lxTE1iYmd6WThlemM4UUx1c012c3ZZMkpGSS1FM1M5b3BGb3VTVklfN2ZzT2psanRsdm8zdjBsNkFkQ1VTMnhPRWZWYVE5T0dFUkoyemVEVkdkS1o3UGtKX253SVJsWWFrS0VKclMxU1FzYnp6ZWxYYlppa2YtX0UzRzFXSmM4dFZxbmtHSnpFV1BRalIyYTNMdWt3QXloYXEtVDFKVElqTy05ZVd4TUxEalBfdmQ4Wk5lRFZfYVV2RmRTLTRfbVVoS1FLaTNQZXF0cGZhSVl1dy1RTUVoOUpGanZsREEwOTFWdms?oc=5",
-      "source_name": "The Economic Times",
-      "published_at": "2026-10-26T12:16:13.000Z",
-      "stage": "Unspecified",
+      "id": "deal_793315742",
+      "vc_id": "wing",
+      "vc_name": "Wing Venture Capital",
+      "company": "Upwind Security",
+      "title": "Upwind Security raises $400 million in Series C funding. - N2K CyberWire",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJQzRwVHFlUDJjNzMxOHB6czZNQzlnVEpnMmZBVUhYU1ZsdDdpbDNXOEpTZ1daejM0X1JHQ1RMMFUxR1dhbm9INWFBMkRZaDJuc25DNzdXdVpaeDdFN2Y3ckZxVmk1ZlRRWUpz?oc=5",
+      "source_name": "N2K CyberWire",
+      "published_at": "2026-10-28T22:30:20.000Z",
+      "stage": "Series C",
       "sector": "AI & ML",
-      "amount_usd_m": 9.5,
-      "confidence": 0.81,
+      "amount_usd_m": 400,
+      "confidence": 0.96,
       "location": {
         "city": "Palo Alto",
         "state": "CA",
@@ -720,28 +676,6 @@
         "lon": -74.006,
         "method": "city_keyword",
         "confidence": 0.68
-      }
-    },
-    {
-      "id": "deal_507794461",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Warhound",
-      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTE80dGJINzdYUVQtVWlNQzBpdVJBa0hQa3RtSDlMR3hLMENYZzNVdGZLMlZ0SUtlVVRGUUpHVHhWZ19zSGxnZmxLY2xqOFNXT20zcDBtdWM3OHZSTnJaYXBpd0NyZDU1TXdNeHI2Q2N2a1IwN2xna1l1LTc5VDVMZW54LUw2VXFTSWVfbVgwYXplcGk3YVM4b01OcDFzRWFoOFNwMFY2cl9QYWdzM1c3OS1yLTZCUE9UQkpsTQ?oc=5",
-      "source_name": "TechCrunch",
-      "published_at": "2026-10-22T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 200,
-      "confidence": 0.81,
-      "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
       }
     },
     {
@@ -863,17 +797,17 @@
       "lat": 37.7749,
       "lon": -122.4194,
       "deal_count": 14,
-      "weighted_score": 49.56,
+      "weighted_score": 46.68,
       "latest_at": "2026-11-10T18:33:49.000Z",
-      "amount_usd_m_total": 20859.2,
+      "amount_usd_m_total": 20806.2,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 8
+          "count": 9
         },
         {
           "name": "Other",
-          "count": 5
+          "count": 4
         },
         {
           "name": "Fintech",
@@ -882,12 +816,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Human Capital",
+          "name": "Benchmark",
           "count": 4
         },
         {
-          "name": "Benchmark",
-          "count": 3
+          "name": "Human Capital",
+          "count": 4
         },
         {
           "name": "Obvious Ventures",
@@ -902,17 +836,17 @@
       "lat": 40.7128,
       "lon": -74.006,
       "deal_count": 6,
-      "weighted_score": 25.1,
-      "latest_at": "2026-11-07T15:28:42.000Z",
-      "amount_usd_m_total": 267,
+      "weighted_score": 22.55,
+      "latest_at": "2026-11-11T21:09:17.000Z",
+      "amount_usd_m_total": 273,
       "top_sectors": [
         {
-          "name": "Other",
-          "count": 3
+          "name": "AI & ML",
+          "count": 4
         },
         {
-          "name": "AI & ML",
-          "count": 3
+          "name": "Other",
+          "count": 2
         }
       ],
       "top_vcs": [
@@ -931,50 +865,15 @@
       ]
     },
     {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 7,
-      "weighted_score": 23.01,
-      "latest_at": "2026-11-07T14:44:01.000Z",
-      "amount_usd_m_total": 69.6,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 5
-        },
-        {
-          "name": "AI & ML",
-          "count": 2
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "New Enterprise Associates",
-          "count": 2
-        },
-        {
-          "name": "TCV",
-          "count": 2
-        },
-        {
-          "name": "Sequoia Capital",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Palo Alto,CA",
       "city": "Palo Alto",
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
       "deal_count": 3,
-      "weighted_score": 11.58,
+      "weighted_score": 14.72,
       "latest_at": "2026-11-07T17:48:23.000Z",
-      "amount_usd_m_total": 17013,
+      "amount_usd_m_total": 17403.5,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -995,7 +894,42 @@
           "count": 1
         },
         {
-          "name": "DCVC",
+          "name": "Wing Venture Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
+      "deal_count": 5,
+      "weighted_score": 13.5,
+      "latest_at": "2026-11-05T14:00:20.000Z",
+      "amount_usd_m_total": 14,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 4
+        },
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "New Enterprise Associates",
+          "count": 2
+        },
+        {
+          "name": "TCV",
+          "count": 2
+        },
+        {
+          "name": "Andreessen Horowitz",
           "count": 1
         }
       ]
@@ -1074,52 +1008,6 @@
       ]
     },
     {
-      "key": "San Diego,CA",
-      "city": "San Diego",
-      "state": "CA",
-      "lat": 32.7157,
-      "lon": -117.1611,
-      "deal_count": 1,
-      "weighted_score": 4.16,
-      "latest_at": "2026-11-05T22:46:05.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Qualcomm Ventures",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 4.11,
-      "latest_at": "2026-10-22T07:00:00.000Z",
-      "amount_usd_m_total": 200,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Boston,MA",
       "city": "Boston",
       "state": "MA",
@@ -1161,6 +1049,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-11-11T14:14:48.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
