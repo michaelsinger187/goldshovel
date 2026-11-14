@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:11:33.040Z",
+  "generated_at": "2026-11-14T13:27:49.667Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,11 +9,11 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 30,
-    "total_deals": 30,
+    "scraped_deals": 27,
+    "total_deals": 27,
     "demo_mode": false,
-    "deals_with_coordinates": 30,
-    "runtime_ms": 3476,
+    "deals_with_coordinates": 27,
+    "runtime_ms": 3635,
     "note": "",
     "error_sample": []
   },
@@ -41,6 +41,28 @@
       }
     },
     {
+      "id": "deal_585241327",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Unknown",
+      "title": "Thalmic Labs Scores $14.5M Series A Financing - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNclZ1Q09JTE1KbkNqMkJmd2hXRzBEcUJVcktmenNwcVBfa0E3aVJ3VFNvX01Pem9haXhuVnE3R2tPYlFIOWtYX0hDLXFBeC02THRGYnNpVHNzMEk1ajBuU2pxaW5DMy04V3o0WTIwZUJrZkFDQ0VRUXo5cnlXMlJ0eW9SOXRUT0xIRFAtdmVXR0VGUQ?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-13T13:55:31.000Z",
+      "stage": "Series A",
+      "sector": "Other",
+      "amount_usd_m": 14.5,
+      "confidence": 0.76,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1685189846",
       "vc_id": "kleiner-perkins",
       "vc_name": "Kleiner Perkins",
@@ -58,50 +80,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1075957491",
-      "vc_id": "salesforce",
-      "vc_name": "Salesforce Ventures",
-      "company": "Quantum software startup Q-CTRL",
-      "title": "Quantum software startup Q-CTRL raised $290 million at more than $1 billion valuation - Quartz",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhSVJBeWI4NmkzQ1FVMUM5TXRWaWNmaEdVQWJGbzhPQ3EzVlhzcmUzMUFJcTRJbzhQNE8wTFlyVlRYRnVwd3labGluMjBtcE9YTHFjeXZzdl8tQ0pDeWEwelZ4R1VNU1I1VzdsNWFIdVNBcG5BZXdodA?oc=5",
-      "source_name": "Quartz",
-      "published_at": "2026-11-12T13:34:11.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 290,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_124407690",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "SPARK CEO Hussain Al Mahmoudi",
-      "title": "SPARK CEO Hussain Al Mahmoudi launches book exploring UAE’s investment in human capital and leadership vision - Zawya",
-      "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOajhxaEFSbTJfOTduVy1McThMZFF0bVV2LVIyUk5RNWE5bjNuVDlqVXFtOVhEZmp0QjFhQXBFZG5vb2N2emVNcEI5dlhaUkNvd04wNTRHdEFrZEM3U3NwVVRVUFdMMGxiX3c3SC1WVmhfeXlTNHRucFFRNmd0VU83NFZJNkgzeUlaRGZBamR0VURJWjhmdFhQd0F3NlJucWhTUzhIZmZDTlhBUHdMNGhCYlVxaGZpbUxfR0JqZ2lkaWdTQjdUemJfSXFjMGpYOVlnT2s0eDFQVFlDSk5uUktyMGJHa0YwNTQtc2R2TTlmZ3hnV0NZeDlTSks5TDZYM1k?oc=5",
-      "source_name": "Zawya",
-      "published_at": "2026-11-12T10:54:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.61,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -190,28 +168,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1256317041",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
-      "company": "Graphon Labs",
-      "title": "Graphon Labs Raises $35M Series A to Give AI Agents Long-Term Memory - Wowtale",
-      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50U2FzNUdwQWRiNXcyRkNJdkdNUnQyS0ZLWElEZzB2YjZCb2lPZ21RY0NZVnRQS1dOT0ZnZ1BMWGkxSVRwdHVJRl9KSnBfQ3F0bFpz?oc=5",
-      "source_name": "Wowtale",
-      "published_at": "2026-11-11T21:09:17.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 35,
-      "confidence": 0.96,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -371,14 +327,14 @@
       }
     },
     {
-      "id": "deal_958802355",
+      "id": "deal_854997899",
       "vc_id": "social-capital",
       "vc_name": "Social Capital",
       "company": "Unknown",
       "title": "Space Hardware Funding Jumps 34x to $17B [2026] - shattered.io",
       "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
       "source_name": "shattered.io",
-      "published_at": "2026-11-06T15:27:12.000Z",
+      "published_at": "2026-11-06T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Semis, Robotics & Hardware",
       "amount_usd_m": 17000,
@@ -388,28 +344,6 @@
         "state": "CA",
         "lat": 37.4419,
         "lon": -122.143,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1490430613",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Digital insurance startup Zensurance",
-      "title": "Digital insurance startup Zensurance raises $1 mln in seed round - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jbFdOWmw2ZXRFLWpDSGl1RGJkbVZtN3ZLMTFkTnh5amlOWS1ZeG1SNWJOdWQybXFYaVRLSFhSWlpxR2tZeXNHMDNaRDhCOGNMcTRqUEc2VGZIQzFDREtSdTQweEFDNE5vM3ZZbWlfeVV5YkVQa2lWaA?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-06T15:07:33.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 1,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -481,28 +415,6 @@
       }
     },
     {
-      "id": "deal_24785358",
-      "vc_id": "avenir",
-      "vc_name": "Avenir Growth Capital",
-      "company": "Unknown",
-      "title": "How Much Did Sigma Computing Raise? Funding & Key Investors - Clay",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIVllHajhhaTQxLTFONDIyamRUcW90VWVzMTNjLV9fQS1OYlBCOS1Yb3R5YXZqNGZhWng5c1AydnZPaHo1ZFQxTWFLOFB4MFBuWkhYNXJhZFNLQW1SX1ZYWUdn?oc=5",
-      "source_name": "Clay",
-      "published_at": "2026-10-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_840068504",
       "vc_id": "wing",
       "vc_name": "Wing Venture Capital",
@@ -542,6 +454,28 @@
         "state": "CA",
         "lat": 37.3541,
         "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2018791643",
+      "vc_id": "emergence",
+      "vc_name": "Emergence Capital",
+      "company": "Unknown",
+      "title": "This startup’s self-driving excavators help dig up $600M in new funding - TechCrunch",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmpvY1pGQzRtcWpnV1JBQXNwUGowRmNUcEFfV3NBX3BFR3ptTjl1UUpDZm5ackljOE1Kb1FrOWtKdEk0V1FzVE5VNUdUc01rQkgtcGFuQkltZThqMTM5NGpQc2lJeW5MYnRsY041dzMySzdONWJGRWYwV2ZqRE9CTDlrZnd5WFFSMl9FdUliTEZzQUJXZk5paExQZEQzSVVOLV84alNFdw?oc=5",
+      "source_name": "TechCrunch",
+      "published_at": "2026-10-26T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": 600,
+      "confidence": 0.61,
+      "location": {
+        "city": "San Mateo",
+        "state": "CA",
+        "lat": 37.563,
+        "lon": -122.3255,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -686,18 +620,18 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 48.87,
-      "latest_at": "2026-11-12T13:34:11.000Z",
-      "amount_usd_m_total": 28461,
+      "deal_count": 10,
+      "weighted_score": 43.47,
+      "latest_at": "2026-11-13T13:55:31.000Z",
+      "amount_usd_m_total": 28184.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 9
+          "count": 6
         },
         {
           "name": "Other",
-          "count": 2
+          "count": 3
         },
         {
           "name": "Fintech",
@@ -706,15 +640,15 @@
       ],
       "top_vcs": [
         {
-          "name": "Human Capital",
-          "count": 3
+          "name": "First Round Capital",
+          "count": 2
         },
         {
           "name": "Benchmark",
           "count": 2
         },
         {
-          "name": "Salesforce Ventures",
+          "name": "Founders Fund",
           "count": 1
         }
       ]
@@ -762,7 +696,7 @@
       "lon": -122.143,
       "deal_count": 2,
       "weighted_score": 11.9,
-      "latest_at": "2026-11-06T15:27:12.000Z",
+      "latest_at": "2026-11-06T08:00:00.000Z",
       "amount_usd_m_total": 17400,
       "top_sectors": [
         {
@@ -791,24 +725,20 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 3,
-      "weighted_score": 9.59,
+      "deal_count": 2,
+      "weighted_score": 7.48,
       "latest_at": "2026-11-11T21:09:17.000Z",
       "amount_usd_m_total": 70,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 3
+          "count": 2
         }
       ],
       "top_vcs": [
         {
           "name": "RRE Ventures",
           "count": 2
-        },
-        {
-          "name": "Avenir Growth Capital",
-          "count": 1
         }
       ]
     },
@@ -844,37 +774,6 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 6.13,
-      "latest_at": "2026-11-11T21:09:17.000Z",
-      "amount_usd_m_total": 35,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Samsung Next",
-          "count": 1
-        },
-        {
-          "name": "CapitalG",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "Cambridge,MA",
       "city": "Cambridge",
       "state": "MA",
@@ -893,6 +792,29 @@
       "top_vcs": [
         {
           "name": "General Catalyst",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "San Mateo,CA",
+      "city": "San Mateo",
+      "state": "CA",
+      "lat": 37.563,
+      "lon": -122.3255,
+      "deal_count": 1,
+      "weighted_score": 4.39,
+      "latest_at": "2026-10-26T07:00:00.000Z",
+      "amount_usd_m_total": 600,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Emergence Capital",
           "count": 1
         }
       ]
@@ -939,6 +861,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-11-11T14:34:42.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
