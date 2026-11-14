@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:27:49.667Z",
+  "generated_at": "2026-11-14T22:18:05.183Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 27,
-    "total_deals": 27,
+    "scraped_deals": 30,
+    "total_deals": 30,
     "demo_mode": false,
-    "deals_with_coordinates": 27,
-    "runtime_ms": 3635,
+    "deals_with_coordinates": 30,
+    "runtime_ms": 4273,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_410194960",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "Trakelt: Free Startup Investment Readiness Test - La Voz Canaria",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQczB0WVhQbm5sVkd2czJNYjBkNjRNRmJ4R1JDeHpjV1IyQnVRdVZ3VktSdEVmY0hfN0NrNkR1Z0VNSG4tUGxLUFhNOFgzS0RiWVA0VEZIRWNadnNoT25NbDBnWU5jejd3R1gwNUk2ME5CRnllWU9sby1BcllaUEgweGtPclFTUmkxMTlxbWNDZGFBbDFWOVRKdGlDdGNvQQ?oc=5",
+      "source_name": "La Voz Canaria",
+      "published_at": "2026-11-14T13:21:43.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1023316291",
       "vc_id": "spark",
@@ -75,28 +97,6 @@
       "sector": "AI & ML",
       "amount_usd_m": 1000,
       "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1648462277",
-      "vc_id": "nea",
-      "vc_name": "New Enterprise Associates",
-      "company": "Swiftype",
-      "title": "Swiftype Raises $1.7M in Seed Funding - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbmowaVBlMHZSQjVYSEdRMlI3a0FQbzRNU1lIRi1qbG9UMzNHV3g1WFRZaVRuaHZxV1ZQcTNLMDVIS2JsNDAzRVY3VWNQYnBFYXk2V3lzd0xtREhCSGd3dVpqeTFLQWh5M3U5VkZpamtkSEZjQ2ZTZVBPajJBaGJVeGV2Zw?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-12T07:52:04.000Z",
-      "stage": "Seed",
-      "sector": "AI & ML",
-      "amount_usd_m": 1.7,
-      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -168,6 +168,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1256317041",
+      "vc_id": "samsung-next",
+      "vc_name": "Samsung Next",
+      "company": "Graphon Labs",
+      "title": "Graphon Labs Raises $35M Series A to Give AI Agents Long-Term Memory - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50U2FzNUdwQWRiNXcyRkNJdkdNUnQyS0ZLWElEZzB2YjZCb2lPZ21RY0NZVnRQS1dOT0ZnZ1BMWGkxSVRwdHVJRl9KSnBfQ3F0bFpz?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-11T21:09:17.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 35,
+      "confidence": 0.96,
+      "location": {
+        "city": "Mountain View",
+        "state": "CA",
+        "lat": 37.3861,
+        "lon": -122.0839,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -278,6 +300,28 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_400626241",
+      "vc_id": "andreessen-horowitz",
+      "vc_name": "Andreessen Horowitz",
+      "company": "Zus Health",
+      "title": "Zus Health Raises $33 Million in Series B Funding to Accelerate the Next Generation of Connected Healthcare - GlobeNewswire",
+      "source_url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPUXczbTBiamQ2MjVfVWRDcnNSeFMxbUhyZ2lGYTk1SGdFTVI5dkk3dVpMbU9tMlFhOGZ6YVVnT2hpa3ZfV1BadkpRMTdfc18tXzZMVHZfaWRfaWdaOFFEVjN2QjdrbzlvV2Z3aE9GYk9rMHpEN3RkZ0trQ3RfNWltTVdyZ1c0LVdCWkV6Q1c1cGJVMVJjOHZ2SkFuQmUtT3g3VS1yUHl1cUtsb1R1cHR4enF1Skt1aXA4eVZTbHd2UWhLQ2gxQkZmUFEyZjlDTzJuT2pvdUFnM25BUml3V2Y0QVJ6MlNESjNlX0RtX1o0Q2lhUXctZEtvYXhFTmVTY3NxTG1MZlozczJqUQ?oc=5",
+      "source_name": "GlobeNewswire",
+      "published_at": "2026-11-10T14:37:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 33,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -569,6 +613,28 @@
       }
     },
     {
+      "id": "deal_437834804",
+      "vc_id": "khosla",
+      "vc_name": "Khosla Ventures",
+      "company": "Even Healthcare",
+      "title": "Even Healthcare raises $50 mn in funding led by Khosla Ventures - Moneycontrol.com",
+      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWDdGRkFCQ3U5MWlfZkNrWjRMdmhjdHUzM0Vxa3lMMjhsZHpJaWJWNm5UQ2VoU2hxeG9teXRtcTZZcnBjdGl3OHRrcndBYU1rOHJmdFdQN3pnUzNtcE83bzNOUUhKZ0QtMjNlZnpOREYyNE51ek9Fb2xZVnp0R2lpTzZkamt4eWNBWnVKNUNOelpLVDcxbUxMbENPV21sMF9wbmV0MDNvOHg1dW1nWjM0REdLcHh3eHM1TWhOZUc4eWJUeUxUMWfSAcsBQVVfeXFMTVhWbmV1d2cwTW91R0lGcEFxa3VDbERMNjJ1UnV5ek9OVGp3X0JrY19NUDAxWGhHU0F2M3hxdzNHUENqbHlEMkdTXzVpY2lmLU1lWDZnUkV5dEZZbjkyQi1jZzR1X3JXQUZjRzVvLVVNSE9QczdOeXFZVVlWdFlJQU44SDJtM3B2V3ZBcEhwWFhLdkh3N0szRWNLdkNlSGE3SE9BVWpKemE2WWUxZWZTenFjaHJfNmstVDVlUm95cHlOMElEQ1dSbFV1Nm8?oc=5",
+      "source_name": "Moneycontrol.com",
+      "published_at": "2026-10-19T07:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 50,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_636587879",
       "vc_id": "obvious",
       "vc_name": "Obvious Ventures",
@@ -620,9 +686,9 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 43.47,
-      "latest_at": "2026-11-13T13:55:31.000Z",
+      "deal_count": 11,
+      "weighted_score": 45.48,
+      "latest_at": "2026-11-14T13:21:43.000Z",
       "amount_usd_m_total": 28184.5,
       "top_sectors": [
         {
@@ -631,7 +697,7 @@
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Fintech",
@@ -640,11 +706,11 @@
       ],
       "top_vcs": [
         {
-          "name": "First Round Capital",
-          "count": 2
+          "name": "Benchmark",
+          "count": 3
         },
         {
-          "name": "Benchmark",
+          "name": "First Round Capital",
           "count": 2
         },
         {
@@ -659,14 +725,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 6,
-      "weighted_score": 17.67,
+      "deal_count": 7,
+      "weighted_score": 23.09,
       "latest_at": "2026-11-13T01:29:00.000Z",
-      "amount_usd_m_total": 1005.2,
+      "amount_usd_m_total": 1086.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Other",
@@ -679,12 +745,12 @@
           "count": 2
         },
         {
-          "name": "New Enterprise Associates",
+          "name": "TCV",
           "count": 2
         },
         {
-          "name": "TCV",
-          "count": 2
+          "name": "Andreessen Horowitz",
+          "count": 1
         }
       ]
     },
@@ -769,6 +835,37 @@
         },
         {
           "name": "Battery Ventures",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 2,
+      "weighted_score": 6.13,
+      "latest_at": "2026-11-11T21:09:17.000Z",
+      "amount_usd_m_total": 35,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        },
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Samsung Next",
+          "count": 1
+        },
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
@@ -861,29 +958,6 @@
       "top_vcs": [
         {
           "name": "M12",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 1,
-      "weighted_score": 2.01,
-      "latest_at": "2026-11-11T14:34:42.000Z",
-      "amount_usd_m_total": 0,
-      "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "CapitalG",
           "count": 1
         }
       ]
