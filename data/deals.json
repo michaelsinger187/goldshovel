@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:18:05.183Z",
+  "generated_at": "2026-11-15T06:19:37.669Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -9,15 +9,37 @@
   "meta": {
     "requests_succeeded": 100,
     "requests_failed": 0,
-    "scraped_deals": 30,
-    "total_deals": 30,
+    "scraped_deals": 27,
+    "total_deals": 27,
     "demo_mode": false,
-    "deals_with_coordinates": 30,
-    "runtime_ms": 4273,
+    "deals_with_coordinates": 27,
+    "runtime_ms": 3625,
     "note": "",
     "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_1634333611",
+      "vc_id": "kleiner-perkins",
+      "vc_name": "Kleiner Perkins",
+      "company": "This Startup",
+      "title": "This Startup Raised $1 Billion to Build AI Faster and With Fewer Humans - WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObkxPOGVxOXJ1ZHo1Wjh4YjRHamNPWFZUUXhWMG1FSU5EUmZRcHZ2QXRyWk5Va1hiRFEyOHdlZGZkNTkwYjJkVUh6Y3l4TVhuTnFiSDRfa2M4amV6ODc5MnFSVi0xd3ZsTzVEZ2lEdlNfVE1OX2ZKSkJDZDlaUHNFV3JsVHhMX3ZEOGlrdEpRMEtTMGxyck1kbVlPSWhnSmZuelVZRnRNcUR2M0dULWJpd3phaGRoOXc5WXVz?oc=5",
+      "source_name": "WSJ",
+      "published_at": "2026-11-15T06:17:50.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 1000,
+      "confidence": 0.81,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_410194960",
       "vc_id": "benchmark",
@@ -85,18 +107,18 @@
       }
     },
     {
-      "id": "deal_1685189846",
-      "vc_id": "kleiner-perkins",
-      "vc_name": "Kleiner Perkins",
-      "company": "This Startup",
-      "title": "This Startup Raised $1 Billion to Build AI Faster and With Fewer Humans - WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObkxPOGVxOXJ1ZHo1Wjh4YjRHamNPWFZUUXhWMG1FSU5EUmZRcHZ2QXRyWk5Va1hiRFEyOHdlZGZkNTkwYjJkVUh6Y3l4TVhuTnFiSDRfa2M4amV6ODc5MnFSVi0xd3ZsTzVEZ2lEdlNfVE1OX2ZKSkJDZDlaUHNFV3JsVHhMX3ZEOGlrdEpRMEtTMGxyck1kbVlPSWhnSmZuelVZRnRNcUR2M0dULWJpd3phaGRoOXc5WXVz?oc=5",
-      "source_name": "WSJ",
-      "published_at": "2026-11-13T01:29:00.000Z",
-      "stage": "Unspecified",
+      "id": "deal_1648462277",
+      "vc_id": "nea",
+      "vc_name": "New Enterprise Associates",
+      "company": "Swiftype",
+      "title": "Swiftype Raises $1.7M in Seed Funding - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbmowaVBlMHZSQjVYSEdRMlI3a0FQbzRNU1lIRi1qbG9UMzNHV3g1WFRZaVRuaHZxV1ZQcTNLMDVIS2JsNDAzRVY3VWNQYnBFYXk2V3lzd0xtREhCSGd3dVpqeTFLQWh5M3U5VkZpamtkSEZjQ2ZTZVBPajJBaGJVeGV2Zw?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-12T07:52:04.000Z",
+      "stage": "Seed",
       "sector": "AI & ML",
-      "amount_usd_m": 1000,
-      "confidence": 0.81,
+      "amount_usd_m": 1.7,
+      "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
         "state": "CA",
@@ -173,28 +195,6 @@
       }
     },
     {
-      "id": "deal_1256317041",
-      "vc_id": "samsung-next",
-      "vc_name": "Samsung Next",
-      "company": "Graphon Labs",
-      "title": "Graphon Labs Raises $35M Series A to Give AI Agents Long-Term Memory - Wowtale",
-      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50U2FzNUdwQWRiNXcyRkNJdkdNUnQyS0ZLWElEZzB2YjZCb2lPZ21RY0NZVnRQS1dOT0ZnZ1BMWGkxSVRwdHVJRl9KSnBfQ3F0bFpz?oc=5",
-      "source_name": "Wowtale",
-      "published_at": "2026-11-11T21:09:17.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 35,
-      "confidence": 0.96,
-      "location": {
-        "city": "Mountain View",
-        "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_804945507",
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
@@ -212,28 +212,6 @@
         "state": "CA",
         "lat": 37.3861,
         "lon": -122.0839,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1483553214",
-      "vc_id": "benchmark",
-      "vc_name": "Benchmark",
-      "company": "Unknown",
-      "title": "AI training startup Mercor valued at $20 billion in latest funding round - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakRyVVFaNHJEdFVOdTVHYUtNSWN3MEw4SkZXNFFXZFRtM21LLTZmWGtHRU9RcU9QM0dSUENscUhOZWV0WkFBZ1hQQV9vcHBFMzZxRlNrTjZvZFZwZzFZeDR2eGo2U2Q5b3VEcExyek9GY0JxQ0o4SkZYZmRTR21GaDhLTmE2b3J3MzJrRGZORXd0akdkVm41V0gzRGJYVTlvZ1hnZ0VUZ3RSa1RqckxUYUMyQ291NjVVQkdZa3NB?oc=5",
-      "source_name": "Reuters",
-      "published_at": "2026-11-10T17:29:28.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 20000,
-      "confidence": 0.71,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -305,36 +283,14 @@
       }
     },
     {
-      "id": "deal_400626241",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Zus Health",
-      "title": "Zus Health Raises $33 Million in Series B Funding to Accelerate the Next Generation of Connected Healthcare - GlobeNewswire",
-      "source_url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPUXczbTBiamQ2MjVfVWRDcnNSeFMxbUhyZ2lGYTk1SGdFTVI5dkk3dVpMbU9tMlFhOGZ6YVVnT2hpa3ZfV1BadkpRMTdfc18tXzZMVHZfaWRfaWdaOFFEVjN2QjdrbzlvV2Z3aE9GYk9rMHpEN3RkZ0trQ3RfNWltTVdyZ1c0LVdCWkV6Q1c1cGJVMVJjOHZ2SkFuQmUtT3g3VS1yUHl1cUtsb1R1cHR4enF1Skt1aXA4eVZTbHd2UWhLQ2gxQkZmUFEyZjlDTzJuT2pvdUFnM25BUml3V2Y0QVJ6MlNESjNlX0RtX1o0Q2lhUXctZEtvYXhFTmVTY3NxTG1MZlozczJqUQ?oc=5",
-      "source_name": "GlobeNewswire",
-      "published_at": "2026-11-10T14:37:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 33,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1984380164",
+      "id": "deal_552327968",
       "vc_id": "benchmark",
       "vc_name": "Benchmark",
       "company": "Mercor",
       "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Help Enterprises Own Their Intelligence - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNHNMblZIRzRoZWdJRmRJa3lVczR5bFhsempFNVBOaFBac1U4cFR4cS00NVg2eUtMLW5wWC1faE1jc0FuQ1daLW1pM1I4LTdhMWljejNtZFJiZzlucElPeEM2NUt1NEM1MEtjUkgzejJleUo1b1lCcTd3RzBJV3FaRTQ0VWsxcExYYllXSzVGbGdrTkhpaEVDRTR3cW9GbmdxUXJqSzFrSmwzYlFyeVZPSGt0THN5UjRTeDkwWll4ZHNHcUxmUTNiQjdmckN0NnlmMW1lV1lpNTBxRW5iM0Z1bU5VQXhfaWFYV0NxZjVxRF9iSXJtMVlj?oc=5",
       "source_name": "Business Wire",
-      "published_at": "2026-11-10T13:15:00.000Z",
+      "published_at": "2026-11-10T13:15:37.000Z",
       "stage": "Series D+",
       "sector": "AI & ML",
       "amount_usd_m": 750,
@@ -366,6 +322,28 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1525564283",
+      "vc_id": "sequoia-capital",
+      "vc_name": "Sequoia Capital",
+      "company": "QI startup Qindom",
+      "title": "QI startup Qindom raises $2.6 mln in seed-stage funding - PEI Private Equity",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFNnTURnR2pCTTdDb25rQloxdkpFVXk5cDBFZTR0NlNncm1FQ20wMWZ4SFR2bEw5WjF1cjRybW02OUZEM014bTRTRHVrSmphQUNlQ0NWdEkxVE8yNmw1R29nd2Y4d3g2LVBjd1N3UFhvd096RWhxb3NKS3JHQzZha3FmNkdNZWJiSk1EWjR1TXo3OEZRSjVyQmdxUVhnbXM?oc=5",
+      "source_name": "PEI Private Equity",
+      "published_at": "2026-11-07T14:44:01.000Z",
+      "stage": "Growth",
+      "sector": "AI & ML",
+      "amount_usd_m": 2.6,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -410,28 +388,6 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1421742610",
-      "vc_id": "general-catalyst",
-      "vc_name": "General Catalyst",
-      "company": "AI sales startup Nooks",
-      "title": "AI sales startup Nooks secures $500 million in funding for expansion - Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5",
-      "source_name": "Reuters",
-      "published_at": "2026-11-04T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 500,
-      "confidence": 0.81,
-      "location": {
-        "city": "Cambridge",
-        "state": "MA",
-        "lat": 42.3736,
-        "lon": -71.1097,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -613,28 +569,6 @@
       }
     },
     {
-      "id": "deal_437834804",
-      "vc_id": "khosla",
-      "vc_name": "Khosla Ventures",
-      "company": "Even Healthcare",
-      "title": "Even Healthcare raises $50 mn in funding led by Khosla Ventures - Moneycontrol.com",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWDdGRkFCQ3U5MWlfZkNrWjRMdmhjdHUzM0Vxa3lMMjhsZHpJaWJWNm5UQ2VoU2hxeG9teXRtcTZZcnBjdGl3OHRrcndBYU1rOHJmdFdQN3pnUzNtcE83bzNOUUhKZ0QtMjNlZnpOREYyNE51ek9Fb2xZVnp0R2lpTzZkamt4eWNBWnVKNUNOelpLVDcxbUxMbENPV21sMF9wbmV0MDNvOHg1dW1nWjM0REdLcHh3eHM1TWhOZUc4eWJUeUxUMWfSAcsBQVVfeXFMTVhWbmV1d2cwTW91R0lGcEFxa3VDbERMNjJ1UnV5ek9OVGp3X0JrY19NUDAxWGhHU0F2M3hxdzNHUENqbHlEMkdTXzVpY2lmLU1lWDZnUkV5dEZZbjkyQi1jZzR1X3JXQUZjRzVvLVVNSE9QczdOeXFZVVlWdFlJQU44SDJtM3B2V3ZBcEhwWFhLdkh3N0szRWNLdkNlSGE3SE9BVWpKemE2WWUxZWZTenFjaHJfNmstVDVlUm95cHlOMElEQ1dSbFV1Nm8?oc=5",
-      "source_name": "Moneycontrol.com",
-      "published_at": "2026-10-19T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 50,
-      "confidence": 0.81,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_636587879",
       "vc_id": "obvious",
       "vc_name": "Obvious Ventures",
@@ -686,14 +620,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 11,
-      "weighted_score": 45.48,
+      "deal_count": 10,
+      "weighted_score": 39.47,
       "latest_at": "2026-11-14T13:21:43.000Z",
-      "amount_usd_m_total": 28184.5,
+      "amount_usd_m_total": 8184.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 6
+          "count": 5
         },
         {
           "name": "Other",
@@ -707,7 +641,7 @@
       "top_vcs": [
         {
           "name": "Benchmark",
-          "count": 3
+          "count": 2
         },
         {
           "name": "First Round Capital",
@@ -726,9 +660,9 @@
       "lat": 37.453,
       "lon": -122.1817,
       "deal_count": 7,
-      "weighted_score": 23.09,
-      "latest_at": "2026-11-13T01:29:00.000Z",
-      "amount_usd_m_total": 1086.5,
+      "weighted_score": 22.19,
+      "latest_at": "2026-11-15T06:17:50.000Z",
+      "amount_usd_m_total": 1007.8,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -745,12 +679,12 @@
           "count": 2
         },
         {
-          "name": "TCV",
+          "name": "New Enterprise Associates",
           "count": 2
         },
         {
-          "name": "Andreessen Horowitz",
-          "count": 1
+          "name": "TCV",
+          "count": 2
         }
       ]
     },
@@ -840,60 +774,6 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
-      "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 6.13,
-      "latest_at": "2026-11-11T21:09:17.000Z",
-      "amount_usd_m_total": 35,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        },
-        {
-          "name": "Other",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "Samsung Next",
-          "count": 1
-        },
-        {
-          "name": "CapitalG",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Cambridge,MA",
-      "city": "Cambridge",
-      "state": "MA",
-      "lat": 42.3736,
-      "lon": -71.1097,
-      "deal_count": 1,
-      "weighted_score": 4.51,
-      "latest_at": "2026-11-04T08:00:00.000Z",
-      "amount_usd_m_total": 500,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "General Catalyst",
-          "count": 1
-        }
-      ]
-    },
-    {
       "key": "San Mateo,CA",
       "city": "San Mateo",
       "state": "CA",
@@ -958,6 +838,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-11-11T14:34:42.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
