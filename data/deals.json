@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:49:58.076Z",
+  "generated_at": "2026-11-18T07:19:03.416Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -7,17 +7,48 @@
     "concurrency": 8
   },
   "meta": {
-    "requests_succeeded": 100,
-    "requests_failed": 0,
+    "requests_succeeded": 98,
+    "requests_failed": 2,
     "scraped_deals": 34,
     "total_deals": 34,
     "demo_mode": false,
     "deals_with_coordinates": 34,
-    "runtime_ms": 4338,
+    "runtime_ms": 3753,
     "note": "",
-    "error_sample": []
+    "error_sample": [
+      {
+        "vc": "andreessen-horowitz",
+        "error": "HTTP 429"
+      },
+      {
+        "vc": "openview",
+        "error": "HTTP 429"
+      }
+    ]
   },
   "deals": [
+    {
+      "id": "deal_1065895702",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Unknown",
+      "title": "Chalmers proposes new rules for how your super can be invested - ABC News & Headlines – Australian Broadcasting Corporation",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSE83N19EQmdnUlVCaXAxUGNSVnlmU3JKcm9zRXQzWlFrZ2JFRXJ1eWIySGxucjc1cFJtdUNNajJxOWl5dU9tTENfUXpDV0NPU3lIakZ2SVE5R1V2eC04cjNvQmtqc0FhNzNIS1dVRHFEVVpRdXpWbm9KMGFMOGpmWHpkazFtYnFrbTR4LXZBNm9LQllUVldF?oc=5",
+      "source_name": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "published_at": "2026-11-17T11:30:19.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_1775221649",
       "vc_id": "threshold",
@@ -129,6 +160,28 @@
       }
     },
     {
+      "id": "deal_939126422",
+      "vc_id": "founders-fund",
+      "vc_name": "Founders Fund",
+      "company": "Fractile’s $7B valuation: UK chip startup",
+      "title": "Fractile’s $7B valuation: UK chip startup raises $720M from Thrive and Founders Fund six months after $1B - Tech Funding News",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOEkxSzJfZDJXYy1UbXNXQlU3bzJpNFdsaFFlc2wtclI2b1pHR3BHYWZQOFQ4Ukl5V2dSck1SU0ViXzRxMDdLZWlxb1U0SmE3a09jNy1Xd29HSHNzTWFJUTBFTHhvcjlFNE9Rejc3MnNqeFFzNVV1T0JRRDJ1dGs5aElQaHRxcXAtRzlF?oc=5",
+      "source_name": "Tech Funding News",
+      "published_at": "2026-11-12T06:03:24.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 7000,
+      "confidence": 0.81,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1463044046",
       "vc_id": "rre",
       "vc_name": "RRE Ventures",
@@ -173,39 +226,17 @@
       }
     },
     {
-      "id": "deal_625530664",
-      "vc_id": "rre",
-      "vc_name": "RRE Ventures",
-      "company": "This startup says AI agents suffer from 'amnesia.' It",
-      "title": "This startup says AI agents suffer from 'amnesia.' It raised $35 million to solve that with this pitch deck. - Business Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcF9wSU9Qd3p3a0hJX0hvTGpFaGJWR2dIQlBTa09sNWFGcE1Ra2dKT2VDMFZobWNMWGJGWmdLRmwyb2FKRVJSa2p4VExnbTdlM1hTSy1yaXg2YjdkNkpsT1pEVUdsVUlLM2dyaHZoU3Vacm9XWks2SElrTmF2R2FGQ0dUcXZCS2M5UXZnUg?oc=5",
-      "source_name": "Business Insider",
-      "published_at": "2026-11-10T16:01:00.000Z",
-      "stage": "Unspecified",
+      "id": "deal_1711440600",
+      "vc_id": "felicis",
+      "vc_name": "Felicis",
+      "company": "Mercor",
+      "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Help Enterprises Own Their Intelligence - Business Wire",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNHNMblZIRzRoZWdJRmRJa3lVczR5bFhsempFNVBOaFBac1U4cFR4cS00NVg2eUtMLW5wWC1faE1jc0FuQ1daLW1pM1I4LTdhMWljejNtZFJiZzlucElPeEM2NUt1NEM1MEtjUkgzejJleUo1b1lCcTd3RzBJV3FaRTQ0VWsxcExYYllXSzVGbGdrTkhpaEVDRTR3cW9GbmdxUXJqSzFrSmwzYlFyeVZPSGt0THN5UjRTeDkwWll4ZHNHcUxmUTNiQjdmckN0NnlmMW1lV1lpNTBxRW5iM0Z1bU5VQXhfaWFYV0NxZjVxRF9iSXJtMVlj?oc=5",
+      "source_name": "Business Wire",
+      "published_at": "2026-11-10T13:15:00.000Z",
+      "stage": "Series D+",
       "sector": "AI & ML",
-      "amount_usd_m": 35,
-      "confidence": 0.81,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_400626241",
-      "vc_id": "andreessen-horowitz",
-      "vc_name": "Andreessen Horowitz",
-      "company": "Zus Health",
-      "title": "Zus Health Raises $33 Million in Series B Funding to Accelerate the Next Generation of Connected Healthcare - GlobeNewswire",
-      "source_url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPUXczbTBiamQ2MjVfVWRDcnNSeFMxbUhyZ2lGYTk1SGdFTVI5dkk3dVpMbU9tMlFhOGZ6YVVnT2hpa3ZfV1BadkpRMTdfc18tXzZMVHZfaWRfaWdaOFFEVjN2QjdrbzlvV2Z3aE9GYk9rMHpEN3RkZ0trQ3RfNWltTVdyZ1c0LVdCWkV6Q1c1cGJVMVJjOHZ2SkFuQmUtT3g3VS1yUHl1cUtsb1R1cHR4enF1Skt1aXA4eVZTbHd2UWhLQ2gxQkZmUFEyZjlDTzJuT2pvdUFnM25BUml3V2Y0QVJ6MlNESjNlX0RtX1o0Q2lhUXctZEtvYXhFTmVTY3NxTG1MZlozczJqUQ?oc=5",
-      "source_name": "GlobeNewswire",
-      "published_at": "2026-11-10T14:37:00.000Z",
-      "stage": "Series B",
-      "sector": "AI & ML",
-      "amount_usd_m": 33,
+      "amount_usd_m": 750,
       "confidence": 0.96,
       "location": {
         "city": "Menlo Park",
@@ -415,6 +446,28 @@
       }
     },
     {
+      "id": "deal_854997899",
+      "vc_id": "social-capital",
+      "vc_name": "Social Capital",
+      "company": "Unknown",
+      "title": "Space Hardware Funding Jumps 34x to $17B [2026] - shattered.io",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
+      "source_name": "shattered.io",
+      "published_at": "2026-11-06T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 17000,
+      "confidence": 0.71,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_790270129",
       "vc_id": "qualcomm",
       "vc_name": "Qualcomm Ventures",
@@ -503,28 +556,6 @@
       }
     },
     {
-      "id": "deal_1826956380",
-      "vc_id": "human-capital",
-      "vc_name": "Human Capital",
-      "company": "Startup Andela",
-      "title": "Startup Andela launches with seed round - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcl82aDFrWVN6cUZDSTl4cUh6MFNKRS1YaHZ5aWxjS0NqQzBYRnVtTUJjOXIxbTl5Y1B6RUY5NWxTVVBoUE9vTGg5d1VVMTVaQ0Q5aFJJeHRNeUUwWlJORDNoczVfX05nbWVmWkhzaVdrV1lMRkM5WnpfMkFrbGZTRC1KcFhFVVgtNndZ?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-04T05:13:26.000Z",
-      "stage": "Seed",
-      "sector": "Other",
-      "amount_usd_m": null,
-      "confidence": 0.66,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_912105454",
       "vc_id": "obvious",
       "vc_name": "Obvious Ventures",
@@ -569,28 +600,6 @@
       }
     },
     {
-      "id": "deal_24785358",
-      "vc_id": "avenir",
-      "vc_name": "Avenir Growth Capital",
-      "company": "Unknown",
-      "title": "How Much Did Sigma Computing Raise? Funding & Key Investors - Clay",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIVllHajhhaTQxLTFONDIyamRUcW90VWVzMTNjLV9fQS1OYlBCOS1Yb3R5YXZqNGZhWng5c1AydnZPaHo1ZFQxTWFLOFB4MFBuWkhYNXJhZFNLQW1SX1ZYWUdn?oc=5",
-      "source_name": "Clay",
-      "published_at": "2026-10-30T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
       "id": "deal_334901373",
       "vc_id": "gradient",
       "vc_name": "Gradient Ventures",
@@ -630,6 +639,28 @@
         "state": "CA",
         "lat": 37.563,
         "lon": -122.3255,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_886536557",
+      "vc_id": "tcv",
+      "vc_name": "TCV",
+      "company": "Unknown",
+      "title": "Higgsfield Extends Series B With New Investment From TCV and NVIDIA - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUGRCQmlVOHc4d1JtTVpKSi1aMFZzbERHZ1VzaEZUcUtpQ21telB5ZWZBUmE3QWcyWWRsSjYtcnJHNDYySFRlOUxXaU9PT3FXZDZvaE5nNVZxaWtPOE1aUndiMUFya2s1a3BQcldiYkpEaDFNX1NETlFsZllUYWY5VWNGZHFXMGplbERyS3pXTXdrUXBjNWZCQXJGQzA5OTNCSkdpWQ?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-10-23T07:00:00.000Z",
+      "stage": "Series B",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.56,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -701,23 +732,23 @@
       }
     },
     {
-      "id": "deal_507794461",
-      "vc_id": "8vc",
-      "vc_name": "8VC",
-      "company": "Warhound",
-      "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear - TechCrunch",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTE80dGJINzdYUVQtVWlNQzBpdVJBa0hQa3RtSDlMR3hLMENYZzNVdGZLMlZ0SUtlVVRGUUpHVHhWZ19zSGxnZmxLY2xqOFNXT20zcDBtdWM3OHZSTnJaYXBpd0NyZDU1TXdNeHI2Q2N2a1IwN2xna1l1LTc5VDVMZW54LUw2VXFTSWVfbVgwYXplcGk3YVM4b01OcDFzRWFoOFNwMFY2cl9QYWdzM1c3OS1yLTZCUE9UQkpsTQ?oc=5",
-      "source_name": "TechCrunch",
+      "id": "deal_426056601",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Unknown",
+      "title": "Investors Double Down on Brellium With $23 Million for AI That Audits Every Note - Breaking News ABA",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVFVUZ0NoZlFvWlN1SWNPaUN2SHE1TWZkazRCUlR3UmdNMjlIejFrTWw5Z24yNXppbFprbzRrcHZRTjljVndrbThjd1N0X1hwRTh6dGNYNV9jTWcyRGwwZDhSNmkzOWFiUFJUMkZjZXJqME9qMEFIMm5kMFJkTFNJQmNlOEw?oc=5",
+      "source_name": "Breaking News ABA",
       "published_at": "2026-10-22T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 200,
-      "confidence": 0.81,
+      "amount_usd_m": 23,
+      "confidence": 0.71,
       "location": {
-        "city": "Austin",
-        "state": "TX",
-        "lat": 30.2672,
-        "lon": -97.7431,
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -743,28 +774,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_636587879",
-      "vc_id": "obvious",
-      "vc_name": "Obvious Ventures",
-      "company": "Prism Data",
-      "title": "Prism Data Secures $20M Series A to Scale AI-Powered Cash Flow Underwriting - FF News",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORUExVUJVMjU5UWlDVnhpVzlJQm83NzlBcjBoa29YcEpGMUJqOWJzVm9YZEFyUEVWUmh3MGgtczlRaEJDMTM0RUIzd19zbHJvY2FNTm14b1oxeURwSDlzXzVqVkZ4YzF4dzE2WHAwem42dmhrcGFBYVpnS2tUZDJ2ZVBKWTV3VnQxV3VSWlN3ek41UjZvckNwaHlrY2hJaHF4?oc=5",
-      "source_name": "FF News",
-      "published_at": "2026-10-19T07:00:00.000Z",
-      "stage": "Series A",
-      "sector": "AI & ML",
-      "amount_usd_m": 20,
-      "confidence": 0.96,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -774,14 +783,14 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 10,
-      "weighted_score": 37.41,
-      "latest_at": "2026-11-16T14:00:00.000Z",
-      "amount_usd_m_total": 526.5,
+      "deal_count": 11,
+      "weighted_score": 41.82,
+      "latest_at": "2026-11-17T11:30:19.000Z",
+      "amount_usd_m_total": 7529.5,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 6
         },
         {
           "name": "Other",
@@ -790,12 +799,12 @@
       ],
       "top_vcs": [
         {
-          "name": "Human Capital",
+          "name": "First Round Capital",
           "count": 2
         },
         {
-          "name": "Obvious Ventures",
-          "count": 2
+          "name": "Benchmark",
+          "count": 1
         },
         {
           "name": "Threshold Ventures",
@@ -809,10 +818,10 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 9,
-      "weighted_score": 33.94,
+      "deal_count": 10,
+      "weighted_score": 39.24,
       "latest_at": "2026-11-16T12:00:00.000Z",
-      "amount_usd_m_total": 261.5,
+      "amount_usd_m_total": 978.5,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -820,7 +829,7 @@
         },
         {
           "name": "Other",
-          "count": 3
+          "count": 4
         }
       ],
       "top_vcs": [
@@ -829,11 +838,11 @@
           "count": 4
         },
         {
-          "name": "Andreessen Horowitz",
-          "count": 1
+          "name": "TCV",
+          "count": 2
         },
         {
-          "name": "Sequoia Capital",
+          "name": "Felicis",
           "count": 1
         }
       ]
@@ -844,31 +853,50 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 7,
-      "weighted_score": 28.95,
+      "deal_count": 5,
+      "weighted_score": 23.48,
       "latest_at": "2026-11-11T21:09:17.000Z",
-      "amount_usd_m_total": 486,
+      "amount_usd_m_total": 451,
       "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 4
-        },
         {
           "name": "Other",
           "count": 3
+        },
+        {
+          "name": "AI & ML",
+          "count": 2
         }
       ],
       "top_vcs": [
         {
           "name": "RRE Ventures",
-          "count": 5
-        },
-        {
-          "name": "Avenir Growth Capital",
-          "count": 1
+          "count": 4
         },
         {
           "name": "Venrock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Palo Alto,CA",
+      "city": "Palo Alto",
+      "state": "CA",
+      "lat": 37.4419,
+      "lon": -122.143,
+      "deal_count": 1,
+      "weighted_score": 5.94,
+      "latest_at": "2026-11-06T08:00:00.000Z",
+      "amount_usd_m_total": 17000,
+      "top_sectors": [
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Social Capital",
           "count": 1
         }
       ]
@@ -992,29 +1020,6 @@
       "top_vcs": [
         {
           "name": "Canaan Partners",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "key": "Austin,TX",
-      "city": "Austin",
-      "state": "TX",
-      "lat": 30.2672,
-      "lon": -97.7431,
-      "deal_count": 1,
-      "weighted_score": 4.11,
-      "latest_at": "2026-10-22T07:00:00.000Z",
-      "amount_usd_m_total": 200,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 1
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "8VC",
           "count": 1
         }
       ]
