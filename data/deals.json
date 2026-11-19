@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:25:55.607Z",
+  "generated_at": "2026-11-19T07:16:38.058Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -7,17 +7,100 @@
     "concurrency": 8
   },
   "meta": {
-    "requests_succeeded": 100,
-    "requests_failed": 0,
-    "scraped_deals": 38,
-    "total_deals": 38,
+    "requests_succeeded": 96,
+    "requests_failed": 4,
+    "scraped_deals": 41,
+    "total_deals": 41,
     "demo_mode": false,
-    "deals_with_coordinates": 38,
-    "runtime_ms": 5157,
+    "deals_with_coordinates": 41,
+    "runtime_ms": 3642,
     "note": "",
-    "error_sample": []
+    "error_sample": [
+      {
+        "vc": "general-catalyst",
+        "error": "HTTP 429"
+      },
+      {
+        "vc": "khosla",
+        "error": "HTTP 429"
+      },
+      {
+        "vc": "crv",
+        "error": "HTTP 429"
+      },
+      {
+        "vc": "intel-capital",
+        "error": "HTTP 429"
+      }
+    ]
   },
   "deals": [
+    {
+      "id": "deal_387908608",
+      "vc_id": "obvious",
+      "vc_name": "Obvious Ventures",
+      "company": "Biomolecular AI Startup Boltz",
+      "title": "Biomolecular AI Startup Boltz Raises $110M Series A Led by Bessemer - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YcUc3X0xDRGRJYTVhajZDT2xTa2NsVFVXSzU5UXcwTmJ1VHlscWZPcktGN2dGZGJ6NDZmbGR2d1ZIZnl5cjVmMGQtVjRsZndpanNN?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-18T16:15:56.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2037289999",
+      "vc_id": "zetta",
+      "vc_name": "Zetta Venture Partners",
+      "company": "Biomolecular AI Startup Boltz",
+      "title": "Biomolecular AI Startup Boltz Raises $110M Series A Led by Bessemer - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YcUc3X0xDRGRJYTVhajZDT2xTa2NsVFVXSzU5UXcwTmJ1VHlscWZPcktGN2dGZGJ6NDZmbGR2d1ZIZnl5cjVmMGQtVjRsZndpanNN?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-18T16:15:56.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1289524723",
+      "vc_id": "amplify",
+      "vc_name": "Amplify Partners",
+      "company": "Biomolecular AI Startup Boltz",
+      "title": "Biomolecular AI Startup Boltz Raises $110M Series A Led by Bessemer - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YcUc3X0xDRGRJYTVhajZDT2xTa2NsVFVXSzU5UXcwTmJ1VHlscWZPcktGN2dGZGJ6NDZmbGR2d1ZIZnl5cjVmMGQtVjRsZndpanNN?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-18T16:15:56.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.96,
+      "location": {
+        "city": "Menlo Park",
+        "state": "CA",
+        "lat": 37.453,
+        "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_509613160",
       "vc_id": "accel",
@@ -41,23 +124,45 @@
       }
     },
     {
-      "id": "deal_1930783856",
-      "vc_id": "menlo-ventures",
-      "vc_name": "Menlo Ventures",
+      "id": "deal_1065895702",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
       "company": "Unknown",
-      "title": "Nvidia joins $110 million funding round for Stanford-founded AI startup Noeri - Crypto Briefing",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtc2ttZE5oQ2N6clAzYS1TWTRQSUFoRVoyWi1uQS1EdFJ4TXZ0V2Zwc3ozV3puQ203NlNCeTZCNHJuMDc3SkhwNURDWnhfeDRsWktZeEdsQnd5cV93RUZ4elRIUFVOcUg5dmMwRTZZdkE3eUk1d0E?oc=5",
-      "source_name": "Crypto Briefing",
-      "published_at": "2026-11-16T16:04:53.000Z",
+      "title": "Chalmers proposes new rules for how your super can be invested - ABC News & Headlines – Australian Broadcasting Corporation",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSE83N19EQmdnUlVCaXAxUGNSVnlmU3JKcm9zRXQzWlFrZ2JFRXJ1eWIySGxucjc1cFJtdUNNajJxOWl5dU9tTENfUXpDV0NPU3lIakZ2SVE5R1V2eC04cjNvQmtqc0FhNzNIS1dVRHFEVVpRdXpWbm9KMGFMOGpmWHpkazFtYnFrbTR4LXZBNm9LQllUVldF?oc=5",
+      "source_name": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "published_at": "2026-11-17T11:30:19.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_632876285",
+      "vc_id": "dcvc",
+      "vc_name": "DCVC",
+      "company": "Remedy Robotics",
+      "title": "Remedy Robotics raises $62 million in round led by DCVC - Capital Brief",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMkp5T2IzQlJLRHhaLVdUZXV2N1hBOVRVcmtkV2dPYjE2UjE3ZHU0VEZwVHZvYUVLcjRxS0IwaXE3TFZYeWRhdmJNeXJnR1l2MndDMVI0OUREeWZQRERha084QWt6aXhCSTRSNHRjOHBNZEpOSXBUek80QWZXRV9OcjBYQkRMTTVCcWF2TFZUTnl6TkJhaUdabmE2MUN6WjZHSnJiMU5FYk5QUHc3MEpoNXJMakQ3d2xzNDRsUWwyaDlGMHd6R3NGSlR3?oc=5",
+      "source_name": "Capital Brief",
+      "published_at": "2026-11-16T23:00:42.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 110,
-      "confidence": 0.71,
+      "amount_usd_m": 62,
+      "confidence": 0.81,
       "location": {
-        "city": "Menlo Park",
+        "city": "Palo Alto",
         "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
+        "lat": 37.4419,
+        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -173,6 +278,28 @@
       }
     },
     {
+      "id": "deal_569737639",
+      "vc_id": "voyager",
+      "vc_name": "Voyager Capital",
+      "company": "StitchStudio",
+      "title": "StitchStudio raises $8 million - Coverager",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yMlNxSkZXYkw1cFAybnJSVnBDNTRXX0V2SmUwSHZ6OU13UDAxYTVUUlgteExQS3hDdE9iZTdodjJ0eGdmV0JlNTlhYVlxX1U3ZU92ZTMwMzJmeWg0dG9VVnNR?oc=5",
+      "source_name": "Coverager",
+      "published_at": "2026-11-11T16:06:32.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 8,
+      "confidence": 0.81,
+      "location": {
+        "city": "Seattle",
+        "state": "WA",
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_804945507",
       "vc_id": "capitalg",
       "vc_name": "CapitalG",
@@ -239,14 +366,14 @@
       }
     },
     {
-      "id": "deal_1711440600",
+      "id": "deal_1000858866",
       "vc_id": "felicis",
       "vc_name": "Felicis",
       "company": "Mercor",
       "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Help Enterprises Own Their Intelligence - Business Wire",
       "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNHNMblZIRzRoZWdJRmRJa3lVczR5bFhsempFNVBOaFBac1U4cFR4cS00NVg2eUtMLW5wWC1faE1jc0FuQ1daLW1pM1I4LTdhMWljejNtZFJiZzlucElPeEM2NUt1NEM1MEtjUkgzejJleUo1b1lCcTd3RzBJV3FaRTQ0VWsxcExYYllXSzVGbGdrTkhpaEVDRTR3cW9GbmdxUXJqSzFrSmwzYlFyeVZPSGt0THN5UjRTeDkwWll4ZHNHcUxmUTNiQjdmckN0NnlmMW1lV1lpNTBxRW5iM0Z1bU5VQXhfaWFYV0NxZjVxRF9iSXJtMVlj?oc=5",
       "source_name": "Business Wire",
-      "published_at": "2026-11-10T13:15:00.000Z",
+      "published_at": "2026-11-10T08:00:00.000Z",
       "stage": "Series D+",
       "sector": "AI & ML",
       "amount_usd_m": 750,
@@ -344,28 +471,6 @@
         "state": "NY",
         "lat": 40.7128,
         "lon": -74.006,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_1525564283",
-      "vc_id": "sequoia-capital",
-      "vc_name": "Sequoia Capital",
-      "company": "QI startup Qindom",
-      "title": "QI startup Qindom raises $2.6 mln in seed-stage funding - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFNnTURnR2pCTTdDb25rQloxdkpFVXk5cDBFZTR0NlNncm1FQ20wMWZ4SFR2bEw5WjF1cjRybW02OUZEM014bTRTRHVrSmphQUNlQ0NWdEkxVE8yNmw1R29nd2Y4d3g2LVBjd1N3UFhvd096RWhxb3NKS3JHQzZha3FmNkdNZWJiSk1EWjR1TXo3OEZRSjVyQmdxUVhnbXM?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-07T14:44:01.000Z",
-      "stage": "Growth",
-      "sector": "AI & ML",
-      "amount_usd_m": 2.6,
-      "confidence": 0.96,
-      "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -542,28 +647,6 @@
         "state": "CT",
         "lat": 41.1415,
         "lon": -73.3579,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_555745055",
-      "vc_id": "true-ventures",
-      "vc_name": "True Ventures",
-      "company": "Kiip's",
-      "title": "Relay Ventures invests in Kiip's $12 mln Series C funding - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DYXBxMTNkXzIwYkFvY1VuY3JWUElqdUo0U1pNZTdnY2JqMTBhWGFuTjIyV095bDF1XzNsdVhuSC1MRUZzenlRMHdBc3pHMzB6VWNlSnkyUXVUS21GWEYtODlTMA?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-05T16:02:17.000Z",
-      "stage": "Series C",
-      "sector": "Other",
-      "amount_usd_m": 12,
-      "confidence": 0.86,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -749,9 +832,9 @@
       "vc_id": "tcv",
       "vc_name": "TCV",
       "company": "Unknown",
-      "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg.com",
+      "title": "Nvidia’s Huang Reveals Investment in AI Video Unicorn Higgsfield - Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMHhEb3JuUm1ma05hdTNPb0hBc2lQbTFnNTF0ZThWZFBzUXpxSTM3Nmw2d05LRDVSRllZd1FJUHd3ekFPZmhCdjlQWWVvbnI1UklWeThscm9nTXZLSkVPTUxtS1VEYi1YSlJMZHlYdXJnbE9CRXdmYlNSc3dZdkhWZnl5QmhtMkZiMHFtdW14Yjh5bGRvaTBwRHN6bUt6MzNFTkVKMi1SbUZrVlBUbUpYUHo4SVA4YmVqT2RpZU5n?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "published_at": "2026-10-23T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
@@ -857,50 +940,50 @@
   ],
   "bubbles": [
     {
-      "key": "Menlo Park,CA",
-      "city": "Menlo Park",
-      "state": "CA",
-      "lat": 37.453,
-      "lon": -122.1817,
-      "deal_count": 10,
-      "weighted_score": 40.41,
-      "latest_at": "2026-11-16T16:04:53.000Z",
-      "amount_usd_m_total": 1086.8,
-      "top_sectors": [
-        {
-          "name": "AI & ML",
-          "count": 6
-        },
-        {
-          "name": "Other",
-          "count": 4
-        }
-      ],
-      "top_vcs": [
-        {
-          "name": "New Enterprise Associates",
-          "count": 3
-        },
-        {
-          "name": "Menlo Ventures",
-          "count": 2
-        },
-        {
-          "name": "TCV",
-          "count": 2
-        }
-      ]
-    },
-    {
       "key": "San Francisco,CA",
       "city": "San Francisco",
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
+      "deal_count": 12,
+      "weighted_score": 45.38,
+      "latest_at": "2026-11-18T16:15:56.000Z",
+      "amount_usd_m_total": 749.5,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 7
+        },
+        {
+          "name": "Other",
+          "count": 5
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Obvious Ventures",
+          "count": 2
+        },
+        {
+          "name": "First Round Capital",
+          "count": 2
+        },
+        {
+          "name": "Zetta Venture Partners",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Menlo Park,CA",
+      "city": "Menlo Park",
+      "state": "CA",
+      "lat": 37.453,
+      "lon": -122.1817,
       "deal_count": 9,
-      "weighted_score": 34.16,
-      "latest_at": "2026-11-16T14:00:00.000Z",
-      "amount_usd_m_total": 529.5,
+      "weighted_score": 36.74,
+      "latest_at": "2026-11-18T16:15:56.000Z",
+      "amount_usd_m_total": 1084.2,
       "top_sectors": [
         {
           "name": "AI & ML",
@@ -913,15 +996,15 @@
       ],
       "top_vcs": [
         {
-          "name": "First Round Capital",
+          "name": "New Enterprise Associates",
+          "count": 3
+        },
+        {
+          "name": "TCV",
           "count": 2
         },
         {
-          "name": "Threshold Ventures",
-          "count": 1
-        },
-        {
-          "name": "Slow Ventures",
+          "name": "Amplify Partners",
           "count": 1
         }
       ]
@@ -968,20 +1051,16 @@
       "lat": 37.4419,
       "lon": -122.143,
       "deal_count": 3,
-      "weighted_score": 13.81,
+      "weighted_score": 13.04,
       "latest_at": "2026-11-18T11:30:00.000Z",
-      "amount_usd_m_total": 17059,
+      "amount_usd_m_total": 17109,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 1
+          "count": 2
         },
         {
           "name": "Semis, Robotics & Hardware",
-          "count": 1
-        },
-        {
-          "name": "Other",
           "count": 1
         }
       ],
@@ -991,11 +1070,11 @@
           "count": 1
         },
         {
-          "name": "Social Capital",
+          "name": "DCVC",
           "count": 1
         },
         {
-          "name": "True Ventures",
+          "name": "Social Capital",
           "count": 1
         }
       ]
@@ -1173,6 +1252,29 @@
       "top_vcs": [
         {
           "name": "M12",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Seattle,WA",
+      "city": "Seattle",
+      "state": "WA",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "deal_count": 1,
+      "weighted_score": 2.76,
+      "latest_at": "2026-11-11T16:06:32.000Z",
+      "amount_usd_m_total": 8,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Voyager Capital",
           "count": 1
         }
       ]
