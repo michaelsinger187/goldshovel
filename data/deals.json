@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T07:16:38.058Z",
+  "generated_at": "2026-11-19T20:29:17.378Z",
   "lookback_days": 30,
   "configuration": {
     "vc_count": 100,
@@ -7,34 +7,83 @@
     "concurrency": 8
   },
   "meta": {
-    "requests_succeeded": 96,
-    "requests_failed": 4,
-    "scraped_deals": 41,
-    "total_deals": 41,
+    "requests_succeeded": 100,
+    "requests_failed": 0,
+    "scraped_deals": 50,
+    "total_deals": 50,
     "demo_mode": false,
-    "deals_with_coordinates": 41,
-    "runtime_ms": 3642,
+    "deals_with_coordinates": 50,
+    "runtime_ms": 4149,
     "note": "",
-    "error_sample": [
-      {
-        "vc": "general-catalyst",
-        "error": "HTTP 429"
-      },
-      {
-        "vc": "khosla",
-        "error": "HTTP 429"
-      },
-      {
-        "vc": "crv",
-        "error": "HTTP 429"
-      },
-      {
-        "vc": "intel-capital",
-        "error": "HTTP 429"
-      }
-    ]
+    "error_sample": []
   },
   "deals": [
+    {
+      "id": "deal_952216886",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Physical AI Startup Humyn Labs",
+      "title": "Physical AI Startup Humyn Labs Raises USD 47M Series A - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oU3htTy1tZG5yQUVVSTZlcHVTQklLeUdqVzVwSWhvdzd3eGNXTC1nSTdodFF2RklGb2g3YXNBRGNVb0tMZEF3LU9rUVFPU0tfUUFr?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-19T08:30:18.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.76,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_2128982603",
+      "vc_id": "benchmark",
+      "vc_name": "Benchmark",
+      "company": "Physical AI Startup Humyn Labs",
+      "title": "Physical AI Startup Humyn Labs Raises USD 47M Series A - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oU3htTy1tZG5yQUVVSTZlcHVTQklLeUdqVzVwSWhvdzd3eGNXTC1nSTdodFF2RklGb2g3YXNBRGNVb0tMZEF3LU9rUVFPU0tfUUFr?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-19T08:30:18.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": null,
+      "confidence": 0.76,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_928152847",
+      "vc_id": "bessemer",
+      "vc_name": "Bessemer Venture Partners",
+      "company": "Biomolecular AI Startup Boltz",
+      "title": "Biomolecular AI Startup Boltz Raises $110M Series A Led by Bessemer - Wowtale",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YcUc3X0xDRGRJYTVhajZDT2xTa2NsVFVXSzU5UXcwTmJ1VHlscWZPcktGN2dGZGJ6NDZmbGR2d1ZIZnl5cjVmMGQtVjRsZndpanNN?oc=5",
+      "source_name": "Wowtale",
+      "published_at": "2026-11-18T16:15:56.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 110,
+      "confidence": 0.96,
+      "location": {
+        "city": "Redwood City",
+        "state": "CA",
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
     {
       "id": "deal_387908608",
       "vc_id": "obvious",
@@ -102,6 +151,28 @@
       }
     },
     {
+      "id": "deal_785387132",
+      "vc_id": "accel",
+      "vc_name": "Accel",
+      "company": "Physical AI startup Humyn Labs",
+      "title": "Physical AI startup Humyn Labs raises $47 Mn in equity and debt - Entrackr",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeHhuT0twUU91V09UZzdoX3BDNUhBc0EyQ2czRF9uQlNibUJPb2gzWENaN1RZQV8wSDYtZnJDTFNhd1I4ejh3eGZlMm1Xd1FZNl9ia0R4X1R6V0RUY2ZWU1pvTGJnVE9ncUluU0JsODlqRzBNVl9YUi0wdmNWWE5lLXZvNFhxSkFMdVlDNDh1ZmJuWk14X2Y2cncteHBjQdIBngFBVV95cUxQeHhuT0twUU91V09UZzdoX3BDNUhBc0EyQ2czRF9uQlNibUJPb2gzWENaN1RZQV8wSDYtZnJDTFNhd1I4ejh3eGZlMm1Xd1FZNl9ia0R4X1R6V0RUY2ZWU1pvTGJnVE9ncUluU0JsODlqRzBNVl9YUi0wdmNWWE5lLXZvNFhxSkFMdVlDNDh1ZmJuWk14X2Y2cncteHBjQQ?oc=5",
+      "source_name": "Entrackr",
+      "published_at": "2026-11-18T12:40:59.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 47,
+      "confidence": 0.81,
+      "location": {
+        "city": "Palo Alto",
+        "state": "CA",
+        "lat": 37.4419,
+        "lon": -122.143,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_509613160",
       "vc_id": "accel",
       "vc_name": "Accel",
@@ -132,6 +203,50 @@
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSE83N19EQmdnUlVCaXAxUGNSVnlmU3JKcm9zRXQzWlFrZ2JFRXJ1eWIySGxucjc1cFJtdUNNajJxOWl5dU9tTENfUXpDV0NPU3lIakZ2SVE5R1V2eC04cjNvQmtqc0FhNzNIS1dVRHFEVVpRdXpWbm9KMGFMOGpmWHpkazFtYnFrbTR4LXZBNm9LQllUVldF?oc=5",
       "source_name": "ABC News & Headlines – Australian Broadcasting Corporation",
       "published_at": "2026-11-17T11:30:19.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_90957344",
+      "vc_id": "insight",
+      "vc_name": "Insight Partners",
+      "company": "Unknown",
+      "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-11-17T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.41,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1264760249",
+      "vc_id": "first-round",
+      "vc_name": "First Round Capital",
+      "company": "Unknown",
+      "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health - Fierce Healthcare",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+      "source_name": "Fierce Healthcare",
+      "published_at": "2026-11-17T08:00:00.000Z",
       "stage": "Unspecified",
       "sector": "Other",
       "amount_usd_m": null,
@@ -207,6 +322,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_828057693",
+      "vc_id": "craft",
+      "vc_name": "Craft Ventures",
+      "company": "Israeli Cybersecurity Startup Daylight",
+      "title": "Israeli Cybersecurity Startup Daylight Raises $80 Million in Series B - Israel Defense",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EbmRWRk4tRmtneF9FU04tN0M5emlfTkZEbHdxbnEwUnJheFVUZV94bE42b19rWllfLTFEbW13QmtYV1Q4Ym85Mm45TEFlWjFZZmwtNXFweVI?oc=5",
+      "source_name": "Israel Defense",
+      "published_at": "2026-11-15T07:54:00.000Z",
+      "stage": "Series B",
+      "sector": "AI & ML",
+      "amount_usd_m": 80,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -366,23 +503,23 @@
       }
     },
     {
-      "id": "deal_1000858866",
-      "vc_id": "felicis",
-      "vc_name": "Felicis",
-      "company": "Mercor",
-      "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Help Enterprises Own Their Intelligence - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNHNMblZIRzRoZWdJRmRJa3lVczR5bFhsempFNVBOaFBac1U4cFR4cS00NVg2eUtMLW5wWC1faE1jc0FuQ1daLW1pM1I4LTdhMWljejNtZFJiZzlucElPeEM2NUt1NEM1MEtjUkgzejJleUo1b1lCcTd3RzBJV3FaRTQ0VWsxcExYYllXSzVGbGdrTkhpaEVDRTR3cW9GbmdxUXJqSzFrSmwzYlFyeVZPSGt0THN5UjRTeDkwWll4ZHNHcUxmUTNiQjdmckN0NnlmMW1lV1lpNTBxRW5iM0Z1bU5VQXhfaWFYV0NxZjVxRF9iSXJtMVlj?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-11-10T08:00:00.000Z",
-      "stage": "Series D+",
+      "id": "deal_1776857980",
+      "vc_id": "lerer-hippeau",
+      "vc_name": "Lerer Hippeau",
+      "company": "Blackletter",
+      "title": "Blackletter Raises $6 Million Seed Round Led by Lerer Hippeau to Radically Redesign the Law Firm Around Clients—Not Billable Hours - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTk8yN25NYXV5anoyNHZyMkpWRUJETnZPRjYxWWE0TV85aktoWnRLTjJ3TGJDYy1MZHZ1UUNNUFJyOGhsY0VpaC02ZG9vZ1FvUWFGT2JURndJQ1U3NXZTY3VpYmpTVFM2UnZyZG82OWY0VnhUS1ZWX29jY2xzR0s0WkpHUElGbzhsV3JoY1g2UGFMV004VXd1UWFpUVNoZw?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-11-09T08:00:00.000Z",
+      "stage": "Seed",
       "sector": "AI & ML",
-      "amount_usd_m": 750,
+      "amount_usd_m": 6,
       "confidence": 0.96,
       "location": {
-        "city": "Menlo Park",
-        "state": "CA",
-        "lat": 37.453,
-        "lon": -122.1817,
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -427,28 +564,6 @@
         "state": "UT",
         "lat": 40.7608,
         "lon": -111.891,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_782686874",
-      "vc_id": "rre",
-      "vc_name": "RRE Ventures",
-      "company": "Brightwheel's",
-      "title": "Golden Venture Partners invests in Brightwheel's $10 mln Series A - PEI Private Equity",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOEJNT1FPREFfMWpOUUpscmROTU1Na0lNV0IyMGNjdkFJV0ZZdTFWZ0RzOFBGMGRiLXdQaHBpSDZKYnd5NGJGQWE4UUpyMmktZmtibU9KOXhCaThfdjZZOVM0a0NZZFc5SkpsZk1oOGVVc0xlN1JjVXhwamZjV25Wcm9zM2w?oc=5",
-      "source_name": "PEI Private Equity",
-      "published_at": "2026-11-07T17:52:13.000Z",
-      "stage": "Series A",
-      "sector": "Other",
-      "amount_usd_m": 10,
-      "confidence": 0.86,
-      "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -564,14 +679,14 @@
       }
     },
     {
-      "id": "deal_1490430613",
+      "id": "deal_1519059764",
       "vc_id": "human-capital",
       "vc_name": "Human Capital",
       "company": "Digital insurance startup Zensurance",
       "title": "Digital insurance startup Zensurance raises $1 mln in seed round - PEI Private Equity",
       "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jbFdOWmw2ZXRFLWpDSGl1RGJkbVZtN3ZLMTFkTnh5amlOWS1ZeG1SNWJOdWQybXFYaVRLSFhSWlpxR2tZeXNHMDNaRDhCOGNMcTRqUEc2VGZIQzFDREtSdTQweEFDNE5vM3ZZbWlfeVV5YkVQa2lWaA?oc=5",
       "source_name": "PEI Private Equity",
-      "published_at": "2026-11-06T15:07:33.000Z",
+      "published_at": "2026-11-06T15:07:34.000Z",
       "stage": "Seed",
       "sector": "AI & ML",
       "amount_usd_m": 1,
@@ -581,28 +696,6 @@
         "state": "CA",
         "lat": 37.7749,
         "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
-    },
-    {
-      "id": "deal_854997899",
-      "vc_id": "social-capital",
-      "vc_name": "Social Capital",
-      "company": "Unknown",
-      "title": "Space Hardware Funding Jumps 34x to $17B [2026] - shattered.io",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRGxNUUZRNlF0ZXo3ZDNxNmVra1BhN19sYVFySjFwb1A3Ql9iMzZZSkl5THNLbWUzRzN6dlhoT05mZ3htRXNsdGFheEs2d0NtSXNPZ1Z2TG5BeHZiYUZkWWt0bjVyaEhFZnBHVkJXZWp5bElQLXlQb19Hc2RrX3hoMlFPOTRkY2hKSTRkTzROaw?oc=5",
-      "source_name": "shattered.io",
-      "published_at": "2026-11-06T08:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "Semis, Robotics & Hardware",
-      "amount_usd_m": 17000,
-      "confidence": 0.71,
-      "location": {
-        "city": "Palo Alto",
-        "state": "CA",
-        "lat": 37.4419,
-        "lon": -122.143,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -674,6 +767,28 @@
       }
     },
     {
+      "id": "deal_312969929",
+      "vc_id": "lerer-hippeau",
+      "vc_name": "Lerer Hippeau",
+      "company": "Mindmax",
+      "title": "Mindmax secures £2.5 million Seed funding led by Concept Ventures with Redrice Ventures, Daybreak Ventures, Lerer Hippeau, Maria Raga and Torsten Reil – UK Tech Investment News by Deal Lite - UK Tech Investment News",
+      "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNdmN1VTVSZ1ZJV25waE1YOUppZEU4TmZTQjhreVNTX1R0NXZQQUh3WlNkVl8wVHVtbGFTVkNJSnJ2RXJiN0RXOFVLWW5adjRXWGt0ZDBOMG1KRHR0NWJxY0lzWTJ5Vjg3c1JBSllWU01oYWVBRm01TS1BYktYdUg1cU5PZ2RHSFhNSHY2ci1DTlNsYUNOTXowSDFlcWVGZGhTVVMwdVpidlQ0dFZzYU9wWXV6U1gzOEtPUFdXVzdRU2N4cW9YVGdxSi1JdVRWcFdUVHA2VURqekNmZlFGNUZOSnd4blphM0pxTXY1MEV3WUdpa2RiUG95NWoteWFnMHdOamgxaFNaREU3RmFJZFA5UU9jWUk?oc=5",
+      "source_name": "UK Tech Investment News",
+      "published_at": "2026-11-05T11:15:44.000Z",
+      "stage": "Seed",
+      "sector": "Other",
+      "amount_usd_m": null,
+      "confidence": 0.66,
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_901972880",
       "vc_id": "nea",
       "vc_name": "New Enterprise Associates",
@@ -691,6 +806,28 @@
         "state": "CA",
         "lat": 37.453,
         "lon": -122.1817,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1421742610",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "AI sales startup Nooks",
+      "title": "AI sales startup Nooks secures $500 million in funding for expansion - Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5",
+      "source_name": "Reuters",
+      "published_at": "2026-11-04T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 500,
+      "confidence": 0.81,
+      "location": {
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -718,6 +855,50 @@
       }
     },
     {
+      "id": "deal_1358394538",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Unknown",
+      "title": "Latham & Watkins Advises on Chip Startup Mueon’s US$65 Million Series A - Legal Desire",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdDRIT0JacDdhVVowRTAxZFZHcTRwU0hEYnNrSUMwQUptejBtMWMxekItdUhxU2kyd2hTOXhvaFlmcFh5S2FnLUdZWFJtdlFOQXFVUklhNkJ4c3BrTHVtMUlSN0hQMDRaSmswSjlnNUVEQklNMElFTFB2QU1mZlVpMWdWdUVzTDQydDJzbmR1enMwdmhLdTRv?oc=5",
+      "source_name": "Legal Desire",
+      "published_at": "2026-11-03T08:00:00.000Z",
+      "stage": "Series A",
+      "sector": "Semis, Robotics & Hardware",
+      "amount_usd_m": 65,
+      "confidence": 0.86,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1757149887",
+      "vc_id": "intel-capital",
+      "vc_name": "Intel Capital",
+      "company": "Unknown",
+      "title": "Intel (INTC) Joined A $700 Million AI Startup Funding Round - Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmU5ZDh1Y0Iwd0NTcDN0VVQ4czVMTXNOQlhBVU9DdEQ0M3M2MzdpbFN1NUFISkUxVlBVWTFTSUt3c1NNbXhfQ05XS0JJLVNqM09JX0xTOW5QNkN6Sm9PdEdvQkptRTFQQTVxd0pCR1pPUlBHVTc3U21wcnJ6TU1ZVDZsUzN2Sml5S2xuUTVzR3NuZk5BQXdmdg?oc=5",
+      "source_name": "Yahoo Finance",
+      "published_at": "2026-11-02T08:00:00.000Z",
+      "stage": "Unspecified",
+      "sector": "AI & ML",
+      "amount_usd_m": 700,
+      "confidence": 0.71,
+      "location": {
+        "city": "Santa Clara",
+        "state": "CA",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
       "id": "deal_1928686499",
       "vc_id": "root",
       "vc_name": "Root Ventures",
@@ -740,45 +921,67 @@
       }
     },
     {
-      "id": "deal_24785358",
-      "vc_id": "avenir",
-      "vc_name": "Avenir Growth Capital",
-      "company": "Unknown",
-      "title": "How Much Did Sigma Computing Raise? Funding & Key Investors - Clay",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIVllHajhhaTQxLTFONDIyamRUcW90VWVzMTNjLV9fQS1OYlBCOS1Yb3R5YXZqNGZhWng5c1AydnZPaHo1ZFQxTWFLOFB4MFBuWkhYNXJhZFNLQW1SX1ZYWUdn?oc=5",
-      "source_name": "Clay",
-      "published_at": "2026-10-30T07:00:00.000Z",
-      "stage": "Unspecified",
+      "id": "deal_536685",
+      "vc_id": "general-catalyst",
+      "vc_name": "General Catalyst",
+      "company": "Hyperbolic",
+      "title": "Hyperbolic Raises $30M Series A-1 led by Intel CEO Lip-Bu Tan’s Walden Catalyst - AI Funding Tracker",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDNUdGhKaGdnTlBqNW1uQ2tZOFItZ1BqTjgzd3J2ejVWM2hUM0x4VFF1dzlvQnRzdG16SFJMUy1MdTNqMnRTZTVyZ0lmb2VzN2Jxbk54X1V1TnVTTWNTeHg4cjVERXRycUI3dnNVSlpHX1NNd1NWMkpkcG9RakJoU1E1TUZXTUVrQnYxUnVQYWhVRWxseEg5YkhWUWRfQktkRm4xZGlxZ1RTMVk?oc=5",
+      "source_name": "AI Funding Tracker",
+      "published_at": "2026-10-28T07:00:00.000Z",
+      "stage": "Series A",
       "sector": "AI & ML",
-      "amount_usd_m": null,
-      "confidence": 0.51,
+      "amount_usd_m": 30,
+      "confidence": 0.96,
       "location": {
-        "city": "New York",
-        "state": "NY",
-        "lat": 40.7128,
-        "lon": -74.006,
+        "city": "Cambridge",
+        "state": "MA",
+        "lat": 42.3736,
+        "lon": -71.1097,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
     },
     {
-      "id": "deal_334901373",
-      "vc_id": "gradient",
-      "vc_name": "Gradient Ventures",
-      "company": "Plato",
-      "title": "Plato Raises $16 Million to Build the Training Grounds for AI's Next Leap Into Real Work - Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaWdVTzYzeVVvS241Qkx0VWtSa1hGR0FTN1FPXy05Qy1OTGthY2tFUGpDRUZmYS13STNESnZxRXhRTGV1cEdnYUdBMXRaRFZ5TGthRlN0T0RBcEM2RXQwaGtISnR1UVNiYXRGSDlnZHFPdk9iQ19XNVFMUVVlckEwWHJ1Vko5VW9YUFQ3azdKc0NIcUpsTTV1OA?oc=5",
-      "source_name": "Yahoo Finance",
+      "id": "deal_1614430290",
+      "vc_id": "threshold",
+      "vc_name": "Threshold Ventures",
+      "company": "Vera Health",
+      "title": "Vera Health Raises $28.5 Mn in Series A Funding for Clinical AI Search Platform - Digital Health News",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbm96YVhaSlVsVk1hMm16QWRHTzRzR1BsZVV5LXVEaXZYemM3Mk05Vldjb3c0R1dBeVJHV0liUWd6cmF1RzBfdlQ3SWJINkxOSVR4dW1kTTNuTWRaRzI2R3dZejVwTGZlTlBmOTY4RlQxZVN1SlVrcnJSV1JDZGxYT2J2bkNWV2N1c3luN01rM0ZlNHpqRExHRjk0b3AzQUstRDROWXE1R2pFWWR5eUdZZXVn?oc=5",
+      "source_name": "Digital Health News",
       "published_at": "2026-10-28T07:00:00.000Z",
+      "stage": "Series A",
+      "sector": "AI & ML",
+      "amount_usd_m": 28.5,
+      "confidence": 0.96,
+      "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "method": "vc_hq_fallback",
+        "confidence": 0.56
+      }
+    },
+    {
+      "id": "deal_1573380996",
+      "vc_id": "threshold",
+      "vc_name": "Threshold Ventures",
+      "company": "Unknown",
+      "title": "Vera Health Quietly Became One of the World's Most Used Clinical Tools. Now It Has Raised $32 Million to Give Every Clinician in the World the Best Medical Knowledge in Seconds - PR Newswire",
+      "source_url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQZWdNTFRsejY3RHQteGY5ejZab1pWT0JkM2Z2RDRCUXNCRkM2MmFpOGNlOTl3dy1wT0hsMkwwenJJeTlScFRXdUNtWGdfRmdTajBWekQ1UDdSNmFrM0FZX3ZITDdxVFRRR05MR3BYYUtfeHZPRjl1c1hJZjVWRlM3X1cwdl83TUxNWHZYVnhTM3ZscTYyZVVFQW5mYWV3cWhCakRrY1Z5S3BBRmh0TGZGOWlSeGM0LXloR0Ewd3BYdTRQc3hMM1FRLTZtU0c2UzQ1Zk9RZ2FrdWJ1QVRtMkZQeDdIMDBmaDFVbnpSX2dqQS1IVFRKRjh5bkVvekdPeVJzaW94UEtBdFBKM0JvX3FfVkpibnRpTlZ0LU4wckpsVmZVRU5sVERjZ0hJZnhfeFh6TGNSNGFFTEwxeUdGMmRNeV91MkU4V1cwNmt1a1Rn?oc=5",
+      "source_name": "PR Newswire",
+      "published_at": "2026-10-27T07:00:00.000Z",
       "stage": "Unspecified",
       "sector": "AI & ML",
-      "amount_usd_m": 16,
-      "confidence": 0.81,
+      "amount_usd_m": 32,
+      "confidence": 0.71,
       "location": {
-        "city": "Mountain View",
+        "city": "San Francisco",
         "state": "CA",
-        "lat": 37.3861,
-        "lon": -122.0839,
+        "lat": 37.7749,
+        "lon": -122.4194,
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
@@ -914,28 +1117,6 @@
         "method": "vc_hq_fallback",
         "confidence": 0.56
       }
-    },
-    {
-      "id": "deal_1881332388",
-      "vc_id": "future",
-      "vc_name": "Future Ventures",
-      "company": "Xona",
-      "title": "Xona Raises $250M as Next-Generation Global Navigation Network Begins Deployment - Business Wire",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNckVzSkM5dUVWWFEtUWtQVy0waDJqMW5mREhvenViZ19vSzltdE9VOXQteWN1clBHcTVrV2ZMZmw3aG5YUndEZ1lwcWR4SThQdURSVVY3OU5uejdpNnJzdWpYYmlYV3RrUm5tRk5KczFhOWthNDhsNkVKZUlGOExtbm5Fa0xqalhGd0FwUnBiTGI1Z0YxaS1ycGhSZ1FrYWFydFB3emdfZ01lVFlodk9MZUlxZFEyenJTbEFRbE1nbzZmZHlGOXVSWkluSEVVMDJoaDQ2aEJB?oc=5",
-      "source_name": "Business Wire",
-      "published_at": "2026-10-22T07:00:00.000Z",
-      "stage": "Unspecified",
-      "sector": "AI & ML",
-      "amount_usd_m": 250,
-      "confidence": 0.81,
-      "location": {
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.7749,
-        "lon": -122.4194,
-        "method": "vc_hq_fallback",
-        "confidence": 0.56
-      }
     }
   ],
   "bubbles": [
@@ -945,32 +1126,32 @@
       "state": "CA",
       "lat": 37.7749,
       "lon": -122.4194,
-      "deal_count": 12,
-      "weighted_score": 45.38,
-      "latest_at": "2026-11-18T16:15:56.000Z",
-      "amount_usd_m_total": 749.5,
+      "deal_count": 16,
+      "weighted_score": 58.27,
+      "latest_at": "2026-11-19T08:30:18.000Z",
+      "amount_usd_m_total": 640,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 7
+          "count": 10
         },
         {
           "name": "Other",
-          "count": 5
+          "count": 6
         }
       ],
       "top_vcs": [
         {
-          "name": "Obvious Ventures",
-          "count": 2
-        },
-        {
           "name": "First Round Capital",
-          "count": 2
+          "count": 3
         },
         {
-          "name": "Zetta Venture Partners",
-          "count": 1
+          "name": "Threshold Ventures",
+          "count": 3
+        },
+        {
+          "name": "Benchmark",
+          "count": 2
         }
       ]
     },
@@ -980,14 +1161,14 @@
       "state": "CA",
       "lat": 37.453,
       "lon": -122.1817,
-      "deal_count": 9,
-      "weighted_score": 36.74,
+      "deal_count": 8,
+      "weighted_score": 30.11,
       "latest_at": "2026-11-18T16:15:56.000Z",
-      "amount_usd_m_total": 1084.2,
+      "amount_usd_m_total": 334.2,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 5
+          "count": 4
         },
         {
           "name": "Other",
@@ -1015,31 +1196,31 @@
       "state": "NY",
       "lat": 40.7128,
       "lon": -74.006,
-      "deal_count": 6,
-      "weighted_score": 25.59,
-      "latest_at": "2026-11-11T21:09:17.000Z",
-      "amount_usd_m_total": 451,
+      "deal_count": 7,
+      "weighted_score": 27.45,
+      "latest_at": "2026-11-17T08:00:00.000Z",
+      "amount_usd_m_total": 447,
       "top_sectors": [
         {
-          "name": "AI & ML",
-          "count": 3
+          "name": "Other",
+          "count": 4
         },
         {
-          "name": "Other",
+          "name": "AI & ML",
           "count": 3
         }
       ],
       "top_vcs": [
         {
           "name": "RRE Ventures",
-          "count": 4
+          "count": 3
         },
         {
-          "name": "Avenir Growth Capital",
-          "count": 1
+          "name": "Lerer Hippeau",
+          "count": 2
         },
         {
-          "name": "Venrock",
+          "name": "Insight Partners",
           "count": 1
         }
       ]
@@ -1050,32 +1231,74 @@
       "state": "CA",
       "lat": 37.4419,
       "lon": -122.143,
-      "deal_count": 3,
-      "weighted_score": 13.04,
-      "latest_at": "2026-11-18T11:30:00.000Z",
-      "amount_usd_m_total": 17109,
+      "deal_count": 4,
+      "weighted_score": 13.55,
+      "latest_at": "2026-11-19T08:30:18.000Z",
+      "amount_usd_m_total": 156,
       "top_sectors": [
         {
           "name": "AI & ML",
-          "count": 2
-        },
-        {
-          "name": "Semis, Robotics & Hardware",
-          "count": 1
+          "count": 4
         }
       ],
       "top_vcs": [
         {
           "name": "Accel",
-          "count": 1
+          "count": 3
         },
         {
           "name": "DCVC",
           "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Santa Clara,CA",
+      "city": "Santa Clara",
+      "state": "CA",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "deal_count": 2,
+      "weighted_score": 8.84,
+      "latest_at": "2026-11-03T08:00:00.000Z",
+      "amount_usd_m_total": 765,
+      "top_sectors": [
+        {
+          "name": "Semis, Robotics & Hardware",
+          "count": 1
         },
         {
-          "name": "Social Capital",
+          "name": "AI & ML",
           "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "Intel Capital",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "Cambridge,MA",
+      "city": "Cambridge",
+      "state": "MA",
+      "lat": 42.3736,
+      "lon": -71.1097,
+      "deal_count": 2,
+      "weighted_score": 8.56,
+      "latest_at": "2026-11-04T08:00:00.000Z",
+      "amount_usd_m_total": 530,
+      "top_sectors": [
+        {
+          "name": "AI & ML",
+          "count": 2
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "General Catalyst",
+          "count": 2
         }
       ]
     },
@@ -1157,20 +1380,16 @@
       ]
     },
     {
-      "key": "Mountain View,CA",
-      "city": "Mountain View",
+      "key": "Redwood City,CA",
+      "city": "Redwood City",
       "state": "CA",
-      "lat": 37.3861,
-      "lon": -122.0839,
-      "deal_count": 2,
-      "weighted_score": 5.05,
-      "latest_at": "2026-11-11T14:34:42.000Z",
-      "amount_usd_m_total": 16,
+      "lat": 37.4852,
+      "lon": -122.2364,
+      "deal_count": 1,
+      "weighted_score": 4.61,
+      "latest_at": "2026-11-18T16:15:56.000Z",
+      "amount_usd_m_total": 110,
       "top_sectors": [
-        {
-          "name": "Other",
-          "count": 1
-        },
         {
           "name": "AI & ML",
           "count": 1
@@ -1178,11 +1397,7 @@
       ],
       "top_vcs": [
         {
-          "name": "CapitalG",
-          "count": 1
-        },
-        {
-          "name": "Gradient Ventures",
+          "name": "Bessemer Venture Partners",
           "count": 1
         }
       ]
@@ -1275,6 +1490,29 @@
       "top_vcs": [
         {
           "name": "Voyager Capital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "Mountain View,CA",
+      "city": "Mountain View",
+      "state": "CA",
+      "lat": 37.3861,
+      "lon": -122.0839,
+      "deal_count": 1,
+      "weighted_score": 2.01,
+      "latest_at": "2026-11-11T14:34:42.000Z",
+      "amount_usd_m_total": 0,
+      "top_sectors": [
+        {
+          "name": "Other",
+          "count": 1
+        }
+      ],
+      "top_vcs": [
+        {
+          "name": "CapitalG",
           "count": 1
         }
       ]
